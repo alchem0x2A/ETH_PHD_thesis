@@ -19,11 +19,8 @@
   a4paper,%
 }{classicthesis}
 
-% Meta
-\input{preamble/meta}
 
-% Hyphenation
-\input{preamble/hyphenation}
+
 
 % Finetuning
 \newcounter{dummy}
@@ -45,6 +42,12 @@
 
 % Biblatex
 \input{preamble/biblatex}
+\input{preamble/meta}
+
+% Hyphenation
+\input{preamble/hyphenation}
+
+\input{preamble/macros}
 
 % Redefine cite command to include space before
 % <http://tex.stackexchange.com/questions/11602/>
@@ -252,6 +255,7 @@
 \clubpenalty = 10000
 \widowpenalty = 10000
 %\displaywidowpenalty = 10000
+% Meta
 
 %%% Local Variables:
 %%% mode: latex

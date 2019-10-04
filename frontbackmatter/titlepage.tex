@@ -1,0 +1,69 @@
+%*******************************************************
+% Titlepage
+%*******************************************************
+\begin{titlepage}
+  \makeatletter
+	% if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
+	\begin{addmargin}[0.5cm]{-0.5cm}
+    \begin{center}
+        \large
+        \begingroup
+            {\large \spacedlowsmallcaps{Diss. ETH No. \myDissNumber}}
+        \endgroup
+
+        \hfill
+
+        \vfill
+
+        \begingroup
+        {\LARGE \myTitle}
+            %\spacedallcap\myTitle}
+          % \spacedallcaps{\myTitle}}
+            %\spacedallcaps{\myTitleLineOne}\\
+            %\spacedallcaps{\myTitleLineTwo}\\
+            %\spacedallcaps{\myTitleLineThree}
+        \endgroup
+
+        \vfill
+
+        \begingroup
+            A dissertation submitted to attain the degree of\\
+            \vspace{0.5em}
+            \spacedlowsmallcaps{Doctor of Sciences}
+            of
+            \spacedlowsmallcaps{ETH \zurich} \\
+            (Dr.\ sc.\ ETH \zurich)
+        \endgroup
+
+        \vfill
+
+        \begingroup
+            presented by\\
+            \vspace{0.5em}
+            % {\Huge \spacedallcaps{\myName}}\\
+            {\Huge \ct@caps \myName}\\
+            \vspace{2 em}
+            M.Sc. Chemistry, Tsinghua University, China \\
+            born on 14 November 1991\\
+            citizen of China
+        \endgroup
+
+        \vfill
+
+        \begingroup
+            accepted on the recommendation of\\
+            \vspace{0.5em}
+            Prof.\ Dr.\ Chih-Jen Shih (ETH \zurich{}), examiner\\
+            Prof.\ Dr.\  Mathieu Luisier (ETH \zurich{}), co-examiner\\
+            Dr.\ Elton G. J. Santos (Queen's University Belfast), co-examiner\\
+        \endgroup
+
+        \vfill
+
+        \myTime%
+
+        \vfill
+    \end{center}
+  \end{addmargin}
+  \makeatother
+\end{titlepage}
