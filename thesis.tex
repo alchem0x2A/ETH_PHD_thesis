@@ -7,7 +7,8 @@
     %BCOR=5.5mm, paper=17cm:24cm, fontsize=10pt,% 17 cm x 24 cm
     %BCOR=5mm, paper=15.59cm:23.39cm, fontsize=10pt,% Royal soft cover
     %BCOR=0mm, paper=15.24cm:22.86cm, fontsize=10pt,% US-Trade hard cover
-]{scrreprt}
+    % ]{scrreprt}
+    ]{scrbook}
 \usepackage{etex}
 \reserveinserts{10}
 
@@ -49,16 +50,21 @@
 \include{frontbackmatter/titleback}
 \cleardoublepage\include{frontbackmatter/dedication}
 \cleardoublepage\include{frontbackmatter/abstract}
-% \cleardoublepage\include{frontbackmatter/acknowledgments}
+\cleardoublepage\include{frontbackmatter/acknowledgments}
 % \pagestyle{scrheadings}
 % \cleardoublepage\include{frontbackmatter/contents}
 
 %
 % Mainmatter
 %
-% \cleardoublepage\pagenumbering{arabic}%
+
+\part{Introduction}
+\label{part:introduction}
+
+\cleardoublepage\pagenumbering{arabic}%
 % \def\dir{chapters/introduction}
 % \include{\dir/main}
+\include{chapters/introduction/main}
 
 % \cleardoublepage%
 % \def\dir{chapters/sample-chapter}
