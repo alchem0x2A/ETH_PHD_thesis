@@ -18,4 +18,151 @@
 \section{Overview of Two-Dimensional (2D) Materials}
 % \section{Introduction}
 \label{sec:ch-intro-2D}
+Controlling the dimensionality of materials provides rich
+opportunities of tuning the electronic, optical and mechanical
+properties which facilitates novel devices and applications.
+\worktodo{put more things inside and make claim clear} \worktodo{put
+  1-3 refs}. Good example of such material design are the
+two-dimensional (2D) materials, which are covalently-bonded
+crystalline films with only one- or few-atom thickness. \worktodo{HH??
+  Change wording}
+%
+Starting from the first discovering of graphene, an allotrope of
+carbon in 2004\worktodo{cite Geim}, the family of 2D materials has
+expanded significantly throughout the last decade. \worktodo{cite
+  Novoselov and 2 papers} The electronic properties of 2D materials
+cover a wide spectrum ranging from insulators to superconductors,
+making them promising candidates to replace conventional bulk
+materials in semiconductor industries. \worktodo{cite 1-2}.
+%
+This section aims to give a brief introduction about the structures,
+electronic properties and fabrication techniques, which serves as a
+prelude for introducing the 2D materials interfaces.
+\worktodo{again, change last part}
 
+% Understanding and engineering the
+% interfaces of 2D materials are important to achieve practical uses of
+% 2D materials in our 3D world. In this chapter, we briefly discuss the
+% fundamental aspects of 2D materials and introduce their interfacial
+% phenomena. Several challenges about the 2D materials interfaces are
+% also discussed, serving as the prelude to the work of this thesis.
+
+
+\subsection{Categories of 2D Materials}
+\label{sec:categ-2d-mater}
+
+So far, there have been no naturally-existing isolated 2D
+materials. The closest form is the layered bulk materials, in which
+interlayer interactions are governed by van der Waals (vdW) forces.
+%
+With proper separation techniques, these layered materials can be
+thinned to a few layers or even single layer.
+%
+The best-known example is the mechanical exfoliation of 2D layer from graphite,
+now known as graphene. \worktodo{cite geim}
+%
+Using such technique, monolayers exfoliated from naturally-existing
+layered bulk materials were achievable. Examples include the hexagonal
+boron nitride (hBN), transition metal dichalcogenides (TMDCs, with
+general chemical composition MX\textsubscript{2}, where M is a
+transition metal and X is S, Se or Te), monochalcogenides (GaS, GaSe),
+monolayer black phosophorus (BP) and MXene (M = Ti, Nb, V, Ta, etc.,
+X = C or N).
+%
+The family of 2D materials that have been experimentally discovered,
+has extended from only 1 in 2004 to over 100 \worktodo{really?} as of
+2019, corresponding to an average discovery of about 6 new materials
+each year. \worktodo{correct?}
+%
+Apparently, the known 2D materials are still scarce and limited
+compared with the bulk materials,
+due to the huge experimental effort
+required to synthesize, isolate and characterize 2D materials limit
+the speed of novel 2D material discovery.
+% 
+In view of this, computer-aided material design (CAMD) was
+demonstrated in several works to help find new 2D materials either
+from high-throughput materials database screening or \textit{ab
+  initio} calculations. As a pioneer study, Lebègue et al. performed
+data mining on the crystal structures listed in the International
+Crystallographic Structural Database (ICSD) to filter out a total
+number of 92 layered bulk crystals and to generate corresponding 2D
+materials. As an extension, Mounet et al. proposed new algorithm with
+more robust criteria for dimensionality and found over 5000 layered
+materials, among which over 1800 can be easily or potentially
+exfoliated according to \textit{ab initio} calculations.
+%
+Another example is the combinational design of new 2D materials, which
+starts with a known structure (for example MX\textsubscript{2}) and
+replace with other elements. This allows the discovery of over 3700
+thermo-dynamically stable 2D materials, among which most chemical
+compositions are not yet discovered experimentally.
+
+These computational studies broaden our knowledge about 2D
+materials. In particular, the large size of database allows
+systematical study to search for optimal 2D material according to
+their electronic and optical properties, and apply to real-world
+applications. As a summary, the most common types of 2D materials from
+either experimental or computational discoveries, are listed in
+\autoref{tab:category-2D}.
+
+\begin{table}
+  \centering
+  \caption{Summary of common 2D materials and their structures. The
+    formula refer to the chemical composition per unit cell.}
+  \label{tab:category-2D}
+  \begin{tabular}{ccccc}
+  \hline
+  Prototype  & Example Formula  & Lattice Symmetry & Example Materials \\
+  \hline
+  Graphene & C\textsubscript{2} &  P6/mmm & Graphene, Silicene, Germanene \\
+  Graphane & C\textsubscript{2}H\textsubscript{2} &  P3m1 & Graphane, Fluorographene\\
+  hBN      & BN                & P$\overline{3}$m2 & h-BN \\
+  2H-MX\textsubscript{2} & MoS\textsubscript{2} & P$\overline{3}$m2 & 2H-MoS\textsubscript{2}, 2H-MoS2\textsubscript{2}, 2H-WS\textsubscript{2} \\
+  1T-MX\textsubscript{2} & CdI\textsubscript{2} & P$\overline{3}$m1 & 2H-MoS\textsubscript{2}, CdI\textsubscript{2}\\
+  BP & P\textsubscript{4} & Pmna & Phosphorene, Arsenene \\
+  Monochalcogenidec & Ga\textsubscript{2}S\textsubscript{2} & P$\overline{3}$m2 & Ga\textsubscript{2}S\textsubscript{2}, Ga\textsubscript{2}Se\textsubscript{2} \\
+  Bismuth iodide &  Bi\textsubscript{2}I\textsubscript{6} & P$\overline{3}$m1 & Bi\textsubscript{2}I\textsubscript{6}, Al\textsubscript{2}Cl\textsubscript{6} \\
+    Iron oxychloride                &  Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2} & Pmmn & Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2}, Fe\textsubscript{2}O\textsubscript{2}Br\textsubscript{2}  \\
+  MXene & Ti\textsubscript{x}C\textsubscript{y} & P$\overline{3}$m2 & Ti\textsubscript{3}C\textsubscript{2}, Ti\textsubscript{4}N\textsubscript{4}, Mo\textsubscript{2}TiC\textsubscript{2} \\
+  \hline
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Fabrication of 2D Materials}
+\label{sec:fabr-2d-mater}
+
+\subsection{Basic Electronic Properties of 2D Materials}
+\label{sec:basic-electr-prop}
+
+
+
+\section{The 2D Materials Interfaces}
+\label{sec:2d-mater-interf}
+
+\subsection{The Variety of Mixed-Dimensional Interfaces}
+\label{sec:vari-mixed-dimens}
+
+\subsection{Interactions and Forces at the 2D Materials Interfaces}
+\label{sec:inter-forc-at}
+
+\section{Challenging Problems Concerning 2D Interfaces}
+\label{sec:chall-probl-conc}
+
+\subsection{Electrostatic Interactions Through 2D Sheet}
+\label{sec:electr-inter-thro}
+
+\section{Dielectric Properties of 2D Systems}
+\label{sec:diel-prop-2d}
+
+\section{van der Waals (vdW) Interactions and Wetting Phenomena}
+\label{sec:van-der-waals}
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../thesis"
+%%% End:
