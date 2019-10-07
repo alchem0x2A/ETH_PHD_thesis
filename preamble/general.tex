@@ -10,7 +10,7 @@
   %dottedtoc,%
   eulerchapternumbers,
   %listings,%
-  %parts,%
+  parts,%
   floatperchapter, pdfspacing,%
   beramono,%
   %minionprospacing,
@@ -21,7 +21,7 @@
 
 
 
-
+\usepackage{import}
 % Finetuning
 \newcounter{dummy}
 \newlength{\abcd}
@@ -90,7 +90,7 @@
   % following line: colored links (web version)
   colorlinks=true, linktocpage=true,%
   % following line: all links in black (for printing)
-  %colorlinks=false, linktocpage=false, pdfborder={0 0 0},%
+  % colorlinks=false, linktocpage=false, pdfborder={0 0 0},%
   breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
   plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
   hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
@@ -160,9 +160,26 @@
 %
 % Font setup
 %
+\PassOptionsToPackage{no-math}{fontspec}
+\usepackage{fontspec}
+\PassOptionsToPackage{mathrm=sym}{unicode-math}
+\usepackage[mathrm=sym]{unicode-math}
+\DeclareMathVersion{sansmath}
+\setmainfont[Ligatures=TeX]{Palatino}
+\setsansfont{Fira Sans}
+% \setmonofont{Fira Mono}
+\setmathfont[version=normal]{TeX Gyre Pagella Math}
+\setmathfont[version=sansmath]{Fira Math}
+\setmathsf{Fira Math}
+% Define the font and appearance each picture environment
+\usepackage{etoolbox}
+\AtBeginEnvironment{picture}{\sffamily\fontsize{10}{12.0}
+  \selectfont\mathversion{sansmath}}
+\AtBeginEnvironment{pgfpicture}{\mathversion{sansmath}}
+
 
 % Micro-typographic extensions
-%\usepackage[protrusion=true,expansion=true]{microtype}
+% \usepackage[protrusion=true,expansion=true]{microtype}
 
 % Use Minion Pro
 %\usepackage[
@@ -182,8 +199,8 @@
 \hypersetup{
   %urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
   %urlcolor=webbrown, linkcolor=Maroon, citecolor=webgreen,%
-  %urlcolor=link-color, linkcolor=link-color, citecolor=cite-color,%
-  urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
+  urlcolor=link-color, linkcolor=link-color, citecolor=cite-color,%
+  % urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
 }
 
 % Chapter font
