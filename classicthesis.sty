@@ -340,7 +340,8 @@
     \ifthenelse{\boolean{ct@nochapters}}%
         {\relax}%
         {\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}}
-    \renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
+        % \renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
     \lehead{\mbox{\llap{\small\pagemark\kern2em}\headmark\hfil}}
     \rohead{\mbox{\hfil{\headmark}\rlap{\small\kern2em\pagemark}}}
     \ofoot[\small\pagemark]{}% only for plain.scrheadings page style (first page of a chapter)
@@ -387,7 +388,7 @@
 }
 % sections \FloatBarrier
 \titleformat{\section}
-    {\relax}{\textsc{\MakeTextLowercase{\thesection}}}{1em}{\spacedlowsmallcaps}
+    {\relax}{\textsc{\thesection}}{1em}{\normalsize\scshape}
 % subsections
 \titleformat{\subsection}
     {\relax}{\textsc{\MakeTextLowercase{\thesubsection}}}{1em}{\normalsize\itshape}
