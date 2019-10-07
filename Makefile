@@ -5,9 +5,9 @@ OLD_VERSION="HEAD"
 DIFF_TAG= --graphics-markup=1 --disable-citation-markup --flatten 
 
 
-.PHONY: all clean $(BUILD_DIR)/$(MAIN).pdf
+.PHONY: all clean pdf diff
 
-all: $(BUILD_DIR)/$(MAIN).pdf
+all: pdf
 
 diff:
 	cp $(MAIN).tex $(MAIN)_new.tex
@@ -17,8 +17,8 @@ diff:
 	latexmk $(TEXFLAGS) -jobname=$(BUILD_DIR)/diff $(MAIN)_change.tex
 	rm $(MAIN)_old.tex $(MAIN)_new.tex
 
-$(BUILD_DIR)/thesis.pdf: thesis.tex $(BUILD_DIR)
-	latexmk $(TEXFLAGS) -jobname=$(@:.pdf=) -f $<
+pdf:
+	latexmk $(TEXFLAGS) -jobname=$(BUILD_DIR)/$(MAIN) -f $(MAIN).tex
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
