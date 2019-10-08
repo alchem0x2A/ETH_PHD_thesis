@@ -111,7 +111,7 @@ either experimental or computational discoveries, are listed in
   \caption{Summary of common 2D materials and their structures. The
     formula refer to the chemical composition per unit cell.}
   \label{tab:category-2D}
-  \begin{tabularx}{1.05\linewidth}{XXXX}
+  \begin{tabularx}{1.00\textwidth}{XXXX}
     \hline
     Prototype  & Example Formula  & Lattice Symmetry & Example Materials \\
     \hline
@@ -749,22 +749,914 @@ and Cu surfaces.
 
 % 20191008-1253
 
+\subsubsection{Summary}
+\label{sec:org697d552}
+
+To obtain a clear view of the interactions involved in the molecular
+epitaxy on 2D materials interfaces, the major forms
+of interactions and their energy range are summarized in
+\autoref{tbl:intro-interactions}. As can be seen, both strong interactions ($>$ 100
+kJ\(\cdot\)mol\(^{\text{-1}}\) for covalent bonds, metal-coordination and some
+hydrogen bonds), and weak interactions ($<$ 50 kJ\(\cdot\)mol\(^{\text{-1}}\) vdW
+and \(\pi\)-\(\pi\) interactions) exist between the epitaxial molecules and at
+the molecule-2D material interface. On the other hand, the
+molecule-substrate interactions mainly have a weak nature, and
+relatively weaker than the intermolecular and molecule-2D weak
+interactions due to the increasing of molecule-substrate distance.
+
+\begin{table}[htbp]
+  \centering
+\caption{\label{tbl:intro-interactions}
+Types of interfacial interactions involved in the molecular epitaxy on 2D materials interfaces, showing the typical forms of interaction and energy range.}
+\centering
+\begin{tabularx}{1.0\textwidth}{XXX}
+\hline
+Type of Interaction & Typical Forms & Energy Range  (kJ\(\cdot\)mol\(^{\text{-1}}\))\\
+\hline
+Intermolecular & van der Waals & \(\le\) 5\\
+ & \(\pi\) - \(\pi\) & \(\le\) 50\\
+ & H-bonds & 4 - 120 \cite{jeffrey_introduction_1997}\\
+ & Covalent Bonds & 100 - 400\\
+\hline
+Molecule-2D & Weak Interactions & 10 - 60 \cite{Lazar_2013}\\
+ & Charge-Transfer & 50 - 200\\
+ & Site-Specific Adsorption & 30 - 100\\
+ & Covalent Bonds & 100 - 400\\
+\hline
+Molecule-Substrate & Weak Interactions & \(\le\) 20\\
+\hline
+\end{tabularx}
+\end{table}
+
 \subsection{The Variety of Mixed-Dimensional Interfaces}
 \label{sec:vari-mixed-dimens}
 
+%20191008-1405
+As shown in the previous section, a variety of interactions exist on 2D
+materials, which
+essentially dominate the ordering and packing of the molecules in vicinity.
+%
+The interfacial engineering of the interactions leads to different
+dimensionalities ranging from 0D to 3D.
+%
+In this section, several model systems of mixed-dimensional interfaces
+with 2D materials are discussed, with the focus on how the
+interactions determine the morphological dimension. The notations for
+the interfaces are like ``0D-2D'', with the former indicating the
+dimensionality of the heterostructure on 2D materials. In general, two
+approaches are usually employed to fabricate such mixed-dimensional
+interfaces, namely self-assembly of small molecules, and deposition of
+pre-formed nano\-materials. \worktodo{say something more?}
+
+\subsection{0D-2D Interface}
+\label{sec:org4aa8cd7}
+
+
+We refer the sub-monolayer assembly on 2D material to the formation of
+discrete 0D clusters, 1D nanowires or incomplete 2D assembly such as
+porous and network structures. Note that several prerequisites exist
+for the formation of sub-2D assembly on a 2D material surface. First,
+the surface coverage should be less than 1 monolayer (ML), as
+determined by the surface adsorption mechanism. Subsequently, in the
+assembled structures, one or more preferred interactions must dominate
+the sub-2D structure. Molecular dynamics (MD) simulations have shown
+that the weak intermolecular and molecule-2D interactions alone, do
+not result in the formation of sub-monolayer assembly, such as the case of
+pentacene and PTCDA on graphene or hBN
+\cite{Zhao_2015_self_assemb_gr_MD}, and organic semiconductor molecules
+dominated by vdW force on phosphorene
+\cite{Mukhopadhyay_2017_cryst_BP}. Even when the starting configuration
+of the adsorbed molecules on 2D material is less than 1 ML, due to a
+low energy barrier of on-plane diffusion and non-directional nature of
+the vdW and Coulombic interactions, the epitaxial molecules always
+thermodynamically favor to form ordered 2D assemblies. In order to
+form sub-2D assembly, either a higher diffusion barrier has to be
+created, or the intermolecular interactions are sufficiently strong to
+stabilize the low dimensional structure. 
+
+\paragraph{0D Assembly}
+\label{sec:org8117691}
+
+To form 0D clusters distributed on 2D materials during molecular
+epitaxy, specific adsorption sites have to trap the molecules coming
+to the 2D interface. The moiré pattern formed in the graphene/metal
+and hBN/metal surfaces are shown to be able to trap metal clusters
+\cite{Goriachko_2007_assembl_hBN_ru,Goriachko_2008_AuNP_moire_hBN,Pan_2009_Pt_cluster_gr,Zhou_2010_metal_cluster_gr_Ru,Sicot_2010_Ni_cluster_gr_Ru,Wang_2011_gr_hBN_metal_cl,Zhang_2014_metal_gr_Ru}
+and individual organic semiconductor molecules
+\cite{Joshi_2014_TCNQ_hBN,Dil_2008_hBN_Rh,Lu_2012_c60_gr_moire,Roos_2011_hiera_org_gr,Roos_2011_BTP_gr}.
+N’Diaye et al. studied the deposition of Ir on epitaxial
+graphene/Ir(111) surface \cite{N_Diaye_2006_Ir_gr_Ir}. The preferred
+nucleation sites for Ir atoms were found to be the hcp sites of the
+moiré pattern. Isolated Ir clusters in a hexagonal arrangement were
+found on the graphene surface with a coverage less than 0.8 ML (see
+Figure (a)). Sicot et al. reported similar findings for Ni
+clusters on graphene/Ru(0001) surface
+\cite{Sicot_2010_Ni_cluster_gr_Ru}, while the Ni clusters preferred to
+nucleate in the fcc regions of the moiré pattern. Accordingly, Ni
+clusters of up to 3.1 nm in diameter were created with a surface
+coverage of 0.25 ML.  Goriachko et al. studied the deposition of Au on
+strongly interacting hBN/Ru(0001) surface, and found that at a low
+surface coverage of Au (< 0.3 ML), the nucleation of Au almost
+exclusively occurs in the pore sites, where there are stronger hBN-Ru
+interactions and a shorter hBN-Ru distance
+\cite{Goriachko_2007_assembl_hBN_ru,Goriachko_2008_AuNP_moire_hBN},
+resulting in isolated Au nanoclusters after annealing (Figure
+(b)). Further increase of Au coverage resulted in 2D
+islands, followed by multilayer formation, indicating the Au-Au
+interaction overwhelms the effect of local trapping. The mechanism of
+the selective nucleation of metal clusters on graphene/metal and
+hBN/metal surfaces were also investigated by first principles
+calculations
+\cite{Wang_2011_gr_hBN_metal_cl,Zhang_2014_metal_gr_Ru}. Wang et
+al. compared the adsorption energy between different sites on these
+surfaces \cite{Wang_2011_gr_hBN_metal_cl}. The adsorption energy of Au
+on the hill and valley regions of graphene/Ru(0001) surface reaches
+1.1 eV, with the adsorption on the hcp regions more preferred over the
+FCC region by 0.2 eV. On the contrary, the valley in graphene/Rh(111)
+surface provides a considerably high adsorption energy drop up to 1.0
+eV while the fcc region is more favorable for nucleation with an
+energy preference of 0.3 eV compared to the hcp region. Similarly the
+valley regions in the hBN/Ru(0001) surface provides an energy
+decrease of 1.2 eV for Au nucleation. Zhang et al. further
+demonstrated that the strong sp\(^{\text{3}}\) hybridization of the
+graphene/metal surface and the partially occupied HOMO orbital of the
+adsorbate are responsible for the formation of dispersion of metal
+clusters on the 2D interface.
+
+
+The moiré pattern of 2D/metal surface can also be used for trapping
+of organic semiconductor molecules to form isolated 0D clusters. The
+preference of adsorption in the valley regions of the moiré pattern
+leads to isolation of individual molecules at the 2D plane, thereby
+screening the intermolecular interactions. Dil et al. first observed
+the trapping of CuPc molecules on the hBN/Ru(111) surface
+\cite{Dil_2008_hBN_Rh}. The CuPc molecules at a very low surface
+coverage were found to adsorb specifically near the rim of the
+2-nm-diameter BN nanomesh, as confirmed by the emission spectra of the
+Xe atoms on the hBN/Rh(111). Similar results have also be demonstrated
+in the off-center adsorption on the hBN nanomesh, including CoPc on
+hBN/Ir(111) \cite{Schulz_2013_copc_hbn_moire}, H\(_{\text{2}}\)Pc and CuPc on
+hBN/Rh(111) surface \cite{Iannuzzi_2014_MPc_hBN_Rh} (see Figure
+(c)). A maximum potential gradient of \textasciitilde{}10\(^{\text{9}}\) V/m on the hBN
+nanomesh has been found near the edge of the pore, revealing the
+mechanism for site-specific trapping of individual molecules on
+hBN/metal surfaces. The concept of using the moiré pattern on
+graphene/metal surface has been used for trapping other small
+molecules. Lu et al. revealed that the adsorption energy of C\(_{\text{60}}\) on
+the HCP region of the graphene/Ru(0001) surface is lower than that on
+the TOP region by \textasciitilde{}160 meV \cite{Lu_2012_c60_gr_moire}. The energy
+difference allows to trap C\(_{\text{60}}\) molecules in the valley regions of
+the graphene moiré pattern at room temperature (Figure
+(d)). The highly-ordered trapped C\(_{\text{60}}\) molecules serve as
+nucleation sites for later C\(_{\text{60}}\) epitaxy, leading to dendritic growth
+of the C\(_{\text{60}}\) islands with inherited corrugation morphology from the
+underlying graphene moiré pattern. The isolation of single molecules
+using graphene moiré pattern has also been demonstrated for FePc
+\cite{Zhang_2011_FePc_gr}, and TCNQ \cite{Maccariello_2014_TCNQ_gr_Ru}
+molecules. It is also found that the site-specific isolation of small
+molecules is not limited to strongly interacting surfaces such as
+graphene and hBN supported by Ru or Rh, but also weakly interacting
+surfaces like hBN/Cu(111) with a small degree of corrugation but
+strong electronic patterning
+\cite{Joshi_2012_hBN_Cu,Joshi_2014_TCNQ_hBN}, Joshi et al. showed that
+the work function difference between the hill and valley regions of
+the hBN/Cu surface reaches up to 0.3 V \cite{Joshi_2012_hBN_Cu}. The
+local work function difference of the moiré pattern, or surface
+potential was found to locally trap the free-base porphine (2H-P) on
+the hill regions, distinct from the those trapped in the valley
+regions on the strongly-interacting hBN/metal surfaces
+\cite{Dil_2008_hBN_Rh,Schulz_2013_copc_hbn_moire,Iannuzzi_2014_MPc_hBN_Rh}. The
+trapped 2H-P molecules form isolated clusters as large as 18
+molecules, which significantly differed from the observations on
+hBN/Ru surface. The reduced molecule-substrate electronic coupling
+refers to the hill-preferred adsorption which results in the formation
+of small molecule clusters. TCNQ molecules are also found to form
+individual clusters on the hBN/Cu surfaces \cite{Joshi_2014_TCNQ_hBN},
+suggesting the electronic nature behind such phenomenon.
+
+
+\subsubsection{1D-2D Interface}
+\label{sec:orgeadf57e}
+
+With increasing surface coverage or introducing directional
+intermolecular interactions, 1D and fractal (with fractal
+dimension between 1 and 2) assemblies may be formed on 2D material
+interfaces, in the form of nanowires, nanoporous and network
+structures. Note that we categorize the formation of incomplete 2D
+assembly as sub-2D assembly, due to the fact that the interactions
+behind these assembly forms are essentially different from the close
+packing 2D assembly.
+
+As we discussed earlier, the strongly interacting surfaces, including
+graphene/Ru(0001), graphene/Rh(111) and hBN/Ru(0001) result in the
+moiré pattern that serves as specific binding sites for trapping
+small molecules at low surface coverage. By increasing the surface
+coverage, the specifically adsorbed molecules further act as
+nucleation sites for subsequent epitaxial growth. Due to the existence
+of local energy barrier, adsorption on the sites with a high energy
+would not be covered until the low-energy sites are
+fully-occupied. The intermolecular interactions, in combination with
+the geometry of moiré pattern, result in a specific arrangement of
+the molecules on the surface, varying from nanowire, nanorope to
+Kagome lattice (a form of trihexagonal tilting, see
+Ref. \citenum{Atwood_2002_kagome}). In the case of
+Ref. \citenum{Zhang_2011_FePc_gr}, when the coverage of FePc on
+Gr/Ru(0001) increases, the assembled structure changed from 0D
+isolated molecules to hexagonal ring-like structure, and finally to a
+Kagome lattice, at the coverage of 0.75 ML
+\cite{Mao_2009_Pc_gr_kagome}. The top sites remain unoccupied at this
+stage, in good agreement with the calculated site-specific adsorption
+energy profile. Similarly, epitaxial growth of TCNQ molecules on
+graphene/Ru(0001) also shows a transition from isolated clusters at
+0.3 ML to Kagome lattice at 0.6 ML \cite{Maccariello_2014_TCNQ_gr_Ru}
+(see Figure \ref{fig-sub2D}(a)). Note that the clusters still form at a
+relatively higher coverage compared to other molecules on graphene,
+such as MPc, possibly due to a strong charge-transfer interaction
+between TCNQ and graphene. On the other hand, increasing molecular
+coverage on the strongly interacting hBN/metal surfaces didn't show
+apparent formation of Kagome lattice
+\cite{Schulz_2013_copc_hbn_moire,Schulz_2014_hBN_moire,Iannuzzi_2014_MPc_hBN_Rh,Joshi_2014_TCNQ_hBN},
+due to the different surface potential distribution compared with the
+moiré pattern of graphene. Bazarnik et al. further showed that sub-ML
+epitaxy of MPc molecules on graphene/Ir(111) surface is tunable by Fe-
+or Co- intercalation sites below the graphene layer
+\cite{Bazarnik_2013_tailor_Fe_Co_gr_Ir,Avvisati_2017_FePc_intercal}. For
+example, the close-packed assembly of MPc molecules on weakly
+interacting graphene/Ir surface completely changes to one-dimensional
+chain growth, honeycomb, or Kagome lattice for CuPc and CoPc
+molecules, when Fe or Co atoms were intercalated between graphene and
+Ir substrate. The increased corrugation caused by intercalation atoms
+was found to be the mechanism responsible for the change of epitaxial
+structure. The influence of the intercalated metal atoms can be
+regarded as the molecule-substrate interaction, which indirectly
+affect the surface potential of the 2D material.
+
+
+In addition to the epitaxial behavior induced by the specific
+adsorption site on 2D materials, a rich set of sub-2D assembled
+structures can be obtained by tailoring the intermolecular and
+molecule-substrate interactions. The concept of 2D supramolecular
+self-assembly \cite{De_Feyter_2003_2D_assem_rev,Philips_2D_assem_book}
+which was previously extensively studied on bulk surfaces, such as
+metal and highly oriented pyrolytic graphite (HOPG), has been shown to
+be also extendable under the scope of 2D materials, yielding a broad
+possibility for fabricating hybrid function 2D
+heterostructures. Intermolecular hydrogen bonding is widely used to
+guide the orientation of surface-assisted self-assemblies
+\cite{Slater_2014_HBond_assembl_rev}, due to its relatively high
+strength. In addition, in a hydrogen-bond-bounded self-assembled
+structure, the interactions perpendicular to the surface is usually
+weak, thereby reducing the molecular epitaxy in the vertical
+direction. Pollard et al. first studied the assembly of PTCDI
+derivatives on graphene/Rh(111) surface
+\cite{Pollard_2010_hbond_assembly_gr}. It is found that the PTCDI
+molecules packed into discrete linear assemblies, distinct from those
+grown on HOPG surface, where the PTCDI molecules form the close-packed
+structures. The graphene-substrate superlattice was found to be
+responsible for this phenomenon, by offering local binding sites for
+the PTCDI molecules, followed by directional growth mediated by the
+intermolecular hydrogen bonds. PTCDI derivatives with alkyl side
+chains exhibit stronger network and Kagome-like structures, as a
+result of increases side-to-side intermolecular interaction
+\cite{Pollard_2010_hbond_assembly_gr}. Other complex supramolecular
+assemblies were also found on strongly interacting graphene/metal
+surface, by tailoring the molecular orientation and number of hydrogen
+bonds. On graphene/Ru(0001) surface, supramolecular assembly of two
+specific molecules, 2,4'-bis(terpyridine) (2,4'-BTP) and
+3,3'-bis(terpyridine) (3,3'-BTP) which possess nearly identical
+backbone and geometry but different pyridine substitution sites, is a
+good example demonstrating the impact of the hydrogen bond orientation
+on molecular assembly
+\cite{Meier_2010_polycyclic_gr,Roos_2011_BTP_gr,Roos_2011_hiera_org_gr}
+(see Figure \ref{fig-sub2D}(b)).  The C-H \dots{} N hydrogen bonds formed
+between 3,3'-BTP molecules were found to allow the molecules to pack
+with a larger rotation angle than 2,4'-BTP. Clearly, the minor change
+in the functional group exhibited great influence on the assembled
+morphology. The 3,3'-BTP molecules assembled in a curved fashion,
+forming nanoropes with triangle or hexagonal shape around the top
+regions of the graphene moiré pattern \cite{Roos_2011_BTP_gr}. On the
+other hand, molecular packing of 2,4'-BTP forms linear assemblies
+connecting the valley regions \cite{Roos_2011_hiera_org_gr}. It appears
+that in this case, the strong intermolecular hydrogen bonds dominate
+the molecular assembly, even on the surface with site-specific
+molecule-2D material interactions. 2D growth of deposited molecules
+can also be facilitated with heteromolecular hydrogen bonds. Pioneer
+work of Theobald et al. showed that triple hydrogen bonds
+between PTCDI and melamine could form highly ordered 2D epitaxy with
+Kagome lattice structure on metal surface
+\cite{theobald_2003_assembl}. The same idea can also be applied to the
+the molecular epitaxy on 2D materials. Karmel et al. demonstrated the
+formation of a periodic nanoporous network by the triple hydrogen
+bonds formed between PTCDI and melamine molecules on epitaxial
+graphene/SiC \cite{Karmel_2014_assembl_hetero_gr}. On the weakly
+interacting graphene/SiC surface, the triple hydrogen bonds formed
+between PTCDI and melamine molecules show good lattice match,
+resulting in a hexagonal nanoporous network with a lateral lattice
+parameter of 3.45 nm, and each node comprised of one melamine molecule
+connected three PTCDI separated by 120 \(^{\deg}\). Due to a lack of
+intermolecular hydrogen bonds between PTCDI molecules, the epitaxial
+structure for the molecules alone show close-packed behavior
+\cite{Karmel_2014_PTCDI_gr}. Interestingly, although the molecule-2D
+material interactions are weaker than the multivalent hydrogen bonds,
+the hexagonal network was found to maintain the same orientation
+uniformly, indicating the weak interactions are sufficient to keep the
+epitaxial layer in registry with the 2D material lattice.
+
+In addition to hydrogen bond, several other interactions were also
+found to facilitate the stabilization of sub-2D assemblies on 2D
+materials. The interactions between long alkyl chains are known to
+favor the formation of highly crystalline epitaxial structures
+\cite{De_Feyter_2003_2D_assem_rev}. Molecules with long alkyl chain,
+including 10,12-pentacosadiynoic acid (PCDA)
+\cite{Deshpande_2012_1D_assemb_gr}, phosphonic acid
+\cite{Prado_2011_2D_acid_gr}, dehydrobenzo[12]annulene (DBA) and lauroyl
+peroxide \cite{Huang_2016_laury_nanowire_gr} were found to form ordered
+nanowire to porous network structures on graphene and MoS\(_{\text{2}}\)
+surfaces. The assembly of DBA molecules on graphene/SiC is shown in
+Figure \ref{fig-sub2D}(c). In these examples the close-packed long alkyl
+chains were found to stabilize the structure. By proper chain length
+design, herringbone \cite{Deshpande_2012_1D_assemb_gr} and nanoporous
+network with tunable diameter \cite{Li_2013_porous_assem_gr} were
+reported. Covalent and metal coordination bonds were also shown for
+constructing sub-2D assembly on 2D materials. Successful examples
+include COF on graphene connected by boronate ester
+\cite{Colson_2011_2DMOF_gr,Colson_2014_2D_COF_gr} and imine coupling
+\cite{Sun_2017_cof_gr}, as well as MOF on hBN by on-surface chelation
+between free porphyrin and Co \cite{Urgel_2015_MOF_BN}.  A variety of
+examples have also shown the importance of molecule-2D material
+interaction. The orientation of the nanoporous network formed in
+Ref. \citenum{Karmel_2014_assembl_hetero_gr,Colson_2014_2D_COF_gr} was
+found to be in line with the lattice of graphene. On the other hand,
+the assemblies on MoS\(_{\text{2}}\) \cite{Huang_2016_laury_nanowire_gr} and other
+polar substrates (e.g. mica, SiO\(_{\text{2}}\))
+\cite{Karmel_2014_assembl_hetero_gr,Deshpande_2012_1D_assemb_gr,Huang_2016_laury_nanowire_gr}
+lose the orientation or even fail to form ordered structure. The
+above examples clearly show that the \(\pi\)-\(\pi\) interactions and
+collective dispersion are critical for stabilizing the aromatic
+molecules on the 2D interface, while increasing dipole and Coulombic
+interactions decrease the stability of such assembly.
+
+
+\subsubsection{2D-2D Interface}
+\label{sec:org1d44ccd}
+
+In principle, under sub-ML coverage, when the diffusion of molecules on  2D
+material is not limited by interfacial traps, close-packed 2D assembly
+can be formed in molecular epitaxy. The molecular epitaxy with
+2D assembled structures can be categorized into two classes, namely the
+self-assembled small organic molecules on 2D material, and the
+2D heterostructures grown by vdWE.
+
+\paragraph{Monolayer Self-Assembly of Small Molecules}
+\label{sec:orgfd77377}
+
+The assembly of small molecules on 2D materials with low geometric and
+electronic corrugation have usually been found to form close-packed
+structures. Molecular dynamics (MD) simulations is a good tool to
+rationalize the role of intermolecular, molecule-2D material and
+molecule-substrate interactions. Zhao et al. studied the self-assembly
+of non-polar pentacene and polar PTCDA molecules on planar graphene
+and hBN \cite{Zhao_2015_self_assemb_gr_MD}. Starting from a disordered
+state with sub-ML adsorption, both pentacene and PTCDA molecules ended
+up in forming an ordered 2D assembled structure, within the timescale
+of 100 ns. Subsequent adsorption of molecules was found to fill the
+gaps in the assembled structures within 1 ns, regardless of the
+initial orientation. For non-polar pentacene, the intermolecular vdW
+interactions which decreased dominate structure, while the Coulombic
+interactions, on the other hand, have much less effect on the
+packing. However both the Coulombic and vdW interactions were found to
+play important roles in stabilizing the epitaxy structure of
+PTCDA. The molecule-2D material interactions determine the orientation
+of the interfacial molecules. Decreasing the pentacene-graphene
+potential to half of its optimized force field value changed the
+packing of pentacene molecules from the face-on to edge-on
+configuration (see Figure \ref{fig-2D-MD}). Using a similar approach,
+Mukhopadhyay et al. studied the interactions involved in the
+self-assembly of various small organic molecules (including benzene
+derivatives, TCNQ, pentacene, C\(_{\text{60}}\)) on top of phosphorene
+\cite{Mukhopadhyay_2017_cryst_BP}. For non-polar molecules such as
+pentacene and mesitylene, the vdW potential decreases upon assembly
+while the Coulombic potential slightly increases. For polar molecules
+(1,3,5-trifluorobenzene, 1,3,5-trihydroxybenzene and TCNQ), the
+long-range intermolecular Coulombic interactions are more
+dominant. The calculated molecule-phosphorene interaction free
+energies for TCNQ (-45.4 kJ/mol) and pentacene (-28.6 kJ/mol) were
+comparable to those on graphene and hBN, which explain the similar
+packing behavior observed on phosphorene as compared to graphene and
+hBN systems. The results indicate that the non-aromatic nature of
+phosphorene does not affect the stability of epitaxial molecules in
+assemblies, and therefore the experimentally observed packing
+structures on phosphorene may be analog to those on graphene and
+hBN. To our knowledge, the effect of underlying substrate on 2D
+epitaxial assembly has not been investigated under the scope of MD
+simulations. However with the recently-developed knowledge of
+substrate-influenced effects in wettability of 2D materials by MD
+simulations \cite{shih_breakdown_2012,Hung_2015_MD_water_sub}, it would
+be straightforward to consider the substrate effect in further work.
+
+Although the above findings that are based on the MD-calculated
+interaction energies have not taken into account the kinetic phenomena
+involved in epitaxy experiments, the formation of ordered 2D
+crystalline organic films on 2D materials generally correlates well to
+the theoretical framework. A general feature in the 2D epitaxy of
+small molecules is that the sub-2D packing formed on the strongly
+interacting 2D surfaces, as discussed in the previous sections,
+changes to close-packed arrangements on a weakly interacting 2D
+material surface for molecules including MPc
+\cite{Jarvinen_2013_assembl_SiO2_hBN,Hamalainen_2012_CoPc_gr_Ir,Singha_Roy_2012_CuPc_gr_glass,Xiao_2013_jacs_CuPc_gr,Wu_2013_CuPc_F16_gr,Wang_2010_selec_F16_gr},
+TCNQ \cite{Barja_2010_TCNQ_gr}, C\(_{\text{60}}\)
+\cite{Jung_2014_C60_gr_Cu,Kim_2015_c60_gr,Chen_2016_c60_mos2}. The
+comparisons between the epitaxial behavior on the strongly and weakly
+interacting 2D material substrate have been addressed, such as FePc on
+graphene/Ru(0001) and graphene/Pt(111) \cite{Yang_2012_MPc_gr_metal},
+TCNQ on graphene/Ru(0001) \cite{Maccariello_2014_TCNQ_gr_Ru} and
+graphene/Ir(111) \cite{Barja_2010_TCNQ_gr}, CoPc on graphene/Ru(0001)
+\cite{Cai_2015_CoPc_gr_Ru} and graphene/Ir(111)
+\cite{Hamalainen_2012_CoPc_gr_Ir}, F\(_{\text{4}}\)-TCNQ on graphene/Ru(0001)
+\cite{Stradi_2014_TCNQ_gr_Ru} and graphene/hBN
+\cite{Tsai_2015_TCNQ_gr_hbn}, as shown in Figure
+\ref{fig-2D-strong-weak}.
+
+Due to a low surface corrugation for 2D materials on the weakly
+interacting surfaces, more freedom for surface adsorption and
+diffusion of the small molecule is observed, resulting in the
+close-packed structures. Note that a strongly interacting 2D material
+does not always lead to sub-2D packing, as the molecular geometry and
+intermolecular interactions also come into play. Such phenomena has
+been observed in the systems of PTCDA molecules epitaxially grown on
+graphene
+\cite{Wang_2009_STM_PTCDA_Gr,Lauffer_2008_PTCDA_gr_sic,Emery_2011_PTCDA_gr,Tian_2010_PTCDA_gr},
+and supported by \emph{ab initio} simulations
+\cite{Mura_2010_DFT_H_bond_PTCDA_gr}. Due to the existence of
+intermolecular C-H \dots{} O hydrogen bonds, the moiré pattern of
+graphene/Ru(0001) surface is not sufficiently strong to trap
+individual PTCDA molecules \cite{Wang_2009_STM_PTCDA_Gr}, and therefore
+a close-packed 2D assembly forms, similar to that found on weakly
+interacting graphene/SiC surface
+\cite{Lauffer_2008_PTCDA_gr_sic,Emery_2011_PTCDA_gr}. The hydrogen bond
+energy per unit PTCDA herringbone lattice (400 \textasciitilde{} 600 meV)
+\cite{Tian_2010_PTCDA_gr} was found to be comparable with the adsorption
+energy on the top sites of the moiré pattern (\textasciitilde{}700 meV)
+\cite{Roos_2011_BTP_gr}, revealing a competition between the
+intermolecular and molecule-2D interactions. Therefore, there is a
+small degree of morphological change by changing the weak interacting
+substrate to the strongly-interacting substrate, as vacancies are be
+found in the 2D PTCDA deposited on graphene/Ru(0001) located on the
+top sites. The close-packed assemblies on the strongly interacting 2D
+surface are also be found in other molecules including pentacene
+\cite{Zhou_2013_pent_gr_Ru} and C\(_{\text{60}}\)
+\cite{Lu_2012_c60_gr_moire,Li_2012_c60_gr_Ru}, in which the potential
+barrier on the surface was overcome by kinetic energy. On the other
+hand, the influence of molecule-substrate interaction has been
+demonstrated in the systems of CoPc deposited on graphene/SiO\(_{\text{2}}\) and
+graphene/hBN \cite{Jarvinen_2013_assembl_SiO2_hBN}. Specifically,
+although CoPc forms cubic close-packed structures on both surfaces,
+the domain size on graphene/SiO\(_{\text{2}}\) was found to be significantly
+smaller than that on graphene/hBN. The LUMO energy level fluctuation
+of CoPc on graphene/hBN was found to be less than that on
+graphene/SiO\(_{\text{2}}\), revealing the influence of the underlying substrate.
+
+Following the discussions of 2D assembly, molecular packing of small
+organic molecules on 2D materials other than graphene is essentially
+determined by the molecule-2D material interactions, as well as the
+geometry and electronic structure of the 2D material. Shen et
+al. predicted the phase-dependent charge transfer between pentacene
+and MoS\(_{\text{2}}\) monolayer \cite{Shen_2017_DFT_mos2_pent}, as briefly
+mentioned in Section 2.2. A considerable degree of charge
+transfer between pentacene and 1T MoS\(_{\text{2}}\) (i.e. enhanced molecule-2D
+material interactions) may lead to unprecedented 2D self-assembly. The
+dipole MoS\(_{\text{2}}\) surface has shown to orient the butyl-substituted PTCDI
+derivative (PTCDI-C\(_{\text{4}}\)) differently from the graphene surface
+\cite{Arramel_2017_Ptcdi_mos2}. X-ray photoelectron spectroscopy (XPS),
+NEXAFS and resonant photoemission spectroscopy (RPES) where used to
+reveal the edge-on orientation of PTCDI-C\(_{\text{4}}\), compared with the
+normally found face-on configuration of PTCDI compounds on graphene
+\cite{Karmel_2014_PTCDI_gr}. The molecule-MoS\(_{\text{2}}\) interactions have been
+found to be weaker than that between the alkyl chains, leading to a
+tilted packing configuration. Another example is the
+dioctylbenzothienobenzothiophene (C8-BTBT) epitaxy on MoS\(_{\text{2}}\)
+\cite{He_2015_C8BTBT_MoS2}, compared with that on graphene
+\cite{He_2014_C8BTBT_gr}. The ML thickness of C8-BTBT on MoS\(_{\text{2}}\) was
+found to be \textasciitilde{}1.2 nm, significantly larger than that on graphene (\textasciitilde{}0.7
+nm), because the interfacial C8-BTBT molecules are with the ``edge-on''
+orientation on MoS\(_{\text{2}}\). Clearly, the reduced vdW molecular-2D material
+interaction is responsible for the substrate-dependent packing
+configuration. Due to the fact that monolayer molecular assembly on 2D
+materials other than graphene and hBN has not been well studied by
+STM, more detailed studies will be required to uncover the molecule-2D
+interaction on these 2D materials.
+
+\paragraph{2D van der Waals Heterostructures}
+\label{sec:org77ea5bc}
+
+We refer the 2D vdW heterostructures to the epitaxial assembly of
+covalently bonded 2D materials. Chemical vapor deposition (CVD) and
+van der Waals epitaxy (vdWE) are the two major methods to grow the 2D
+vdW heterostructures \cite{Novoselov_2016_vdW}. In the view point of
+molecular interactions at the interface, these two methods are
+essentially similar. Therefore here we do not specify the preparation
+method for the 2D vdW heterostructure in this review. Note that the
+definition of 2D vdWE refers to the growth of single- or few-layer 2D
+materials on top of another 2D material. The use of vdWE for both
+small molecule \cite{Hara_1989_cupc_mos2_vdwe,Sakurai_1991_c60_mos2} and
+layered materials
+\cite{Koma_1985_vdWE,Ueno_1990_vdWE,Ohuchi_1990_MoSe2_SnS2,Parkinson_1991_vdWE}
+on layered TMDCs has been demonstrated long before the first discovery
+of graphene. The benefit of vdWE over conventional heteroepitaxy is
+less constraint in lattice mismatch. In conventional heteroepitaxy,
+dangling bonds exist on the substrate surface, thereby limiting the
+growth of lattice-mismatch overlayer. On the other hand for 2D
+materials, the interactions perpendicular to the 2D plane are mainly
+vdW or Coulombic interaction, so that the overlaying 2D material can
+be grown with less constraint in lattice mismatch. Figure
+\ref{fig-2D-vdW}(a) schematically shows the principle of van der Waals
+epitaxy process.  As introduced in the section of intermolecular
+covalent bond, a large variety of 2D vdW heterostructures have been
+synthesized by vdWE approach. In this section we discuss the interplay
+between the covalent bond and inter-layer interactions in the vdWE
+growth of 2D vdW heterostructures.
+
+Graphene, hBN and TMDC (in particular MoS\(_{\text{2}}\)) are the most-studied 2D
+materials for vdWE growth of 2D heterostructures, due to their large
+area accessibility. Epitaxial graphene \cite{Yang_2013_gr_hBN}, MoS\(_{\text{2}}\)
+\cite{Yan_2015_MoS2_on_hBN,Wang_2015_cvd_MoS2_BN} and WS\(_{\text{2}}\)
+\cite{Cattelan_2015_Ws2_hBN} have been grown by vdWE on multilayer
+hBN. The epitaxial graphene on hBN was grown by plasma-enhanced CVD at
+\textasciitilde{}500 \(^{\circ} \mathrm{C}\), which is much lower than that required for
+metal-catalyzed CVD growth of graphene (\textasciitilde{}1000 \(^{\circ} \mathrm{C}\))
+\cite{Yang_2013_gr_hBN}.  The orientation of epitaxial graphene was
+found to be uniform on hBN, as revealed by the moiré pattern formation
+in STM (see Figure \ref{fig-2D-vdW}(b)). Similar to the previous
+discussion about the 2D assembly of organic molecules, the interlayer
+interaction is also shown to govern the stacking of 2D
+heterostructure. On epitaxial or CVD-grown graphene, the vdWE
+technique has been used to grow hBN \cite{Lin_2014_vdW_solid}, MoS\(_{\text{2}}\)
+\cite{Shi_2012_vdw_epi_MoS2_gr,Lin_2014_vdW_solid,McCreary_2014_MoS2_gr,Azizi_2015_Freevdw_Gr_TMDCs,Miwa_2015_MoS2_gr,Ago_2015_MoS2_Gr},
+WS\(_{\text{2}}\) \cite{Azizi_2015_Freevdw_Gr_TMDCs}, WSe\(_{\text{2}}\)
+\cite{Lin_2014_WS2_Gr,Lin_2015_Wse2_MoS2_gr}, and non-layered
+Pb\(_{\text{1-x}}\)Sn\(_{\text{x}}\)Se \cite{Wang_2015_vdw_non_layer}. Monolayer epitaxial
+MoS\(_{\text{2}}\) was successfully grown following on graphene, whereas the
+growth on bulk SiC surface remains negligible, following the principle
+of vdWE \cite{Lin_2014_vdW_solid}. Monolayer TMDCs were also used for
+vdWE of TMDC/TMDC hybrid heterostructure, including MoTe\(_{\text{2}}\)/MoS\(_{\text{2}}\)
+\cite{Diaz_2015_MoTe2_MoSe2}, WS\(_{\text{2}}\)/MoS\(_{\text{2}}\) \cite{Gong_2014_WS2_MoS2},
+GaSe/MoSe\(_{\text{2}}\) \cite{Li_2016_GaSe_MoSe2_vdW} (see Figure
+\ref{fig-2D-vdW}(c)), MoS\(_{\text{2}}\)/SnS\(_{\text{2}}\)
+\cite{Zhang_2014_vdw_epi_SnS2_MoS2}. More complex vdW heterostructures
+can also be synthesized using the vdWE approach. Lin et al. used
+repeated vdWE on epitaxial graphene at different temperatures for the
+synthesis of MoS\(_{\text{2}}\)/WSe\(_{\text{2}}\)/graphene and WS\(_{\text{2}}\)/MoSe\(_{\text{2}}\)/graphene
+heterostructures \cite{Lin_2015_Wse2_MoS2_gr}. Alemayehu et
+al. synthesized ordered stacks of GeSe\(_{\text{2}}\)/VSe\(_{\text{2}}\) heterostructures
+\cite{Alemayehu_2015_TMDC_vdw} with controlled GeSe\(_{\text{2}}\)
+layer number modulation by tuning the nucleation process.
+
+One challenge in the vdWE growth of 2D vdW heterostructures is the
+controlled growth of monolayer 2D overlayer. We note that in many 2D
+heterostructures systems (mainly TMDC/graphene or TMDC/hBN) grown by
+vdWE, the growth of mono- and multi- overlayers have both been
+reported, including MoS\(_{\text{2}}\)/graphene
+\cite{Shi_2012_vdw_epi_MoS2_gr,Lin_2014_vdW_solid,Azizi_2015_Freevdw_Gr_TMDCs,Miwa_2015_MoS2_gr,Liu_2016_epi_MoS2_gr_rotation,McCreary_2014_MoS2_gr},
+WSe\(_{\text{2}}\)/graphene \cite{Lin_2014_vdW_solid,Azizi_2015_Freevdw_Gr_TMDCs}
+and MoS\(_{\text{2}}\)/hBN \cite{Yan_2015_MoS2_on_hBN}. The stacking sequence seems
+also relevant to the layer number of the epitaxial layers. For example
+almost all hBN/graphene heterostructures reported showed multilayer
+hBN growth \cite{Wu_2015_Gr_hBN,Lin_2014_vdW_solid}, while graphene
+grown on hBN tend to be monolayer
+\cite{Yang_2013_gr_hBN,Wu_2015_Gr_hBN}. These results reveal the
+importance of chemical kinetics in the vdWE heterostructure growth, since
+the interplay between the interactions alone cannot explain the
+discrepancy. The proposed mechanisms include
+preferred nucleation sites \cite{Yan_2015_MoS2_on_hBN}, non-epitaxial
+growth \cite{Azizi_2015_Freevdw_Gr_TMDCs} and synthesis method
+\cite{Azizi_2015_Freevdw_Gr_TMDCs}. Further studies are required to
+elucidate the mechanism underlying the layer-controlled growth.
 
 
 
-\section{Challenging Problems Concerning 2D Interfaces}
+\subsubsection{3D-2D Interface}
+\label{sec:org321dcef}
+
+3D assembly on 2D material can be made by layer-by-layer deposition of
+small molecules or epitaxy of covalently bonded structure. When the
+thickness of 3D assembly increases, the intermolecular (or
+interatomic) interactions become dominant over the molecule-2D
+material and molecule-substrate interactions. However, this does not
+mean the interfacial interactions are negligible. In fact, as will be
+discussed later, the interfacial layer plays an important role in
+determining the molecular orientation and morphology in the 3D
+assembled structures. 3D epitaxy on 2D material interfaces may result
+in various forms of nanostructures other than simple stacked
+layers. The morphology of the 3D assembly greatly influence several
+key properties in organic semiconductors, including carrier transport,
+interfacial barrier, which motivates understanding of the underlying
+mechanism.  The diversity of 3D epitaxial morphology addresses the
+question of how the macroscopic structure is influenced by the
+interplay between the interactions. In this section, we review the
+interactions involved in a variety of 3D epitaxial structures, with
+more focus on the theoretical work in this field.
+
+\paragraph{Layer-by-Layer Assembly of Small Molecules}
+\label{sec:org2cdd8f0}
+
+Layer-by-layer (LbL) self-assembly of small molecules can be viewed as
+the vertical epitaxy of 2D assembled structure. The molecular
+orientation and packing of the interfacial layers, i.e., the first few
+layers of the molecules, are strongly influenced by the molecule-2D
+material and molecule-substrate interactions, compared to the
+molecules far from the interface.  The maximum molecule layer number
+influenced by the 2D material and substrate highly depends on the
+choice of molecule. The transition of orientation is a consequence of
+the competition between the interfacial and the bulk packing
+orientations. In the case of C\(_{\text{60}}\) on corrugated graphene/Ru(0001)
+surface \cite{Lu_2012_c60_gr_moire}, the first layer of C\(_{\text{60}}\) forms
+isolated single molecules trapped in the HCP valley of the moiré
+pattern, which also serves as the nucleation sites for the second
+layer. The second layer C\(_{\text{60}}\) molecules pack in a hexagonal pattern
+around the trapped C60 molecules, namely the corrugation-guided
+packing. From the third layer on, subsequent packing of C\(_{\text{60}}\)
+molecules experience from dendritic to compact growth; in other words,
+the influence of graphene corrugation does not go beyond the third
+layer (Figure \ref{fig-3D-layer-dep}(a)). Similarly, TCNQ assembly on
+graphene/Ru(0001) also show transition from sub-2D Kagome packing to
+bulk phase close-packed order when coverage is slight higher than 1ML
+\cite{Maccariello_2014_TCNQ_gr_Ru}.  On the other hand, the second layer
+CoPc molecules adsorbed on hBN/Ir(111) still prefer to occupy the pore
+regions of hBN moiré pattern which have already been covered by the
+first layer CoPc molecules \cite{Schulz_2013_copc_hbn_moire}. Multilayer
+assembly of pentacene molecules on graphene is another interesting
+example of layer-dependent molecule-2D material interactions. On
+epitaxial graphene/SiC surface, the first layer of pentacene shows the
+face-on orientation, with long-range ordering
+\cite{Jung_2014_pentacene}. The second pentacene layer shows a tiled
+angle with respect to the graphene plane, corresponding to partial
+turn-over of the pentacene molecules
+\cite{Chen_2008_transition_pentacene}. After the fifth layer, the
+pentacene molecules pack in an edge-on manner, consistent with that in
+the bulk pentacene film \cite{Ruiz_2004_bulk_pentacene} (Figure
+\ref{fig-3D-layer-dep}(b)). By increasing pentacene-graphene
+interactions, a strained polymorph of pentacene was observed
+\cite{Kim_2015_pentacene_gr_strain}, stabilizing the epitaxial structure
+with consistent face-on orientation throughout the entire
+film. C8-TBTB is another example that exhibits a structural transition
+during epitaxial assembly. The first layer of C8-TBTB molecules packs
+with the polycyclic TBTB group in contact with graphene, forming
+long-range ordered linear structure \cite{He_2014_C8BTBT_gr}, as a
+result of the \(\pi\)-\(\pi\) interactions between TBTB core and graphene,
+together with the alignment of the alkyl chains. In the bulk phase,
+the C8-TBTB molecules assemble with the edge-on orientation and form
+cubic lattice. The transition of orientation is found exclusively at
+the second layer, as revealed by the average layer thickness change
+(Figure \ref{fig-3D-layer-dep}(c)). The observation slightly changes for
+C8-TBTB deposited on single layer MoS\(_{\text{2}}\) \cite{He_2015_C8BTBT_MoS2}
+(Figure \ref{fig-3D-layer-dep}(d)). Due to a weaker molecule-2D material
+interaction, the first layer of C8-TBTB already shows an intermediate
+degree of tilted orientation between the face-on and edge-on
+configurations. From second layer on, the C8-TBTB molecules completely
+become the bulk phase packing. A general trend of the mono- to
+multi-layer transition can be observed: the molecule-2D material
+interactions have more influence on the first ML and decays rapidly
+with the increase of layer numbers. When the direction of molecule-2D
+material interaction differs from that of intermolecular interaction
+in the bulk phase, a transition of the molecular orientation can be
+observed from monolayer to multi-layer. The effective depth of the
+molecule-2D material interactions is usually less than 2\textasciitilde{}3 ML, and
+dependent on the type of epitaxial molecules.
+
+For molecules with a large planar structure such as CuPc and
+F\(_{\text{16}}\)CuPc, the strong intermolecular interactions tend to pack the
+molecules along their c-axis
+\cite{Ren_2011_DFT_CuPc_epi_gr,Jiang_2014_F16Pc,Yoon_2010_crystal_F16cuPc}. Due
+to the fact that MPc molecules also take face-on orientation on
+graphene surface
+\cite{Xiao_2013_jacs_CuPc_gr,Mativetsky_2014_CuPc_gr,Zhong_2012_gr_F16_pn_junc},
+the face-on orientation can be maintained after the second layer and
+continue in its 3D epitaxy structure. On the other hand, the MPc
+molecules prefer to form the edge-on orientation on amorphous polar
+surface such as SiO\(_{\text{2}}\) and glass
+\cite{Singha_Roy_2012_CuPc_gr_glass,Xiao_2013_jacs_CuPc_gr,de_Oteyza_2006_F16CuPc_sio2}. As
+a result, molecular orientation of epitaxial CuPc and F\(_{\text{16}}\)CuPc is be
+templated by the graphene layer, screening the interactions from the
+SiO\(_{\text{2}}\) or glass substrates. The idea of graphene-templated growth is
+also applied to the epitaxy of pentacene \cite{Lee_2011_pentacene},
+perfluoropentacene \cite{Salzmann_2012_fpen_gr}, C\(_{\text{60}}\)
+\cite{Kim_2015_c60_gr} and DBTTC \cite{Kim_2016_DBTTC_gr}. On the
+contrary, the epitaxy structure of thin-layer CuPc on MoS\(_{\text{2}}\)
+\cite{Zhang_2015_CuPc_MoS2} shows less stability which undergo a face-on
+to edge-on transition upon air exposure and forming 1D-ordered
+structures. The face-on orientation, however, can be maintained at
+higher deposition temperature to create a
+compact structure and high turn-over barrier.
+
+The morphology of the grown 3D epitaxial film is a consequence of both
+thermodynamic and kinetic effects \cite{Kowarik_2008_rev_MBE}. Classical
+theory of thin film organic molecular epitaxy identifies three typical
+growth mechanisms, depending on their morphology, as follows: (i)
+Volmer-Weber (VW) type, where the assemblies are majorly island-like,
+(ii) Frank-van der Merwe (FM) type, where flat epitaxial layers are
+formed, and (iii) Stranski-Krastanov (SK) type, where island formation
+follows flat interfacial layer. The macroscopic phenomenon of
+morphology can be explained by the interplay of surface energies of
+different interfaces, including the 2D material surface
+\(\gamma_{\mathrm{2D}}\), surface of epitaxial molecules
+\(\gamma_{\mathrm{M}}\), and molecule-2D interface
+\(\gamma_{\mathrm{M-2D}}\), under the scope of 2D-interfacial
+epitaxy. In VW type growth, it's usually observed that
+\(\gamma_{\mathrm{M}} + \gamma_{\mathrm{M-2D}} > \gamma_{\mathrm{2D}}\),
+indicating a non-wetting of molecules at the interface, while in the
+FM type growth, \(\gamma_{\mathrm{M}} + \gamma_{\mathrm{M-2D}} <
+\gamma_{\mathrm{2D}}\), corresponding to wetting of the molecules. The
+different models of thin film growth is shown in Figure
+\ref{fig-morphology}(a). Since the surface energy is a macroscopic
+property related to the intermolecular and interfacial interactions,
+the growth models can also be rationalized by the interplay between
+the interactions. In VW-type growth, the intermolecular interaction is
+usually stronger than the molecule-2D and molecule-substrate
+interactions, as the molecules tend to grow on nuclei and form
+islands, while in FM- and SK- type growth, the strong interfacial
+interactions lead to the formation of interfacial wetting layer. After
+the first few layers, the kinetic parameters, in particular the
+surface diffusivity of epitaxial molecules, play a crucial role
+\cite{Chatraphorn_2001_limit_diff}.
+
+The morphological control of 3D molecular epitaxy is also studied by
+fine-tuning the chemical structure of epitaxial molecules, such as the
+cases of CuPc/F\(_{\text{16}}\)CuPc, and pentacene/perfluoropentacene. Several
+reports have indicated that the fluorination has great impact on the
+assembly morphology. On graphene surface, both CuPc
+\cite{Singha_Roy_2012_CuPc_gr_glass,Xiao_2013_jacs_CuPc_gr} and
+F\(_{\text{16}}\)CuPc \cite{Zhong_2012_gr_F16_pn_junc} molecules form the face-on
+orientation, as indicated by X-ray diffraction (XRD) and grazing
+incidence X-ray diffraction (GIXD) spectroscopy. For the following
+layers of both molecules, a uniform diffraction peak corresponds to
+the face-on orientation is observed. However the macroscopic
+morphology shows different features: CuPc tends to form a dense film
+on graphene, with the grain size larger than that on SiO\(_{\text{2}}\)
+\cite{Singha_Roy_2012_CuPc_gr_glass,Xiao_2013_jacs_CuPc_gr}, F\(_{\text{16}}\)CuPc
+forms vertical nanowires on PTCDA-template surface (similar to
+graphene with rich \(\pi\)-electrons) \cite{Yang_2011_F16CUPc_nanowire}
+(Figure \ref{fig-morphology}(b)).  Pentacene and perfluoropentacene on
+MoS\(_{\text{2}}\) are also shown to have different morphologies
+\cite{Breuer_2016_acnene_mos2}. Individual close-packed islands were
+formed in 30 nm-thick the pentacene/MoS\(_{\text{2}}\) film, while the deposited
+film of perfluoropentacene on MoS\(_{\text{2}}\) showed much a smoother surface,
+with the island size larger than 10 \(\mathrm{\mu m}\), as has been
+observed in the case of pentacene and perfluoropentacene deposited on
+graphene or graphite \cite{Salzmann_2012_fpen_gr,Breuer_2011_pent_graph}
+(Figure \ref{fig-morphology}(c)). However the interfacial layer for both
+molecules were found to be the face-on orientation. Indeed, the
+morphology change caused by fluorination demonstrate how minor
+chemical composition change of the epitaxial molecule may affect the
+macroscopic behavior in 3D molecular epitaxy. While the detailed
+mechanism is still not fully understood, the change of film surface
+energy \(\gamma_{\mathrm{M}}\) caused by the fluorine atoms may be a
+possible explanation, as indicated by the different
+epitaxial growth models.
+
+Another variable to control the macroscopic morphology is the
+interfacial energy \(\gamma_{\mathrm{M-2D}}\), following the previous
+discussion of molecular-substrate interactions. The wetting
+transparency of graphene layer enables the modulation of interfacial
+energy between pentacene and graphene by changing the wettability of
+the underlying substrate \cite{Nguyen_2015_pent_gr_wett}. Although the
+growth mechanism remains to be VW-type, epitaxy on a graphene-coated
+hydrophobic surface shows a larger domain size, by reducing the
+heterogeneous nucleation rate, since \(\gamma_{\mathrm{M-2D}}\) is
+small. A smaller domain size, on the other hand, has been observed on
+the graphene-coated hydrophobic surface.
+
+
+\paragraph{Van der Waals Epitaxy of 3D Crystals}
+\label{sec:orgeb0161b}
+
+3D vdWE on 2D material interface shares the same mechanism with the 2D
+vdWE. Here we limit the discussion of 3D vdWE to the growth of
+crystalline material with non-planar (such as sp\(^{\text{3}}\)) bonding. The absence of dangling bonds at the
+interface enables the growth of 3D bulk crystal with lattice
+mismatch. Similar to the vdWE of 2D heterostructures, the growth of 3D
+vdWE structure on layered 2D material is not a new idea. Layered TMDCs
+(MoTe\(_{\text{2}}\), WSe\(_{\text{2}}\)) have been used for the growth of 3D crystalline
+semiconductors like CdS and CdTe
+\cite{Loeher_1994_vdw_epi_CdS_MoTe,Loeher_1996_CdTe_MoWTe}. In the case
+of epitaxial CdTe/MoTe\(_{\text{2}}\) and CdTe/WSe\(_{\text{2}}\), the lattice mismatch is
+as high as 30\% and 40\%, respectively \cite{Loeher_1996_CdTe_MoWTe},
+showing the power of vdWE in fabricating 3D crystalline
+structures. Recent examples have shown using 2D material as template
+for 3D vdWE of crystalline semiconductors, include GaAs/graphene
+\cite{Alaskar_2015_GaAs_gr_Si_theor,Kim_2017_remote_epi_Gr},
+GaN/graphene
+\cite{Chung_2010_GaN_ZnO_gr,Chung_2012_GaN_gr,Chung_2012_GaN_gr,Yoo_2013_GaN_gr_defect,Nepal_2013_GaN_gr,Kim_2014_direct_vdw_GaN_gr},
+GaN/hBN \cite{Kobayashi_2012_GaN_hBN,Makimoto_2012_InGaN_hBN}, InGaN/hBN
+\cite{Makimoto_2012_InGaN_hBN}, ZnO/graphene \cite{Chung_2010_GaN_ZnO_gr}
+and ZnO/hBN \cite{Oh_2014_ZnO_hBN}. In these systems, the 2D material
+not only serves as the buffer layer for vdWE, but also acts as a
+transferable layer which enables separation of the 3D crystal from the
+substrate to allow fabrication of semiconductor devices
+\cite{Makimoto_2012_InGaN_hBN,Kobayashi_2012_GaN_hBN,Kim_2014_direct_vdw_GaN_gr,Kim_2017_remote_epi_Gr}.
+However a general problem encountered in the 3D vdWE process is the
+low density of nucleation sites and formation of smaller clusters
+instead of continuous film
+\cite{Loeher_1994_vdw_epi_CdS_MoTe,Loeher_1996_CdTe_MoWTe,Chung_2012_GaN_gr,Kobayashi_2012_GaN_hBN}.
+In 2D vdWE process, the covalent bonds are confined in-plane which
+enable the growth of large area 2D layer. On the contrary, in 3D vdWE
+process, the 3D covalent bonds lead to comparable growth rate in all
+directions, so that the crystal size highly depends on the interfacial
+nucleation density. On the other hand, the growth of metal oxides
+(e.g. Al\(_{\text{2}}\)O\(_{\text{3}}\), ZnO, TiO\(_{\text{2}}\)) on graphene or hBN lead to more
+uniform films
+\cite{Dlubak_2012_gr_sub_assist_Al2O3,Vaziri_2013_ALD_Al2O3_gr,Zhang_2014_Al2O3_ALO_Gr,Chung_2010_GaN_ZnO_gr,Oh_2014_ZnO_hBN,Zhang_2011_TiO2_gr,Kumar_2011_gr_TiO2_generator,Li_2015_TiO2_GO},
+due to an increased interfacial adsorption of precursors. 2D materials
+with a ZnO or AlN buffer layers have thus been used for vdWE of large
+area crystalline semiconductors
+\cite{Chung_2010_GaN_ZnO_gr,Yoo_2013_GaN_gr_defect,Nepal_2013_GaN_gr,Kobayashi_2012_GaN_hBN}. Kim
+et al. showed the nucleation density of GaN on graphene can be
+enhanced by the periodic step edges of epitaxial graphene/SiC surface
+\cite{Kim_2014_direct_vdw_GaN_gr}. Large-area single crystalline film of
+epitaxial GaN with high lattice ordering has been achieved, despite
+the 23\% lattice mismatch between graphene and GaN. For epitaxy of
+metal-oxide films, the monolayer assembled organic molecules can also
+be used for seeded growth of high-quality metal oxide films on 2D
+materials. For instance, Alaboson et al. used single layer
+close-packed PTCDA molecules adsorbed on the epitaxial graphene/SiC
+for the seeding growth of Al\(_{\text{2}}\)O\(_{\text{3}}\) and HfO\(_{\text{2}}\)
+\cite{Alaboson_2011_PTCDA_gr_ALD}. The ALD-grown high-k metal oxide
+films showed smoother morphology and less current leakage compared to
+those grown in identical ALD conditions without the PTCDA seeding
+layer. Besides the molecule-2D material interactions, recently Kim et
+al. also showed that the 3D vdWE growth can be guided by the
+interaction between the epitaxial overlayer and the underlying
+substrate, in the case of the homoepitaxy of III-V semiconductors
+(GaAs, InP and GaP) \cite{Kim_2017_remote_epi_Gr}. In other words,
+graphene serves as a buffer layer for 3D vdWE. Since the thickness of
+graphene (\textasciitilde{}3 \AA{}) is smaller than the vdW interaction distance of the
+bulk material (\textasciitilde{}9 \AA{} for GaAs), the lattice of the underneath
+substrate can guide remote homoepitaxy of the overlayer. In principle,
+a series of single layer 2D materials can serve as the vdW buffer
+layer for such homoepitaxy, and benefit the design and fabrication of
+tandem 2D-3D heterostructures.
+
+
+\subsubsection{Summary}
+\label{sec:org0b4290f}
+
+Table \ref{tbl-summary-multidimension} summarizes the representative
+examples of multidimensional molecular epitaxy on 2D materials
+interfaces, and outlines the governing interactions and the comparison
+between the interactions that discussed in this section. A clear
+relation between the interaction and the dimension of assembly can be
+observed: molecular epitaxy of higher dimension is favored with
+increasing intermolecular interactions. In the case of 2D and 3D vdWE,
+the intermolecular interactions (covalent bond) can be much greater
+than the molecule-2D interactions (vdW). It can also be found that the
+molecule-substrate interactions are constantly weaker than the other
+two types of interactions, as a result of increased interaction
+distance and partial screening effect of the 2D material
+layer. However as seen in the examples in this section, the absolute
+order of interaction strength is not the only factor that determines
+the packing and orientation of the molecular epitaxy. Understanding
+the role of weak interactions in determining the molecular epitaxy
+poses a challenge towards comprehensive theory framework, and is
+crucial for the designing of epitaxial systems on 2D materials
+interfaces.
+
+\begin{table}[htbp]
+\caption{\label{tbl-summary-multidimension}
+Summary of representative examples of multidimensional molecular epitaxy on 2D materials interfaces, the governing interactions involved and the comparison between the interactions discussed in this section.}
+\centering
+\begin{tabularx}{0.95\textwidth}{lp{3cm}lp{4cm}lp{4cm}lp{5cm}}
+\hline
+Dimension & Examples & Governing interaction(s) & Comparison between interactions\\
+\hline
+0D & Strongly interacting surface & Site-specific & Molecule-2D \(\gg\) intermolecular\\
+\hline
+1D & Strongly interacting surface & H-bond,  site-specific & Molecule-2D \(\approx\) intermolecular\\
+\hline
+Fractal & Strongly interacting surface & H-bond, site-specific & Molecule-2D \(\approx\) intermolecular\\
+ & Weakly interacting surface & Multivalent H-bond & Intermolecular  \textgreater{} molecule-2D\\
+\hline
+2D & ML on graphene & (H-bond), CT, \(\pi\)-\(\pi\) & Molecule-2D > intermolecular\\
+ & ML on TMDC & (H-bond), CT, vdW & Intermolecular  \textgreater{} molecule-2D\\
+ & 2D vdWE & Covalent bond,   vdW & Intermolecular  \(\gg\)  molecule-2D\\
+\hline
+3D & LbL assembly & (H-bond), CT, \(\pi\)-\(\pi\), vdW & Depending on the 2D material\\
+ & 3D vdWE & Covalent bond,   vdW & Intermolecular \(\gg\) molecule-2D\\
+\hline
+\end{tabularx}
+\end{table}
+
+
+
+
+\section{Open Questions  Concerning 2D Interfaces}
 \label{sec:chall-probl-conc}
 
-\subsection{Electrostatic Interactions Through 2D Sheet}
+\subsubsection{Electrostatic Interactions Through 2D Sheet}
 \label{sec:electr-inter-thro}
 
-\section{Dielectric Properties of 2D Systems}
+\subsubsection{Dielectric Properties of 2D Systems}
 \label{sec:diel-prop-2d}
 
-\section{van der Waals (vdW) Interactions and Wetting Phenomena}
+\subsubsection{van der Waals (vdW) Interactions and Wetting Phenomena}
 \label{sec:van-der-waals}
 
 
