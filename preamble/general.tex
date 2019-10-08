@@ -167,7 +167,12 @@
 \usepackage[mathrm=sym]{unicode-math}
 \DeclareMathVersion{sansmath}
 \setmainfont[Ligatures=TeX]{TeX Gyre Pagella}
-\setsansfont{Fira Sans}
+\setsansfont[%
+  Extension=.otf,
+  UprightFont=*-Book,
+  ItalicFont=*-BookItalic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,]{FiraSans} %Use name instead
 % \setmonofont{Fira Mono}
 \setmathfont[version=normal]{TeX Gyre Pagella Math}
 \setmathfont[version=sansmath]{Fira Math}
@@ -226,6 +231,17 @@
 % TOC
 \renewcommand{\cftpartfont}{\color{chapter-color}\normalfont}%
 \renewcommand{\cftpartpagefont}{\normalfont}%
+
+% Renew the section sections stc
+\titleformat{\section}
+    {\relax}{\textbf{\sffamily \thesection}}{1em}{\large\sffamily\bfseries}
+% subsections
+\titleformat{\subsection}
+    {\relax}{\textbf{\sffamily \thesubsection}}{1em}{\normalsize\sffamily\bfseries}
+% subsubsections
+\titleformat{\subsubsection}
+    {\relax}{\textbf{\sffamily \thesubsubsection}}{1em}{\normalsize\sffamily\bfseries}
+% paragraphs
 
 % Chapter number on inside
 \titleformat{\chapter}[display]%
