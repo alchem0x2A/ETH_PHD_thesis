@@ -241,7 +241,9 @@
 % subsubsections
 \titleformat{\subsubsection}
     {\relax}{\textbf{\sffamily \thesubsubsection}}{1em}{\normalsize\sffamily\bfseries}
-% paragraphs
+    % paragraphs
+\titleformat{\paragraph}[runin]
+    {\normalfont\normalsize}{\sffamily\theparagraph}{0pt}{\normalsize\sffamily}
 
 % Chapter number on inside
 \titleformat{\chapter}[display]%
