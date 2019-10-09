@@ -65,12 +65,13 @@
 \usepackage{ltablex}
 \setlength{\extrarowheight}{3pt}
 \newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
-\newcommand{\myfloatalign}{\centering}
+% \newcommand{\myfloatalign}{\centering}
 \usepackage{floatrow}
 \usepackage{caption}
-\captionsetup{format=hang,font=small,labelfont={sc},margin=5pt}
-\usepackage{subcaption}
-\captionsetup[sub]{margin=0pt,font=small,labelfont={rm}}
+% \captionsetup{format=hang,font=small,labelfont={sc},margin=5pt}
+\floatsetup[table]{capposition=top}
+% \usepackage{subcaption}
+% \captionsetup[sub]{margin=0pt,font=small,labelfont={rm}}
 
 % Blind text
 \usepackage{blindtext}
