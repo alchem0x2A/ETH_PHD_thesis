@@ -1294,14 +1294,141 @@ Summary of representative examples of multidimensional molecular epitaxy on 2D m
 \section{Open Questions  Concerning 2D Interfaces}
 \label{sec:chall-probl-conc}
 
+As discussed in \autoref{sec:2d-mater-interf}, our understandings on
+the surfaces of 2D materials have greatly advanced in the past decade
+thanks to the development of novel experimental techniques as well as
+theoretical frameworks.
+%
+However, there are still several open questions concerning the
+interfacial properties that are not yet well-understood. Many of them
+are related with the electromagnetism on these low-dimensional
+interfaces, including the electrostatic penetration and screening
+through 2D materials, dynamic dielectric properties of 2D material and
+heterostructures, many-body exciton effect, and vdW interactions.
+%
+These phenomena covers broad length scales, ranging from atomistic
+interactions to macroscopic wetting behavior.
+%
+This section aims to give a brief introduction to several selected
+topics, which serves as the prelude for the research
+work presented in this thesis.
+%
+It is worth noting that these open questions are not caused by lack of
+fundamental theory framework, but rather because current physical
+relations in bulk materials can be rather different in these
+low-dimensional systems.
+
+
 \subsection{Electrostatic Interactions Through 2D Sheet}
 \label{sec:electr-inter-thro}
+
+% 20191009-1324
+The electrostatic (Coulombic) interactions are long-range forces that
+can be extended to several nano\-meter or even micro\-meter scale.
+\worktodo{Cite griffith book}
+%
+On the contrary, with only one to few atoms perpendicular to its basal
+plane, the thickness of 2D materials can be much smaller than the
+length scale of electrostatic interactions.
+%
+As a consequence, a 2D material cannot fully screen the electric field
+(\ie the 2D layer is partially ``transparent'' to electrostatic
+interactions).
+%
+In bulk systems with mobile carries (electrons / holes in solid-state
+semiconductor, or ions in electrolyte solution), the characteristic
+length of electrostatic interactions is described using the Debye
+length $\lambda_{\mathrm{D}}$, which is defined as:
+\begin{equation}
+  \label{eq:intro-debye}
+  \lambda_{\mathrm{D}} = {\displaystyle \sqrt{
+      \frac{\varepsilon_{0} \varepsilon_{\mathrm{s}} k_{\mathrm{B}} T}
+      {e^{2} n_{\mathrm{s}}}
+    }}
+\end{equation}
+where $\varepsilon_{0}$ is the vacuum permittivity,
+$\varepsilon_{\mathrm{s}}$ is the relative permittivity of the system,
+$k_{\mathrm{B}}$ is the Boltzmann constant, $T$ is the temperature,
+$e$ is the unit charge, and $n_{\mathrm{s}}$ is the overall carrier
+density.
+%
+However, such definition may be not correct for a 2D material due to
+(i) the carrier density of a bulk system cannot be readily applied to
+a 2D sheet, and (ii) the electronic structures of 2D materials are
+completely ignored.
+%
+Indeed, theoretical investigation shows a more complex picture of the
+electrostatic interaction through 2D materials and their stacks.
+%
+Using a discrete model based on total energy optimization and taking
+into account of graphene's Dirac cone structure, Kuroda et
+al. demonstrate a non-linear behavior of the effective screening
+length $\lambda_{\mathrm{eff}}$ in multi-layer graphene (MLG). \worktodo{cite Kuroda PRL 2011}
+%
+Unlike $\lambda_{\mathrm{D}}$ in bulk systems which decays with
+$n_{\mathrm{s}}^{-1/2}$, $\lambda_{\mathrm{eff}}$ does not show a
+single power law with the doping density, and more interestingly,
+$\lambda_{\mathrm{eff}}$ saturates when doping density decreases to
+zero, in contrast with $\lambda_{\mathrm{D}} \to \infty$ that would be
+expected in bulk systems.
+%
+The complexity of the electrostatic screening through graphene and
+other 2D materials has also been shown in both theoretical and
+experimental studies.  \worktodo{cite Uesugi, Sci Rep 2012, Goto NL
+  2013, Datta 2009 NL, LuHua Li NL 2015}
+%
+
+The partial penetration of electric field through 2D materials is
+the fundamental mechanism behind several 2D-material-based electronic
+devices such as the graphene barristor and vertical field effect
+transistor (VFET). \worktodo{cite Yang science \& Shih NL}
+%
+In these devices, the electric field from a dielectric layer
+penetrates graphene (or other 2DEGs) and changes the interfacial
+states at the semiconductor/2DEG junction, to enable on/off switch of
+current passing through the semiconductor.
+%
+The operation mechanism of such devices are widely thought to be
+modulated by the interfacial transport barrier. \worktodo{cite yang
+  science and 2 others} However, this cannot fully explain the other
+features such as selective carrier injection at the semiconductor /
+2DEG \worktodo{should separate or without blank?} \worktodo{cite Shih NL}
+%
+Moreover, the influence of the penetrated field on the adjacent
+semiconductor is usually ignored.
+%
+Therefore, a complete theoretical framework taking account of the
+previous concerns is of high demand.
+
+An even more challenging issue is the penetration of electric field
+through 2D vdWHs. The non-linear electrostatic screening observed for
+homogeneous 2D stacks can be more complex, hen combining 2D material
+build blocks with distinct electronic properties and stacking order.
+%
+A few theoretical efforts have been made to elucidate the influence of
+external electric field on the 2D vdWHs. \worktodo{cite DTU 2017 NL,
+  ACS AMI, Santos paper X2}
+%
+However, such studies usually employ full-scale first principle
+simulations, which is time-consuming and is hard for up-scaling
+studies.
+%
+Simplified models that can capture more insights are therefore of high
+interest, in order to help understand the exotic electrostatic behaviors of 2D
+vdWHs and to provide guideline for device design.
+
+
+
 
 \subsection{Dielectric Properties of 2D Systems}
 \label{sec:diel-prop-2d}
 
 \subsection{Van der Waals Interactions and Wetting Phenomena}
 \label{sec:van-der-waals}
+
+
+\section{Scope of the thesis}
+\label{sec:scope-thesis}
 
 
 
