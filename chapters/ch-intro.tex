@@ -113,7 +113,7 @@ either experimental or computational discoveries, are listed in
   \label{tab:category-2D}
   \begin{tabularx}{1.00\textwidth}{XXXX}
     \hline
-    Prototype  & Example Formula  & Lattice Symmetry & Example Materials \\
+    Prototype  & Sample Formula  & Symmetry & Examples \\
     \hline
     Graphene & C\textsubscript{2} &  P6/mmm & Graphene, Silicene, Germanene \\
     Graphane & C\textsubscript{2}H\textsubscript{2} &  P3m1 & Graphane, Fluorographene\\
@@ -168,7 +168,7 @@ electron, and $\delta$ is the Dirac delta function. Without losing
 generality, the DOS can be expressed using the law of chains:
 \begin{equation}
   \label{eq:dos-chain}
-  \mathrm{DOS} = \frac{\partial N}{\Omega \partial k} \frac{\partial k}{\partial E}
+  \mathrm{DOS}(E) = \frac{\partial N}{\Omega \partial k} \frac{\partial k}{\partial E}
                = \frac{k}{2 \pi} \left(\frac{\partial E(k)}{\partial k}\right)^{-1}
 \end{equation}
 where $k=|\mathbf{k}|$ is the modulus of $\mathbf{k}$.
@@ -1363,7 +1363,8 @@ electrostatic interaction through 2D materials and their stacks.
 Using a discrete model based on total energy optimization and taking
 into account of graphene's Dirac cone structure, Kuroda et
 al. demonstrate a non-linear behavior of the effective screening
-length $\lambda_{\mathrm{eff}}$ in multi-layer graphene (MLG). \worktodo{cite Kuroda PRL 2011}
+length $\lambda_{\mathrm{eff}}$ in multi-layer graphene
+(MLG). \worktodo{cite Kuroda PRL 2011, Rokni Sci Rep}
 %
 Unlike $\lambda_{\mathrm{D}}$ in bulk systems which decays with
 $n_{\mathrm{s}}^{-1/2}$, $\lambda_{\mathrm{eff}}$ does not show a
@@ -1418,10 +1419,60 @@ interest, in order to help understand the exotic electrostatic behaviors of 2D
 vdWHs and to provide guideline for device design.
 
 
-
-
 \subsection{Dielectric Properties of 2D Systems}
 \label{sec:diel-prop-2d}
+
+% 20191009-1745
+When an insulating material is placed under external electric field
+$\mathbf{E}_{\mathrm{ext}}$, the electron cloud is distorted from its
+equilibrium state and creates induced dipoles, a process known as
+dielectric polarization. The induced dipoles screen the external
+electric field and causes the electric field inside the material,
+$\mathbf{E}$ to be smaller than $E_{\mathrm{ext}}$.
+%
+Such response of a material to a dynamic electric field is
+characterized by the dielectric function $\varepsilon$ (also known as
+relative permittivity).
+%
+$\varepsilon$ is defined as the ratio between the magnitudes of
+$\mathbf{E}$ and $\mathbf{E}_{\mathrm{ext}}$ and has a complex value.
+%
+It plays a central role in electromagnetism and is connected
+to various physical quantities, including optical absorption, electric
+conductivity, electric capacitance, impurity energy level, Debye
+screening length and vdW interaction coefficient.
+\worktodo{think of citing these?}
+%
+In the context of 2D materials, $\varepsilon$ is widely used to
+interpret several energy scales, in particular the exciton binding
+energy of direct-gap TMDCs and hBN.
+%
+However, values of $\varepsilon$ for a certain material in literature
+usually has discrepancy of 1$\sim{}$2 orders of magnitude. \worktodo{cite paper 9-13 from Elton ACS Nano, and Li Chem Soc Rev}
+%
+Such inconsistency causes even worst estimation of corresponding
+energy levels (for instance, the exciton binding energy is usually
+assumed to be proportional $\varepsilon^{-2}$).
+%
+Even in the theoretical studies, the dielectric screening of 2D
+materials are still under huge debate.  The $\varepsilon$ values
+reported for a 2D material range from near unity (\ie no dielectric
+screening) to almost equal to $\varepsilon$ in its bulk counterpart
+(\ie no difference between 2D and 3D cases). \worktodo{you know what to cite}
+%
+Moreover, whether the quantum confined structure causes anisotropy in
+the $\varepsilon$ of a 2D material, is still questionable.
+%
+Clearly, precisely determining the dielectric properties of 2D
+materials is critical to build correct physical models of these
+low-dimensional materials.
+
+
+
+
+
+
+
 
 \subsection{Van der Waals Interactions and Wetting Phenomena}
 \label{sec:van-der-waals}
