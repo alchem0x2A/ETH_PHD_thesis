@@ -1467,15 +1467,183 @@ Clearly, precisely determining the dielectric properties of 2D
 materials is critical to build correct physical models of these
 low-dimensional materials.
 
-
-
-
-
-
-
+%
+% 20191010-0947
+In addition to the disputed fundamental definition of the dielectric
+properties (such as $\varepsilon$) of a 2D material, there are also
+complexities \worktodo{I don't this sentence, try to change it?}
+%
+The electronic structure of a 2D material or vdWH can be greatly
+influenced by external electric field, such as modulating the bandgap,
+\worktodo{ite paper 11-20 in Kumar phosphorene paper} and even
+inducing transition from parabolic dispersion to Dirac cone in the
+electronic band structure \worktodo{cite paper 21 and 22}.
+%
+Similarly, the dielectric properties of 2D materials and vdWHs are
+also shown to be electric-field-dependent from first principle
+simulations,
+%
+including multilayer stacks of graphene \worktodo{Elton NL}, TMDCs,
+GaS, phosphorene, and heterostructure of hBN/graphene.
+%
+A commonly
+observed trend is the nonlinear increasing of the dielectric response
+under stronger fields ($>$ 0.01 ev/\AA{}).
+%
+Such phenomena have clearly different origin compared with the
+field-dependent $\varepsilon$ observed in some bulk para- and
+ferro-electric materials, which is usually shows decreasing
+$\varepsilon$ upon stronger electric field.  \worktodo{cite Hemberger,
+  Maiti and christen}
+%
+Some studies attribute that the field-dependent dielectric properties
+of 2D materials and vdWHs to the change of electronic band structure
+and potential insulator-conductor transition, while the exact
+description and predictions for other materials combinations, are
+still missing.\worktodo{Add some more here}
+%
 
 \subsection{Van der Waals Interactions and Wetting Phenomena}
 \label{sec:van-der-waals}
+
+% 20191010-1055
+As discussed in \autoref{sec:intro-mol-subst}, with the layer
+thickness of only few \AA{}, the ultra\-thin 2D material sheets may
+not only be partially transparent to long-range electrostatic
+interactions, but also short-range vdW forces.
+%
+The partial penetration of vdW interactions through a 2D material
+sheet is in principle possible since the thickness (e.g. $\sim{}$3.3
+\AA{} for graphene) is still shorter than the effective length scale
+of vdW interactions ($\sim{}$ 1 nm).\worktodo{where to cite?}
+%
+In literature, such hypothesis is usually examined by two approaches:
+the liquid wettability or solid-state molecular epitaxy on supported
+2D material surfaces.
+%
+Although many studies claim the validity of the vdW- or
+wetting-transparency through 2D materials, the interpretations of
+experimental data usually vary greatly between cases.
+%
+For instance, Rafiee, Mi et al reported that the liquid contact angle
+(CA) on graphene supported by gold or silicon substrates would be
+almost identical to that observed on bare substrates, leading to the
+claim of complete wetting transparency of graphene \worktodo{cite
+  rafiee}.
+%
+However, this analysis is later shown to be incomplete due to complete
+ignoring the liquid-graphene interactions, as discussed in
+\autoref{sec:inter-forc-at}.
+%
+A more complete theoretical model developed by Shih et al
+\worktodo{cite} based on the pair-wise vdW interaction and Boltzmann
+distribution of liquid molecules predicts that the contact angle on
+substrate-supported graphene, would be saturated below 100$^{\circ}$,
+which renders the graphene sheet as ``wetting translucent''.
+%
+The controversy of ``wetting transparency'' or ``wetting
+translucency'', is however not completely settled.
+%
+The cause of the dilemma is two-fold: (i) the wetting properties on
+graphene and other 2D materials, depend greatly on the experimental
+conditions, and (ii) the physical model describing the interfacial vdW
+interactions can be incomplete. We will briefly extend on these topics
+in following paragraphs
+
+%
+In principle, the intrinsic wettability of a 2D material, should be
+measured using suspended sheets to exclude effects from the underlying
+substrate.
+%
+However, in reality this is extremely hard to achieve due to the large
+mismatch between the size of a droplet using conventional contact
+angle goniometer ($>$0.1 mm) and the largest size of suspended 2D
+material so far ($<$10 μm) \worktodo{is it true?}
+%
+As a result, most reported values of water contact angle of graphene
+are still performed on substrate-supported samples, with CA ranging
+from below 50$^{\circ}$ to almost 180$^{\circ}$.
+%
+In addition, the transfer process of 2D materials usually leaves
+polymer residues and other defects on the surface, which are also
+shown to affect the CA on 2D material surfaces. \worktodo{cite Kobizal
+  papers}
+%
+Moreover, even if polymer- and defect-free 2D material samples can be
+obtained, the CA is also shown to be influenced by air-born
+hydrocarbon contaminations under ambient, causing a
+hydrophilic-to-hydrophobic transition \worktodo{cite Li liu paper}
+that ubiquitously found in graphene and TMDC samples.
+%
+Clearly, any theoretical model dealing with liquid wetting on 2D
+material interfaces that makes use of the ``intrinsic'' vdW
+interaction coefficients, would be affected by the
+large uncertainty of reported wettability.
+%
+On the contrary, the above issues concerning contamination can be
+effectively minimized in molecular epitaxy, which is usually operated
+under high vacuum and annealed conditions.
+%
+\worktodo{cite ME papers}
+%
+The studies using molecular epitaxy usually compare the morphology and
+nucleation density of target molecules deposited onto various 2D
+materials supported by different substrates.
+%
+Although various studies demonstrate the validation of vdW
+transparency through molecular epitaxy, the conclusions are in general
+indirect and only limited at qualitative level.
+%
+Moreover, as described in \autoref{sec:intro-3D-2D}, the nanoscale 3D
+molecular epitaxy is a collective result of both thermodynamic and
+kinetic processes, making the analysis more difficult than the case of
+macroscopic wetting phenomena.
+
+
+Another open question is whether our understandings of interfacial vdW
+interactions are complete. For instance, most of the theories about
+vdW transparency \worktodo{cite shih and Sci rep paper} assumes the
+vdW interactions between the substrate and liquid phase is reduced due
+to the thickness of the 2D material layer.
+%
+The accuracy of such assumption is questionable: using accurate atomic
+force spectroscopy, Tsoi et al. showed the molecule-substrate vdW
+interaction coefficient (the Hamaker constant \worktodo{cite Hamaker
+  paper}), actually changes by varying the 2D material.
+%
+\worktodo{consider these works \cite{Kong_2012_gr_screen,Cho_2012_c60_gr_decoupl,Tsoi_2014_vdW_screening_2D,Zheng_2016_org_tmdc_screen,Gurarslan_2016_MoS2_vdW_iso}.}
+Such many-body effect are not considered in current frameworks of
+ground-state density functional theory (DFT) and molecular dynamics
+(MD), making the study of such effects particularly difficult.
+%
+Moreover, the low DOS near the intrinsic Fermi level
+~\cite{Das_Sarma_2011_electron_gr,Bhimanapati_2015_2D_rev} of 2D
+materials ensures they be easily doped by either substrate-2D material
+interactions
+~\cite{Varchon_2007_doping,Giovannetti_2008_doping,Chen_2013_doping}
+or an electric displacement
+field~\cite{Das_2008_doping,Perera_2013_doping}. \worktodo{cite more
+  self work}
+%
+Several works have indicated the potential influence of 2D layer
+doping with the change of interfacial wettability and molecular
+orientation \worktodo{cite 2 NL paper, Hutmann, Nguyen paper etc}.
+%
+It is possible that the doping effect can be important for several
+experimental systems such as wetting graphene\allowbreak{}/\allowbreak{}metal
+surface. \worktodo{cite the 2 MESA+ paper}
+%
+Therefore In order to precisely determine the vdW transparency , one
+needs to decouple it from the substrate-induced doping effect of 2D
+materials, as addressed above
+\cite{Huttmann_2015_vdw_gr_doping,Muruganathan_2015_tunable_vdw_gr,Hong_2016_mechanism,Ashraf_2016_doping}.
+
+
+
+
+
+
+
 
 
 \section{Scope of the thesis}
