@@ -295,9 +295,9 @@ text.usetex         : True  ## use latex for all text handling. The following fo
 #axes.grid.which     : major   ## gridlines at major, minor or both ticks
 axes.titlesize      : large   ## fontsize of the axes title
 axes.titleweight    : normal  ## font weight of title
-axes.titlepad       : 3.0     ## pad between axes and title in points
+axes.titlepad       : 4.0     ## pad between axes and title in points
 axes.labelsize      : large  ## fontsize of the x any y labels
-axes.labelpad       : 3.0     ## space between label and axis
+axes.labelpad       : 4.0     ## space between label and axis
 axes.labelweight    : normal  ## weight of the x and y labels
 #axes.labelcolor     : black
 #axes.axisbelow      : line    ## draw axis gridlines and ticks below

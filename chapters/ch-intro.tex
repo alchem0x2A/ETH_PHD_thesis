@@ -1,7 +1,7 @@
 % \chapter{Introduction}
 \chapter{Two-Dimensional Materials and Interfaces}
 \label{ch:introduction}
-\newcommand*\imgdir{img/ch-intro/}
+\newcommand*\imgdir{img/intro/}
 
 \dictum[Wolfgang Pauli]{%
   God made the bulk;\\Surfaces were invented by the devil
@@ -20,25 +20,28 @@
 \label{sec:ch-intro-2D}
 Controlling the dimensionality of materials provides rich
 opportunities of tuning the electronic, optical and mechanical
-properties which facilitates novel devices and applications.
-\worktodo{put more things inside and make claim clear} \worktodo{put
-  1-3 refs}. Good example of such material design are the
-two-dimensional (2D) materials, which are covalently-bonded
-crystalline films with only one- or few-atom thickness. \worktodo{HH??
-  Change wording}
+properties which facilitates novel devices and applications~\cite{Davies_1997_book,Ihn_2009_book}.
 %
-Starting from the first discovering of graphene, an allotrope of
-carbon in 2004\worktodo{cite Geim}, the family of 2D materials has
-expanded significantly throughout the last decade. \worktodo{cite
-  Novoselov and 2 papers} The electronic properties of 2D materials
-cover a wide spectrum ranging from insulators to superconductors,
-making them promising candidates to replace conventional bulk
-materials in semiconductor industries. \worktodo{cite 1-2}.
+The two-dimensional (2D)
+materials~\nocite{Novoselov_2012_roadmap,Mas_Ballest_2011_review,Bhimanapati_2015_2D_rev,Butler_2013_review,Novoselov_2016_vdW,Mannix_2017}
+are good example of such material design are, which are
+covalently-bonded crystalline films with only one- or few-atom
+thickness.
+%
+Starting from the first discovering of
+graphene~\cite{Novoselov_2004_gr}, an allotrope of carbon, the family
+of 2D materials has expanded significantly throughout the last
+decade~\cite{Butler_2013_review,Das_2015_beyond_gr,Novoselov_2016_vdW}.
+%
+The electronic properties of 2D materials cover a wide spectrum
+ranging from insulators to superconductors, making them promising
+candidates to replace conventional bulk materials in semiconductor
+industries~\cite{Xia_2014,Bhimanapati_2015_2D_rev}.
 %
 This section aims to give a brief introduction about the structures,
-electronic properties and fabrication techniques, which serves as a
-prelude for introducing the 2D materials interfaces.
-\worktodo{again, change last part}
+electronic properties and fabrication techniques of 2D materials, as a
+prelude for introducing the 2D material interfaces in
+\autoref{sec:2d-mater-interf}.
 
 % Understanding and engineering the
 % interfaces of 2D materials are important to achieve practical uses of
@@ -51,51 +54,76 @@ prelude for introducing the 2D materials interfaces.
 \subsection{Categories of 2D Materials}
 \label{sec:categ-2d-mater}
 
-So far, there have been no naturally-existing isolated 2D
-materials. The closest form is the layered bulk materials, in which
-interlayer interactions are governed by van der Waals (vdW) forces.
+So far, no naturally-existing isolated 2D
+materials have been discovered.
+%
+The closest form is the layered bulk materials, in which interlayer
+interactions are governed by van der Waals (vdW)
+forces~\citetitle{Israelachvili_2011_book}.
 %
 With proper separation techniques, these layered materials can be
-thinned to a few layers or even single layer.
+thinned to few- or even mono\-layer sheets.
 %
 The best-known example is the mechanical exfoliation of 2D layer from graphite,
-now known as graphene. \worktodo{cite geim}
+now known as graphene~\cite{Novoselov_2004_gr}.
 %
-Using such technique, monolayers exfoliated from naturally-existing
-layered bulk materials were achievable. Examples include the hexagonal
-boron nitride (hBN), transition metal dichalcogenides (TMDCs, with
-general chemical composition MX\textsubscript{2}, where M is a
-transition metal and X is S, Se or Te), monochalcogenides (GaS, GaSe),
-monolayer black phosophorus (BP) and MXene (M = Ti, Nb, V, Ta, etc.,
-X = C or N).
+Using such technique, mono\-layer 2D materials exfoliated from naturally-existing
+layered bulk materials were achievable.
 %
-The family of 2D materials that have been experimentally discovered,
-has extended from only 1 in 2004 to over 100 \worktodo{really?} as of
-2019, corresponding to an average discovery of about 6 new materials
-each year. \worktodo{correct?}
+Examples include the hexagonal boron
+nitride\cite{Cavar_2008_hBN_Pt,Gorbachev_2011} (hBN), transition metal
+dichalcogenides~\cite{Mak_2010_mos2} (TMDCs, with general chemical
+composition MX\textsubscript{2}, where M is a transition metal and X
+is S, Se or Te), monochalcogenides~\cite{Late_2012_GaS} (GaS, GaSe),
+monolayer black phosphorus\cite{Li_2014_BP} (BP, also known as
+phosphorene) and MXene~\cite{Naguib_2011_Mxene} (M = Ti, Nb, V, Ta,
+etc., X = C or N).
 %
-Apparently, the known 2D materials are still scarce and limited
-compared with the bulk materials,
-due to the huge experimental effort
-required to synthesize, isolate and characterize 2D materials limit
-the speed of novel 2D material discovery.
+The research interest in graphene and other 2D materials have been
+steadily increasing over the last decade, in particular after the
+Noble Prize awarding for graphene (~\autoref{fig:intro-papers}).
+%
+Moreover, the family of 2D materials that have been experimentally
+identified has also greatly expanded
+\cite{Bhimanapati_2015_2D_rev,Mannix_2017}.
+
+\begin{figure}[htbp]
+  \centering
+  \import{\imgdir}{scholar.pgf}
+  \caption{\label{fig:intro-papers} %
+    Research trend of several 2D materials (measured by average number
+    of publications per year) including graphene, hBN,
+    MoS\textsubscript{2} and phosphorene. Data retrieved from google
+    scholar with a time interval of 3 years.  }
+\end{figure}
+
+%
+However, comparing with the bulk materials, the known 2D materials are
+still scarce and limited compared, due to the
+huge experimental effort required to synthesize, isolate and
+characterize 2D materials that limit the speed of novel 2D material
+discovery.
 % 
 In view of this, computer-aided material design (CAMD) was
-demonstrated in several works to help find new 2D materials either
-from high-throughput materials database screening or \textit{ab
-  initio} calculations. As a pioneer study, Lebègue et al. performed
+demonstrated in several works to help find new 2D materials from
+high-throughput materials database screening and \textit{ab initio}
+calculations~\cite{Lebegue_2013_prx,Zhuang_2013_database,Haastrup_2018_database,Mounet_2018_database,Zhou_2019_database}.
+%
+As a pioneer study, Lebègue et al.~\cite{Lebegue_2013_prx} performed
 data mining on the crystal structures listed in the International
 Crystallographic Structural Database (ICSD) to filter out a total
 number of 92 layered bulk crystals and to generate corresponding 2D
-materials. As an extension, Mounet et al. proposed new algorithm with
-more robust criteria for dimensionality and found over 5000 layered
-materials, among which over 1800 can be easily or potentially
-exfoliated according to \textit{ab initio} calculations.
+materials. As an extension, Mounet et al.~\cite{Mounet_2018_database}
+proposed new algorithm with more robust criteria for dimensionality
+and found over 5000 layered materials, among which over 1800 can be
+easily or potentially exfoliated according to \textit{ab initio}
+calculations.
 %
-Another example is the combinational design of new 2D materials, which
-starts with a known structure (for example MX\textsubscript{2}) and
-replace with other elements. This allows the discovery of over 3700
-thermo-dynamically stable 2D materials, among which most chemical
+Another example is the combinatorial design of new 2D materials.
+Starting with a known structure (for example MX\textsubscript{2}) and
+replace with other elements, Haastrup et
+al.~\cite{Haastrup_2018_database} identify over 3700
+thermo\-dynamically stable 2D materials, among which most chemical
 compositions are not yet discovered experimentally.
 
 These computational studies broaden our knowledge about 2D
@@ -121,7 +149,7 @@ either experimental or computational discoveries, are listed in
     2H-MX\textsubscript{2} & MoS\textsubscript{2} & P$\overline{3}$m2 & 2H-MoS\textsubscript{2}, 2H-MoS2\textsubscript{2}, 2H-WS\textsubscript{2} \\
     1T-MX\textsubscript{2} & CdI\textsubscript{2} & P$\overline{3}$m1 & 1T-MoS\textsubscript{2}, CdI\textsubscript{2}\\
     BP & P\textsubscript{4} & Pmna & Phosphorene, Arsenene \\
-    Monochalcogenidec & Ga\textsubscript{2}S\textsubscript{2} & P$\overline{3}$m2 & Ga\textsubscript{2}S\textsubscript{2}, Ga\textsubscript{2}Se\textsubscript{2} \\
+    Mono\-chalcogenide & Ga\textsubscript{2}S\textsubscript{2} & P$\overline{3}$m2 & Ga\textsubscript{2}S\textsubscript{2}, Ga\textsubscript{2}Se\textsubscript{2} \\
     Bismuth iodide &  Bi\textsubscript{2}I\textsubscript{6} & P$\overline{3}$m1 & Bi\textsubscript{2}I\textsubscript{6}, Al\textsubscript{2}Cl\textsubscript{6} \\
     Iron oxychloride                &  Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2} & Pmmn & Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2}, Fe\textsubscript{2}O\textsubscript{2}Br\textsubscript{2}  \\
     MXene & Ti\textsubscript{x}C\textsubscript{y} & P$\overline{3}$m2 & Ti\textsubscript{3}C\textsubscript{2}, Ti\textsubscript{4}N\textsubscript{4}, Mo\textsubscript{2}TiC\textsubscript{2} \\
@@ -132,6 +160,8 @@ either experimental or computational discoveries, are listed in
 
 \subsection{Basic Electronic Properties of 2D Materials}
 \label{sec:basic-electr-prop}
+
+
 
 The common feature of 2D materials is the absence of dangling bonds at
 the surface, as a results, the electrons are highly confined within

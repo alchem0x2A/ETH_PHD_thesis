@@ -12,7 +12,7 @@ display = dict(graphene="Graphene",
                p="Phosphorene / BP")
 def plot_main():
     fig, ax = gridplots(1, 1,
-                        r=0.8)
+                        r=0.95)
 
     try:
         data = np.load(results, allow_pickle=True)
@@ -27,12 +27,21 @@ def plot_main():
             count = count[:-1]  # Hardcore
         count[:-1] = count[:-1] / 3
         count[-1] = count[-1] / 2.7
-        ax.plot(year, count , "-", label=n)
+        ax.plot(year, count / 1e4 , "-", label=n)
     ax.legend()
     ax.set_xlabel("Year")
-    ax.set_ylabel("No. Publications / Year")
+    ax.set_ylabel("No. Publications / Year $\\times{}10^{4}$")
+    ax.set_xlim(1990, 2019)
+    l1 = ax.axvline(x=2004, ls="--", color="#757575")
+    l2 = ax.axvline(x=2010, ls="--", color="#757575")
+    ax.text(x=2003.8, y=2, s="Discovery of graphene →", ha="right",
+            # size="small"
+    )
+    t= ax.text(x=2009.8, y=3, s="Nobel prize for graphene →", ha="right",
+            # size="small"
+    )
 
-    ax.set_yscale("log")
+    # ax.set_yscale("log")
     savepgf(fig, img_path / "scholar.pgf", preview=True)
 
 
