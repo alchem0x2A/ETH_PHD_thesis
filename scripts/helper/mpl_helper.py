@@ -51,7 +51,10 @@ def gridplots(nrows=1, ncols=1, span=[],
     if (span is None) or (span == []) \
        or (ncols == 1 and nrows == 1):
         axs = fig.subplots(nrows, ncols, **args)
-        return fig, axs.flatten()
+        try:
+            return fig, axs.flatten()
+        except AttributeError:
+            return fig, axs     # 1x1 plot
     else:
         try:
             gs_kw = args["gridspec_kw"]
