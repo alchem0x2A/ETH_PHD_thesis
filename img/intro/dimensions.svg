@@ -158,7 +158,7 @@
          id="tspan20711"
          x="1.0690782"
          y="4.8636518"
-         style="stroke-width:0.26458332">\Large\bfseries a</tspan></text>
+         style="stroke-width:0.26458332">\large\bfseries a</tspan></text>
     <text
        id="text20717"
        y="4.8636518"
@@ -169,7 +169,7 @@
          y="4.8636518"
          x="79.914902"
          id="tspan20715"
-         sodipodi:role="line">\Large\bfseries b</tspan></text>
+         sodipodi:role="line">\large\bfseries b</tspan></text>
     <text
        id="text20721"
        y="56.192825"
@@ -180,7 +180,7 @@
          y="56.192825"
          x="1.0690782"
          id="tspan20719"
-         sodipodi:role="line">\Large\bfseries c</tspan></text>
+         sodipodi:role="line">\large\bfseries c</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -191,6 +191,6 @@
          id="tspan20723"
          x="79.914902"
          y="56.192825"
-         style="stroke-width:0.26458332">\Large\bfseries d</tspan></text>
+         style="stroke-width:0.26458332">\large\bfseries d</tspan></text>
   </g>
 </svg>
