@@ -76,7 +76,7 @@ def plot_main():
             ax_.set_ylabel("Energy (eV)", size="medium")
         ax_.text(x=0.50, y=5.5 / 12, s="$E_{\\mathrm{g}}$ = " \
                  + "{0:.1f} eV".format(gap[name]),
-                 size="small",
+                 # size="small",
                  transform=ax_.transAxes)
         ax_.set_xticks(kpts)
         ax_.axhline(y=0, ls="--", color="#ACACAC", linewidth=1.0)
