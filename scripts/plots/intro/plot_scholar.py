@@ -9,7 +9,8 @@ results = data_path / "scholar_result.npz"
 display = dict(graphene="Graphene",
                hbn="hBN",
                mos2="MoS$_{2}$",
-               p="Phosphorene / BP")
+               p="Phosphorene / BP",
+               perov="2D Perovskite")
 def plot_main():
     fig, ax = gridplots(1, 1,
                         r=0.95)
@@ -25,23 +26,24 @@ def plot_main():
         year, count = data[k]
         if len(count) > len(year):
             count = count[:-1]  # Hardcore
-        count[:-1] = count[:-1] / 3
-        count[-1] = count[-1] / 2.7
-        ax.plot(year, count / 1e4 , "-", label=n)
-    ax.legend()
+        # count[:-1] = count[:-1] / 3
+        # count[-1] = count[-1] / 2.7
+        ax.plot(year + 1, count , "-o", label=n)
     ax.set_xlabel("Year")
-    ax.set_ylabel("No. Publications / Year $\\times{}10^{4}$")
-    ax.set_xlim(1990, 2019)
-    l1 = ax.axvline(x=2004, ls="--", color="#757575")
+    ax.set_ylabel("No. Publications / Year")
+    ax.set_xlim(2002, 2019)
+    ax.set_xticks(range(2002, 2019, 2))
+    # l1 = ax.axvline(x=2004, ls="--", color="#757575")
     l2 = ax.axvline(x=2010, ls="--", color="#757575")
-    ax.text(x=2003.8, y=2, s="Discovery of graphene →", ha="right",
+    ax.text(x=2009.8, y=2e4, s="Noble Prize for graphene →", ha="right",
             # size="small"
     )
-    t= ax.text(x=2009.8, y=3, s="Nobel prize for graphene →", ha="right",
+    # t= ax.text(x=2009.8, y=3, s="Nobel prize for graphene →", ha="right",
             # size="small"
-    )
+    # )
 
-    # ax.set_yscale("log")
+    ax.legend(loc="lower right")
+    ax.set_yscale("log")
     savepgf(fig, img_path / "scholar.pgf", preview=True)
 
 

@@ -72,7 +72,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="272.84039"
+     inkscape:cx="77.880948"
      inkscape:cy="122.08276"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -84,8 +84,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1440"
      inkscape:window-height="878"
-     inkscape:window-x="12"
-     inkscape:window-y="7"
+     inkscape:window-x="-90"
+     inkscape:window-y="51"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata17876">
@@ -95,7 +95,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -107,47 +107,47 @@
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/1D_hetero_output.png0001.png"
        xlink:href="3D/1D_hetero_output.png0001.png"
-       transform="matrix(0.13625796,0,0,0.13625796,-18.083264,-106.20509)"
-       clip-path="url(#clipPath20691)"
-       width="677.33331"
-       height="381"
-       preserveAspectRatio="none"
-       id="image20647"
+       y="774.7619"
        x="662.21429"
-       y="774.7619" />
-    <image
-       sodipodi:absref="./3D/2D_vdwe_output.png0001.png"
-       y="73.238098"
-       x="601.7381"
-       id="image20658"
-       xlink:href="file:///./3D/2D_vdwe_output.png0001.png"
+       id="image20647"
        preserveAspectRatio="none"
        height="381"
        width="677.33331"
+       clip-path="url(#clipPath20691)"
+       transform="matrix(0.13625796,0,0,0.13625796,-18.083264,-106.20509)" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/2D_vdwe_output.png0001.png"
+       xlink:href="3D/2D_vdwe_output.png0001.png"
+       transform="matrix(0.13625796,0,0,0.13625796,-92.706023,38.26067)"
        clip-path="url(#clipPath20695)"
-       transform="matrix(0.13625796,0,0,0.13625796,-92.706023,38.26067)" />
+       width="677.33331"
+       height="381"
+       preserveAspectRatio="none"
+       id="image20658"
+       x="601.7381"
+       y="73.238098" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/3D_vdwe_output.png0001.png"
        xlink:href="3D/3D_vdwe_output.png0001.png"
-       transform="matrix(0.14950225,0,0,0.14840125,114.29162,-38.205365)"
-       clip-path="url(#clipPath20707)"
-       width="677.33331"
-       height="381"
-       preserveAspectRatio="none"
-       id="image20669"
+       y="587.28571"
        x="-329.59525"
-       y="587.28571" />
+       id="image20669"
+       preserveAspectRatio="none"
+       height="381"
+       width="677.33331"
+       clip-path="url(#clipPath20707)"
+       transform="matrix(0.14950225,0,0,0.14840125,114.29162,-38.205365)" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/graphene_ripple_output.png0001.png"
        xlink:href="3D/graphene_ripple_output.png0001.png"
-       transform="matrix(0.13625796,0,0,0.13625796,37.491697,-8.1065933)"
-       clip-path="url(#clipPath20699)"
-       width="677.33331"
-       height="381"
-       preserveAspectRatio="none"
-       id="image20680"
+       y="42.999996"
        x="-353.78571"
-       y="42.999996" />
+       id="image20680"
+       preserveAspectRatio="none"
+       height="381"
+       width="677.33331"
+       clip-path="url(#clipPath20699)"
+       transform="matrix(0.13625796,0,0,0.13625796,37.491697,-8.1065933)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -172,12 +172,12 @@
          sodipodi:role="line">\Large\bfseries b</tspan></text>
     <text
        id="text20721"
-       y="55.663658"
+       y="56.192825"
        x="1.0690782"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="stroke-width:0.26458332"
-         y="55.663658"
+         y="56.192825"
          x="1.0690782"
          id="tspan20719"
          sodipodi:role="line">\Large\bfseries c</tspan></text>
@@ -185,12 +185,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="79.914902"
-       y="55.663658"
+       y="56.192825"
        id="text20725"><tspan
          sodipodi:role="line"
          id="tspan20723"
          x="79.914902"
-         y="55.663658"
+         y="56.192825"
          style="stroke-width:0.26458332">\Large\bfseries d</tspan></text>
   </g>
 </svg>

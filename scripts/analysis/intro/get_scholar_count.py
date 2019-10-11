@@ -41,12 +41,13 @@ def get_count(kw):
     except IndexError:
         return 0
 
-def main(start=1980, end=2020, spacing=3):
+def main(start=2000, end=2020, spacing=1):
     years = np.arange(start, end, spacing)
     queries = dict(graphene="\"graphene\"",
                    hbn="\"hexagonal boron nitride\" OR \"boron nitride\" -\"cubic\"",
                    mos2="\"molybdenum disulfide\" OR \"MoS2\"",
-                   p="\"phosphorene\" OR \"black phosphorus\"")
+                   p="\"phosphorene\" OR \"black phosphorus\"",
+                   perov="\"perovskite\"")
     if results.is_file():
         data_ = np.load(results, allow_pickle=True)
         data = {k: data_[k] for k in data_.files}
@@ -59,7 +60,7 @@ def main(start=1980, end=2020, spacing=3):
             counts = np.ones_like(years[1:]) * -1
         for i, y in enumerate(years[1:]):
             if counts[i] <= 0:
-                kw = dict(q=q + " AND \"2D\"", start=y - 3, end=y)
+                kw = dict(q=q + " AND \"2D\"", start=y - spacing, end=y)
                 print("Now getting count for {} in year {}".format(k, y))
                 cnt = get_count(kw)
                 print(cnt)

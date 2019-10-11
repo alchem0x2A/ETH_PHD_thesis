@@ -94,7 +94,7 @@ identified has also greatly expanded
     Research trend of several 2D materials (measured by average number
     of publications per year) including graphene, hBN,
     MoS\textsubscript{2} and phosphorene. Data are retrieved from
-    Google scholar with a time interval of 3 years.  }
+    Google scholar with interval of 1 year. }
 \end{figure}
 
 %
@@ -132,24 +132,27 @@ systematical study to search for optimal 2D material according to
 their electronic and optical properties, and apply to real-world
 applications. As a summary, the most common types of 2D materials from
 either experimental or computational discoveries, are listed in
-\autoref{tab:category-2D}.
+\autoref{tab:category-2D}. For some materials like TMDCs, various
+thermo\-dynamically stable phases can exist, including 2H- (hexagonal)
+and 1T- (triagonal) symmetries.
 
 \begin{table}[htbp]
   \centering
   \caption{Summary of common 2D materials and their structures. The
-    formula refer to the chemical composition per unit cell.}
+    formula refer to the chemical composition per unit cell. The data
+    in this table is adapted from \autocite{Haastrup_2018_database}.}
   \label{tab:category-2D}
   \begin{tabularx}{1.00\textwidth}{XXXX}
     \hline
     Prototype  & Sample Formula  & Symmetry & Examples \\
     \hline
     Graphene & C\textsubscript{2} &  P6/mmm & Graphene, Silicene, Germanene \\
-    Graphane & C\textsubscript{2}H\textsubscript{2} &  P3m1 & Graphane, Fluorographene\\
-    hBN      & BN                & P$\overline{3}$m2 & h-BN \\
-    2H-MX\textsubscript{2} & MoS\textsubscript{2} & P$\overline{3}$m2 & 2H-MoS\textsubscript{2}, 2H-MoS2\textsubscript{2}, 2H-WS\textsubscript{2} \\
+    Graphane & C\textsubscript{2}H\textsubscript{2} &  P$\overline{3}$m1 & Graphane, Fluorographene\\
+    hBN      & BN                & P$\overline{6}$m2 & h-BN \\
+    2H-MX\textsubscript{2} & MoS\textsubscript{2} & P$\overline{6}$m2 & 2H-MoS\textsubscript{2}, 2H-MoS2\textsubscript{2}, 2H-WS\textsubscript{2} \\
     1T-MX\textsubscript{2} & CdI\textsubscript{2} & P$\overline{3}$m1 & 1T-MoS\textsubscript{2}, CdI\textsubscript{2}\\
     BP & P\textsubscript{4} & Pmna & Phosphorene, Arsenene \\
-    Mono\-chalcogenide & Ga\textsubscript{2}S\textsubscript{2} & P$\overline{3}$m2 & Ga\textsubscript{2}S\textsubscript{2}, Ga\textsubscript{2}Se\textsubscript{2} \\
+    Mono\-chalcogenide & Ga\textsubscript{2}S\textsubscript{2} & P$\overline{6}$m2 & Ga\textsubscript{2}S\textsubscript{2}, Ga\textsubscript{2}Se\textsubscript{2} \\
     Bismuth iodide &  Bi\textsubscript{2}I\textsubscript{6} & P$\overline{3}$m1 & Bi\textsubscript{2}I\textsubscript{6}, Al\textsubscript{2}Cl\textsubscript{6} \\
     Iron oxychloride                &  Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2} & Pmmn & Fe\textsubscript{2}O\textsubscript{2}Cl\textsubscript{2}, Fe\textsubscript{2}O\textsubscript{2}Br\textsubscript{2}  \\
     MXene & Ti\textsubscript{x}C\textsubscript{y} & P$\overline{3}$m2 & Ti\textsubscript{3}C\textsubscript{2}, Ti\textsubscript{4}N\textsubscript{4}, Mo\textsubscript{2}TiC\textsubscript{2} \\
@@ -157,6 +160,7 @@ either experimental or computational discoveries, are listed in
    \hline
 \end{tabularx}
 \end{table}
+\worktodo{check if symmetry correct}
 
 \subsection{Basic Electronic Properties of 2D Materials}
 \label{sec:basic-electr-prop}
@@ -165,8 +169,11 @@ either experimental or computational discoveries, are listed in
   \centering
   \import{\imgdir}{bs.pgf}
   \caption{\label{fig:intro-bs} %
-Band structure plots of selected 2D materials.
-  }
+    3D geometry and electronic band structures of \textbf{a} graphene,
+    \textbf{b} phosphorene, \textbf{c} MoS\textsubscript{2} and
+    \textbf{d} hBN. The band structures are calculated using density
+    functional theory (DFT) package GPAW~\cite{Mortensen_2005_gpaw}
+    and bandgap corrected according to experimental values.}
 \end{figure}
 
 
@@ -176,7 +183,7 @@ the 2D plane.
 %
 For instance, in graphene and hBN, the sp\textsuperscript{2} orbitals
 form covalent (σ) bonds, while the p-orbitals perpendicular to the 2D
-plane form delocalized π-electron cloud.
+plane form delocalized π-electron cloud. \worktodo{cite}
 %
 Such two-dimensional
 electron gas (2DEG) gives rise to dramatic change of its electronic
@@ -374,7 +381,7 @@ thickness. A short comparison between different fabrication methods can be seen 
 \section{The 2D Materials Interfaces}
 \label{sec:2d-mater-interf}
 %20191008-0939
-the 2D materials do not solely attract the research interests due to
+The 2D materials do not solely attract the research interests due to
 the unique electronic properties, they are also materials with ultra
 high surface-area-to-volume ratio intrinsically. As a consequence,
 interfaces are almost always required when integrating the 2D
@@ -405,6 +412,15 @@ materials \worktodo{say more?}
 
 \subsection{Interactions and Forces at the 2D Materials Interfaces}
 \label{sec:inter-forc-at}
+
+\begin{figure}[htbp]
+  \centering
+  \import{\imgdir}{interactions.pdf_tex}
+  \caption{\label{fig:intro-interactions} %
+    Scheme showing the interplay between various interactions at the
+    2D material interface.
+  }
+\end{figure}
 
 The concepts of interactions on 2D materials interfaces, can be
 learned from the field of molecular epitaxy and self-assembly on bulk
@@ -495,6 +511,18 @@ adsorption sites on 2D materials (such as the moiré patterns) also
 play an important role in the assembly of H-bond-governed molecular
 epitaxy.
 
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{hetero-epitaxy.pdf_tex}
+  \caption{\label{fig:intro-hetero} %
+    Comparison between conventional, covalent hetero\-epitaxy (vdWE)
+    (\textbf{a}), and vdW epitaxy (2D-2D epitaxy \textbf{b} and 3D-2D
+    epitaxy \textbf{c}). The absence of dangling bonds on 2D material
+    interface overcomes the interfacial strain that accompanies
+    conventional hetero\-epitaxy, and enables epitaxial growth of both
+    2D and 3D heterostructures with lattice mismatch.%
+  }
+\end{figure}
 
 \paragraph{Covalent Bond}
 In general, the interactions between the epitaxial molecules and 2D
@@ -844,6 +872,16 @@ dimensionality of the heterostructure on 2D materials. In general, two
 approaches are usually employed to fabricate such mixed-dimensional
 interfaces, namely self-assembly of small molecules, and deposition of
 pre-formed nano\-materials. \worktodo{say something more?}
+
+\begin{figure}[htbp]
+  \centering
+  \import{\imgdir}{dimensions.pdf_tex}
+  \caption{\label{fig:intro-dimensions} %
+    Schemes of 2D material interfaces with different dimensionalities:
+    \textbf{a} 0D-2D, \textbf{b} 1D-2D, \textbf{c} 2D-2D, and
+    \textbf{d} 3D-2D.           %
+  }
+\end{figure}
 
 \subsubsection{0D-2D Interface}
 \label{sec:intro-0D-2D}
@@ -1300,7 +1338,13 @@ epitaxial systems on 2D materials interfaces.
 
 
 \begin{table}[htbp]
-\centering
+  \centering
+  \caption{\label{tbl:intro-summary-multidimension}%
+    Summary of representative examples of multidimensional molecular
+    epitaxy on 2D materials interfaces, the governing interactions
+    involved and the comparison between the interactions discussed in
+    this section.               %
+  }
   \small
 \begin{tabularx}{1.0\textwidth}{XXXX}
 \hline
@@ -1319,8 +1363,6 @@ Dimensionality & Examples & Governing Interaction(s) & Comparison between Intera
  & 3D vdWE & Covalent bond,   vdW & Intermolecular \(\gg\) molecule-2D\\
 \hline
 \end{tabularx}
-\caption{\label{tbl:intro-summary-multidimension}
-Summary of representative examples of multidimensional molecular epitaxy on 2D materials interfaces, the governing interactions involved and the comparison between the interactions discussed in this section.}
 \end{table}
 
 
