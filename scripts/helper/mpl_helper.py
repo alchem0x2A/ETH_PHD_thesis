@@ -26,7 +26,7 @@ if len(preamble) > 0:
 
 _textwidth = _get_textwidth()
 if _textwidth is None:
-    _textwidth = 400            # Default values
+    _textwidth = 455.2            # Default values
 
 def relsize(r=1.0, width=_textwidth, ratio=1.618, ppi=72):
     """Relative figure size to \\textwidth"""

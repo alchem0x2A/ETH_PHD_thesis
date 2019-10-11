@@ -41,6 +41,7 @@ def _render_TeX(engine="lualatex"):
 
 
 def _get_textwidth(*arg, **argkw):
+    print(width_file)
     if width_file.is_file():     # read from previous results
         with open(width_file, "r") as f:
             s = f.readline().strip()
