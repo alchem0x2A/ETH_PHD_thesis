@@ -60,8 +60,8 @@ def plot_main():
         add_img_ax(ax[i], img_path / "3D" / "{0}.png".format(name))
         ax[i].text(x=-0.07, y=1, s="abcd"[i], weight="bold", size="x-large",
                    transform=ax[i].transAxes)
-        ax[i].text(x=0.5, y=1, s=names[name],
-                   ha="center", va="bottom",
+        ax[i].text(x=0.5, y=1.01, s=names[name],
+                   ha="center", va="baseline",
                    transform=ax[i].transAxes)
         ax_ = ax[i + 4]
         ax_.plot(all_kpts, vb, color=color[name], linewidth=1.0)
