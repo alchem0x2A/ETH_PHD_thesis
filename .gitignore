@@ -418,4 +418,8 @@ TSWLatexianTemp*
 *.spl
 /*.pdf
 
+%Other stuff
 *-img*.png
+*.blend1
+img/*/*.pdf
+img/*/*.pdf_tex
