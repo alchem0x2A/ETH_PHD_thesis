@@ -423,3 +423,9 @@ TSWLatexianTemp*
 *.blend1
 img/*/*.pdf
 img/*/*.pdf_tex
+*.pgf
+/img/intro/mos2.png
+/img/intro/p.png
+/img/intro/scholar.pgf
+/img/intro/gr.png
+/img/intro/bn.png

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6.0296564in"
+   height="3.8030331in"
+   viewBox="0 0 153.15327 96.597048"
+   version="1.1"
+   id="svg17879"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="dimensions.svg">
+  <defs
+     id="defs17873">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20691">
+      <rect
+         style="opacity:0.55400002;fill:#3e9698;fill-opacity:0.70588235;fill-rule:evenodd;stroke:#3f9698;stroke-width:0.17677926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect20693"
+         width="540.52692"
+         height="335.37549"
+         x="716.18951"
+         y="781.112" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20695">
+      <rect
+         y="94.427002"
+         x="680.37939"
+         height="335.37549"
+         width="540.52692"
+         id="rect20697"
+         style="opacity:0.55400002;fill:#3e9698;fill-opacity:0.70588235;fill-rule:evenodd;stroke:#3f9698;stroke-width:0.17677926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20699">
+      <rect
+         style="opacity:0.55400002;fill:#3e9698;fill-opacity:0.70588235;fill-rule:evenodd;stroke:#3f9698;stroke-width:0.17677926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect20701"
+         width="540.52692"
+         height="335.37549"
+         x="-275.14441"
+         y="61.165096" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20707">
+      <rect
+         y="601.9657"
+         x="-232.21434"
+         height="305.36685"
+         width="492.16177"
+         id="rect20709"
+         style="opacity:0.55400002;fill:#3e9698;fill-opacity:0.70588235;fill-rule:evenodd;stroke:#3f9698;stroke-width:0.16096143;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="272.84039"
+     inkscape:cy="122.08276"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="12"
+     inkscape:window-y="7"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata17876">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.0010811,-0.22763758)">
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/1D_hetero_output.png0001.png"
+       xlink:href="3D/1D_hetero_output.png0001.png"
+       transform="matrix(0.13625796,0,0,0.13625796,-18.083264,-106.20509)"
+       clip-path="url(#clipPath20691)"
+       width="677.33331"
+       height="381"
+       preserveAspectRatio="none"
+       id="image20647"
+       x="662.21429"
+       y="774.7619" />
+    <image
+       sodipodi:absref="./3D/2D_vdwe_output.png0001.png"
+       y="73.238098"
+       x="601.7381"
+       id="image20658"
+       xlink:href="file:///./3D/2D_vdwe_output.png0001.png"
+       preserveAspectRatio="none"
+       height="381"
+       width="677.33331"
+       clip-path="url(#clipPath20695)"
+       transform="matrix(0.13625796,0,0,0.13625796,-92.706023,38.26067)" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/3D_vdwe_output.png0001.png"
+       xlink:href="3D/3D_vdwe_output.png0001.png"
+       transform="matrix(0.14950225,0,0,0.14840125,114.29162,-38.205365)"
+       clip-path="url(#clipPath20707)"
+       width="677.33331"
+       height="381"
+       preserveAspectRatio="none"
+       id="image20669"
+       x="-329.59525"
+       y="587.28571" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/graphene_ripple_output.png0001.png"
+       xlink:href="3D/graphene_ripple_output.png0001.png"
+       transform="matrix(0.13625796,0,0,0.13625796,37.491697,-8.1065933)"
+       clip-path="url(#clipPath20699)"
+       width="677.33331"
+       height="381"
+       preserveAspectRatio="none"
+       id="image20680"
+       x="-353.78571"
+       y="42.999996" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.0690782"
+       y="4.8636518"
+       id="text20713"><tspan
+         sodipodi:role="line"
+         id="tspan20711"
+         x="1.0690782"
+         y="4.8636518"
+         style="stroke-width:0.26458332">\Large\bfseries a</tspan></text>
+    <text
+       id="text20717"
+       y="4.8636518"
+       x="79.914902"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="4.8636518"
+         x="79.914902"
+         id="tspan20715"
+         sodipodi:role="line">\Large\bfseries b</tspan></text>
+    <text
+       id="text20721"
+       y="55.663658"
+       x="1.0690782"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="55.663658"
+         x="1.0690782"
+         id="tspan20719"
+         sodipodi:role="line">\Large\bfseries c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.914902"
+       y="55.663658"
+       id="text20725"><tspan
+         sodipodi:role="line"
+         id="tspan20723"
+         x="79.914902"
+         y="55.663658"
+         style="stroke-width:0.26458332">\Large\bfseries d</tspan></text>
+  </g>
+</svg>
