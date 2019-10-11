@@ -5,7 +5,7 @@ OLD_VERSION="HEAD"
 DIFF_TAG= --graphics-markup=1 --disable-citation-markup --flatten 
 
 
-.PHONY: all clean pdf diff
+.PHONY: all clean pdf diff convert
 
 all: pdf
 
@@ -22,6 +22,9 @@ pdf:
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
+
+convert:
+	python scripts/convert_svg.py
 
 clean:
 	latexmk $(TEXFLAGS) -jobname=$(BUILD_DIR)/ -C thesis.tex
