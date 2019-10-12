@@ -15,6 +15,7 @@ mpl_file = _module_path / "matplotlibrc"
 # Update the rcParams
 mpl.rcdefaults()
 mpl.rc_file(mpl_file.as_posix())
+mpl.use("pgf")
 
 # Load the preamble
 preamble = _get_preamble()

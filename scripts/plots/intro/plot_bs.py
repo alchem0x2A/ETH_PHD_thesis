@@ -3,6 +3,7 @@ from gpaw import GPAW
 from helper import gridplots, grid_labels, add_img_ax, savepgf
 from . import data_path, img_path
 import matplotlib as mpl
+
 mpl.rcParams.update(**{"figure.constrained_layout.hspace": 0,
                      "figure.constrained_layout.wspace": 0})
 
@@ -33,7 +34,7 @@ def get_bs(name, gap=0):
         if s != "G":
             l.append(s)
         else:
-            l.append("G")
+            l.append("Γ")
     labels = l
     efermi = bs.reference
     # for i in range(eigen.shape[1] - 1):
