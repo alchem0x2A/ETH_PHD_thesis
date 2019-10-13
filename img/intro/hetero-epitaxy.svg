@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="153.14543mm"
-   height="119.20221mm"
-   viewBox="0 0 153.14544 119.20221"
+   width="152.6109mm"
+   height="110.38231mm"
+   viewBox="0 0 152.61091 110.38231"
    version="1.1"
    id="svg23022"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -117,8 +117,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="224.82019"
-     inkscape:cy="128.52042"
+     inkscape:cx="225.83035"
+     inkscape:cy="121.44933"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -136,12 +136,12 @@
      inkscape:window-y="8"
      inkscape:window-maximized="0">
     <sodipodi:guide
-       position="82.761844,90.467037"
+       position="83.029113,88.596146"
        orientation="1,0"
        id="guide23766"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1.2446352,128.95386"
+       position="1.5119048,127.08297"
        orientation="1,0"
        id="guide23770"
        inkscape:locked="false" />
@@ -162,7 +162,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(7.6591039,5.4191508)">
+     transform="translate(7.9263735,-1.5298597)">
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/2D2D_epi_mismatch.png"
        xlink:href="3D/2D2D_epi_mismatch.png"
@@ -203,13 +203,13 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="-6.0142412"
-       y="0.64249009"
+       y="6.4633236"
        id="text23752"><tspan
          sodipodi:role="line"
          id="tspan23750"
          x="-6.0142412"
-         y="0.64249009"
-         style="stroke-width:0.26458332">\large\bfseries a</tspan></text>
+         y="6.4633236"
+         style="stroke-width:0.26458332">\Large\bfseries a</tspan></text>
     <text
        id="text23756"
        y="67.594078"
@@ -220,7 +220,7 @@
          y="67.594078"
          x="-6.543407"
          id="tspan23754"
-         sodipodi:role="line">\large\bfseries b</tspan></text>
+         sodipodi:role="line">\Large\bfseries b</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -231,7 +231,7 @@
          id="tspan23758"
          x="75.47744"
          y="67.594078"
-         style="stroke-width:0.26458332">\large\bfseries d</tspan></text>
+         style="stroke-width:0.26458332">\Large\bfseries c</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"

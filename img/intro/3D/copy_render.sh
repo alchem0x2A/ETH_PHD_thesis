@@ -2,7 +2,7 @@
 bl_file=$1
 remote_bl_file=~/tmp/$bl_file
 # scp
-rsync $bl_file euler:~/tmp/
+rsync -ahvz $bl_file euler:~/tmp/
 echo "File transfer finished"
 
 # ssh render on remote

@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="455.06082pt"
@@ -48,6 +49,54 @@
          transform="matrix(0.4,0,0,0.4,4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34266">
+      <rect
+         style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#7165a5;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect34268"
+         width="52.537045"
+         height="37.373123"
+         x="0.17638889"
+         y="0.17638467"
+         ry="2.8543794" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34417">
+      <rect
+         ry="2.8543794"
+         y="0.55056196"
+         x="107.75237"
+         height="37.373123"
+         width="52.537045"
+         id="rect34419"
+         style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#ff7d1c;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34529">
+      <rect
+         style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#4e4e4e;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect34531"
+         width="52.537045"
+         height="37.373116"
+         x="0.18708867"
+         y="272.44275"
+         ry="2.8543794" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34597">
+      <rect
+         style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#488787;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.70980392"
+         id="rect34599"
+         width="52.408783"
+         height="37.373116"
+         x="107.96085"
+         y="272.44275"
+         ry="2.8543794" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -56,18 +105,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="114.84637"
-     inkscape:cy="264.40307"
+     inkscape:zoom="0.5"
+     inkscape:cx="335.2709"
+     inkscape:cy="-197.46367"
      inkscape:document-units="mm"
-     inkscape:current-layer="g26285"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="pt"
      inkscape:window-width="1440"
      inkscape:window-height="878"
-     inkscape:window-x="0"
+     inkscape:window-x="41"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-intersection-paths="true"
@@ -111,7 +160,7 @@
        id="guide29408"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="8.6060788,16.65089"
+       position="29.185831,16.463802"
        orientation="0,1"
        id="guide29410"
        inkscape:locked="false" />
@@ -221,12 +270,12 @@
          id="path26013" />
       <text
          id="text26223"
-         y="44.937973"
+         y="46.125526"
          x="17.489843"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26673329px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke-width:0.26458332"
-           y="44.937973"
+           y="46.125526"
            x="17.489843"
            id="tspan26221"
            sodipodi:role="line">\small Quality</tspan></text>
@@ -289,12 +338,50 @@
            y="70.060448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26673329px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke-width:0.26458332">\small Low Cost</tspan></text>
     </g>
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/scheme_cvd_output.png0001.png"
+       xlink:href="3D/scheme_cvd_output.png0001.png"
+       clip-path="url(#clipPath34529)"
+       width="57.172546"
+       height="42.879406"
+       preserveAspectRatio="none"
+       id="image34512"
+       x="-2.4587455"
+       y="266.93634" />
+    <rect
+       style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#4e4e4e;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect34526"
+       width="52.537045"
+       height="37.373116"
+       x="0.18708906"
+       y="272.44275"
+       ry="2.8543797" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/solution_method2_output.png0001.png"
+       xlink:href="3D/solution_method2_output.png0001.png"
+       clip-path="url(#clipPath34597)"
+       width="56.86272"
+       height="42.647038"
+       preserveAspectRatio="none"
+       id="image34592"
+       x="106.0738"
+       y="270.27075" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
      transform="translate(0,4.2166996e-6)">
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/tape_manip_output.png0001.png"
+       xlink:href="3D/tape_manip_output.png0001.png"
+       clip-path="url(#clipPath34266)"
+       width="56.786091"
+       height="42.589569"
+       preserveAspectRatio="none"
+       id="image34261"
+       x="0.32770669"
+       y="-1.1653353" />
     <rect
        ry="2.8543794"
        y="199.94691"
@@ -315,6 +402,22 @@
          x="1.6195999"
          y="4.8446856"
          style="stroke-width:0.26458332">\large \bfseries a</tspan></text>
+    <path
+       style="fill:none;stroke:#ff7d1c;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.95016,28.089797 h -14.774497 v 7.23777 h -11.385105"
+       id="path29416"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/mx2_sonication_output.png0001.png"
+       xlink:href="3D/mx2_sonication_output.png0001.png"
+       clip-path="url(#clipPath34417)"
+       width="63.048889"
+       height="47.286659"
+       preserveAspectRatio="none"
+       id="image34412"
+       x="101.01718"
+       y="-5.6720042" />
     <text
        id="text29287"
        y="4.8446856"
@@ -371,14 +474,6 @@
          id="tspan29303"
          sodipodi:role="line">Liquid-Phase Exfoliation</tspan></text>
     <rect
-       style="opacity:0.80800003;fill:none;fill-opacity:0.36078431;fill-rule:evenodd;stroke:#4e4e4e;stroke-width:0.35277778;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect29307"
-       width="52.537045"
-       height="37.373116"
-       x="0.17638889"
-       y="72.672218"
-       ry="2.8543794" />
-    <rect
        ry="2.8543794"
        y="72.672218"
        x="107.95016"
@@ -420,12 +515,6 @@
        style="fill:none;stroke:#8677c6;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 52.713432,18.36119 h 13.328866 v 13.151699 h 12.877427"
        id="path29414"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="fill:none;stroke:#ff7d1c;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 107.95016,28.089797 h -14.774497 v 9.883603 h -11.385105"
-       id="path29416"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
