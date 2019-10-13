@@ -48,7 +48,7 @@ prelude for introducing the 2D material interfaces in
 % 2D materials in our 3D world. In this chapter, we briefly discuss the
 % fundamental aspects of 2D materials and introduce their interfacial
 % phenomena. Several challenges about the 2D materials interfaces are
-% also discussed, serving as the prelude to the work of this thesis.
+% also discussed, serving as the prelude to the work of  this thesis.
 
 
 \subsection{Categories of 2D Materials}
@@ -75,9 +75,9 @@ nitride\cite{Cavar_2008_hBN_Pt,Gorbachev_2011} (hBN), transition metal
 dichalcogenides~\cite{Mak_2010_mos2} (TMDCs, with general chemical
 composition MX\textsubscript{2}, where M is a transition metal and X
 is S, Se or Te), monochalcogenides~\cite{Late_2012_GaS} (GaS, GaSe),
-monolayer black phosphorus\cite{Li_2014_BP} (BP, also known as
-phosphorene) and MXene~\cite{Naguib_2011_Mxene} (M = Ti, Nb, V, Ta,
-etc., X = C or N).
+monolayer black phosphorus\cite{Li_2014_BP,Liu_2014_BP} (BP, also
+known as phosphorene) and MXene~\cite{Naguib_2011_Mxene} (M = Ti, Nb,
+V, Ta, etc., X = C or N).
 %
 The research interest in graphene and other 2D materials have been
 steadily increasing over the last decade, in particular after the
@@ -93,8 +93,11 @@ identified has also greatly expanded
   \caption{\label{fig:intro-papers} %
     Research trend of several 2D materials (measured by average number
     of publications per year) including graphene, hBN,
-    MoS\textsubscript{2} and phosphorene. Data are retrieved from
-    Google scholar with interval of 1 year. }
+    MoS\textsubscript{2} and phosphorene.  An apparent increase in the
+    growth of publication numbers can be ubiquitous seen for all 2D
+    materials after the Nobel Prize awarding for graphene in 2010.
+    Data are retrieved from Google scholar with interval of 1
+    year. }
 \end{figure}
 
 %
@@ -147,7 +150,7 @@ and 1T- (triagonal) symmetries.
     Prototype  & Sample Formula  & Symmetry & Examples \\
     \hline
     Graphene & C\textsubscript{2} &  P6/mmm & Graphene, Silicene, Germanene \\
-    Graphane & C\textsubscript{2}H\textsubscript{2} &  P$\overline{3}$m1 & Graphane, Fluorographene\\
+    Graphane & C\textsubscript{2}H\textsubscript{2} &  P$\overline{3}$m1 & Graphane, Fluoro\-graphene\\
     hBN      & BN                & P$\overline{6}$m2 & h-BN \\
     2H-MX\textsubscript{2} & MoS\textsubscript{2} & P$\overline{6}$m2 & 2H-MoS\textsubscript{2}, 2H-MoS2\textsubscript{2}, 2H-WS\textsubscript{2} \\
     1T-MX\textsubscript{2} & CdI\textsubscript{2} & P$\overline{3}$m1 & 1T-MoS\textsubscript{2}, CdI\textsubscript{2}\\
@@ -160,10 +163,52 @@ and 1T- (triagonal) symmetries.
    \hline
 \end{tabularx}
 \end{table}
-\worktodo{check if symmetry correct}
+\worktodo{Shorten left panel for prototype}
 
 \subsection{Basic Electronic Properties of 2D Materials}
 \label{sec:basic-electr-prop}
+
+The large databases fulfilled \worktodo{correct word?} by both
+experimental and theoretical studies cover a wide material spectrum,
+ranging from insulator, semiconductor to even
+superconductors~\cite{Novoselov_2016_vdW}.
+%
+The 3D geometries of four commonly-studied 2D materials (graphene,
+phosphorene, 2H-MoS\textsubscript{2}, and hBN) and their electronic
+band structure plots are shown in \autoref{fig:intro-bs}, ranging from
+zero-gap (graphene), semiconducting (phosphorene and
+2H-MoS\textsubscript{2}) to wide-gap (hBN) materials.
+%
+Moreover, the valence band (VB) - conduction band (CB) transition can
+be either direct (monolayer 2H-MoS\textsubscript{2} and hBN) or
+indirect (GaS) ~\cite{Xia_2014}, giving rise to different
+optical properties.
+%
+Essentially, the broad selection of electronic and optical properties
+makes 2D materials promising candidates for replacing conventional
+bulk materials used in semiconductor industry (\eg silicon (Si),
+gallium arsenide (GaAs), gallium nitride (GaN)).
+%
+In addition to the match of bandgap and optical transitions, a 2D
+material exhibits various exceptional properties compared with the bulk materials.
+%
+First of all, exotic electronic and optical properties arise from the
+quantum confinement perpendicular to the 2D
+plane.
+%
+Examples include the relativistic, mass-less carriers in the Dirac
+cone electronic structure of graphene and other group 14 elemental 2D
+materials~\cite{Novoselov_2005_massless,Zhang_2005_QHE,Das_sarma_2011_gr_electr},
+strong electron-photon
+interaction~\nocite{Nair_2008_transparent,Eda_2013_rev_opt}, and large
+exciton binding energy in 2D
+semiconductors~\cite{Mak_2010_mos2,Arnaud_2006_exc_hBN}.
+%
+Secondly, due to the absence of dangling bonds, the 2D materials have
+naturally passivated surfaces with less influence from surface states
+compared with bulk material surfaces
+\cite{Novoselov_2016_vdW,Liu_2016_rev}.
+
 
 \begin{figure}[htbp]
   \centering
@@ -176,69 +221,97 @@ and 1T- (triagonal) symmetries.
     and bandgap corrected according to experimental values.}
 \end{figure}
 
-
-The common feature of 2D materials is the absence of dangling bonds at
-the surface, as a results, the electrons are highly confined within
-the 2D plane.
 %
-For instance, in graphene and hBN, the sp\textsuperscript{2} orbitals
-form covalent (σ) bonds, while the p-orbitals perpendicular to the 2D
-plane form delocalized π-electron cloud. \worktodo{cite}
+In this section, we do not aim to provide a comprehensive comparison
+between the fundamental electronic structures between different 2D
+material, as has been well-described in several other reviews
+\cite{Mas_Ballest_2011_review,Das_Sarma_2011_electron_gr,Butler_2013_review,Bhimanapati_2015_2D_rev,Novoselov_2016_vdW}.
+%
+Instead, one common feature -- the density of states (DOS) -- caused
+by the quantum-confined electronic structure is discussed.
+%
+In
+one-atom-thick 2D materials like graphene and hBN, the
+sp\textsuperscript{2} orbitals form covalent (σ) bonds, while the
+p-orbitals perpendicular to the 2D plane form delocalized π-electron
+cloud\nocite{Ihn_2009_book}.
 %
 Such two-dimensional
 electron gas (2DEG) gives rise to dramatic change of its electronic
-properties compared with bulk materials.\worktodo{cite Devies}
+properties compared with bulk materials \cite{Davies_1997_book}.
 %
-Although the physics about 2DEG has been well developed in the 1980s,
-prior to the discovery of 2D materials, the 2DEG can only be achieved
-by cumbersome semiconductor quantum well heterostructures. In other
+Although the physics about 2DEG has already been developed in the
+1980s~\cite{Ando_1982_electron_2D}, prior to the discovery of 2D
+materials, the 2DEG can only be achieved by cumbersome semiconductor
+quantum well
+heterostructures~\cite{Ihn_2009_book,Davies_1997_book}. In other
 words, the 2D materials are perfect candidates to study the behavior
-of 2DEGs. \worktodo{say something more?}
+of 2DEGs.
+
 
 Although the electronic band structures of different 2D materials vary
 a lot, one thing in common is that their density of states (DOS). The
 DOS is a measure of the number of available states in a certain system
-at certain energy level. For an extended system with nearly-continuous
-energy distribution, the DOS at energy $E$ is expressed as:
+at certain energy level~\cite{kittel_2005_introduction}. For an
+extended system with nearly-continuous energy distribution, the DOS at
+energy $E$ is expressed as\cite{kittel_2005_introduction}:
 \begin{equation}
   \label{eq:ch-intro-dos}
   \mathrm{DOS}(E) = \frac{\partial N}{\Omega \partial E} =  \frac{1}{\Omega} {\displaystyle \int_{\Omega}} \frac{\mathrm{d}^{n} \mathbf{k}}{(2 \pi)^{n}}
   \delta(E - E(\mathbf{k}))
 \end{equation}
-where the integral is performed over a system with $d$-dimensionality,
-$N$ is the total number of states,
-$\Omega$ is the volume of the system, $\mathbf{k}$ is the momentum of
-electron, and $\delta$ is the Dirac delta function. Without losing
-generality, the DOS can be expressed using the law of chains:
+where the integral is performed over a system with $d$-dimensionality
+($d$=1, 2, 3, etc.), $N$ is the total number of states, $\Omega$ is
+the volume of the system, $\mathbf{k}$ is the momentum of electron,
+and $\delta$ is the Dirac delta function. Without losing generality,
+the DOS can be expressed using the chain rule:
 \begin{equation}
   \label{eq:dos-chain}
   \mathrm{DOS}(E) = \frac{\partial N}{\Omega \partial k} \frac{\partial k}{\partial E}
-               = \frac{k}{2 \pi} \left(\frac{\partial E(k)}{\partial k}\right)^{-1}
+               = \frac{k}{2 \pi} \left[\frac{\partial E(k)}{\partial k}\right]^{-1}
 \end{equation}
 where $k=|\mathbf{k}|$ is the modulus of $\mathbf{k}$.
 %
 \autoref{eq:dos-chain} provides a general way linking the DOS to the
 energy--momentum ($E-k$) dispersion of a 2D material, which is further
 extracted from its band structure. For monolayer 2D materials, two
-cases can be distinguished:
+cases can be distinguished concerning the DOS near its conduction band
+(CB) edge, can schematically shown in \autoref{fig:dos}:
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{dos.pdf_tex}
+  \caption{\label{fig:dos}%
+    Comparison between the electronic structures of parabolic and
+    Dirac 2D materials. \textbf{a} The $E-k$ dispersion diagram of
+    parabolic (blue) and Dirac (yellow) materials, the energy $E$
+    refers to the offset from the conduction band (CB) edge.
+    \textbf{b} As a consequence of different $E-k$ dispersions, DOS of
+    a parabolic 2D materials is almost constant near the CB edge,
+    while the DOS of a Dirac material linearly increases with $E$.  %
+  }
+\end{figure}
+
 \begin{itemize}
-\item Parabolic materials: such as TMDCs, hBN, phosphorene
+\item Parabolic materials: TMDCs, hBN, phosphorene, etc.
 
   These are the majority of 2D materials where the $E-k$ dispersion is
-  parabolic, such that
+  parabolic (\autoref{fig:dos}a), such that
   ${\displaystyle E(k) = \frac{\hbar^{2} k^{2}}{2 m^{*}}}$, where
   $\hbar$ is the reduced Planck constant, and $m^{*}$ is the effective
-  mass near the band edge. From \autoref{eq:dos-chain}, DOS of a
-  parabolic material is \textit{constant}, and proportional
-  to $m^{*}$.
+  mass near the CB edge. From \autoref{eq:dos-chain}, DOS of a
+  parabolic material is \textit{constant} at the band edge, and
+  proportional to $m^{*}$.
   
-\item Dirac materials: such as graphene, silicene, germanene
+\item Dirac materials: graphene, silicene, germanene, etc.
 
-  The Dirac materials are relatively rare among 2D materials,
-  \worktodo{cite Wang nsr 2015} where the $E-k$ dispersion is linear:
-  $E(k) = \hbar v_{\mathrm{F}}k$, where $v_{\mathrm{F}}$ is the Fermi
-  velocity. The Dirac materials has DOS increasing linearly with $k$
-  (as well a $E$).
+  The Dirac materials are relatively rare among 2D
+  materials~\cite{Wang_2015_rare_dirac}.
+  %
+  The name comes from the exotic electronic band structure called
+  Dirac cone near the Fermi level (\autoref{fig:dos}a), with a linear
+  $E-k$ dispersion ($E(k) = \hbar v_{\mathrm{F}}k$), where
+  $v_{\mathrm{F}}$ is the Fermi velocity. The Dirac materials has DOS
+  increasing linearly with $k$ (as well a $E$).
 \end{itemize}
 
 The difference between the DOS of ideally parabolic and Dirac
@@ -246,10 +319,8 @@ materials can be seen in \worktodo{Figure here}. Unlike parabolic
 materials with constant DOS, the Dirac materials have DOS → 0 near the
 Dirac cone ($E \to 0$). This feature brings very interesting
 properties like electrostatic transparency which we will discuss in
-\worktodo{Chapter 2}.
-
-\worktodo{Discuss more about the parabolic and Dirac cone?!}
-\worktodo{Some simple discussion based on the band gap etc...}
+\autoref{ch:qc}.
+%20191013-1701
 
 
 \subsection{Fabrication of 2D Materials}
@@ -376,6 +447,16 @@ As a summary, both top-down and bottom-up methods are capable of
 fabricating 2D materials with desired purity, flake size and
 thickness. A short comparison between different fabrication methods can be seen in \worktodo{table 2?!}
 
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{synthesis.pdf_tex}
+  \caption{\label{fig:intro-syn}%
+    Comparison between the different fabrication methods of 2D
+    materials: \textbf{a} micro\-mechanical manipulation, \textbf{b}
+    solution-phase exfoliation, \textbf{c} chemical vapor deposition
+    (CVD) and \textbf{d} template-free synthesis.%
+  }
+\end{figure}
 
 
 \section{The 2D Materials Interfaces}
@@ -1377,7 +1458,7 @@ thanks to the development of novel experimental techniques as well as
 theoretical frameworks.
 %
 However, there are still several open questions concerning the
-interfacial properties that are not yet well-understood. Many of them
+interfacial properties that are not yet well-understood. Many of them 
 are related with the electromagnetism on these low-dimensional
 interfaces, including the electrostatic penetration and screening
 through 2D materials, dynamic dielectric properties of 2D material and
@@ -1394,6 +1475,15 @@ It is worth noting that these open questions are not caused by lack of
 fundamental theory framework, but rather because current physical
 relations in bulk materials can be rather different in these
 low-dimensional systems.
+
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{questions.pdf_tex}
+  \caption{\label{fig:intro-questions}%
+    Schemes about the open questions for the 2D interfaces, including
+    \textbf{a} penetration of field, \textbf{b} dielectric properties
+    and \textbf{c} vdW \& wetting phenomena. }
+\end{figure}
 
 
 \subsection{Electrostatic Interactions Through 2D Sheet}
