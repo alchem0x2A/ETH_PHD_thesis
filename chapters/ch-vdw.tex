@@ -16,7 +16,208 @@
   Interactions, in preparation.
 }
 
+\section{Introduction}
+\label{sec:vdw-introduction}
+% 20191014-1539
+The van der Waals (vdW) interactions are inter\-atomic /
+inter\-molecular forces that stem from the electromagnetic (EM)
+fluctuations~\cite{Israelachvili_2011_book,Woods_2016_rev_vdw,parsegian_van_2010_book}.
+%
+Unlike trivial electrostatic (Coulombic) forces that depends on the
+charge stat, the vdW interaction has a complex electro\-dynamic
+origin, and acts ubiquitously between all atoms and molecules,
+regardless of their charge
+state~\cite{Israelachvili_2011_book,Hermann_2017_vdW_rev}.
+%
+As briefly discussed in \autoref{sec:inter-forc-at}, although being a
+relatively weak force, the vdW interactions can be dominating at
+molecule-2D interface due to the absence of dangling bonds.
+%
+The understanding and engineering of the vdW interactions at the 2D
+material interface would greatly benefit molecular
+self-assembly~\cite{Kumar_2017_rev_assemb_2D},
+electronic~\cite{Wang_2015_phys_chem_tuning_TMDC,Lazar_2013} as well
+as optical properties~\cite{Geim_2013_2D_vdw_Het,Novoselov_2016_vdW}
+of 2D material-based hetero\-structures.
+%
+\worktodo{try to say more about the dielectric properties}
 
+As introduced in \autoref{sec:van-der-waals}, one particular question
+of interest is the transmission of vdW interactions through the
+atomically-thin 2D materials.
+%
+The effective distance of vdW forces, depending on the medium, can
+vary from sub-nm 10$^{1}$ nm~\cite{Israelachvili_2011_book}, and are
+relatively longer compared with the sub-nm thickness of 2D materials.
+%
+Therefore, the vdW forces from an macroscopic substrate may
+(partially) penetrate through the 2D layer and be felt by an molecule
+on the 2D material interface~\cite{shih_2013_wetting_natmat}.
+%
+This feature
+brings potentially unprecedented surface properties by simply coating
+an existing bulk surface with 2D
+material(s)~\cite{Prasai_2012_coating,rafiee_2012_transparency,Tsoi_2014_vdW_screening_2D}.
+%
+Based on classic pair-wise model~\cite{Hamaker_1937_vdW} of vdW
+forces, the interaction free energy per area $\Phi_{\mathrm{vdW}}$,
+between two semi-infinite bulk bodies (A and B) separated by distance
+$d$, is:
+\begin{equation}
+  \label{eq:vdw-hamaker-res}
+  \Phi^{\mathrm{vdW}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
+\end{equation}
+where $A_{\mathrm{AB}}$ is known as the Hamaker constant of vdW
+interactions between materials A and B.
+%
+A quantitative statement can be drawn from such simple model: by inserting a 2D material (\eg graphene
+with thickness $\sim{}$3.3 \AA{}~\cite{Shearer_2016}) between two bulk
+bodies (3$\sim{}$5 \AA{} \worktodo{cite 1 here}), 20--40\% of the vdW
+interactions can still penetrate through the 2D layer.
+%
+Several unprecedented phenomena concerning the interfacial vdW forces
+on 2D materials take credit from the analysis above, including wetting
+transparency / translucency
+\cite{Shih_2012_prl,rafiee_2012_transparency,Gurarslan_2016_screen_MoS2} and remote
+epitaxy \cite{Kim_2017_remote_epi_Gr,Kong_2018_pol}.
+
+Despite the seemingly accordance with experimental observations in
+these studies, the prerequisites for the classical model are the
+perfect additivity of vdW interactions, and a constant
+$A_{\mathrm{AB}}$. 
+%
+In other words, the classic model assumes that the existence of the
+2DEG has no influence on the EM waves that arise from charge
+fluctuations.
+%
+Such picture is however challenged by recent experimental
+\cite{Tsoi_2014_vdW_screening_2D} and first-principles
+\cite{Ambrosetti_2018_carbon,Liu_2018_gr,Li_2018_screen} studies,
+revealing the 2D material-dependent Hamaker coefficient.
+%
+To correctly capture the many-body picture of vdW interactions at 2D
+material interfaces, electro\-dynamic effects beyond the classic model
+is needed.
+%
+In practice, this is usually a challenging task, since state-of-art
+density functional theory (DFT) used for first principle simulations
+is limited ground state electron density, intrinsically lacking charge
+fluctuation~\cite{Woods_2016_rev_vdw}.
+%
+On the other hand, full-scale interaction energy calculations based on
+dynamic non-local dielectric responses are usually time-consuming and
+only limited to small
+systems.~\cite{Hermann_2017_vdW_rev,Zhou_2017_lifshitz}
+%
+Therefore, novel theoretical frameworks with both appreciable accuracy
+while maintaining simplicity, is of high demand to shed light on the
+vdW interactions at 2D material interfaces.
+
+In this chapter, we present
+the a generalized model to study the many-body vdW transmission
+through 2D materials, based on the modified Lifshitz-vdW theory
+\cite{Dzyaloshinskii_1961_lifshitz,parsegian_van_2010_book}.
+%
+Based on the model, the vdW transmission through a 2D material is
+selective, such that a 2D material acts as a high-pass filter of vdW
+interaction, filtering the low-frequency interactions.
+%
+Such phenomenon is related with the anisotropic dielectric nature (\worktodo{ref to chapter
+  5}).
+%
+We further show that such effect is concerted by the bandgaps of the
+2D and bulk materials through both large-scale material database
+screening.
+%
+More interestingly, repulsive vdW interactions are possible with careful dielectric engineering of the 2D material interface.
+%
+As a preliminary experimental demonstration, we show that the such
+repulsive vdW forces can be indirectly probed using molecular epitaxy
+on gold-supported graphene surfaced, as backed by the model presented
+here.
+
+\section{Modified Lifshitz-vdW Model For 2D Material Interfaces}
+\label{sec:vdw-model-lifshitz}
+%20191014-1529
+We start the discussion in a system with simplified geometry: consider
+two infinitely-large bulk materials (A and B) separated by a medium m
+at distance \(d\), the total many-body interaction potential between A
+and B over m, \(\Phi\), consists of the contributions from vdW
+interactions \(\Phi^{\mathrm{vdW}}\) and mono\-polar surface
+interactions \(\Phi^{\pm}\)
+\cite{van_Oss_1987_monopolar,Van_Oss_1988}, such that:
+\begin{equation}
+\label{eq:vdw-phi-oss}
+\Phi = \Phi^{\mathrm{vdW}} + \Phi^{\pm}
+\end{equation}
+where \(\Phi^{\mathrm{vdW}}\) includes the Keesom (dipole -- dipole),
+Debye (dipole -- induced dipole) and London dispersion (induced dipole
+-- induced dipole) interactions~\cite{Israelachvili_2011_book}, while
+\(\Phi^{\pm}\) originates from interfacial monopoles (Coulomb
+interactions) \cite{van_Oss_1987_monopolar}.
+%
+Note that $\Phi^{\mathrm{vdW}}$ and $\Phi^{\pm}$ are all relative
+energy scales compared with the infinitely-separated systems.
+%
+From the Lifshitz-vdW theory \cite{Dzyaloshinskii_1961_lifshitz},
+\(\Phi^{\mathrm{vdW}}\) stems from the fluctuations of electromagnetic
+(EM) field, and can be regarded as the sum of oscillatory surface EM
+mode energies, when the length scale of interest is larger than
+atomistic details.
+%
+When the vdW contribution dominates (\ie chemically inert surface),
+and retardation effect (due to limited speed of light, usually seen at
+distance $>$20 nm~\cite{parsegian_van_2010_book}) can be ignored,
+$\Phi^{\mathrm{vdW}}$ is total energy summed from all allowed EM modes
+\cite{Li_2005_diele}:
+\begin{equation}
+\label{eq:Phi-EM}
+\Delta \Phi \approx \Delta \Phi^{\mathrm{vdW}}
+= \sum_{n} G(i \xi_{n})
+= \frac{k_{\mathrm{B}}T}{4 \pi^{2}}   
+ \sideset{}{'}\sum_{n=}^{\infty} \int_{0}^{\infty} \mathcal{D}(i \xi_{n}, \mathbf{k}) 
+\mathrm{d}^{2} \mathbf{k}
+\end{equation}
+where \(k_{\mathrm{B}}\) is the Boltzmann constant, \(T\) is temperature,
+\(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the n-th Matsubara
+frequency, \(\hbar\) is the reduced Planck constant, \(\mathbf{k}=(k_{x},
+k_{y})\) is the transverse wavevector, and the prime over summation
+denotes a prefactor of 1/2 when \(n=0\). \(\mathcal{D}\) is the dispersion
+relation of the particular system and geometry that for any allowed
+complex frequency \(\omega\) and wavevector \(\mathbf{k}\),
+\(\mathcal{D}(\omega, \mathbf{k}) \equiv 0\). The dispersion relation
+constructed by solving the Poisson-Laplace equation \(\nabla \cdot
+[\varepsilon_{0} \varepsilon_{\mathrm{r}}(\mathbf{r}) \cdot \nabla
+\psi(\mathbf{r})] = 0\), where \(\varepsilon_{0}\) is the vacuum
+permittivity, \(\varepsilon_{\mathrm{r}}(\mathbf{r})\) and
+\(\psi(\mathbf{r})\) are the dielectric function and electrostatic
+potential at position \(\mathbf{r}\), respectively, and is highly
+influenced by the dielectric anisotropy of media \cite{Lu_2016_torque}.
+For materials have distinct in- and out-of-plane dielectric functions
+(\(\varepsilon^{xx} = \varepsilon^{yy} = \varepsilon^{\parallel}\),
+\(\varepsilon^{zz} = \varepsilon^{\perp}\)) , the total interaction
+energy is expressed as (details see Supplementary Section
+\ref{SI-sec:deriv-mdb}):
+\begin{equation}
+\label{eq:Phi-aniso}
+\Delta \Phi = \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
+\sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
+\int_{0}^{\infty} x \ln\left[1 - \Delta_{\mathrm{Am}}(i \xi_{n}) \Delta_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x 
+\end{equation}
+where \(\Delta_{\mathrm{jm}} = (\hat{\varepsilon}_{\mathrm{j}} -
+\hat{\varepsilon}_{\mathrm{m}}) / (\hat{\varepsilon}_{\mathrm{j}} +
+\hat{\varepsilon}_{\mathrm{m}})\) represents the interfacial dielectric
+mismatch between materials j (either A or B) and m, and
+\(\hat{\varepsilon} = \sqrt{\varepsilon^{\parallel}
+\varepsilon^{\perp}}\) is the geometric average of dielectric tensor. A
+renormalization factor \(1/g_{\mathrm{m}}^{2} =
+\varepsilon^{\perp}_{\mathrm{m}} /
+\varepsilon^{\parallel}_{\mathrm{m}}\) emerges as the consequence of
+dielectric anisotropy of medium m. It is easy to observe, when
+\(\varepsilon^{\perp}_{\mathrm{m}} \ll
+\varepsilon^{\parallel}_{\mathrm{m}}\), \(1/g_{\mathrm{m}}^{2} \ll 1\),
+which greatly attenuates the total interaction \(\Delta \Phi\) compared
+with isotropic medium (\(1/g_{\mathrm{m}}^{2} \equiv 1\)). 
 
 
 
