@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="453.73865pt"
+   height="256.8241pt"
+   viewBox="0 0 160.06891 90.601833"
+   version="1.1"
+   id="svg6260"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="0D-2D.svg">
+  <defs
+     id="defs6254">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7226">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+         id="rect7228"
+         width="86.595329"
+         height="86.060791"
+         x="158.7581"
+         y="136.63828" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7232">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7234"
+         width="86.060814"
+         height="180.13968"
+         x="-188.15776"
+         y="50.577492" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="300.88673"
+     inkscape:cy="104.04541"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="pt"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata6257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.67867899,0.20448376)">
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/QD-gr.png"
+       y="-0.20448153"
+       x="72.900673"
+       id="image7049"
+       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/QD-gr.png"
+       preserveAspectRatio="none"
+       height="88.196404"
+       width="87.579643" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/nanomesh.png"
+       y="-0.20448376"
+       x="0.67867899"
+       id="image7060"
+       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/nanomesh.png"
+       preserveAspectRatio="none"
+       height="56.229458"
+       width="63.5378" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/iannuzzi.png"
+       y="53.618217"
+       x="-276.45694"
+       id="image7219"
+       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/iannuzzi.png"
+       preserveAspectRatio="none"
+       height="177.8"
+       width="261.05557"
+       clip-path="url(#clipPath7232)"
+       transform="matrix(0,-0.37267099,0.35440732,0,-17.623534,19.034744)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7236"
+       width="4.6074896"
+       height="5.3461514"
+       x="72.900665"
+       y="-0.20448153" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.0690765"
+       y="4.8743978"
+       id="text7240"><tspan
+         sodipodi:role="line"
+         id="tspan7238"
+         x="1.0690765"
+         y="4.8743978"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">\large\bfseries a</tspan></text>
+    <text
+       id="text7244"
+       y="4.8743978"
+       x="74.09407"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+         y="4.8743978"
+         x="74.09407"
+         id="tspan7242"
+         sodipodi:role="line">\large\bfseries b</tspan></text>
+  </g>
+</svg>

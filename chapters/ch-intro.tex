@@ -163,12 +163,11 @@ and 1T- (triagonal) symmetries.
    \hline
 \end{tabularx}
 \end{table}
-\worktodo{Shorten left panel for prototype}
 
 \subsection{Basic Electronic Properties of 2D Materials}
 \label{sec:basic-electr-prop}
 
-The large databases fulfilled \worktodo{correct word?} by both
+The large databases fulfilled by both
 experimental and theoretical studies cover a wide material spectrum,
 ranging from insulator, semiconductor to even
 superconductors~\cite{Novoselov_2016_vdW}.
@@ -314,8 +313,7 @@ cases can be distinguished concerning the DOS near its conduction band
   increasing linearly with $k$ (as well a $E$).
 \end{itemize}
 
-The difference between the DOS of ideally parabolic and Dirac
-materials can be seen in \worktodo{Figure here}. Unlike parabolic
+As can be seen in \autoref{fig:dos}b, unlike parabolic
 materials with constant DOS, the Dirac materials have DOS → 0 near the
 Dirac cone ($E \to 0$). This feature brings very interesting
 properties like electrostatic transparency which we will discuss in
@@ -328,8 +326,9 @@ properties like electrostatic transparency which we will discuss in
 
 The development of the 2D material researches cannot be achieved
 without appropriate methods to fabricate large-area and high quality
-2D materials. The synthesis of 2D materials can be generally
-categorized into top-down and bottom-up approaches.
+2D materials. In this section, we will briefly review the synthesis
+techniques of 2D materials, which can be generally categorized into
+top-down and bottom-up approaches. 
 
 \subsubsection{Top-down Methods}
 \label{sec:top-down-methods}
@@ -337,115 +336,161 @@ categorized into top-down and bottom-up approaches.
 The top-down method is the straightforward approach to exfoliate few-
 to single-layer 2D materials from their bulk counterparts. The two
 most-used techniques are micro-mechanical exfoliation and liquid-phase
-exfoliation. \worktodo{add cites here, from Liu Adv Mater 2018}
+exfoliation~\cite{Novoselov_2012_roadmap,Liu_2018_rev,Lin_2019_gr_rev_growth}.
 
-The micro-mechanical exfoliation uses mechanical force to overcome the
+\paragraph{Micro\-mechamical exfoliation}
+
+The micro\-mechanical exfoliation uses mechanical force to overcome the
 interlayer vdW interactions in bulk layered materials, and is the
 first method used for 2D material exfoliation. Scotch tape is widely
-used for such type of exfoliation \worktodo{cite Geim et al}, while
+used for such type of exfoliation~\cite{Novoselov_2004_gr}, while
 other media as elastic polymers, heat-release tapes are also
-employed. If the quality of the bulk layered material is promising
-(\ie high chemical purity and low defect density), micro-mechanical
-exfoliation usually produces 2D materials with better quality compared
-with other methods. However, there are also several key drawbacks of
-such methods. First of all, the reliability of micro-mechanical
-exfoliation is highly influenced by the interlayer forces, which makes
-it difficult to exfoliate materials with high interlayer binding
-energy, or in-plane mechanical anisotropy (for instance BP). This
-method also leads to broad distribution of flake size and layer
-number, making it difficult to be applied to large-scale
-applications.
+employed~\cite{Favron_2015_BP_PDMS,Jain_2018_PDMS}. If the quality
+of the bulk layered material is promising (\ie high chemical purity
+and low defect density), micro-mechanical exfoliation usually produces
+2D materials with better quality compared with other
+methods~\cite{Lin_2019_gr_rev_growth}.
+%
+However, there are also several key drawbacks of such methods. First
+of all, the reliability of micro-mechanical exfoliation is highly
+influenced by the interlayer forces, which makes it difficult to
+exfoliate materials with high interlayer binding energy, or in-plane
+mechanical anisotropy (for instance
+BP~\cite{Favron_2015_BP_PDMS,Liu_2017_aniso_BP}). This method also
+leads to broad distribution of flake size and layer number, making it
+difficult to be applied to large-scale applications.
+
+\paragraph{Liquid-phase exfoliation}
 
 In contrast to micro-mechanical exfoliation where only the top-most
 layers are removed, the solution-phase exfoliation method ensures
 uniform breaking up of bulk materials, and increases the scalability
-of 2D flakes produced. It can be achieved by both physical and
-chemical exfoliation approaches. Physical solution-phase exfoliation
-makes use of local mechanical stress produced by ultra-sonication or
-shearing to overcoming the interlayer vdW interactions. To ensure the
-stability of isolated layers in the liquid suspension, high surface
-energy liquid, in combination with surfactants are usually
-used. \worktodo{cite papers from Coleman et al, Shih et al. Haung et
-  al}
+of 2D flakes produced~\cite{Coleman_2012_rev}.
+It can be achieved by
+both physical and chemical exfoliation approaches.
+%
+Physical solution-phase exfoliation makes use of local mechanical
+stress produced by ultra-sonication~\smartcite{Xia_2013_liquidphase}
+or shearing~\cite{Paton_2014_shearing} to overcoming the interlayer
+vdW interactions. To ensure the stability of isolated layers in the
+liquid suspension, high surface energy liquid, in combination with
+surfactants are usually used
+\cite{Coleman_2012_rev,Paton_2014_shearing,Hanlon_2015_shear,Backes_2014_mos2,Shih_2010_exf,Shih_2011_bitri}.
 %
 Centrifugation can be further used to separate flakes to ensure narrow
-distribution of layer thickness and size \worktodo{cite coleman}, and
-statistic measurement can be performed using the ensemble of such 2D
-material suspensions. \worktodo{wording?} However, this method still
-suffers from several drawbacks: (i) the flake size is still limited to
-μm-scale, (ii) precise control of layer number in suspension is difficult and 
-(ii) flake overlay after deposition onto substrate is unavoidable.
+distribution of layer thickness and size, and statistic measurements
+can be performed using the ensemble of such 2D material
+suspensions~\cite{Backes_2014_mos2}.
+%
+However, this method is still not perfect in the following aspects:
+(i) the flake size is still limited to μm-scale, (ii) precise control
+of layer number in suspension is difficult and (ii) flake overlay
+after deposition onto substrate is unavoidable.
 %
 The interlayer vdW forces can also be overcome by chemically modifying
 the 2D layer (for instance, oxidising graphite to produce graphene
-oxide (GOx)), or to intercalate ions between the layers in a bulk
-material to induce lattice expansion (such as exfoliation of MXenes,
-which are otherwise hard to achieve mechanically). Despite the
-scalability of chemical solution-phase approaches, they usually
-changes the chemical composition and introduce defects in the 2D
-materials, which are undesired for high-performance
-applications. 
+oxide (GOx) \cite{Chen_2013_GO}), or intercalating ions in a bulk
+layered material to induce lattice expansion (such as exfoliation of
+MXenes~\cite{Naguib_2011_Mxene}, which are otherwise hard to achieve
+mechanically). Despite the scalability of chemical solution-phase
+approaches, they usually changes the chemical composition and
+introduce defects in the 2D materials, which are undesired for
+high-performance applications~\cite{Lin_2019_gr_rev_growth}.
 
 \subsubsection{Bottom-up Methods}
 \label{sec:bottom-up-methods}
 
-The bottom-up methods grow 2D materials from precursors, and aims to
-produce 2D materials with larger flake size and more controlled layer
-numbers. Depending on whether a substrate is involved in the process,
-these methods can be categorized into templated or non-templated
-growth.
+The bottom-up methods grow 2D materials from precursors, and are able
+to produce 2D materials with larger flake size and more control over
+layer numbers.
+%
+Depending on whether a substrate is involved in the
+process, these methods can be categorized into templated or
+non-templated growth.
 
-Templated growth uses a bulk surface as a epitaxial template and
+\paragraph{Templated growth}
+The templated growth uses a bulk surface as a epitaxial template and
 support for the 2D material. Due to the absence of dangling bonds, the
 2D-substrate interaction is usually much weaker than the in-plane
 covalent bonds. Therefore, unlike epitaxy of bulk materials which
 require precise control of lattice mismatch between the substrate and
-epitaxy layer \worktodo{cite 1-2 paper}, templated growth of 2D
-materials can be achieved in various substrates. For example, high
-quality single crystal graphene can be epitaxially grown by thermal
-annealing of silicon carbide (SiC) surface, or decompositing
-hydrocarbons on Ruthenium (Ru) (0001) and Ir (111) substrates, while
-epitaxial growth of hBN is achieved by cleavage of borazine
-(H\textsubscript{6}B\textsubscript{3}N\textsubscript{3}) on Rh (111)
-surface.  Such epitaxial method can also be applied to other 2D
-materials like TMDC, monochalcogenides and BP. However, there are
-still several limitations. First of all, a clean surface as well as
-ultra-high vacuum (UHV) conditions are usually required for the
-epitaxial growth methods. Moreover, transferring the 2D material onto
-other substrates is generally not easy due to the noble metals
-involved. Chemical vapor deposition (CVD) is another widely-used
-templated growth method, in which one or more precursors adsorb and
-react on a catalytic surface to form covalently-bonded 2D
-materials. The essence of CVD process is similar to the epitaxial
-growth, while more ambient conditions are used (10$^{1}$ Pa to
-atmosphere pressure, ultra clean substrate not necessary). CVD growth
-of graphene using hydrocarbon source on copper (Cu) is the most
-studied and widely used technique. The self-termination of
-second-layer on the Cu surface allows the growth of large area single
-layer domains up to centimeter or decimeter scale \worktodo{check if
-  explanation is correct}. Another advantage of such method is easy
-removal of Cu substrate by standard etching procedure, allowing
-transferring graphene onto a large variety of
-substrates. \worktodo{cite 1-2} Similar to the case of graphene, large
-area single-layer TMDCs and hBN can also be achieved using the CVD technique by proper interfacial engineering. \worktodo{cite TMDC paper; hBN show the Gold sample}
+epitaxy
+layer~\cite{Koma_1985_vdWE,Ueno_1990_vdWE,Parkinson_1991_vdWE},
+templated growth of 2D materials can be achieved on various
+substrates. For example, high quality single crystal graphene can be
+epitaxially grown by thermal annealing of silicon carbide (SiC)
+surface~\cite{Berger_2004_sic,de_Heer_2007}, or by decomposition of
+hydrocarbons on Ruthenium (Ru) (0001) and Pt(111)
+substrates~\cite{Sutter_2008_gr_Ru,Sutter_2009_Gr_Pt}, while epitaxial
+growth of hBN is achieved by cleavage of borazine
+(H\textsubscript{6}B\textsubscript{3}N\textsubscript{3}) on Ru(0001)
+and Rh(111)
+surfaces~\cite{Goriachko_2007_assembl_hBN_ru,Goriachko_2008_AuNP_moire_hBN}.
+%
+Such epitaxial method can also be applied to other 2D materials like
+elemental 2D
+materials~\cite{Aufray_2010_silicene,Liu_2017_assemb_borophene},
+TMDCs~\cite{Ugeda_2015_deposition},
+monochalcogenides~\cite{Yang_2017_InSe}.
+%
+However, there are still several limitations: first of all, a clean
+surface as well as ultra-high vacuum (UHV) conditions are usually
+required for the epitaxial growth
+methods~\cite{Liu_2018_rev}.
+%
+Moreover, transferring the 2D material
+onto other substrates is generally not easy due to the noble metals
+involved.
+%
+
+Chemical vapor deposition (CVD) is another widely-used templated
+growth
+method~\cite{Li_2016_cvd_rev,Novoselov_2016_vdW,Lin_2019_gr_rev_growth},
+in which one or more precursors adsorb and react on a catalytic
+surface to form covalently-bonded 2D materials.
+%
+The essence of CVD process is similar to the epitaxial growth, while
+more ambient conditions are used (10$^{1}$ Pa to atmosphere pressure,
+ultra clean substrate not necessary) \cite{Li_2016_cvd_rev}.
+%
+CVD growth of graphene using hydrocarbon source on copper (Cu) is the
+most studied and widely used technique~\cite{Li_2016_cvd_rev}.
+%
+The self-termination of second-layer on the Cu surface allows the
+growth of large area single layer domains up to centimeter or
+decimeter
+scale~\cite{Li_2011_single_crystal,Bae_2010_gr_roll,Xu_2017_gr_single_large}.
+%Another
+advantage of such method is easy removal of Cu substrate by standard
+etching procedure, allowing transferring graphene onto a large variety
+of substrates~\cite{Kim_2009_gr_transparent}.
+%
+Similar to the case of graphene, large area single-layer TMDCs and hBN
+can also be achieved using the CVD technique by proper interfacial
+engineering~\cite{Shi_2012_vdw_epi_MoS2_gr,Lee_2018_gold_BN}.
 %
 % With proper defect control during growth and development of novel
 % transferring techniques, the CVD method is promising to 
 
+\paragraph{Template-free synthesis}
 While the majority of bottom-up growth relies on a substrate to form
 the 2D material, there are also cases where colloidal 2D confined
 structures can be directed synthesized in liquid phase without
 template. Examples of 2D materials grown using the colloidal method
-include II-VI semiconductors (CdSe), 2D hybrid perovskites, and
-TMDCs. The anisotropic growth is usually modulated by surfactant /
-ligand engineering. Recently, colloidal insulating 2D metal oxides are
-reported to be synthesized by simultaneous oxidation at the liquid
-metal-water interface, further extending the possibility of bottom-up
-synthesis of 2D materials. \worktodo{cite Dicky paper}
+include II-VI semiconductors~\cite{Riedinger_2017_2D}, 2D hybrid
+perovskites~\cite{Jagielski_2017_SA}, and
+TMDCs~\citeauthor{Altavilla_2011,Plashnitsa_2012_mos2_wet}. The
+anisotropic growth of 2D materials is usually modulated by surfactant
+/ ligand
+engineering\cite{Riedinger_2017_2D,Jagielski_2017_SA}. Recently,
+colloidal insulating 2D metal oxides are reported to be synthesized by
+simultaneous oxidation at the liquid metal-water interface, further
+extending the possibility of bottom-up synthesis of 2D
+materials~\cite{Zavabeti_2017_GaOx}.
 
 As a summary, both top-down and bottom-up methods are capable of
 fabricating 2D materials with desired purity, flake size and
-thickness. A short comparison between different fabrication methods can be seen in \worktodo{table 2?!}
+thickness. A short comparison between different fabrication methods can be seen in \autoref{fig:intro-syn}.
 
 \begin{figure}[h]
   \centering
@@ -464,32 +509,43 @@ thickness. A short comparison between different fabrication methods can be seen 
 %20191008-0939
 The 2D materials do not solely attract the research interests due to
 the unique electronic properties, they are also materials with ultra
-high surface-area-to-volume ratio intrinsically. As a consequence,
+high surface-area-to-volume ratio
+intrinsically~\cite{Liu_2018_rev,Novoselov_2016_vdW}.
+%
+As a consequence,
 interfaces are almost always required when integrating the 2D
 materials into experimental studies and applications in the 3D world,
 and the interfacial properties play important roles in determining
-their proprieties. For instance, the existence of strict 2D lattices
-is long questioned due to the presumed distortion caused by thermal
-fluctuation which would break up long-range order. Although recent
-studies suggest free-standing 2D materials like graphene can be
-stabilized by the phonon coupling that causes 3D ripples in the 2D
-layer (\worktodo{find 2 papers to cite}), the majority of studies
-still require the 2D materials to be supported by substrate or
-encapsulated.  As will be shown later, these 2D interfaces may
-significantly alter the intrinsic properties by ways such as
-structural corrugation and carrier doping. On the other hand, it
-remains unrealistic to find a single 2D material which can satisfy all
-the requirements concerning high-performance applications (e.g.,
-electronic properties, mechanical strength, chemical stability, and
-synthetic difficulty), the flexibility of creating mixed-dimensional
-interfaces with existing functional materials may offer opportunities
-to fully exploit their potential. Playing with the interfacial
-interactions is critical for successful engineering of the interface
-dimensionality, morphology, electronic states and transport phenomena.
-In this section, we focus the discussion on the interactions involved
-at the 2D materials interfaces, and how the interplay between these
-interactions influences the mixed-dimensional interfaces with 2D
-materials \worktodo{say more?}
+their proprieties~\cite{Liu_2018_rev}.
+% 
+For instance, the existence of strict 2D lattices is long questioned
+due to the presumed distortion caused by thermal fluctuation which
+would break up long-range
+order~\cite{Peierls_1935_unstable,landau_statistical_2009}.
+%
+Although recent studies suggest free-standing 2D materials like
+graphene can be stabilized by the phonon coupling that causes 3D
+ripples in the 2D
+layer~\cite{Fasolino_2007_ripple,Brivio_2011_mos2_ripple}, in the
+majority of studies, the 2D materials still need to be supported by
+substrate or encapsulated.  As will be shown later, these 2D
+interfaces may significantly alter the intrinsic properties by ways
+such as structural corrugation and carrier doping.
+%
+On the other hand, it remains unrealistic to find a single 2D material
+which can satisfy all the requirements concerning high-performance
+applications (e.g., electronic properties, mechanical strength,
+chemical stability, and synthetic difficulty), the flexibility of
+creating mixed-dimensional interfaces with existing functional
+materials may offer opportunities to fully exploit their
+potential~\cite{Jariwala_2016_mixed_vdw_het}.
+%
+In this section, we focus the discussion on the
+interactions involved at the 2D materials interfaces,
+and how playing with the
+interfacial interactions is critical for successful engineering of the
+interface dimensionality, morphology, electronic states and transport
+phenomena.
 
 \subsection{Interactions and Forces at the 2D Materials Interfaces}
 \label{sec:inter-forc-at}
@@ -511,12 +567,19 @@ interfaces
 A molecule in the bulk
 form and on a densely-covered surface feels the interactions from the
 other epitaxial molecules, known as the intermolecular
-interactions. On the other hand, a molecule undergoes various
+interactions~\citetitle{Israelachvili_2011_book}.
+%
+On the other hand, a molecule undergoes various
 processes on a 2D surface, including adsorption, diffusion, rotation,
 and vibration, which is governed by the molecule-2D material
-interactions. Moreover, the effect of the underlying substrate is
+interactions.
+%
+Moreover, the effect of the underlying substrate is
 usually important where the molecule-substrate interactions come into
-play. 
+play.
+%
+The different types of interactions at 2D material interfaces are
+schematically shown in \autoref{fig:intro-interactions}.
 
 \subsubsection{Intermolecular Interactions}
 \label{sec:intro-inter-mole}
@@ -532,8 +595,8 @@ covalent bonds depending on their strength.
 \paragraph{van der Waals (vdW) Interaction}
 
 The van der Waals (vdW) interactions are dispersion forces between
-charge-neutral molecules, including many organic semiconductors, such
-as fullerene (C\(_{\text{60}}\))
+charge-neutral molecules~\cite{Israelachvili_2011_book}, including
+many organic semiconductors, such as fullerene (C\(_{\text{60}}\))
 ~\cite{Corso_2004_C60_hBN,Kim_2015_c60_gr,Chen_2016_c60_mos2},
 metal-phthalo\-cyanines (MPcs, where M can be Cu, Fe, Zn, Co, etc.)
 ~\cite{Xiao_2013_jacs_CuPc_gr,Wang_2010_selec_F16_gr,Zhang_2011_FePc_gr,Hamalainen_2012_CoPc_gr_Ir,Ying_Mao_2011_ge_clAlPc,Ogawa_2013_AlCiPc_gr,Pak_2015_CuPc_MoS2,Avvisati_2017_FePc_intercal,Iannuzzi_2014_MPc_hBN_Rh},
@@ -547,23 +610,33 @@ dianhydride (PTCDA)
 7,7,8,8,-Tetra\-cyanoquino\-dimethane (TCNQ) and its fluorinated
 derivative 2,3,5,6-Tetra\-fluoro-7,7,8,8-tetra\-cyanoquino\-dimethane
 (F\(_{\text{4}}\)-TCNQ)
-~\cite{Chen_2007_TCNQ_gr,Hong_2013_ftcnq_gr,Stradi_2014_TCNQ_gr_Ru,Tsai_2015_TCNQ_gr_hbn}.
-(\worktodo{Figure here?})
+~\cite{Chen_2007_TCNQ_gr,Hong_2013_ftcnq_gr,Stradi_2014_TCNQ_gr_Ru,Tsai_2015_TCNQ_gr_hbn}. These
+organic semiconductors are frequently used to form heterostructures
+with 2D materials via molecular epitaxy~\cite{Hara_1989_ME}, and their chemical structures are summarized in \autoref{fig:intro-formula}.
 
-Due to its non-directional and weak force nature, if the vdW
-interactions govern the interfacial molecules (weak interacting 2D
-interfaces), the molecules tends to form close-packed structures in 2D
-or 3D assemblies. The dimensionality of molecular epitaxy by vdW
-interactions is usually dependent on the surface coverage, as the
-molecule growth mechanism is similar to that of adsorption
-isotherm. Although the vdW interactions usually have an energy less than
-4 kJ\(\cdot\)mol\(^{-1}\), the collective interactions between molecules
-with large electron cloud can be stronger. For the \(\pi\)-conjugated
-aromatic molecules listed above, an effect known as the \(\pi\)-\(\pi\)
-interaction, a combined effect of vdW interactions and charge
-transfer ~\cite{Hunter_1990_pi}, can lead to preferential stacking and
-orientation of the molecules, due to maximal overlapping of
-\(\pi\)-electron clouds. 
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{scheme-organic.pdf_tex}
+  \caption{%
+    \label{fig:intro-formula}
+    Chemical structures of organic semiconductor molecules frequently
+    used in molecular epitaxy on 2D material interfaces }
+\end{figure}
+
+Due to its non-directional and weak force nature, if the
+intermolecular vdW interactions govern the interfacial molecules (weak
+interacting 2D interfaces), the molecules tends to form close-packed
+structures in 2D or 3D assemblies. The dimensionality of molecular
+epitaxy by vdW interactions is usually dependent on the surface
+coverage, as the molecule growth mechanism is similar to that of
+adsorption isotherm. Although the vdW interactions usually have an
+energy less than 4 kJ\(\cdot\)mol\(^{-1}\), the collective
+interactions between molecules with large electron cloud can be
+stronger. For the \(\pi\)-conjugated aromatic molecules listed above,
+an effect known as the \(\pi\)-\(\pi\) interaction, a combined effect
+of vdW interactions and charge transfer ~\cite{Hunter_1990_pi,Ortmann_2005_long_range}, can
+lead to preferential stacking and orientation of the molecules, due to
+maximal overlapping of \(\pi\)-electron clouds.
 
 
 \paragraph{Hydrogen Bond (H-Bond)}
@@ -592,6 +665,21 @@ adsorption sites on 2D materials (such as the moiré patterns) also
 play an important role in the assembly of H-bond-governed molecular
 epitaxy.
 
+
+\paragraph{Covalent Bond}
+In general, the interactions between the epitaxial molecules and 2D
+material (vdW and Coulombic interactions) are much weaker than the
+intra\-molecular covalent bond (including metal coordination forces),
+resulting in a variety of structures on 2D materials interfaces
+~\cite{Bakti_Utama_2013_rev_epitax}. One example is the van der Waals
+epitaxy (vdWE) technique which allows 2D or 3D crystalline growth on
+2D materials. As shown in \autoref{fig:intro-hetero}a, in conventional
+covalent heteroepitaxy between dissimilar bulk materials, the lattice
+mismatch and surface dangling bonds cause interfacial strain that
+leads to low-quality crystal growth. On the other, on
+naturally-passivated 2D material surface, the epitaxy of another
+crystalline material is possible since the vdW interaction dominates
+(\autoref{fig:intro-hetero}b and \autoref{fig:intro-hetero}c).
 \begin{figure}[h]
   \centering
   \import{\imgdir}{hetero-epitaxy.pdf_tex}
@@ -605,16 +693,7 @@ epitaxy.
   }
 \end{figure}
 
-\paragraph{Covalent Bond}
-In general, the interactions between the epitaxial molecules and 2D
-material (vdW and Coulombic interactions) are much weaker than the
-intra\-molecular covalent bond (including metal coordination forces),
-resulting in a variety of structures on 2D materials interfaces
-~\cite{Bakti_Utama_2013_rev_epitax}. One example is the van der Waals
-epitaxy (vdWE) technique which allows 2D or 3D crystalline growth on
-2D materials. As discussed before \worktodo{which section?}, the
-absence of dangling bonds eliminates the lattice mismatch between
-dissimilar materials, leading to a number of 2D vertical
+The versatility of vdWE leads to a number of 2D vertical
 heterostructures including: TMDC/graphene
 ~\cite{Shi_2012_vdw_epi_MoS2_gr,Liu_2016_epi_MoS2_gr_rotation,Lin_2014_vdW_solid,Lin_2015_Wse2_MoS2_gr,Azizi_2015_Freevdw_Gr_TMDCs,Kim_2016_BiSnTe_gr},
 TMDC/hBN
@@ -624,8 +703,9 @@ graphene/hBN
 TMDC/TMDC
 ~\cite{Zhang_2014_vdw_epi_SnS2_MoS2,Diaz_2015_MoTe2_MoSe2,Gong_2014_WS2_MoS2,Alemayehu_2015_TMDC_vdw}.
 %
-The vdWE has also been used to grow 3D heterostructures on mono- or
-multilayer 2D materials interfaces, including inorganic insulators like Al\(_{\text{2}}\)O\(_{\text{3}}\)
+The vdWE technique has also been used to grow 3D heterostructures on
+mono- or multilayer 2D materials interfaces, including inorganic
+insulators like Al\(_{\text{2}}\)O\(_{\text{3}}\)
 ~\cite{Zhang_2014_Al2O3_ALO_Gr,Vaziri_2013_ALD_Al2O3_gr}, and
 HfO\(_{\text{2}}\) ~\cite{Alaboson_2011_PTCDA_gr_ALD},
 %
@@ -633,8 +713,8 @@ and semiconductors including TiO\(_{\text{2}}\)
 ~\cite{Li_2015_TiO2_GO,Kumar_2011_gr_TiO2_generator,Zhang_2011_TiO2_gr},
 ZnO ~\cite{Chung_2010_GaN_ZnO_gr,Oh_2014_ZnO_hBN}, GaN
 ~\cite{Kobayashi_2012_GaN_hBN,Kim_2014_direct_vdw_GaN_gr,Kim_2017_remote_epi_Gr},
-GaAs ~\cite{Alaskar_2015_GaAs_gr_Si_theor,Kim_2017_remote_epi_Gr}
-\worktodo{add Kang2018}, and CdS / CdTe
+GaAs
+~\cite{Alaskar_2015_GaAs_gr_Si_theor,Kim_2017_remote_epi_Gr,Kong_2018_vdw_polar}, and CdS / CdTe
 ~\cite{Loeher_1994_vdw_epi_CdS_MoTe,Loeher_1996_CdTe_MoWTe}.
 
 Apart from the vdWE approach, covalently bonded structures can also be
@@ -766,17 +846,18 @@ hBN/Cu(111) ~\cite{Joshi_2012_hBN_Cu} systems, in which the average 2D
 material-metal distance is comparable with that in the bulk material
 (3.3$\sim{}$3.4 \AA{}) and the corrugation in the 2D layer is
 typically small (<0.5 \AA{}). The strongly interacting surfaces
-including graphene/\allowbreak{}Ru(0001) ~\cite{Moritz_2010_gr_Ru} \worktodo{sutter
-  2}, graphene/Rh(111) ~\cite{Wang_2010_gr_Rh}, hBN/Ru(0001)
-~\cite{Wang_2010_gr_Rh}, and hBN/Rh(111) ~\cite{Dil_2008_hBN_Rh}
-systems, with structural corrugations as large as 1 \AA{}, and the
-electronic fluctuation up to 0.5 eV. In the strongly interacting
-systems, the moiré pattern creates a local difference in the
-adsorption potential, which in turn results in site-specific
-adsorption of small molecules on these surfaces. Such behavior has
-been observed in a variety of organic semiconductor molecules
-deposited on the graphene/\allowbreak{}Ru(0001) surface, including MPc (M=Fe, Ni,
-Zn, Mn) ~\cite{Mao_2009_Pc_gr_kagome,Zhang_2011_FePc_gr}, pentacene
+including graphene/\allowbreak{}Ru(0001)
+~\cite{Moritz_2010_gr_Ru,Sutter_2008_gr_Ru}, graphene/Rh(111)
+~\cite{Wang_2010_gr_Rh}, hBN/Ru(0001) ~\cite{Wang_2010_gr_Rh}, and
+hBN/Rh(111) ~\cite{Dil_2008_hBN_Rh} systems, with structural
+corrugations as large as 1 \AA{}, and the electronic fluctuation up to
+0.5 eV. In the strongly interacting systems, the moiré pattern creates
+a local difference in the adsorption potential, which in turn results
+in site-specific adsorption of small molecules on these surfaces. Such
+behavior has been observed in a variety of organic semiconductor
+molecules deposited on the graphene/\allowbreak{}Ru(0001) surface,
+including MPc (M=Fe, Ni, Zn, Mn)
+~\cite{Mao_2009_Pc_gr_kagome,Zhang_2011_FePc_gr}, pentacene
 ~\cite{Zhou_2013_penta_gr_Ru}, C\(_{\text{60}}\)
 ~\cite{Li_2012_c60_gr_Ru}, PTCDA ~\cite{Zhou_2011_PTCDA_gr_Ru}, TCNQ
 ~\cite{Maccariello_2014_TCNQ_gr_Ru}, with similar behavior has also
@@ -831,14 +912,16 @@ instance through the substrate doping of graphene
 the possibility of functionalizing other 2D materials, including
 nucleophilic substitution between anionized TMDCs and organohalides
 ~\cite{Vishnoi_2016_ar_mos2_covalent} and aryl diazonium
-salts. \worktodo{cite these} The chemical modifications are also
+salts~\cite{Ryder_2016_TMDC_ad,Ryder_2016_phosphorene_ad}. The chemical modifications are also
 frequently used to improve quality of 2D semiconductors.
 %
 Diazonium modification of BP significantly increases its ambient
-stability over several weeks. \worktodo{cite nat chem 2016 8
-  597}. Moreover, treating MoS\textsubscript{2} with organic
-super\-acids moves its Fermi level towards intrinsic semiconductor,
-and significantly improves the photo\-luminescence (PL) quantum yield over two order of magnitudes. \worktodo{Science 2015 350 1065}
+stability over several
+weeks~\cite{Ryder_2016_phosphorene_ad}. Moreover, treating
+MoS\textsubscript{2} with organic super\-acids moves its Fermi level
+towards intrinsic semiconductor, and significantly improves the
+photo\-luminescence (PL) quantum yield over two order of
+magnitudes~\cite{Amani_2015_mos2_QY1}.
 %
 Future advance of covalently
 modified 2D materials with site-specific and programmable chemical
@@ -861,10 +944,30 @@ graphene: the water contact angle of water on graphene is found to be
 influenced by the vdW force between the water molecules and the
 substrate, known as the wetting ``transparency'' or ``translucency''
 of graphene
-~\cite{rafiee_wetting_2012,shih_breakdown_2012,shih_wetting_2013}. The
+~\cite{rafiee_wetting_2012,Shih_2012_prl,shih_wetting_2013}. The
 transparency can be even pronounced for electrostatic interactions,
 which has longer length scale than the vdW force
-~\cite{Shih_2015_PartiallyScreened,Tian_2016_multiscale}.  The
+~\cite{Shih_2015_PartiallyScreened,Tian_2016_multiscale}.
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{mole-sub.pdf_tex}
+  \caption{\label{fig:intro-mol-sub}%
+    Examples showing the penetration of molecule-substrate
+    interactions through the 2D material. \textbf{a}
+    Substrate-dependent epitaxial morphology of PEN on various
+    graphene-covered surfaces. The morphology changes significantly
+    from hydrophobic to hydrophilic substrate. (Adapted with
+    permission from Ref. \cite{Nguyen_2015_pent_gr_wett}. Copyright 2015
+    American Chemical Society. \textbf{b} Remote epitaxy of GaAs
+    through monolayer graphene. At a distance < 9 Å the electron
+    density from substrate GaAs slab can penetrate to influence the
+    epitaxial layer (top), resulting in perfect lattice match between
+    the epitaxial and substrate slabs (bottom).  (Adapted with
+    permission from Ref. \cite{Kim_2017_remote_epi_Gr}. Copyright 2017
+    Springer Nature.)%
+  }
+\end{figure}
+The
 influence of the molecule-substrate interactions through a 2D
 materials usually can only be examined indirectly.
 %
@@ -873,18 +976,19 @@ Examples include layer-number-dependent morphology of
 PEN~\cite{Chhikara_2014_gr_pent_trans} molecules deposited on
 SiO\(_{\text{2}}\)-supported graphene layers. Moreover, the influence
 of underlying substrate is also found for PEN when deposited on
-graphene supported by substrates with varied surface energy ~\cite{Nguyen_2015_pent_gr_wett} or
-electrostatic gating. \worktodo{cite Nguyen paper 2}
+graphene supported by substrates with varied surface energy
+~\cite{Nguyen_2015_pent_gr_wett} or electrostatic gating
+\cite{Nguyen_2019_PEN} (~\autoref{fig:intro-mol-sub}a).
 %
 Recently the concept of vdW transparency has also been
 employed in the remote vdWE of III-V semiconductors on graphene supported by highly-crystalline III-V substrate
-~\cite{Kim_2017_remote_epi_Gr}. \worktodo{cite Kang 2018 paper 2}
+~\cite{Kim_2017_remote_epi_Gr,Kong_2018_vdw_polar}.
 %
 The interactions from underlying crystalline III-V semiconductor is
 shown to direct the growth of III-V semiconductor on the graphene
-interface despite the $\sim{}$ 1 nm gap created by graphene. The
+interface despite the $\sim{}$ 1 nm gap created by graphene (~\autoref{fig:intro-mol-sub}b). The
 strength of such remote interactions are also shown to be dependent on
-the polarity of the underlying material. \worktodo{cite Kang 2018 paper 2}
+the polarity of the underlying material~\cite{Kong_2018_vdw_polar}.
 %
 In addition to the vdW and Coulombic interactions,
 graphene layer is also found to be transparent to the charge transfer
@@ -943,7 +1047,8 @@ materials, which
 essentially dominate the ordering and packing of the molecules in vicinity.
 %
 The interfacial engineering of the interactions leads to different
-dimensionalities ranging from 0D to 3D.
+dimensionalities ranging from 0D to 3D, as schematically shown in
+\autoref{fig:intro-dimensions}.
 %
 In this section, several model systems of mixed-dimensional interfaces
 with 2D materials are discussed, with the focus on how the
@@ -952,7 +1057,7 @@ the interfaces are like ``0D-2D'', with the former indicating the
 dimensionality of the heterostructure on 2D materials. In general, two
 approaches are usually employed to fabricate such mixed-dimensional
 interfaces, namely self-assembly of small molecules, and deposition of
-pre-formed nano\-materials. \worktodo{say something more?}
+pre-formed nano\-materials. 
 
 \begin{figure}[htbp]
   \centering
@@ -966,6 +1071,23 @@ pre-formed nano\-materials. \worktodo{say something more?}
 
 \subsubsection{0D-2D Interface}
 \label{sec:intro-0D-2D}
+
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{0D-2D.pdf_tex}
+  \caption{\label{fig:intro-0D-2D}%
+    Examples of 0D-2D interface. \textbf{a} Isolated MPc molecules
+    trapped in the pore regions of hBN/Ru(0001) surface grown by
+    sub-monolayer molecular epitaxy, with both experimental STM
+    micro\-graph and first principle simulations (Adapted with
+    permission from
+    Ref. \citetitle{Iannuzzi_2014_MPc_hBN_Rh}. Copyright 2014 The PCCP
+    Owner Societies.)  \textbf{b} Hybrid graphene–QD photo\-transistor
+    made from solution-phase deposition. (Adapted with permission from
+    Ref. \cite{Konstantatos_2012_QD_gr_trans}. Copyright 2012
+    Macmillan Publishers Limited.)%
+  }
+\end{figure}
 
 \paragraph{Self-Assembly}
 \label{sec:org8117691}
@@ -987,37 +1109,40 @@ trap metal clusters
 and individual organic semiconductor molecules
 ~\cite{Joshi_2014_TCNQ_hBN,Dil_2008_hBN_Rh,Lu_2012_c60_gr_moire}.
 %
-In the case of organic molecular deposition, the site-specific
-adsorption energy difference is usually around 10\textsuperscript{2}
-meV ~\cite{Lu_2012_c60_gr_moire}, enough to trap the small molecules
-within the valley regions of the 2D moiré patterns. More interesting,
-it is also found that the site-specific isolation of small molecules
-is not limited to strongly interacting surfaces such as graphene and
-hBN supported by Ru or Rh, but also weakly interacting surfaces like
-hBN/Cu(111) with a small degree of corrugation but strong electronic
-patterning ~\cite{Joshi_2012_hBN_Cu,Joshi_2014_TCNQ_hBN}, revealing the
-more complex nature of the 0D self-assembly on 2D materials interfaces.
+In the case of organic molecular deposition
+(~\autoref{fig:intro-0D-2D}a), the site-specific adsorption energy
+difference is usually around 10\textsuperscript{2} meV
+~\cite{Lu_2012_c60_gr_moire,Iannuzzi_2014_MPc_hBN_Rh}, enough to trap
+the small molecules within the valley regions of the 2D moiré
+patterns. More interesting, it is also found that the site-specific
+isolation of small molecules is not limited to strongly interacting
+surfaces such as graphene and hBN supported by Ru or Rh, but also
+weakly interacting surfaces like hBN/Cu(111) with a small degree of
+corrugation but strong electronic patterning
+~\cite{Joshi_2012_hBN_Cu,Joshi_2014_TCNQ_hBN}, revealing the more
+complex nature of the 0D self-assembly on 2D materials interfaces.
 %
 The isolated molecules on 2D materials can be used as nucleation sites
 for further molecular epitaxy, and facilitate the research of
-single-molecular surface reaction. \worktodo{Guess need to cite 1-2
-  papers here}
+single-molecular surface reaction.
 
 
 \paragraph{Deposition of nano\-materials}
 
 
 The 0D-2D interfaces fabricated by deposition usually refer to the 0D
-quantum dot (QD)-2D material junction. The quantum dots are
+quantum dot (QD)-2D material junction. The QDs are
 quantum-confined nano\-materials with size of several
-nano\-meters. \worktodo{get a cite for this part}
+nano\-meters~\cite{Sargent_2013_colloidal_book}.
 %
 The vast majority of the QDs are prepared by colloidal synthesis, and
-covered by buffering coating such as ligands. \worktodo{get a cite for this part}
+covered by buffering coating such as
+ligands~\cite{Kim_2013_QD_rev}.
 %
 As a result, QDs deposited on 2D materials using solution processing
 can still sustain the isolate form, making their applications more
-versatile than the self-assembled 0D structures.
+versatile than the self-assembled 0D
+structures~\cite{Jariwala_2016_mixed_vdw_het}.
 %
 One promising feature of QDs is the optical properties, including high
 optical absorption coefficient, PL quantum yield, and size-dependent
@@ -1025,30 +1150,48 @@ modulation of optical bandgap.
 %
 Combining with the electrostatic tuning of 2DEG, the 0D-2D
 heterostructures can be used for multiple light sensitive components
-such as photo\-transistors, photo\-diodes, photo\-voltaics (PV) and
-light emitting devices (LED). \worktodo{cite}
+such as
+photo\-transistors~\cite{Kufer_2014_QD-mos2,Konstantatos_2012_QD_gr_trans},
+photo\-diodes\cite{Kufer_2014_QD-mos2}, photo\-voltaics
+(PV)~\cite{Guo_2010_gr_QD_PV,Wang_2016_QD_PV} and light emitting
+devices (LED)~\cite{Son_2012_ZnO-Gr-QD}.
 %
 These architectures share a similar feature, that the QDs act as the
 main photo-active component, while the 2D materials is design to
 modulate the carrier transport / injection at the QD-2D interface.
-\worktodo{I guess 2 papers each part may be needed}
 %
 For instance, in a 0D-2D photo\-transistors based on lead sulfide
-(PbS) QDs on graphene \worktodo{nature nanoteh 2012 7 363-368}, the
+(PbS) QDs on graphene \cite{Konstantatos_2012_QD_gr_trans}, the
 photo-generated carriers in the QDs are transferred onto the biased
-graphene surface and consequently collected at the electrodes. The
-benefits from such mixed-dimensional heterostructure are two-folds:
-(1) the large optical cross-section of QDs enhanced photo\-detection
-limit compared with bare 2D material and (2) the photo\-current is
-efficiently modulated by electrostatic gating of graphene.
+graphene surface and consequently collected at the electrodes
+(~\autoref{fig:intro-0D-2D}b). The benefits from such
+mixed-dimensional heterostructure are two-folds: (1) the large optical
+cross-section of QDs enhanced photo\-detection limit compared with
+bare 2D material and (2) the photo\-current is efficiently modulated
+by electrostatic gating of graphene.
 %
 The examples of other 0D-2D photo\-active electronic components can be
-found in several recent reviews. \worktodo{cite Jariwala, Dominik
-  Kufer ACS Photo}
+found in several recent
+reviews~\cite{Jariwala_2016_mixed_vdw_het,Kufer_2016_QD_FET_rev}.
 
 
 \subsubsection{1D-2D Interface}
 \label{sec:orgeadf57e}
+
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{1D-2D.pdf_tex}
+  \caption{\label{fig:intro-1D-2D}%
+    Examples of 1D-2D hetero\-junctions. \textbf{a} Self-assembled
+    network structures of TNCQ on graphne/Ru(0001) surface by
+    increasing surface coverage 0.3 ML. (Adapted with permission from
+    Ref. \cite{Maccariello_2014_TCNQ_gr_Ru}. Copyright 2014 American
+    Chemical Society.) \textbf{b} Solution processes carbon
+    nano\-tube/MoS\textsubscript{2} pn-junction for high performance
+    field effect transistor. (Adapted with permission from
+    Ref. \cite{Jariwala_2013_CNT-mos2}. Copyright 2013 National
+    Academy of Sciences.)}
+\end{figure}
 
 \paragraph{Self-assembly}
 
@@ -1058,16 +1201,19 @@ and fractal assemblies may be formed on 2D material interfaces, in the
 form of nanowires, nanoporous or network structures.
 %
 As discussed earlier, the strongly interacting surfaces, including
-graphene/\allowbreak{}Ru(0001), graphene/Rh(111) and hBN/Ru(0001) result in the
-moiré pattern that serves as specific binding sites for trapping small
-molecules at low surface coverage.  Starting from the 0D assembly
-formed by moiré patterns on graphene/\allowbreak{}Ru(0001), graphene/Rh(111) and
-hBN/Ru(0001) as discussed in \autoref{sec:intro-0D-2D}, when further
-increasing the surface coverage, the specifically adsorbed molecules
-act as nucleation sites for subsequent epitaxial growth.  The intermolecular interactions, in combination with
-the geometry of moiré pattern, result in a specific arrangement of the
-molecules on the surface, varying from nanowire, nanorope ~\cite{Maccariello_2014_TCNQ_gr_Ru} to Kagome
-lattice ~\cite{Atwood_2002_kagome,Mao_2009_Pc_gr_kagome}.
+graphene/\allowbreak{}Ru(0001), graphene/Rh(111) and hBN/Ru(0001)
+result in the moiré pattern that serves as specific binding sites for
+trapping small molecules at low surface coverage.  Starting from the
+0D assembly formed by moiré patterns on
+graphene/\allowbreak{}Ru(0001), graphene/Rh(111) and hBN/Ru(0001) as
+discussed in \autoref{sec:intro-0D-2D}, when further increasing the
+surface coverage, the specifically adsorbed molecules act as
+nucleation sites for subsequent epitaxial growth.  The intermolecular
+interactions, in combination with the geometry of moiré pattern,
+result in a specific arrangement of the molecules on the surface,
+varying from nanowire, nanorope ~\cite{Maccariello_2014_TCNQ_gr_Ru} to
+Kagome lattice ~\cite{Atwood_2002_kagome,Mao_2009_Pc_gr_kagome}
+(~\autoref{fig:intro-1D-2D}a).
 %
 The nucleation-induced growth is both substrate- and
 molecule-specific. For instance, 1D and fractal molecular assemblies
@@ -1096,7 +1242,7 @@ identical molecules leading to distinct morphologies on graphene/\allowbreak{}Ru
 ~\cite{Meier_2010_polycyclic_gr,Roos_2011_BTP_gr,Roos_2011_hiera_org_gr},
 revealing the important role of directional interactions in the
 formation of low-dimensional assemblies on 2D
-interfaces. \worktodo{Add spaces between all Ru instances}
+interfaces.
 %
 In addition to hydrogen bond, several other interactions including
 hydrophobic interaction between long alkyl chains
@@ -1112,35 +1258,27 @@ interactions, which stabilizes the formed low-dimensional structure.
 % 20191008-1613
 Like the 0D quantum dots, 1D quantum-confined nano\-material such as
 semiconductor nanowires (NWs), carbon nano\-tubes (CNTs) are the
-mostly widely used nano\-structure to build 1D-2D interface.
-\worktodo{Cite this part Jairwala 2X + waveguide Si, Appl. Phys. Lett. 100, 223114 (2012), ACS Nano2010 10 5835-5842}
+mostly widely used nano\-structure to build 1D-2D interface
+~\cite{Jariwala_2013_CNT-mos2,Jariwala_2014_solution_CNT,Fu_2012_gr_ZnONW,Wu_2010_NW_supercap,Gan_2013_Si_WG}.
 %
-The interfaces are usually fabricated using solution processing
-(coating of nanowire suspension) or micro\-mechanical manipulation
-(for single nanowire devices)
-\worktodo{several cite here?}
+The interfaces can usually be fabricated using solution processing
+(\eg coating of nanowire suspension~\cite{Jariwala_2014_solution_CNT},
+\autoref{fig:intro-1D-2D}b)
 %
 Similar to the idea of 0D-2D heterostructure, the quantum-confinement
 of the 1D NW structures is employed to fabricate photo\-diodes and
 photo\-transistors with engineering of spectra responsive from
-ultraviolet (UV) to infrared (IR) \worktodo{Nie small 2013 9 2872, Gao
-  nanoscale 2013 5 5576, miao small 2015 11 936, + jariwala + Spina
-  perovskite} by tuning both the bandgap of the NWs or 2D materials.
+ultraviolet (UV) to infrared (IR) \cite{Nie_2013_NW_array,Gao_2013_NW_gr,Miao_2014_NW_IR,Jariwala_2013_CNT-mos2,Spina_2015_perov_nw}
+by tuning both the bandgap of the NWs or 2D materials.
 %
 Proper alignment of the 1D-2D heterostructure can also be used as
 optical waveguides and cavities to direct in-plane light propagation,
-in order to enhance optical responsiveness of pure 2D structures.
-\worktodo{cite Nat Photon 2013 Pospischil, Gan and Shiue}
-
+in order to enhance optical responsiveness of pure 2D structures~\cite{Gan_2013_Si_WG,Pospischil_2013_CMOS}.
+%
 If the 1D structures are aligned vertically to the 2D plane (\ie NW
 arrays), such heterostructure further owns high surface-area-to-volume
 ratio, and are widely used in applications like electrodes in
-batteries and super\-capacitors \worktodo{High-Energy MnO2
-  Nanowire/Graphene and Graphene Asymmetric Electrochemical
-  Capacitors, Ultralong single crystalline V 2 O 5 nanowire / graphene
-  composite fabricated by a facile green approach and its lithium
-  storage behavior}.
-
+batteries and super\-capacitors \cite{Wu_2010_NW_supercap,Liu_2011_V2O5NW}
 
 
 \subsubsection{2D-2D Interface}
@@ -1168,8 +1306,8 @@ graphene or hBN, which explain similar packing experimentally observed
 on phosphorene. Such arguments also correlates with the general trend
 observed in experiments: monolayer closed-packed molecular assemblies
 are more favored on weakly interacting interfaces such as graphene/Pt
+interfaces such as graphene/\allowbreak{}Ru(0001) and graphene/BN, which is applicable for a wide
 (111) and graphene/Pt (111) compared with strongly interacting
-interfaces such as graphene/\allowbreak{}Ru (0001) and graphene/BN, which is applicable for a wide
 range of small organic molecules ~\cite{Hamalainen_2012_CoPc_gr_Ir,Xiao_2013_jacs_CuPc_gr,Barja_2010_TCNQ_gr, Jung_2014_C60_gr_Cu,Yang_2012_MPc_gr_metal,Barja_2010_TCNQ_gr,Hamalainen_2012_CoPc_gr_Ir,Tsai_2015_TCNQ_gr_hbn,Stradi_2014_TCNQ_gr_Ru}.
 %
 Despite the simplicity of such conclusions, in reality, the monolayer
@@ -1188,15 +1326,16 @@ exfoliation, and can be fabricated by either direct mechanical
 assembly or epitaxial growth.
 %
 The mechanical assembly is usually performed by wet transfer and
-lift-off techniques,
-\worktodo{cite novoselov}
+lift-off techniques~\cite{Novoselov_2016_vdW},
 although able to precise determine the stacking
 sequence, its process is usually cumbersome and time-consuming, and
 the relative orientation between layers is hard to
-control. \worktodo{Cite paper from Novoselov} Recent advances like
-nanoscale atomic force microscope (AFM) manipulation and folding of 2D
-flakes may open avenues to scalable production of 2D vdWHs with
-desired stack and orientation. \worktodo{cite 1-2 science papers.}
+control.
+% \worktodo{Cite paper from Novoselov}
+Recent advances like atomically-precise scanning tunneling microscope
+(STM) manipulation and folding of 2D flakes may open avenues to
+scalable production of 2D vdWHs with desired stack and
+orientation~\cite{Chen_2019_STM_graphene}.
 %
 More scalable synthesis of vdWHs include solution-phase assembly of 2D
 material flakes by controlling the interlayer charge, which can be
@@ -1251,10 +1390,11 @@ summation / averaging from that of individual layers, with
 unprecedented physical phenomena coming from the interlayer coupling.
 %
 Examples of such interlayer coupling include layer-dependent bandgap
-opening, \worktodo{cite} ultra\-fast interlayer charge transfer,
-interlayer exciton formation, magnetic coupling and even topological
-insulating / superconducting states.
-\worktodo{find 1-2 citations each}
+opening~\cite{Mak_2010_mos2,Raja_2017}, ultra\-fast interlayer charge
+transfer~\cite{Hong_2014_ultrafast_e_MoS2WS2,Zheng_2017}, interlayer
+exciton formation~\cite{Latini_2017_interlayer_ex}, magnetic
+coupling~\cite{Huang_2017_magnet} and even topological insulating /
+superconducting states~\cite{Cao_2018_insulator,Cao_2018_supercond}.
 
 
 \subsubsection{3D-2D Interface}
@@ -1271,6 +1411,7 @@ key properties including carrier transport, interfacial barrier, which
 motivates understanding of the underlying mechanism.  The diversity of
 3D epitaxial morphology addresses the question of how the macroscopic
 structure is influenced by the interplay between the interactions.
+
 
 \paragraph{Layer-by-Layer Assembly of Small Molecules}
 \label{sec:org2cdd8f0}
@@ -1307,7 +1448,10 @@ molecules fully adapt the edge-on orientation, consistent with that in
 the bulk crystal ~\cite{Ruiz_2004_bulk_pentacene}. Similar structural
 transition is also observed in C8-TBTB assembly on
 graphene~\cite{He_2014_C8BTBT_gr} and MoS\textsubscript{2}
-~\cite{He_2015_C8BTBT_MoS2}, with the penetration depth on graphene slightly longer than on MoS\textsubscript{2} due to stronger π-π interactions.
+~\cite{He_2015_C8BTBT_MoS2}, with the penetration depth on graphene
+slightly longer than on MoS\textsubscript{2} due to stronger π-π
+interactions (~\autoref{fig:intro-3D-2D}a and
+\autoref{fig:intro-3D-2D}b).
 %
 Although in principle, the weak molecule-2D and molecule-substrate
 interactions vanishes after a few nano\-meter, the interface-induced orientation may still be preserved over long range.
@@ -1321,14 +1465,33 @@ depth. On the contrary, the epitaxy
 structure of thin-layer MPc on MoS\(_{\text{2}}\)
 ~\cite{Zhang_2015_CuPc_MoS2} shows less stability which undergo a
 face-on to edge-on transition upon air exposure and forms 1D-ordered
-structures. 
+structures.
+
+\begin{figure}[htbp]
+  \centering
+  \import{\imgdir}{3D-2D.pdf_tex}
+  \caption{\label{fig:intro-3D-2D}%
+    Examples of 3D-2D heterostructure by layer-by-layer deposition of
+    molecular organic semiconductors. The substrate effect is critical
+    for controlling the interfacial orientation by comparing the
+    packing of C8-TBTB on \textbf{a} graphene and \textbf{b} MoS2. The
+    template effect on MoS2 is less than graphene. (\textbf{a} adapted
+    with permission from Ref.~\cite{He_2014_C8BTBT_gr} Copyright 2014
+    Springer Nature. \textbf{b} adapted with permission from
+    Ref.~\cite{He_2015_C8BTBT_MoS2}. Copyright 2015 American Institute
+    of Physics.) \textbf{c} Highly oriented rubrene crystal growth on
+    layered hBN for high performance field effect transistor. (Adapted
+    with permission from Ref.~\cite{Lee_2014_rubene_hBN} Copyright
+    2014 WILEY-VCH Verlag GmbH \& Co)%
+  }
+\end{figure}
 
 The morphological control of 3D molecular epitaxy can also be achieved
 by fine-tuning the chemical structure of epitaxial molecules, such as
 the cases of
 CuPc/F\(_{\text{16}}\)CuPc~\cite{Singha_Roy_2012_CuPc_gr_glass,Xiao_2013_jacs_CuPc_gr,Zhong_2012_gr_F16_pn_junc,Yang_2011_F16CUPc_nanowire}
 and
-PEN/PFP ~\cite{Salzmann_2012_fpen_gr,Breuer_2011_pent_grap}
+PEN/PFP ~\cite{Salzmann_2012_fpen_gr,Breuer_2011_pent_graph}
 on graphene and MoS\textsubscript{2} surfaces.
 %
 While the nanoscale orientation remains the same, fluorination of the
@@ -1340,12 +1503,11 @@ understood, the change of film interfacial energy caused by the
 fluorination may be a plausible explanation.
 
 The atomically flat and chemically inert surfaces of 2D materials
-allow the growth of highly crystalline organic thin films. Organic semiconductors such as Rubrene
-\worktodo{use capital for R?}
-grown by the template effect of
-2D materials exhibit high mobility ($>$ 10
-cm$^{2}\cdot$V$^{-1}$s$^{-1}$) which is previously only achievable by
-single crystal. \worktodo{Cite Lee adv mater 2014 26 2812}
+allow the growth of highly crystalline organic thin films. Organic
+semiconductors such as rubrene grown by the template effect of 2D
+materials exhibit high mobility ($>$ 10 cm$^{2}\cdot$V$^{-1}$s$^{-1}$)
+which is previously only achievable by single
+crystal~\cite{Lee_2014_rubene_hBN} (~\autoref{fig:intro-3D-2D}c).
 %
 The high mobility brought by interfacial molecular packing and
 orientation provides rich opportunity for fabricating high performance
@@ -1353,17 +1515,17 @@ electronic devices such as organic field effect transistors (OFET) and
 pn-junctions.
 %
 Current on-off ratio as high as 10$^{8}$ can be achieved in lateral
-OFET based on PEN/graphene heterostructure \worktodo{cite lee J am
-  chem soc 2011 133 4417}.
+OFET based on PEN/graphene heterostructure~\cite{Lee_2011_pentacene}.
 %
 Vertical OFET made on C\textsubscript{60}/graphene interface also
-shows current on-off ratio up to 10$^{5}$. \worktodo{cite Shih}
+shows current on-off ratio up to
+10$^{5}$~\cite{Shih_2015_PartiallyScreened}.
 %
 More interestingly, engineering the interfacial molecular orientation
 not only enables high carrier mobility, but also changes the work
 function of organic layer, providing more flexibility tuning the
 electronic properties of the organic/2D material
-heterostructure. \worktodo{cite 2 papers from NUS}
+heterostructure~\cite{Zhong_2014_gr_F16_EF,Wu_2013_CuPc_F16_gr}.
 
 
 
@@ -1392,7 +1554,7 @@ Besides the molecule-2D material interactions, the underlying
 substrate below 2D material is also shown to have impact on the
 epitaxial overlayer, resulting in the epitaxial layer remotely follows
 the  lattice of the underlying semiconductor substrate (GaAs, InP and GaP)
-~\cite{Kim_2017_remote_epi_Gr}. Moreover such interactions are found to be stronger for materials using higher polarity. \worktodo{cite Kang 2018}
+~\cite{Kim_2017_remote_epi_Gr}. Moreover such interactions are found to be stronger for materials using higher polarity~\cite{Kong_2018_vdw_polar}.
 %
 The exact mechanism of such phenomena is, however still an open question.
 
@@ -1491,8 +1653,7 @@ low-dimensional systems.
 
 % 20191009-1324
 The electrostatic (Coulombic) interactions are long-range forces that
-can be extended to several nano\-meter or even micro\-meter scale.
-\worktodo{Cite griffith book}
+can be extended to several nano\-meter or even micro\-meter scale~\cite{Lacava_2016-electrodyn}.
 %
 On the contrary, with only one to few atoms perpendicular to its basal
 plane, the thickness of 2D materials can be much smaller than the
@@ -1531,7 +1692,7 @@ Using a discrete model based on total energy optimization and taking
 into account of graphene's Dirac cone structure, Kuroda et
 al. demonstrate a non-linear behavior of the effective screening
 length $\lambda_{\mathrm{eff}}$ in multi-layer graphene
-(MLG). \worktodo{cite Kuroda PRL 2011, Rokni Sci Rep}
+(MLG)~\cite{Kuroda_2011_PRL_ML,Kuroda_2011_ML_gr,Rokni_2017}.
 %
 Unlike $\lambda_{\mathrm{D}}$ in bulk systems which decays with
 $n_{\mathrm{s}}^{-1/2}$, $\lambda_{\mathrm{eff}}$ does not show a
@@ -1542,14 +1703,14 @@ expected in bulk systems.
 %
 The complexity of the electrostatic screening through graphene and
 other 2D materials has also been shown in both theoretical and
-experimental studies.  \worktodo{cite Uesugi, Sci Rep 2012, Goto NL
-  2013, Datta 2009 NL, LuHua Li NL 2015}
+experimental
+studies~\cite{Datta_2009_ML_Screening,Uesugi_2013_EDL_ML,Goto_2013_ML_Gr,Liluhua_2014_hbn}.
 %
 
 The partial penetration of electric field through 2D materials is
 the fundamental mechanism behind several 2D-material-based electronic
 devices such as the graphene barristor and vertical field effect
-transistor (VFET). \worktodo{cite Yang science \& Shih NL}
+transistor (VFET)~\cite{Yang_2012_Barristor,Shih_2015_PartiallyScreened}.
 %
 In these devices, the electric field from a dielectric layer
 penetrates graphene (or other 2DEGs) and changes the interfacial
@@ -1557,10 +1718,11 @@ states at the semiconductor/2DEG junction, to enable on/off switch of
 current passing through the semiconductor.
 %
 The operation mechanism of such devices are widely thought to be
-modulated by the interfacial transport barrier. \worktodo{cite yang
-  science and 2 others} However, this cannot fully explain the other
-features such as selective carrier injection at the semiconductor /
-2DEG \worktodo{should separate or without blank?} \worktodo{cite Shih NL}
+modulated by the interfacial transport
+barrier~\cite{Yang_2012_Barristor,Zhong_2014_SB,Dankert_2017_graphene_spin_SB}.
+However, this cannot fully explain the other features such as
+selective carrier injection at the
+semiconductor/\allowbreak{}2DEG~\cite{Shih_2015_PartiallyScreened}
 %
 Moreover, the influence of the penetrated field on the adjacent
 semiconductor is usually ignored.
@@ -1574,8 +1736,8 @@ homogeneous 2D stacks can be more complex, hen combining 2D material
 build blocks with distinct electronic properties and stacking order.
 %
 A few theoretical efforts have been made to elucidate the influence of
-external electric field on the 2D vdWHs. \worktodo{cite DTU 2017 NL,
-  ACS AMI, Santos paper X2}
+external electric field on the 2D
+vdWHs~\cite{Santos_2013_tunable_eps_gr,Santos_2013_ACSnano_kaxi,Lu_2017_ami_electro_doping}.
 %
 However, such studies usually employ full-scale first principle
 simulations, which is time-consuming and is hard for up-scaling
@@ -1604,18 +1766,20 @@ relative permittivity).
 $\varepsilon$ is defined as the ratio between the magnitudes of
 $\mathbf{E}$ and $\mathbf{E}_{\mathrm{ext}}$ and has a complex value.
 %
-It plays a central role in electromagnetism and is connected
-to various physical quantities, including optical absorption, electric
-conductivity, electric capacitance, impurity energy level, Debye
-screening length and vdW interaction coefficient.
-\worktodo{think of citing these?}
+It plays a central role in electromagnetism and is connected to
+various physical quantities, including optical
+absorption~\cite{Dressel_2001_electrodynamics}, electric conductivity,
+electric capacitance, impurity energy level~\cite{Ihn_2009_book},
+Debye screening length~\cite{Israelachvili_2011_book} and vdW
+interaction coefficient~\parencite{parsegian_van_2010}.
 %
 In the context of 2D materials, $\varepsilon$ is widely used to
 interpret several energy scales, in particular the exciton binding
 energy of direct-gap TMDCs and hBN.
 %
 However, values of $\varepsilon$ for a certain material in literature
-usually has discrepancy of 1$\sim{}$2 orders of magnitude. \worktodo{cite paper 9-13 from Elton ACS Nano, and Li Chem Soc Rev}
+usually has discrepancy of 1$\sim{}$2 orders of magnitude~\cite{Li_2016}.
+% \worktodo{cite paper 9-13 from Elton ACS Nano, and Li Chem Soc Rev}
 %
 Such inconsistency causes even worst estimation of corresponding
 energy levels (for instance, the exciton binding energy is usually
@@ -1623,12 +1787,15 @@ assumed to be proportional $\varepsilon^{-2}$).
 %
 Even in the theoretical studies, the dielectric screening of 2D
 materials are still under huge debate.  The $\varepsilon$ values
-reported for a 2D material range from near unity (\ie no dielectric
-screening) to almost equal to $\varepsilon$ in its bulk counterpart
-(\ie no difference between 2D and 3D cases). \worktodo{you know what to cite}
+reported for a 2D material range from near
+unity~\cite{Olsen_2016_hydrogen} (\ie no dielectric screening) to
+almost equal to $\varepsilon$ in its bulk
+counterpart~\cite{Laturia_2018} (\ie no difference between 2D and 3D
+cases).
 %
 Moreover, whether the quantum confined structure causes anisotropy in
-the $\varepsilon$ of a 2D material, is still questionable.
+the $\varepsilon$ of a 2D material~\cite{Sohier_2016}, is still
+questionable.
 %
 Clearly, precisely determining the dielectric properties of 2D
 materials is critical to build correct physical models of these
@@ -1636,22 +1803,24 @@ low-dimensional materials.
 
 %
 % 20191010-0947
-In addition to the disputed fundamental definition of the dielectric
-properties (such as $\varepsilon$) of a 2D material, there are also
-complexities \worktodo{I don't this sentence, try to change it?}
+There are also
+complexities even beyond the disputed fundamental definition of the dielectric
+properties (such as $\varepsilon$) of a 2D material.
 %
 The electronic structure of a 2D material or vdWH can be greatly
-influenced by external electric field, such as modulating the bandgap,
-\worktodo{ite paper 11-20 in Kumar phosphorene paper} and even
-inducing transition from parabolic dispersion to Dirac cone in the
-electronic band structure \worktodo{cite paper 21 and 22}.
+influenced by external electric field, such as modulating the
+bandgap~\cite{Kumar_2016_PRB,Kumar_2016_jpcc,Li_2014_phosphorene_Efield},
+and even inducing transition from parabolic dispersion to Dirac cone
+in the electronic band structure~\cite{Liu_2015_aniso_dirac}.
 %
 Similarly, the dielectric properties of 2D materials and vdWHs are
 also shown to be electric-field-dependent from first principle
 simulations,
 %
-including multilayer stacks of graphene \worktodo{Elton NL}, TMDCs,
-GaS, phosphorene, and heterostructure of hBN/graphene.
+including multilayer stacks of
+graphene~\cite{Santos_2013_tunable_eps_gr},
+TMDCs~\cite{Santos_2013_ACSnano_kaxi}, GaS~\cite{Li_2015_GaS}, phosphorene~\cite{Kumar_2016_PRB}, and
+heterostructure of hBN/graphene~\cite{Kumar_2016_jpcc}.
 %
 A commonly
 observed trend is the nonlinear increasing of the dielectric response
@@ -1660,14 +1829,14 @@ under stronger fields ($>$ 0.01 ev/\AA{}).
 Such phenomena have clearly different origin compared with the
 field-dependent $\varepsilon$ observed in some bulk para- and
 ferro-electric materials, which is usually shows decreasing
-$\varepsilon$ upon stronger electric field.  \worktodo{cite Hemberger,
-  Maiti and christen}
+$\varepsilon$ upon stronger electric
+field~\cite{Hemberger_1995_bulk_dielectric_efield,Maiti_2006_bulk_eps_batio3}.
 %
 Some studies attribute that the field-dependent dielectric properties
 of 2D materials and vdWHs to the change of electronic band structure
 and potential insulator-conductor transition, while the exact
 description and predictions for other materials combinations, are
-still missing.\worktodo{Add some more here}
+still missing.
 %
 
 \subsection{Van der Waals Interactions and Wetting Phenomena}
@@ -1682,7 +1851,7 @@ interactions, but also short-range vdW forces.
 The partial penetration of vdW interactions through a 2D material
 sheet is in principle possible since the thickness (e.g. $\sim{}$3.3
 \AA{} for graphene) is still shorter than the effective length scale
-of vdW interactions ($\sim{}$ 1 nm).\worktodo{where to cite?}
+of vdW interactions ($\sim{}$ 1 nm)~\cite{Israelachvili_2011_book}.
 %
 In literature, such hypothesis is usually examined by two approaches:
 the liquid wettability or solid-state molecular epitaxy on supported
@@ -1695,18 +1864,19 @@ experimental data usually vary greatly between cases.
 For instance, Rafiee, Mi et al reported that the liquid contact angle
 (CA) on graphene supported by gold or silicon substrates would be
 almost identical to that observed on bare substrates, leading to the
-claim of complete wetting transparency of graphene \worktodo{cite
-  rafiee}.
+claim of complete wetting transparency of
+graphene~\cite{rafiee_wetting_2012}.
 %
 However, this analysis is later shown to be incomplete due to complete
 ignoring the liquid-graphene interactions, as discussed in
 \autoref{sec:inter-forc-at}.
 %
-A more complete theoretical model developed by Shih et al
-\worktodo{cite} based on the pair-wise vdW interaction and Boltzmann
-distribution of liquid molecules predicts that the contact angle on
-substrate-supported graphene, would be saturated below 100$^{\circ}$,
-which renders the graphene sheet as ``wetting translucent''.
+A more complete theoretical model developed by Shih et
+al.~\cite{Shih_2012_prl}  based on the pair-wise
+vdW interaction and Boltzmann distribution of liquid molecules
+predicts that the contact angle on substrate-supported graphene, would
+be saturated below 100$^{\circ}$, which renders the graphene sheet as
+``wetting translucent''.
 %
 The controversy of ``wetting transparency'' or ``wetting
 translucency'', is however not completely settled.
@@ -1725,22 +1895,21 @@ substrate.
 However, in reality this is extremely hard to achieve due to the large
 mismatch between the size of a droplet using conventional contact
 angle goniometer ($>$0.1 mm) and the largest size of suspended 2D
-material so far ($<$10 μm) \worktodo{is it true?}
+material so far ($<$10 μm)~\cite{Zhang_2017_transfer_suspended}.
 %
 As a result, most reported values of water contact angle of graphene
 are still performed on substrate-supported samples, with CA ranging
-from below 50$^{\circ}$ to almost 180$^{\circ}$.
+from below 50$^{\circ}$ to almost 180$^{\circ}$~\cite{kozbial_study_2014}.
 %
 In addition, the transfer process of 2D materials usually leaves
 polymer residues and other defects on the surface, which are also
-shown to affect the CA on 2D material surfaces. \worktodo{cite Kobizal
-  papers}
+shown to affect the CA on 2D material surfaces~\cite{Kozbial_2015}.
 %
 Moreover, even if polymer- and defect-free 2D material samples can be
 obtained, the CA is also shown to be influenced by air-born
 hydrocarbon contaminations under ambient, causing a
-hydrophilic-to-hydrophobic transition \worktodo{cite Li liu paper}
-that ubiquitously found in graphene and TMDC samples.
+hydrophilic-to-hydrophobic transition~\cite{li_effect_2013} that ubiquitously found in graphene and
+TMDC samples.
 %
 Clearly, any theoretical model dealing with liquid wetting on 2D
 material interfaces that makes use of the ``intrinsic'' vdW
@@ -1749,13 +1918,12 @@ large uncertainty of reported wettability.
 %
 On the contrary, the above issues concerning contamination can be
 effectively minimized in molecular epitaxy, which is usually operated
-under high vacuum and annealed conditions.
+under high vacuum and annealed conditions~\cite{Koma_1985_vdWE}.
 %
-\worktodo{cite ME papers}
 %
 The studies using molecular epitaxy usually compare the morphology and
 nucleation density of target molecules deposited onto various 2D
-materials supported by different substrates.
+materials supported by different substrates~\cite{Kratzer_2016_6P_gr_trans,Nguyen_2015_pent_gr_wett}.
 %
 Although various studies demonstrate the validation of vdW
 transparency through molecular epitaxy, the conclusions are in general
@@ -1769,16 +1937,17 @@ macroscopic wetting phenomena.
 
 Another open question is whether our understandings of interfacial vdW
 interactions are complete. For instance, most of the theories about
-vdW transparency \worktodo{cite shih and Sci rep paper} assumes the
+vdW transparency~\cite{shih_breakdown_2012,Kim_2015_wetting_controversy}
+assumes the
 vdW interactions between the substrate and liquid phase is reduced due
 to the thickness of the 2D material layer.
 %
-The accuracy of such assumption is questionable: using accurate atomic
+The accuracy of such assumption may be questionable: using accurate atomic
 force spectroscopy, Tsoi et al. showed the molecule-substrate vdW
-interaction coefficient (the Hamaker constant \worktodo{cite Hamaker
-  paper}), actually changes by varying the 2D material.
+interaction coefficient (the Hamaker
+constant~\cite{parsegian_van_2010}), actually changes by varying the
+2D material\cite{Tsoi_2014_vdW_screening_2D}.
 %
-\worktodo{consider these works \cite{Kong_2012_gr_screen,Cho_2012_c60_gr_decoupl,Tsoi_2014_vdW_screening_2D,Zheng_2016_org_tmdc_screen,Gurarslan_2016_MoS2_vdW_iso}.}
 Such many-body effect are not considered in current frameworks of
 ground-state density functional theory (DFT) and molecular dynamics
 (MD), making the study of such effects particularly difficult.
@@ -1789,16 +1958,16 @@ materials ensures they be easily doped by either substrate-2D material
 interactions
 ~\cite{Varchon_2007_doping,Giovannetti_2008_doping,Chen_2013_doping}
 or an electric displacement
-field~\cite{Das_2008_doping,Perera_2013_doping}. \worktodo{cite more
-  self work}
+field~\cite{Das_2008_doping,Perera_2013_doping}.
 %
 Several works have indicated the potential influence of 2D layer
 doping with the change of interfacial wettability and molecular
-orientation \worktodo{cite 2 NL paper, Hutmann, Nguyen paper etc}.
+orientation~\cite{Huttmann_2015_vdw_gr_doping,Nguyen_2019_PEN}.
 %
 It is possible that the doping effect can be important for several
-experimental systems such as wetting graphene\allowbreak{}/\allowbreak{}metal
-surface. \worktodo{cite the 2 MESA+ paper}
+experimental systems such as wetting
+graphene\allowbreak{}/\allowbreak{}metal
+surface~\cite{Giovannetti_2008_doping,Pi_2009_metal_doping_gr} .
 %
 Therefore In order to precisely determine the vdW transparency , one
 needs to decouple it from the substrate-induced doping effect of 2D
