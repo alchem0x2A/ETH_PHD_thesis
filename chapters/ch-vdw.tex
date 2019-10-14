@@ -125,7 +125,7 @@ interaction, filtering the low-frequency interactions.
 Such phenomenon is related with the anisotropic dielectric nature (\worktodo{ref to chapter
   5}).
 %
-We further show that such effect is concerted by the bandgaps of the
+We further show that such effect is concerted by the bandgap of both the
 2D and bulk materials through both large-scale material database
 screening.
 %
@@ -138,7 +138,8 @@ here.
 
 \section{Modified Lifshitz-vdW Model For 2D Material Interfaces}
 \label{sec:vdw-model-lifshitz}
-%20191014-1529
+% 20191014-1529
+\worktodo{Add scheme here}
 We start the discussion in a system with simplified geometry: consider
 two infinitely-large bulk materials (A and B) separated by a medium m
 at distance \(d\), the total many-body interaction potential between A
@@ -171,14 +172,177 @@ distance $>$20 nm~\cite{parsegian_van_2010_book}) can be ignored,
 $\Phi^{\mathrm{vdW}}$ is total energy summed from all allowed EM modes
 \cite{Li_2005_diele}:
 \begin{equation}
-\label{eq:Phi-EM}
+\label{eq:vdw-EM-energy}
+\Phi^{\mathrm{vdW}} = k_{\mathrm{B}} T \sum_{j} \ln \left[2 \sinh\left(\frac{\hbar \omega_{j}(\mathbf{k})}{2 k_{\mathrm{B}} T}\right)\right] 
+\end{equation}
+where \(\omega_{j}\) is EM frequencies of allowed mode $j$ that
+corresponds to the (i) geometry and dielectric profile of the system
+and (ii) the in-plane wave vector \(\mathbf{k}\).
+%
+The system-specific information of the EM modes can be generalized by
+writing the dispersion relation ($\mathcal{D}$)of system, such that
+\(\mathcal{D}(\omega_{j}(\mathbf{k})) \equiv
+0\)~\cite{Guttinger_1966_dispersion,Mahanty_1976_dispersion_book}.
+%
+Analyzing the mode frequency \(\omega_{j}\) is usually a non-trivial
+task, while on the other hand, using the Cauchy integral theorem, the
+integral in \autoref{eq:vdw-EM-energy} is equivalent to the summation
+over the imaginary Matsubara frequencies $\xi$
+\cite{Mahanty_1976_dispersion_book} as:
+\begin{equation}
+\label{eq:vdw-lifshitz-general-2}
+\Phi^{\mathrm{vdW}} = \frac{1}{2} k_{\mathrm{B}} T \sum_{n=-\infty}^{\infty} \sum_{\mathbf{k}}\ln \mathcal{D}(i \xi_{n}, \mathbf{k})
+= k_{\mathrm{B}} T \sideset{}{'}\sum_{n=0}^{\infty} \sum_{\mathbf{k}} \ln \mathcal{D}(i \xi_{n}, \mathbf{k})
+\end{equation}
+where \(k_{\mathrm{B}}\) is the Boltzmann constant, \(T\) is
+temperature, \(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the n-th
+Matsubara frequency and the prime in the summation refers to the
+prefactor of 1/2 when \(n=0\). Here we assume the dispersion relation
+\(\mathcal{D}\) has time-reverse symmetry, i.e.
+\(\mathcal{D}(i\xi, \mathbf{k}) = \mathcal{D}(-i\xi, \mathbf{k})\).
+%
+The summation over \(\mathbf{k}\) can be further carried out in
+continuous integral if the system is infinitely large
+%
+For the 3-layer system considered here (refer to AmB in the remaining
+text) that is infinite in \textit{xy}-direction while non-periodic in
+\textit{z}-direction, the summation over \(\mathbf{k}\) in
+\autoref{eq:vdw-lifshitz-general-2} can be written using in-plane wave
+vector \(\mathbf{k} = (k_{x}, k_{y})\):
+\begin{equation}
+\label{eq:vdw-lifshitz-integral}
+\Phi^{\mathrm{vdW}} = \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'} \sum_{n=0}^{\infty} \int_{0}^{\infty} \ln \mathcal{D}(i\xi_{n}, \mathbf{k}) \mathrm{d}^{2} \mathbf{k}
+\end{equation}
+%
+While along the \textit{z}-direction, the electrostatic potential
+\(\psi\) follows the Poisson-Laplace equation, such that:
+\begin{equation}
+\label{eq:vdw-poisson-laplace}
+\nabla \cdot [ \varepsilon_{0} \varepsilon_{\mathrm{r}}(\mathbf{r}, z) \cdot \nabla \psi]
+= -\rho(\mathbf{r}, z) = 0
+\end{equation}
+where \(\mathbf{r}=(x, y)\) is the in-plane coordinates,
+$\varepsilon_{\mathrm{r}}$ is the dielectric tensor of each material,
+and \(\rho\) is the free charge density in the system, and for van der
+Waals interactions alone, \(\rho \equiv 0\).
+%
+The periodicity of the \textit{xy}-plane leads to the form of
+plane-wave form of $\psi$~\cite{parsegian_van_2010_book}\worktodo{if
+  cite is correct?}:
+\begin{equation}
+\label{eq:vdw-deriv-pot-pw}
+\psi(\mathbf{r}, z) =  
+f(z) e^{i \mathbf{k} \cdot \mathbf{r}} 
+\end{equation}
+where \(f(z)\) is the variation in the \emph{z}-dierction.
+%
+Here we use a mean-field assumption that $\varepsilon_{\mathrm{r}}$ is
+uniform inside each material \worktodo{cite if this is proper}.
+%
+Due to the dielectric anisotropy discussed in \worktodo{ref to
+  previous section}, we consider a general case, that in material $i$,
+the dielectric tensor $\varepsilon_{\mathrm{i}}$ consists of different
+diagonal components \(\varepsilon^{xx}\), \(\varepsilon^{yy}\) and
+\(\varepsilon^{zz}\). \autoref{eq:vdw-poisson-laplace} for individual
+layer now writes:
+\begin{equation}
+\label{eq:vdw-laplace-2}
+\varepsilon_{i}^{zz} \frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
+- (k_{x}^{2} \varepsilon_{i}^{xx} + k_{y}^{2} \varepsilon_{i}^{yy}) f_{i}(z)
+\end{equation}
+which is further simplified to:
+\begin{equation}
+\label{eq:vdw-laplace-3}
+\frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
+- g_{i}^{2}(\vartheta) \kappa^{2} f_{i}(z) =0
+\end{equation}
+where $\kappa$ and $\vartheta$ are the polar coordinates of
+$\mathbf{k}$ such that
+\(\mathbf{k} = (\kappa \cos\mathcal{\vartheta}, \kappa\sin
+\mathcal{\vartheta})\), and
+\(g_{i}^{2} = {\displaystyle
+  [\frac{\varepsilon_{i}^{xx}}{\varepsilon_{i}^{zz}} \cos^{2}
+  \vartheta + \frac{\varepsilon_{i}^{yy}}{\varepsilon_{i}^{zz}}
+  \sin^{2} \vartheta]}\).
+%
+\(g_{i}^{2}\) characterizes the dielectric anisotropy of medium $i$
+and upscales the wavevector modulus \(\kappa\). \worktodo{modify this
+  sentence}\worktodo{need to unify the anisotropy with last chapter}
+
+% 
+Following the similar procedure of dispersion relations in isotropic
+systems \cite{parsegian_van_2010_book}, the dispersion relation
+\worktodo{add something in the brackets} of an AmB layered system with
+dielectric anisotropy is written as:
+\begin{equation}
+\label{eq:vdw-disper-D}
+\begin{aligned}
+\mathcal{D}
+&=
+1 - 
+\underbrace{\left[
+\frac{\hat{\varepsilon}_{\mathrm{A}} - \varepsilon_{\mathrm{m}}^{zz} g_{m}(\vartheta) }{\hat{\varepsilon}_{\mathrm{A}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta)}
+\right]}_{\Delta_{\mathrm{Am}}}
+\underbrace{\left[
+\frac{\hat{\varepsilon}_{\mathrm{B}} - \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta) }{\hat{\varepsilon}_{\mathrm{B}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta)}
+\right]}_{\Delta_{\mathrm{Bm}}}
+e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d} \\
+&= 1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d}
+\end{aligned}
+\end{equation}
+where \(\hat{\varepsilon}_{i}\) is the geometric averaged dielectric
+function of material $i$ ($i$=A, m or B). Combining with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
+\begin{equation}
+\label{eq:vdw-lifshitz-aniso-final}
+\begin{aligned}
+\Phi^{\mathrm{vdW}}
+&= \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'}\sum_{n=0}^{\infty}
+\int_{0}^{2 \pi} \mathrm{d}\vartheta
+\int_{0}^{\infty} \kappa \mathrm{d}\kappa 
+\ln[1 - \Delta_{\mathrm{Am}}(\vartheta) 
+\Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d}] \\
+&= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
+\sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi} 
+\frac{1}{g^{2}_{\mathrm{m}}(\vartheta)}\mathrm{d}\vartheta
+\int_{0}^{\infty} x \mathrm{d}x
+\ln[1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-x}] \\
+\end{aligned}
+\end{equation}
+where the last step is obtained by auxiliary variable \(x = 2
+g_{\mathrm{m}}(\mathcal{\theta}) \kappa d\).
+%
+\worktodo{add figure about convergence}
+
+% As can be seen, only the dielectric anisotropy of the medium
+% ($1/g_{\mathrm{m}}^{2}$) affects the total interaction energy.
+% Following the discussions in \worktodo{ref to dielectric chapter, anisotropy}, 
+
+% The integrant with \(x\) is
+% dominated
+% by the Due to the fact that \(g_{\mathrm{m}}\) is usually much
+% larger than unity for a 2D material medium, the integrant is governed
+% by the range \(x \leq 5\) (see Figure \ref{fig:integral}), and
+% corresponding to the regime of \(\kappa \leq 2.5 (g_{\mathrm{m}}
+% d)^{-1}\). Since in this letter, the distance \(d\) is generally at the
+% order of 2 nm, with \(g_{\mathrm{m}}\) = 2.5 (typical value for
+% dielectric anisotropy), we see that the majority of interaction comes
+% from oscillations with \(\kappa<\) 0.0625 \(\mathrm{\AA{}}^{-1}\),
+% which is close to the optical limit, and therefore
+% \(\Delta_{\mathrm{Am}}\) and \(\Delta_{\mathrm{Bm}}\) can be regarded as
+% constant within the regime of integration.
+
+
+
+% To be modified later!
+\begin{equation}
+\label{eq:vdw-vdw-vdw-Phi-EM}
 \Delta \Phi \approx \Delta \Phi^{\mathrm{vdW}}
 = \sum_{n} G(i \xi_{n})
 = \frac{k_{\mathrm{B}}T}{4 \pi^{2}}   
- \sideset{}{'}\sum_{n=}^{\infty} \int_{0}^{\infty} \mathcal{D}(i \xi_{n}, \mathbf{k}) 
+ \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{\infty} \mathcal{D}(i \xi_{n}, \mathbf{k}) 
 \mathrm{d}^{2} \mathbf{k}
 \end{equation}
-where \(k_{\mathrm{B}}\) is the Boltzmann constant, \(T\) is temperature,
+
 \(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the n-th Matsubara
 frequency, \(\hbar\) is the reduced Planck constant, \(\mathbf{k}=(k_{x},
 k_{y})\) is the transverse wavevector, and the prime over summation
@@ -199,7 +363,7 @@ For materials have distinct in- and out-of-plane dielectric functions
 energy is expressed as (details see Supplementary Section
 \ref{SI-sec:deriv-mdb}):
 \begin{equation}
-\label{eq:Phi-aniso}
+\label{eq:vdw-vdw-vdw-Phi-aniso}
 \Delta \Phi = \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
 \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
 \int_{0}^{\infty} x \ln\left[1 - \Delta_{\mathrm{Am}}(i \xi_{n}) \Delta_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x 
