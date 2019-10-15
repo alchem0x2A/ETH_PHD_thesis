@@ -139,6 +139,10 @@ here.
 \section{Modified Lifshitz-vdW Model For 2D Material Interfaces}
 \label{sec:vdw-model-lifshitz}
 % 20191014-1529
+
+\subsection{Generalized Model For Layered Anisotropic Media}
+\label{sec:vdw-gener-model-layer}
+
 \worktodo{Add scheme here}
 We start the discussion in a system with simplified geometry: consider
 two infinitely-large bulk materials (A and B) separated by a medium m
@@ -266,7 +270,8 @@ $\mathbf{k}$ such that
   \sin^{2} \vartheta]}\).
 %
 \(g_{i}^{2}\) characterizes the dielectric anisotropy of medium $i$
-and upscales the wavevector modulus \(\kappa\). \worktodo{modify this
+and upscales the wavevector modulus \(\kappa\). Note for an isotropic
+medium, $g_{\mathrm{m}}\equiv1$. \worktodo{modify this
   sentence}\worktodo{need to unify the anisotropy with last chapter}
 
 % 
@@ -291,7 +296,10 @@ e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d} \\
 \end{aligned}
 \end{equation}
 where \(\hat{\varepsilon}_{i}\) is the geometric averaged dielectric
-function of material $i$ ($i$=A, m or B). Combining with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
+function of material $i$ ($i$=A, m or B), $\Delta_{\mathrm{Am}}$ and
+$\Delta_{\mathrm{Bm}}$ are the dielectric mismatch between Am and Bm
+interfaces, respectively.  Combining
+with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
 \begin{equation}
 \label{eq:vdw-lifshitz-aniso-final}
 \begin{aligned}
@@ -308,80 +316,169 @@ function of material $i$ ($i$=A, m or B). Combining with~\autoref{eq:vdw-lifshit
 \ln[1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-x}] \\
 \end{aligned}
 \end{equation}
-where the last step is obtained by auxiliary variable \(x = 2
+where the last step is obtained using an auxiliary variable \(x = 2
 g_{\mathrm{m}}(\mathcal{\theta}) \kappa d\).
 %
 \worktodo{add figure about convergence}
+%
+The integral in \autoref{eq:vdw-lifshitz-aniso-final} is dominated by
+the contributions from $x < 5$, and its convergence is almost
+independent of $\Delta_{\mathrm{Am}}$ or $\Delta_{\mathrm{Bm}}$. In
+other words, the contributions from high-\textbf{k} regime to the
+total vdW interactions, is negligible.  \worktodo{think about this
+  figure}
 
-% As can be seen, only the dielectric anisotropy of the medium
-% ($1/g_{\mathrm{m}}^{2}$) affects the total interaction energy.
-% Following the discussions in \worktodo{ref to dielectric chapter, anisotropy}, 
-
-% The integrant with \(x\) is
-% dominated
-% by the Due to the fact that \(g_{\mathrm{m}}\) is usually much
-% larger than unity for a 2D material medium, the integrant is governed
-% by the range \(x \leq 5\) (see Figure \ref{fig:integral}), and
-% corresponding to the regime of \(\kappa \leq 2.5 (g_{\mathrm{m}}
-% d)^{-1}\). Since in this letter, the distance \(d\) is generally at the
-% order of 2 nm, with \(g_{\mathrm{m}}\) = 2.5 (typical value for
-% dielectric anisotropy), we see that the majority of interaction comes
-% from oscillations with \(\kappa<\) 0.0625 \(\mathrm{\AA{}}^{-1}\),
-% which is close to the optical limit, and therefore
-% \(\Delta_{\mathrm{Am}}\) and \(\Delta_{\mathrm{Bm}}\) can be regarded as
-% constant within the regime of integration.
+An important feature of \autoref{eq:vdw-lifshitz-aniso-final} is that
+the total energy $\Phi^{\mathrm{vdW}}$ can be greatly attenuated
+through a medium with high dielectric anisotropy (\ie
+$g_{\mathrm{m}} \gg 1$).
+%
+Such high dielectric anisotropy between in- and out-of-plane
+permittivities (giant birefringence) is only possible to achieve using
+layered \cite{Collin_1958_aniso,Weber_2000_aniso} or low-dimensional
+\cite{Niu_2018_aniso,Segura_2018_aniso} materials. Inspired by this,
+by inserting a 2D material between bulk materials A and B, the
+many-body \worktodo{hyphen or not?} vdW interactions may also be
+screened by the high dielectric anisotropy, which contradicts with the classical theory of vdW interactions. \worktodo{another subfigure}
+%
+In the next section, we extend the modified Lifshitz-vdW model in
+order to be applied to 2D material-containing systems.
 
 
+\subsection{Applying Model to 2D Material Systems}
+\label{sec:vdw-model-2D}
+% 20191014-2027
 
-% To be modified later!
+The general model presented in \autoref{sec:vdw-model-2D} can be
+extended to model the many body vdW transmission through 2D material
+systems.
+%
+The exact solution to the many-body vdW interaction energy of such
+mixed-dimensional system requires the knowledge of the full
+spatially-varied permittivity profile \cite{Podgornik_2004_continuum},
+which can be cumbersome to compute.
+%
+Instead, we use a mean-field treatment for
+the dielectric response of the medium, Inspired by the concept in
+\worktodo{ref to previous section}, if medium m consists of a layer of
+2D sheet and surrounding vacuum, the average dielectric response
+inside the medium m can be calculated using the effective medium
+approach, using the 2D polarizability. \worktodo{ref to the equation}
+%
+Note here two assumptions are made: (i) the dielectric properties of
+the 2D material is not influenced by the bulk material (\ie no
+substrate doping and interfacial coupling) and (ii) the length scale
+of the gap ($d$) is larger than the intrinsic thickness of the 2D
+material, such that an uniform description of $\varepsilon_{\mathrm{m}}$ is acceptable.
+%
+Since both criteria can be fulfilled at larger separation
+distance~\cite{Dobson_2012_rev} (\eg $d>$1 nm), when the overlapping
+between electron clouds of individual materials are negligible, we
+limit our discussions in this regime throughout this chapter.
+%
+Moreover, As discussed above, the total vdW interaction energy is dominated by
+the EM modes at $x \leq 5$, or equivalently
+\(\kappa \leq 2.5 (g_{\mathrm{m}} d)^{-1}\).
+%
+When $d$ is at the order of 2 nm, and the typical anisotropy value for
+a 2D material $g_{\mathrm{m}}=2.5$, we see that the majority of interaction comes
+from EM modes with \(\kappa<0.0625\) \(\mathrm{\AA{}}^{-1}\), close to the optical limit ($k\to0$).
+%
+Within this regime, $\alpha_{\mathrm{2D}}$ of the 2D material as well
+as $\varepsilon_{\mathrm{A}}$ and $\varepsilon_{\mathrm{B}}$ of bulk
+materials can be regarded as
+constant~\cite{Li_2005_diele}.
+%
+In other words, the calculation of $\Phi^{\mathrm{vdW}}$ only requires
+dielectric data at the optical limit, which greatly simplifies the
+computational expense.\worktodo{refine sentence, fine 1 more citation}
+
+A large variety of 2D materials (\eg materials with P6/mmm,
+P$\overline{6}$m2, P$\overline{3}$m1, \worktodo{cite more symmetries}
+symmetries) has isotropic in-plane electronic polarizabilities (\ie
+$\alpha^{xx}_{\mathrm{2D}} = \alpha_{\mathrm{2D}}^{yy} = \alpha_{\mathrm{2D}}^{\parallel}$) due to
+symmetric electronic structure. For an AmB system constructed by these
+materials, we have
+$\varepsilon_{\mathrm{m}}^{xx} =
+\varepsilon_{\mathrm{,}}^{yy}=\varepsilon_{\mathrm{m}}^{\parallel}$,
+$\varepsilon_{\mathrm{m}}^{zz} = \varepsilon_{\mathrm{2D}}^{\perp}$ ,
+and $g_{\mathrm{m}}$ independent of $\vartheta$. As a result,
+\autoref{eq:vdw-lifshitz-aniso-final} can be simplified to:
 \begin{equation}
-\label{eq:vdw-vdw-vdw-Phi-EM}
-\Delta \Phi \approx \Delta \Phi^{\mathrm{vdW}}
-= \sum_{n} G(i \xi_{n})
-= \frac{k_{\mathrm{B}}T}{4 \pi^{2}}   
- \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{\infty} \mathcal{D}(i \xi_{n}, \mathbf{k}) 
-\mathrm{d}^{2} \mathbf{k}
-\end{equation}
-
-\(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the n-th Matsubara
-frequency, \(\hbar\) is the reduced Planck constant, \(\mathbf{k}=(k_{x},
-k_{y})\) is the transverse wavevector, and the prime over summation
-denotes a prefactor of 1/2 when \(n=0\). \(\mathcal{D}\) is the dispersion
-relation of the particular system and geometry that for any allowed
-complex frequency \(\omega\) and wavevector \(\mathbf{k}\),
-\(\mathcal{D}(\omega, \mathbf{k}) \equiv 0\). The dispersion relation
-constructed by solving the Poisson-Laplace equation \(\nabla \cdot
-[\varepsilon_{0} \varepsilon_{\mathrm{r}}(\mathbf{r}) \cdot \nabla
-\psi(\mathbf{r})] = 0\), where \(\varepsilon_{0}\) is the vacuum
-permittivity, \(\varepsilon_{\mathrm{r}}(\mathbf{r})\) and
-\(\psi(\mathbf{r})\) are the dielectric function and electrostatic
-potential at position \(\mathbf{r}\), respectively, and is highly
-influenced by the dielectric anisotropy of media \cite{Lu_2016_torque}.
-For materials have distinct in- and out-of-plane dielectric functions
-(\(\varepsilon^{xx} = \varepsilon^{yy} = \varepsilon^{\parallel}\),
-\(\varepsilon^{zz} = \varepsilon^{\perp}\)) , the total interaction
-energy is expressed as (details see Supplementary Section
-\ref{SI-sec:deriv-mdb}):
-\begin{equation}
-\label{eq:vdw-vdw-vdw-Phi-aniso}
-\Delta \Phi = \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
+  \begin{aligned}[t]
+\label{eq:vdw-Phi-aniso-main}
+\Phi &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
 \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
-\int_{0}^{\infty} x \ln\left[1 - \Delta_{\mathrm{Am}}(i \xi_{n}) \Delta_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x 
+\int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x \\
+\hat{\Delta}_{\mathrm{jm}}(i\xi) &= \frac{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) -
+\hat{\varepsilon}_{\mathrm{m}}(i\xi_{n})}{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) +
+\hat{\varepsilon}_{\mathrm{m}}(i\xi_{n})},\ \mathrm{j=A, B}
+\end{aligned}
 \end{equation}
-where \(\Delta_{\mathrm{jm}} = (\hat{\varepsilon}_{\mathrm{j}} -
-\hat{\varepsilon}_{\mathrm{m}}) / (\hat{\varepsilon}_{\mathrm{j}} +
-\hat{\varepsilon}_{\mathrm{m}})\) represents the interfacial dielectric
-mismatch between materials j (either A or B) and m, and
-\(\hat{\varepsilon} = \sqrt{\varepsilon^{\parallel}
-\varepsilon^{\perp}}\) is the geometric average of dielectric tensor. A
-renormalization factor \(1/g_{\mathrm{m}}^{2} =
-\varepsilon^{\perp}_{\mathrm{m}} /
-\varepsilon^{\parallel}_{\mathrm{m}}\) emerges as the consequence of
-dielectric anisotropy of medium m. It is easy to observe, when
-\(\varepsilon^{\perp}_{\mathrm{m}} \ll
-\varepsilon^{\parallel}_{\mathrm{m}}\), \(1/g_{\mathrm{m}}^{2} \ll 1\),
-which greatly attenuates the total interaction \(\Delta \Phi\) compared
-with isotropic medium (\(1/g_{\mathrm{m}}^{2} \equiv 1\)). 
+where
+\(\hat{\Delta}_{\mathrm{jm}}\) represents the
+$\vartheta$-independent interfacial dielectric mismatch between
+materials $j$ (either A or B) and m.
+%
+Using \autoref{eq:vdw-Phi-aniso-main} (or
+\autoref{eq:vdw-lifshitz-aniso-final}), the calculation of
+$\Phi^{\mathrm{vdW}}$ can be simplified with only frequency dielectric
+properties $\varepsilon_{\mathrm{A}}$, $\varepsilon_{\mathrm{B}}$ and
+$\alpha_{\mathrm{2D}}$ \worktodo{optic or
+  optical?}, and distance $d$.
+%
+
+
+The dielectric function of bulk materials are obtained from both
+experimental spectroscopy data~\cite{Palik_1998_handbook} and first
+principles simulations, while the electronic polarizability of 2D
+materials are solely from first principles simulations due to the
+problem with experimentally measured optical properties of 2D
+materials as mention in \worktodo{ref to previous section}. Note the
+proposed model requires the use of dielectric function
+($\varepsilon_{j}(i \xi_{\mathrm{n}})$) and electronic polarizability
+($\alpha_{\mathrm{2D}}(i \xi_{n})$) at imaginary Matsubara
+frequencies. These data can be converted using the Kramers-Kronig
+relations (KKR) from data on real frequency ($\varepsilon_{j}()$)
+
+\subsection{High-Pass vdW Transmission Through 2D Materials}
+\label{sec:high-pass-vdw}
+
+As schematically shown in Figure \ref{fig1}b left, for a typical 2D
+medium, \(\varepsilon_{\mathrm{m}}^{\parallel}\) greatly exceeds
+\(\varepsilon_{\mathrm{m}}^{\perp}\) at low frequency range, while the
+difference diminishes when frequency increases, and both dielectric
+functions approach unity. The frequency-dependent dielectric decay can
+be characterized by the transition frequency \(\xi_{\mathrm{tr}}\),
+defined as the frequency that \(\varepsilon_{\mathrm{m}}(i
+\xi_{\mathrm{tr}}) - 1 =
+\frac{1}{2}[\varepsilon_{\mathrm{m}}(i\xi=0) - 1]\), which is in
+general lower for in-plane polarization
+(\(\xi_{\mathrm{tr}}^{\parallel}\)) than out-of-plane
+(\(\xi_{\mathrm{tr}}^{\perp}\)) (details see Supplementary Section XX).
+ As a result, \(1/g_{\mathrm{m}}^{2}\) is nonlinear in the frequency
+domain with its transition frequency close to
+\(\xi_{\mathrm{tr}}^{\parallel}\) (Figure \ref{fig1}b right, details see
+Supplementary Section XX), and such phenomenon is universal for 2D
+materials. As shown in Figure \ref{fig1}c, for the 2D materials studied,
+\(\varepsilon_{\mathrm{m}}^{\parallel}\) is usually much larger than
+\(\varepsilon_{\mathrm{m}}^{\perp}\) at \(d\) = 2 nm.
+Interestingly, we find distinct behaviors of the transition
+frequencies: \(\hbar \xi_{\mathrm{tr}}^{\parallel}\) is almost linearly
+correlated with the electronic bandgap of 2D material
+\(E_{\mathrm{g}}^{\mathrm{2D}}\), while \(\hbar
+\xi_{\mathrm{tr}}^{\perp}\) appears to be independent of
+\(E_{\mathrm{g}}\) (Figure \ref{fig1}c insets). In addition, our analysis
+shows \(\varepsilon_{\mathrm{m}}^{\parallel}\) generally becomes higher
+with decreasing \(E_{\mathrm{g}}^{\mathrm{2D}}\), while
+\(\varepsilon_{\mathrm{m}}^{\perp}\) shows almost no dependency (see
+Supplementary Section XX).
+As a result, \(1/g_{\mathrm{m}}^{2}\) is dominated by \(E_{\mathrm{g}}^{\mathrm{2D}}\). In other words, 2D materials with smaller bandgap exhibit better screening
+effect, as seen in Figure \ref{fig1}d. As an example, we highlight the
+profiles corresponding to graphene (Gr), 2H molybdenum disulfide
+(2H-MoS\textsubscript{2}) and hexagonal boron nitride (h-BN), clearly showing the
+ranking of \(1/g_{\mathrm{m}}^{2}\) as Gr \textless{} 2H-MoS\textsubscript{2} \textless{} h-BN, due to the ascending order of bandgap.
+
 
 
 
