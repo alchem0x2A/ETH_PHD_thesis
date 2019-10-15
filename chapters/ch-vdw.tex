@@ -308,12 +308,12 @@ with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
 \int_{0}^{2 \pi} \mathrm{d}\vartheta
 \int_{0}^{\infty} \kappa \mathrm{d}\kappa 
 \ln[1 - \Delta_{\mathrm{Am}}(\vartheta) 
-\Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d}] \\
+\Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
 &= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
 \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi} 
-\frac{1}{g^{2}_{\mathrm{m}}(\vartheta)}\mathrm{d}\vartheta
+\frac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
 \int_{0}^{\infty} x \mathrm{d}x
-\ln[1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-x}] \\
+\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta) \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}] \\
 \end{aligned}
 \end{equation}
 where the last step is obtained using an auxiliary variable \(x = 2
@@ -382,7 +382,7 @@ the EM modes at $x \leq 5$, or equivalently
 %
 When $d$ is at the order of 2 nm, and the typical anisotropy value for
 a 2D material $g_{\mathrm{m}}=2.5$, we see that the majority of interaction comes
-from EM modes with \(\kappa<0.0625\) \(\mathrm{\AA{}}^{-1}\), close to the optical limit ($k\to0$).
+from EM modes with \(\kappa<0.0625\) \AA{}\textsuperscript{-1}\worktodo{verify the numbers}, close to the optical limit ($k\to0$).
 %
 Within this regime, $\alpha_{\mathrm{2D}}$ of the 2D material as well
 as $\varepsilon_{\mathrm{A}}$ and $\varepsilon_{\mathrm{B}}$ of bulk
@@ -407,7 +407,7 @@ and $g_{\mathrm{m}}$ independent of $\vartheta$. As a result,
 \begin{equation}
   \begin{aligned}[t]
 \label{eq:vdw-Phi-aniso-main}
-\Phi &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
+\Phi^{\mathrm{vdW}} &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
 \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
 \int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x \\
 \hat{\Delta}_{\mathrm{jm}}(i\xi) &= \frac{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) -
@@ -420,64 +420,218 @@ where
 $\vartheta$-independent interfacial dielectric mismatch between
 materials $j$ (either A or B) and m.
 %
-Using \autoref{eq:vdw-Phi-aniso-main} (or
-\autoref{eq:vdw-lifshitz-aniso-final}), the calculation of
-$\Phi^{\mathrm{vdW}}$ can be simplified with only frequency dielectric
-properties $\varepsilon_{\mathrm{A}}$, $\varepsilon_{\mathrm{B}}$ and
-$\alpha_{\mathrm{2D}}$ \worktodo{optic or
-  optical?}, and distance $d$.
-%
+Alternatively, \autoref{eq:vdw-Phi-aniso-main} can also be expressed
+using single-frequency interaction energy $G(i\xi_{n})$ as:
+\begin{equation}
+\begin{aligned}[t]
+\label{eq:vdw-Phi-single-point}
+\Phi^{\mathrm{vdW}} &= \sideset{}{'} \sum_{n=0}^{\infty} G(i \xi_{n}) \\
+G(i \xi_{n}) &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
+\int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x
+\end{aligned}
+\end{equation} 
+\autoref{eq:vdw-Phi-single-point} is the main equation for the calculation
+of $\Phi^{\mathrm{vdW}}$ in this chapter. As can be seen, it is
+correlated with only a few frequency-dependent dielectric properties
+$\varepsilon_{\mathrm{A}}$, $\varepsilon_{\mathrm{B}}$ and
+$\alpha_{\mathrm{2D}}$ \worktodo{optic or optical?}, as well as distance $d$.
 
 
 The dielectric function of bulk materials are obtained from both
 experimental spectroscopy data~\cite{Palik_1998_handbook} and first
-principles simulations, while the electronic polarizability of 2D
+principles simulations.
+%
+On the other hand, the electronic polarizability of 2D
 materials are solely from first principles simulations due to the
 problem with experimentally measured optical properties of 2D
-materials as mention in \worktodo{ref to previous section}. Note the
-proposed model requires the use of dielectric function
-($\varepsilon_{j}(i \xi_{\mathrm{n}})$) and electronic polarizability
-($\alpha_{\mathrm{2D}}(i \xi_{n})$) at imaginary Matsubara
-frequencies. These data can be converted using the Kramers-Kronig
-relations (KKR) from data on real frequency ($\varepsilon_{j}()$)
+materials as mention in \worktodo{ref to previous section}.
+%
+Note in the framework of Lifshitz-vdW model, the dielectric responses
+are sampled on the imaginary frequencies ($i\xi$), while the data
+obtained from optical measurements and first principles calculations
+are usually on real frequencies ($\omega$). The real and imaginary
+frequencies can be unified by the complex frequency
+$\omega_{\mathrm{C}} = \omega + i\xi$~\cite{parsegian_van_2010_book}
+\worktodo{a better cite than this?}.
+%
+The conversion between $\varepsilon$ and $\alpha_{\mathrm{2D}}$ from
+real frequencies to imaginary frequencies are performed using the
+Kramers-Kronig relation (KKR)~\cite{Roessler_1965_KKR}, such that:
+\begin{eqnarray}
+  \label{eq:vdw-KKR-eps}
+  \varepsilon(i\xi) &= 1 + {\displaystyle \frac{2}{\pi}}{\displaystyle \int_{0}^{\infty}} {\displaystyle \frac{\omega \mathrm{Im}(\varepsilon(\omega))}{\omega^{2} + \xi^{2}}} \mathrm{d}\omega \\
+  \label{eq:vdw-KKR-alpha}
+  \alpha_{\mathrm{2D}}(i\xi) &= {\displaystyle \frac{2}{\pi}} {\displaystyle \int_{0}^{\infty}} {\displaystyle \frac{\omega \mathrm{Im}(\alpha_{\mathrm{2D}}(\omega))}{\omega^{2} + \xi^{2}}} \mathrm{d}\omega
+\end{eqnarray}
+%
+More details about the data acquisition, first principles simulations
+and the computation details of the modified Lifshitz model, are
+discussed in \autoref{sec:vdw-methods}.  \worktodo{show example of KKR
+  conversion} \worktodo{note different between Matsubara and
+  continuous}
+
 
 \subsection{High-Pass vdW Transmission Through 2D Materials}
-\label{sec:high-pass-vdw}
+\label{sec:vdw-high-pass-vdw}
 
-As schematically shown in Figure \ref{fig1}b left, for a typical 2D
-medium, \(\varepsilon_{\mathrm{m}}^{\parallel}\) greatly exceeds
-\(\varepsilon_{\mathrm{m}}^{\perp}\) at low frequency range, while the
-difference diminishes when frequency increases, and both dielectric
-functions approach unity. The frequency-dependent dielectric decay can
-be characterized by the transition frequency \(\xi_{\mathrm{tr}}\),
-defined as the frequency that \(\varepsilon_{\mathrm{m}}(i
-\xi_{\mathrm{tr}}) - 1 =
-\frac{1}{2}[\varepsilon_{\mathrm{m}}(i\xi=0) - 1]\), which is in
-general lower for in-plane polarization
-(\(\xi_{\mathrm{tr}}^{\parallel}\)) than out-of-plane
-(\(\xi_{\mathrm{tr}}^{\perp}\)) (details see Supplementary Section XX).
- As a result, \(1/g_{\mathrm{m}}^{2}\) is nonlinear in the frequency
-domain with its transition frequency close to
-\(\xi_{\mathrm{tr}}^{\parallel}\) (Figure \ref{fig1}b right, details see
-Supplementary Section XX), and such phenomenon is universal for 2D
-materials. As shown in Figure \ref{fig1}c, for the 2D materials studied,
-\(\varepsilon_{\mathrm{m}}^{\parallel}\) is usually much larger than
-\(\varepsilon_{\mathrm{m}}^{\perp}\) at \(d\) = 2 nm.
-Interestingly, we find distinct behaviors of the transition
-frequencies: \(\hbar \xi_{\mathrm{tr}}^{\parallel}\) is almost linearly
-correlated with the electronic bandgap of 2D material
-\(E_{\mathrm{g}}^{\mathrm{2D}}\), while \(\hbar
-\xi_{\mathrm{tr}}^{\perp}\) appears to be independent of
-\(E_{\mathrm{g}}\) (Figure \ref{fig1}c insets). In addition, our analysis
-shows \(\varepsilon_{\mathrm{m}}^{\parallel}\) generally becomes higher
-with decreasing \(E_{\mathrm{g}}^{\mathrm{2D}}\), while
-\(\varepsilon_{\mathrm{m}}^{\perp}\) shows almost no dependency (see
-Supplementary Section XX).
-As a result, \(1/g_{\mathrm{m}}^{2}\) is dominated by \(E_{\mathrm{g}}^{\mathrm{2D}}\). In other words, 2D materials with smaller bandgap exhibit better screening
-effect, as seen in Figure \ref{fig1}d. As an example, we highlight the
-profiles corresponding to graphene (Gr), 2H molybdenum disulfide
-(2H-MoS\textsubscript{2}) and hexagonal boron nitride (h-BN), clearly showing the
-ranking of \(1/g_{\mathrm{m}}^{2}\) as Gr \textless{} 2H-MoS\textsubscript{2} \textless{} h-BN, due to the ascending order of bandgap.
+\subsection{Effect of Dielectric Anisotropy in 2D Material-Containing Medium}
+\label{sec:vdw-effect-diel-anis}
+
+Compared with $\varepsilon(\omega)$ that has a complex value and
+multiple transition peaks \worktodo{better choice of words?},
+$\varepsilon(i \xi)$ after the KKR are monotonically decaying,
+real-value functions, which greatly simplifies the analysis in the Lifshitz-vdW model.
+%
+As an example, the in- and out-of-plane dielectric functions
+$\varepsilon_{\mathrm{m}}^{\parallel}(i \xi)$ and
+$\varepsilon_{\mathrm{m}}^{\perp}(i \xi)$ for \worktodo{79} type of 2D
+materials in the 2D material-containing medium m at $d=2$ nm, are
+shown in \worktodo{figure}, respectively.
+%
+For illustration purpose, the data are shown on continuous frequency
+domain instead of discrete Matsubara frequencies. Moreover, the curves
+of graphene, 2H-MoS\textsubscript{2}, and hBN are
+highlighted. \worktodo{better wording}
+%
+We observe that for a typical 2D medium,
+\(\varepsilon_{\mathrm{m}}^{\parallel}\) greatly exceeds
+\(\varepsilon_{\mathrm{m}}^{\perp}\) at low frequency range ($\xi <$
+10 eV), while the difference diminishes at high frequency regime, when
+$\varepsilon_{\mathrm{m}}^{\parallel}$ and
+$\varepsilon_{\mathrm{m}}^{\perp}$ approach unity.
+%
+To characterize the decaying behavior, we introduced the in- and
+out-of-plane transition frequencies \(\xi_{\mathrm{tr}}^{\parallel}\)
+and \(\xi_{\mathrm{tr}}^{\perp}\), defined as the frequency that
+\(\varepsilon_{\mathrm{m}}^{p}(i \xi^{p}_{\mathrm{tr}}) - 1 =
+\frac{1}{2}[\varepsilon_{\mathrm{m}}^{p}(i\xi=0) - 1]\), where
+$p=\parallel$ or $\perp$.
+%
+
+The values of $\xi_{\mathrm{tr}}^{\parallel}$ and
+$\xi_{\mathrm{tr}}^{\parallel}$ differ greatly between in- and
+out-of-plane directions.
+%
+Firstly, \(\xi_{\mathrm{tr}}^{\parallel}\) is generally smaller than
+\(\xi_{\mathrm{tr}}^{\perp}\), which is related with the quantum
+confinement perpendicular to the 2D
+plane~\cite{Matthes_2016_effective_PRB}.
+%
+Moreover, we found that $\xi_{\mathrm{tr}}^{\parallel}$ almost
+linearly scales with the bandgap of the 2D material
+$E_{\mathrm{g}}^{\mathrm{2D}}$, while $\xi_{\mathrm{tr}}^{\perp}$ is
+almost independent of $E_{\mathrm{g}}^{\mathrm{2D}}$. \worktodo{figure insets}
+%
+Since the frequency-dependent $\varepsilon_{\mathrm{m}}^{\perp}$ varies
+much less than $\varepsilon_{\mathrm{m}}^{\parallel}$, the behavior of
+\(1/g_{\mathrm{m}}^{2}\) is dominated by
+$\varepsilon_{\mathrm{m}}^{\parallel}$, as shown in
+\worktodo{figure}.
+%
+Considering the fact that $1/g_{\mathrm{m}}^{2}$ modulates the
+magnitudes of $\Phi^{\mathrm{vdW}}$ at each frequency (see
+\autoref{eq:vdw-lifshitz-aniso-final}), its behavior is analogous to a
+high-pass band filter~\worktodo{cite 1} \worktodo{think of using G for frequency
+  part?}
+%
+In other words, the vdW interactions are selectively screened at low
+frequencies, which arises from the dielectric anisotropy of 2D
+materials.
+%
+More interestingly, the minimum value of $1/g_{\mathrm{m}}^{2}$ always
+occurs at $\xi = 0$ due to its monotonic shape.
+%
+From the analysis in \worktodo{ref to dielectric section},
+$1/g_{\mathrm{m}}^{2}(\xi=0)=\varepsilon_{\mathrm{m}}^{\perp} /
+\varepsilon_{\mathrm{m}}^{\parallel}$ is dominated by
+$E_{\mathrm{g}}^{\mathrm{2D}}$.
+% Combine with the fact that
+% $\xi_{\mathrm{tr}}^{\parallel}$
+\worktodo{mention more about the $\xi_{\mathrm{tr}}$?}
+%
+As a result, the penetration of vdW interactions is expected to be
+more screened by a 2D material with smaller bandgap, which is in good
+agreement with recent full-scale \textit{ab initio}
+studies~\cite{Liu_2018_gr}.
+%
+The mechanism behind such high-pass vdW transmission phenomena, is
+schematically shown in \worktodo{figure c}.
+
+% 20191015-1415
+The model proposed here is capable to explain the
+strong vdW force screening by 2D materials observed in AFM experiments
+\cite{Tsoi_2014}.
+%
+To simulate the experimental conditions, we model the
+many-body vdW interaction between SiO\textsubscript{2} (A) and Si\textsubscript{3}N\textsubscript{4} (B), by
+varying the 2D materials (m).
+% according to Equation \ref{eq:Phi-aniso}.
+\worktodo{figure here} shows \(\Phi^{\mathrm{vdW}}\) as a function of
+\(d\) when varying the 2D material.
+%
+Clearly, the presence of a 2D material (colored curves) universally
+reduces the vdW interaction energy compared with a non-screened system
+(\(\Phi^{0}\), gray curve) that the medium m is vacuum.
+%
+As expected, the reduction of $\Phi^{\mathrm{vdW}}$ is stronger for 2D
+materials with smaller \(E_{\mathrm{g}}^{\mathrm{2D}}\).
+%
+Analogous to the results presented in
+\cite{Tsoi_2014_vdW_screening_2D}, the effective Hamaker constants
+\(A_{\mathrm{eff}}\) are extracted from fitting of the curve using
+\autoref{eq:vdw-hamaker-res}. 
+%
+Specifically, the effective Hamaker constant in the non-screened system is labeled as $A_{\mathrm{eff}}^{0}$.
+%
+\worktodo{Figure ??}b shows the normalized Hamaker constant
+$A_{\mathrm{eff}} / A_{\mathrm{eff}}^{0}$ for various 2D materials at
+$d=$ 5 nm, which almost linearly increases
+with \(E_{\mathrm{g}}^{\mathrm{2D}}\).
+%
+This
+observation quantitatively agrees with the experimental ranking of
+\(A_{\mathrm{eff}}\) in \cite{Tsoi_2014}, that graphene (Gr) $<$ 2H-MoS\textsubscript{2} $<$ fluoro\-graphene (F-Gr) \cite{Tsoi_2014}.
+%
+More interestingly, the single frequency interaction energies
+\(G(i\xi)\), exhibit distinct patterns between 2D materials. As shown
+in \worktodo{figure which}, comparing with the non-screened case
+($G^{0}$), even at \(d\) = 5 nm, semi\-metallic low-gap 2D materials
+can still selectively screens low frequencies interactions with
+\(\hbar\xi\) \textless{} 1 eV, corresponding to the Debye and Keesom
+interactions \cite{israelachvili_intermolecular_2011}.
+%
+On the other hand, a wide-gap material like hBN shows less selectivity.
+%
+More insight into the non-linear
+behavior can be drawn from Equation \ref{eq:Phi-aniso}, with two
+factors leading to the material dependency of \(\Delta \Phi\): (i) the
+renormalization factor \(1/g_{\mathrm{m}}^{2}\) and (ii) the
+dielectric mismatch \(\Delta_{\mathrm{Am}}\) and
+\(\Delta_{\mathrm{Bm}}\). By decreasing
+\(E_{\mathrm{g}}^{\mathrm{2D}}\), \(\Delta_{\mathrm{Am}}\) and
+\(\Delta_{\mathrm{Bm}}\) are monotonically suppressed over the whole
+frequency range (Supplementary Figure XX), while the screening of
+\(1/g_{\mathrm{m}}^{2}\) becomes more prominent at lower frequencies
+(Figure \ref{fig1}c).  To universally describe the 2D
+material-mediated reduction of vdW interactions, we introduce the
+frequency-dependent many-body vdW ``transparency'' \(\hat{\eta}\),
+defined as the ratio between the single-frequency vdW energy with and
+without the 2D material as:
+\begin{equation}
+\label{eq:def-eta}
+\hat{\eta}(i \xi_{\mathrm{n}}) = \frac{G(i \xi_{\mathrm{n}})}{G^{0}(i \xi_{\mathrm{n}})}
+\end{equation}
+A similar quantity of total vdW transparency \(\eta\) is also introduced, as the ratio between total vdW energy with and without the 2D material: 
+\begin{equation}
+\label{eq:def-total-trans}
+\eta = \frac{\Delta \Phi}{\Delta \Phi^{0}}
+\end{equation}
+Figure \ref{fig2}c shows the values of \(\hat{\eta}\) as function of
+frequency corresponding to Figure \ref{fig2}b, which clearly illustrates the
+high-pass feature dominated by \(1/g_{\mathrm{m}}^{2}\).
+
+\section{Methods}
+\label{sec:vdw-methods}
 
 
 

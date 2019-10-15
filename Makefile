@@ -1,4 +1,6 @@
 TEXFLAGS = -bibtex -pdf -interaction=nonstopmode -use-make
+DRAFT_FLAGS = -bibtex -pdf -interaction=nonstopmode -d	\
+-pdflatex="lualatex -synctex=1 -draftmode --shell-escape"
 BUILD_DIR = build
 MAIN="thesis"
 OLD_VERSION="HEAD"
@@ -19,6 +21,9 @@ diff:
 
 pdf:
 	latexmk $(TEXFLAGS) -jobname=$(BUILD_DIR)/$(MAIN) -f $(MAIN).tex
+
+draft:
+	latexmk -d $(DRAFT_FLAGS) -jobname=$(BUILD_DIR)/$(MAIN) -f $(MAIN).tex
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
