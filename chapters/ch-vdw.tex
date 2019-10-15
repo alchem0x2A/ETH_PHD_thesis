@@ -474,8 +474,8 @@ discussed in \autoref{sec:vdw-methods}.  \worktodo{show example of KKR
 \subsection{High-Pass vdW Transmission Through 2D Materials}
 \label{sec:vdw-high-pass-vdw}
 
-\subsection{Effect of Dielectric Anisotropy in 2D Material-Containing Medium}
-\label{sec:vdw-effect-diel-anis}
+% \subsection{Effect of Dielectric Anisotropy in 2D Material-Containing Medium}
+% \label{sec:vdw-effect-diel-anis}
 
 Compared with $\varepsilon(\omega)$ that has a complex value and
 multiple transition peaks \worktodo{better choice of words?},
@@ -590,7 +590,7 @@ with \(E_{\mathrm{g}}^{\mathrm{2D}}\).
 %
 This
 observation quantitatively agrees with the experimental ranking of
-\(A_{\mathrm{eff}}\) in \cite{Tsoi_2014}, that graphene (Gr) $<$ 2H-MoS\textsubscript{2} $<$ fluoro\-graphene (F-Gr) \cite{Tsoi_2014}.
+\(A_{\mathrm{eff}}\) in \cite{Tsoi_2014_vdW_screening_2D}, that graphene (Gr) $<$ 2H-MoS\textsubscript{2} $<$ fluoro\-graphene (F-Gr).
 %
 More interestingly, the single frequency interaction energies
 \(G(i\xi)\), exhibit distinct patterns between 2D materials. As shown
@@ -600,35 +600,318 @@ can still selectively screens low frequencies interactions with
 \(\hbar\xi\) \textless{} 1 eV, corresponding to the Debye and Keesom
 interactions \cite{israelachvili_intermolecular_2011}.
 %
-On the other hand, a wide-gap material like hBN shows less selectivity.
+On the other hand, a wide-gap material like hBN shows much weaker high-pass filtering of vdW interactions.
 %
-More insight into the non-linear
-behavior can be drawn from Equation \ref{eq:Phi-aniso}, with two
-factors leading to the material dependency of \(\Delta \Phi\): (i) the
-renormalization factor \(1/g_{\mathrm{m}}^{2}\) and (ii) the
-dielectric mismatch \(\Delta_{\mathrm{Am}}\) and
-\(\Delta_{\mathrm{Bm}}\). By decreasing
-\(E_{\mathrm{g}}^{\mathrm{2D}}\), \(\Delta_{\mathrm{Am}}\) and
-\(\Delta_{\mathrm{Bm}}\) are monotonically suppressed over the whole
-frequency range (Supplementary Figure XX), while the screening of
-\(1/g_{\mathrm{m}}^{2}\) becomes more prominent at lower frequencies
-(Figure \ref{fig1}c).  To universally describe the 2D
-material-mediated reduction of vdW interactions, we introduce the
-frequency-dependent many-body vdW ``transparency'' \(\hat{\eta}\),
-defined as the ratio between the single-frequency vdW energy with and
-without the 2D material as:
+
+% More insight into the non-linear
+% behavior can be drawn from Equation \ref{eq:Phi-aniso}, with two
+% factors leading to the material dependency of \(\Delta \Phi\): (i) the
+% renormalization factor \(1/g_{\mathrm{m}}^{2}\) and (ii) the
+% dielectric mismatch \(\Delta_{\mathrm{Am}}\) and
+% \(\Delta_{\mathrm{Bm}}\). By decreasing
+% \(E_{\mathrm{g}}^{\mathrm{2D}}\), \(\Delta_{\mathrm{Am}}\) and
+% \(\Delta_{\mathrm{Bm}}\) are monotonically suppressed over the whole
+% frequency range (Supplementary Figure XX), while the screening of
+% \(1/g_{\mathrm{m}}^{2}\) becomes more prominent at lower frequencies
+% (Figure \ref{fig1}c).
+To unify the understanding of the 2D material-mediated screening of
+vdW interactions, we borrow the concept of the field effect
+transparency \worktodo{unify the notation} discussed in
+\worktodo{chapter 1 section?}, to define the vdW ``transparency''.
+%
+We introduce two variables to quantify such transparency:
+\begin{enumerate}
+\item The \textbf{frequency-dependent vdW transparency} index $\tau(i\xi)$,
+  defined as the ratio between the single-frequency vdW energy with
+  and without the 2D material:
+  \begin{equation*}
+  \label{eq:vdw-def-tau}
+  \tau(i \xi_{n}) = \frac{G(i \xi_{n})}{G^{0}(i\xi_{n})}
+\end{equation*}
+
+\item The \textbf{overall vdW transparency} index $\eta$, defined as
+  the ratio between total vdW energy with and without the 2D material:
+  \begin{equation*}
+\label{eq:vdw-def-total-trans}
+\eta = \frac{\Phi^{\mathrm{vdW}}}{\Phi^{0}}
+\end{equation*}
+\end{enumerate}
+\worktodo{should we use $G^{vdW, 0}$?}
+%
+\worktodo{figure which c} shows the values of $\tau(i \xi_{n})$
+corresponding to \worktodo{which figure}, which clearly illustrates the
+high-pass feature dominated by the dielectric anisotropy of 2D materials.
+\worktodo{Add comments about the multilayer?}
+
+\subsubsection{Bandgap Dependecy of vdW Transparency}
+\label{sec:bandg-depend-vdw}
+
+From \autoref{eq:vdw-Phi-aniso-main}, unlike the factor
+\(1/g_{\mathrm{m}}^{2}\) that solely depends on the dielectric
+anisotropy of 2D material, \(\hat{\Delta}_{\mathrm{Am}}\) and
+\(\hat{\Delta}_{\mathrm{Bm}}\) are jointly controlled by the
+dielectric properties of both ulk and 2D materials, providing more
+dimensions to modulate the many-body vdW transmission.
+%
+Benefited from
+the fast numerical approach in our model, we are able to perform
+large-scale evaluation of $\eta^{\mathrm{vdW}}$ on a database with
+78 two-dimensional materials and 138 bulk materials, generating a total number of
+7.5\texttimes{}10\textsuperscript{5} combinations of AmB systems
+(details see \autoref{sec:vdw-methods}).
+%
+\worktodo{Figure 3?} shows the 3D scatter plot of
+\(\eta^{\mathrm{vdW}}\) at \(d\) = 2 nm, with the magnitudes of
+$\eta^{\mathrm{vdW}}$ indicated by a color mapping. Inspired by the
+fact that dielectric properties of both bulk \cite{Moss_1950} and 2D
+materials \worktodo{ref to previous} are highly related to their
+electronic band structure, we use the bandgaps of bulk materials
+(\(E_{\mathrm{g}}^{\mathrm{A}}\), \(E_{\mathrm{g}}^{\mathrm{B}}\)) and
+2D material (\(E_{\mathrm{g}}^{\mathrm{2D}}\)) as the axes in
+\worktodo{Figure 3?} \worktodo{better words?}.
+%
+As expected, increasing
+\(E_{\mathrm{g}}^{\mathrm{2D}}\) makes the 2D material more
+transparent to vdW interactions (red).
+%
+Conversely, an increase of \(\eta^{\mathrm{vdW}}\) can also achieved
+by lowering both \(E_{\mathrm{g}}^{\mathrm{A}}\) and
+\(E_{\mathrm{g}}^{\mathrm{B}}\) simultaneously.
+%
+Clearly, the results in \worktodo{figure 3?} shows an systematic
+approach to tune the vdW transparency by changing the bulk/2D material
+combinations.
+
+
+To get more insights into the complex dependency of
+\(\eta^{\mathrm{vdW}}\) on the combination of materials, we first take
+horizontal slices of the 3D scatter plot \worktodo{which figure}, to
+study the effect of varying the bulk materials while fixing the 2D
+material.
+%
+As an example, the cases corresponding to graphene,
+2H-MoS\textsubscript{2} and hBN are shown in \worktodo{another figure,
+  a-c}, respectively.
+%
+Two trends can be observed: (i) hBN shows higher $\eta^{\mathrm{vdW}}$
+(more transparent) compared with graphene and 2H-MoS\textsubscript{2}
+regardless of the bulk material, which is ascribed to its large
+bandgap. (ii) $\eta^{\mathrm{vdW}}$ is generally higher around the
+region that \(E_{\mathrm{g}}^{\mathrm{A}} \to 0\) and
+\(E_{\mathrm{g}}^{\mathrm{B}} \to 0\) (lower diagonal edge) compared
+with \(E_{\mathrm{g}}^{\mathrm{A}} \gg E_{\mathrm{g}}^{\mathrm{B}}\)
+or \(E_{\mathrm{g}}^{\mathrm{B}} \gg E_{\mathrm{g}}^{\mathrm{A}}\)
+(off-diagonal edges) in the 2D scatter plots.
+%
+It is intriguing to see such defined patterns even
+if the choice of bulk materials spans over wide range of lattice types
+and electronic structures.
+
+Here we show it is possible to describe such bandgap dependency of
+$\eta^{\mathrm{vdW}}$ using a relatively simple approach, based on the
+single Lorentz oscillator model (SLOM).
+%
+The idea of SLOM is to describe the monotonically decaying dielectric
+function on imaginary frequency with few parameters. We describe the
+dielectric function $\varepsilon_{\mathrm{Bulk}}$ of a bulk material
+based the Drude-Lorentz model of single oscillator\worktodo{cite
+  Lorentz} and the Kramers-Krönig relations \worktodo{ref to previous
+  chapter}:
 \begin{equation}
-\label{eq:def-eta}
-\hat{\eta}(i \xi_{\mathrm{n}}) = \frac{G(i \xi_{\mathrm{n}})}{G^{0}(i \xi_{\mathrm{n}})}
+\label{eq:vdw-lorentz-imag}
+\varepsilon_{\mathrm{Bulk}}(i \xi) 
+=
+1 + \frac{\xi_{\mathrm{p}}^{2}}{\xi_{\mathrm{g}}^{2} + \Gamma \xi + \xi^{2}}
 \end{equation}
-A similar quantity of total vdW transparency \(\eta\) is also introduced, as the ratio between total vdW energy with and without the 2D material: 
+ where 
+\(\xi_{\mathrm{g}}\) is the intrinsic oscillation frequency,
+\(\xi_{\mathrm{p}}\) is the plasma frequency related to the valence
+electron density, and \(\Gamma\) is the damping parameter.
+The parameters \(\xi_{\mathrm{g}}\) and \(\xi_{\mathrm{p}}\) can
+be extracted using the following relations:
+\begin{enumerate}
+\item \(\varepsilon_{\mathrm{Bulk}}(i \xi_{\mathrm{g}}) = \frac{1}{2} (\varepsilon_{\mathrm{Bulk, 0}} - 1)\)
+\item \(\xi_{\mathrm{p}}^{2} = (\varepsilon_{\mathrm{Bulk, 0}} - 1) \xi_{\mathrm{g}}^{2}\)
+\end{enumerate}
+where
+$\varepsilon_{\mathrm{Bulk, 0}} = \varepsilon_{\mathrm{Bulk}}(i\xi =
+0)$ is the static electronic permittivity.
+%
+Interestingly, the bulk materials studied show a general linear trend
+between \(\hbar \xi_{\mathrm{g}}\) and the bandgap
+\(E_{\mathrm{g}}^{\mathrm{Bulk}}\), as shown in \worktodo{which
+  figure?}  On the other hand \(\hbar \xi_{\mathrm{p}}\) is almost
+independent of \(E_{\mathrm{g}}^{\mathrm{Bulk}}\) and scatters between
+10\(\sim\)20 eV.  For simplicity, we propose the following relations
+for \(\xi_{\mathrm{p}}\) and \(\xi_{\mathrm{g}}\):
+\begin{enumerate}
+\item \(\hbar \xi_{\mathrm{g}}\) = 1.04\(E_{\mathrm{g}}^{\mathrm{Bulk}}\) + 2.25 eV
+\item \(\hbar \xi_{\mathrm{p}}\) = 12.7 eV (averaged value of \(\hbar
+   \xi_{\mathrm{p}}\))
+ \end{enumerate}
+ In addition, we choose a relative small $\Gamma$ such that
+ $\hbar \Gamma$ = 0.05 eV~\worktodo{cite?}.  The simplicity of SLOM
+ allows constructing $\varepsilon_{\mathrm{Bulk}}(i \xi)$ profiles
+ with arbitrary bandgap, and can be used to explore the vdW
+ transparency beyond the existing material combinations.
+ 
+
+\worktodo{Which figure}d-f show the 2D
+contour plots of $\eta^{\mathrm{vdW}}$ for graphene,
+2H-MoS\textsubscript{2} and hBN calculated using SLOM corresponding
+to \worktodo{which figure}a-c, respectively.
+%
+To our surprise, the features observed in the scatter plots from
+material database can be nicely captured using such simplified
+model.
+%
+Further more, the SLOM resolves even more details: along the diagonal
+direction (\ie symmetric system, A=B), a minimum in
+$\eta^{\mathrm{vdW}}$ can be seen for graphene and
+2H-MoS\textsubscript{2}.
+%
+The existence of the minima in the vdW transparency of symmetric
+systems is an evidence that the vdW transmission through a 2D material
+is the competition between the electronic fluctuations in the bulk
+material and the dielectric screening through the 2D material.  To see
+this effect, we notice \autoref{eq:vdw-Phi-single-point} in this case can be simplified to:
 \begin{equation}
-\label{eq:def-total-trans}
-\eta = \frac{\Delta \Phi}{\Delta \Phi^{0}}
+  \label{eq:vdw-sym-simply}
+  G(i \xi) \propto \int_{0}^{\infty} x \ln \left[ 1 - \hat{\Delta}^{2} e^{-x}\right] \mathrm{d}x
 \end{equation}
-Figure \ref{fig2}c shows the values of \(\hat{\eta}\) as function of
-frequency corresponding to Figure \ref{fig2}b, which clearly illustrates the
-high-pass feature dominated by \(1/g_{\mathrm{m}}^{2}\).
+where
+$\hat{\Delta}^{2} =
+\hat{\Delta}_{\mathrm{Am}}\hat{\Delta}_{\mathrm{Bm}}$ when A=B.
+%
+\worktodo{New figure}a indicates the integral in
+\autoref{eq:vdw-sym-simply} can be approximated by $\hat{\Delta}^{2}$
+when ...\worktodo{make decision after plot}. We further consider the
+possible values of \(\Delta^{2}\), given the single frequency
+dielectric functions \(\varepsilon_{\mathrm{m}}(i \xi)\) and
+\(\varepsilon_{\mathrm{A}}(i \xi)\), as shown in \worktodo{Figure}b.
+When the 2D material is fixed, by varying
+\(\varepsilon_{\mathrm{m}}\), the value of \(\hat{\Delta}^{2}\)
+approaches 0 when
+\(\hat{\varepsilon}_{\mathrm{A}} = \hat{\varepsilon}_{\mathrm{A}}
+\hat{\varepsilon}_{\mathrm{m}}\). Ideally, if such condition is
+fulfilled at any frequency \(i\xi\), the 2D material is completely
+opaque to vdW interactions. However this is hard to achieve for real
+materials, as the frequency-dependent dielectric functions between
+bulk and 2D materials can hardly coincide throughout the frequency
+domain. 
+
+
+We note our theory of bandgap dominance of vdW transparency, does not
+violate the recently discovery that 2D materials are more
+``transparent'' to remote epitaxy of materials with higher polarity
+\cite{Kong_2018_pol}. In such situation where the driving force is
+formation of chemical bonding from interfacial danging bonds, the
+interaction potential from monopolar surface \(\Phi^{\pm}\) (see \autoref{eq:vdw-phi-oss}), is dominating over the vdW
+interactions. Although the Coulomb interactions can also be
+effectively screened by 2D material
+\cite{Li_2014_screen,Ambrosetti_2019_jpcl}, its strength still
+overwhelms the vdW interactions. We also comment that the single
+oscillator picture may be oversimplified for many other materials
+beyond this study~\worktodo{cite 1}, more precise techniques of the
+dielectric properties such as multiple Lorentz oscillator model are
+required.
+
+\subsection{Distance Dependency of Many-body vdW Interactions}
+\label{sec:vdw-distance}
+
+The last component to control the vdW transmission through 2D
+materials, is the distance $d$.  From \worktodo{equations to
+  alpha-eps}, \(\hat{\varepsilon}_{\mathrm{m}}\) decreases with the
+distance \(d\) roughly by a power law of \(d^{-1}\). When
+\(d \to \infty\), we have \(\hat{\varepsilon}_{\mathrm{m}} \to 1\) and
+\(1/g_{\mathrm{m}}^{2} \to 1\) on the whole frequency range. In this
+case, the many-body vdW interaction recovers its form when the medium
+is vacuum ($\Phi^{\mathrm{vdW}, 0}$).
+%
+In addition to the trivial picture that $\Phi^{\mathrm{vdW}}$
+decreases with $d$, the
+high-pass transmission feature is also affected.
+%
+To see this effect, we plot the frequency-dependent interaction energy
+\(G(i \xi)\) at different distances for various symmetric bulk-2D
+\worktodo{bulk-2D or 2D-bulk?}  materials combinations, as shown in
+\worktodo{figure X?}.
+%
+If m is vacuum, the maximum value of $G(i \xi)$ is always at
+$\xi \to 0$, and increasing $\delta$ only trivially down\-scales the
+magnitudes of $G(i \xi)$. However if m contains a 2D materials, a
+clear change in the shape of \(G(i \xi)\) can be observed upon
+increasing $d$,
+%
+For graphene (\worktodo{figure}a1-a3), a peak exists in the profile of
+\(G(i \xi)\) corresponding to the selective screening of vdW
+interactions with $\hbar \xi<$5 eV due to the high-pass transmission
+discussed in \worktodo{section?}.
+%
+The peak position drifts to lower energy range with increasing $d$.
+%
+On the contrary, if the 2D material is 2H-MoS\textsubscript{2} or
+h-BN, the high-pass peak only exists with a wide-gap bulk material
+like cubic BN (\worktodo{figure}xx-xx). Similar red-shift of the peak
+position with increasing \(d\) is also observed in these systems,
+indicating the screening effect of the 2D material becomes closer to
+vacuum (peak position = 0 eV).
+
+
+Another exotic behavior concerning the distance-dependency of vdW
+interactions through 2D materials, is the power law with $d$
+\worktodo{try better wording, and cite Gobre paper}.
+%
+When the medium m is vacuum, \(|\Phi^{\mathrm{vdW}}|\) always exhibits a
+power law of \(d^{-2}\), as can be expected from
+\autoref{eq:vdw-hamaker-res}.
+%
+In other words, the log-log plot for \(\Delta^{\mathrm{vdW}}\) vs
+\(d\) in an unscreened system shows a straight line with slope of -2
+\worktodo{as shown in figure?}.
+%
+However, based on our analysis above, the existence of 2D material
+causes stronger screening of $\Phi^{\mathrm{vdW}}$ at shorter
+distance, and the log-log profile \(|\Phi^{\mathrm{vdW}}|\) vs \(d\)
+deviate from that in the non-screened case.
+%
+Apparently, the vdW interaction in such system cannot be simply
+described by the $d^{-2}$ Hamaker-vdW model. Here we define the
+derivative $\partial \log(|\Phi^{\mathrm{vdW}}|)/ \partial d$ as the
+``local'' power exponent $p_{\mathrm{local}}$, such that
+$\Phi^{\mathrm{vdW}}$ approximately decays at a rate of
+$d^{-p_{\mathrm{local}}}$ at certain value of $d$.
+%
+To demonstrate, we choose A=SiO\textsubscript{2} and
+B=Si\textsubscript{3}N\textsubscript{4} as demonstrated in
+\worktodo{figure xx} to mimic the AFM measurements in
+\textcite{Tsoi_2014_vdW_screening_2D}.
+%
+As shown in \worktodo{another figure}, the vdW interactions through a 2D material have $p_{\mathrm{local}} < 2$ due to the screening.
+\(p_{\mathrm{local}}\) asymptotically approaches the vacuum limit of 2 when $d \to \infty$.
+%
+In the case of graphene and 2H-MoS\textsubscript{2},
+\(p_{\mathrm{local}}\) can be as small as $\sim{}$0.5 at \(d\) = 2 nm.
+There are several implications from such abnormal power law due to the
+existence of 2D material. Firstly, the effective Hamaker constant
+approach that frequently used to interpreter experimental
+results~\cite{Tsoi_2014_vdW_screening_2D}\worktodo{cite 1+} should be
+taken with great caution. Moreover, the small power exponent of
+many-body vdW interactions makes them even longer range forces than
+non-screened vdW interactions. This may lead to some extraordinary
+physical phenomena as we show in the next section.
+
+\section{Repulsive vdW Interactions Through 2D Materials}
+\label{sec:repuls-vdw-inter}
+
+
+
+
+
+
+
+
+
 
 \section{Methods}
 \label{sec:vdw-methods}
