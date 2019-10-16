@@ -643,14 +643,14 @@ corresponding to \worktodo{which figure}, which clearly illustrates the
 high-pass feature dominated by the dielectric anisotropy of 2D materials.
 \worktodo{Add comments about the multilayer?}
 
-\subsubsection{Bandgap Dependecy of vdW Transparency}
+\subsection{Bandgap Dependecy of vdW Transparency}
 \label{sec:bandg-depend-vdw}
 
 From \autoref{eq:vdw-Phi-aniso-main}, unlike the factor
 \(1/g_{\mathrm{m}}^{2}\) that solely depends on the dielectric
 anisotropy of 2D material, \(\hat{\Delta}_{\mathrm{Am}}\) and
 \(\hat{\Delta}_{\mathrm{Bm}}\) are jointly controlled by the
-dielectric properties of both ulk and 2D materials, providing more
+dielectric properties of both bulk and 2D materials, providing more
 dimensions to modulate the many-body vdW transmission.
 %
 Benefited from
@@ -902,7 +902,217 @@ non-screened vdW interactions. This may lead to some extraordinary
 physical phenomena as we show in the next section.
 
 \section{Repulsive vdW Interactions Through 2D Materials}
-\label{sec:repuls-vdw-inter}
+\label{sec:vdw-repuls-vdw-inter}
+
+\subsection{Origin of Repulsive vdW Interactions}
+\label{sec:vdw-origin-repulsive-vdw}
+
+The model proposed in \autoref{sec:vdw-model-lifshitz} leads to some
+even more interesting results.
+%
+In \worktodo{figure to large scale}, points corresponding to
+\(\eta^{\mathrm{vdW}} < 0\) (blue) can be observed at the limit of
+small \(E_{\mathrm{g}}^{\mathrm{A}}\) coupled with large
+\(E_{\mathrm{g}}^{\mathrm{B}}\) , and \emph{vice versa}. Similar
+observations can also be found in \worktodo{figure SLOM} predicted by
+the SLOM.
+%
+This reversal in the sign of $\Phi^{\mathrm{vdW}}$ indicates the
+repulsive many-body vdW-Casimir interactions
+\cite{Munday_2009_repul,Zhao_2019_casimir_trap} which lead to
+fascinating applications including super lubricity
+\cite{Feiler_2008_superlubri} and quantum levitation
+\cite{MUNDAY_2010_repul}.
+%
+Historically, the repulsive vdW interactions are only measured in
+liquid systems\worktodo{why?}. The predictions from our model
+indicates that such repulsive interactions, can also be achieved in
+solid state systems, with a proper choice of materials.
+
+The origin of the repulsive vdW forces can be explained by analyzing
+\autoref{eq:vdw-Phi-single-point} \worktodo{make sure EQ you want}.
+%
+As shown in \worktodo{which figure?}, the sign of $G(i \xi)$ is
+determined by $\hat{\Delta}_{\mathrm{Am}} \hat{\Delta}_{\mathrm{Bm}}$,
+therefore it is possible to have $G(i \xi) > 0$ (repulsive
+interaction) \worktodo{check the sign} when
+$\hat{\Delta}_{\mathrm{Am}}$ and $\hat{\Delta}_{\mathrm{Bm}}$ have
+opposite signs.
+%
+This can be achieved when a ``dielectric cascade'' exists in the
+system, such that
+\(\hat{\varepsilon}_{\mathrm{A}} < \hat{\varepsilon}_{\mathrm{m}} <
+\hat{\varepsilon}_{\mathrm{B}}\) (or \emph{vice versa}).
+%
+Inspired by the bandgap-dominance of both
+\(\hat{\varepsilon}_{\mathrm{A}}\) and
+\(\hat{\varepsilon}_{\mathrm{B}}\), it is intuitive to have a
+dielectric cascade system formed by coupling a small-gap and a
+large-gap bulk materials.
+%
+Moreover, the relatively small electronic polarizability of a
+large-gap 2D material such as h-BN, makes it difficult to find a bulk
+material with
+\(\hat{\varepsilon}_{\mathrm{A}} < \hat{\varepsilon}_{\mathrm{m}}\),
+which explains the absence of repulsive interactions in \worktodo{this
+  figure c - f}.
+%
+As a demonstration, we consider a model system
+that A=gold (Au) and B=lithium fluoride (LiF) separated by graphene at \(d\)
+= 2 nm.
+%
+The cascade of dielectric functions can be observed as low frequency
+range (\worktodo{which figure, what range?}), where t
+\(G(i \xi)\) becomes repulsive. At higher frequency ranges, the
+high-pass feature of 2D material makes \(G(i \xi)\) again attractive,
+leading to a total repulsive energy, yet of small magnitude.
+
+
+
+\worktodo{mention the temperature}
+
+\subsection{Observation of Repulsive vdW Interactions in Solid-State Systems}
+\label{sec:vdw-observ-repuls-vdw}
+
+\worktodo{cite other papers about repulsion}
+\worktodo{a short section discussing why repulsive not in solid-state?}
+
+
+
+
+
+\subsection{Proposing Novel System for Repulsive vdW Interactions}
+\label{sec:proposing-new-system}
+
+As discussed in \autoref{sec:origin-repulsive-vdw}, the repulsive vdW
+interactions are elusive due to the attracting energy contributions
+at higher frequencies.
+%
+To enhance the repulsive interactions, one approach is to create systems with dielectric cascade at all frequency ranges.
+%
+From the material database search, it is particularly difficult to
+find a bulk material with $\varepsilon$ constantly smaller than the 2D
+material-containing medium throughout the frequency
+regime. \worktodo{why?}
+% 20191016-0831
+Here we propose another approach: potential repulsive vdW interactions
+can exist on suspended 2D material layers. If material A is vacuum or
+gas, $\varepsilon_{\mathrm{A}}$ approaches unity at all frequency
+ranges, $\hat{\Delta}_{\mathrm{Am}}$ will be constantly larger than
+0. A cascade system in this case, can be constructed by either (i)
+having material B with large dielectric function (such as metal), or
+(ii) increase the spacing $d$.
+%
+\worktodo{A figure here} Due to lack of absolute definition of the
+boundary between gas phase and 2D materials, here we treat the
+distance $d$ from the bottom of the 2D material's electron cloud to
+the closest atomic plane in the bulk material.
+%
+Such definition, despite being arbitrary, \worktodo{better words?}
+allows us to apply the modified Lifshitz-vdW model to the suspended 2D
+material systems.
+%
+Here we propose two possible experimental setups to demonstrate the repulsive many-body vdW interactions.
+
+\subsubsection{Liquid Condensation on Suspended 2D Materials}
+\label{sec:liqu-cond-susp}
+
+The first example considered here is the liquid-suspended 2D
+interface. \worktodo{figure?}
+%
+\worktodo{appropriate to use $\Phi^{\mathrm{vdW}}$ still?}
+We a condensed water film (B) on top of a suspended 2D material
+separated by distance \(d\), while below the 2D layer there is diluted
+water vapor (A, \(\hat{\varepsilon}_{\mathrm{A}} \approx 1\)).
+%
+As a demonstration, we study \(\Phi^{\mathrm{vdW}}\) as function of
+\(d\) in such system, when the 2D material is either graphene or hBN ,
+as shown in \worktodo{figure}b.
+%
+In both cases, \(\Phi^{\mathrm{vdW}}\) becomes
+repulsive when \(d\) exceeds a certain threshold $d_{0}$ (\worktodo{xx \AA{} for graphene and yy \AA{} for hBN}).
+%
+This can be understood from the analysis in
+\autoref{sec:vdw-distance}, as $\hat{\varepsilon}_{\mathrm{m}}$
+shrinks with increasing $d$, and can eventually be smaller than
+$\varepsilon_{\mathrm{B}}$ when $d > d_{0}$.
+  %
+Under such circumstances the relations $\hat{\Delta}_{\mathrm{Am}} >0$
+and $\hat{\Delta}_{\mathrm{Bm}}<0$ are fulfilled, leading to the
+many-body repulsive interactions in condensed liquids as previously
+proposed in \cite{Bostrom_2012_repulsive,Sengupta_2018_rep}.
+%
+We also notice the repulsive many-body vdW interactions are easier to
+be observed on hBN surfaces due to its relatively small electronic
+polarizability.
+
+As discussed before, in solid-state systems, the total adhesion forces
+are dominated by the vdW interactions between the 2D and bulk
+materials. This makes the properties related to repulsive interactions
+difficult to be isolated.
+%
+However, the situation can be different on suspended 2D sheets. From
+the discussions in \autoref{sec:vdw-distance}, the many-body vdW
+interactions decay slower compared with the non-screened, two-body vdW
+interactions. As a consequence of the competition between the forces,
+the total interaction energy can be repulsive at a certain distance
+range.
+%
+As shown in \worktodo{which figure?}, the total vdW interactions
+$\Phi^{\mathrm{tot}}$ which consists both repulsive 2D interactions
+$\Phi^{\mathrm{AmB}}$ and two-body attractive interactions
+$\Phi^{\mathrm{2D-B}}$, can have maxima when $d \approx 30 \AA{}$,
+corresponding to a energy barrier of XXX mJ$\cdot$m$^{-2}$.
+%
+Such repulsive total interactions may be potentially observed by
+in-situ condensation techniques such as environmental scanning
+electron microscope (ESEM), in which the wettability is monitored by
+the change of liquid-2D contact angle. \worktodo{choice of words?}
+\worktodo{how do we calculate two-body?}
+
+
+\subsubsection{Epitaxy of Metal on 2D Materials}
+\label{sec:epitaxy-metal-2d}
+
+As seen in \autoref{sec:liqu-cond-susp}, although the total adhesion
+energy at the liquid-suspended 2D interface can be repulsive, the
+energy barrier is relatively small to achieve stable levitation of the
+bulk phase~\cite{Zhao_2019_casimir_trap}.
+%
+To enhance the many-body repulsive interactions, it is desired to have
+even larger $\hat{\varepsilon}_{\mathrm{B}}$ compared with water. One
+possible approach is epitaxial deposition of metal on suspended 2D
+materials.
+%
+Due to the large dielectric function of metal,
+$\hat{\varepsilon}_{\mathrm{B}}$ is constantly larger than
+$\hat{\varepsilon}_{\mathrm{m}}$, and the dielectric cascade criteria
+$\hat{\Delta}_{\mathrm{Am}} > 0$ and $\hat{\Delta}_{\mathrm{Bm}} < 0$
+are always fulfilled, regardless of the choice of 2D material and
+distance $d$.
+%
+This is validated by our simulations in \worktodo{which figure XX?}, when
+$\Phi^{\mathrm{AmB}}$ becomes always repulsive for gold deposited on
+both suspended graphene and hBN sheets.
+%
+More interestingly, the large distinction between
+$\hat{\varepsilon}_{\mathrm{B}}$ (when B=gold) and
+$\hat{\varepsilon}_{\mathrm{m}}$ \worktodo{Should I use gold?}
+increases the magnitude of $\Phi^{\mathrm{AmB}}$ by almost 10 times
+compared with liquid-2D systems. As a result, an appreciable repulsive
+energy barrier of $\sim{}$0.5 mJ$\cdot$m$^{-2}$ is seen in
+$\Phi^{\mathrm{tot}}$ at $d_{0} \approx 25 \AA{}$.
+%
+% Such feature makes the repulsive interactions more observable.
+%
+As a proposal for future experiments, the repulsive interaction is
+potentially observable via epitaxial growth of metal on suspended 2D
+material sheets, in which the surface wetting behavior, morphology and
+nucleation density of the metal film can be used to probe its
+existence.
+
+
+
 
 
 
