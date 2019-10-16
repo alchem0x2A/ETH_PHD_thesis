@@ -167,17 +167,32 @@
 \PassOptionsToPackage{mathrm=sym}{unicode-math}
 \usepackage[mathrm=sym]{unicode-math}
 \DeclareMathVersion{sansmath}
-\setmainfont[Ligatures=TeX]{TeX Gyre Pagella}
+% Now use name-specific font
+% \setmainfont[Ligatures=TeX]{TeX Gyre Pagella}
+\def\fontdir{fonts/}
+\setmainfont[%
+Path=\fontdir,
+Extension=.otf,
+Ligatures=TeX,                  %
+]{texgyrepagella-regular}
+% 
 \setsansfont[%
+  Path=\fontdir,
   Extension=.otf,
   UprightFont=*-Book,
   ItalicFont=*-BookItalic,
   BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,]{FiraSans} %Use name instead
-% \setmonofont{Fira Mono}
-\setmathfont[version=normal]{TeX Gyre Pagella Math}
-\setmathfont[version=sansmath]{Fira Math}
-\setmathsf{Fira Math}
+  BoldItalicFont=*-MediumItalic,%
+  ]{FiraSans} %Use name instead
+  % 
+\setmonofont[%
+Path=\fontdir,
+Extension=.otf,
+]{FiraMono-Regular}
+\setmathfont[Path=\fontdir, version=normal, Extension=.otf]{texgyrepagella-math}
+\setmathfont[version=sansmath, Path=\fontdir]{FiraMath-Regular.otf}
+% \setmathsf[version=sansmath, Path=\fontdir]{FiraMath-Regular.otf}
+% \setmathsf{Fira Math}
 % Define the font and appearance each picture environment
 \usepackage{etoolbox}
 \AtBeginEnvironment{picture}{\sffamily\fontsize{10}{12.0}

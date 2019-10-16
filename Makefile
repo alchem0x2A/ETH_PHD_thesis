@@ -1,4 +1,4 @@
-TEXFLAGS = -bibtex -pdf -interaction=nonstopmode -use-make
+TEXFLAGS = -bibtex -pdf -interaction=nonstopmode 
 DRAFT_FLAGS = -bibtex -pdf -interaction=nonstopmode -d	\
 -pdflatex="lualatex -synctex=1 -draftmode --shell-escape"
 BUILD_DIR = build
