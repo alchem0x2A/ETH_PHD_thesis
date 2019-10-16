@@ -111,7 +111,7 @@ length scales, is clearly required.
 In this report, we propose the first theoretical framework to model
 the change of interfacial tension between liquid and a sheet of
 monolayer 2D material. Multiscale physical phenomena are considered,
-as shown in Figure \ref{fig:scheme-method}. At the atomistic scale
+as shown in \autoref{fig:wet-scheme-method}. At the atomistic scale
 (several \AA{}), we formulate the dependence of surface energy of a 2D
 material on the doping density using the quantum capacitance (QC)
 calculated by the hybrid density functional theory (DFT) at the level
@@ -133,7 +133,7 @@ electrowetting and the substrate-induced doping experiments.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.95\linewidth]{../img/scheme-methods.pdf}
-\caption{\label{fig:scheme-method} Scheme of the proposed multiscale
+\caption{\label{fig:wet-scheme-method} Scheme of the proposed multiscale
   approach for modeling the doping-induced wettability tuning of 2D
   materials. Multiscale phenomena are considered (right side, from top
   to bottom): (i) change of 2D material surface energy
@@ -159,7 +159,7 @@ material (\emph{2D}) supported by a solid substrate, following the Young’s
 equation, the change of the equilibrium contact angle \(\theta\) upon
 doping, is given by
 \begin{equation}
-\label{eqn-def-Young-Delta-theta}
+\label{eqn:wet-def-Young-Delta-theta}
 \gamma_{\mathrm{L}} \Delta \cos\theta = \Delta \gamma_{\mathrm{2D}}
                                  - \Delta \gamma_{\mathrm{2D-L}}
 \end{equation}
@@ -198,7 +198,7 @@ electric potential and total charge in the 2D material,
 respectively. At constant \(T\), combining with the first law of
 thermodynamics and the differential form of \(U\), it follows:
 \begin{equation}
-\label{eqn-dgamma-dpsi}
+\label{eqn:wet-dgamma-dpsi}
 \mathrm{d} \gamma_{\mathrm{2D}} = -\frac{q}{A} \mathrm{d} \psi_{\mathrm{2D}}
                                 = -\sigma_{\mathrm{2D}} \mathrm{d} \psi_{\mathrm{2D}}
 \end{equation}
@@ -208,7 +208,7 @@ a function of its doping density \(\sigma_{\mathrm{2D}}\). After bringing an amo
 aforementioned system, the surface energy change is therefore given
 by:
 \begin{equation}
-\label{eqn-delta-gamma-sigma-free-2D}
+\label{eqn:wet-delta-gamma-sigma-free-2D}
 \Delta \gamma_{\mathrm{2D}} = - \int_{0}^{\psi_{\mathrm{2D}}} \sigma_{\mathrm{2D}} \mathrm{d}\psi'
                             = - \int_{0}^{\sigma_{\mathrm{2D}}} \sigma' \left( \frac{1}{C_{\mathrm{2D}}}\right) \mathrm{d} \sigma'
 \end{equation}
@@ -219,7 +219,7 @@ capacitance of the 2D material
 \(\psi_{\mathrm{2D}} = -(E_{\mathrm{F}} - E_{\mathrm{F,0}})/e\) and
 \(E_{\mathrm{F,0}}\) corresponds to the Fermi level of the 2D material
 at the charge neutral point (CNP). Accordingly, eq
-\ref{eqn-delta-gamma-sigma-free-2D} provides a simple relation which
+\autoref{eqn:wet-delta-gamma-sigma-free-2D} provides a simple relation which
 depicts the surface tension change of a 2D material at the
 quantum-mechanical level. We have calculated the DOS as a function of
 \(E_{\mathrm{F}}\) for a variety of 2D materials using the density
@@ -240,7 +240,7 @@ g(E')e \mathrm{d}E'\) \cite{John_2004_QC}.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.75\linewidth]{../img/dgamma-sigma.pdf}
-\caption{\label{fig:dgamma-sigma} Atomistic scale:
+\caption{\label{fig:wet-dgamma-sigma} Atomistic scale:
   \(\Delta \gamma_{\mathrm{2D}}\) as a function of
   \(\sigma_{\mathrm{2D}}\) for selected 2D materials: graphene,
   silicene, germanene, phosphorene, MoS\(_{2}\), MoSe\(_{2}\),
@@ -250,7 +250,7 @@ g(E')e \mathrm{d}E'\) \cite{John_2004_QC}.
   doping, compared with the 2D semiconductors (TMDCs, phosphorene).}
 \end{figure}
 
-Figure \ref{fig:dgamma-sigma} presents the calculated
+\autoref{fig:wet-dgamma-sigma} presents the calculated
 \(\Delta \gamma_{\mathrm{2D}}\) as a function of
 \(\sigma_{\mathrm{2D}}\) for the 2D materials considered
 here. Clearly, the doping of 2D materials reduces their surface
@@ -267,7 +267,7 @@ semimetals (e.g. graphene, silicene, and germanene) than that in the
 effective mass of carriers in the 2D semiconductors is much higher
 than that in the 2D semimetals \cite{Davies_1997_book},
 thereby resulting in high DOS, as well as a high \(C_{\mathrm{2D}}\)
-(see eq \ref{eqn-delta-gamma-sigma-free-2D}). This concept also
+(see eq \autoref{eqn:wet-delta-gamma-sigma-free-2D}). This concept also
 explains why the surface energy decrease for silicene and germanene
 are lower than that for graphene \cite{Yan_2013_e-hv-couple}.  To our knowledge,
 the doping-induced surface energy change in 2D materials has never
@@ -304,7 +304,7 @@ which compose the interfacial tension, we propose that the
 interfacial tension change is given by:
 
 \begin{equation}
-\label{eqn-delta-gamma-decompose}
+\label{eqn:wet-delta-gamma-decompose}
 \Delta \gamma_{\mathrm{2D-L}} = \Delta \gamma_{\mathrm{2D-L}}^{\mathrm{Orien}}
                               + \Delta \gamma_{\mathrm{2D-L}}^{\mathrm{EDL}}
 \end{equation}
@@ -363,7 +363,7 @@ between two separate systems that contain (i) only water molecules
 with two surfaces exposing to vacuum (L), and (ii) the same amount of
 water molecules with one surface in contact with graphene (placed at z
 = 0) and the other surface exposing to vacuum (GL) (see Figure
-\ref{fig:MD-res}(a) and \ref{fig:MD-res}(b)). Note that the current
+\autoref{fig:wet-MD-res}(a) and \autoref{fig:wet-MD-res}(b)). Note that the current
 model can only reveal the static and macroscopic wetting behavior,
 while the effects of dynamic properties or surface roughness, as
 discussed by some recent MD-based nano-electrowetting studies
@@ -387,17 +387,17 @@ electrostatic interaction between the charged graphene and the water
 molecules at the water-vacuum interface, by ensuring that the
 time-averaged dipole moment for the water molecules at the
 water-vacuum interface approaches zero (see Supporting Information
-Figure S1).  One can show that
+S1).  One can show that
 \(E_{\mathrm{GL}} - E_{\mathrm{L}} = (\gamma_{\mathrm{2D-L}} +
 \gamma_{\mathrm{2D}} - \gamma_{L})S = (\Phi + 2
 \gamma_{\mathrm{2D}})S\), where \(\Phi\) is the interfacial energy,
 which is defined as
 \(\Phi = \gamma_{\mathrm{2D-L}} - \gamma_{\mathrm{2D}} -
 \gamma_{\mathrm{L}}\), and combining with eq
-\ref{eqn-def-Young-Delta-theta}, the change of interfacial energy
+\autoref{eqn:wet-def-Young-Delta-theta}, the change of interfacial energy
 \(\Delta \Phi\) can be formulated as:
 \begin{equation}
-\label{eqn-Delta-Phi-Delta-cos}
+\label{eqn:wet-Delta-Phi-Delta-cos}
 \Delta \Phi = \Delta (E_{\mathrm{GL}} - E_{\mathrm{L}})/S - 2\Delta \gamma_{\mathrm{2D}} = -\gamma_{\mathrm{L}} (\Delta \cos \theta)^{\mathrm{Orien}}
 \end{equation}
 where \((\Delta\cos \theta)^{\mathrm{Orien}}\) corresponds to the
@@ -405,14 +405,14 @@ contact angle change due to the reorientation effect. Note that in the
 current MD simulation setup, the surface tension of the 2D material
 remains unchanged (i.e.  \(\Delta \gamma_{\mathrm{2D}}=0\)), since the
 Fermi level change with respect to \(\sigma_{\mathrm{2D}}\) (see eq
-\ref{eqn-delta-gamma-sigma-free-2D}) is not included in the algorithm.
+\autoref{eqn:wet-delta-gamma-sigma-free-2D}) is not included in the algorithm.
 When analyzing the reorientation effect on the MD level, we adopt the
 water surface tension value of
 \(\gamma_{\mathrm{L}}=63.6\ \mathrm{mJ}\cdot \mathrm{m}^{-2}\) in the
 SPC/E model \cite{Vega_2007_tension}. Note that the value of
 \(\gamma_{\mathrm{L}}\) only affects the results of
 \(\Delta \cos \theta\) while not the interaction potential \(\Phi\), as revealed by eq
-\ref{eqn-Delta-Phi-Delta-cos}. Moreover, even though the surface
+\autoref{eqn:wet-Delta-Phi-Delta-cos}. Moreover, even though the surface
 tension from SPC/E model is ~12.6\% lower than the real value (72.8
 mJ\(\cdot\)m\(^2\)), such minor difference may not affect our
 conclusion. Accordingly, \(\Delta \Phi\) follows
@@ -425,7 +425,7 @@ potentials, respectively.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.9\linewidth]{../img/fig-pot-dens.pdf}
-\caption{\label{fig:MD-res} Molecular scale: geometry of the periodic
+\caption{\label{fig:wet-MD-res} Molecular scale: geometry of the periodic
   MD simulation box for (a) water molecules only and (b)
   water-graphene systems, with \textasciitilde{} 27000 water molecules
   per unit cell. (c) Change of total adhesion energy \(\Delta\Phi\),
@@ -441,7 +441,7 @@ potentials, respectively.
   \(z\) from graphene surface, respectively.}
 \end{figure}
 
-Figure \ref{fig:MD-res}(c) shows the calculated \(\Delta \Phi\), and
+\autoref{fig:wet-MD-res}(c) shows the calculated \(\Delta \Phi\), and
 its contributions from the Lennard-Jones (\(\Delta \Phi_{\mathrm{LJ}}\))
 and Coulombic interactions (\(\Delta \Phi_{\mathrm{Coul}}\)), as
 functions of \(\sigma_{\mathrm{2D}}\). We note that the change of
@@ -463,17 +463,17 @@ Lennard-Jones equilibrium distance (\(r_{\mathrm{O-O}}=3.16\
 \mathrm{\AA}\)) \cite{Mark_2001_MD_water}. Increasing the doping density of the
 graphene sheet essentially enhances the Coulombic attractions between
 graphene and water molecules, further reducing the inter-molecular
-equilibrium distance, as seen in Figure S2(a), the distance between
+equilibrium distance, as seen in S2(a), the distance between
 the first water layer and graphene (calculated from maximal
-\(\rho_{\mathrm{L}}\) from Figure \ref{fig:MD-res}(d)) slightly decreases
+\(\rho_{\mathrm{L}}\) from \autoref{fig:wet-MD-res}(d)) slightly decreases
 in doped graphene systems, compared with the charge-neutral system,
 which eventually leads to a slight increase in \(\Delta
 \Phi_{\mathrm{LJ}}\).  The plot of \(\Delta \Phi\) as a function of
-\(\sigma_{\mathrm{2D}}\) in Figure \ref{fig:MD-res}(c) shows an apparent
+\(\sigma_{\mathrm{2D}}\) in \autoref{fig:wet-MD-res}(c) shows an apparent
 asymmetric behavior. This can be further revealed from the
 \emph{z}-dependent local molecular density \(\rho_{\mathrm{L}}\) and charge
 density \(\delta_{\mathrm{L}}\) profiles of the water molecules, as
-shown in Figure \ref{fig:MD-res}(d) and \ref{fig:MD-res}(e),
+shown in \autoref{fig:wet-MD-res}(d) and \autoref{fig:wet-MD-res}(e),
 respectively. The molecular density of the first water layer adjacent
 to graphene increases when graphene is p-doped
 (\(\sigma_{\mathrm{2D}}=0.012\ e\cdot \mathrm{cm}^{-2}\), or
@@ -483,8 +483,8 @@ equivalently -4.56 \textit{e}/atom) compared with the case of
 charge-neutral graphene, indicating the polarity-dependent adsorption
 of water molecules on graphene: lighter H atoms prefer to adsorb onto
 n-doped graphene electrostatically. Similar trend can also be observed
-in the \(\delta_{\mathrm{L}}\) (Figure \ref{fig:MD-res}(e))and water
-dipole orientation \(\cos \mu\) (Figure S1) profiles, both
+in the \(\delta_{\mathrm{L}}\) (\autoref{fig:wet-MD-res}(e))and water
+dipole orientation \(\cos \mu\) (S1) profiles, both
 suggesting that water orientation depends strongly on
 \(\sigma_{\mathrm{2D}}\): more negative \(\sigma_{\mathrm{2D}}\) tends
 to orient the water dipoles more towards the 2D interface, reflected
@@ -496,13 +496,13 @@ e\cdot \mathrm{cm}^{-2}\) or equivalently -0.76 \textit{e}/atom,
 indicating that the reorientation of interfacial water molecules by
 small negative charges on graphene helps minimizing the Coulombic
 interactions. The trend observed in hydrogen-bond densities (see
-Figure S3) also matches those observed in \(\rho_{\mathrm{L}}\),
+S3) also matches those observed in \(\rho_{\mathrm{L}}\),
 \(\delta_{\mathrm{L}}\) and \(\cos \mu\) profiles.
 
 Finally, we believe that the asymmetric behavior of \(\Delta
 \Phi_{\mathrm{Coul}}\) with respect to \(\sigma_{\mathrm{2D}}\) is due to
 the nonlinear decrease in \(\delta_{\mathrm{L}}\) of the first water
-layer, when graphene becomes more n-doped (see Figure S2(d)).  As a
+layer, when graphene becomes more n-doped (see S2(d)).  As a
 general trend, \(\delta_{\mathrm{L}}\) of the first water layer
 increases when \(\sigma_{\mathrm{2D}}\) becomes more negative, due to
 the attraction of H atoms to the graphene surface. However we observe
@@ -519,12 +519,12 @@ increased Coulombic repulsion energy for C−O pairs from more negative
 attractions between C−O pairs when \(r_{\mathrm{C-O}}\) increases, which
 eventually prevents the reduction of the first water layer density at
 an equilibrium C-O distance, as seen at \(\sigma_{\mathrm{2D}} < -0.01\
-e \cdot \mathrm{cm}^{-2}\) (Figure S2(b)). Here we propose a simple
+e \cdot \mathrm{cm}^{-2}\) (S2(b)). Here we propose a simple
 capacitor-like model, considering the contributions from
 \(\delta_{\mathrm{L}}\) of the first water layer of the first water
 layer and \(\sigma_{\mathrm{2D}}\) to the interfacial Coulombic energy
 \(\Phi_{\mathrm{Coul}}^{\mathrm{int}}\) (see the discussion in
-Supporting Information and Figure S4). We show that in the n-doped graphene system
+Supporting Information and S4). We show that in the n-doped graphene system
 the charge density of the first water layer has a major contribution
 to \(\Delta \Phi_{\mathrm{Coul}}\). The nonlinear behavior of
 \(\delta_{\mathrm{L}}\) at low n-doping level is responsible for the
@@ -577,27 +577,27 @@ interface, respectively. Relative to that in the bulk phase
 \(z_{\mathrm{i}}\) is the valency of component \(i\), under the assumption
 that the interfacial electric potential is equal to
 \(\psi_{\mathrm{2D}}\). As with the approach leading to eq
-\ref{eqn-delta-gamma-sigma-free-2D}, it follows:
+\autoref{eqn:wet-delta-gamma-sigma-free-2D}, it follows:
 \begin{equation}
-\label{eqn-Delta-gamma-2DL-EDL-full}
+\label{eqn:wet-Delta-gamma-2DL-EDL-full}
 \Delta \gamma_{\mathrm{2D-L}}^{\mathrm{EDL}} = 
 -\int_{0}^{\sigma_{\mathrm{2D}}} \sigma' \left(\frac{1}{C_{\mathrm{2D}}}\right) \mathrm{d}\sigma'
 -\int_{0}^{\sigma_{\mathrm{L}}} \sigma' \left(\frac{1}{C_{\mathrm{EDL}}}\right) \mathrm{d}\sigma'
 \end{equation}
 where \(\sigma_{\mathrm{L}}\) is the interfacial charge density per unit
 area in the liquid phase, and \(C_{\mathrm{EDL}}\) is the EDL
-capacitance. Combining eq \ref{eqn-Delta-gamma-2DL-EDL-full} with eqs
-\ref{eqn-def-Young-Delta-theta} and \ref{eqn-delta-gamma-sigma-free-2D},
+capacitance. Combining eq \autoref{eqn:wet-Delta-gamma-2DL-EDL-full} with eqs
+\autoref{eqn:wet-def-Young-Delta-theta} and \autoref{eqn:wet-delta-gamma-sigma-free-2D},
 the contact angle change due to the EDL effect, \((\Delta \cos
 \theta)^{\mathrm{EDL}}\) is given by:
 \begin{equation}
-\label{eqn-Delta-cos-EDL}
+\label{eqn:wet-Delta-cos-EDL}
 (\Delta \cos \theta)^{\mathrm{EDL}} = -\frac{1}{\gamma_{\mathrm{L}}}
                                       \int_{0}^{\sigma_{\mathrm{L}}} \sigma' 
                                       \left(\frac{1}{C_{\mathrm{EDL}}}\right) \mathrm{d}\sigma'
 \end{equation}
-In other words, eqs \ref{eqn-delta-gamma-sigma-free-2D} and
-\ref{eqn-Delta-gamma-2DL-EDL-full} suggest that \(\sigma_{\mathrm{2D}}\)
+In other words, eqs \autoref{eqn:wet-delta-gamma-sigma-free-2D} and
+\autoref{eqn:wet-Delta-gamma-2DL-EDL-full} suggest that \(\sigma_{\mathrm{2D}}\)
 decreases both \(\gamma_{\mathrm{2D}}\) and \(\gamma_{\mathrm{2D-L}}\) to
 the same extent, i.e. \(\int_{0}^{\sigma_{\mathrm{2D}}}
 \sigma'/C_{\mathrm{2D}} \mathrm{d}\sigma'\), such that the contribution
@@ -606,7 +606,7 @@ of quantum capacitance cancels out in the YLE.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.5\linewidth]{../img/2d-ph-dependency+MD.pdf}
-\caption{\label{fig:res-EDL} The continuum model: (a) Scheme of the
+\caption{\label{fig:wet-res-EDL} The continuum model: (a) Scheme of the
   interface between the 2D material and the aqueous phase. (b)
   \((\Delta\cos\theta)^{\mathrm{EDL}}\) as a function of
   \(\sigma_{\mathrm{2D}}\) with varied solute concentrations. The
@@ -621,7 +621,7 @@ For a \(z:z\) electrolyte solution, with the molar concentration \(c_{0}\)
 and the electrolyte valence \(z\), we describe the electric potential
 profile in liquid with the one-dimensional Gouy-Chapman-Stern model
 \cite{Stern_1924_theory}, as schematically shown in Figure
-\ref{fig:res-EDL}(a).  The EDL consists of a Helmholtz layer with the
+\autoref{fig:wet-res-EDL}(a).  The EDL consists of a Helmholtz layer with the
 permittivity of liquid \(\epsilon_{\mathrm{L}}\) and thickness
 \(d_{\mathrm{H}}\), next to the Gouy-Chapman (GC) diffuse layer where
 the electric potential profile follows the Poisson Boltzmann equation
@@ -629,7 +629,7 @@ the electric potential profile follows the Poisson Boltzmann equation
 Gouy-Chapman-Stern model is equivalent to two capacitors in series,
 namely,
 \begin{equation}
-\label{eqn-GCS-capacitance-series}
+\label{eqn:wet-GCS-capacitance-series}
 \frac{1}{C_{\mathrm{EDL}}} = \frac{1}{C_{\mathrm{H}}} + \frac{1}{C_{\mathrm{GC}}}
 \end{equation}
 where \(C_{\mathrm{H}}=\epsilon_{\mathrm{L}}/d_{\mathrm{H}}\) is the
@@ -643,14 +643,14 @@ to a zero net electric field at the surface of the Gaussian enclosure,
 the electroneutrality of the system \cite{Bard_1980_electrochem_book}
 suggests:
 \begin{equation}
-\label{eqn-neutrality}
+\label{eqn:wet-neutrality}
 \sigma_{\mathrm{2D}} + \sigma_{\mathrm{L}} = 0
 \end{equation}
 And therefore, the electric potentials corresponding to the surface of
 the 2D material and the outer Helmholtz plane, \(\psi_{\mathrm{2D}}\)
 and \(\psi_{\mathrm{GC}}\), are given by:
 \begin{equation}
-\label{eqn-psi-GC}
+\label{eqn:wet-psi-GC}
 \begin{aligned}
   \psi_{\mathrm{GC}} &= -\frac{2k_{\mathrm{B}}T}{ze} 
                          \sinh^{-1}\left(
@@ -663,7 +663,7 @@ where \(N_{\mathrm{A}}\) is the Avogadro constant and \(k_{\mathrm{B}}\)
 is the Boltzmann constant. Accordingly, the final form
 of \((\Delta \cos \theta)^{\mathrm{EDL}}\) is given by:
 \begin{equation}
-\label{eqn-Delta-cos-EDL-final}
+\label{eqn:wet-Delta-cos-EDL-final}
 \begin{aligned}
 (\Delta \cos \theta)^{\mathrm{EDL}} &= \frac{\sigma_{\mathrm{2D}}^{2}}{2\gamma_{\mathrm{L}}
                                        C_{\mathrm{H}}}\frac{1}{\gamma_{\mathrm{L}}}
@@ -685,7 +685,7 @@ is the Debye screening length. Compared with the classical YLE,
 \(C_{\mathrm{YL}}\) is the equivalent capacitance in YLE, one can show that \(C_{\mathrm{YL}}\)
 is given by:
 \begin{equation}
-\label{eqn-CYL-model}
+\label{eqn:wet-CYL-model}
 \frac{1}{C_{\mathrm{YL}}} = \frac{1}{C_{\mathrm{H}}} + \frac{1}{(C_{\mathrm{DH}} + C_{\mathrm{GC}})/2}
 \end{equation}
 
@@ -696,15 +696,15 @@ The above analysis leads to two important observations: (i) If a thin
 contamination layer (usually composed of charge-neutral hydrocarbon
 species \cite{li_2013_airborne}) exists between the Helmholtz layer and
 the 2D material surface, the electroneutrality at the interface (eq
-\ref{eqn-neutrality}) still holds, such that \((\Delta \cos
+\autoref{eqn:wet-neutrality}) still holds, such that \((\Delta \cos
 \theta)^{\mathrm{EDL}}\) remains the same (see eq
-\ref{eqn-Delta-cos-EDL-final}). In other words, despite the recent
+\autoref{eqn:wet-Delta-cos-EDL-final}). In other words, despite the recent
 debate about the role of the airborne adsorbates in the contact angle
 measurement on 2D materials
 \cite{li_2013_airborne,Kozbial_2015_wetting_mos2,Xu_2013_withwhat,Chow_2015}, we expect
 that the experimental characterization of the doping-induced contact
 angle change is more robust and reproducible. (ii) As shown in eqs
-\ref{eqn-GCS-capacitance-series} and \ref{eqn-Delta-gamma-2DL-EDL-full},
+\autoref{eqn:wet-GCS-capacitance-series} and \autoref{eqn:wet-Delta-gamma-2DL-EDL-full},
 the equivalent capacitance in the YLE, \(C_{\mathrm{YL}}\), is not
 identical to the total capacitance in the EDL, \(C_{\mathrm{EDL}}\). We
 notice that the literature in this field (e.g. Refs.
@@ -721,7 +721,7 @@ solution, using the parameters of \(d_{\mathrm{H}}=3\) Å
 % \(\gamma_{\mathrm{L}}=72.8\ \mathrm{mJ}\cdot \mathrm{m}^{-2}\) at
 % \(T=298\) K,
 the calculated \((\Delta \cos \theta)^{\mathrm{EDL}}\) as a function
-of \(\sigma_{\mathrm{2D}}\) is shown in Figure \ref{fig:res-EDL}(b).
+of \(\sigma_{\mathrm{2D}}\) is shown in \autoref{fig:wet-res-EDL}(b).
 Moderate electrolyte concentrations \(c_{0}\) between \(10^{-1}\) to
 \(10^{-7}\) mol\(\cdot\)L\(^{-1}\) are considered, since the corresponding Debye
 screening length will be larger than the effective radius of vdW
@@ -753,10 +753,10 @@ calculated \((\Delta \cos \theta)^{\mathrm{EDL}}\) is always less than
 \(\Delta \Phi\), see previous section) calculated by the MD
 simulations, the total change of contact angle
 \((\Delta \cos \theta)^{\mathrm{Orien + EDL}}\) due to the doping
-effect is shown in Figure \ref{fig:res-EDL}(c). We separately fit the
+effect is shown in \autoref{fig:wet-res-EDL}(c). We separately fit the
 \(\Delta \Phi_{\mathrm{LJ}}\) and \(\Delta \Phi_{\mathrm{Coul}}\) from
 the reorientation effect as functions of \(\sigma_{\mathrm{2D}}\) in
-n- and p-doped regimes, respectively (see Figure S5), and use the
+n- and p-doped regimes, respectively (see S5), and use the
 fitting results to construct the \(\Delta \Phi-\sigma_{\mathrm{2D}}\)
 relation. Comparing the interactions at different length scales, we
 find that the reorientation effect is more predominant than the EDL
@@ -764,7 +764,7 @@ effect at moderate electrolyte concentrations, while the shift of the
 Fermi level in 2D materials has no net effect on the wetting, due to the
 cancellation effect explained previously. Therefore the overall change
 of contact angle is less dependent on the solute concentration,
-compared with Figure \ref{fig:res-EDL}(b).
+compared with \autoref{fig:wet-res-EDL}(b).
 
 Together with the reorientation effect, the calculated \(\Delta \cos
 \theta\) change only reaches 0.06 \textasciitilde{} 0.08, corresponding to a maximum
@@ -798,7 +798,7 @@ materials.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.95\linewidth]{../img/plot-fitting.pdf}
-\caption{\label{fig:f-nc-exp} Comparison between model and
+\caption{\label{fig:wet-f-nc-exp} Comparison between model and
   experimental data: schemes of the void region in (a) substrated
   doped 2D material and (b) electrostatic gated 2D material.(c) Fitted
   experimental data of \(\Delta\cos\theta\) as a function of
@@ -807,7 +807,7 @@ materials.
   Ref. \cite{Ashraf_2016_doping}.}
 \end{figure}
 
-Figures \ref{fig:f-nc-exp}(a) and \ref{fig:f-nc-exp}(b) illustrate how
+Figures \autoref{fig:wet-f-nc-exp}(a) and \autoref{fig:wet-f-nc-exp}(b) illustrate how
 an electric field, either from the dopants on the substrate surface or
 from the electrostatic gating, penetrate through a void in a 2D
 material sheet and interact with the liquid phase directly. As a
@@ -823,18 +823,18 @@ charge conservation. Together with the EDL and the reorientation
 effects discussed earlier, the modified YLE considering a 2D material
 with voids follows:
 \begin{equation}
-\label{eqn-def-Delta-cos-mixture}
+\label{eqn:wet-def-Delta-cos-mixture}
 \Delta \cos \theta = -f\frac{\sigma_{\mathrm{2D}}^{2}}{\gamma_{\mathrm{L}} C_{\mathrm{v}}} 
                      + (1-f)[(\Delta \cos \theta)^{\mathrm{Orien}} + (\Delta \cos \theta)^{\mathrm{EDL}}]
 \end{equation}
 where \(f\) is the void (defect) fraction in the 2D material. For the
 electrostatic gating experiments (see Figure
-\ref{fig:f-nc-exp}(a)), the 2D material quantum capacitor
+\autoref{fig:wet-f-nc-exp}(a)), the 2D material quantum capacitor
 and the dielectric  capacitor are connected in
 series, so that the voltage applied between the gate electrode and
 2D material, \(V_{\mathrm{G}}\), is given by \worktodo{ref QC part}:
 \begin{equation}
-\label{eqn-VG-gating}
+\label{eqn:wet-VG-gating}
 V_{\mathrm{G}} = \frac{\sigma_{\mathrm{2D}} - \sigma_{\mathrm{0}}}{C_{\mathrm{d}}}
                   + \int_{\sigma_{0}}^{\sigma_{\mathrm{2D}}} \frac{1}{C_{\mathrm{2D}}} \mathrm{d}\sigma'
 \end{equation}
@@ -849,11 +849,11 @@ the water contact angle on (i) substrate-doped graphene
 \cite{Ashraf_2016_doping} and (ii) electrostatically-gated
 graphene \cite{Hong_2016_mechanism} are chosen to compare, with
 \(C_{\mathrm{v}} = C_{\mathrm{DH}}\) and \(C_{\mathrm{v}} =
-C_{\mathrm{d}}\) in eq \ref{eqn-def-Delta-cos-mixture}, respectively. The
+C_{\mathrm{d}}\) in eq \autoref{eqn:wet-def-Delta-cos-mixture}, respectively. The
 parameter \(f\) and \(\sigma_{0}\) are determined by least-square fitting
 the experimentally-observed \(\Delta \cos \theta\) with respect to
-\(\sigma_{\mathrm{2D}}\) using eq \ref{eqn-def-Delta-cos-mixture}. Figure
-\ref{fig:f-nc-exp}(c) compares the calculated \(\Delta \cos \theta\) as a
+\(\sigma_{\mathrm{2D}}\) using eq \autoref{eqn:wet-def-Delta-cos-mixture}. Figure
+\autoref{fig:wet-f-nc-exp}(c) compares the calculated \(\Delta \cos \theta\) as a
 function of \(\sigma_{\mathrm{2D}}\), together with the two sets of
 experimental data. In both cases considered, we observe a slight
 degree of shift in the minima of the fitted curves, corresponding to
@@ -871,7 +871,7 @@ theoretical framework proposed here.
 \begin{figure}[htbp]
 \centering
 % \includegraphics[width=0.65\linewidth]{../img/dcos-all-2D.pdf}
-\caption{\label{fig:dcos-all-2D} Electrostatic tunability of 2D
+\caption{\label{fig:wet-dcos-all-2D} Electrostatic tunability of 2D
   material wettability: (a) Schematic illustration of the
   2D-material-based electrowetting device, where the 2D material is
   electostatically doped. (b) \((\Delta\cos\theta)^{\mathrm{EDL}}\) as
@@ -881,14 +881,14 @@ theoretical framework proposed here.
 
 Finally, we discuss the influence of 2D material choice under
 electrostatic gating condition. The above analysis (eq
-\ref{eqn-Delta-cos-EDL-final}) has clearly suggested that the contact
+\autoref{eqn:wet-Delta-cos-EDL-final}) has clearly suggested that the contact
 angle change effect \((\Delta \cos \theta)^{\mathrm{EDL}}\) only depends
 on \(\sigma_{\mathrm{2D}}\), which can be controlled by an electric
 displacement field, with the experimental setup shown in Figure
-\ref{fig:dcos-all-2D}(a). Specifically,  eqs \ref{eqn-psi-GC} and
-\ref{eqn-VG-gating} suggest:
+\autoref{fig:wet-dcos-all-2D}(a). Specifically,  eqs \autoref{eqn:wet-psi-GC} and
+\autoref{eqn:wet-VG-gating} suggest:
 \begin{equation}
-\label{eqn-dVG-choice-2D}
+\label{eqn:wet-dVG-choice-2D}
 \begin{aligned}
 \mathrm{d} V_{\mathrm{G}} &= (\frac{1}{C_{\mathrm{d}}} + \frac{1}{C_{\mathrm{2D}}}) \mathrm{d} \sigma_{\mathrm{2D}} \\
 \mathrm{d} \psi_{\mathrm{2D}} &= -(\frac{1}{C_{\mathrm{H}}} + \frac{1}{C_{\mathrm{GC}}}) \mathrm{d} \sigma_{\mathrm{L}}
@@ -897,7 +897,7 @@ displacement field, with the experimental setup shown in Figure
 And since \(\sigma_{\mathrm{2D}} = -\sigma_{\mathrm{L}}\), the first
 derivative of \(\psi_{\mathrm{2D}}\) with respect to \(V_{\mathrm{G}}\), namely \(\beta\), is given by:
 \begin{equation}
-\label{eqn-def-beta}
+\label{eqn:wet-def-beta}
 \beta = \frac{\mathrm{d} \psi_{\mathrm{2D}}}{\mathrm{d} V_{\mathrm{G}}} 
       = \frac{\frac{1}{C_{\mathrm{H}}} + \frac{1}{C_{\mathrm{GC}}}}{\frac{1}{C_{\mathrm{d}}} + \frac{1}{C_{\mathrm{2D}}}}
 \end{equation}
@@ -909,14 +909,14 @@ Here we demonstrate such phenomenon by considering an electrowetting
 setup comprised of a thin, high-\(k\) dielectric layer (2 nm
 HfO\(_{\text{2}}\) layer with the relative permittivity
 \(\epsilon_{\mathrm{d}}=24.0\)) underlying a layer of monolayer 2D
-material (Figure \ref{fig:dcos-all-2D}(a)).  As addressed earlier, due
+material (\autoref{fig:wet-dcos-all-2D}(a)).  As addressed earlier, due
 to the fact that \((\Delta \cos \theta)^{\mathrm{Orien}}\) of
 graphene-water system may not be readily applied to other 2D
 materials, we compare the calculated
 \((\Delta \cos \theta)^{\mathrm{EDL}}\) as a function of
 \(V_{\mathrm{G}}\), by using the DFT-calculated
 \(C_{\mathrm{2D}} - \sigma_{\mathrm{2D}}\) relations for a variety of
-2D materials, as shown in \ref{fig:dcos-all-2D}(b). Clearly, as a
+2D materials, as shown in \autoref{fig:wet-dcos-all-2D}(b). Clearly, as a
 consequence of the high quantum capacitance, the wettability of the 2D
 semiconductors considered is more tunable compared to that for the 2D
 semimetals under same the applied gate voltage. In other words, in a 2D
