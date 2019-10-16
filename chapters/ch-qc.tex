@@ -657,7 +657,7 @@ insights at the 2D material-bulk semiconductor interface.
 
 The above analysis based on Poisson-Boltzmann equation is still valid
 at different levels of theory as demonstrated by first principles
-simulations within density functional theory (DFT) (see \worktodo{ref to methods} for details).
+simulations within density functional theory (DFT) (see \worktodo{ref to methods} for details). 
 %
 \begin{figure}[htbp] %
 % \includegraphics[width=0.95\linewidth]{img/FIG2.eps} %
@@ -686,85 +686,109 @@ isosurfaces represent positive and negative charges, respectively.
 \worktodo{split figure?}  \autoref{fig:qc-first-principle} shows the
 calculated electronic response on a graphene\allowbreak{}/Si(111)
 interface considering the effect of
-$\sigma\subs{M}$.
+gating.
 %
-We find that,
-irrespective of the doping levels considered, both $\sigma\subs{G}$
-and $\sigma\subs{S}$ monotonically decrease as $\sigma\subs{M}$
-increases (Fig. \autoref{fig:qc-first principle}a and b).  Similar to
-\autoref{fig:qc-fermi-level-change}b, the amount of induced charges in
-both graphene and Si layers as a result of $\sigma\subs{M}$ can be
-deviated by different doping levels of Si.  These results indicate
-that the graphene 2DEG is also transparent to the electric
-displacement field from the first-principles calculations.  We also
-observe that both $\sigma\subs{G}$ and $\sigma\subs{S}$ show a nearly
-linear relation with $\sigma\subs{M}$ when very high $\sigma\subs{M}$
-(up to $\pm20\times10^{13}$ $e\cdot$cm$^{-2}$) is applied (Supporting
-Information S1), which allows us to extract the $\eta^{\mathrm{FE}}$
-by performing a linear-fitting to the $\sigma\subs{S}-\sigma\subs{M}$
-curves using the formula
+We find that, irrespective of the doping levels considered, both
+$\sigma\subs{G}$ and $\sigma\subs{S}$ monotonically decrease as
+$\sigma\subs{M}$ increases (\worktodo{check figure}
+\autoref{fig:qc-first principle}a and b).
+%
+Similar to \worktodo{check
+  figure}\autoref{fig:qc-fermi-level-change}b, the amount of induced
+charges in both graphene and Si layers as a result of $\sigma\subs{M}$
+depends on the doping density in the Si layer.
+%
+These results indicate that the field-effect transparency of the
+graphene 2DEG is also valid at the quantum mechanical level.
+%
+We also observe that both $\sigma\subs{G}$ and $\sigma\subs{S}$ show a
+nearly linear relation with $\sigma\subs{M}$ when very high
+$\sigma\subs{M}$ (up to $\pm20\times10^{13}$ $e\cdot$cm$^{-2}$) is
+applied (\worktodo{move figure from SI to main}).
+%
+This allows us to extract the
+$\eta^{\mathrm{FE}}$ by performing a linear-regression to the
+$\sigma\subs{S}-\sigma\subs{M}$ data using the formula
 $\sigma\subs{S}=-\eta^{\mathrm{FE}} \sigma\subs{M} + b$, where $b$ is
-a constant.  Interestingly, regardless of the Si doping level, all
-three systems shown a $\eta^{\mathrm{FE}}$ near 0.70.  This
-observations can be explained by the concept of transparency in
-\autoref{eqn:qc-eta_expanded}.  The few-layer Si behaves more like a
-2D than bulk material, of which the quantum capacitance $C\subs{S}$
-remains almost constant when charges are filled into its valence band
-(VB) or conduction band (CB) \cite{Davies1997Physics}.  Conversely,
-when the doping level of graphene is extremely high, its quantum
-capacitance $C_{\mathrm{Q}}$ will be less dependent of the charge
-density after the van Hove singularity is reached
-\cite{Sarma2011Electronic}.  According to
+a constant.
+%
+Interestingly, regardless of the Si doping level, all three systems
+(intrinsic, p-doping and n-doping) show a $\eta^{\mathrm{FE}}$ $\sim{}$0.70.
+%
+This observations can be explained by \autoref{eqn:qc-eta_expanded}:
+the few-layer Si used in the first principles simulations behaves more
+like a 2D than bulk material, of which the quantum capacitance
+$C\subs{S}$ remains almost constant when charges are filled into its
+valence band (VB) or conduction band (CB) \cite{Davies_1997_book}.
+%
+Conversely, when the doping level of graphene is extremely high, its
+quantum capacitance $C_{\mathrm{Q}}$ will be less dependent of the
+charge density after the van Hove singularity is reached
+\cite{Das_Sarma_2011_electron_gr}.
+%
+According to
 \autoref{eqn:qc-eta_expanded},
-$\eta^{\mathrm{FE}}=(1+C_{\mathrm{Q}}/C\subs{S})^{-1}$, due to that
+$\eta^{\mathrm{FE}}=(1+C_{\mathrm{Q}}/C\subs{S})^{-1}$, if both
 $C_{\mathrm{Q}}$ and $C\subs{S}$ are nearly constant, the
 $\eta^{\mathrm{FE}}$ value becomes independent of either
-$\sigma\subs{M}$ or Si doping level.  Moreover since $C\subs{S}$ is
+$\sigma\subs{M}$ or Si doping level.
+%
+Moreover since $C\subs{S}$ is
 essentially larger than $C_{\mathrm{Q}}$ in this case as a result of
 higher DOS of Si in the VB and CB, it is plausible to have a
-$\eta^{\mathrm{FE}}$ larger than 0.5.  We also study the charge
-distribution over the SG interface as a function of $\sigma\subs{M}$,
-which exhibits an intriguing profile as shown in \autoref{fig:qc-first
-  principle}c.  At both positive and negative $\sigma_{\mathrm{M}}$
-regimes, the induced charge density cross section of the system
-$\Delta \rho\subs{tot}$ shows a higher accumulation at the graphene
-surface than in the Si slab, due to different electronic behaviors of
-both materials, namely, semimetallic versus semiconducting.  A
-nonlinear pattern is clearly observed throughout the semiconductor
-slab, as a result the carriers in the Si layer are accumulated in the
-vicinity of the SG interface.  Molecular visualizations of this effect
-are shown in \autoref{fig:qc-first principle}d and
-\autoref{fig:qc-first principle}e for a graphene layer and an
-intrinsic Si slab.  It is found that that most of the orbitals that
-contribute to the polarization of charge are the $2p\subs{z}$ in
-graphene and $3p\subs{z}$ in Si, dependent on the polarity of
-$\sigma\subs{M}$ applied.  According to the results above, we find a
+$\eta^{\mathrm{FE}}$ larger than 0.5.
+%
+
+We also study the charge distribution over the SG interface as a
+function of $\sigma\subs{M}$, which exhibits an intriguing profile as
+shown in \worktodo{change figure} electron density plots in
+\autoref{fig:qc-first principle}d and \autoref{fig:qc-first
+  principle}e for a graphene layer and an intrinsic Si slab.
+%
+The larger contours of the charge density at the SG interface
+corresponds to the charge accumulation seen in \worktodo{figure name?}\autoref{fig:qc-fermi-level-change}.
+%
+It is also found that that most of the orbitals that contribute to the
+polarization of charge are the $2p\subs{z}$ in graphene and
+$3p\subs{z}$ in Si, dependent on the polarity of $\sigma\subs{M}$
+applied.
+%
+According to the results above, we find a
 good consistency between the macroscopic model and first-principles
 calculations, which allows us to perform a multiscale analysis for the
 transparency of graphene 2DEG to an electric displacement field.
         
 
-The interesting behavior at the interface has drawn our attention to
+\subsection{General Behavior of 2DEG in Quantum Capacitor}
+\label{sec:qc-gener-behav-2deg}
+
+The interesting behavior at the SG interface draws our attention to
 the possibility of replacing graphene in a MOGS QC structure with
-other 2D materials.  Indeed, as addressed earlier, the ultra-thinness
-of these materials suggests good potential for 2DEGs.  Under the
+other 2D materials.
+%
+% Indeed, as addressed earlier, the ultra-thinness
+% of these materials suggests good potential for 2DEGs.
+Under the
 assumption that a 2D material-semiconductor interface satisfies the
 Schottky-Mott rule, it is suggested that the relation of
-$\eta^{\mathrm{FE}}=(1+C\subs{Q}/C\subs{S})^{-1}$ still holds (here
-$C\subs{Q}$ substitutes $C_{\mathrm{Q}}$ for quantum capacitance in
-general 2D materials).  Since the quantum capacitance can be expressed
-as $C\subs{Q}=g(E) e^2$ \cite{john2004quantum}, where $g(E)$ is the
-DOS at a certain energy level $E$, we have calculated the DOS as a
-function of $E$ for a variety of 2D materials\cite{Xu2011Measurements,
-Jimenez2012drift, Nawaz2016quantum} using the density functional
-theory (see Supporting Information S2). We also take into account a
-fractional component of the exact exchange from the Hartree-Fock (HF)
-theory hybridized with the DFT exchange-correlation functional at the
-level of the HSE06 hybrid functional\cite{HSE06} (see {\itshape
-Methods}). Therefore any limitation of the exchange and correlation
-functional utilized in the chemical description of the energy levels
-can be improved.
-\begin{figure}[htbp] \centering %
+$\eta^{\mathrm{FE}}=(1+C\subs{Q}/C\subs{S})^{-1}$ still holds.
+%
+Since the quantum capacitance is related with the DOS of 2D material by
+$C\subs{Q}\mathrm{DOS}(E) e^2$ \cite{John_2004_QC},
+%
+we have calculated the DOS as a function of $E$ for a variety of 2D
+materials\cite{Xu2011Measurements, Jimenez2012drift, Nawaz2016quantum}
+using the density functional theory (DFT) at the hybrid functional
+level.
+% We also take into account a
+% fractional component of the exact exchange from the Hartree-Fock (HF)
+% theory hybridized with the DFT exchange-correlation functional at the
+% level of the HSE06 hybrid functional\cite{HSE06} (see {\itshape
+  % Methods}). Therefore any limitation of the exchange and correlation
+% functional utilized in the chemical description of the energy levels
+% can be improved.
+\begin{figure}[htbp]
+  \centering %
 % \includegraphics[width=0.95\textwidth]{img/FIG5.eps}
   \caption{ \change{ Calculated quantum capacitances ($C\subs{Q}$) for
 the 2D materials considered, TMDs (MX$\subs{2}$, M = Mo, W; X = S, Se,
@@ -775,91 +799,105 @@ the QC using HSE06 hybrid functional for graphene, silicene/germanene,
 TMDs and phosphorene.  The unit cell used in the simulations is
 highlighted in the panels.  }  }
   \label{fig:qc-CQ-2D}
-\end{figure} % The relation between DOS and quantum capacitance %
-enables us to compare the transparency of a large variety of 2D
-electronic materials % in metal-oxide-2D material-semiconductor
-heterostructure through their DOS profiles.  The following 2D
-materials are considered: transition metal dichalcogenide (TMD)
-monolayers (MX$\subs{2}$, M = Mo, W; X = S, Se, Te), silicene (2D
-allotrope of Si), germanene (2D allotrope of Ge) \change{ and
-phosphorene (monolayer black phosphorus, 2D allotrope of P) }.  The
-charge density in a 2D material is calculated by integrating the DOS
-from its intrinsic Fermi level, i.e.,
-$\sigma\subs{2D}=\int_{E\subs{F}}^{E} g(E')e dE'$.  The calculated
-quantum capacitances for the 2D materials considered as a function of
-the electron or hole density are shown in \autoref{fig:qc-CQ-2D}a and
-\autoref{fig:qc-CQ-2D}c, respectively.
+\end{figure} %
+The relation between DOS and $C_{\mathrm{Q}}$ %
+allows us to compare $\eta^{\mathrm{FE}}$ of a large variety of 2D
+materials, including TMDC monolayers (MX$\subs{2}$, M = Mo, W; X = S,
+Se, Te), silicene, germanene, and phosphorene.
+%
+The charge density in a 2D material is calculated by integrating the
+DOS from its intrinsic Fermi level, \ie
+$\sigma\subs{2D}=\int_{E\subs{F}}^{E} \mathrm{DOS}(E')e dE'$.
+%
+The calculated values of $C_{\mathrm{Q}}$ for the 2D materials
+considered as a function of the electron or hole density are shown in
+\autoref{fig:qc-CQ-2D}a and \autoref{fig:qc-CQ-2D}c,
+respectively. \worktodo{change figure name}
 
-The quantum capacitance of a monolayer 2D semiconductor (\change{TMDs
-and phosphorene}) behaves like a step function and only increases
-gradually with $\sigma\subs{2D}$, close to that for an ideal 2D
-semiconductor \cite{Davies1997Physics}.  On the other hand, the
-quantum capacitance of a 2D semimetal, including graphene, silicene,
-and germanene, exhibits a quadratic relation with respect to
-$\sigma\subs{2D}$, because they share the same feature of linear $E-k$
-dispersion.  More importantly, the quantum capacitance for the 2D
-semimetals are always less than those for the 2D semiconductors under
-the same charge density. In other words, although there is no states
-in the band gap, the DOS above the band edge in a 2D semiconductor is
-significantly higher compared to that in a semimetal, reflecting the
-fact that the effect mass of carriers in the 2D semiconductors is much
-higher than that in the 2D semimetals \cite{Davies1997Physics}.  This
-concept also explains why the $C\subs{Q}$ for silicene and germanene
-are similar but higher than that in graphene. Indeed, recent reports
-have suggested that the Fermi velocities, $v\subs{F}$, in silicene and
-germanene are only about 60\% of that in graphene
-\cite{yan2013electron,bechstedt2012infrared}.  combining with
-\autoref{eqn:qc-eta_expanded}, the observations have led to the
-conclusion that graphene exhibits the highest transparency to an
-electric displacement field among all the 2D materials considered
-here.  The theoretical framework also allows us to rank the 2D
-materials according their transparency. For example, when the majority
-carrier is electron, the following rank is predicted: \change{graphene
-> silicene > germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$
-> MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$.  }
-\change{ The above analysis for field-effect transparency through
-multilayer graphene can also be applied to other 2D materials.
-Indeed, the total DOS of a multilayer 2D material increases with layer
-number, leading to a higher $C\subs{Q}$ and consequently lower field
-transparency.  }
+As discussed in \autoref{sec:basic-electr-prop}, $C_{\mathrm{Q}}$ of a
+monolayer 2D semiconductor (\change{TMDs and phosphorene}) behaves
+like a step function,
+and only increases slightly with $\sigma\subs{2D}$, close to that for
+an ideal 2D semiconductor with parabolic $E-k$ dispersion \cite{Davies_1997_book}.
+%
+On the other hand, the quantum capacitance of a 2D semimetal,
+including graphene, silicene, and germanene, exhibits a quadratic
+relation with respect to $\sigma\subs{2D}$, because they share the
+same feature of linear $E-k$ dispersion.
+%
+More importantly, the
+quantum capacitance for the 2D semimetals are always less than those
+for the 2D semiconductors under the same charge density. In other
+words, although there is no states in the band gap, the DOS above the
+band edge in a 2D semiconductor is significantly higher compared to
+that in a semimetal, reflecting the fact that the effect mass of
+carriers $m^{*}$ in the 2D semiconductors is much higher than that in the 2D
+semimetals.
+%
+This concept also explains why the $C\subs{Q}$ for silicene and
+germanene are similar but higher than that in graphene, in accordance
+with other theoretical
+investigations~\cite{Yan_2013_e-hv-couple,Bechstedt_2012_silicene}.
+Combining with \autoref{eqn:qc-eta_expanded}, the observations have
+led to the conclusion that graphene exhibits the highest transparency
+to an electric displacement field among all the 2D materials
+considered here.
+%
+The theoretical framework also allows us to rank the 2D materials
+according their transparency. For example, when the majority carrier
+is electron, the following rank is predicted: graphene > silicene >
+germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$ >
+MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$.
+  % \change{ The above analysis for field-effect
+  % transparency through multilayer graphene can also be applied to
+  % other 2D materials.  Indeed, the total DOS of a multilayer 2D
+  % material increases with layer number, leading to a higher
+  % $C\subs{Q}$ and consequently lower field transparency.  }
 
 Finally, we discuss the effect of the bias $V\subs{b}$ between the
-semiconductor and graphene terminals.  Eqs
-\autoref{eqn:qc-sigma_S_exact} and \autoref{eqn:qc-Shottky-Mott} have
+semiconductor and graphene terminals. \autoref{eqn:qc-sigma_S_exact} and \autoref{eqn:qc-Shottky-Mott} have
 suggested that a nonzero $V\subs{b}$ changes $\psi_0$ and
 $\sigma\subs{S}$, and in order to satisfy the electroneutrality of the
 system imposed by \autoref{eqn:qc-charge-balance}, an adjustment of
-the graphene's work function $\phi\subs{G}$ occurs, unlike that in a
-semiconductor-metal (SM) interface.  Specifically,
-\autoref{fig:qc-chara-bias}a illustrates the main differences between
-SM and SG interfaces.  In a semiconductor-metal (SM) junction, the
-Schottky barrier height $\phi\subs{b}$ remains constant
-($\phi\subs{b}^0$) with $V\subs{b}$, because the work function of
-metal is independent of its charge density.  As a result, the surface
-potential in the semiconductor layer increases linearly with
-$V\subs{b}$ \cite{Sze2006Mosfets}.  On the contrary, in an
-semiconductor-graphene (SG) junction, under a reverse bias with
-$V\subs{b}$ > 0, compare to that with zero bias, one can expect a more
-negative $\mathscr{E}_0$, followed by an increase of $\sigma\subs{S}$.
-It is the other way around for $V\subs{b}$ < 0. As a result, one can
-expect that $\sigma\subs{G}$, as well as the resulting $\psi_0$ and
+the $\phi\subs{G}$ occurs.
+%
+This behavior is different from the
+semiconductor-metal (SM) interface.
+%
+Specifically, \worktodo{figure?}\autoref{fig:qc-chara-bias}a
+illustrates the main differences between SM and SG interfaces.
+%
+In a SM junction, the Schottky barrier \worktodo{cite ?} height
+$\phi\subs{b}$ remains constant ($\phi\subs{b}^0$) with respect to
+$V\subs{b}$, because the work function of metal is independent of its
+charge density.
+%
+As a result, the surface potential of the
+semiconductor $\psi_{0}$ increases linearly with $V\subs{b}$.
+%
+On the contrary, in an semiconductor-graphene
+(SG) junction, under a reverse bias with $V\subs{b}$ > 0, compare with the zero-bias case, one expect a more negative $\mathscr{E}_0$ followed by an increase in $\sigma\subs{S}$, and it is the other way
+around for $V\subs{b}$ < 0.
+%
+As a result, 
+$\sigma\subs{G}$ as well as the resulting $\psi_0$ and
 $\phi\subs{b}$, exhibit a nonlinear dependence on $V\subs{b}$.
 \begin{figure}[htbp] \centering %
-\includegraphics[width=0.95\linewidth]{img/FIG6.eps} %for preprint
+% \includegraphics[width=0.95\linewidth]{img/FIG6.eps} %for preprint
   % \caption{Characterizations of a MOGS QC when an bias is
-applied. (a) Illustration of the difference between a
-metal-semiconductor (M-S) and a graphene-semiconductor (G-S)
-junction. (b) $\psi_0$ as a function of $V\subs{b}$, in case of varied
-gate charge densities $\sigma\subs{M}$. The MOGS QC consists of a Si
-layer with $N\subs{D}$=10$^{16}$ cm$^{-3}$. $\sigma\subs{M}$ varies
-from -2$\times$10$^{13}$ $e\cdot$cm$^{-2}$ to 2$\times$10$^{13}$
-$e\cdot$cm$^{-2}$ , with a step of 5$\times$10$^{12}$
-$e\cdot$cm$^{-2}$.  The arrow indicates the direction of increasing
-$\sigma\subs{M}$ .  (c) $\Delta E_{\mathrm {F,G}}$ in the same MOGS QC
-discussed in (b) as a function of $\sigma\subs{M}$ when different
-values of $V\subs{b}$ are applied. $V\subs{b}$ ranges from -0.75 V to
-0.75 V, stepped by 0.25 V. The arrow indicates the direction of
-increasing $V\subs{b}$.}
+% applied. (a) Illustration of the difference between a
+% metal-semiconductor (M-S) and a graphene-semiconductor (G-S)
+% junction. (b) $\psi_0$ as a function of $V\subs{b}$, in case of varied
+% gate charge densities $\sigma\subs{M}$. The MOGS QC consists of a Si
+% layer with $N\subs{D}$=10$^{16}$ cm$^{-3}$. $\sigma\subs{M}$ varies
+% from -2$\times$10$^{13}$ $e\cdot$cm$^{-2}$ to 2$\times$10$^{13}$
+% $e\cdot$cm$^{-2}$ , with a step of 5$\times$10$^{12}$
+% $e\cdot$cm$^{-2}$.  The arrow indicates the direction of increasing
+% $\sigma\subs{M}$ .  (c) $\Delta E_{\mathrm {F,G}}$ in the same MOGS QC
+% discussed in (b) as a function of $\sigma\subs{M}$ when different
+% values of $V\subs{b}$ are applied. $V\subs{b}$ ranges from -0.75 V to
+% 0.75 V, stepped by 0.25 V. The arrow indicates the direction of
+% increasing $V\subs{b}$.}
   \caption{ The effect of $V\subs{b}$ in a MOGS QC. (a) Schematic
 illustration of the difference between a semiconductor-metal (SM) and
 a semiconductor-graphene (SG) junction.  (b) Calculated $\psi_0$ as a
@@ -870,61 +908,83 @@ under different $V\subs{b}$ values. The arrow indicates the direction
 of increasing $V\subs{b}$.  A n-type Si with $N\subs{D}=10^{16}$
 cm$^{-3}$ is considered for (b) and (c).  }
   \label{fig:qc-chara-bias}
-\end{figure}
+\end{figure} \worktodo{check figure?}
 
-Taking a MOGS QC using an n-type Si ($N\subs{D} = 10^{16}$ cm$^{-3}$)
-as an example, the calculated $\psi_0$ as a function of $V\subs{b}$
-under various $\sigma\subs{M}$ values applied is shown in
-\autoref{fig:qc-chara-bias}b.  Compared to the case of $V\subs{b} =
-0$, in which a relatively wide range of $\psi_0$ can be tuned by
-$\sigma\subs{M}$, it is found that, by increasing $|V\subs{b}|$, in
-both forward and reverse bias regimes, $\psi_0$ becomes less tunable
-by $\sigma\subs{M}$, or in other words, $\sigma\subs{M}$ is losing
-control over the graphene's Fermi level $E_{\mathrm {F,G}}$, when a
-higher $|V\subs{b}|$ is applied.  We rationalize this observation by
-evaluating $E_{\mathrm {F,G}}$ with respect to $\sigma\subs{M}$ under
-constant $V\subs{b}$, or namely, $(\partial E_{\mathrm {F,G}}/\partial
-\sigma\subs{M})_{V\subs{b}}$.  Using $(\partial \phi\subs{G}/\partial
-\psi_0)_{V\subs{b}}=-1$ (see \autoref{eqn:qc-Shottky-Mott}) and
-\autoref{eqn:qc-eta_expanded}, it follows:
+Taking a MOGS QC using an n-type Si (with donor concentration
+$N\subs{D} = 10^{16}$ cm$^{-3}$) as an example, the calculated
+$\psi_0$ as a function of $V\subs{b}$ under various $\sigma\subs{M}$
+values applied is shown in \worktodo{figure?}\autoref{fig:qc-chara-bias}b.
+%
+Compared with
+the case of $V\subs{b} = 0$,
+% in which a relatively wide range of
+% $\psi_0$ can be tuned by $\sigma\subs{M}$, it is found that, by
+% increasing $|V\subs{b}|$,
+in both forward and reverse bias regimes 
+$\psi_0$ becomes less tunable by $\sigma\subs{M}$.
+%
+In other words, $\sigma\subs{M}$ is losing control over the graphene's
+Fermi level $E_{\mathrm {F,G}}$, when a higher $|V\subs{b}|$ is
+applied.  We rationalize this observation by evaluating
+$E_{\mathrm {F,G}}$ with respect to $\sigma\subs{M}$ under constant
+$V\subs{b}$, or namely,
+$(\partial E_{\mathrm {F,G}}/\partial \sigma\subs{M})_{V\subs{b}}$.
+Combining the
+relation $(\partial \phi\subs{G}/\partial \psi_0)_{V\subs{b}}=-1$ (see
+\autoref{eqn:qc-Shottky-Mott}) with \autoref{eqn:qc-eta_expanded}, it
+follows:
 \begin{equation}
   \label{eqn:qc- tunability_gate}
-  \begin{aligned} \left(\frac{\partial E_{\mathrm {F,G}}}{\partial
-\sigma\subs{M}}\right)_{V\subs{b}} &= -\left(\frac{\partial
-\phi\subs{G}}{\partial \sigma\subs{M}}\right)_{V\subs{b}} =
-\left(\frac{\partial \psi_0}{\partial
-\sigma\subs{S}}\right)_{V\subs{b}} \left(\frac{\partial
-\sigma\subs{S}}{\partial \sigma\subs{M}}\right)_{V\subs{b}}\\ &=
-\frac{\eta^{\mathrm{FE}}}{C\subs{S}} =
-\frac{1}{C_{\mathrm{Q}}+C\subs{S}}= (\frac{2}{\hbar v\subs{F}}
-\sqrt{\frac{e^3 |\sigma\subs{G}|}{\pi}} +
-\frac{\rho_0}{\mathscr{E}_0})^{-1}
+  \begin{aligned}               %
+    \left(\frac{\partial E_{\mathrm {F,G}}}{\partial
+        \sigma\subs{M}}\right)_{V\subs{b}} &= -\left(\frac{\partial
+        \phi\subs{G}}{\partial \sigma\subs{M}}\right)_{V\subs{b}} =
+    \left(\frac{\partial \psi_0}{\partial
+        \sigma\subs{S}}\right)_{V\subs{b}} \left(\frac{\partial
+        \sigma\subs{S}}{\partial \sigma\subs{M}}\right)_{V\subs{b}}\\
+    &= \frac{\eta^{\mathrm{FE}}}{C\subs{S}} =
+    \frac{1}{C_{\mathrm{Q}}+C\subs{S}}= (\frac{2}{\hbar v\subs{F}}
+    \sqrt{\frac{e^3 |\sigma\subs{G}|}{\pi}} +
+    \frac{\rho_0}{\mathscr{E}_0})^{-1}
   \end{aligned}
-\end{equation} Considering only a slight degree of band bending at
-$|V\subs{b}|$=0, as shown in \autoref{fig:qc-chara-bias}a, when a high
+\end{equation}                  %
+Considering only a slight degree of band bending at
+$|V\subs{b}|=0$, as shown in \worktodo{figure?}\autoref{fig:qc-chara-bias}a, when a high
 forward or reverse $|V\subs{b}|$ is applied, an inversion or
-accumulation layer is formed at the SG interface due to a high degree
-of band bending, which essentially increases the capacitance of
-semiconductor $C\subs{S}$.  In order to balance the induced
-$\sigma\subs{S}$, $\sigma\subs{G}$ also increases, thereby yielding a
-higher $C_{\mathrm{Q}}$.  As suggested by \autoref{eqn:qc-
-tunability_gate}, a simultaneous rise of $C\subs{S}$ and
-$C_{\mathrm{Q}}$ under a high $|V\subs{b}|$ results in a significant
-decrease of $(\partial E_{\mathrm {F,G}}/\partial
-\sigma\subs{M})_{V\subs{b}}$, or the tunability of $E_{\mathrm {F,G}}$
-with respect to $\sigma\subs{M}$, as shown in
-\autoref{fig:qc-chara-bias}c.  Representative band diagrams of a MOGS
-QC are shown in Supporting Information S3.  This finding is consistent
-with the experimental observations that the on/off current ratio is
-lowered by applying a higher drain bias in a graphene-based vertical
-transistors \cite{Yang2012Graphene, yu2013vertically,
-georgiou2013vertical, Shih2015PartiallyScreened,
-Schwierz2010Graphene}.  That is to say, we suggest that the
-gate-tunable characteristics in a MOGS QC are only observable in a
-certain $|V\subs{b}|$ range.  To our knowledge, this effect has not
-been well discussed in literature.
- 
-In conclusion, we have presented the first multiscale approach to
+accumulation layer is formed at the SG interface.
+%
+The high degree of band bending in such conditions essentially
+increases the capacitance of semiconductor $C\subs{S}$.
+%
+In order to
+balance the induced $\sigma\subs{S}$, $\sigma\subs{G}$ also increases,
+thereby yielding a higher $C_{\mathrm{Q}}$.
+%
+As suggested by
+\autoref{eqn:qc-tunability_gate}, a simultaneous rise of $C\subs{S}$
+and $C_{\mathrm{Q}}$ under a high $|V\subs{b}|$ results in a
+significant decrease of
+$(\partial E_{\mathrm {F,G}}/\partial \sigma\subs{M})_{V\subs{b}}$, or
+the tunability of $E_{\mathrm {F,G}}$ with respect to
+$\sigma\subs{M}$, as shown in \worktodo{figure name?}\autoref{fig:qc-chara-bias}c.
+%
+% Representative band diagrams of a MOGS QC are shown in Supporting
+% Information S3.
+This finding is consistent with the experimental
+observations that the on/off current ratio is lowered by applying a
+higher drain bias in a graphene-based vertical transistors
+\cite{Yang_2013_gr_hBN, ,Yu_2013_vertical, ,georgiou2013vertical,
+  ,Shih_2015_PartiallyScreened, ,Schwierz_2010_Graphene_transistor}.
+%
+That is to say,
+we suggest that the gate-tunable characteristics in a MOGS QC are only
+observable in a certain $|V\subs{b}|$ range.  To our knowledge, this
+effect has not been well discussed in literature.
+
+\section{Conclusions}
+\label{sec:qc-conclusions}
+
+In this chapter, we have presented the multiscale approach to
 understand the penetration of the field effect through a monolayer 2D
 material in a metal-oxide-2D material-semiconductor quantum capacitor.
 By using graphene as the model system, first we develop a macroscopic
@@ -942,94 +1002,81 @@ interactions.
 We therefore define and formulate the degree of transparency of a
 monolayer 2D material to an electric displacement field,
 $\eta^{\mathrm{FE}}$, and show that $\eta^{\mathrm{FE}}$ is determined
-by the combined effect of graphene quantum capacitance and the
-semiconductor capacitance.  By calculating the quantum capacitance for
-a variety of 2D materials using hybrid functionals, we predict the
+by the combined effect of graphene quantum capacitance
+$C_{\mathrm{Q}}$ and the differential capacitance of semiconductor
+$C_{\mathrm{S}}$.
+%
+By calculating the quantum capacitance for a
+variety of 2D materials using hybrid functionals, we predict the
 ranking for a variety of 2D compounds according to their transparency
 to an electric displacement field as follows: \change{ graphene >
-silicene > germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$ >
-MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$, } when
-the majority carrier is electron.  Finally, the effect of the voltage
-applied between the semiconductor and graphene terminals $V\subs{b}$
-is discussed.  Because a significant increase of the semiconductor
-capacitance with $|V\subs{b}|$ in either reverse or forward bias
-regime, we find that the gate-tunable characteristics in a MOGS QC are
-only effective in a certain $|V\subs{b}|$ range, which is often
-ignored in previous reports.  We believe that the development of 2D
-materials-based quantum capacitors and vdW heterostructures will be
-greatly facilitated by the fundamental principles and theoretical
+  silicene > germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$
+  > MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$, }
+when the majority carrier is electron.  Finally, the effect of the
+voltage applied between the semiconductor and graphene terminals
+$V\subs{b}$ is discussed.  Because a significant increase of the
+semiconductor capacitance with $|V\subs{b}|$ in either reverse or
+forward bias regime, we find that the gate-tunable characteristics in
+a MOGS QC are only effective in a certain $|V\subs{b}|$ range, which
+is often ignored in previous reports.  We believe that the development
+of 2D materials-based quantum capacitors and vdW heterostructures will
+be greatly facilitated by the fundamental principles and theoretical
 analysis presented here.
 
 
-\section{Methods} The first-principles simulations reported here are
+\section{Methods}
+\label{sec:qc-methods}
+
+The first-principles simulations reported here are
 based on density functional theory calculations using the {\ttfamily
-SIESTA} method\cite{soler02} and the {\ttfamily VASP}
-code\cite{kresse93,kresse96}.  The generalized gradient
-approximation\cite{pbe-functional} along with non-local van der Waals
-density functional for the exchange-correlation term\cite{Dion-vdW}
-have been used. A double-$\zeta$ polarized basis set in {\ttfamily
-SIESTA}, and a well-converged plane-wave cutoff of 400 eV in
-{\ttfamily VASP} were utilized in the calculations. Projected
-augmented wave method (PAW)\cite{Blochl94,kresse99} for the latter,
-and norm-conserving Troullier-Martins
-pseudopotentials\cite{troullier91} for the former, have been used in
-the description of the bonding environment at the different systems.
-Atomic coordinates were allowed to relax until the forces on the ions
-were less than 0.04 eV/\AA~under the conjugate gradient algorithm.
-Further relaxations (0.01 eV/\AA) do not change appreciably the
-energetics and geometries.  To avoid any interactions between
-supercells in the non-periodic direction, a 15 \AA~vacuum space was
-used in all calculations. In addition to this, a cutoff energy of 150
-Ry was used to resolve the real-space grid used to calculate the
-Hartree and exchange-correlation contribution to the total energy.  A
-basis set of numerical atomic orbitals obtained from the solution of
-the atomic pseudopotential at slightly excited states as implemented
-in the {\ttfamily SIESTA}\cite{soler02} code was used. We have
-utilized an energy shift of 50 meV to define the radii of different
-orbitals.  To model the Si surface, we used a periodic array of
-4-layer Si(111) slabs, separated by 15 \AA~ thick vacuum space, and
-terminated by hydrogen atoms at the bottom.  Only the two top layers
-were allowed to relax in contact with graphene, while the rest were
-kept frozen at Si bulk lattice constant.  We have also carried out
-calculations using screened hybrid functionals at the level of
-Heyd-Scuseria-Ernzerhof (HSE06) approach\cite{HSE06}. In this
+SIESTA} method\cite{Soler_02_siesta} and the {\ttfamily VASP}
+code\cite{Kresse_93_open_shell,Kresse_1996_1}.
+%
+The generalized gradient approximation(GGA)\cite{Perdew_1996_GGA}
+along with non-local van der Waals density functional for the
+exchange-correlation term\cite{Dion_2004_vdw} have been used.
+%
+A double-$\zeta$ polarized basis set in {\ttfamily SIESTA}, and a
+well-converged plane-wave cutoff of 400 eV in {\ttfamily VASP} were
+utilized in the calculations. Projected augmented wave method
+(PAW)\cite{Blochl_1994_PW,Kresse_1999_pseudopotentials} for the latter, and norm-conserving
+Troullier-Martins pseudopotentials\cite{troullier91} for the former,
+have been used in the description of the bonding environment at the
+different systems.  Atomic coordinates were allowed to relax until the
+forces on the ions were less than 0.04 eV/\AA~under the conjugate
+gradient algorithm.  Further relaxations (0.01 eV/\AA) do not change
+appreciably the energetics and geometries.  To avoid any interactions
+between supercells in the non-periodic direction, a 15 \AA~vacuum
+space was used in all calculations. In addition to this, a cutoff
+energy of 150 Ry was used to resolve the real-space grid used to
+calculate the Hartree and exchange-correlation contribution to the
+total energy.  A basis set of numerical atomic orbitals obtained from
+the solution of the atomic pseudopotential at slightly excited states
+as implemented in the {\ttfamily SIESTA}\cite{Soler_02_siesta} code was
+used. We have utilized an energy shift of 50 meV to define the radii
+of different orbitals.  To model the Si surface, we used a periodic
+array of 4-layer Si(111) slabs, separated by 15 \AA~ thick vacuum
+space, and terminated by hydrogen atoms at the bottom.  Only the two
+top layers were allowed to relax in contact with graphene, while the
+rest were kept frozen at Si bulk lattice constant.  We have also
+carried out calculations using screened hybrid functionals at the
+level of Heyd-Scuseria-Ernzerhof (HSE06) approach\cite{Heyd_2003_HSe,HSE_2006_erratum}. In this
 approximation part of the short range exchange energy is replaced by a
 portion of exact Hartree-Fock exchange energy.  Here we used HSE06 as
 an example of a hybrid functional because of its successful
 applications in solids and
-molecules\cite{Kresse06,Kresse07,Franchini07}, and because of its less
+molecules\cite{Kresse_1996_1,Kresse_1996_2,Franchini07}, and because of its less
 expensive computational cost to treat the slow-decaying long-range
 part of the exchange interaction in comparison to the PBE0
-functional\cite{HSE-paper03}.  Relevant lattice constants were
+functional\cite{Heyd_2003_HSe}.  Relevant lattice constants were
 optimized for each system structure in consideration using PBE and
 HSE06 methods.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% The "Acknowledgement" section can be given in all manuscript %%
-classes.  This should be given within the "acknowledgement" %%
-environment, which will make the correct section or running title.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Author Contributions}
+\label{sec:qc-author-contributions}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% The same is true for Supporting Information, which should use the
-%% suppinfo environment.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% The appropriate \bibliography command should be placed here.  %%
-Notice that the class file automatically sets \bibliographystyle %%
-and also names the section correctly.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \bibliographystyle{achemso.bst} %
-\bibliography{paper,first_principle_lit}
-
-
-
-
-
-
-
-
-
-%%% Local Variables: %%% mode: latex %%% TeX-master: "../thesis" %%%
-End:
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../thesis"
+%%% End:
