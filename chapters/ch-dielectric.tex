@@ -23,7 +23,7 @@
 The dielectric constant $\varepsilon$ (also known as the relative permittivity) 
 plays a crucial role in bridging various fundamental material
 properties, such as bandgaps\cite{Moss_1950_relation,Moss_1985_n_Eg}, 
-optical absorption\cite{kittel_2005_introduction} and 
+optical absorption\cite{Kittel_2005_introduction_book} and 
 conductivities\cite{Dressel_2001_electrodynamics}   
 with elemental interactions. 
 The central place of $\varepsilon$ in solid-state physics drives the analysis of several phenomena 
@@ -31,37 +31,37 @@ where is common to classify a material accordingly to its ability to screen an
 electric field $\boldsymbol{E}$ in terms of insulators, metals and semiconductors. Such definitions determine a broad range of 
 condensed matter physics, as well as in related fields in chemistry and materials science. 
 The ability to compute and measure $\varepsilon$ in bulk materials is well established via different 
-theoretical \cite{Adler_1962,Hybertsen_1987} and experimental techniques \cite{palik_1998handbook} of distinct flavors
+theoretical \cite{Adler_1962_eps,Hybertsen_1987} and experimental techniques \cite{Palik_1998_handbook} of distinct flavors
 % where the probe of the dielectric properties 
 % is made through an external electric field. 
 %
 Despite its obvious appeal, however, it is still unknown whether such quantity can determine the 
 % electronic and
-dielectric properties of two-dimensional (2D) materials \cite{Novoselov_2016}.  
+dielectric properties of two-dimensional (2D) materials \cite{Novoselov_2016_vdW}.  
 %
 The confined nature of such atomically-thin 2D crystals associated
 with the attenuated and anisotropic character of the dielectric
 screening
-\cite{Keldysh_1979_eps_multi,Sharma_1985,Low_2014_screening_BP,Cudazzo_2011_screening_2D,Bechstedt_2012,Cudazzo_2010_screen2D,Nazarov_2015_2D_3D}
+\cite{Keldysh_1979_eps_multi,Sharma_1985_semiconductor_slab_eps,Low_2014_screening_BP,Cudazzo_2011_screening_2D,Bechstedt_2012_silicene,Cudazzo_2010_screen2D,Nazarov_2015_2D_3D}
 have generated long-standing debates whether the dielectric constant
 truly represents dielectric features of such low-dimensional systems,
 % or it can be used only as an
 % additional parameter from the bulk-counterparts.
-The controversy of
-$\varepsilon$ values reported by both theoretical and experimental
-approaches can be widely seen throughput literature\cite{Li_2016},
-where the variation of $\varepsilon$ can be more than one order of
-magnitude. As a consequence, several key physical parameters that
-scales with $\varepsilon$, such as the exciton binding energy and
-Debye screening length, cannot be reliably estimated due to the
-discrepancy of reported $\varepsilon$ values. In this letter, we give
-a thorough study of the underlying issue. Using \textit{ab initio}
-simulations of a model system, we demonstrate that the macroscopic
-dielectric constant strongly depends on the size of the superlattice,
-making it unsuitable to describe the screening of a 2D material. On
-the contrary, by analyzing the formalism of dielectric tensors, we
-propose that the electronic polarizability is the true descriptor
-which uniquely captures the dielectric nature of 2D materials. The 2D
+The controversy of $\varepsilon$ values reported by both theoretical
+and experimental approaches can be widely seen throughput
+literature\cite{Li_2016_screening_rev}, where the variation of
+$\varepsilon$ can be more than one order of magnitude. As a
+consequence, several key physical parameters that scales with
+$\varepsilon$, such as the exciton binding energy and Debye screening
+length, cannot be reliably estimated due to the discrepancy of
+reported $\varepsilon$ values. In this letter, we give a thorough
+study of the underlying issue. Using \textit{ab initio} simulations of
+a model system, we demonstrate that the macroscopic dielectric
+constant strongly depends on the size of the superlattice, making it
+unsuitable to describe the screening of a 2D material. On the
+contrary, by analyzing the formalism of dielectric tensors, we propose
+that the electronic polarizability is the true descriptor which
+uniquely captures the dielectric nature of 2D materials. The 2D
 electronic polarizability has unique definition, which overcomes the
 disadvantage of ambiguity compared with the conventionally used
 effective dielectric medium model for 2D materials. Moreover, we show
@@ -86,7 +86,7 @@ We first approach the discrepancy of macroscopic dielectric constant
 of 2D materials, by showing that the current definition of
 $\varepsilon$ used in layered materials is ill defined.  This can be
 viewed in a model system as illustrated
-in Figure \ref{fig-1}, where an isolated 2D material is placed in
+in  \autoref{fig-1}, where an isolated 2D material is placed in
 the \textit{xy}-plane of a periodically repeating superlattice (SL)
 with a length $L$ along the \textit{z}-direction separating the cell
 images. The static macroscopic dielectric tensor from the superlattice
@@ -98,11 +98,11 @@ polarization and electric field,
 respectively~\cite{Dressel_2001_electrodynamics}:
 \begin{subequations}
   \begin{eqnarray}
-      \label{eq:def-eps-1}
+      \label{eq:diele-def-eps-1}
     &\varepsilon_{\mathrm{SL}}^{pq} &= \kappa^{pq} +
                                  {\displaystyle \frac{\partial \boldsymbol{P}^{p}}
                                  {\varepsilon_{0} \partial \boldsymbol{E}^{q}}} \\
-          \label{eq:def-eps-2}
+          \label{eq:diele-def-eps-2}
     &\boldsymbol{P}^{p} &=  {\displaystyle \frac{\boldsymbol{u}^{p}}{\Omega}}
                           = {\displaystyle \frac{{\displaystyle
           \int_{\mathrm{SL}} \rho(\boldsymbol{r}) \boldsymbol{r}^{p} d^{3}\boldsymbol{r}}}
@@ -120,8 +120,8 @@ electrons under external field.  On the other hand, the ionic
 contribution to $\varepsilon_{\mathrm{SL}}$ that comes from
 displacement of atomic nuclei is not covered in this due to its
 complex dependency on several factors including phonon
-dispersion~\cite{Sohier_2017} as well as lattice
-symmetry~\cite{Laturia_2018}, which requires separated discussions.
+dispersion~\cite{Sohier_2017_phonon} as well as lattice
+symmetry~\cite{Laturia_2018_2D_eps}, which requires separated discussions.
 The symmetry of 2D materials lead to the negligible off-diagonal
 elements of the dielectric tensor ($p \neq q$), while and diagonal
 elements $\varepsilon_{\mathrm{SL}}^{xx}$,
@@ -137,16 +137,16 @@ and
 $\varepsilon_{\mathrm{SL}}^{\perp} = \varepsilon_{\mathrm{SL}}^{zz}$.
 The absence of bonding perpendicular to the plane confines the induced
 dipoles along the \textit{z}-direction within a range of $\sim{}$5--6
-\AA{} into the vacuum (Figure \ref{fig-1}{\textbf a} and Supplementary
-Figure \ref{SI-fig:rho-profile}).
+\AA{} into the vacuum ( \autoref{fig-1}{\textbf a} and Supplementary
+ \autoref{SI-fig:rho-profile}).
 %
 %
 Under a certain external field, when $L$ increases, the confinement of
 the induced dipole moment $\boldsymbol{u}$ causes the integral in the
-numerator of Eq.~\ref{eq:def-eps-2} to be saturated, when the
+numerator of ~\autoref{eq:diele-def-eps-2} to be saturated, when the
 separation is large enough such that dipole moment from periodic
 images do not mutually interfere. On the other hand, the increase of
-$L$ in the denominator of Eq.~\ref{eq:def-eps-2} dilutes the polarization density, and in turn makes both
+$L$ in the denominator of ~\autoref{eq:diele-def-eps-2} dilutes the polarization density, and in turn makes both
 $\varepsilon^{\parallel}_{\mathrm{SL}}$ and
 $\varepsilon^{\perp}_{\mathrm{SL}}$ dropping to
 unity when $L$ is infinitely large.
@@ -168,17 +168,17 @@ $\varepsilon^{\parallel}_{\mathrm{SL}}$ and
 $\varepsilon^{\perp}_{\mathrm{SL}}$ calculated from density functional
 theory (DFT) (see {\itshape Theoretical Methods} for details) as a function
 of $L$ for P\={6}m2 transition metal dichalcogenides (TMDCs),
-2H-MX$_{2}$, where M=Mo, W and X=S, Se, Te (top panels of Figure
-\ref{fig-1}{\textbf b} and \ref{fig-1}{\textbf c}, respectively). To
+2H-MX$_{2}$, where M=Mo, W and X=S, Se, Te (top panels of 
+\autoref{fig-1}{\textbf b} and \autoref{fig-1}{\textbf c}, respectively). To
 get a better description of the electronic band structure, the
 calculations of dielectric properties were performed at the level of
 Heyd-Scuseria-Ernzerhof (HSE06) hybrid functional
-\cite{Heyd_2003,Heyd_2006}.  Both components of the dielectric
+\cite{Heyd_2003_HSe,HSE_2006_erratum}.  Both components of the dielectric
 constant decreases with $L$ as excepted. To rule out the possibility
 that the result is affected by the choice of \textit{ab initio}
 methods, we also performed simulations at higher levels of theory
 using many-body techniques (G$_{0}$W$_{0}$), which invariably give
-alike results (see Supplementary Figure \ref{SI-fig:GW-PBE-alpha}).
+alike results (see Supplementary  \autoref{SI-fig:GW-PBE-alpha}).
 The lattice-size dependency also exists for dielectric function in the
 frequency ($\omega$) domain. We carried out similar analysis for
 frequency-dependent $\varepsilon^{\parallel}_{\mathrm{SL}}(\omega)$
@@ -186,12 +186,12 @@ and $\varepsilon^{\perp}_{\mathrm{SL}}(\omega)$ using different levels
 of techniques, including Perdew-Burke-Ernzerhof (PBE)
 exchange-correlation functional
 \cite{Perdew_1996,Ernzerhof_1999,Paier_2005}, many-body Green function
-method (G\textsubscript{0}W\textsubscript{0})~\cite{Hedin_1965} and
-Bethe-Salpethe equation (BSE)~\cite{Onida_2002}, with increasing
+method (G\textsubscript{0}W\textsubscript{0})~\cite{Hedin_1965_GW} and
+Bethe-Salpethe equation (BSE)~\cite{Onida_2002_exciton_rev}, with increasing
 accuracy of calculated optical properties (PBE $<$
 G\textsubscript{0}W\textsubscript{0} $<$ BSE) due to including of
 many-body screening and excitonic effects (details see Supplementary
-Section \ref{SI-ssec:gw}). Despite various levels of theory involved,
+Section \autoref{SI-ssec:gw}). Despite various levels of theory involved,
 the magnitude of dielectric functions calculated universally decreases
 with $L$ over the frequency domain.  These results indicate that
 quantities that depend on
@@ -225,7 +225,7 @@ literature~\cite{Li_2016}.
 To solve the problem described above, we need to find the
 $L$-independent alternative of $\varepsilon_{\mathrm{SL}}$, which is
 related to both electrostatic and optical properties of a 2D
-material~\cite{Matthes_2016}. By multiplying Eq.~\ref{eq:def-eps-2}
+material~\cite{Matthes_2016_effective_PRB}. By multiplying ~\autoref{eq:diele-def-eps-2}
 with $L$, we obtain the sheet polarization density that is,
 $\boldsymbol{\mu}_{\mathrm{2D}}^{p} =\boldsymbol{u}^{p}/A$, in
 direction $p$. Following the discussion in the previous section,
@@ -233,25 +233,25 @@ $\boldsymbol{\mu}_{\mathrm{2D}}^{p}$ becomes independent of lattice
 size when $L$ is large enough, due to the saturation of
 $\boldsymbol{u}^{p}$.
 %
-Similar to the molecular polarizability \cite{Israelachvili_2011}, we
+Similar to the molecular polarizability \cite{Israelachvili_2011_book}, we
 can define a 2D electronic polarizability $\alpha_{\mathrm{2D}}$ which
 characterizes the ability to induce dipole moment of a 2D material. It
 is associated with $\boldsymbol{\mu}_{\mathrm{2D}}$ through:
 $\boldsymbol{\mu}_{\mathrm{2D}}^{p} = \sum_{q}
 \alpha_{\mathrm{2D}}^{pq} \boldsymbol{E}_{\mathrm{loc}}^{q}$
-\cite{T_bik_2004}, where $\boldsymbol{E}_{\mathrm{loc}}$ is the local
+\cite{Tobik_2004_perp_polariz}, where $\boldsymbol{E}_{\mathrm{loc}}$ is the local
 electric field causing the polarization. At $L \rightarrow \infty$
 limit, $E_{\mathrm{loc}}$ can be solved using electrostatic boundary
-conditions of slab geometry \cite{Markel_2016}. The continuity of the
+conditions of slab geometry \cite{Markel_2016_EMT}. The continuity of the
 electric field along the in-plane direction gives
 $\boldsymbol{E}^{\parallel}_{\mathrm{loc}}=\boldsymbol{E}^{\parallel}$,
 while for the out-of-plane component, the dipole screening yields
 $\boldsymbol{E}_{\mathrm{loc}}^{\perp}=\boldsymbol{E}^{\perp}+\boldsymbol{\mu}_{\mathrm{2D}}^{\perp}/L$
-\cite{Meyer_2001_dipole_slab,T_bik_2004}, where
+\cite{Meyer_2001_dipole_slab,Tobik_2004_perp_polariz}, where
 $\boldsymbol{E}^{\parallel}$ and $\boldsymbol{E}^{\perp}$ are the
 external field in the in-plane and out-of-plane directions,
-respectively. Combining with Eqs. \ref{eq:def-eps-1} and
-\ref{eq:def-eps-2},
+respectively. Combining with  \autoref{eq:diele-def-eps-1} and
+\autoref{eq:diele-def-eps-2},
 $\alpha_{\mathrm{2D}}^{\parallel}$ and $\alpha_{\mathrm{2D}}^{\perp}$
 can be related with $\varepsilon_{\mathrm{SL}}^{\parallel}$ and
 $\varepsilon_{\mathrm{SL}}^{\perp}$, respectively:
@@ -259,9 +259,9 @@ $\varepsilon_{\mathrm{SL}}^{\perp}$, respectively:
 %
 \begin{subequations}
 \begin{eqnarray}
-  \label{eq:alpha-para-def}
+  \label{eq:diele-alpha-para-def}
   &\varepsilon_{\mathrm{SL}}^{\parallel} &= 1 + \frac{\alpha_{\mathrm{2D}}^{\parallel}}{\varepsilon_{0}L}\\
-  \label{eq:alpha-perp-def}
+  \label{eq:diele-alpha-perp-def}
   &\varepsilon_{\mathrm{SL}}^{\perp} &= \left(1 - {\displaystyle \frac{\alpha_{\mathrm{2D}}^{\perp}}{\varepsilon_{\mathrm{0}} L}} \right)^{-1}
 \end{eqnarray}
 \end{subequations}
@@ -275,24 +275,24 @@ $\varepsilon_{\mathrm{SL}}^{\perp}$, respectively:
 Using these relations, we show the calculated
 $\alpha_{\mathrm{2D}}^{\parallel}$ and $\alpha_{\mathrm{2D}}^{\perp}$
 of the selected TMDCs as a function of $L$ in the bottom panels of
-Figure \ref{fig-1}b and \ref{fig-1}c, respectively.  In contrast to
+ \autoref{fig-1}b and \autoref{fig-1}c, respectively.  In contrast to
 $\varepsilon_{\mathrm{SL}}^{\parallel}$ and
 $\varepsilon_{\mathrm{SL}}^{\perp}$, We observe that both
 $\alpha_{\mathrm{2D}}^{\parallel}$ and $\alpha_{\mathrm{2D}}^{\perp}$
 reach convergence when $L$ exceeds 10 \AA and 15 \AA,
 respectively. Such result is in good agreement with the spatially
 localized induced dipole moment of a 2D materials as shown in
-Supplementary Figure~\ref{SI-fig:rho-profile}.
+Supplementary ~\autoref{SI-fig:rho-profile}.
 %
 %
-% Interestingly, we can use Eqs.\ref{eq:alpha-para-def} and
-% \ref{eq:alpha-perp-def} to reproduce the trends noticed in the top
-% panels in Figure\ref{fig-1}{\textbf b} and \ref{fig-1}{\textbf c} for
+% Interestingly, we can use \autoref{eq:diele-alpha-para-def} and
+% \autoref{eq:diele-alpha-perp-def} to reproduce the trends noticed in the top
+% panels in \autoref{fig-1}{\textbf b} and \autoref{fig-1}{\textbf c} for
 % $\varepsilon_{\mathrm{SL}}^{\parallel}$ and
 % $\varepsilon_{\mathrm{SL}}^{\perp}$ as a function of $L$ around a
 % centered magnitude of $\alpha_{\mathrm{2D}}^{\parallel}$ and
 % $\alpha_{\mathrm{2D}}^{\perp}$
-% (Figure \ref{fig-1}\textbf{d}-\textbf{e}).
+% ( \autoref{fig-1}\textbf{d}-\textbf{e}).
 % A similar curve profile is obtained in both components of the dielectric constant including the much 
 % abrupt variation of $\varepsilon_{\mathrm{SL}}^{\perp}$ with $L$ which is due to 
 % interlayer interactions.
@@ -303,7 +303,7 @@ and $\varepsilon^{\perp}_{\mathrm{SL}}(\omega)$, generating
 lattice-independent electronic polarizability
 $\alpha^{\parallel}_{\mathrm{SL}}(\omega)$ and
 $\alpha^{\perp}_{\mathrm{SL}}(\omega)$ in the frequency domain,
-respectively (details see Supplementary Section \ref{SI-ssec:gw}).
+respectively (details see Supplementary Section \autoref{SI-ssec:gw}).
 %
 % 
 % 
@@ -314,7 +314,7 @@ of the dielectric properties of 2D materials. In contrast to the ill-defined mac
 More discussions about the choice of the
 2D polarizability, comparison with other methods, simulations at the
 frequency-dependent domain can be found in Supplementary Section
-\ref{SI-ssec:gw}.
+\autoref{SI-ssec:gw}.
 
 \subsection{Comparison with effective dielectric model (EDM)}
 \label{sec:comp-with-effect}
@@ -326,14 +326,14 @@ dielectric tensor $\varepsilon_{\mathrm{2D}}$ and thickness
 $\delta^{*}_{\mathrm{2D}}$. Such method can be found in both
 experimental and theoretical studies, such as to interpret
 ellipsometry data
-\cite{graphene-epsilon10,Duesberg14,Chiang13,Kong14}, reflectance /
-transmission spectra \cite{Li_2014, Yoffe-Wilson69}, optical
-conductance \cite{Matthes_2016} and many-body interactions
-\cite{Sohier_2016,Meckbach_2018} of 2D materials. The EDM allows
-applying physical laws of bulk systems directly to 2D materials using
-$\varepsilon_{\mathrm{2D}}$. However, there are several drawbacks of
-such approach, first of all, the wavevector($q$)-dependency of
-dielectric screening in 2D
+\cite{graphene-epsilon10,Duesberg_2014_opt_MoS2,Chiang13,}\worktodo{cite
+  these 2}, reflectance / transmission spectra \cite{Li_2014_opt_ml_mos2,
+  Yoffe-Wilson69}, optical conductance \cite{Matthes_2016_effective_PRB} and
+many-body interactions \cite{Sohier_2016_2D_eps,Markel_2016_EMT} of 2D
+materials. The EDM allows applying physical laws of bulk systems
+directly to 2D materials using $\varepsilon_{\mathrm{2D}}$. However,
+there are several drawbacks of such approach, first of all, the
+wavevector($q$)-dependency of dielectric screening in 2D
 sheets~\cite{Cudazzo_2011_screening_2D,Olsen_2016_hydrogen,Trolle_2017_eps_subst}
 is not captured. More severely, here we show that, due to the
 uncertainty of $\delta^{*}_{\mathrm{2D}}$, the calculated
@@ -342,20 +342,20 @@ is extremely sensitive to the choice of $\delta^{*}_{\mathrm{2D}}$,
 making such model questionable.
 
 The basic assumption of EDM can be
-seen in the inset of Figure~\ref{fig-1}\textbf{e}, where the macroscopic
+seen in the inset of ~\autoref{fig-1}\textbf{e}, where the macroscopic
 $\varepsilon_{\mathrm{SL}}$ is considered to be contributed by (i) a
 2D slab with effective dielectric constant $\varepsilon_{\mathrm{2D}}$
 and thickness $\delta^{*}_{\mathrm{2D}}$ and (ii) vacuum spacing with
 distance $L-\delta^{*}_{\mathrm{2D}}$. Using the effective medium theory
-(EMT)~\cite{Aspnes_1982,Markel_2016}, the relation between
+(EMT)~\cite{Aspnes_1982_EMT,Markel_2016_EMT}, the relation between
 $\varepsilon_{\mathrm{SL}}$ and $\varepsilon_{\mathrm{2D}}$ can be
 expressed using capacitance-like
-equations~\cite{Matthes_2016,Laturia_2018} :
+equations~\cite{Matthes_2016_effective_PRB,Laturia_2018_2D_eps} :
 \begin{subequations}
   \begin{eqnarray}
-    \label{eq:emt-1}
+    \label{eq:diele-emt-1}
     {\displaystyle \varepsilon_{\mathrm{SL}}^{\parallel}} &= {\displaystyle \frac{\delta^{*}_{\mathrm{2D}}}{L} \varepsilon_{\mathrm{2D}}^{\parallel} + \left(1 - \frac{\delta^{*}_{\mathrm{2D}}}{L} \right)}\\
-     \label{eq:emt-2}
+     \label{eq:diele-emt-2}
     {\displaystyle \frac{1}{\varepsilon_{\mathrm{SL}}^{\perp}}} &= {\displaystyle \frac{\delta^{*}_{\mathrm{2D}}}{L} \frac{1}{\varepsilon_{\mathrm{2D}}^{\perp}} + \left(1 - \frac{\delta^{*}_{\mathrm{2D}}}{L} \right)}
   \end{eqnarray}
 \end{subequations}
@@ -365,15 +365,15 @@ minimize the modeling error, we used non-linear least-square fitting
 to extract $\varepsilon_{\mathrm{2D}}$ and $\delta^{*}_{\mathrm{2D}}$ of
 selected 2H TMDCs simultaneously from \textit{ab initio}
 $\varepsilon_{\mathrm{SL}}$ -- $L$ data in
-Figure~\ref{fig-1}\textbf{b} and \ref{fig-1}\textbf{c} (details see
-Supplementary Figure~\ref{SI-fig:rescale-prb}). The fitted values of
+~\autoref{fig-1}\textbf{b} and \autoref{fig-1}\textbf{c} (details see
+Supplementary ~\autoref{SI-fig:rescale-prb}). The fitted values of
 the slab thickness, $\delta_{\mathrm{2D}}^{\parallel, \mathrm{fit}}$
 and $\delta_{\mathrm{2D}}^{\perp, \mathrm{fit}}$ from in-plane and
 out-of-plane data, respectively, are shown in Supplementary
-Table~\ref{SI-tab:delta-L-DFt}.
+Table~\autoref{SI-tab:delta-L-DFt}.
 %
-% As seen in Figure
-% \ref{fig-emt}\textbf{b}, the estimation error of the thickness
+% As seen in 
+% \autoref{fig-emt}\textbf{b}, the estimation error of the thickness
 % estimated from different directions is around 0.06$\sim{}$0.27
 % \AA{}.
 %
@@ -385,15 +385,15 @@ $\varepsilon_{\mathrm{2D}}^{\perp}$ is significant. We estimated the
 dispersion of $\varepsilon_{\mathrm{2D}}^{\parallel}$ and
 $\varepsilon_{\mathrm{2D}}^{\perp}$ if $\delta^{*}_{\mathrm{2D}}$
 deviates from the best fitted value by $\pm{}$2.5 \AA{}, as shown in
-Figures \ref{fig-1}\textbf{d} and \ref{fig-1}\textbf{e},
+s \autoref{fig-1}\textbf{d} and \autoref{fig-1}\textbf{e},
 respectively. $\varepsilon_{\mathrm{2D}}^{\parallel}$ decays linearly
 with $\delta^{*}_{\mathrm{2D}}$,
 while strikingly, the value $\varepsilon_{\mathrm{2D}}^{\perp}$ spans
 over more than one order of magnitude. The sensitivity of
 $\varepsilon_{\mathrm{2D}}^{\perp}$ to $\delta^{*}_{\mathrm{2D}}$
 explains the discrepancy in literature that both
-isotropic~\cite{Sohier_2016} and highly
-anisotropic~\cite{Matthes_2016,Laturia_2018}
+isotropic~\cite{Sohier_2016_2D_eps} and highly
+anisotropic~\cite{Matthes_2016_effective_PRB,Laturia_2018_2D_eps}
 $\varepsilon_{\mathrm{2D}}$ tensors for 2D materials under the EDM are
 reported. As a consequence, the estimated values of
 $\varepsilon_{\mathrm{2D}}$, in particular its out-of-plane component,
@@ -403,7 +403,7 @@ On the contrary, the proposed $\alpha_{\mathrm{2D}}$ approach does not
 suffer from such deficiencies, despite its relatively simple
 formalism. The relative uncertainty of $\alpha_{\mathrm{2D}}$ is
 generally at the order of 10\textsuperscript{-4} (Supplementary
-Figure~\ref{SI-fig:alpha-converg}). In addition, the calculation of
+~\autoref{SI-fig:alpha-converg}). In addition, the calculation of
 $\alpha_{\mathrm{2D}}$ technically simpler than
 $\varepsilon_{\mathrm{2D}}$: (i) $\alpha_{\mathrm{2D}}$ can be
 achieved using single-point calculation of macroscopic dielectric
@@ -429,24 +429,24 @@ Ravindra~\cite{Ravindra_1980_model,Ravindra_1979_eps_Eg} relations.
 Such universal relations, if exist in the context of
 $\alpha_{\mathrm{2D}}$, would be of high importance for studying and
 predicting the screening of 2D materials.  Inspired by the random
-phase approximation (RPA) theory \cite{Adler_1962} within the
+phase approximation (RPA) theory \cite{Adler_1962_eps} within the
 $\mathbf{k} \cdot \mathbf{p}$
 formalism\cite{kittel_2005_introduction,Jiang_2017_Eg_Eb}, we propose the universal relations for $\alpha_{\mathrm{2D}}^{\parallel}$ and $\alpha_{\mathrm{2D}}^{\perp}$,
 depending on the electronic and geometric information of a 2D material (see
-Supplementary Section \ref{SI-sec:theory-1} for details):
+Supplementary Section \autoref{SI-sec:theory-1} for details):
 % \begin{subequations}
 % \begin{eqnarray}
-% \label{eq:2D-Moss-para}
+% \label{eq:diele-2D-Moss-para}
   % &\alpha_{\mathrm{2D}}^{\parallel} &=C^{\parallel} E_{g}^{-1} \\
-  % \label{eq:2D-Moss-perp}
+  % \label{eq:diele-2D-Moss-perp}
   % &\alpha_{\mathrm{2D}}^{\perp} & =C^{\perp} \hat{\delta}_{\mathrm{2D}}
 % \end{eqnarray}
 % \end{subequations}
 \begin{subequations}
 \begin{eqnarray}
-\label{eq:2D-Moss-para}
+\label{eq:diele-2D-Moss-para}
   &E_{\mathrm{g}} &= C^{\parallel} \alpha_{\mathrm{2D}}^{\parallel} \\
-  \label{eq:2D-Moss-perp}
+  \label{eq:diele-2D-Moss-perp}
   &\hat{\delta}_{\mathrm{2D}} & = C^{\perp} \alpha_{\mathrm{2D}}^{\perp} 
 \end{eqnarray}
 \end{subequations}
@@ -461,7 +461,7 @@ artificially assigned within the EDM picture (see previous section),
 $\hat{\delta^{*}_{\mathrm{2D}}}$ can be uniquely defined by
 $\alpha_{\mathrm{2D}}^{\parallel}$, a quantity that can be
 computationally and experimentally determined. Despite of the
-simplicity of Eqs. \ref{eq:2D-Moss-para} and \ref{eq:2D-Moss-perp},
+simplicity of  \autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp},
 they generalize direct relationships between the electronic polarizability and
 the electronic / structural properties for any 2D material in a new
 framework.
@@ -479,9 +479,9 @@ X=Cl, I), hexagonal boron nitride (BN), graphene derivatives
 (fluorographene (C\textsubscript{2}F\textsubscript{2}), graphane
 (C\textsubscript{2}H\textsubscript{2})), phosphorene
 (P\textsubscript{4}) and thin layer organic-inorganic perovskites
-(ABX\textsubscript{3}) (Figure \ref{fig-3}{\textbf a}) shows that our
+(ABX\textsubscript{3}) ( \autoref{fig-3}{\textbf a}) shows that our
 method enables full correlation between these disparate variables.
-Figure \ref{fig-3}{\textbf b} compares the calculated fundamental
+ \autoref{fig-3}{\textbf b} compares the calculated fundamental
 bandgap $E_{\mathrm{g}}$ (blue dots) and 2D electronic
 polarizabilities (bar plots) of all the 2D materials investigated,
 covering a wide spectrum range from far-infrared to ultraviolet.  Note
@@ -491,29 +491,29 @@ which has unit of \AA{}. We find that
 $\alpha_{\mathrm{2D}}^{\parallel}$ has a general descending trend when
 $E_{\mathrm{g}}$ increases, while no apparent correlation between
 $\alpha_{\mathrm{2D}}^{\perp}$ and $E_{\mathrm{g}}$ is observed (see
-Supplementary Section \ref{SI-sec:pol-2D-Eg}).  We then examine
-Eqs. \ref{eq:2D-Moss-para} and \ref{eq:2D-Moss-perp} using the
-polarizabilities by first-principle calculations.  Figure
-\ref{fig-3}\textbf{c} shows
+Supplementary Section \autoref{SI-sec:pol-2D-Eg}).  We then examine
+ \autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp} using the
+polarizabilities by first-principle calculations.  
+\autoref{fig-3}\textbf{c} shows
 $(4 \pi \varepsilon_{0})/\alpha_{\mathrm{2D}}^{\parallel}$ (in
 \AA{}$^{-1}$) as a function of $E_{\mathrm{g}}$ (in eV) for the 2D
 materials investigated (circle dots) at HSE06 level.  A linear
 regression coefficient of $R^{2}=0.84$ indicates a strong correlation
 between bandgaps and polarizabilities as predicted in
-Eq. \ref{eq:2D-Moss-para}.  We also discover that the linearity
+ \autoref{eq:diele-2D-Moss-para}.  We also discover that the linearity
 between $(4 \pi \varepsilon_{0})/\alpha_{\mathrm{2D}}^{\parallel}$ and
 $E_{\mathrm{g}}$ (measured by the $R^{2}$ value) is higher when the
 bandgap is calculated using the HSE06 hybrid functional compared with
 that from PBE exchange-correlation functional (see Supplementary
-Section \ref{SI-sec:pol-2D-Eg} and Supplementary Figure
-\ref{SI-fig:alpha-Eg-diff}) which suggests that higher levels of
+Section \autoref{SI-sec:pol-2D-Eg} and Supplementary 
+\autoref{SI-fig:alpha-Eg-diff}) which suggests that higher levels of
 theory are needed to precisely predict bandgaps.  A detailed benchmark
-of Eqs.~\ref{eq:2D-Moss-para} and \ref{eq:2D-Moss-perp} using
+of ~\autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp} using
 different bandgaps, databases, and levels of calculation can be seen
-in Supplementary Section~\ref{SI-sec:gpaw}.
+in Supplementary Section~\autoref{SI-sec:gpaw}.
 
 
-We further examine the validity of Eq.~\ref{eq:2D-Moss-perp}, i.e.,
+We further examine the validity of ~\autoref{eq:diele-2D-Moss-perp}, i.e.,
 the relation between $\alpha_{\mathrm{2D}}^{\perp}$ and the thickness
 of a 2D material. To test if the quantity $\hat{\delta_{\mathrm{2D}}}$
 is physical, we choose the ``covalent'' thickness
@@ -524,13 +524,13 @@ radii:
 %
 %
 \begin{equation}
-  \label{eq:cov-thick}
+  \label{eq:diele-cov-thick}
   \delta_{\mathrm{cov}} = \mathrm{max}(|z^{i} - z^{j}|
   + r^{i}_{\mathrm{cov}} + r^{j}_{\mathrm{cov}})
 \end{equation}
 where $i$, $j$ are atomic indices in the 2D material and
-$r_{\mathrm{cov}}^{i}$ is the covalent radius of atom $i$ (Figure
-\ref{fig-3}{\textbf d} inset). As shown in Figure~\ref{fig-3}{\textbf
+$r_{\mathrm{cov}}^{i}$ is the covalent radius of atom $i$ (
+\autoref{fig-3}{\textbf d} inset). As shown in ~\autoref{fig-3}{\textbf
   d}, $\alpha_{\mathrm{2D}}^{\perp}/\varepsilon_{0}$ (or equivalently,
 $\hat{\delta}_{\mathrm{2D}}$) is very close to $\delta_{\mathrm{cov}}$
 with a good linear correlation of $R^{2}=0.98$. This result indicates
@@ -542,26 +542,26 @@ characterizes the volume of the electron cloud of an isolated molecule
 $\alpha_{\mathrm{2D}}^{\perp}/\varepsilon_{0}$ is also naturally
 related to the characteristic thickness of the electron cloud of 2D
 material. Supplementary Section
-\ref{SI-ssec:theory-1-perp-fundamental} shows an explanation of this
+\autoref{SI-ssec:theory-1-perp-fundamental} shows an explanation of this
 behavior from fundamental electrostatics and why
 $\alpha_{\mathrm{2D}}^{\perp} / \varepsilon_{0}$ is close to
 $\delta_{\mathrm{cov}}$. Our proposed definition of
 $\hat{\delta_{\mathrm{2D}}}$ of a 2D material based on
-Eq. \ref{eq:2D-Moss-perp} may have impact
+ \autoref{eq:diele-2D-Moss-perp} may have impact
 on some long-existing controversies about the experimental thickness
 of 2D materials~\cite{Shearer_2016}, through the
 measurable quantity $\alpha_{\mathrm{2D}}^{\perp}$
-\cite{Antoine_1999,Cherniavskaya_2003,Krauss_1999_EFM}.
+\cite{Antoine_1999_polariz_C60,Cherniavskaya_2003_nanocryst_polariz,Krauss_1999_EFM}.
 % 
 %
 
 To rule out the possibility that our conclusion are limited by the
 number of materials used at HSE06 level, we further validate
-Eqs. \ref{eq:2D-Moss-para} and \ref{eq:2D-Moss-perp} using two
-different 2D material databases \cite{Haastrup_2018,Mounet_2018}, from
+ \autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp} using two
+different 2D material databases \cite{Haastrup_2018_database,Mounet_2018_database}, from
 which we extracted the dielectric properties of over 300 compounds
 calculated at the PBE level, and superimpose with our results in
-Figure \ref{fig-3}{\textbf c} and \ref{fig-3}{\textbf d}. Although the
+ \autoref{fig-3}{\textbf c} and \autoref{fig-3}{\textbf d}. Although the
 calculated dielectric properties may be different due to different
 choice of functionals as well as underestimation of the bandgap
 compared with the more accurate HSE06 functionals
@@ -573,7 +573,7 @@ searched for additional relations between the 2D polarizabilities with
 other physical quantities, including the effective carrier mass,
 quantum capacitance (density of states) and total atomic
 polarizabilities with no apparent correlations being found
-(Supplementary Section \ref{SI-sec:gpaw-3}).
+(Supplementary Section \autoref{SI-sec:gpaw-3}).
 
 \subsection{Application in multilayer and bulk systems}
 \label{sec:apply-electr-polar}
@@ -581,9 +581,9 @@ The concept of electronic polarizability is not limited to monolayer
 materials, and can be applied to multilayer and bulk systems as
 well. For a 2D material stack composed of $N$ layers, we can define
 the electronic polarizability $\alpha_{\mathrm{NL}}$ similar to
-Eqs. \eqref{eq:alpha-para-def} and \eqref{eq:alpha-para-def}. Note
+ \eqref{eq:diele-alpha-para-def} and \eqref{eq:diele-alpha-para-def}. Note
 $\alpha_{\mathrm{NL}}(N=1)$ is equivalent to $\alpha_{\mathrm{2D}}$.
-Figure \ref{fig-4}\textbf{a} and \ref{fig-4}\textbf{b} show
+ \autoref{fig-4}\textbf{a} and \autoref{fig-4}\textbf{b} show
 $\alpha_{\mathrm{NL}}^{\parallel}$ and $\alpha_{\mathrm{NL}}^{\perp}$
 as functions of $N$ for the selected 2H TMDCs,
 respectively. Interestingly, we find that in all cases,
@@ -595,7 +595,7 @@ and $\alpha_{\mathrm{NL}}^{\perp}= N
 electric applied (0.01 eV/\AA{}), the interlayer interactions within
 the stack are negligible. Under such circumstances, $\alpha_{\mathrm{2D}}$ of individual layers is additive, which leads to the following general relation:
 \begin{equation}
-  \label{eq:alpha-nl}
+  \label{eq:diele-alpha-nl}
   \alpha_{\mathrm{NL}}^{p} = \sum_{i=1}^{N} \alpha_{\mathrm{2D, i}}^{p},\quad p=\parallel\ \mathrm{or}\ \perp
 \end{equation}
 where $\alpha_{\mathrm{2D, i}}$ is the electronic polarizability of
@@ -609,21 +609,21 @@ be further used to calculate screening inside 2D heterostructures
 We further look into the bulk systems. In a bulk layered material stacked by layers with equilibrium
 inter-layer distance $L_{\mathrm{Bulk}}$, we define the polarizability
 of individual layer $\alpha_{\mathrm{2D}}(L=L_{\mathrm{Bulk}})$ as
-$\alpha_{\mathrm{Bulk}}$. Inspired by Eqs. \ref{eq:alpha-para-def} and
-\ref{eq:alpha-perp-def}, the dielectric constants
+$\alpha_{\mathrm{Bulk}}$. Inspired by  \autoref{eq:diele-alpha-para-def} and
+\autoref{eq:diele-alpha-perp-def}, the dielectric constants
 $\varepsilon^{\parallel}_{\mathrm{Bulk}}$ and
 $\varepsilon^{\perp}_{\mathrm{Bulk}}$ of the bulk layered material can
 be reconstructed by $\alpha_{\mathrm{Bulk}}^{\parallel}$ and
-$\alpha_{\mathrm{Bulk}}^{\perp}$ (Figure \ref{fig-4}{\textbf a}) as:
+$\alpha_{\mathrm{Bulk}}^{\perp}$ ( \autoref{fig-4}{\textbf a}) as:
 %
 %
 \begin{subequations}
 \begin{align}
-  \label{eq:3D-para}
+  \label{eq:diele-3D-para}
   \varepsilon^{\parallel}_{\mathrm{Bulk}}
   &= 1 + \frac{\alpha_{\mathrm{Bulk}}^{\parallel}}{\varepsilon_{0} L_{\mathrm{Bulk}}}
   \approx 1 + \frac{\alpha_{\mathrm{2D}}^{\parallel}}{\varepsilon_{0} L_{\mathrm{Bulk}}} \\
-  \label{eq:3D-perp}
+  \label{eq:diele-3D-perp}
   \varepsilon^{\perp}_{\mathrm{Bulk}}
   &= \left(1 - \frac{\alpha_{\mathrm{Bulk}}^{\perp}}{\varepsilon_{0} L_{\mathrm{Bulk}}}\right)^{-1}
   \approx \left(1 - \frac{\alpha_{\mathrm{2D}}^{\perp}}{\varepsilon_{0} L_{\mathrm{Bulk}}}\right)^{-1}
@@ -639,22 +639,22 @@ together.
 We compare the values of
 $\varepsilon_{\mathrm{bulk}}^{\parallel}$ and
 $\varepsilon_{\mathrm{bulk}}^{\perp}$ from DFT calculations (\textit{y}-axis)
-with those predicted using Eqs \ref{eq:3D-para} and \ref{eq:3D-perp}
-(\textit{x}-axis) as shown in Figure \ref{fig-4}{\textbf b} and \ref{fig-4}{\textbf c}. 
+with those predicted using Eqs \autoref{eq:diele-3D-para} and \autoref{eq:diele-3D-perp}
+(\textit{x}-axis) as shown in  \autoref{fig-4}{\textbf b} and \autoref{fig-4}{\textbf c}. 
 Both HSE06 and PBE datasets give almost identical results.  
 %
 We observe that
 $\varepsilon_{\mathrm{bulk}}^{\parallel}$ values calculated by DFT and
-predicted by Eq. \ref{eq:3D-para} are in good agreement with a linear
+predicted by  \autoref{eq:diele-3D-para} are in good agreement with a linear
 regression slope of 1.01 and $R^2$ of 0.97. Conversely,
 $\varepsilon_{\mathrm{bulk}}^{\perp}$ values predicted from
-Eq. \ref{eq:3D-perp} agree well with the DFT-calculated values when
+ \autoref{eq:diele-3D-perp} agree well with the DFT-calculated values when
 $E_{\mathrm{g}}>4$ eV, while the deviation becomes larger when
 $E_{\mathrm{g}}$ reduces. The above results indicate that
 $\alpha^{\parallel}_{\mathrm{Bulk}}$ can generally be estimated from
 its 2D counterpart, while $\alpha^{\perp}_{\mathrm{Bulk}}$ differs due
 to the interlayer coupling and overlap between induced
-dipoles\cite{Andersen_2015_dielec_vdWH,Laturia_2018}. 
+dipoles\cite{Andersen_2015_dielec_vdWH,Laturia_2018_2D_eps}. 
 %With a better model describing
 %$\alpha_{\mathrm{bulk}}^{\perp}$ as function of $\alpha_{\mathrm{2D}}^{\perp}$ and
 %the degree of interlayer coupling, the dielectric transition from 2D
@@ -678,7 +678,7 @@ $V(r) = {\displaystyle \frac{e}{4 \alpha_{\mathrm{2D}}^{\parallel}}}
       r}{\alpha_{\mathrm{2D}}^{\parallel}}}) - Y_{0}( {\displaystyle
     \frac{2
       \varepsilon_{0}r}{\alpha_{\mathrm{2D}}^{\parallel}}})\right]$
-\cite{Keldysh_1979_eps_multi,Pulci_2014}, where $H_{0}$ is the Struve
+\cite{Keldysh_1979_eps_multi,Pulci_2014_exciton}, where $H_{0}$ is the Struve
 function and $Y_{0}$ is the Bessel function of second kind, is
 associated with the in-plane screening radius
 $r_{0}^{\parallel}=\alpha_{\mathrm{2D}}^{\parallel}/(2
@@ -691,22 +691,22 @@ with the radii of principle axes to be
 $r_{0}^{\parallel} = \alpha_{\mathrm{2D}}^{\parallel}/(2
 \varepsilon_{0})$ and
 $r_{0}^{\perp} = \alpha^{\perp}_{\mathrm{2D}}/(2 \varepsilon_{0})$,
-respectively, as illustrated in Figure~\ref{fig-ellip}\textbf{a}.
+respectively, as illustrated in ~\autoref{fig-ellip}\textbf{a}.
 This is analog to the polarizability ellipsoid picture of molecules
-used in spectroscopy \cite{Banwell_1994}. The polarizability ellipsoid
+used in spectroscopy \cite{Banwell_1994_spectro_book}. The polarizability ellipsoid
 for a 2D material is in general ultra flat, with
 $r_{0}^{\parallel} \gg r_{0}^{\perp}$, as demonstrated by the examples
-of group 6 2H TMDCs (Figure~\ref{fig-ellip}\textbf{a} and
-~\ref{fig-ellip}\textbf{b}). The polarizability ellipsoid picture
+of group 6 2H TMDCs (~\autoref{fig-ellip}\textbf{a} and
+~\autoref{fig-ellip}\textbf{b}). The polarizability ellipsoid picture
 provides further insights into the physical nature of
 $\alpha_{\mathrm{2D}}$: $r_{0}^{\parallel}$ is close to the exciton
-radius that confined within the 2D plane~\cite{Pulci_2014}, which is
+radius that confined within the 2D plane~\cite{Pulci_2014_exciton}, which is
 generally larger for a smaller bandgap semiconductor, and can be
 converted through the exciton binding energy as proposed in
 Refs. \cite{Olsen_2016_hydrogen,Jiang_2017_Eg_Eb}
-Eq. \ref{eq:2D-Moss-para}. On the other hand, $r_{0}^{\perp}$ may be
+ \autoref{eq:diele-2D-Moss-para}. On the other hand, $r_{0}^{\perp}$ may be
 indirectly deduced from Stark effect
-\cite{Pedersen_2016,Klein_2016,Roch_2018}.
+\cite{Pedersen_2016_shark_effect_TMDC,Klein_2016_stark_eff,Roch_2018_stark_eff}.\worktodo{cite Eda group}
 % and the low-frequency Raman
 % scattering modes of 2D materials \cite{Tan_2012,Zhang_2013}.
 
@@ -717,7 +717,7 @@ Inspired by the polarizability ellipsoid model, we show that a general picture o
 any dimension can be drawn by studying the dielectric
 anisotropy. We define the dielectric anisotropy index $\eta$ as:
 \begin{equation}
-  \label{eq:anisotropy}
+  \label{eq:diele-anisotropy}
   \begin{aligned}[t]
     \eta =
     \begin{cases}
@@ -734,7 +734,7 @@ anisotropy. We define the dielectric anisotropy index $\eta$ as:
 \end{equation}
 $\eta=1$ indicates the material has isotropic dielectric properties
 while $\eta \to 0$ means the dielectric property is highly
-anisotropic. Figure \ref{fig:aniso} shows the phase diagram of $\eta$
+anisotropic.  \autoref{fig:aniso} shows the phase diagram of $\eta$
 as function of $E_{\mathrm{g}}$ for 2D materials and their bulk
 counterparts. Interestingly, the 2D materials (blue triangles) can be
 clearly distinguished from the bulk layered materials (orange squares)
@@ -743,28 +743,28 @@ $\eta =0.048 (E_{\mathrm{g}}/ \mathrm{eV})+0.087$. The much lower
 $\eta$ values for 2D materials compared with their bulk counterparts
 indicates a high dielectric anisotropy, which is responsible for the
 unique 2D optoelectronic properties, such as the electrostatic
-transparency phenomena\cite{Liluhua_2014,Tian_2016,Li_2018} and the large exciton
+transparency phenomena \worktodo{cite previous sections }\cite{Li_2014_screen} and the large exciton
 binding energies
-\cite{Pulci_2014,Tran_2014,Chernikov_2014_EB_MoS2_2D3D,Berkelbach_2013}. From
-Eqs. \ref{eq:2D-Moss-para}, \ref{eq:2D-Moss-perp} and
-\ref{eq:anisotropy} we can see $\eta$ is roughly proportional to
+\cite{Pulci_2014_exciton,Tran_2014_gap_ML_BP,Chernikov_2014_EB_MoS2_2D3D,Berkelbach_2013_exciton}. From
+ \autoref{eq:diele-2D-Moss-para}, \autoref{eq:diele-2D-Moss-perp} and
+\autoref{eq:diele-anisotropy} we can see $\eta$ is roughly proportional to
 $\delta \cdot E_{\mathrm{g}}$, which explains the observation that
 $\eta$ for 2D materials increase almost linearly with
 $E_{\mathrm{g}}$, since the layer thickness $\delta$ (mostly 3--10
 \AA{}) of the 2D materials investigated varies much less than
-$E_{\mathrm{g}}$ (0.1--7 eV) (Figure \ref{fig-3}b and
-\ref{fig-3}c). Further analysis shows that the dielectric anisotropy
+$E_{\mathrm{g}}$ (0.1--7 eV) ( \autoref{fig-3}b and
+\autoref{fig-3}c). Further analysis shows that the dielectric anisotropy
 index of any bulk layered material $\eta_{\mathrm{Bulk}}$ obeys
 $\eta_{\mathrm{Bulk}} \geq {\displaystyle \frac{4
     \eta_{\mathrm{2D}}}{(\eta_{\mathrm{2D}}+1)^{2}}} \geq
 \eta_{\mathrm{2D}}$, where $\eta_{\mathrm{2D}}$ is the anisotropy
 index of corresponding 2D layer (see additional details in
-Supplementary Section \ref{SI-sec:aniso}), which is the basis for the
+Supplementary Section \autoref{SI-sec:aniso}), which is the basis for the
 separation of bulk and 2D regimes in the $\eta-E_{\mathrm{g}}$ phase
 diagram.  For comparison, we also superimpose the dielectric
 anisotropy indices of common semiconducting materials in other
-dimensions (details see Supplementary Section \ref{SI-sec:aniso}) on
-the phase diagram in Figure \ref{fig:aniso}. Bulk covalent (3D,
+dimensions (details see Supplementary Section \autoref{SI-sec:aniso}) on
+the phase diagram in  \autoref{fig:diele-aniso}. Bulk covalent (3D,
 e.g. Si, GaN) and 0D (fullerenes) semiconductors show isotropic
 dielectric properties, scattered on the line $\eta=1$. On the other
 hand, reduced dimensionality increases the dielectric anisotropy of
@@ -777,7 +777,7 @@ anisotropic) and bulk layered materials (more isotropic) from the
 $\eta-E_{\mathrm{g}}$ diagram, can also be applied to other
 dimensions. From the phase diagram, we can see that 2D and bulk
 layered materials (also including 2D van der Waals heterostructure
-(vdWH) \cite{Novoselov_2016}), provides more flexibility in
+(vdWH) \cite{Novoselov_2016_vdW}), provides more flexibility in
 controlling the dielectric and electronic properties, compared with
 semiconductors in other dimensions.
 
@@ -786,7 +786,7 @@ semiconductors in other dimensions.
 %\todo[inline]{Wait for comments from JC and MC.}
 
 
-\section{Conclusion}
+\section{Conclusions}
 %\label{sec:org5fd1f1a}
 %\todo[inline]{To be changed later when everything fixed}
 
@@ -811,18 +811,19 @@ of 2D materials as well as rational device design and optimization.
 \label{sec:org8457dbb}
 
 Simulations were carried out using plane-wave density functional
-theory package VASP \cite{Kresse_1993,Kresse_1996_1,Kresse_1996_2}
-using the projector augmented wave (PAW) approach with GW
-pseudopotentials \cite{Kresse_1999_pseudopotentials}. Band gaps were
-calculated using the Heyd-Scuseria-Ernzerhof hybrid functional (HSE06)
-\cite{Heyd_2003,HSE_2006}, with spin orbit coupling (SOC) explicitly
+theory package VASP
+\cite{Kresse_1993_MD_liquid_metal,Kresse_1996_1,Kresse_1996_2} using
+the projector augmented wave (PAW) approach with GW pseudopotentials
+\cite{Kresse_1999_pseudopotentials}. Band gaps were calculated using
+the Heyd-Scuseria-Ernzerhof hybrid functional (HSE06)
+\cite{Heyd_2003_HSe,HSE_2006_erratum}, with spin orbit coupling (SOC) explicitly
 included. The geometries were converged both in cell parameters and
 ionic positions, with forces below 0.04 eV/\AA. To ensure the accuracy
 of dielectric property of monolayer, a vacuum spacing of $>$ 15 \AA~is
 used. A k-point grid of \(7\times7\times1\) was used to relax the
 superlattice, with an initial relaxation carried out at the
 Perdew-Burke-Ernzerhof
-(PBE)\cite{Perdew_1996,Ernzerhof_1999,Paier_2005_PBE}
+(PBE)\cite{Perdew_1996_GGA,Ernzerhof_1999,Paier_2005_PBE}
 exchange-correlation functional level and a subsequent relaxation
 carried out at HSE06 level, allowing both cell parameters and ionic
 positions to relax each time. In VASP, the tag PREC=High was used,
@@ -834,7 +835,7 @@ ion-clamped dielectric tensor were carried out with an
 18$\times$18$\times$1 k-grid and electric field strength of 0.001
 eV/\AA.  Local field effect corrections are included at the
 exchange-correlation potential $V_{\mathrm{xc}}$ at both PBE and HSE06
-levels. The materials from Ref.\cite{Haastrup_2018} for comparison
+levels. The materials from Ref.\cite{Haastrup_2018_database} for comparison
 were choses with the GW bandgap larger than 0.05 eV. Bulk layered
 materials were constructed by relaxing the c-axis length of
 corresponding monolayer material with the interlayer van der Waals
@@ -843,9 +844,9 @@ functional\cite{Lee_2010_vdFD2}.  The dielectric properties of bulk
 layered materials using VASP were calculated at HSE06 level with
 18$\times$18$\times$6 k-grid with same parameter as for monolayer,
 while the dielectric properties of bulk counterparts of
-Ref.~\cite{Haastrup_2018} are calculated at PBE level with a
-k-point density of 10~\AA$^{-1}$. Local field effect corrections are
-also used for the dielectric properties of bulk systems.
+Ref.~\cite{Haastrup_2018_database} are calculated at PBE level with a k-point
+density of 10~\AA$^{-1}$. Local field effect corrections are also used
+for the dielectric properties of bulk systems.
 
 
 \section{Data Availability}
@@ -856,7 +857,7 @@ the corresponding author upon reasonable request.
 
 % \bibliography{ref}
 
-% \section{Figures}
+% \section{s}
 \label{sec:org34cbe74}
 \begin{figure}[H]
 \centering
@@ -1040,7 +1041,7 @@ the corresponding author upon reasonable request.
     right. Compared with other materials, 2D materials and their bulk
     counterparts provide more flexibility of controlling the
     dielectric anisotropy.}
-  \label{fig:aniso}
+  \label{fig:diele-aniso}
 \end{figure}
 
 
