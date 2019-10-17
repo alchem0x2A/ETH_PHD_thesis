@@ -18,116 +18,95 @@
   Nanoporous Graphene. Nano Lett. 19, 6400–6409 (2019).
  }
 
-
-% \clearpage{}
-% \begin{abstract}
-%   {\normalsize Atomically thin porous graphene is emerging as one of
-%     the most promising candidates for next-generation membrane
-%     material owing to the ultrahigh permeation. However, the transport
-%     selectivity relies on the precise control over pore size and shape
-%     which considerably compromises the scalability. Here, we study
-%     electrolyte permeation through a sheet of large-area, porous
-%     graphene, with relatively large pore sizes of 20$\pm$10
-%     nanometers. Counterintuitively, a high degree of salt rejection is
-%     observed by electrostatic gating, reducing the diffusive flux by
-%     up to one order of magnitude. We systematically investigate the
-%     effects of salt concentration and species, including developing a
-%     theory to model the electrolyte diffusion through a nanopore
-%     drilled in a sheet of gated graphene. The interplay between
-%     graphene quantum capacitance and the electrical double layer is
-%     found to selectively modulate the anionic and cationic transport
-%     paths, creating voltage-dependent electrochemical barriers when
-%     the pore size is comparable to the Debye length. Our findings
-%     reveal a new degree of freedom regulating electrolyte permeation
-%     through porous two-dimensional materials, complementary to the
-%     pore size design and engineering.}
-% \end{abstract}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Main text
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \linenumbers
 \section{Introduction}
 \label{sec:intro}
-A central objective in the emerging field of nanofluidics is to
-control transport phenomena at nanometer scale to explore new
-technological opportunities. The reduction of characteristic
-dimensions in nanofluidics gives rise to substantially different
-transport properties in comparison to their bulk counterparts
-\cite{Schoch_2008_nanofluid}. In nanopores, for example, the effect of
+
+%
+A central objective in nano\-science is to control
+transport phenomena at nanometer scale to explore new technological
+opportunities.  The reduction of characteristic dimensions gives rise to substantially different transport
+properties in comparison to their bulk counterparts
+\cite{Schoch_2008_nanofluid}.
+%
+One well-known example is the nanopores, in which the effect of
 surface-mediated transport becomes dominant when the pore size is
 comparable to the characteristic length of diffusion, enabling new
 applications such as ionic diodes
 \cite{Karnik_2007_nanofluidic,Siwy_2002_fabrication_NPore,Vlassiouk_2007_nanofluidic},
 field-effect transistors \cite{Nam_2009_IFET_sub10nm}, desalination
 \cite{Heiranian_2015_desali}, and nanopore-based DNA sequencing
-\cite{Heerema_2016_gr_np_DNA,Garaj_2013_hugging_gr_pore}. Porous, atomically thin
-two-dimensional (2D) materials, such as graphene, are emerging as
-ideal membrane materials due to the ultimate permeation
-\cite{Suk_2010_water_PG,Jiang_2009_PG_gas,Celebi_2014_science,Koenig_2012,Drahushuk_2012_gas_permeation_gr}.
+\cite{Heerema_2016_gr_np_DNA,Garaj_2013_hugging_gr_pore}.
 %
-Early research has suggested that using a sheet of nanoporous graphene
-can act as a desalination membrane by having the pore sizes smaller
-than the hydrated radii ($\sim$1 nm), thereby hindering ion passage
-without losing water permeability
+In this sense, atomically thin 2D material are not only attractive due
+to their unique electronic properties, but also as the thinnest
+membrane materials allowing ultimate permeation when combining with
+nanopores
+~\cite{Suk_2010_water_PG,Jiang_2009_PG_gas,Celebi_2014_science,Koenig_2012,Drahushuk_2012_gas_permeation_gr}.
+%
+Early research has shown the potential of desalination using graphene
+with sub-nanometer pores, which hinders ion passage without losing
+water permeability
 \cite{Cohen_Tanugi_2012,Suk_2014_ion_sub_5nm,Cohen_Tanugi_2014_permeab,Cohen_Tanugi_2015_PG,O_Hern_2014_ion,O_Hern_2015_ion_gr,Surwade_2015_desali_npg,Walker_2017_cation_select_2D,Ghosh_2018_PG_ion}.
-Nevertheless, in practice, the fabrication of sub\-nanometer porous 2D
-membranes over a large area with atomic precision remains technically
-challenging, limiting the effective separation or demanding
-leak-sealing mechanism such as interfacial polymerization
+Nevertheless, there are still several technical issues to be solved.
+In practice, the fabrication of sub\-nanometer pores in
+a 2D material sheet with atomic precision and over a large area with
+atomic precision, still remains challenging.
 \cite{Suk_2014_ion_sub_5nm,Rollings_2016_gating,O_Hern_2012_defect,Wang_2017_mechanism_thin_membrane}.
 %
-Moreover, a small
-portion of excessively large pores or tears can significantly diminish
-salt rejection. Regarding these issues, we have previously developed a
-highly-scalable technique to fabricate uniformly-distributed nanopores
-(sub-20 to 50 nm) over wafer-scale graphene samples
-\cite{Choi_2018_wafer_scale_gr}. A major step towards its real-world desalination and
-separation applications, would be to develop methodology that allow
-appreciable selectivity of nanoporous 2D membrane with pore size even
-larger than the hydration radii.
+Moreover, a small portion of excessively large pores or defects can
+significantly deteriorate the membrane performance.
+%
+% Regarding these
+% issues, we have previously developed a highly-scalable technique to
+% fabricate uniformly-distributed nanopores (sub-20 to 50 nm) over
+% wafer-scale graphene samples \cite{Choi_2018_wafer_scale_gr}.
+A major step towards the real-world desalination and separation
+applications of nanoporous 2D material membranes, would be to develop
+methodology that allow appreciable selectivity while the pore size can
+be even larger than the hydration radii.
 % Therefore, it is critical to develop methodology that
 % allow appreciable selectivity of nanoporous 2D membrane even with
 % large pore size.
+
+Inspired by the ion channels in cellular membranes\worktodo{cite}, the
+selectivity of nanopores can not only be controlled by size-exclusion,
+but also by engineering the surface charge and potential.
+%
 A number of recent reports have explored the effect of surface charges
 on the selectivity of ion transport through graphene nanopores, as a
 consequence of the electrostatic interactions between solvated ions
 and the charged functional groups attached on graphene, indicating
-that even large pores ($>$ 30nm) can be ion selective
-\cite{Rollings_2016_gating,Surwade_2014_carbon_electrochemical_ion}. However, it remains controversial
-that if the surface charges can result in a degree of salt rejection,
-as the surface charge and potential cannot be precisely quantified and
-are sensitive to the surroundings as well as the history of chemical
-treatment \cite{Li_2008_gr_suspension}. There remains a lack of fundamental
-understanding of the interactions between the charged 2D nanopores and
-the electrolyte solution, especially in regard of controlled ion
-transport modulation.
+that ion selectivity can exists in pores with diameter even as large
+as 30 nm~\cite{Rollings_2016_gating,Surwade_2014_carbon_electrochemical_ion}.
+%
+However, it remains controversial if the surface charges can result in
+a degree of salt rejection, as the surface charge / potential in these systems
+cannot be precisely quantified, which are sensitive to the surroundings
+as well as the history of chemical treatment
+\cite{Li_2008_gr_suspension}.
+%
+A fundamental understanding of the interactions between the charged 2D
+nanopores and the electrolyte solution, especially the mechanism of
+ion transport through these nanopores, is still absent.
 
-% \textcolor{blue}{In this report, we investigate electrolyte permeation
-  % through cm$^2$ scale graphene membranes having pores that are
-  % $<$\unit[50]{nm}. We find, that an applied voltage bias can
-  % effectively modulate the ion transport through these membranes,
-  % despite having pores significantly larger than the hydration radii
-  % of the ions.  We simulate the surface potential, taking into account
-  % the elementary electronic properties of graphene, allowing to model
-  % and confirm that a high degree of salt rejection could be achieved
-  % by both pore sizing and electrostatic gating. Our analysis reveals a
-  % large impact of atomistic effects, such as quantum capacitance, on
-  % the ionic transport through gated porous 2D materials, providing new
-  % insights into such phenomena.}
-
-\textcolor{blue}{ In this report, we investigate electrolyte
-  permeation through centimeter scale graphene membranes having pores
-  that are in the order of $\sim{}$\unit[20]{nm}. We find that
-  electrostatic gating can effectively reduce ion transport through
-  these membranes, despite the pore size is significantly larger than
-  the hydration radii of the ions. In the literature, it was only
-  observed in the membranes made by mesoporous carbon
-  \cite{Surwade_2014_carbon_electrochemical_ion}. For the first time, we model the surface
-  potential by taking into account the elementary electronic
-  properties of graphene and confirm that a high degree of salt
-  rejection could be achieved by both pore sizing and electrostatic
-  gating. }
+In this chapter, combining experimental and theoretical studies, we
+investigate electrolyte permeation through centimeter scale,
+electrostatically gated nanoporous graphene membranes, with pores that
+are in the order of $\sim{}$\unit[20]{nm}.
+%
+We find that electrostatic gating can effectively reduce ion transport
+through these membranes, despite the pore size is significantly larger
+than the hydration radii of the ions. We model the surface potential
+around the graphene nanopores, by taking into account the elementary
+electronic properties of graphene (\eg the quantum capacitance).
+%
+The interplay between graphene quantum capacitance and the electrical
+double layer is found to selectively modulate the anionic and cationic
+transport paths, creating voltage-dependent electrochemical barriers
+when the pore size is comparable to the Debye screening length. Our findings
+reveal a new degree of freedom regulating electrolyte permeation
+through porous two-dimensional materials, complementary to the pore
+size design and engineering.
 
 \section{Results and discussions}
 \label{sec:res}
