@@ -15,7 +15,7 @@ width_file = script_path / ".width"
 
 def _get_preamble():
     if header_file.exists():
-        with open(header_file, "r") as f:
+        with open(header_file.as_posix(), "r") as f:  # back compatibility
             content = f.readlines()
             
             content = filter(lambda s: len(s) > 0, map(lambda s: s.strip(),
