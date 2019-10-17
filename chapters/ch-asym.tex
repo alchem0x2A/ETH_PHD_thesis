@@ -1,4 +1,4 @@
-% \chapter{Introduction}
+  % \chapter{Introduction}
 \chapter{Field-Dependent Electrostatic Screening in van der Waals Heterostructures}
 \label{ch:asym}
 \renewcommand*\imgdir{img/ch-asym/}
@@ -13,6 +13,7 @@
   E. J. G. Asymmetric electric field screening in van der Waals
   heterostructures. Nat Commun. 9, 1–11 (2018).  }
 
+\newcommand*{\E}{\mathscr{E}}
 
 
 \section{Introduction}
@@ -20,95 +21,477 @@
 
 
 Van der Waals heterostructures (vdWHs) composed of two-dimensional
-(2D) crystals and precisely assembled in a deterministic order
-constitutes a new paradigm for promising electronic and optoelectronic
-applications with enhanced features and
-performance~\cite{Geim_2013_2D_vdw_Het,Jariwala_2016_mixed_vdw_het,Novoselov_2016_vdW,Liu_2016_rev,Withers_2015_LED_vde_Het,Britnell_2012_FET}.
+(2D) crystals and precisely assembled opens a new avenue for promising
+electronic and optoelectronic applications with promising
+characteristics~\cite{Geim_2013_2D_vdw_Het,Jariwala_2016_mixed_vdw_het,Novoselov_2016_vdW,Liu_2016_rev,Withers_2015_LED_vde_Het,Britnell_2012_FET}.
 %
-With the properties of the individual layers being characterized since
-the discovery of graphene and other 2D
-materials~\nocite{Novoselov_2005_2D_crystal}, the great challenge is
-how to combine them in order to obtain new physical and chemical
-phenomena not observed on the original sheets1. The continuous
-development of experimental methods that allow atomically thin
-materials to be fabricated on-demand and to be placed on desired
-locations with an unprecedented control and accuracy have opened new
-avenues to fabricate complex device architectures using regular
-bottom-up
-approaches~\cite{Jariwala_2016_mixed_vdw_het,Novoselov_2016_vdW,Liu_2016_rev}. The
-atomic flatness and lack of dangling bonds at the surface of 2D
-layered materials, such as graphene, boron nitride (BN) and transition
-metal dichalcogenides (TMDCs), allow them to form non-covalent
-interactions with a wide range of materials without the condition of
-lattice matching that normally heterojunctions would have. One of the
-first realizations of such vdWHs was the fabrication of BN/graphene
-interfaces and the probing of their electronic properties using gate
-bias~\cite{Dean_2010_BN_gr_highquality}. Such system remarkably showed
-that graphene could develop superior electrical properties, achieving
-levels of performance comparable to those observed with freestanding
-layers. In this assembly BN layers work as an underlying substrate
-screening out graphene from any dangling bonds, corrugations and
-charge inhomogeneities that are inherent to standards SiO\textsubscript{2} surfaces to
-play a role on its electronic
-properties~\cite{Dean_2010_BN_gr_highquality,Xue_2011_STM}. A direct
-extension of this system was the complete encapsulation of graphene,
-TMDCs and the combination of them between BN
-layers\cite{Withers_2015_LED_vde_Het,Britnell_2012_FET,Cui_2015_multiterm_mos2,Xue_2011_STM}. This
-rapidly showed that such device framework displayed improved transport
-properties with
-high-mobilities~\cite{Xue_2011_STM,Dean_2010_BN_gr_highquality}. It is
-important to remark that in all these systems electrostatic gating
-schemes have been one of the main driving force to probe the chemical
-and physical properties of either isolated 2D materials before
-assembling, or their vdWHs afterwards. Electric gate bias measurements
-have become a feasible way to control, induce and manipulate
-electronic properties of almost any vdW crystals since graphene early
-days~\cite{Novoselov_2004_gr,Zhang_2005_QHE,Novoselov_2005_massless}.
+With the properties of individual 2D material layers well studies
+since the discovery of graphene and other 2D
+materials~\nocite{Novoselov_2005_2D_crystal},
 %
-This
-relative simple setup allows deep insight into the charge density
-reorganization between different stacking sequences, and on the
-electric-field screening, which determines most of the exquisite
-device properties observed in vdWHs. However, no direct measurements
-of the electrostatic screening features of different combinations of
-2D materials have been reported yet, which ramp up further
-understanding and developments of vdWHs into any technological
-platform.
+the challenge is how achieve unprecedented physical and chemical
+phenomena different from the isolated 2D sheets via controlled
+combination of different layer~\cite{Geim_2013_2D_vdw_Het}.
+%
+The continuous development of experimental methods which allows
+fabrication of 2D vdWHs with atomistic precision via bottom-up
+approaches~\cite{Jariwala_2016_mixed_vdw_het,Novoselov_2016_vdW,Liu_2016_rev},
+is benefited from the
+atomic flatness and absence of dangling bonds at the surface of 2D
+layered materials, as discussed in \autoref{sec:inter-forc-at}.
+%
+A large variety of 2D vdWHs are fabricated using building
+blocks graphene, hBN and
+TMDCs~\cite{Dean_2010_BN_gr_highquality,Xue_2011_STM,Withers_2015_LED_vde_Het,Britnell_2012_FET,Cui_2015_multiterm_mos2}.
+%
+It is important to remark that a large majority of these studies
+employs the electrostatic field effect (see
+\autoref{sec:qc-introduction}) to modulate the charge states in the
+vdWHs to achieve tunable carrier
+transport~\cite{Britnell_2012_FET,Dean_2013_butterfly} as well
+carrier-photon
+interaction~\cite{Britnell_2013_vdWE,Withers_2015_LED_vde_Het}.
+%
+%
+The relative simple setup of electrostatic gating enables insight into the charge transfer, and on the
+electric field screening through the 2D vdWHs.
+%
+The penetration of electrostatic field through a 2D vdWH is similar to the idea of field effect transparency through mono\-layer 2D material introduced in
+\autoref{ch:qc}, while with a more complex manner.
 
-Here we show that the dielectric properties of an
-archetypal vdWH, involving graphene and MoS\textsubscript{2}, displays an asymmetrical
-behavior relative to the polarization of the applied gate bias into
-the surface allowing an anisotropic screening. Using electric force
-microscopy (EFM), we observe that graphene/MoS\textsubscript{2} heterostructures
-exhibit distinct electric response to external fields, respect to the
-stacking sequence. A large depolarization field is recorded at the
-MoS\textsubscript{2} side, which is shown to be dependent majority on the number of
-MoS\textsubscript{2} layers into the heterostructure. A multiscale theoretical
-framework is developed for elucidating such stacking-dependent
-asymmetric electric screening phenomenon in graphene/MoS\textsubscript{2} vdWHs. At
-the atomistic level, we employed quantum mechanical ab initio
-simulations based on vdW-corrected density functional theory (DFT) to
-resolve various electronic properties of the vdWHs, including
-polarization, charge transfer and band structures. Our results
-indicate that the anisotropic formation of interfacial dipole moments
-preferable at the MoS\textsubscript{2} facet accounts for the asymmetric response. We
-further show that such asymmetric behavior can be explained using a
-classical quantum capacitor model, described by a set of
-self-consistent electrostatic conservation equations and treating the
-2D layers according to their individual electronic genomes
-(i.e. energy levels, band gap and quantum capacitance). Our
-theoretical framework has good consistency with the experimental
-results at both ab initio and classical levels, showing that the
-combinations of 2D materials with distinct electronic structures can
-result in vdWHs with rich screening features. Furthermore, our
-theoretical framework is readily applicable for other vdWHs beyond
-graphene/MoS\textsubscript{2} to explore a wide range of 2D material combinations with
-programmable electronic screening properties, which may greatly
-benefit the design of 2D vdWH-based functional devices.
+In this chapter, we introduce a self-consistent multilayer quantum
+capacitor model (MQCM) to simulate the penetration of field effect
+through vdWHs. By taking fundamental electronic properties (\eg
+bandgap, DOS and Fermi level) of isolated layers, MQCM is capable of
+solving the charge density and potential distribution in a certain 2D
+vdWH.
+%
+Using the MQCM, we further extend the concept of electrostatic field
+effect transparency to vdWHs, and quantifies the penetration depth of
+an external field in multilayer graphene stacks.
+%
+More interestingly, taking graphene/2H-MoS\textsubscript{2} interfaces
+as an example, our model predicts that the field effect in side a 2D
+vdWH may be asymmetric due to the varied DOS and mismatch of
+Fermi level between individual layers.
+%
+
+Our predictions are backed up by experimental examination and first
+principles simulations from our collaborators.
+%
+Using electric force microscopy (EFM), the
+graphene/MoS\textsubscript{2} heterostructures exhibit distinct
+electric response to external fields which depends on the stacking
+sequence.
+%
+A large depolarization field is recorded at the
+MoS\textsubscript{2} side, which is shown to be dependent majority
+on the number of MoS\textsubscript{2} layers into the
+heterostructure.
+%
+At the atomistic level, quantum mechanical \textit{ab initio}
+simulations based on vdW-corrected density functional theory (DFT) are
+employed to resolve the electronic properties of the vdWHs, including
+polarization, charge transfer and band structures,
+%
+which indicate that
+the anisotropic formation of interfacial dipole moments preferable at
+the MoS\textsubscript{2} facet accounts for the asymmetric
+response.
+%
+The simplicity of the model developed here allows exploration of
+further 2D material combination with appreciable computational speed,
+which may greatly benefit the design of 2D vdWH-based functional
+devices.
 
 \section{Results and Discussion}
 \label{sec:asym-results}
-\subsection{Characterization and Measurements}
+
+
+\subsection{Self-Consistent Multilayer Quantum Capacitor Model (MQCM)}
+\label{sec:asym-model}
+
+The ideal of the self-consistent multilayer quantum capacitor model
+(MQCM) is to treat individual 2D material as discrete quantum
+capacitors with vanishing thickness, such that the charge--potential
+relation can be described by the quantum capacitance $C_{\mathrm{Q}}$.
+%
+Note here only limit the discussion to randomly-stacked 2D layers,
+that the interlayer coupling~\cite{Fang_2014_intercoupl_vdW} effect is
+ignored.
+
+\subsubsection{Field-Effect Transparency of Multilayer Graphene}
+\label{sec:asym-field-pene-ml-gr}
+
+To demonstrate the idea of MQCM, we first consider the situation of an
+electric displacement field in the multilayer metal-oxide-graphene-semiconductor
+quantum capacitor (ML-MOGS QC).
+%
+The setup resemble the monolayer MOGS QC in \autoref{fig:qc-Scheme},
+with monolayer graphene replaced by a $N$-layer graphene stack.
+SiO\textsubscript{2} and Si are chosen as the oxide and semiconductor
+layers, respectively.
+%
+The structure of ML-MOGS QC is schematically illustrated in
+\autoref{fig:asym-scheme_ML_MOGS}
+\begin{figure}[htbp]
+  \centering
+  % \includegraphics[width=0.95\textwidth]{img/SI_ML_graphene.eps}
+  \caption{Schematic for the multilayer graphene MOGS QC system}
+  \label{fig:asym-scheme_ML_MOGS}
+\end{figure}
+%
+
+We assume that each graphene layer is separated by a distance $d_0$
+($\sim{}$3.3 \AA{}\cite{Shearer_2016}) with interlayer permittivity
+$\varepsilon_{\mathrm{G}} \approx 2.4$ taken from the value of
+graphite~\cite{Lui_2011_tunable,Regan_2012_ScreeningEngineered_PV}.
+%
+The index of layer, $i$,  starts from the first graphene sheet adjacent to
+the oxide surface
+%
+For simplicity, we neglect the space between the first ($i=1$)
+graphene layer and the oxide layer, as well as the interface states
+(see \autoref{sec:qc-field-effect-transp}) between the last ($i=N$)
+graphene layer and the semiconductor layer.
+%
+The electric fields in
+the oxide layer and  at the semiconductor surface
+are $\E_{\mathrm{ox}}$ and $\E_{\mathrm{S}}$, respectively.
+%
+We label the electric field between
+the $i$ and $i+1$ graphene layers as $\E_{\mathrm{G}, i}$.
+%
+The charge density of layer $i$ is labeled as $\sigma_{\mathrm{G}, i}$
+
+Applying the Gauss's law on the $i$-th graphene
+with sheet charge density, we get a set of conservation equations:
+\begin{enumerate}
+  \item $i=1$\\
+    \begin{equation*}
+      \label{eq:asym-gauss-1}
+      \E_{\mathrm{ox}}\varepsilon_{0}\varepsilon_{\mathrm{ox}} + \sigma_{\mathrm{G},1} - \E_{\mathrm{G}, 1}\varepsilon_{0}\varepsilon_{\mathrm{G}} = 0
+    \end{equation*} 
+  \item $i=2 \cdots N-1$\\
+    \begin{equation*}
+      \label{eq:asym-gauss-2}
+      \E_{\mathrm{G}, i-1}\varepsilon_{0}\varepsilon_{\mathrm{G}} + \sigma_{\mathrm{G},i} - \E_{\mathrm{G},i+1}\varepsilon_{0}\varepsilon_{\mathrm{G}} = 0
+    \end{equation*}  
+  \item $i=N$\\
+    \begin{equation*}
+      \E_{\mathrm{G},N-1}\varepsilon_{0}\varepsilon_{\mathrm{G}} + \sigma_{\mathrm{G},N} - \E_{\mathrm{S}}\varepsilon_{0}\varepsilon_{\mathrm{S}} = 0
+    \end{equation*}
+\end{enumerate}                 %
+where $\varepsilon_{\mathrm{ox}}=2.8$\worktodo{check} and  $\varepsilon_{\mathrm{S}}=11$ are the permittivities of the oxide and semiconductor layers, respectively.
+%
+Note that the difference between the vacuum energy level
+$\Delta E_{\mathrm{vac}}(i, i+1)$ between $i$ and $i+1$ graphene layers
+($i=1\cdots N-1$) is identical to the difference between work
+functions of the two layers ($\phi_{\mathrm{G}, i}$ and $\phi_{\mathrm{G}, i+1}$):
+\begin{equation}
+  \label{eq:asym-diff-E}
+  \Delta E_{\mathrm{vac}}(i, i+1) = \E_{\mathrm{G}, i}d_0 = \phi_{\mathrm{G},i+1} - \phi_{\mathrm{G},i}
+\end{equation}
+%
+The above series of equations uniquely define the electrostatics in
+the ML-MOGS QC, and can therefore be solved numerically in a
+self-consistent manner by giving an initial guess of $\E_{\mathrm{S}}$.
+
+\worktodo{2 figures here}
+
+To see the effect of the MQCM, we calculate the induced charge density
+of the semiconductor layer $\sigma_{\mathrm{S}}$ as a function of
+total graphene layer number $N$, an the charge on the metal gate
+$\sigma_{\mathrm{M}}$, as shown in \worktodo{figure which}a.
+%
+To see a higher degree of field penetration to the semiconductor
+layer, we choose the intrinsic carrier density $n_{0}$ to be $10^{18}$
+cm$^{-3}$ (\ie a higher $C_{\mathrm{S}}$).
+%
+We observe that $\sigma_{\mathrm{S}}$ becomes independent of
+$\sigma_{\mathrm{M}}$ when more than 10 layers of graphene are used in
+the ML-MOGS QC.
+%
+This is as expected: intuitively speaking, the total DOS of multilayer
+graphene increases with the layer number and results in a larger
+$C_{\mathrm{Q}}$ value.
+%
+In the case of graphite ($N \to \infty$), the electric displacement
+field is completed screened and $\sigma_{\mathrm{S}}$ becomes independent
+of $\sigma_{\mathrm{M}}$.
+%
+Note in the MQCM, the field effect transparency arises as a collective
+effect of the charge density regulation between layers. This avoids
+cumbersome derivation the total DOS of multilayer graphene by the
+tight-bonding model \cite{Nilsson_2008_bitri_gr_electron} or
+\textit{ab initio} calculations, while provide appreciable insights
+and flexibility.
+%
+We further extend the concept of field-effect transparency
+$\eta^{\mathrm{FE}}$ to ML-MOGS QC system, with the same definition
+$\eta^{\mathrm{FE}}(N) = -\left(\dfrac{\partial
+    \sigma_{\mathrm{S}}}{\partial \sigma_{\mathrm{M}}}\right)$ while
+dependent on the total layer number $N$.
+%
+\worktodo{figure} shows $\eta^{\mathrm{FE}}$ as function of both $N$ and $\sigma_{\mathrm{M}}$.
+%
+Similar to the observation in \worktodo{figure}a, the effective
+penetration length of field effect appears as $\sim{}$10 layers, while
+field-effect transparency shows an asymmetric response to different
+polarity of the gate electrode.
+%
+
+The MQCM approach proposed here is excellently scalable with respect
+to the layer number to be used for questions such as electrode doping
+of graphene
+layers~\cite{Pi_2009_metal_doping_gr,Giovannetti_2008_doping}.
+%
+As an demonstration, we calculate the work function profiles in the
+perpendicular direction of a 100-layer MOGS QC, as shown in
+\worktodo{figure xx}.
+%
+Two boundary layers appear both the oxide/grapehene and
+semiconductor\allowbreak{}/graphene interfaces, analogous to the
+electrical double layer in electrolyte
+solutions~\cite{Bard_1980_electrochem_book}.
+%
+At the center of multilayer sheet ($i \sim{} 50$), the work function
+of graphene is almost identical to the CNP, indicating the electric
+field is fully screened inside the multilayer graphene.
+%
+Considering the small interlayer permittivity, such nano\-scale
+electrostatic screening is caused by the charge transfer between the
+individual graphene layers.
+%
+Taking the concept of Debye screening length (see
+\autoref{eq:intro-debye}), we estimate the
+effective sheet charge density $\sigma_{\mathrm{eff}}$ of the graphene layers to be:
+\begin{equation}
+\label{eq:asym-debye}
+\sigma_{\mathrm{eff}} = \dfrac{\varepsilon_{0} \varepsilon_{\mathrm{G}} k_{\mathrm{B}} T}{e^{2} \lambda_{\mathrm{FE}}^{2}} d_{0}
+\end{equation}
+where $\lambda_{\mathrm{FE}}$ is the penetration length of field
+effect ($\sim{}10\cdot{}d_{0}$). At $T=300$ K, $\sigma_{\mathrm{eff}}$
+is estimated to $\sim{}9\times10^{9}$ e$\cdot$cm$^{-2}$, which is
+close to the value of intrinsic thermal carrier density of graphene
+reported~\cite{Fang_2007_carrier_graphene}.
+
+\worktodo{add relation between sigma and phi}
+
+\subsubsection{Electrostatic Screening in Graphene/MoS\textsubscript{2} vdWHs}
+\label{sec:asym-classic}
+
+The approach presented in \autoref{sec:asym-field-pene-ml-gr} can also be applied to 2D vdWHs composed of distinct 2D material layers.
+%
+As an example we study the case of graphene (G) /
+2H-MoS\textsubscript{2} heterostructures with varied layer numbers
+corresponding to the experimental results from our collaborator (will
+be shown later).
+%
+For simplicity, we refer the 2H-MoS\textsubscript{2} as
+MoS\textsubscript{2} throughout this chapter.
+%
+
+\worktodo{Figure} 6(a) schematically shows the band diagram of the
+G/MoS\textsubscript{2} vdWH used in our model.
+%
+Here we consider an isolated vdWH placed under an external electric $\E_{\mathrm{ext}}$,
+and does not have carrier transfer with the exterior (similar to the
+experimental conditions in the electric force microscopy
+(EFM)~\cite{Li_2014_screen}).
+%
+Similar to the naming convention in \worktodo{figure ??}, the layer
+index $i$ starts from the outer-most graphene layer.
+%
+When the system is at equilibrium, we assume that the Fermi level
+$E_{\mathrm{F}}$ aligns throughout the G/MoS\textsubscript{2}
+vdWH.
+%
+For simplicity of the model, we further assume that; (i) the intrinsic
+electronic properties of individual layers, including density of
+states (DOS), band gap $E_{\mathrm{g}}$, and work function $\phi$ are
+invariable with the stacking order and the external electric field and
+(ii) the interlayer distance ($d_{\mathrm{i, i+1}}$) between layers
+$i$ and $i+1$ is not affected by the external electric field.
+%
+Note although the layer-dependent transition of band
+structure~\cite{Bhimanapati_2015_2D_rev} is ignored in assumption (i),
+it has been shown that such classical treatment using Coulombic
+coupling has high consistency with full-scale  \textit{ab initio}
+simulations~\cite{Andersen_2015_dielec_vdWH}.
+%
+The charge and potential
+distribution in a $N$-layer vdWH is solved by several conservation equations
+in a self-consistent approach similar to that in \autoref{sec:asym-field-pene-ml-gr}, including:
+%
+
+\begin{enumerate}
+\item The charge neutrality of vdWH \\
+  \begin{equation}
+    \label{eq:asym-neutral-vdwh}
+    \sum_{i=1}^{\mathrm{N}} \sigma_{i} = 0
+  \end{equation}
+  where $\sigma_{\mathrm{i}}$ is the sheet charge density of layer $i$.
+
+  
+\item Charge balance of the $i$-th layer by Gauss's law \\
+  \begin{equation}
+    \label{eq:asym-gauss-vdwh}
+    \E_{i-1, i}\varepsilon_{0}\varepsilon_{i-1, i} + \sigma_{i} -  \E_{i, i+1} \varepsilon_{0} \varepsilon_{i, i+1} = 0
+  \end{equation}
+  where $\E_{i-1, i}$ and $\varepsilon_{i-1, i}$ are the electric field and permittivity between layers $i - 1$ and $i$, respectively.
+  %
+  Note $\E_{0, 1}$ and $\E_{N, N+1}$ are essentially the external electric field $\E_{\mathrm{ext}}$.
+  %
+  The permittivity $\varepsilon_{i-1, i}$ is treated as the average bulk permittivities of layers $i-1$ and $i$
+
+  
+\item The charge--work function relation
+  \begin{equation}
+    \label{eq:asym-charge-wf}
+    \sigma_{i}(\phi_{i}) = {\displaystyle \int_{-\infty}^{\infty}} \mathrm{DOS}(E')
+    \left[f(E', -e\phi_{i}) - f(E', -e\phi_{i0})\right] \mathrm{d}E'
+  \end{equation}
+  where $\phi_{i}$ is the work function (under external field) and and
+  $\phi_{i0}$ is the intrinsic work function (in isolated form) of
+  layer $i$, respectively. $f$ is the Fermi-Dirac distribution
+  function.
+
+  
+\item The potential drop between layers $i$ and $i+1$
+  \begin{equation}
+    \label{eq:5}
+    \Delta E_{\mathrm{vac}}(i, i+1) = e \phi_{i+1} - e \phi_{i} = \E_{i, i+1} d_{i, i+1}
+  \end{equation}
+\end{enumerate}
+
+\worktodo{describe the parameters used here}
+
+The set of equations
+(\autoref{eq:asym-neutral-vdwh}--\autoref{eq:asym-charge-wf}) allows
+describing the vdWH in a unified manner regardless of the actual
+material involved, as long as the previous assumptions hold.
+%
+By solving the conservation
+equations of electric field and charge density of the
+G/MoS\textsubscript{2} vdWH, we can extract information about
+interfacial and screening properties.
+%
+For the
+simplest case of monolayer(1L) G/ 1L MoS\textsubscript{2}, 
+\worktodo{Figure} 6(b) shows the work functions of both materials as a
+result of $\E_{\mathrm{ext}}$ ranging from
+-8 to +8 V/nm.
+%
+When highly n-doped and p-doped
+MoS\textsubscript{2} can be found when $\E_{\mathrm{ext}}<-2.3$ V/nm or $\E_{\mathrm{ext}}> 5.5$ V/nm, respectively.
+%
+The Fermi level of MoS\textsubscript{2} shifts close to its conduction
+band (CB) or valence band (VB) in both case respectively, which is
+accounted for the charge accumulation in the vdWH. Note that a
+noticeable charge accumulation ($>10^{12}$ $e$/cm$^{-2}$) occurs even
+when the Fermi level of MoS\textsubscript{2} is $\sim{}$0.1 eV away
+from the band edges, when the Fermi level of graphene shifts
+significantly from its CNP. The charge separation between the layers
+polarizes the 2D vdWH.
+%
+On the other hand, when $\E_{\mathrm{ext}}$is between -2.3 V/nm
+and 5.5 V/nm, the Fermi level of MoS\textsubscript{2} lies far away
+from the band edges, the vdWH is merely not
+polarized.
+%
+We find that the polarization of the G/MoS\textsubscript{2} vdWH is
+more enhanced under negative external electric field.%
+In other words, the 1L G/ 1L MoS\textsubscript{2} vdWH asymmetrically
+screens the external electric field $\E_{\mathrm{ext}}$.
+%
+
+We ascribe such asymmetry to the difference between the electronic
+structures of graphene and MoS\textsubscript{2}: MoS\textsubscript{2}
+is considered as a n-type semiconductor with its intrinsic Fermi level
+(-4.5 eV) closer to its CB (-4.0 eV) than its VB (-5.8
+eV)~\cite{Ochedowski_2014_contami_mos2,Das_2012_high_perform,Lu_2014_midgap_mos2},
+while graphene has symmetric linear band structure around its CNP
+(-4.6 eV)~\cite{Das_Sarma_2011_electron_gr}.
+%
+Here all energy levels are
+compared with the vacuum level which is set at 0 eV.
+%
+Due to the resemblance of Fermi level values between graphene and
+MoS\textsubscript{2}, little charge transfer occurs under weak
+electric field, and the degree of charge transfer is mainly determined
+by the position of the Fermi level with respect to the CB or VB of
+MoS\textsubscript{2}, when the Fermi level of MoS\textsubscript{2}
+lies far from its band edges. %
+%
+Following the same procedure, we extend the discussions to multilayer
+G/Mo\textsubscript{2} vdWHs. For a $m$-layer graphene / $n$-layer
+MoS\textsubscript{2} vdWH ($m$L G/ $n$L MoS\textsubscript{2}), we
+calculate the sheet dipole moment $\mu(m, n)$, defined
+as
+$\mu(m, n) = \sum_{i=1}^{m+n} \sigma_{i} (\sum_{i=0}^{i-1} d_{i, i+1})$, as shown in \worktodo{which figure}.
+%
+Clearly, the vdWH is more polarized under negative $\E_{\mathrm{ext}}$.
+\worktodo{clarify the direvtion of E}
+%
+By increasing the number of layer numbers, the magnitude of
+$\E_{\mathrm{ext}}$ required to induce significant polarization in the
+vdWH also becomes smaller, as compared with the 1L G/ 1L MoS\textsubscript{2} system.
+%
+The effect is enhanced when more
+MoS\textsubscript{2} layers are included, with the largest increment
+noticed in 3L G/ 3L MoS\textsubscript{2}/3L system.
+%
+On the other hand, the number of graphene layers has minor
+contributions to the asymmetric behavior effect.
+%
+The similar effect is also seen in the charge density profile.
+%
+\worktodo{figure xx} shows the total charge density
+$\sigma_{\mathrm{G}}$ in the grapehene layers
+($\sigma_{\mathrm{G}} = \sum_{i=1}^{m} \sigma_{i}$) for different
+combinations of $m$ and $n$ of the G/MoS\textsubscript{2} interface.
+%
+Similarly, the charge transfer at the G/MoS\textsubscript{2} interface
+is more pronounced at negative $\E_{\mathrm{ext}}$ regime, due to the
+fact that MoS\textsubscript{2} is more easily to be
+n-doped~\cite{Amani_2015_mos2_QY1}.
+%
+The charge redistribution is more pronounced with increased layer
+numbers of graphene and MoS\textsubscript{2}, and the
+MoS\textsubscript{2} layers contributes more to such effect than
+graphene.
+%
+Note comparing \worktodo{figure aa} and \worktodo{figure aa}, for
+thicker graphene layers (e.g. 3L G/$n$L MoS\textsubscript{2}), a
+considerable amount of total dipole moment can still be observed under
+weak electric field ($|\E_{\mathrm{ext}}<5|$ V/nm), when the charge
+transfer between graphene and MoS\textsubscript{2} is negligible ($<10^{11}$ $e \cdot$cm$^{-2}$).
+%
+This indicates that the electric field is well screened by
+multilayer graphene under such conditions due to its semi\-metallic nature.
+%
+The screening in the
+MoS\textsubscript{2} becomes more important only when the Fermi level
+reach the band edges, when the DOS increases drastically.
+%
+To verify such statement, we reconstructed the band diagram of 1L G/
+3L MoS\textsubscript{2} system under electric fields of
+$\E_{\mathrm{ext}}=-2$ V/nm (\worktodo{Figure} 6(e)) and
+$\E_{\mathrm{ext}}=+2$ V/nm (\worktodo{Figure} 6(f)),
+respectively.
+%
+Under -2 V/nm electric field, the Fermi level reaches
+the CB of the outermost ($i=4$) MoS\textsubscript{2} layer, while under +2
+V/nm electric field, the Fermi level remains within the band gap of
+MoS\textsubscript{2} resulting in very small charge transfer,
+% in good accordance with the ab initio calculations showed in
+% \worktodo{Figure} 5(d)-5(f).
+In other words, charge accumulation occurs mostly on graphene and the
+outer-most MoS\textsubscript{2} layer, a similar effect as seen in \worktodo{figure in ML MOGS part}
+
+
+\section{Experimental Observation of Asymmetric Screening in G/MoS\textsubscript{2} vdWHs}
 \label{sec:asym-exp}
 Heterostructures of graphene and MoS\textsubscript{2} of different thicknesses on Au
 coated Si wafer were achieved by two rounds of PMMA
@@ -306,107 +689,7 @@ important role of the interface on the electrical properties of the
 vdW heterostructures, as the polarity of the electric field can select
 which states can screen the system against external bias.
 
-\subsection{Classical electrostatic approach}
-\label{sec:asym-classic}
-Apart from the mighty ab initio approach that gives the full picture
-of electronic states in the vdWHs, it is more desirable that such
-assymetric behavior of the vdWHs can be modeled inexpensively using
-several key electronic properties from the individual 2D material
-layers. we can extract several key properties that govern the
-asymmetric field response. Here we show that the asymmetric electronic
-screening of G/MoS¬2 vdW heterostructures under an external electric
-field can be well described using a classical electrostatic model,
-taking the quantum capacitance into
-consideration\cite{Luryi_1988_Quantum}. As the 2D vdWHs are stacked
-via non-covalent interactions, it is found that the individual
-properties of 2D materials can still be largely preserved in their
-stacked layers, which are coupled by the Coulombic
-interactions~\citeauthor{Andersen_2015_dielec_vdWH}.
-%
-The idea behind our classical electrostatic model is that each
-individual layer has its own electronic “genome” (i.e. energy level,
-band gap, quantum capacitance) extracted from ab initio calculations,
-which can be used as building blocks in solving the electrostatic
-conservation equations of the whole vdWH, under the non-coupling
-assumption. \worktodo{Figure} 6(a) schematically shows the band diagram of the
-G/MoS\textsubscript{2} vdWH used in the classical model. Due to the fact that there is
-no electron drift in the vdWH at equilibrium (which is consistent with
-the EFM experimental setup and ab initio configurations), We assume
-that: (i) the Fermi level $E_Fermi$ aligns throughout the G/MoS\textsubscript{2}
-vdWH. For simplicity of the model, we further assume that; (i) (ii)
-the density of states (DOS) of individual layer is invariable with the
-stacking order and the external electric field and ; (iiiii) the
-interlayer distances ( ) are not affected by the external electric
-field. Note that although the transition of band structure is ignored
-in assumption (i), it has been shown that such classical treatment
-using Coulombic coupling has relatively high consistency with the ab
-initio simulations32. The charge and potential distribution in the
-vdWH is solved by several conservation equations in a self-consistent
-approach37: (i) the charge of individual 2D layer follows the charge
-conservation of the vdWH, (ii) is determined by the electric
-displacement field adjacent to the 2D layer, (iii) determines the work
-function of layer i, and (iv) the work function difference between two
-adjacent layers is determined by the electric displacement field. More
-details about the mean-field model can be found in Methods. By solving
-the conservation equations of electric field and charge density of the
-G/MoS\textsubscript{2} vdWH, we can extract information about interfacial and
-screening properties (see details in Methods). For the simplest case
-of 1L G/ 1L MoS\textsubscript{2}, we plot in \worktodo{Figure} 6(b) the work functions φ\_i of
-both materials, as a function of the external electric field strength
-(E\_ext) ranging from -85 V/nm to +85 V/nm. When Highly n-doped and
-p-doped MoS\textsubscript{2} regimes can be found when < -2.3 V/nm or > 5.5 V/nm,
-respectively. The fermi level of MoS\textsubscript{2} shifts close to its conduction
-band (CB) or valence band (VB) in both regimes respectively, which is
-accounted for the charge accumulation in the vdWH. Note that a
-noticeable charge accumulation ($>10^{12}$ $e$/cm$^{-2}$) occurs even when the
-Fermi level of MoS\textsubscript{2} is still ca 0.1 eV away from the band edges, due
-to the fact that the low quantum capacitance of graphene near its
-intrinsic Fermi level. On the other hand, when is between -2.3 V/nm
-and 5.5 V/nm, the Fermi level of MoS\textsubscript{2} lies far away from the band
-edges, resulting that tand , the Fermi level of MoS\textsubscript{2} lies within the
-band gap, the vdWH is merely not polarized and the work function of
-graphene shows little change with . On the other hand, charge
-redistribution is greatly enhanced when the Fermi level shifts up to
-either the valence band (VB), or the conduction band (CB) of
-MoS\textsubscript{2}. We find that the polarization of the G/MoS\textsubscript{2} vdWH is more
-enhanced under negative external electric field, which corresponds
-with the findings in \worktodo{Figure} 3(a). We ascribe such asymmetry to the
-difference between the electronic structures of graphene and MoS\textsubscript{2}:
-MoS\textsubscript{2} is considered as a n-type semiconductor with its intrinsic Fermi
-level (-4.5 eV) closer to its CB (-4.0 eV) than its VB (-5.8
-eV)~\cite{Ochedowski_2014_contami_mos2,Das_2012_high_perform,Lu_2014_midgap_mos2},
-while graphene has symmetric linear band structure around its Dirac
-point (-4.6 eV)~\cite{Das_Sarma_2011_electron_gr}, all energy levels
-are compared with the vacuum level which is set at 0 eV.  Due to their
-close Fermi level values, little charge transfer occurs between
-graphene and MoS\textsubscript{2} under weak electric field, and the degree of charge
-transfer is mainly determined by the position of the Fermi level with
-respect to the CB or VB of MoS\textsubscript{2}. Following the same procedure, we
-calculated the dipole moment (\worktodo{Figure} 6(c)), and the charge density of
-the graphene layers (\worktodo{Figure} 6(d)) for a different number of layers at
-the G/MoS\textsubscript{2} interface. The results from the classical model show good
-consistency compared with the quantum mechanical ab initio
-calculations of dipole moment (\worktodo{Figure} 5(a)) and charge transfer
-(\worktodo{Figure} 5(b)): the charge redistribution is more pronounced with
-increased layer numbers of graphene and MoS\textsubscript{2}, and the MoS\textsubscript{2} layers
-contributes more to such effect than graphene. Note that for thicker
-graphene layers (e.g. 3L G/nL MoS\textsubscript{2}), a considerable amount of total
-dipole moment can still be observed under weak electric field ( ),
-when the charge transfer between graphene and MoS\textsubscript{2} is negligible (
-). This indicates that the electric field is well screened by
-multilayer graphene under such conditions, since the DOS of graphene
-is finite around the intrinsic Fermi level. The screening in the MoS\textsubscript{2}
-becomes more important only when the Fermi level reach the band edges,
-that is, when the DOS increases greatly. To verify such statement, we
-reconstructed the band diagram of 1L G/ 3L MoS\textsubscript{2} system under electric
-fields of -2 V/nm (\worktodo{Figure} 6(e)) and +2 V/nm (\worktodo{Figure} 6(f)). Under -2
-V/nm electric field, the Fermi level reaches the CB out the outermost
-MoS\textsubscript{2} layer, while under +2 V/nm electric field, the Fermi level
-remains within the band gap of MoS\textsubscript{2} and has very little shift from the
-Dirac point of graphene, in good accordance with the ab initio
-calculations showed in \worktodo{Figure} 5(d)-5(f). Charge accumulation occurs
-mostly on graphene and the outmost MoS\textsubscript{2} layer, due to the larger DOS
-of both layers.
+
 
 \subsection{Unifying classical and quantum approaches}
 \label{sec:asym-unify}
