@@ -178,9 +178,10 @@ membrane remain constant without gating.
 
 Next, we carried out the same experiments using the PG-covered PCTE
 membrane (PG-PCTE), without electrostatic gating. The measured
-diffusive flux values, $\symbfol{J}_{\mathrm{PG0}}$, remain at the
+diffusive flux values, $\symbf{J}_{\mathrm{PG0}}$, remain at the
 same order of magnitude compared with $\mathbf{J}_{\mathrm{PCT}}$.
 %
+\worktodo{figure?}
 Such results suggest that the transport resistance of PCTE membrane
 $R_{\mathrm{PCTE}}$ is dominant over that of PG without gating,
 $R_{\mathrm{G}}^{0}$.
@@ -192,25 +193,71 @@ can be estimated from experimental measurements:
   \label{eq:np-resist-ratio}
   \delta = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
   = \left(\frac{\symbf{J}_{\mathrm{PCTE}}}{\symbf{J}_{\mathrm{PG0}}} -1 \right)^{-1}
-  \end{equation}%
-  \worktodo{figure ?}  which gives $\delta$ in the range of $1\sim{}5$
-  depending on the type of salt.
-  %
+\end{equation}%
+\worktodo{figure ?}  which gives $\delta$ in the range of $1\sim{}5$
+depending on the type of salt.
+%
+On the other hand, the transport resistances in both PCTE and PG films without gating can be estimated using geometric parameters.
+% The theoretical diffusive fluxes through pores in PCTE are obtained
+% using cylindrical pore model with uniform diameter and a low
+% tortuosity $\tau \sim{} 1.2$ \cite{O_Hern_2012_defect}:
+% \begin{equation}
+%   \label{eq:np-j-pcte}
+%   \symbf{J}_{\mathrm{PCTE}} = \frac{\pi r_{\mathrm{PCTE}}^{2} N_{\mathrm{p}} D_{\mathrm{\pm}} \Delta c}{L \tau}
+% \end{equation}
+% {where $r_{\mathrm{PCTE}}=$ \unit[200]{nm} is the average PCTE pore radius, $N_{\mathrm{p}} =$ \unit[$1.5\cdot10^{12}$]{m$^{-2}$}) is
+%   the numbers density of pores per area, $\mathcal{D}_{\mathrm{\pm}}$ is the average salt diffusive, $\Delta c$ is the bulk concentration difference cross the membrane, \ie
+%   $\Delta c \sim c_{0}$ and $L =$ \unit[24]{μm} is the thickness of the PCTE membrane.
+%   %
+For a long PCTE channel with length $L$ and $r_{\mathrm{PCTE}}$,
+$R_{\mathrm{PCTE}}$ has power law of $L/r_{\mathrm{PCTE}}^{2}$ from
+Fick's law of diffusion, while for a graphene pore with radius
+$r_{\mathrm{G}}$ and vanishing thickness, the resistance of individual
+pore $R_{\mathrm{g}}^{0}$ has power law $1/r_{\mathrm{G}}$
+\cite{O_Hern_2014}:
+\begin{subequations}
+\begin{eqnarray}
+  \label{eq:np-R-both}
+  R_{\mathrm{PCTE}} &= &k_{\mathrm{PCTE}} \frac{L}{r_{\mathrm{PCTE}}^{2}} \\
+  R_{\mathrm{g}}^{0} &= &k_{\mathrm{g}} \frac{1}{r_{\mathrm{G}}}
+\end{eqnarray}
+\end{subequations}
+where $k_{\mathrm{PCTE}}$ and $k_{\mathrm{g}}$ are the coefficient
+associated with PCTE and PG membranes, respectively. The value of
+$\delta$ is then expressed as:
+\begin{equation}
+  \label{eq:np-delta-resistance}
+  \delta
+  = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
+  = {\displaystyle
+    \frac{k_{\mathrm{PCTE}}}{k_{\mathrm{g}}}
+    \frac{L r_{\mathrm{G}} \gamma}
+        {r_{\mathrm{PCTE}}^{2}}}
+\end{equation}
+Here we take $L$=24 $\mu$m, $r_{\mathrm{G}}$=10 nm,
+$r_{\mathrm{PCTE}}$=200 nm. From simple Fick's law, the coefficient
+$k_{\mathrm{PCTE}}$ is determined as $1/(D_{\mathrm{\pm}} \pi)$. On
+the other hand $k_{\mathrm{G}}$ is taken as $3 \pi / D_{\mathrm{\pm}}$
+using the analog of the Sampson formula for
+fluid\cite{Roscoe_1949_sampson_formula}. As a result the theoretical
+value of $\delta$ has lower bound of $\sim$2.2, close to the values
+extracted from experimental data.
+
   
 
 
-Using a simple circuit model, we estimate the
-ratio $\delta$ between $R_{\mathrm{G}}^{0}$ and $R_{\mathrm{PCTE}}$,
-i.e., $\delta = R_{\mathrm{PCTE}}/R_{\mathrm{G}}^{0}$, to be
-$\sim$2.2, which is in good agreement with the value derived from the
-experimental data in \autoref{fig:np-2}b (details see Supplementary
-Section \autoref{SI-sec:np-R-model}).
+% Using a simple circuit model, we estimate the
+% ratio $\delta$ between $R_{\mathrm{G}}^{0}$ and $R_{\mathrm{PCTE}}$,
+% i.e., $\delta = R_{\mathrm{PCTE}}/R_{\mathrm{G}}^{0}$, to be
+% $\sim$2.2, which is in good agreement with the value derived from the
+% experimental data in \autoref{fig:np-2}b (details see Supplementary
+% Section \autoref{SI-sec:np-R-model}).
 % \todo[inline]{Make sure that the
   % values used are correct.}
 
 
-\subsection{Salt rejection induced by electrostatic gating}
-\label{sec:np-res-2}
+% \subsection{Salt rejection induced by electrostatic gating}
+% \label{sec:np-res-2}
 
 We next discuss the effects of electrostatic gating on graphene. 
 { Electrostatic gating has been employed previously to alter the 
@@ -248,11 +295,11 @@ to the decrease of total diffusive flux through PG-PCTE as follows:
 \begin{equation}
   \label{eq:np-rejection}
   \eta = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\symbfol{J}_{\mathrm{PG0}}
-    - \symbfol{J}_{\mathrm{PG}}(V_{\mathrm{G}})}{\symbfol{J}_{\mathrm{PG0}}}
+    - \symbf{J}_{\mathrm{PG}}(V_{\mathrm{G}})}{\symbfol{J}_{\mathrm{PG0}}}
 \end{equation}
 where $\bar{s}$ is the average slope of $s_{1}$ and $s_{3}$, namely
 $(s_{1} + s_{3})/2$, and
-$\symbfol{J}_{\mathrm{PG}}(V_{\mathrm{G}})$ is the diffusive flux
+$\symbf{J}_{\mathrm{PG}}(V_{\mathrm{G}})$ is the diffusive flux
 across the PTCE-supported PG double layer as a function of
 $V_{\mathrm{G}}$. Since graphene and PCTE membranes effectively form a
 transport system with series diffusive resistance $R_{\mathrm{G}}$
@@ -318,7 +365,7 @@ given by \cite{MacGillivray_1968_NPE}:
   \label{eq:np-pnp}
   \nabla \cdot \symbfol{J}_{i} = -\nabla \cdot (\frac{D_{i}}{k_{\mathrm{B}}T} c_{i} N_{\mathrm{A}} \nabla \mu_{i}) = 0
 \end{equation}
-where $\symbfol{J}$ is the mass flux, subscript \textit{i}
+where $\symbf{J}$ is the mass flux, subscript \textit{i}
 corresponds to the ionic species (anion or cation), $D$ is the diffusivity,
 $k_{\mathrm{B}}$ is the Boltzmann constant, $T$ is temperature, $c$ is
 the molar concentration, $N_{\mathrm{A}}$ is the Avogadro constant,
@@ -482,10 +529,10 @@ transport pathways upon applying a positive $V_{\mathrm{G}}$: pore
 center for cations and pore edge for anions.  \autoref{fig:np-4}c
 presents the calculated \textit{z}-component of the cation and anion
 fluxes through the pore at the graphene plane (z = 0),
-$\symbfol{J}_{z}$ ,as a function of the normalized radius,
+$\symbf{J}_{z}$ ,as a function of the normalized radius,
 $r/r_{\mathrm{G}}$ , where $r$ is the radial coordinate and
 $r_{\mathrm{G}}$ is the pore radius, at different $V_{\mathrm{G}}$
-values. Note that $\symbfol{J}_{z}$ is negative because the LCR is
+values. Note that $\symbf{J}_{z}$ is negative because the LCR is
 placed at z$<$0 in the simulation box. At $V_{\mathrm{G}}$ = 0 (pure
 diffusion), the anion and cation flux profiles are identical, with a
 higher flux near the pore edge, which is expected, as the
@@ -494,7 +541,7 @@ $V_{\mathrm{G}}$, both fluxes are reduced throughout the pore, while
 the degree of reduction is more pronounced at the pore edge for the
 cation, and at the pore center for the anion, following the scenarios
 we discussed above. Accordingly, the integrated fluxes across the
-pore, $|\symbfol{J}_{z}|$, are reduced with $V_{\mathrm{G}}$
+pore, $|\symbf{J}_{z}|$, are reduced with $V_{\mathrm{G}}$
 ( \autoref{fig:np-4}d). A total flux reduction of $\sim$90\% is
 predicted. Another interesting finding here is that, by increasing
 $V_{\mathrm{G}}$, the nanopore transport preferentially allows cations
@@ -858,17 +905,17 @@ simulations. All authors contributed to writing and discussion.
     function of time. The slope of conductivity-time curve when
     $V_{\mathrm{G}}>0$ is interpolated, is smaller than that without
     gating. \textbf{b}. Molar diffusive flux through bare PCTE (blue
-    bars: experimental, $\symbfol{J}_{\mathrm{PCTE}}$ Exp.; red
-    bars: model values, $\symbfol{J}_{\mathrm{PCTE}}$
+    bars: experimental, $\symbf{J}_{\mathrm{PCTE}}$ Exp.; red
+    bars: model values, $\symbf{J}_{\mathrm{PCTE}}$
     ( \autoref{eq:np-j-pcte})) and PG+PCTE
-    ($\symbfol{J}_{\mathrm{PG0}}$ Exp.; green bars) membranes for
+    ($\symbf{J}_{\mathrm{PG0}}$ Exp.; green bars) membranes for
     different salts. \textcolor{blue}{The error bars for
-      $\symbfol{J}_{\mathrm{PCTE}}$ Exp. were estimated by the
+      $\symbf{J}_{\mathrm{PCTE}}$ Exp. were estimated by the
       standard deviation of three consecutive measurements. The error bars
-      for $\symbfol{J}_{\mathrm{PCTE}}$ ( \autoref{eq:np-j-pcte})
+      for $\symbf{J}_{\mathrm{PCTE}}$ ( \autoref{eq:np-j-pcte})
       correspond to the calculated maximum and minimum ion flux values
       using the membrane parameters provided by the vendor. The error
-      bars for $\symbfol{J}_{\mathrm{PG0}}$ Exp. were estimated by
+      bars for $\symbf{J}_{\mathrm{PG0}}$ Exp. were estimated by
       the standard deviation of the ion fluxes in the first interval
       during the gating experments.)}  \textbf{c}. Experimentally
     measured salt rejection factor $\xi$ as a function of
@@ -913,7 +960,7 @@ simulations. All authors contributed to writing and discussion.
     reference of electrochemical potential is set in the HCR far from
     the graphene layer. The diffusive pathways for both ions are
     indicated by the arrows. \textbf{c}. Calculated z-component of
-    diffusive fluxes $\symbfol{J}_{z}$ for cation (left) and anion
+    diffusive fluxes $\symbf{J}_{z}$ for cation (left) and anion
     (right) through the pore as functions of the relative position
     inside the pore, considering different levels of $V_{\mathrm{G}}$
     applied. \textbf{d}. Calculated z-components of cation, anion, and
