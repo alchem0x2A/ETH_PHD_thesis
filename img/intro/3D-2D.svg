@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="652.37597"
+     inkscape:cx="554.87597"
      inkscape:cy="330.41314"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,12 +62,12 @@
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/3D-2D-1.png"
        xlink:href="screenshot/3D-2D-1.png"
-       width="159.45555"
-       height="106.61273"
-       preserveAspectRatio="none"
-       id="image909"
+       y="0.35168311"
        x="0.7811504"
-       y="0.35168311" />
+       id="image909"
+       preserveAspectRatio="none"
+       height="106.61273"
+       width="159.45555" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        id="rect912"
@@ -109,7 +109,7 @@
          id="tspan920"
          x="4.1577373"
          y="6.7142792"
-         style="stroke-width:0.26458332">\large \bfseries a</tspan></text>
+         style="stroke-width:0.26458332">\Lsize \bfseries a</tspan></text>
     <text
        id="text926"
        y="6.7142792"
@@ -120,7 +120,7 @@
          y="6.7142792"
          x="107.34521"
          id="tspan924"
-         sodipodi:role="line">\large \bfseries b</tspan></text>
+         sodipodi:role="line">\Lsize \bfseries b</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        id="rect928"
@@ -138,7 +138,7 @@
          id="tspan930"
          x="14.956347"
          y="66.613663"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">\small 1L</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">1L</tspan></text>
     <text
        id="text936"
        y="63.967827"
@@ -149,7 +149,7 @@
          y="63.967827"
          x="28.714682"
          id="tspan934"
-         sodipodi:role="line">\small 2L</tspan></text>
+         sodipodi:role="line">2L</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -160,7 +160,7 @@
          id="tspan938"
          x="43.002182"
          y="56.559486"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">\small $\geq$3L</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">$\geq$3L</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -171,7 +171,7 @@
          id="tspan942"
          x="130.50201"
          y="69.751724"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">\small 1L</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">1L</tspan></text>
     <text
        id="text948"
        y="59.697548"
@@ -182,47 +182,47 @@
          y="59.697548"
          x="147.96449"
          id="tspan946"
-         sodipodi:role="line">\small $\geq$2L</tspan></text>
+         sodipodi:role="line">$\geq$2L</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="109.79989"
+       x="115.62072"
        y="39.060043"
        id="text952"><tspan
          sodipodi:role="line"
          id="tspan950"
-         x="109.79989"
+         x="115.62072"
          y="39.060043"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">1L</tspan></text>
     <text
        id="text956"
        y="21.597542"
-       x="109.86449"
+       x="115.6853"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
          y="21.597542"
-         x="109.86449"
+         x="115.6853"
          id="tspan954"
          sodipodi:role="line">2L</tspan></text>
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/gr-rubre.png"
        xlink:href="screenshot/gr-rubre.png"
-       width="59.105461"
-       height="46.97633"
-       preserveAspectRatio="none"
-       id="image1119"
+       y="106.96442"
        x="101.13123"
-       y="106.96442" />
+       id="image1119"
+       preserveAspectRatio="none"
+       height="46.97633"
+       width="59.105461" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/rubrene-scheme.png"
        xlink:href="screenshot/rubrene-scheme.png"
-       width="84.500122"
-       height="70.971237"
-       preserveAspectRatio="none"
-       id="image1130"
+       y="103.78941"
        x="0.7811504"
-       y="103.78941" />
+       id="image1130"
+       preserveAspectRatio="none"
+       height="70.971237"
+       width="84.500122" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        id="rect1371"

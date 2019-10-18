@@ -12,9 +12,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="dos.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   width="373.43817pt"
-   height="206.56096pt"
-   viewBox="0 0 131.74069 72.870116"
+   width="375.82965pt"
+   height="203.884pt"
+   viewBox="0 0 132.58435 71.925745"
    version="1.1"
    id="svg29510">
   <sodipodi:namedview
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.91380589"
-     inkscape:cx="119.50942"
-     inkscape:cy="-55.689022"
+     inkscape:zoom="1.8276118"
+     inkscape:cx="116.02522"
+     inkscape:cy="133.33694"
      inkscape:document-units="mm"
-     inkscape:current-layer="g33449"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="pt"
      inkscape:window-width="1440"
@@ -40,7 +40,8 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-bbox="true" />
+     inkscape:snap-bbox="true"
+     showguides="false" />
   <defs
      id="defs29504">
     <linearGradient
@@ -340,7 +341,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(1.3380484,-195.48488)"
+     transform="translate(1.4703401,-196.85111)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -437,7 +438,7 @@
          id="tspan31310"
          x="-0.88194424"
          y="201.92635"
-         style="stroke-width:0.26458332">\large \bfseries a</tspan></text>
+         style="stroke-width:0.26458332">\Lsize \bfseries a</tspan></text>
     <text
        id="text31316"
        y="201.92635"
@@ -448,7 +449,7 @@
          y="201.92635"
          x="68.445412"
          id="tspan31314"
-         sodipodi:role="line">\large \bfseries b</tspan></text>
+         sodipodi:role="line">\Lsize \bfseries b</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ba7000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -464,9 +465,9 @@
        id="text32474"
        y="252.35983"
        x="28.125713"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00719d;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00719d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00719d;fill-opacity:1;stroke-width:0.26458332;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00719d;fill-opacity:1;stroke-width:0.26458332"
          y="252.35983"
          x="28.125713"
          id="tspan32472"

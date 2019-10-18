@@ -50,8 +50,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="300.88673"
-     inkscape:cy="104.04541"
+     inkscape:cx="105.92729"
+     inkscape:cy="265.66982"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -85,33 +85,33 @@
      transform="translate(-0.67867899,0.20448376)">
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/QD-gr.png"
-       y="-0.20448153"
-       x="72.900673"
-       id="image7049"
-       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/QD-gr.png"
-       preserveAspectRatio="none"
+       xlink:href="screenshot/QD-gr.png"
+       width="87.579643"
        height="88.196404"
-       width="87.579643" />
+       preserveAspectRatio="none"
+       id="image7049"
+       x="72.900673"
+       y="-0.20448153" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/nanomesh.png"
-       y="-0.20448376"
-       x="0.67867899"
-       id="image7060"
-       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/nanomesh.png"
-       preserveAspectRatio="none"
+       xlink:href="screenshot/nanomesh.png"
+       width="63.5378"
        height="56.229458"
-       width="63.5378" />
+       preserveAspectRatio="none"
+       id="image7060"
+       x="0.67867899"
+       y="-0.20448376" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/iannuzzi.png"
-       y="53.618217"
-       x="-276.45694"
-       id="image7219"
-       xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/intro/screenshot/iannuzzi.png"
-       preserveAspectRatio="none"
-       height="177.8"
-       width="261.05557"
+       xlink:href="screenshot/iannuzzi.png"
+       transform="matrix(0,-0.37267099,0.35440732,0,-17.623534,19.034744)"
        clip-path="url(#clipPath7232)"
-       transform="matrix(0,-0.37267099,0.35440732,0,-17.623534,19.034744)" />
+       width="261.05557"
+       height="177.8"
+       preserveAspectRatio="none"
+       id="image7219"
+       x="-276.45694"
+       y="53.618217" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7236"
@@ -129,7 +129,7 @@
          id="tspan7238"
          x="1.0690765"
          y="4.8743978"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">\large\bfseries a</tspan></text>
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">\Lsize\bfseries a</tspan></text>
     <text
        id="text7244"
        y="4.8743978"
@@ -140,6 +140,6 @@
          y="4.8743978"
          x="74.09407"
          id="tspan7242"
-         sodipodi:role="line">\large\bfseries b</tspan></text>
+         sodipodi:role="line">\Lsize\bfseries b</tspan></text>
   </g>
 </svg>

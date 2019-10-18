@@ -105,17 +105,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="335.2709"
-     inkscape:cy="-197.46367"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="216.84333"
+     inkscape:cy="197.50543"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="pt"
      inkscape:window-width="1440"
      inkscape:window-height="878"
-     inkscape:window-x="41"
-     inkscape:window-y="0"
+     inkscape:window-x="85"
+     inkscape:window-y="241"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -173,7 +173,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -192,7 +192,7 @@
          id="tspan26237"
          x="-12.899026"
          y="67.289124"
-         style="stroke-width:0.25080937"></tspan></text>
+         style="stroke-width:0.25080937" /></text>
     <g
        id="g26285"
        transform="matrix(2.227953,0,0,2.227953,41.19087,122.61755)">
@@ -278,7 +278,7 @@
            y="46.125526"
            x="17.489843"
            id="tspan26221"
-           sodipodi:role="line">\small Quality</tspan></text>
+           sodipodi:role="line">Quality</tspan></text>
       <path
          id="path29256"
          d="m 17.536353,48.915269 l 4.285879,9.263149 l 3.502193,11.978927 h -15.5761447 l -0.7138793,-13.552523 z"
@@ -303,7 +303,7 @@
            y="55.222477"
            x="30.313408"
            id="tspan26229"
-           sodipodi:role="line">\small Size</tspan></text>
+           sodipodi:role="line">Size</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777386px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -311,10 +311,10 @@
          y="55.225887"
          id="text26235"><tspan
            sodipodi:role="line"
-           x="4.6424303"
+           x="4.6424308"
            y="55.225887"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26673329px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke-width:0.26458332"
-           id="tspan28822">\shortstack{\small Layer Control}</tspan></text>
+           id="tspan28822">\shortstack{Layer Control}</tspan></text>
       <text
          id="text26259"
          y="70.060448"
@@ -325,7 +325,7 @@
            y="70.060448"
            x="9.6287889"
            id="tspan26257"
-           sodipodi:role="line">\small Scalability</tspan></text>
+           sodipodi:role="line">Scalability</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777386px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -336,7 +336,7 @@
            id="tspan26225"
            x="25.256008"
            y="70.060448"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26673329px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke-width:0.26458332">\small Low Cost</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26673329px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;stroke-width:0.26458332">Low Cost</tspan></text>
     </g>
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/3D/scheme_cvd_output.png0001.png"
@@ -401,7 +401,7 @@
          id="tspan29281"
          x="1.6195999"
          y="4.8446856"
-         style="stroke-width:0.26458332">\large \bfseries a</tspan></text>
+         style="stroke-width:0.26458332">\Lsize \bfseries a</tspan></text>
     <path
        style="fill:none;stroke:#ff7d1c;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 107.95016,28.089797 h -14.774497 v 7.23777 h -11.385105"
@@ -428,7 +428,7 @@
          y="4.8446856"
          x="109.04043"
          id="tspan29285"
-         sodipodi:role="line">\large \bfseries b</tspan></text>
+         sodipodi:role="line">\Lsize \bfseries b</tspan></text>
     <text
        id="text29291"
        y="77.340515"
@@ -439,7 +439,7 @@
          y="77.340515"
          x="1.6195999"
          id="tspan29289"
-         sodipodi:role="line">\large \bfseries c</tspan></text>
+         sodipodi:role="line">\Lsize \bfseries c</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -450,7 +450,7 @@
          id="tspan29293"
          x="109.04043"
          y="77.340515"
-         style="stroke-width:0.26458332">\large \bfseries d</tspan></text>
+         style="stroke-width:0.26458332">\Lsize \bfseries d</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"

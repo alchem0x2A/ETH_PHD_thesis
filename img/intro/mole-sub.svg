@@ -50,7 +50,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="353.25385"
+     inkscape:cx="158.29441"
      inkscape:cy="98.515393"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -118,47 +118,47 @@
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/Kim2.png"
        xlink:href="screenshot/Kim2.png"
-       transform="matrix(1.1139714,0,0,1.1139714,-0.04569162,-16.249104)"
-       clip-path="url(#clipPath6083)"
-       width="63.300434"
-       height="37.867939"
-       preserveAspectRatio="none"
-       id="image6003"
+       y="166.26334"
        x="85.53698"
-       y="166.26334" />
+       id="image6003"
+       preserveAspectRatio="none"
+       height="37.867939"
+       width="63.300434"
+       clip-path="url(#clipPath6083)"
+       transform="matrix(1.1139714,0,0,1.1139714,-0.04569162,-16.249104)" />
     <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/Kim_1.jpg"
        xlink:href="screenshot/Kim_1.jpg"
-       transform="matrix(1.1139714,0,0,1.1139714,0.67469612,-16.249106)"
-       clip-path="url(#clipPath6079)"
-       width="57.36562"
-       height="54.020321"
-       preserveAspectRatio="none"
-       style="image-rendering:optimizeQuality"
-       id="image6014"
+       y="146.1875"
        x="87.13752"
-       y="146.1875" />
+       id="image6014"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="54.020321"
+       width="57.36562"
+       clip-path="url(#clipPath6079)"
+       transform="matrix(1.1139714,0,0,1.1139714,0.67469612,-16.249106)" />
     <g
        id="g6061"
        transform="matrix(1.1139714,0,0,1.1139714,-0.04569162,-16.249104)">
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/nguyen_deposition.png"
          xlink:href="screenshot/nguyen_deposition.png"
-         y="148.00177"
-         x="6.6890087"
-         id="image6025"
-         preserveAspectRatio="none"
+         width="70.644753"
          height="26.609526"
-         width="70.644753" />
+         preserveAspectRatio="none"
+         id="image6025"
+         x="6.6890087"
+         y="148.00177" />
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/intro/screenshot/scheme_nguyen.png"
          xlink:href="screenshot/scheme_nguyen.png"
-         y="174.6113"
-         x="6.6890087"
-         id="image6036"
-         preserveAspectRatio="none"
+         width="70.34626"
          height="29.885275"
-         width="70.34626" />
+         preserveAspectRatio="none"
+         id="image6036"
+         x="6.6890087"
+         y="174.6113" />
       <rect
          y="189.74925"
          x="9.0714283"
@@ -240,7 +240,7 @@
          id="tspan6120"
          x="33.007103"
          y="205.75777"
-         style="stroke-width:0.29473826">\tiny PEN</tspan></text>
+         style="stroke-width:0.29473826">\Ssize PEN</tspan></text>
     <text
        id="text6126"
        y="210.47351"
@@ -251,7 +251,7 @@
          y="210.47351"
          x="33.007103"
          id="tspan6124"
-         sodipodi:role="line">\tiny Graphene</tspan></text>
+         sodipodi:role="line">\Ssize Graphene</tspan></text>
     <text
        id="text6130"
        y="205.75777"
@@ -262,18 +262,15 @@
          y="205.75777"
          x="57.175644"
          id="tspan6128"
-         sodipodi:role="line">\tiny SAM</tspan></text>
+         sodipodi:role="line">\Ssize SAM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29473826"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92994457px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29473826;"
        x="57.175644"
        y="210.47351"
        id="text6134"><tspan
          sodipodi:role="line"
-         id="tspan6132"
-         x="57.175644"
-         y="210.47351"
-         style="stroke-width:0.29473826">\tiny Hydroxyl groups</tspan></text>
+         id="tspan862">\Ssize Hydroxyl groups</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -290,7 +287,7 @@
          id="tspan6088"
          x="19.908243"
          y="12.300835"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.29473826">\small Hydrophobic</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.29473826">Hydrophobic</tspan></text>
     <text
        id="text6096"
        y="12.300835"
@@ -301,7 +298,7 @@
          y="12.300835"
          x="47.297947"
          id="tspan6094"
-         sodipodi:role="line">\small Neutral</tspan></text>
+         sodipodi:role="line">Neutral</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29473826"
@@ -312,7 +309,7 @@
          id="tspan6104"
          x="73.824394"
          y="12.300835"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.29473826">\small Hydrophilic</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.29473826">Hydrophilic</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92984343px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29473826"
@@ -323,7 +320,7 @@
          id="tspan6108"
          x="0.40090424"
          y="7.3075304"
-         style="stroke-width:0.29473826">\large \bfseries a</tspan></text>
+         style="stroke-width:0.29473826">\Lsize\bfseries a</tspan></text>
     <text
        id="text6114"
        y="7.3075304"
@@ -334,7 +331,7 @@
          y="7.3075304"
          x="92.359245"
          id="tspan6112"
-         sodipodi:role="line">\large \bfseries b</tspan></text>
+         sodipodi:role="line">\Lsize \bfseries b</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.29473826;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        id="rect6116"
@@ -359,7 +356,7 @@
          y="10.964487"
          x="165.64159"
          id="tspan6246"
-         sodipodi:role="line">\footnotesize Density profile</tspan></text>
+         sodipodi:role="line">Density profile</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92994452px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29473826"
@@ -370,6 +367,6 @@
          id="tspan6250"
          x="165.54948"
          y="52.239494"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92994452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.29473826">\footnotesize Electron microscopy</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.92994452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.29473826">Electron microscopy</tspan></text>
   </g>
 </svg>

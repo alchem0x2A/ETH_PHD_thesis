@@ -195,8 +195,15 @@ Extension=.otf,
 % \setmathsf{Fira Math}
 % Define the font and appearance each picture environment
 \usepackage{etoolbox}
-\AtBeginEnvironment{picture}{\sffamily\fontsize{10}{12.0}
-  \selectfont\mathversion{sansmath}}
+\usepackage{relsize}
+% Base fontsize -> 9pt
+% Define a series of fontsize to match the mpl size
+\newcommand*\msize{\sffamily\fontsize{9.0}{10.8}\selectfont} % x-large
+\newcommand*\lsize{\sffamily\fontsize{10.8}{12.96}\selectfont} % large size in mpl
+\newcommand*\Lsize{\sffamily\fontsize{12.96}{15.52}\selectfont} % x-large
+\newcommand*\ssize{\sffamily\fontsize{7.5}{9.0}\selectfont} % small
+\newcommand*\Ssize{\sffamily\fontsize{6.246}{7.5}\selectfont} % small
+\AtBeginEnvironment{picture}{\msize\mathversion{sansmath}}
 \AtBeginEnvironment{pgfpicture}{\mathversion{sansmath}}
 
 

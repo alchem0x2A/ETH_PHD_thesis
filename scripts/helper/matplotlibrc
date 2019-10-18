@@ -83,7 +83,7 @@ lines.linewidth   : 1.0     ## line width in points
 # lines.markerfacecolor  : auto    ## the default markerfacecolor
 # lines.markeredgecolor  : None    ## the default markeredgecolor
 #lines.markeredgewidth  : 1.0     ## the line width around the marker symbol
- lines.markersize  : 4            ## markersize, in points
+lines.markersize  : 4            ## markersize, in points
 #lines.dash_joinstyle : round        ## miter|round|bevel
 #lines.dash_capstyle : butt          ## butt|round|projecting
 #lines.solid_joinstyle : round       ## miter|round|bevel
@@ -205,7 +205,7 @@ font.family         : sans-serif
 ## settings for axes and ticks. Special text sizes can be defined
 ## relative to font.size, using the following values: xx-small, x-small,
 ## small, medium, large, x-large, xx-large, larger, or smaller
-font.size           : 10
+font.size           : 9
 font.serif          : Palatino, Times New Roman, DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Charter, serif
 font.sans-serif     : Verdana, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 #font.cursive        : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, cursive
@@ -293,10 +293,10 @@ text.usetex         : True  ## use latex for all text handling. The following fo
 #axes.grid           : False   ## display grid or not
 #axes.grid.axis      : both    ## which axis the grid should apply to
 #axes.grid.which     : major   ## gridlines at major, minor or both ticks
-axes.titlesize      : large   ## fontsize of the axes title
+axes.titlesize      : medium   ## fontsize of the axes title
 axes.titleweight    : normal  ## font weight of title
 axes.titlepad       : 4.0     ## pad between axes and title in points
-axes.labelsize      : large  ## fontsize of the x any y labels
+axes.labelsize      : medium  ## fontsize of the x any y labels
 axes.labelpad       : 4.0     ## space between label and axis
 axes.labelweight    : normal  ## weight of the x and y labels
 #axes.labelcolor     : black
