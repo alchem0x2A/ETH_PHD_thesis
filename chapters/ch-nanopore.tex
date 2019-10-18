@@ -37,7 +37,7 @@ field-effect transistors \cite{Nam_2009_IFET_sub10nm}, desalination
 \cite{Heiranian_2015_desali}, and nanopore-based DNA sequencing
 \cite{Heerema_2016_gr_np_DNA,Garaj_2013_hugging_gr_pore}.
 %
-In this sense, atomically thin 2D material are not only attractive due
+In this sense, atomically thin 2D material are not only promising due
 to their unique electronic properties, but also as the thinnest
 membrane materials allowing ultimate permeation when combining with
 nanopores
@@ -147,7 +147,7 @@ uniformly-distributed nanopores over large area up to 25 cm$^{2}$
 %
 The pores perforated on graphene have average pore diameters of
 20$\pm$10 nm and a high pore density of 1.25$\pm$0.25$\times$10$^{10}$
-cm$^{-2}$, corresponding to an average inter-pore distance of
+cm$^{-2}$, corresponding to an average inter\-pore distance of
 $90\pm10$ nm  (\autoref{fig:np-1}c inset).
 %
 By optimizing the subsequent transfer
@@ -259,43 +259,56 @@ extracted from experimental data.
 % \subsection{Salt rejection induced by electrostatic gating}
 % \label{sec:np-res-2}
 
-We next discuss the effects of electrostatic gating on graphene. 
-{ Electrostatic gating has been employed previously to alter the 
-ion permeation through nanoporous structures. For example, an applied bias on a mesoporous 
-carbon membrane, having pores of $<$\unit[5]{nm}, allows to stop the 
-ion flux once the Debye length of the solution approaches the pore size \cite{Surwade_2014_carbon_electrochemical_ion}. 
-Similar experiments using nanoporous gold membranes, however, find that the cation and anion 
-transport is enhanced upon applying a bias \cite{Mccurry_2017_electrolyte_porus_gold}. While the former behavior 
-was ascribed to the depletion of the channel from ions upon gating, the latter was a result of enhanced transport
-by dominating drift currents.}
+We next study the effect of electrostatic gating on nanoporous graphene. 
+% { Electrostatic gating has been employed previously to alter the 
+% ion permeation through nanoporous structures. For example, an applied bias on a mesoporous 
+% carbon membrane, having pores of $<$\unit[5]{nm}, allows to stop the 
+% ion flux once the Debye length of the solution approaches the pore size \cite{Surwade_2014_carbon_electrochemical_ion}. 
+% Similar experiments using nanoporous gold membranes, however, find that the cation and anion 
+% transport is enhanced upon applying a bias \cite{Mccurry_2017_electrolyte_porus_gold}. While the former behavior 
+% was ascribed to the depletion of the channel from ions upon gating, the latter was a result of enhanced transport
+% by dominating drift currents.}
+In order to consider the background diffusion when no gate voltage is
+applied, we apply the ``three-interval'' method, which has been used in
+controlling the membrane potential in mesoporous carbon membranes
+\cite{Surwade_2014_carbon_electrochemical_ion}.
+%
+\autoref{fig:np-2}a illustratively represents how the measured
+conductivity evolves with time, with the conditions summarized as
+follows:
+\begin{enumerate}
+\item First interval ($s_{1}$): $V_{\mathrm{G}} = 0$, conductivity probe on.
+  
+\item Second interval ($s_{2}$): $V_{\mathrm{G}} \neq 0$, conductivity probe off.
 
-
-In order to investigate the behavior in more detail, the ``three-interval'' method, which has been used
-in controlling the membrane potential in mesoporous carbon membranes
-\cite{Surwade_2014_carbon_electrochemical_ion}, is adopted here.  \autoref{fig:np-2}a
-illustratively represents how the measured conductivity evolves with
-time. Specifically, in the first interval, the gate voltage source is
-turned off and the conductivity probe is on, allowing us to obtain the
-conductivity-time profile with an average slope $s_{1}$ that
-corresponds to the diffusive flux across the PG-PCTE membrane. In the
-second interval, a voltage $V_{\mathrm{G}}$ is applied to the membrane
-after turning off the conductivity probe, followed by the third
-interval $s_{3}$, in which the conductivity probe is turned on again
-to give the corresponding slope. A control experiment was performed to
-ensure the copper tape was not in direct contact with the ionic
-solution (Supplementary Section \autoref{SI-sec:np-copper}). The slope
-corresponding to the second interval $s_{2}$, as the conductivity
-probe is off, is determined by linear interpolation of the
-conductivities from the endpoint of interval 1 to the starting point
-of interval 3. A decrease of slope observed in interval 2 indicates
-that the total flux through PG-PCTE is reduced upon gating (i.e. salt
-penetration through the PG pores is hindered). We define such
-experimentally measured reduction rate as $\eta$, which is equivalent
-to the decrease of total diffusive flux through PG-PCTE as follows:
+  \item First interval ($s_{3}$): $V_{\mathrm{G}} = 0$, conductivity probe on.
+\end{enumerate}
+Specifically, in the first interval,
+the gate voltage source is turned off and the conductivity probe is
+on, allowing us to obtain the conductivity-time profile with an
+average slope $s_{1}$ that corresponds to the diffusive flux across
+the PG-PCTE membrane. In the second interval, a voltage
+$V_{\mathrm{G}}$ is applied to the PG membrane after turning off the
+conductivity probe, followed by the third interval $s_{3}$, in which
+the conductivity probe is turned on again to give the corresponding
+slope. A control experiment was performed to ensure the copper tape
+was not in direct contact with the ionic solution.
+%
+The slope corresponding to the
+second interval $s_{2}$, as the conductivity probe is off, is
+determined by linear interpolation of the conductivities from the
+endpoint of interval 1 to the starting point of interval 3. A decrease
+of $s_{2}$ indicates that the total flux through
+PG-PCTE is reduced upon gating (\ie salt penetration through the PG
+pores is hindered).
+%
+We define such experimentally measured reduction
+rate as $\chi$, which is equivalent to the decrease of total diffusive
+flux through PG-PCTE as follows:
 \begin{equation}
   \label{eq:np-rejection}
-  \eta = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\symbfol{J}_{\mathrm{PG0}}
-    - \symbf{J}_{\mathrm{PG}}(V_{\mathrm{G}})}{\symbfol{J}_{\mathrm{PG0}}}
+  \chi = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\symbf{J}_{\mathrm{PG0}}
+    - \symbf{J}_{\mathrm{PG}}(V_{\mathrm{G}})}{\symbf{J}_{\mathrm{PG0}}}
 \end{equation}
 where $\bar{s}$ is the average slope of $s_{1}$ and $s_{3}$, namely
 $(s_{1} + s_{3})/2$, and
@@ -309,76 +322,87 @@ salt rejection from bare PG, $\xi$, as a function of $V_{\mathrm{G}}$ (
 details see Supplementary Section \autoref{SI-sec:np-R-model}) as:
 \begin{equation}
 \label{eq:np-xi-def}
-\xi = 1 - \frac{R_{\mathrm{G}}(V_{\mathrm{G}}=0)}{R_{\mathrm{G}}(V_{\mathrm{G}})} = \frac{(\delta+1) \eta}{\delta \eta + 1}
+\xi = 1 - \frac{R_{\mathrm{G}}(V_{\mathrm{G}}=0)}{R_{\mathrm{G}}(V_{\mathrm{G}})} = \frac{(\delta+1) \chi}{\delta \chi + 1}
 \end{equation}
 The factor $\xi$ is a reliable and stable measure of salt rejection
 through the PG membrane itself upon gating, as the salt species and
 initial conditions may induce a degree of measurement uncertainty
-between different samples. Note that the $\xi=1$ limit represents
-perfect salt rejection in which
+between different samples. Note the $\xi=1$ limit represents
+perfect salt rejection when
 $R_{\mathrm{G}}(V_{\mathrm{G}}) \to \infty$. On the contrary $\xi=0$
 indicates $R_{\mathrm{G}}$ remains unchanged with $V_{\mathrm{G}}$.
 
 Using 0.1 mM KCl solution in HCR, we obtained $\xi$ as a function of
 $V_{\mathrm{G}}$ within $\pm1.25$ V, before triggering the
-electrochemical reactions ( \autoref{fig:np-2}c). We observe an
+electrochemical reactions (\autoref{fig:np-2}c). We observe an
 asymmetric dependence of $\xi$ with respect to $V_{\mathrm{G}}$, with
-a higher degree of salt rejection for $V_{\mathrm{G}}>0$. where
-positive carriers (holes) are induced in graphene. We notice that an
+a higher degree of salt rejection for $V_{\mathrm{G}}>0$, when
+positive carriers (holes) are induced in graphene.
+%
+We notice that an
 increase of $\xi$, or a decrease of diffusive flux through PG with
 $V_{\mathrm{G}}$, shows an inverse trend compared with those
-observed in ionic field effect transistors (IFETs) in which the
-diffusive flux increases with the gate voltage
+observed in ionic field effect transistors, in which the
+diffusive flux instead increases with the gate voltage
 \cite{Nam_2009_IFET_sub10nm,Cheng_2018_gate_gox}. A further increase of the KCl
 concentration $c_{0}$ influences the obtainable degree of salt
-rejection. 
-{
-We note the small negative $\xi$ values (corresponding to reduced transport resistance) at $V_{\mathrm{G}} \sim{}$ -0.5 V
+rejection.
+%
+We note the small negative $\xi$ values (corresponding to reduced transport resistance) at $V_{\mathrm{G}} \sim{}$ -0.5 V also exist, which are
 likely caused by (i) offset of the charge neutral point (CNP) of graphene from $V_{\mathrm{G}}$ = 0, and (ii) experimental uncertainty.
 Nevetherless, significant salt rejection is observed when $V_{\mathrm{G}}>$ 0.5 V.
-}
-The $\xi$ values measured at $V_{\mathrm{G}}$ = 1.25 V,
+%
+The maximum $\xi$ values measured at $V_{\mathrm{G}}$ = 1.25 V,
 $\xi_{\mathrm{max}}$, as a function of $c_{0}$ from 10$^{-4}$ to
-10$^{-2}$ M KCl (see Supplementary Section \autoref{SI-sec:np-debye}) exhibit
-a power law dependency ( \autoref{fig:np-2}d). The
+10$^{-2}$ M KCl  exhibit
+a power law dependency (\autoref{fig:np-2}d).
+The
 $\xi_{\mathrm{max}}-c_{0}$ relation can be nicely fitted by a power
 law function following
-$\xi_{\mathrm{max}} c_{0}^{0.52} = \mathrm{constant}$. As the Debye
+$\xi_{\mathrm{max}} c_{0}^{0.52} = \mathrm{Constant}$. As the Debye
 length in solution, $\lambda_{\mathrm{D}}$, is inversely proportional
 to $c^{0.5}$, we infer that the $V_{\mathrm{G}}$-induced salt
 rejection originates from the modulation of the electrical double
 layer (EDL), as will be discussed later.
 
-\subsection{Self-consistent ion transport theory}
+\section{Theoretical Investigations}
+\label{sec:np-theor-invest}
+
+
+\subsection{Self-Consistent Ion Transport Theory}
 \label{sec:np-theory}
 
 In order to quantitatively understand the observed $V_{\mathrm{G}}$
-dependence, we develop a theory to model the coupling of graphene's
-elementary transport properties and EDL, in order to quantify the
-ionic transport through a graphene nanopore. Under the assumption that
-the time scale for the bulk concentration change is significantly
-longer than that of ionic diffusion, the pseudo-steady state
-approximation holds. Accordingly, the steady-state Nernst-Planck
-equation describing the ionic transport in an electrolyte solution is
-given by \cite{MacGillivray_1968_NPE}:
+dependence, a theoretical framework is proposed to simulate the
+coupling of graphene's elementary transport properties and EDL, in
+order to quantify the ionic transport through a graphene
+nanopore. Under the assumption that the time scale for concentration
+change in the bulk liquid is significantly longer than
+that of ionic diffusion, the pseudo-steady state approximation to use constant concentrations in both LCR and HCR, is valid.
+%
+Accordingly, the steady-state Nernst-Planck equation describing
+the ionic transport in an electrolyte solution is given by
+\cite{MacGillivray_1968_NPE}:
 \begin{equation}
   \label{eq:np-pnp}
-  \nabla \cdot \symbfol{J}_{i} = -\nabla \cdot (\frac{D_{i}}{k_{\mathrm{B}}T} c_{i} N_{\mathrm{A}} \nabla \mu_{i}) = 0
+  \nabla \cdot \symbf{J}_{i} = -\nabla \cdot (\frac{\mathcal{D}_{i}}{k_{\mathrm{B}}T} c_{i} N_{\mathrm{A}} \nabla \mu_{i}) = 0
 \end{equation}
-where $\symbf{J}$ is the mass flux, subscript \textit{i}
-corresponds to the ionic species (anion or cation), $D$ is the diffusivity,
-$k_{\mathrm{B}}$ is the Boltzmann constant, $T$ is temperature, $c$ is
-the molar concentration, $N_{\mathrm{A}}$ is the Avogadro constant,
-and $\mu_{i}$ is the electrochemical potential. Under the assumption
-of ideal solution, it follows \cite{Kilic_2007_steric_effect_ion}:
+where $\symbf{J}$ is the mass flux, index \textit{i} corresponds to
+the ionic species (anion or cation), $\mathcal{D}$ is the ion
+diffusivity, $k_{\mathrm{B}}$ is the Boltzmann constant, $T$ is
+temperature, $c$ is the molar concentration, $N_{\mathrm{A}}$ is the
+Avogadro constant, and $\mu$ is the electrochemical potential. Under
+the assumption of ideal solution, the electrochemical potential
+follows \cite{Kilic_2007_steric_effect_ion}:
 \begin{equation}
   \label{eq:np-mu}
   \nabla \mu_{i} = k_{\mathrm{B}} T \nabla \ln x_{i} + z_{i} e \nabla \psi
 \end{equation}
- $x$ is the molar fraction in solution, $z$ is the ionic valence,
-$e$ is the unit charge, and $\psi$ is the electric potential. On the
-other hand, the Poisson equation describing the electric potential
-distribution is given by:
+where $x$ is the molar fraction in solution, $z$ is the ionic valence,
+$e$ is the unit charge, and $\psi$ is the electric potential.
+%
+The potential profile in the system is described by the Poisson
+equation by:
 \begin{equation}
   \label{eq:np-poisson}
   \nabla \cdot (\varepsilon_{\mathrm{m}} \varepsilon_{0} \nabla \psi)
@@ -387,11 +411,15 @@ distribution is given by:
 \end{equation}
 where $\varepsilon_{\mathrm{m}}$ is the relative permittivity of
 individual materials in the system, including water and the internal
-Stern layer \worktodo{ref to wetting part}, and
-$\varepsilon_{0}$ is the vacuum permittivity. When applying
-$V_{\mathrm{G}}$ to graphene adjacent to the electrolyte solution,
-charges (electrons or holes) are induced in graphene; the
-electroneutrality of the entire system suggests:
+Stern layer \worktodo{ref to wetting part}, and $\varepsilon_{0}$ is
+the vacuum permittivity.
+%
+Note although the carrier concentration may not essentially follow the
+Poisson-Boltzmann distribution, due to the huge concentration different between the two reservoirs \worktodo{cite one}.
+%
+The graphene layer is electrostatically charged when
+applying $V_{\mathrm{G}}$ to graphene adjacent to the electrolyte
+solution; the electroneutrality of the entire system suggests:
 \begin{equation}
   \label{eq:np-electro-neutral}
   \sigma_{\mathrm{G}} S_{\mathrm{G}} + \sum_{i} \int_{\Omega} z_{i} c_{i} N_{\mathrm{A}} e \mathrm{d}^{3} \Omega= 0
@@ -400,10 +428,7 @@ where $\sigma_{\mathrm{G}}$ is the charge density in graphene,
 $S_{\mathrm{G}}$ is the total area of graphene, and $\Omega$
 corresponds to the entire volumetric domain of electrolyte
 solution. Note that the graphene surface potential,
-$\psi_{\mathrm{G}}$, is not equivalent to $V_{\mathrm{G}}$ due to
-change of graphene's work function upon charging, known as the
-graphene quantum capacitance effect\cite{Xia_2009_qc_measure} (
-\autoref{fig:np-3}a) following:
+$\psi_{\mathrm{G}}$, is not equivalent to $V_{\mathrm{G}}$ due to graphene's quantum capacitance (see \autoref{ch:qc}):
 \begin{equation}
   \label{eq:np-Vg}
   V_{\mathrm{G}} = \Delta \phi_{\mathrm{G}} + \psi_{\mathrm{G}}
@@ -411,175 +436,216 @@ graphene quantum capacitance effect\cite{Xia_2009_qc_measure} (
 where
 $\Delta \phi_{\mathrm{G}} = \phi_{\mathrm{G}}(V_{\mathrm{g}}) -
 \phi_{\mathrm{G}}(V_{\mathrm{g}}=0)$ is the change of graphene’s work
-function. The properties of the PG samples fabricated is close to
+function.
+%
+The properties of the PG samples fabricated here is close to
 intrinsic graphene, with charge density at $V_{\mathrm{G}}=0$ measured
-to be 1.4$\times$10$^{11}$ \textit{e}$\cdot$cm$^{-2}$, corresponding
-to a work function difference of 48 meV from graphene's Dirac point
-(details see Supplementary Section \autoref{SI-sec:np-charge-dens}), much
-smaller than the $\Delta \phi_{\mathrm{G}}$ induced by gating.
-Therefore we adopt the simplification that the charge neutrality point
-of graphene coincides with the Dirac point at $V_{\mathrm{G}}$ =
-0. The elementary electronic properties of graphene give
-\worktodo{really needed?}:
-\begin{equation}
-  \label{eq:np-delta-phiG}
+to be 1.4$\times$10$^{11}$ \textit{e}$\cdot$cm$^{-2}$ using a field-effect graphene transistor, corresponding
+to a work function difference of 48 meV from graphene's CNP,
+\worktodo{figure?}
+, which is much smaller than the $\Delta \phi_{\mathrm{G}}$
+induced by gating.
+%
+Therefore we adopt the simplification that the
+CNP of graphene coincides the Fermi level at
+$V_{\mathrm{G}}$ = 0.
+%
+From \autoref{sec:qc-mean-field-model}, the elementary electronic properties of graphene
+give \(:
   \Delta \phi_{\mathrm{G}} = \mathrm{sign}(\sigma_{\mathrm{G}}) \frac{\hbar v_{\mathrm{F}}}{e}
-  \sqrt{\frac{\pi |\sigma_{\mathrm{G}}|}{e}}
-\end{equation}
+  \sqrt{\frac{\pi |\sigma_{\mathrm{G}}|}{e}}\),
 where $\hbar$ is the reduced Planck constant, and
 $v_{\mathrm{F}}=1.1\times10^{6}$ m$\cdot$s$^{-1}$ is the Fermi
-velocity of graphene.  Note that the PG film fabricated experimentally
-is double-layer turbostratic (randomly aligned) graphene, in which we
-assume the $\Delta \phi_{\mathrm{G}} - \sigma_{\mathrm{G}}$ dependence
-follows  \autoref{eq:np-delta-phiG}. The influence of polymer residue on
-the surface of graphene is not considered in the current theory due
-to: (i) insulating polymer residues do not respond to the gate voltage
-and (ii) the thickness of the polymer residue is minimal after the
-thermal annealing process. The theory proposed here was solved
-self-consistently by discretizing
- \autoref{eq:np-pnp}-\autoref{eq:np-poisson} using the finite-element method
-(FEM), in which the graphene surface potential is coupled with
- \autoref{eq:np-electro-neutral}-\autoref{eq:np-delta-phiG} that were solved
-simultaneously to reach convergent numerical solutions of
+velocity of graphene.
+%
+Note that the PG film fabricated experimentally is double-layer
+turbostratic (randomly aligned) graphene, in which we assume the
+influence of interlayer coupling is minimal, and the
+$\Delta \phi_{\mathrm{G}} - \sigma_{\mathrm{G}}$ follows that in
+monolayer graphene.
+%
+The influence of polymer residue on the surface of graphene is not
+considered in the current theory framework due to: (i) insulating
+polymer residues do not respond to the gate voltage (see
+\autoref{sec:org492fdee}) and (ii) the thickness of the polymer
+residue is minimal after the thermal annealing process\worktodo{cite 1}.
+%
+The theory
+proposed here was solved self-consistently by discretizing
+\autoref{eq:np-pnp}-\autoref{eq:np-poisson} using the finite-element
+method (FEM), in which the graphene surface potential is coupled with
+\autoref{eq:np-electro-neutral}-\autoref{eq:np-delta-phiG} that were
+solved simultaneously to reach convergent numerical solutions of
 $\sigma_{\mathrm{G}}$ and $\psi_{\mathrm{G}}$ for a given
 $V_{\mathrm{G}}$. Clearly, the above model yields symmetric
 characteristics for $\sigma_{\mathrm{G}}$ and $\psi_{\mathrm{G}}$ with
 respect to $V_{\mathrm{G}}$ due to the symmetric band structure of
-graphene ( \autoref{eq:np-delta-phiG}). However, for graphene
-synthesized by chemical vapor deposition (CVD) used in our
+graphene ( \autoref{eq:np-delta-phiG}).
+%
+However, for graphene
+synthesized by chemical vapor deposition (CVD) used in the ion transport
 experiments, it is well-recognized that the electron traps are
 inherently introduced during synthesis and patterning
-\cite{Dean_2010_BN_gr_highquality}, effectively reducing the charge density and surface
-potential on graphene $V_{\mathrm{G}}<0$ (Supplementary 
-\autoref{SI-fig:np-trap}), which is related to the fact that observed $\xi$
-is much lower within the $V_{\mathrm{G}}<0$ regime in 
-\autoref{fig:np-2}c. With the nonideality in mind, hereafter, we compare the
-calculations and experiments in the regime of $V_{\mathrm{G}}>0$. For
-example,  \autoref{fig:np-3}c presents the calculated
+\cite{Dean_2010_BN_gr_highquality}, effectively reducing the charge
+density and surface potential on graphene when $V_{\mathrm{G}}<0$
+\worktodo{if need figure here}
+We ascribe the existence of interfacial traps to the
+that observed asymmetry of $\xi$ in  $V_{\mathrm{G}}<0$ regime
+in \autoref{fig:np-2}c.
+%
+Therefore,the discussions in the rest of this chapter focuses on the
+regime of $V_{\mathrm{G}}>0$.
+
+We would like to point out, although the ion transport phenomena occur
+at near-continuum scale through the 20-nm-wide pores, the fundamental
+electronic properties of graphene still have strong influence.
+%
+For
+example, \autoref{fig:np-3}c presents the calculated
 $\sigma_{\mathrm{G}}$ and $\psi_{\mathrm{G}}$ as a function of
 $V_{\mathrm{G}}$ considering the ionic diffusion through a single 20
 nm-diameter nanopore drilled on a sheet of semi-infinite double layer
 graphene that separates HCR containing KCl solution at $c_{0}$ = 0.1
-mM, and LCR at $c_{0}/10$ in axisymmetric coordinates (details see
-Supplementary Section \autoref{SI-sec:np-numer}). Indeed, the interplay
-between graphene quantum capacitance and the EDL significantly reduces
-the graphene surface potential $\psi_{\mathrm{G}}$ to $\sim$0.3 V at
-$V_{\mathrm{G}}$ = 1.25 V, corresponding a surface charge density
-$\sigma_{\mathrm{G}}$ of $\sim$0.08 C$\cdot$m$^{-2}$. Note that as we
-mentioned earlier, an important merit of the 2D nanopore system
-considered here is that the surface charge density can be precisely
-determined and controlled, rather than being treated as a fitting
-parameter as in most of the 2D nanopore literature
-(e.g. Ref. \cite{Rollings_2016_gating}). In addition, we anticipate that
-the gate-controlled ionic transport can also be achieved by replacing
-graphene with other nanoporous conducting 2D materials, although the
-operational gate voltage window required to achieve the same degree of
-salt rejection may be narrower, because graphene has the smallest
-quantum capacitance (near the Dirac point) among all known 2D
-materials \worktodo{cite nl paper}.
+mM, and LCR at $c_{0}/10$ in axisymmetric coordinates (details see \autoref{sec:np-methods}). Indeed, the
+interplay between graphene quantum capacitance and the EDL
+significantly reduces the graphene surface potential
+$\psi_{\mathrm{G}}$ to $\sim$0.3 V at $V_{\mathrm{G}}$ = 1.25 V,
+corresponding a surface charge density $\sigma_{\mathrm{G}}$ of
+$\sim$0.08 C$\cdot$m$^{-2}$.
+As we mentioned in the introduction, an
+important merit of the gated 2D nanopore system considered here,
+is the precise control over the
+surface charge density and potential,
+rather than being treated as a fitting parameter as in most of the 2D
+nanopore literature (e.g. \cite{Rollings_2016_gating}).
+%
+In addition, we anticipate that the gate-controlled ionic transport
+can also be achieved by replacing graphene with other nanoporous
+conducting 2D materials, although the operational gate voltage window
+required to achieve the same degree of salt rejection may be narrower,
+because graphene has the smallest quantum capacitance (near the Dirac
+point) among all known 2D materials (see
+\autoref{sec:qc-gener-behav-2deg}).
 
 \subsection{Salt rejection mechanism}
 \label{sec:np-mechanism}
 
 The numerical procedure described above allows us to resolve the
 concentration and electric potential profiles near a graphene
-nanopore for a given $V_{\mathrm{G}}$. Since the ionic flux is driven
+nanopore for a given $V_{\mathrm{G}}$.
+%
+Since the ionic flux is driven
 by both $\psi$ and $c$ fields (see  \autoref{eq:np-pnp} and \autoref{eq:np-mu}),
 we focus on the electrochemical potential $\mu_{i}$, which represents
 the combined driving force, to reveal its dependence on the applied
-$V_{\mathrm{G}}$. Following the same system considered in 
+$V_{\mathrm{G}}$.
+%
+Using the same system considered in 
 \autoref{fig:np-3}b, the calculated axisymmetric electric potential $\psi$
 and the relative electrochemical potentials,
-$\Delta \mu_{\mathrm{K^{+}}}$ and $\Delta \mu_{\mathrm{Cl^{-}}}$, for
+$\Delta \mu_{+}$ and $\Delta \mu_{-}$, for
 $V_{\mathrm{G}}$ = 0.75 V are shown in  \autoref{fig:np-4}a and
-\autoref{fig:np-4}b, respectively. The reference point of the electrochemical
-potentials is set at the bulk phase in the HCR. As expected, the
-electric potential reaches the maximum at the graphene surface (with
-$\psi_{\mathrm{G}}$ of $\sim$100 mV) and decays towards the bulk
-solution phase, forming an EDL surrounding the graphene surface. Since
-the Debye length $\lambda_{\mathrm{D}}$ is comparable to the
-pore radius $r_{\mathrm{G}}$, the electric potential at the nanopore
-center remains at $\sim$25 mV, comparable to the thermal energy at
-room temperature ($k_{\mathrm{B}}T$ = 26 meV). Consequently, it is
-evident that the potential barrier is sufficient to modulate the
-diffusive flux.
+\autoref{fig:np-4}b, respectively. \worktodo{split to 2 figures}
+%
+The reference point of the electrochemical
+potentials is set at the bulk phase in the HCR in both cases.
+%
+As expected, the electric potential reaches the maximum at the
+graphene surface (with $\psi_{\mathrm{G}}$ of $\sim$100 mV) and decays
+towards the bulk solution phase, forming an EDL surrounding the
+graphene surface. Since the Debye length $\lambda_{\mathrm{D}}$ is
+comparable to the pore radius $r_{\mathrm{G}}$, the electric potential
+in the center of the nanopore remains at $\sim$25 mV, comparable to
+the thermal energy at room temperature ($k_{\mathrm{B}}T$ = 26
+meV). Consequently, it is evident that the potential barrier is
+sufficient to modulate the diffusive flux.
 
 We further reveal the cation and anion transport pathways by looking
-into their electrochemical potentials ( \autoref{fig:np-4}b). By
+into their electrochemical potentials (\autoref{fig:np-4}b). By
 increasing $V_{\mathrm{G}}$, a more positive $\psi_{\mathrm{G}}$ on
 graphene surface reduces the cation concentration at the pore edge due
 to the electrostatic interactions, thereby increasing its
 concentration gradient at the pore center. On the other hand, the
 anion concentration near the pore edge increases exponentially, such
-that the concentration gradient at the pore center becomes small (see
-{ Supplementary Section \autoref{SI-sec:np-conc}, Supplementary
-Figs. \autoref{SI-fig:np-conc} and \autoref{SI-fig:np-conc-r}}).
-{
+that the concentration gradient at the pore center becomes small
+%
+\worktodo{attach the figures from SI}
 Although the surface
 concentration of anions is enhanced by $\sim{}$30 times, it is sill
-much smaller than the saturated surface adsorption density, and the
-bulk diffusivity used in the Nernst-Planck equation still holds.  We
-also observe that $\Delta \mu_{+}$ is dominated by the concentration,
-while $\Delta \mu_{-}$ is much less than $\Delta \mu_{+}$ due to the
-balance between the diffusion and drift potentials (see Supplementary
-Section \autoref{SI-sec:np-conc}, Supplementary Figs.  \autoref{SI-fig:np-potential}
-and \autoref{SI-fig:np-flux})}. 
-The observations confirm the distinct ionic
-transport pathways upon applying a positive $V_{\mathrm{G}}$: pore
-center for cations and pore edge for anions.  \autoref{fig:np-4}c
-presents the calculated \textit{z}-component of the cation and anion
-fluxes through the pore at the graphene plane (z = 0),
-$\symbf{J}_{z}$ ,as a function of the normalized radius,
+much smaller than the saturated surface adsorption density, and the use of
+bulk diffusivity in the Nernst-Planck equation (~\autoref{eq:pnp}) still holds.
+%
+Comparing the profiles of electrochemical potential and concentration,
+we also observe that $\Delta \mu_{+}$ is dominated by the
+concentration, while the concentration dependency is much
+less for $\Delta \mu_{-}$ due to the
+balance between the diffusion and drift potentials \worktodo{move SI figure S8 here}.
+%
+The
+observations confirm the distinct ionic transport pathways upon
+applying a positive $V_{\mathrm{G}}$: pore center for cations and pore
+edge for anions.
+%
+\autoref{fig:np-4}c presents the calculated \textit{z}-component of
+the cation and anion fluxes through the pore at the graphene plane (z
+= 0), $\symbf{J}_{z}$ ,as a function of the normalized radius,
 $r/r_{\mathrm{G}}$ , where $r$ is the radial coordinate and
 $r_{\mathrm{G}}$ is the pore radius, at different $V_{\mathrm{G}}$
-values. Note that $\symbf{J}_{z}$ is negative because the LCR is
-placed at z$<$0 in the simulation box. At $V_{\mathrm{G}}$ = 0 (pure
+values. Note a negative $\symbf{J}_{z}$ means flux from HCR ($z>0$)to LCR ($z<0$) in the simulation box. \worktodo{where to put the simulation box?}
+%
+At $V_{\mathrm{G}}$ = 0 (pure
 diffusion), the anion and cation flux profiles are identical, with a
-higher flux near the pore edge, which is expected, as the
-concentration gradient is higher. By gradually increasing
-$V_{\mathrm{G}}$, both fluxes are reduced throughout the pore, while
+higher flux near the pore edge.
+This is expected, as the
+concentration gradient is higher.
+%
+By gradually increasing
+$V_{\mathrm{G}}$, both ion fluxes are reduced throughout the pore, while
 the degree of reduction is more pronounced at the pore edge for the
 cation, and at the pore center for the anion, following the scenarios
 we discussed above. Accordingly, the integrated fluxes across the
-pore, $|\symbf{J}_{z}|$, are reduced with $V_{\mathrm{G}}$
-( \autoref{fig:np-4}d). A total flux reduction of $\sim$90\% is
+pore, $|\symbf{J}_{z}|$, are reduced with $V_{\mathrm{G}}$ (
+\autoref{fig:np-4}d). A total flux reduction of $\sim$90\% is
 predicted. Another interesting finding here is that, by increasing
 $V_{\mathrm{G}}$, the nanopore transport preferentially allows cations
 over anions, or in other words, the anion flux is more reduced with
-$V_{\mathrm{G}}$ (see  \autoref{fig:np-4}c), known as the ion
-selectivity of graphene nanopore \cite{Rollings_2016_gating}. In our setup,
-the imbalance between cation and anion fluxes near the graphene
+$V_{\mathrm{G}}$ (see \autoref{fig:np-4}c), similar to the ion
+selectivity of graphene nanopore observed in other studies~\cite{Rollings_2016_gating}.
+%
+In our
+setup, the imbalance between cation and anion fluxes near the graphene
 nanopore is compensated by the EDL formation at the counter-electrode
 in LCR, which maintains the electroneutrality of the system. Notably,
 since atomically thin graphene samples are used, the mechanism of salt
 rejection is clearly distinct from that in capacitive deionization
-\cite{Biesheuvel_2010_desalin_theory}, where electrodes with large surface area are
-required. 
-{
-More detailed discussion about the selective ionic pathways
-upon gating can be found in Supplementary Section \autoref{SI-sec:np-conc}.}
+\cite{Biesheuvel_2010_desalin_theory}, where electrodes with large
+surface area are required.
 
 
-The above mechanistic findings, nevertheless, do not fully clarify the
+The above findings, nevertheless, do not fully clarify the
 experimentally observed reduction of diffusive flux upon
 gating. Indeed, the same physical mechanism also governs the {
-  diode-like ionic transport through an IFET
+  diode-like ionic transport through an ionic field effect transistor
   \cite{Nam_2009_IFET_sub10nm,Lee_2015_sub10nm,Feng_2016_porous_MoS2} or a nanoporous metal membrane
   \cite{Mccurry_2017_electrolyte_porus_gold}}, in which a nonzero electric
 potential at the nanopore center usually results in an increase of
 ionic conductivity. To this end, we further increased the graphene
 surface potential $\psi_{\mathrm{G}}$ considering the same system
-(details see Supplementary Section \autoref{SI-sec:np-conc}). Intriguingly,
+\worktodo{move SI figure S10 and S11 here?}.
+%
+Intriguingly,
 by increasing $\psi_{\mathrm{G}}$ larger than 400 mV, the ionic flux
 starts to increase, reversing the trend observed at the low
 $\psi_{\mathrm{G}}$ regime, due to (i) the drift flux become dominant
 over diffusion flux and (ii) the concentration near the pore edge
-(preferred path) greatly increases (details see Supplementary Section
-\autoref{SI-sec:np-conc}, Supplementary Figs. \autoref{SI-fig:np-reverse} and
-\autoref{SI-fig:np-large-V}). This level of $\psi_{\mathrm{G}}$ cannot be
+(preferred path) greatly increases.
+%
+Nevertheless, this level of $\psi_{\mathrm{G}}$ cannot be
 reached experimentally in graphene membrane, as this requires a
-$V_{\mathrm{G}}$ larger than 2.0 V, which triggers the electrochemical
-reactions \cite{Toh_2011_GO_electrochem}. On the other hand, in an IFET, the electric
+$V_{\mathrm{G}}$ larger than 2.0 V, which would trigger the electrochemical
+reactions \cite{Toh_2011_GO_electrochem}.
+%
+On the other hand, in an ionic field effect transistor, the electric
 potential on the pore wall is considerably higher, equivalent to
 $V_{\mathrm{G}}$ due to the metallic nature of gate electrode (having
 an infinitely-large quantum capacitance). We therefore conclude that
@@ -593,10 +659,12 @@ and $r_{\mathrm{G}}$, and (ii) the graphene surface potential
 $\psi_{\mathrm{G}}$ controlled by $V_{\mathrm{G}}$ following
  \autoref{eq:np-Vg}. To this end, we calculate $\psi_{\mathrm{G}}$ as a
 function of $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ and
-$V_{\mathrm{G}}$ ( \autoref{fig:np-5}a). Clearly, when the bulk
+$V_{\mathrm{G}}$, as shown in  \autoref{fig:np-5}a).
+%
+Clearly, when the bulk
 concentration $c_{0}$ increases, a higher $V_{\mathrm{G}}$ is required
 to reach the same level of $\psi_{\mathrm{G}}$. Consequently, as
-revealed in  \autoref{fig:np-5}b, the calculated salt rejection factor
+revealed in  the contour plot of \autoref{fig:np-5}b, the calculated salt rejection factor
 $\xi$ increases with both $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ and
 $V_{\mathrm{G}}$, in line with the experimentally observed
 $\xi - c_{0}$ dependence. We also find the overall trends for
@@ -610,28 +678,36 @@ to 1 may be achived by further reducing the pore size (i.e. increasing
 the $\lambda_{\mathrm{D}}/r_{\mathrm{G}}$ ratio), our theory, derived
 from on the macroscopic transport equations by treating ions as
 zero-volume charges, may not be valid when $r_{\mathrm{G}}<$ 5
-nm\cite{Jain_2015_subcontin_ion}. \textcolor{blue}{ Furthermore, while the proposed
-  simplified model can nicely describe the experimental results for
-  the relatively large pore size investigated, such that the
-  electrochemical potential-driven diffusion pathway is dominant,
-  selective adsorption caused by unique chemical nature of pore edges
-  may be significant in the small-pore systems. Therefore, advanced
+nm\cite{Jain_2015_subcontin_ion}.  Advanced
   theoretical frameworks that bridge continuum and molecular models
   are required to elucidate the role of surface adsorption in
-  electrolyte transport through approaching the small pore limit. }
+  electrolyte transport through approaching the small pore limit. 
 
 
 
-{
-We notice that the calculations in Figs. \autoref{fig:np-4} and \autoref{fig:np-5} 
-are based on the setup  of ionic transport through single nanopore.
-In order to mimic the experimental conditions, 
-calculations were carried out by considering the pore size distribution in Fig. \autoref{fig:np-1}c inset. 
-Under the assumption that the interpore distance is significantly larger than the Debye length,
-the overall salt rejection $\xi$ is
-estimated by the linear combination of the salt rejection 
-$\xi_{r_i}$ 
-from individual pores with radius $r_i$ given by:
+  We notice that the calculations in Figs. \autoref{fig:np-4} and
+  \autoref{fig:np-5} are based on the setup of ionic transport through
+  single nanopore.  In order to mimic the experimental conditions,
+  calculations were carried out by considering the pore size
+  distribution in Fig. \autoref{fig:np-1}c inset.  Under the criteria
+  that the inter\-pore distance ($\sim{}90$ nm, see
+  \autoref{sec:res-1}) is significantly larger than the Debye length
+  ($\sim{}30$ nm), we assume that the ionic transport pathways through
+  different nanopores do not influence each other and the total ionic
+  flux $\symbf{J}_{\mathrm{PG}}$ is the summation of fluxes through
+  individual pores $\symbf{J}_{i}$:
+\begin{equation}
+\label{eq:np-J-total}
+\symbf{J}_{\mathrm{PG}} = \sum_{i} \symbf{J}_{i} = \sum_{r_{i}} x_{r_{i}} \symbf{J}_{r_{i}}
+\end{equation}
+where $r_{i}$ is the radius of individual pores,
+$\symbf{J}_{r_{i}}$ and $x_{r_{i}}$ are the flux of individual
+pore and the distribution probability when
+$r_{\mathrm{G}} = r_{i}$.
+%
+Combining with \autoref{eq:np-xi-def}, the overall salt rejection
+$\xi$ is estimated by the linear combination of the salt rejection
+$\xi_{r_i}$ from individual pores with radius $r_i$ given by:
 \begin{equation}
 \label{eq:np-rejection-comb}
 \xi = \sum_{r_{i}} \xi_{r_{i}} w_{r_{i}}
@@ -639,17 +715,45 @@ from individual pores with radius $r_i$ given by:
 where
 $w_{r_{i}} = x_{r_{i}} r_{i}^{2} / \sum_{r_{i}} x_{r_{i}} r_{i}^{2} $
 is the contribution factor from pores with radius $r_{i}$, and
-$x_{r_{i}}$ is the fraction of pores with radius $r_{i}$ (details see
-Supplementary Section \autoref{SI-sec:np-pore-dist}). Combining
- \autoref{eq:np-rejection-comb} and  \autoref{fig:np-5}b, the calculated
-salt rejection is reduced to $\sim{}$ 80\% of that from the
-single-pore calculation of a 20 nm nanopore when $c_{0}$ = 0.1 mM
-(Supplementary  \autoref{SI-fig:np-simple-rect-pore}). Consider the
-existence of large pores with diameter up to 60 nm, such degree of
-salt rejection is still appreciable, which is ascribed to the
-nonlinear dependency of $\xi$ on
-$\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ and $V_{\mathrm{G}}$ (details
-see Supplementary Section \autoref{SI-sec:np-pore-dist}).}  From our
+$x_{r_{i}}$ is the fraction of pores with radius $r_{i}$.
+%
+To get an insight of the influence of the pore size distribution on
+the salt rejection, \autoref{eq:np-rejection-comb} is combined with \worktodo{which figure}, where
+the pore distribution is taken from the SEM image of real samples (\worktodo{which figure inser}).
+%
+\autoref{fig:simple-rect-pore}a shows the contribution $w$ and $\xi$ as
+a function of $r_{\mathrm{G}}$ for individual pores when
+$V_{\mathrm{G}}$ = 1.25 V. As can be seen, the majority of pores fall
+within the regime of $\lambda_{\mathrm{D}} / r_{\mathrm{G}} > 1$,
+corresponding to $\xi(r_{\mathrm{G}}) > 0.6$. As a result, considering
+the influence of pore distribution reduces the value of $\xi$ to $\sim{}$80\% to
+that of a single 20 nm-diameter nanopore (
+\autoref{fig:simple-rect-pore}b), which is indeed close to the highest
+$\xi$ values that experimentally observed.
+%
+Consider the
+existence of large pores with diameter up to 60 nm, the appreciable salt rejection even after considering the pore size
+distribution, can be explained by the non-linear nature of $\xi$ with
+$r_{\mathrm{G}}$ and $V_{\mathrm{G}}$. As seen in \worktodo{to 2D plot}, in large $V_{\mathrm{G}}$ and
+$\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ regime, $\xi$ reaches a
+``plateau'' with its value close to 1.
+
+\begin{figure}[htbp]
+  \centering
+   % \includegraphics[width=0.9\linewidth]{img/SI-simple-pore-dist.pdf}
+   \caption{Salt rejection after considering the pore size
+     distribution. \textbf{a}. $w$ (left axis) and $\xi$ (right axis)
+     as a function of $r_{\mathrm{G}}$ for the experimental pore size
+     distribution with $c_{0}$ = 0.1 mM and $V_{\mathrm{G}}$ = 1.25 V.
+     \textbf{b}. Salt rejection ratio $\xi$ as a function of $V_{\mathrm{G}}$ of a
+     0.1mM 1:1 salt from a 20 nm-diameter nanopore (blue line) and
+     from the experimental pore size distribution (orange line), by
+     applying Equation \autoref{eq:xi-pore} to main text 
+     \autoref{main-fig:5}b.}
+  \label{fig:np-simple-rect-pore}
+\end{figure}
+
+From our
 analysis, it is also clear reducing the average pore size is critical
 to overcome the low salt rejection at higher concentrations, which may
 hopefully be achieved with more advanced fabrication techniques.
@@ -663,87 +767,127 @@ rejection between experiments and simulations.  \autoref{fig:np-6}a
 presents the measured salt rejection $\xi$ as a function of
 $V_{\mathrm{G}}$ at $c_{0}$ = 0.1 mM, for the seven salt species
 considered here, including NaCl, LiCl, KCl, MgSO$_{4}$, CaCl$_{2}$,
-K$_{2}$SO$_{4}$, and K$_{3}$[Fe(CN)$_{6}$] (details see Supplementary
-Section \autoref{SI-sec:np-salts}). Similar to the KCl system discussed
-earlier, the salt rejection is more pronounced in the positive
-$V_{\mathrm{G}}$ regime.
+K$_{2}$SO$_{4}$, and K$_{3}$[Fe(CN)$_{6}$].
+%
+%
+Similar to the KCl system discussed in \autoref{sec:np-theory}, the
+salt rejection is more pronounced in the positive $V_{\mathrm{G}}$
+regime.
 %
 The degree of salt rejection deceases with the salt valance; for
 example, the measured $\xi$ values at $V_{\mathrm{G}}$ = 1.25 V
-decreases from $>$ 0.5 for monovalent NaCl to -0.04 for multivalent
-K$_{3}$[Fe(CN)$_{6}$]. This observation is endorsed by our
-simulations, in which we calculate $\xi$ as a function of
-$V_{\mathrm{G}}$ using the same simulation setups (
-\autoref{fig:np-6}b).  { The effect of pore size distribution is explicitly
-  considered using the FEM simulation results with different pore
-  sizes (Supplementary  \autoref{SI-fig:np-xi-salts-pore})} The
-calculated $\xi_{\mathrm{max}}$ values are quantitatively compared
-with experiments ( \autoref{fig:np-6}c), and the same trend is
-observed. Indeed, because the Debye length $\lambda_{\mathrm{D}}$
-decreases with the salt valence, the graphene surface potential
-appears to decrease in the multivalent salt systems, thereby reducing
-$\xi$ (see  \autoref{fig:np-5}b).  { The slightly higher $\xi$ values
-  of LiCl and NaCl compared with KCl observed in the experiments, are
-  also supported by the FEM simulation results in  \autoref{fig:np-6}b,
-  which we attribute to the lower diffusivities of Li$^{+}$ and
-  Na$^{+}$ ions (see Supplementary Table \autoref{SI-tab:diff}) }.  The
-calculated and experimental $\xi_{\mathrm{max}}$ as a function of
-$\lambda_{\mathrm{D}}$ are consequently plotted, for the seven salt
-species considered here ( \autoref{fig:np-6}d).  \textcolor{blue}{
-  Similar to the experimental observations, slightly higher $\xi$ for
-  salts with same valence (e.g. LiCl, NaCl and KCl) is also observed
-  in the simulations due to the variation in ionic mobilities as well
-  as the possible specific surface adsorption of ions.} We notice that
-without any fitting parameters, our theory can predict the
-experimental values reasonably well.  In addition, the
-$\xi_{\mathrm{max}}-\lambda_{\mathrm{D}}$ dependence is approximately
-linear, suggesting that the effect of Debye length is dominant over
-the salt diffusivity.
+decreases from $>$0.5 for mono\-valent NaCl to -0.04 for multi\-valent
+K$_{3}$[Fe(CN)$_{6}$].
+%
+This observation is endorsed by our simulations, in which we calculate
+$\xi$ as a function of $V_{\mathrm{G}}$ using the same simulation
+setups ( \autoref{fig:np-6}b).
+%
+As discussed above, the effect of pore
+size distribution is explicitly considered in the FEM simulation
+results with different pore sizes.
+%
+The calculated
+$\xi_{\mathrm{max}}$ values are quantitatively compared with
+experimental results with the same trend observed (\autoref{fig:np-6}c).
+%
+Indeed, because the Debye length $\lambda_{\mathrm{D}}$ decreases with
+the salt valence, the graphene surface potential appears to decrease
+in the multivalent salt systems, thereby reducing $\xi$ (see
+\autoref{fig:np-5}b).  \worktodo{z for coordinate and also valency?}
+The slightly higher $\xi$ values of LiCl and NaCl compared with KCl
+observed in the experiments, are also supported by the FEM simulation
+results in \autoref{fig:np-6}b, which we attribute to the lower
+diffusivities of Li$^{+}$ and Na$^{+}$
+ions~\cite{vanysek_2000_CRC_diffusivity}.
+%
+The calculated and
+experimental $\xi_{\mathrm{max}}$ as a function of
+$\lambda_{\mathrm{D}}$ are consequently plotted for the seven salt
+species considered here (\autoref{fig:np-6}d).  
+  % Similar to the experimental observations, slightly higher $\xi$ for
+  % salts with same valence (e.g. LiCl, NaCl and KCl) is also observed
+  % in the simulations due to the variation in ionic mobilities as well
+  % as the possible specific surface adsorption of ions.
+We notice that
+without any fitting parameters, our theory predicts the
+experimental values reasonably well.
+%
+In addition, the $\xi_{\mathrm{max}}-\lambda_{\mathrm{D}}$ dependency
+is approximately linear, suggesting that the effect of
+$\lambda_{\mathrm{D}}$ is dominant over the salt diffusivity.
+%
 This
 finding also explains the concentration dependence of
-$\xi_{\mathrm{max}}$ observed in  \autoref{fig:np-2}d, as
+$\xi_{\mathrm{max}}$ observed in \autoref{fig:np-2}d, as
 $\lambda_{\mathrm{D}} \propto c_{0}^{-0.5}$.
-\textcolor{blue}{It is worth noting that the
-  observed linearity can only describe the $\lambda_{\mathrm{D}}$
-  range considered here. When $\lambda_{\mathrm{D}}$ increases beyond
-  30 nm, this linear relation would yield a $\xi_{\mathrm{max}}$
-  value larger than 1, which appears to be unphysical.  More follow-up
-  experimental and theoretical efforts are required to further
-  investigate the small/large $\lambda_{\mathrm{D}}$ regimes. Also
-  note that the salt diffusivity (see  (4)) and the specific
-  surface adsorption of ions may also influence the experimentally
-  observed $\xi_{\mathrm{max}}$ beyond the simple
-  $\lambda_{\mathrm{D}}$ effect.}
- Further including the
-specific interaction of ionic species with the graphene membrane {-
-  such as cation-$\pi$ interaction \cite{Shi_2013_ion_enrichment}} - may give even
-better agreement with experimental results \cite{Ghosh_2018_PG_ion}. More
-interestingly, based on our theoretical analysis, we predict that a
-very high degree of salt rejection ($\xi>$ 0.99) can be already
-achieved when $\lambda / r_{\mathrm{G}}>$3. In other words, for
-example, when the Debye length is 20 nm, one can suppress 99 \% of the
-diffusive flux by further reducing the pore radius down to $\sim$5-6
-nm, which still remains larger than the hydrated radii. In combination
-with the development of nanoscale etching techniques, we believe that
-the physical picture presented here makes one step closer to
-large-scale production of graphene membranes.
+%
+% It is
+%   worth noting that the observed linearity can only describe the
+%   $\lambda_{\mathrm{D}}$ range considered here. When
+%   $\lambda_{\mathrm{D}}$ increases beyond 30 nm, this linear relation
+%   would yield a $\xi_{\mathrm{max}}$ value larger than 1, which
+%   appears to be unphysical.  More follow-up experimental and
+%   theoretical efforts are required to further investigate the
+%   small/large $\lambda_{\mathrm{D}}$ regimes. Also note that the salt
+%   diffusivity (see (4)) and the specific surface adsorption of ions
+%   may also influence the experimentally observed $\xi_{\mathrm{max}}$
+%   beyond the simple $\lambda_{\mathrm{D}}$ effect.}
+Further including
+the specific interaction of ionic species with the graphene membrane
+-- such as cation-$\pi$ interaction~\cite{Shi_2013_ion_enrichment} --
+may give even better agreement with experimental results
+\cite{Ghosh_2018_PG_ion}.
+%
+More interestingly, based on our theoretical
+analysis, we predict that a very high degree of salt rejection ($\xi>$
+0.99) can be already achieved when $\lambda / r_{\mathrm{G}}>$3.
+%
+In
+other words, for example, when the Debye length is 20 nm, one can
+suppress 99 \% of the diffusive flux by further reducing the pore
+radius down to 5--6 nm, which still remains larger than the
+hydrated radii.
+%
+In combination with the development of nanoscale
+etching techniques, we believe that the physical picture presented
+here makes one step closer to large-scale production of graphene
+membranes.
 
-In summary, we have presented a comparative experimental and modelling
+\section{Conclusions}
+\label{sec:np-conclusions}
+
+In this chapter, we carry out a comparative experimental and modelling
 study on macroscopic salt rejection through a sheet of large-area
-porous graphene under electrostatic gating. We show that due to a
-small quantum capacitance of atomically-thin graphene, the graphene
-surface potential is considerably lower than the applied gate
-voltage. As a result, the subtle redistribution of the electrochemical
-potential creates new pathways for ionic transport, which in turn
-leads to a considerable degree of salt rejection. We report a high
+porous graphene under electrostatic gating.
+%
+From both experimental observations and theoretical analysis, we show
+the modulation of ionic species through electrostatically gated
+graphene nanopores is achievable, even if the average pore size significantly exceeds the hydration radii of ions.
+%
+Using self-consistent transport model combined with the fundamental
+electronic properties of graphene, we show that the small quantum
+capacitance of atomically-thin graphene, leads to a considerably
+decrease of surface potential compared with the applied gate
+voltage.
+%
+As a result, the subtle redistribution of the electrochemical
+potential creates new ion-specific pathways, which in turn
+leads to a considerable degree of salt rejection.
+%
+We report a high
 degree of salt rejection at $V_{\mathrm{G}}$ = 1.25 V by approximately
 one order of magnitude, based on our experiments and theoretical
-predictions. We demonstrate that the observed salt
-rejection positively correlates with the Debye length that nonlinearly
-modulates the graphene surface potential and charge density. The
-experimental results and fundamental principles presented here open an
+predictions.
+%
+The observed salt rejection positively correlates with the Debye
+length that nonlinearly modulates the graphene surface potential and
+charge density.
+%
+The fundamental principles presented here open an
 avenue towards realization of atomically thin 2D porous membranes for
-{ controlled ion permeation, allowing to tailor the ion transport through porous 2D materials.}.
+controlled ion permeation, allowing to tailor the ion transport
+through porous 2D materials.
 
 \section{Methods}
 \label{sec:np-methods}
