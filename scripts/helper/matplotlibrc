@@ -419,8 +419,8 @@ legend.frameon       : False     ## if True, draw the legend on a background pat
 #legend.numpoints     : 1        ## the number of marker points in the legend line
 #legend.scatterpoints : 1        ## number of scatter points
 #legend.markerscale   : 1.0      ## the relative size of legend markers vs. original
-legend.fontsize      : medium
-#legend.title_fontsize    : None ## None sets to the same as the default axes.
+legend.fontsize      : small
+legend.title_fontsize  : small  ## None sets to the same as the default axes.
 ## Dimensions as fraction of fontsize:
 #legend.borderpad     : 0.4      ## border whitespace
 #legend.labelspacing  : 0.5      ## the vertical space between the legend entries
