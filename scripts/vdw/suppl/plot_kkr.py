@@ -35,41 +35,48 @@ def plot_main():
     ax_.set_xlabel(r"$\hbar \omega$ (eV)")
     ax_.set_ylabel(r"Im[$\varepsilon_{\mathrm{m}}(\omega)$]")
     ax_.set_xlim(0, 30)
+    # ax_.text(x=0.5, y=0.5, s=r"m=2H-MoS$_{2}$ $d$=2 nm", size="small",
+             # ha="center",
+             # transform=ax_.transAxes)
     l = ax_.legend(loc=0)
+    l.set_title("m=2H-MoS$_{2}$ $d$=2 nm")
 
     # Right
     ax_ = ax[1]
+    ax_.yaxis.tick_right()
+    ax_.yaxis.set_label_position("right")
     ax_.plot(freq_matsu, eps_para_iv, label="In-plane")
     ax_.plot(freq_matsu, eps_perp_iv, label="Out-of-plane")
     # l = ax_.legend(loc=0)
     ax_.set_xlabel(r"$\hbar \xi$ (eV)")
-    ax_.set_ylabel(r"Im[$\varepsilon_{\mathrm{m}}(\xi)$]")
+    ax_.set_ylabel(r"$\varepsilon_{\mathrm{m}}(\xi)$")
     ax_.set_xlim(0.16, 30)
     ax_.set_ylim(0.5, 5)
     ax_.axhline(y=1, ls="--", color="grey", alpha=0.6)
     ax_.set_xscale("log")
-    ax_.text(x=0.63, y=0.95, s=r"m=2H-MoS$_{2}$",
-             ha="left",
-             va="top",
-             transform=ax_.transAxes)
-    ax_.text(x=0.63, y=0.8, s=r"$d$=2 nm",
-             ha="left",
-             va="top",
-             transform=ax_.transAxes)
-    # 
-    # l.set_title(r"Model value of $\Delta$")
-    # ax.set_ylabel(r"Normalized Integral $I(x) / I(\infty)$")
 
-    # Add annotation
-    # ax.text(x=0.25, y=0.15,
-            # s=r"Cumulative Integral: $I(x) = {\displaystyle \int_0^{x}} x' \ln[1 - \Delta^{2}e^{-x'}] \mathrm{d} x'$",
-            # ha="left",
-            # transform=ax.transAxes)
-    # ax.annotate(r'Increasing $\Delta$', xytext=(2.8, 0.5),
-                # xy=(1, 0.8),
-            # arrowprops=dict(arrowstyle="->"),
-            # )
-    grid_labels(fig, ax, offsets=[(0, 0), (0.03, 0)])
+    # ax_.text(x=0.63, y=0.82, s=r"",
+    #          ha="left",
+    #          va="top",
+    #          transform=ax_.transAxes)
+    #
+    dummy = fig.add_subplot(111)
+    dummy.set_axis_off()
+
+    bbox_props = dict(boxstyle="rarrow, pad=0.5", fc="#cfcfcf", alpha=0.8)
+    t = dummy.text(0.5, 0.5, "KKR", ha="center", va="center",
+                transform=fig.transFigure,
+                bbox=bbox_props)
+
+    # bb = t.get_bbox_patch()
+    # bb.set_boxstyle("rarrow", pad=0.6)
+    
+    # dummy.annotate("", xy=(0.55, 0.5), xytext=(0.45, 0.5),
+                   # xycoords="figure fraction",
+                   # ha="center", va="bottom",
+                   # arrowprops=dict(arrowstyle="->")
+                   
+    # )
     savepgf(fig, img_path / "eps_kkr.pgf")
     # fig.savefig(join(img_path, "integ_xx.svg"))
 
