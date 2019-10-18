@@ -101,7 +101,7 @@ def grid_labels(fig, axes, offsets=[],
         else:                   # n
             return i + 1
     
-    gs = axes.flat[0].get_gridspec()
+    gs = axes[0].get_gridspec()
     nr, nc = gs.get_geometry()
     # Determine the spacing each column and row
     hr = gs.get_height_ratios()
@@ -119,7 +119,7 @@ def grid_labels(fig, axes, offsets=[],
     # Add some sacrifice labels to ensure enough space
     try:
         dx, dy = reserved_space
-        for i, ax in enumerate(axes.flat):
+        for i, ax in enumerate(axes):
             ax.text(x=dx, y=1 + dy,
                     s=decorate.format(label_(i, type)),
                     transform=ax.transAxes,
@@ -129,7 +129,7 @@ def grid_labels(fig, axes, offsets=[],
         pass
 
     labels = []
-    for i, ax in enumerate(axes.flat):
+    for i, ax in enumerate(axes):
         nr, nc, ri, rf, ci, cf = ax.get_subplotspec().get_rows_columns()
         print(i, ri, rf, ci, cf)
         left = np.sum(w_spacings[: ci])
