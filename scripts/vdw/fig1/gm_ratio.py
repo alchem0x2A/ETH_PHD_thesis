@@ -12,27 +12,29 @@ freq_matsu = matsubara_freq(numpy.arange(0, 1000),
 
 def gm2_(alpha, freq, d):
     # d is in nm, convert to Angstrom
-    d = d / 1e-10
     pi = numpy.pi
     alpha_x = alpha[0]
     alpha_z = alpha[2]
-    eps_x = 1 + 4 * pi * alpha_x / d
-    eps_z = 1 / (1 - 4 * pi * alpha_z / d)
-    eps_x = alpha_to_eps(alpha_x, d, direction="x", imag=False)
-    eps_z = alpha_to_eps(alpha_z, d, direction="z", imag=False)
+    # print(alpha_x)
+    # eps_x = 1 + 4 * pi * alpha_x / d
+    # eps_z = 1 / (1 - 4 * pi * alpha_z / d)
+    # Take real distance
+    eps_x = alpha_to_eps(alpha_x, d, direction="x")
+    eps_z = alpha_to_eps(alpha_z, d, direction="z")
+    # print(eps_x)
 
     # Convert to kkr!
-    eps_x_iv = kkr(freq, eps_x.imag, freq_matsu)
-    eps_z_iv = kkr(freq, eps_z.imag, freq_matsu)
+    eps_x_iv = kkr(freq, eps_x, freq_matsu)
+    eps_z_iv = kkr(freq, eps_z, freq_matsu)
     return eps_x_iv, eps_z_iv, eps_x_iv / eps_z_iv
 
-def get_gm2(d_):
-    d = d_ * 1e-9                # in nm
+def get_gm2(d_, force=False):            # in nm
     res_file = data_path / "2D" / "gm2_{:.1f}.npz".format(d_)
-    if res_file.exists():
-        data = numpy.load(res_file, allow_pickle=True)
-        return data["names"], data["Eg"], data["eps_para"], \
-            data["eps_perp"], data["gm2"]
+    if force is not True:
+        if res_file.exists():
+            data = numpy.load(res_file, allow_pickle=True)
+            return data["names"], data["Eg"], data["eps_para"], \
+                data["eps_perp"], data["gm2"]
 
     names = []
     Eg = []
@@ -46,9 +48,11 @@ def get_gm2(d_):
         formula = data_2D[i]["formula"]
         prototype = data_2D[i]["prototype"]
         names.append("{}-{}".format(formula, prototype))
-        if alpha[2][0].real > 1:
-            continue            # probably bad data
-        ex_, ez_, g_  = gm2_(alpha, freq, d)
+        # if alpha[2][0].real > 1:
+            # continue            # probably bad data
+        ex_, ez_, g_  = gm2_(alpha, freq, d_ * 1e-9)
+        if numpy.max(1 / g_) > 1.1:
+            continue
         #
         Eg.append(eg)
         eps_para.append(ex_)
@@ -60,11 +64,16 @@ def get_gm2(d_):
     gm2 = numpy.array(gm2)
     numpy.savez(res_file.as_posix(), names=names, Eg=Eg,
                 eps_para=eps_para, eps_perp=eps_perp, gm2=gm2)
+    return names, Eg, eps_para, eps_perp, gm2
 
-def main():
+def main(force=False):
     d = 2
-    get_gm2(d)
+    get_gm2(d, force=force)
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description="Run main function")
+    parser.add_argument("-f", "--force", dest="force", action="store_true")
+    args = parser.parse_args()
+    main(args.force)

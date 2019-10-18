@@ -23,7 +23,6 @@ db = connect(db_fname)
 
 def omega_half(alpha, freq, d):
     # d is in nm, convert to Angstrom
-    d = d / 1e-10
     pi = numpy.pi
     alpha_x = (alpha[0] + alpha[1]) / 2
     alpha_z = alpha[2]
@@ -46,12 +45,12 @@ def omega_half(alpha, freq, d):
     omega_alpha_z = freq_matsu[alpha_z_iv <= (alpha_z_iv[0] / 2)][0]
     return omega_half_x, omega_half_z, omega_alpha_z
 
-def get_transition_freq(d_=2):
-    d = d_ * 1e-9
+def get_transition_freq(d_=2, force=False):
     res_file = data_path / "2D" / "transition_freq_{:.1f}.npz".format(d_)
-    if res_file.exists():
-        data = numpy.load(res_file, allow_pickle=True)
-        return data["names"], data["Eg"], data["trans_para"], data["trans_perp"]
+    if not force:
+        if res_file.exists():
+            data = numpy.load(res_file, allow_pickle=True)
+            return data["names"], data["Eg"], data["trans_para"], data["trans_perp"]
     # Else create from scratch
     names = []
     Eg = []
@@ -66,7 +65,7 @@ def get_transition_freq(d_=2):
         names.append("{}-{}".format(formula, prototype))
         if alpha[2][0].real > 1:
             continue            # probably bad data
-        omega_half_x, omega_half_z, omega_alpha_z = omega_half(alpha, freq, d)
+        omega_half_x, omega_half_z, omega_alpha_z = omega_half(alpha, freq, d_ * 1e-9)
         atoms = list(db.select(formula=formula, prototype=prototype))
         #
         Eg.append(eg)
@@ -77,6 +76,7 @@ def get_transition_freq(d_=2):
     trans_perp = numpy.array(trans_perp)
     numpy.savez(res_file.as_posix(), names=names, Eg=Eg,
                 trans_para=trans_para, trans_perp=trans_perp)
+    return names, Eg, trans_para, trans_perp
         
 
 # def plot_decay(d_=2, list_matter=None, list_pick=[]):
@@ -185,12 +185,13 @@ def get_transition_freq(d_=2):
 #     # fig.savefig(img_path / "omega_half_d_{:1f}.png".format(d_))
 #     savepgf(fig, img_path / "omega_half.pgf")
 
-def main():
+def main(force=False):
     d = 2
-    get_transition_freq(d)
+    get_transition_freq(d, force)
 
 if __name__ == "__main__":
-    # list_matter = [i for i, m in enumerate(data_2D) \
-                   # if m["name"] in ("MoS2-MoS2", "BN-BN", "C2-C")]
-        # plot_dgm2(d, list_pick=list_matter)
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description="Run main function")
+    parser.add_argument("-f", "--force", dest="force", action="store_true")
+    args = parser.parse_args()
+    main(args.force)
