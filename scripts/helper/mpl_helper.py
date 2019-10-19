@@ -249,7 +249,8 @@ def get_color(c, min=0, max=12, levels=100, name="rainbow"):
     color = cm(np.linspace(0, 1, levels + 1))
     return color[i]
 
-def add_cbar(fig, ax, min=0, max=12, name="rainbow", **karg):
+def add_cbar(fig, ax=None, min=0, max=12, name="rainbow", **karg):
+    # Ax ??
     # Helper function to add colorbar to fig and ax
     # xlim = ax.get_xlim()
     # ylim = ax.get_ylim()
