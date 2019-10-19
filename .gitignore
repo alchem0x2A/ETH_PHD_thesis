@@ -432,3 +432,5 @@ img/*/*.pdf_tex
 /img/intro/3D/solution_method_old.blend
 /img/intro/3D/mos2_04_01.jpg
 /scripts/.width
+g_contrib*.npz
+img/vdw/*.png

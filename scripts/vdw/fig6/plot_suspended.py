@@ -94,7 +94,7 @@ def plot_main():
         ax_.axhline(y=0, ls="--", color="grey")
     for ax_ in ax:
         ax_.set_xlabel(r"$d$ (\AA{})")
-        ax_.set_ylabel(r"$\Phi^{\mathrm{vdW}}$ (mJ·cm$^{-2}$)")
+        ax_.set_ylabel(r"$\Phi^{\mathrm{vdW}}$ (mJ·m$^{-2}$)")
 
     # Add water cube
     inset_left = inset_axes(ax[0],

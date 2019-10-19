@@ -68,8 +68,8 @@ def plot_main():
     ax[0].set_xlabel(r"$d$ (\AA{})")
     for i in (1, 2):
         ax[i].set_xlabel(r"$\hbar \xi$ (eV)")
-    ax[0].set_ylabel(r"$\Phi^{\mathrm{AmB}}$ (mJ$\cdot{}$cm$^{-2}$)")
-    ax[1].set_ylabel(r"$G(i \xi)$ (μJ$\cdot{}$cm$^{-2}$)")
+    ax[0].set_ylabel(r"$\Phi^{\mathrm{AmB}}$ (mJ$\cdot{}$m$^{-2}$)")
+    ax[1].set_ylabel(r"$G(i \xi)$ (μJ$\cdot{}$m$^{-2}$)")
     ax[2].set_ylabel(r"$\tau (i \xi)$")
 
     # Fix lim
