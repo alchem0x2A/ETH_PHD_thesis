@@ -19,8 +19,8 @@ from . import data_path, img_path
     # os.makedirs(img_path)
 
 
-for i in range(len(data_2D)):
-    print(i, data_2D[i]["name"])
+# for i in range(len(data_2D)):
+    # print(i, data_2D[i]["name"])
 
 
 
@@ -59,12 +59,12 @@ eps_b, *_ = get_eps(ind_b)
 # Egs = []
 d = 5e-9
 
-def main(d_=d, force=False):
+def get_trans(d_=d, force=False):
     res_file = data_path / "2D" /  "transparency_{:.1f}.npz".format(d_ / 1e-9)
     if force is not True:
         if res_file.exists():
             data = numpy.load(res_file, allow_pickle=True)
-            return data["names"], data["Eg"], data["G"], data["transparency"]
+            return data["names"], data["Eg"], data["G"], data["transparency"], data["freq_matsu"]
 
 
 
@@ -77,11 +77,11 @@ def main(d_=d, force=False):
     Egs.append(1e4)
     G.append(g_0)
     names.append("Vacuum")
-    transparency.append(1)
+    transparency.append(numpy.ones_like(g_0))
     for ind_m in range(0, len(data_2D)):
         alpha_m, freq_alpha, Eg, *_ = get_alpha(ind_m)
-        formula = data_2D[i]["formula"]
-        prototype = data_2D[i]["prototype"]
+        formula = data_2D[ind_m]["formula"]
+        prototype = data_2D[ind_m]["prototype"]
         names.append("{}-{}".format(formula, prototype))
         Egs.append(Eg)
         g_part, freq_matsu = get_energy_freq_dep(ind_m, ind_a, ind_b, d_)
@@ -91,8 +91,11 @@ def main(d_=d, force=False):
     Egs = numpy.array(Egs)
     G = numpy.array(G)
     transparency = numpy.array(transparency)
-    numpy.savez(res_file, names=names, Eg=Egs, G=G, transparency=transparency)
-    return names, Egs, G, transparency
+    numpy.savez(res_file, names=names, Eg=Egs, G=G, transparency=transparency, freq_matsu=freq_matsu)
+    return names, Egs, G, transparency, freq_matsu
+
+def main(**kargs):
+    get_trans(**kargs)
     
 if __name__ == "__main__":
     import argparse

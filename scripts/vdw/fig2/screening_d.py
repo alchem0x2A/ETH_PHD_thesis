@@ -41,7 +41,7 @@ def get_screening_gap(force=False):
     if force is not True:
         if res_file.exists():
             data = numpy.load(res_file)
-            return data["names"], data["Eg"], data["d"], data["G"]
+            return data["names"], data["Eg"], data["ds"], data["G"]
 
 
     gs = []
