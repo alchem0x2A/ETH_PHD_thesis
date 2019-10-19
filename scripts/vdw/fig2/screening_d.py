@@ -35,9 +35,9 @@ eps_a, freq, *_ = get_eps(ind_a)
 eps_b, *_ = get_eps(ind_b)
 
 
-def get_screening_gap(force=False):
+def get_screening_gap(min=2, max=15, force=False):
     ds = numpy.linspace(2, 15, 32) * 1e-9
-    res_file = data_path / "2D" / "vdW_screen_bg.npz"
+    res_file = data_path / "2D" / "vdW_screen_bg_{0:.1f}_{1:.1f}.npz".format(min, max)
     if force is not True:
         if res_file.exists():
             data = numpy.load(res_file)

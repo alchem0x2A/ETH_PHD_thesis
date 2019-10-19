@@ -38,7 +38,7 @@ def plot_main():
         eta = eta_bulk[:, -1]
         XX, YY, eta_slom = get_slom(can)
         ax[i].scatter(Eg_a, Eg_b, c=eta, cmap="rainbow",
-                       s=26, marker="s", alpha=0.3, vmax=0.85, vmin=-0.1,
+                       s=36, marker="s", alpha=0.3, vmax=0.85, vmin=-0.1,
                       rasterized=True)
         ax[i].set_title(name)
         ax[i].set_xticklabels([])
@@ -168,7 +168,7 @@ def plot_main():
         ii = i % 3
         ax_ = ax[i]
         ax_.set_xlim(0, 12)
-        ax_.set_xlim(0, 12)
+        ax_.set_ylim(0, 12)
         ax_.set_aspect("equal")
         ax_.text(x=0.05, y=0.98,
                  s=labels[ii], weight="bold",
