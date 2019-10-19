@@ -47,13 +47,13 @@ def get_gm2(d_, force=False):            # in nm
         alpha, freq, eg = get_alpha(i)
         formula = data_2D[i]["formula"]
         prototype = data_2D[i]["prototype"]
-        names.append("{}-{}".format(formula, prototype))
         # if alpha[2][0].real > 1:
             # continue            # probably bad data
         ex_, ez_, g_  = gm2_(alpha, freq, d_ * 1e-9)
         if numpy.max(1 / g_) > 1.1:
             continue
         #
+        names.append("{}-{}".format(formula, prototype))
         Eg.append(eg)
         eps_para.append(ex_)
         eps_perp.append(ez_)

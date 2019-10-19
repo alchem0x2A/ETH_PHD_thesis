@@ -238,4 +238,29 @@ def savepgf(fig, out_file, preview=True):
     with open(pgf_f, "w") as f:
         f.write(pgf_content)
         return
-    
+
+# Helper function to get color from certain colormap
+def get_color(c, min=0, max=12, levels=100, name="rainbow"):
+    # Helper function to plot colors
+    # default colormap is rainbow 
+    dc = (max - min) / levels
+    i = int((c - min) / dc)
+    cm = mpl.cm.get_cmap(name)
+    color = cm(np.linspace(0, 1, levels + 1))
+    return color[i]
+
+def add_cbar(fig, ax, min=0, max=12, name="rainbow", **karg):
+    # Helper function to add colorbar to fig and ax
+    # xlim = ax.get_xlim()
+    # ylim = ax.get_ylim()
+    # plot the colorbar outside
+    # sc = ax.scatter([xlim[0] - 10, xlim[0] - 10],
+                    # [ylim[0] - 10, ylim[0] - 10],
+                    # c=[n_min, n_max],  # automated vmin vmax
+                    # cmap=name)
+    cmap = mpl.cm.get_cmap(name)
+    sm = mpl.cm.ScalarMappable(cmap=cmap,
+                               norm=mpl.colors.Normalize(vmin=min, vmax=max))
+    cb = fig.colorbar(sm, **karg)
+    # cb.set_ticks([1, 5, 10, 15]) 
+    return cb
