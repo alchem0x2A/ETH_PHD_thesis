@@ -49,7 +49,7 @@ def plot_main():
     ax_.plot(freq_matsu, eps_perp_iv, label="Out-of-plane")
     # l = ax_.legend(loc=0)
     ax_.set_xlabel(r"$\hbar \xi$ (eV)")
-    ax_.set_ylabel(r"$\varepsilon_{\mathrm{m}}(\xi)$")
+    ax_.set_ylabel(r"$\varepsilon_{\mathrm{m}}(i \xi)$")
     ax_.set_xlim(0.16, 30)
     ax_.set_ylim(0.5, 5)
     ax_.axhline(y=1, ls="--", color="grey", alpha=0.6)

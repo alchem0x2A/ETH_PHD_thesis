@@ -177,10 +177,12 @@ def add_img_ax(ax, fname, index=None):
         w, h = _get_pdf_size(fname)
     else:
         w, h = _get_img_size(fname)
+    print(w, h)
     # w, h are in inches
     # Create a "fake" image
-    ax.plot([0, w], [0, h], rasterized=True)
-    ax.set_aspect("equal")
+    ax.plot([0, w, 0, w], [0, h, h, 0], rasterized=True)
+    # ax.set_aspect("equal")
+    ax.axis("equal")
     ax.set_axis_off()
     ax.is_img = True
     ax.img_kw = dict(filename=fname,

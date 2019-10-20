@@ -1,15 +1,18 @@
 from pathlib import Path
-from importlib import import_module
+from importlib import import_module, reload
+import helper
 from helper import clean_width_cache
 from subprocess import call
-# from multiprocessing import Pool, cpu_count
-try:
-    has_mpi = True
-    from mpi4py import rank, size, world
-except ImportError:
-    has_mpi = False
-    rank = 0
-    size = 1
+from multiprocessing import Pool, cpu_count, current_process
+
+# Run the script in different modules
+# try:
+#     has_mpi = True
+#     from mpi4py import rank, size, world
+# except ImportError:
+#     has_mpi = False
+#     rank = 0
+#     size = 1
 
 root = Path(".")
 
@@ -30,25 +33,36 @@ class TColors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-def run_plot(mod_name, func=func):
+def check_load(mod_name, func=func):
     """Single function to run the plot_main inside module m"""
     try:
         m = import_module(mod_name)
     except ImportError:
-        print(TColors.FAIL + "Module {0} import error!".format(mod_name) \
-              + TColors.ENDC)
         return False
     if hasattr(m, func):
-        try:
-            getattr(m, func)()
-            print(TColors.OKGREEN + "Module {0} plot finish!".format(mod_name) \
-                  + TColors.ENDC)
-            return True
-        except Exception as e:
-            print(TColors.FAIL + "Module {0} plot failed with {1}!".format(mod_name, e) \
-                  + TColors.ENDC)
-            return False
-        
+        return True
+    else:
+        return False
+        # try:
+        #     getattr(m, func)()
+        #     print(TColors.OKGREEN + "Module {0} plot finish!".format(mod_name) \
+        #           + TColors.ENDC)
+        #     return True
+        # except Exception as e:
+        #     print(TColors.FAIL + "Module {0} plot failed with {1}!".format(mod_name, e) \
+        #           + TColors.ENDC)
+        #     return False
+
+def run_(mod_name):
+    cmd = ["python", "-m", mod_name]
+    success = call(cmd)
+    if success != 0:
+        print(TColors.FAIL + "Module {} failed".format(mod_name) + TColors.ENDC)
+    else:
+        print(TColors.OKGREEN +
+              "Module {} successful on thread {}.".format(mod_name, current_process()) \
+              +TColors.ENDC)
+    
 def main():
     jobs = []
     for f in root.rglob("*.py"):
@@ -60,7 +74,13 @@ def main():
            (script_name not in exclude_files):
             # import the module and test if plot_main is inside
             mod_name = ".".join(parents[1:] + [script_name])
-            jobs.append(mod_name)
+            if check_load(mod_name):
+                jobs.append(mod_name)
+
+    ncores = cpu_count()
+    with Pool(ncores) as p:
+        p.map(run_, jobs)
+    
             # print(mod_name)
             # try:
             #     m = import_module(mod_name)
@@ -74,17 +94,17 @@ def main():
                 #     print("Module {0} plot finish!".format(mod_name))
                 # except Exception as e:
                 #     print("Module {0} plot failed with {1}!".format(mod_name, e))
-    if has_mpi:
-        world.barrier()
-    for i, mod_ in enumerate(jobs):
-        if i % size == rank:
-            run_plot(mod_)
+    # # if has_mpi:
+    #     world.barrier()
+    # for i, mod_ in enumerate(jobs):
+    #     if i % size == rank:
+    #         run_plot(mod_)
             
-    if rank == 0:    
-        clean_width_cache()
+    # if rank == 0:    
+    #     clean_width_cache()
         
-    if has_mpi:
-        world.barrier()
+    # if has_mpi:
+    #     world.barrier()
 
     # Clean up width
 

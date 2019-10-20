@@ -99,7 +99,7 @@ def get_screening_gap(min=2, max=15, force=False, ratio=1.3):
     
 
 def plot_main():
-    fig, ax = gridplots(1, 1, r=0.7, ratio=1.33)
+    fig, ax = gridplots(1, 1, r=0.6, ratio=1.33)
     names, Egs, ds, gs = get_screening_gap(min=1, max=20,)
 
     ax_inset = inset_axes(ax, width="70%", height="70%",

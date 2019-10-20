@@ -14,8 +14,6 @@ from . import img_path, data_path
 from helper import gridplots, grid_labels, savepgf, add_cbar, get_color
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
-mpl.rcParams["font.size"] = 8
-
 # curdir = os.path.abspath(os.path.dirname(__file__))
 # img_path = os.path.join(curdir, "../../img/suppl")
 
@@ -81,6 +79,8 @@ def get_energy_freq_dep(mater_2D, mater_bulk_a,
 # 2D materials:
 
 def plot_main():
+    old_size =  mpl.rcParams["font.size"]
+    mpl.rcParams["font.size"] = 8
     cbar_r = 0.1
     span = [(i, j, 1, 1) for i in range(4) for j in range(3)] + [(0, 3, 4, 1)]
     fig, ax = gridplots(4, 4, r=1, ratio=1.2,
@@ -122,6 +122,7 @@ def plot_main():
                 reserved_space=(0, -0.05))
     
     savepgf(fig, img_path / "g_distance_bulk.pgf")
+    mpl.rcParams["font.size"] = old_size
     
     
 

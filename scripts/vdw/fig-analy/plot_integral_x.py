@@ -1,5 +1,4 @@
 import numpy
-import matplotlib.pyplot as plt
 from scipy.integrate import cumtrapz, trapz
 import os, os.path
 from os.path import join, exists, abspath, dirname
@@ -22,7 +21,7 @@ def single_integ(Delta, x_max=15):
 
 
 def plot_main():
-    fig, ax = gridplots(1, 2, ratio=2.5)
+    fig, ax = gridplots(1, 2, ratio=2.5, r=0.9)
     # First plot the initial part
     ax_ = ax[0]
     dd = numpy.linspace(-1, 1, 128)  # Delta values
@@ -50,13 +49,14 @@ def plot_main():
             ax_.plot([xx[cond_], xx[cond_]], [0, cum[cond_]], "--", color="grey", alpha=0.6)
             ax_.plot([0, xx[cond_]], [cum[cond_], cum[cond_]], "--", color="grey", alpha=0.6)
             ax_.text(x=0.5, y=cum[cond_] * 0.98, s=r"$I(x) = 0.95I(\infty)$",
+                     size="small",
                     va="top", color="grey", alpha=0.8)
     l = ax_.legend(loc=0)
     l.set_title(r"Model value of $\Gamma$")
     ax_.set_xlabel("$x$")
     ax_.set_ylabel(r"$I(x, \Gamma) / I(x, \infty)$")
-    ax_.annotate(r'Increasing $\Gamma$', xytext=(2.8, 0.5),
-                xy=(1, 0.8),
+    ax_.annotate(r'Increasing $\Gamma$', xytext=(2.5, 0.55),
+                xy=(1.5, 0.75),
                  arrowprops=dict(arrowstyle="->"),)
     grid_labels(fig, ax)
 

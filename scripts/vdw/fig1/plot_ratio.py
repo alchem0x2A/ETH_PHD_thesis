@@ -83,7 +83,7 @@ def plot_main():
                       size="small", labelpad=-1)
 
     ax_in1.scatter(Eg, trans_para, s=10, color="#3287a8",
-                   marker="^", alpha=0.5)
+                   marker="^", alpha=0.4, edgecolor=None)
 
     ax_in2 = inset_axes(ax[1], height="58%", width="35%",
                         loc="upper right")

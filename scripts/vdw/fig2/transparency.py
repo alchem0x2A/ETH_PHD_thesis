@@ -1,8 +1,6 @@
 import numpy
 # import os, os.path
 # from os.path import join, exists, dirname, abspath
-import matplotlib.pyplot as plt
-plt.style.use("science")
 
 # Add the utils
 from ..utils.kkr import kkr, matsubara_freq
@@ -51,8 +49,6 @@ b = "SiO2-exp"
 ind_a = get_index(a, "bulk")
 ind_b = get_index(b, "bulk")
 
-fig = plt.figure(figsize=(3.5, 3.0))
-ax = fig.add_subplot(111)
 # EPS
 eps_a, freq, *_ = get_eps(ind_a)
 eps_b, *_ = get_eps(ind_b)

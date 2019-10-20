@@ -15,7 +15,7 @@ disp_names = { "BN": "hBN",
 
 def plot_main():
     # plot figure!
-    fig, ax = gridplots(1, 2, ratio=2, r=0.85)
+    fig, ax = gridplots(1, 2, ratio=2, r=0.98)
 
     # Set limit
     ax[0].set_ylim(-0.2, 0.1)
@@ -100,14 +100,14 @@ def plot_main():
     inset_left = inset_axes(ax[0],
                             width="100%", height="100%",
                             loc="lower center",
-                            bbox_to_anchor=(0.4, -0.1, 0.55, 0.5),
+                            bbox_to_anchor=(0.4, 0, 0.55, 0.5),
                             bbox_transform=ax[0].transAxes)
     add_img_ax(inset_left, img_path / "3D" / "water_cube.png")
 
     inset_right = inset_axes(ax[1],
                             width="100%", height="100%",
                             loc="lower center",
-                            bbox_to_anchor=(0.3, -0.1, 0.65, 0.5),
+                            bbox_to_anchor=(0.3, 0, 0.65, 0.5),
                             bbox_transform=ax[1].transAxes)
     add_img_ax(inset_right, img_path / "3D" / "gold_cluster.png")
     # zoom in!
