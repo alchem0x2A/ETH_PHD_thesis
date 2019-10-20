@@ -1,6 +1,6 @@
 import numpy
 # import os, os.path
-import matplotlib.pyplot as plt
+import matplotlib as mpl
 # from numpy import meshgrid
 from ..utils.kkr import kkr, matsubara_freq
 from ..utils.lifshitz import alpha_to_eps, g_amb_alpha, g_amb
@@ -12,6 +12,9 @@ from multiprocessing import Pool
 from scipy.interpolate import interp1d
 from . import img_path, data_path
 from helper import gridplots, grid_labels, savepgf, add_cbar, get_color
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+
+mpl.rcParams["font.size"] = 8
 
 # curdir = os.path.abspath(os.path.dirname(__file__))
 # img_path = os.path.join(curdir, "../../img/suppl")
@@ -78,7 +81,7 @@ def get_energy_freq_dep(mater_2D, mater_bulk_a,
 # 2D materials:
 
 def plot_main():
-    cbar_r = 0.03
+    cbar_r = 0.1
     span = [(i, j, 1, 1) for i in range(4) for j in range(3)] + [(0, 3, 4, 1)]
     fig, ax = gridplots(4, 4, r=1, ratio=1.2,
                         span=span,
@@ -96,16 +99,27 @@ def plot_main():
                 g_ = g_ * 1e6
                 ax[i * 3 + j].plot(freq_, -g_, color=c)
                 ax[i * 3 + j].set_xscale("log")
-                if i != 3:
-                    ax[i * 3 + j].set_xticklabels([])
-                    ax[i * 3 + j].tick_params(bottom=False)
+            ax[i * 3 + j].text(x=0.95, y=0.95, s="i" * (j + 1),
+                               weight="bold", va="top", ha="right",
+                               transform=ax[i * 3 + j].transAxes)
+            if i != 3:
+                ax[i * 3 + j].set_xticklabels([])
+                ax[i * 3 + j].tick_params(bottom=False)
     for j, m_bulk in enumerate(bulks):
-        ax[j].set_title(bulk_title[m_bulk], size="large")
+        ax[j].set_title(bulk_title[m_bulk], size="large", pad=5)
         
     for i in range(4):
         ax[i * 3].set_ylabel(r"$|G(i \xi)|$ (μJ·m$^{-2}$)")
     for i in range(3):
-        ax[9 + i].set_xlabel(r"$i \xi$ (eV)")
+        ax[9 + i].set_xlabel(r"$\hbar \xi$ (eV)")
+
+    cax = inset_axes(ax[-1], width="400%", height="30%",
+                     loc="lower left")
+    cb = add_cbar(fig, min=1, max=10, cax=cax)
+    cb.ax.set_title("$d$ (nm)", pad=4)
+
+    grid_labels(fig, [ax[i] for i in range(0, 12, 3)],
+                reserved_space=(0, -0.05))
     
     savepgf(fig, img_path / "g_distance_bulk.pgf")
     

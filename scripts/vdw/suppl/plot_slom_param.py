@@ -1,7 +1,5 @@
 import numpy
 # import os, os.path
-import matplotlib.pyplot as plt
-plt.style.use("science")
 # from numpy import meshgrid
 from ..utils.kkr import kkr, matsubara_freq
 from ..utils.lifshitz import alpha_to_eps, g_amb_alpha, g_amb
@@ -35,7 +33,7 @@ def get_eps(index):
     return gap, omega_half, omega_p, eps[0]
 
 def plot_main():
-    fig, ax = gridplots(1, 2, ratio=2, r=0.7)
+    fig, ax = gridplots(1, 2, ratio=2, r=0.8)
     ax1 = ax[0]
     ax2 = ax[1]
     res = []

@@ -68,7 +68,7 @@ def plot_main():
     ax[0].set_xlabel(r"$d$ (\AA{})")
     for i in (1, 2):
         ax[i].set_xlabel(r"$\hbar \xi$ (eV)")
-    ax[0].set_ylabel(r"$\Phi^{\mathrm{AmB}}$ (mJ$\cdot{}$m$^{-2}$)")
+    ax[0].set_ylabel(r"$\Phi_{\mathrm{AmB}}$ (mJ$\cdot{}$m$^{-2}$)")
     ax[1].set_ylabel(r"$G(i \xi)$ (μJ$\cdot{}$m$^{-2}$)")
     ax[2].set_ylabel(r"$\tau (i \xi)$")
 
@@ -114,7 +114,7 @@ def plot_main():
     ax_in1.scatter(res[:, 0], res[:, 1], s=3.5 ** 2, c=res[:, 0],
                    # c=[get_color(r, min=0, max=np.max(Eg[1:])) \
                       # for r in res[:, 0]],
-                   cmap="rainbow", alpha=0.2)
+                   cmap="rainbow", alpha=0.4)
 
     # ax_in1.scatter(Eg, trans_para, s=10, color="#3287a8",
                    # marker="^", alpha=0.5)
@@ -133,7 +133,7 @@ def plot_main():
     # grid_labels(fig, ax, reserved_space=(0, -0.05),)
     labels = ["a", "b", "c"]
     for i, ax_ in enumerate(ax):
-        ax_.text(x=-0.4, y=1.05, s=labels[i], weight="bold", size="x-large",
+        ax_.text(x=-0.3, y=1.05, s=labels[i], weight="bold", size="x-large",
                  ha="left", va="top",
                  transform=ax_.transAxes)
     savepgf(fig, img_path / "model_afm_transparency.pgf")
