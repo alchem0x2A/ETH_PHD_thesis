@@ -1,0 +1,51 @@
+{
+  "0625": {
+      "graphene": {
+	  "Plasma":{"center": [680, 728],
+		    "scaling": 0.04169,
+		    "vminmax": [200, 9500]},
+	  "OTS":{"center": [680, 725],
+		 "scaling": 0.04142,
+		 "vminmax": [2500, 24000]},
+	  "Au":{"center": [680, 722],
+		"scaling": 0.04142,
+		"vminmax": [0, 450]}
+		  },
+    "no-graphene": null
+  },
+  "1008": {
+      "graphene": {
+	  "Au":{"center": [774, 705],
+		"scaling": 0.0288,
+		"vminmax": [60, 210]},
+	  "Plasma":{"center": [794, 721],
+		"scaling": 0.0288,
+		"vminmax": [40, 256]}
+      },
+    "no-graphene": null
+  },
+  "0726": {
+      "graphene": {
+	  "Plasma":{"center": [693, 730],
+		    "scaling": 0.03600,
+		    "vminmax": [0, 45000]},
+	  "OTS":{"center": [693, 728],
+		 "scaling": 0.03600,
+		 "vminmax": [3431, 58001]},
+	  "Au":{"center": [693, 726],
+		"scaling": 0.03600,
+		"vminmax": [4000, 7500]}
+      },
+      "no-graphene": {
+	  "Plasma":{"center": [692, 722],
+		    "scaling": 0.03600,
+		    "vminmax": [3800, 22000]},
+	  "OTS":{"center": [689, 730],
+		 "scaling": 0.03600,
+		 "vminmax": [600, 10000]},
+	  "Au":{"center": [688, 721],
+		"scaling": 0.04100,
+		"vminmax": [640, 15000]}
+      }
+  }
+}

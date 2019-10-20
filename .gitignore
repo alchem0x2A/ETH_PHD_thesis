@@ -434,3 +434,5 @@ img/*/*.pdf_tex
 /scripts/.width
 g_contrib*.npz
 img/vdw/*.png
+/img/vdw/3D/AFM_scheme.pdf
+/img/vdw/3D/AFM_scheme.pdf_tex
