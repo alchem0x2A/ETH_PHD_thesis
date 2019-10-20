@@ -436,3 +436,7 @@ g_contrib*.npz
 img/vdw/*.png
 /img/vdw/3D/AFM_scheme.pdf
 /img/vdw/3D/AFM_scheme.pdf_tex
+/data/vdw/GIXD/calibrated/1008/graphene/Au.png
+/data/vdw/GIXD/calibrated/1008/graphene/OTS.png
+/chapters/appendix/main.tex
+/data/vdw/GIXD/calibrated/1008/graphene/Plasma.png
