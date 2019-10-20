@@ -60,13 +60,20 @@ brings potentially unprecedented surface properties by simply coating
 an existing bulk surface with 2D
 material(s)~\cite{Prasai_2012_coating,rafiee_2012_transparency,Tsoi_2014_vdW_screening_2D}.
 %
+
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{model_classic_compare.pdf_tex}
+  \caption{\label{fig:vdw-compare-classic}%
+  }
+\end{figure}
 Based on classic pair-wise model~\cite{Hamaker_1937_vdW} of vdW
 forces, the interaction free energy per area $\Phi_{\mathrm{vdW}}$,
 between two semi-infinite bulk bodies (A and B) separated by distance
 $d$, is:
 \begin{equation}
   \label{eq:vdw-hamaker-res}
-  \Phi^{\mathrm{vdW}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
+  \Phi_{\mathrm{vdW}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
 \end{equation}
 where $A_{\mathrm{AB}}$ is known as the Hamaker constant of vdW
 interactions between materials A and B.
@@ -149,24 +156,24 @@ We start the discussion in a system with simplified geometry: consider
 two infinitely-large bulk materials (A and B) separated by a medium m
 at distance \(d\), the total many-body interaction potential between A
 and B over m, \(\Phi\), consists of the contributions from vdW
-interactions \(\Phi^{\mathrm{vdW}}\) and mono\-polar surface
-interactions \(\Phi^{\pm}\)
+interactions \(\Phi_{\mathrm{vdW}}\) and mono\-polar surface
+interactions \(\Phi_{\pm}\)
 \cite{van_Oss_1987_monopolar,Van_Oss_1988}, such that:
 \begin{equation}
 \label{eq:vdw-phi-oss}
-\Phi = \Phi^{\mathrm{vdW}} + \Phi^{\pm}
+\Phi = \Phi_{\mathrm{vdW}} + \Phi_{\pm}
 \end{equation}
-where \(\Phi^{\mathrm{vdW}}\) includes the Keesom (dipole -- dipole),
+where \(\Phi_{\mathrm{vdW}}\) includes the Keesom (dipole -- dipole),
 Debye (dipole -- induced dipole) and London dispersion (induced dipole
 -- induced dipole) interactions~\cite{Israelachvili_2011_book}, while
-\(\Phi^{\pm}\) originates from interfacial monopoles (Coulomb
+\(\Phi_{\pm}\) originates from interfacial monopoles (Coulomb
 interactions) \cite{van_Oss_1987_monopolar}.
 %
-Note that $\Phi^{\mathrm{vdW}}$ and $\Phi^{\pm}$ are all relative
+Note that $\Phi_{\mathrm{vdW}}$ and $\Phi_{\pm}$ are all relative
 energy scales compared with the infinitely-separated systems.
 %
 From the Lifshitz-vdW theory \cite{Dzyaloshinskii_1961_lifshitz},
-\(\Phi^{\mathrm{vdW}}\) stems from the fluctuations of electromagnetic
+\(\Phi_{\mathrm{vdW}}\) stems from the fluctuations of electromagnetic
 (EM) field, and can be regarded as the sum of oscillatory surface EM
 mode energies, when the length scale of interest is larger than
 atomistic details.
@@ -174,11 +181,11 @@ atomistic details.
 When the vdW contribution dominates (\ie chemically inert surface),
 and retardation effect (due to limited speed of light, usually seen at
 distance $>$20 nm~\cite{parsegian_van_2010_book}) can be ignored,
-$\Phi^{\mathrm{vdW}}$ is total energy summed from all allowed EM modes
+$\Phi_{\mathrm{vdW}}$ is total energy summed from all allowed EM modes
 \cite{Li_2005_diele}:
 \begin{equation}
 \label{eq:vdw-EM-energy}
-\Phi^{\mathrm{vdW}} = k_{\mathrm{B}} T \sum_{j} \ln \left[2 \sinh\left(\frac{\hbar \omega_{j}(\mathbf{k})}{2 k_{\mathrm{B}} T}\right)\right] 
+\Phi_{\mathrm{vdW}} = k_{\mathrm{B}} T \sum_{j} \ln \left[2 \sinh\left(\frac{\hbar \omega_{j}(\mathbf{k})}{2 k_{\mathrm{B}} T}\right)\right] 
 \end{equation}
 where \(\omega_{j}\) is EM frequencies of allowed mode $j$ that
 corresponds to the (i) geometry and dielectric profile of the system
@@ -196,7 +203,7 @@ over the imaginary Matsubara frequencies $\xi$
 \cite{Mahanty_1976_dispersion_book} as:
 \begin{equation}
 \label{eq:vdw-lifshitz-general-2}
-\Phi^{\mathrm{vdW}} = \frac{1}{2} k_{\mathrm{B}} T \sum_{n=-\infty}^{\infty} \sum_{\mathbf{k}}\ln \mathcal{D}(i \xi_{n}, \mathbf{k})
+\Phi_{\mathrm{vdW}} = \frac{1}{2} k_{\mathrm{B}} T \sum_{n=-\infty}^{\infty} \sum_{\mathbf{k}}\ln \mathcal{D}(i \xi_{n}, \mathbf{k})
 = k_{\mathrm{B}} T \sideset{}{'}\sum_{n=0}^{\infty} \sum_{\mathbf{k}} \ln \mathcal{D}(i \xi_{n}, \mathbf{k})
 \end{equation}
 where \(k_{\mathrm{B}}\) is the Boltzmann constant, \(T\) is
@@ -216,7 +223,7 @@ text) that is infinite in \textit{xy}-direction while non-periodic in
 vector \(\mathbf{k} = (k_{x}, k_{y})\):
 \begin{equation}
 \label{eq:vdw-lifshitz-integral}
-\Phi^{\mathrm{vdW}} = \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'} \sum_{n=0}^{\infty} \int_{0}^{\infty} \ln \mathcal{D}(i\xi_{n}, \mathbf{k}) \mathrm{d}^{2} \mathbf{k}
+\Phi_{\mathrm{vdW}} = \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'} \sum_{n=0}^{\infty} \int_{0}^{\infty} \ln \mathcal{D}(i\xi_{n}, \mathbf{k}) \mathrm{d}^{2} \mathbf{k}
 \end{equation}
 %
 While along the \textit{z}-direction, the electrostatic potential
@@ -304,7 +311,7 @@ with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
 \begin{equation}
 \label{eq:vdw-lifshitz-aniso-final}
 \begin{aligned}
-\Phi^{\mathrm{vdW}}
+\Phi_{\mathrm{vdW}}
 &= \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'}\sum_{n=0}^{\infty}
 \int_{0}^{2 \pi} \mathrm{d}\vartheta
 \int_{0}^{\infty} \kappa \mathrm{d}\kappa 
@@ -338,7 +345,7 @@ total vdW interactions, is negligible.  \worktodo{think about this
 \end{figure}
 
 An important feature of \autoref{eq:vdw-lifshitz-aniso-final} is that
-the total energy $\Phi^{\mathrm{vdW}}$ can be greatly attenuated
+the total energy $\Phi_{\mathrm{vdW}}$ can be greatly attenuated
 through a medium with high dielectric anisotropy (\ie
 $g_{\mathrm{m}} \gg 1$).
 %
@@ -398,7 +405,7 @@ as $\varepsilon_{\mathrm{A}}$ and $\varepsilon_{\mathrm{B}}$ of bulk
 materials can be regarded as
 constant~\cite{Li_2005_diele}.
 %
-In other words, the calculation of $\Phi^{\mathrm{vdW}}$ only requires
+In other words, the calculation of $\Phi_{\mathrm{vdW}}$ only requires
 dielectric data at the optical limit, which greatly simplifies the
 computational expense.\worktodo{refine sentence, fine 1 more citation}
 
@@ -416,7 +423,7 @@ and $g_{\mathrm{m}}$ independent of $\vartheta$. As a result,
 \begin{equation}
   \begin{aligned}[t]
 \label{eq:vdw-Phi-aniso-main}
-\Phi^{\mathrm{vdW}} &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
+\Phi_{\mathrm{vdW}} &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} 
 \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
 \int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x \\
 \hat{\Delta}_{\mathrm{jm}}(i\xi) &= \frac{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) -
@@ -434,13 +441,13 @@ using single-frequency interaction energy $G(i\xi_{n})$ as:
 \begin{equation}
 \begin{aligned}[t]
 \label{eq:vdw-Phi-single-point}
-\Phi^{\mathrm{vdW}} &= \sideset{}{'} \sum_{n=0}^{\infty} G(i \xi_{n}) \\
+\Phi_{\mathrm{vdW}} &= \sideset{}{'} \sum_{n=0}^{\infty} G(i \xi_{n}) \\
 G(i \xi_{n}) &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
 \int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x
 \end{aligned}
 \end{equation} 
 \autoref{eq:vdw-Phi-single-point} is the main equation for the calculation
-of $\Phi^{\mathrm{vdW}}$ in this chapter. As can be seen, it is
+of $\Phi_{\mathrm{vdW}}$ in this chapter. As can be seen, it is
 correlated with only a few frequency-dependent dielectric properties
 $\varepsilon_{\mathrm{A}}$, $\varepsilon_{\mathrm{B}}$ and
 $\alpha_{\mathrm{2D}}$ \worktodo{optic or optical?}, as well as distance $d$.
@@ -508,6 +515,7 @@ shown in \worktodo{figure}, respectively.
 
 \begin{figure}[h]
   \centering
+  \import{\imgdir}{eps_and_gm2.pgf}
   \caption{\label{fig:vdw-eps-iv-all} %
     \worktodo{Add caption}
   }
@@ -553,7 +561,7 @@ $\varepsilon_{\mathrm{m}}^{\parallel}$, as shown in
 \worktodo{figure}.
 %
 Considering the fact that $1/g_{\mathrm{m}}^{2}$ modulates the
-magnitudes of $\Phi^{\mathrm{vdW}}$ at each frequency (see
+magnitudes of $\Phi_{\mathrm{vdW}}$ at each frequency (see
 \autoref{eq:vdw-lifshitz-aniso-final}), its behavior is analogous to a
 high-pass band filter~\worktodo{cite 1} \worktodo{think of using G for frequency
   part?}
@@ -580,6 +588,14 @@ studies~\cite{Liu_2018_gr}.
 %
 The mechanism behind such high-pass vdW transmission phenomena, is
 schematically shown in \worktodo{figure c}.
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{scheme_aniso.pdf_tex}
+  \caption{\label{fig:vdw-scheme-aniso} %
+  }
+\end{figure}
+
+
 
 % 20191015-1415
 The model proposed here is capable to explain the
@@ -590,14 +606,14 @@ To simulate the experimental conditions, we model the
 many-body vdW interaction between SiO\textsubscript{2} (A) and Si\textsubscript{3}N\textsubscript{4} (B), by
 varying the 2D materials (m).
 % according to Equation \ref{eq:Phi-aniso}.
-\worktodo{figure here} shows \(\Phi^{\mathrm{vdW}}\) as a function of
+\worktodo{figure here} shows \(\Phi_{\mathrm{vdW}}\) as a function of
 \(d\) when varying the 2D material.
 %
 Clearly, the presence of a 2D material (colored curves) universally
 reduces the vdW interaction energy compared with a non-screened system
-(\(\Phi^{0}\), gray curve) that the medium m is vacuum.
+(\(\Phi_{0}\), gray curve) that the medium m is vacuum.
 %
-As expected, the reduction of $\Phi^{\mathrm{vdW}}$ is stronger for 2D
+As expected, the reduction of $\Phi_{\mathrm{vdW}}$ is stronger for 2D
 materials with smaller \(E_{\mathrm{g}}^{\mathrm{2D}}\).
 %
 Analogous to the results presented in
@@ -615,6 +631,12 @@ with \(E_{\mathrm{g}}^{\mathrm{2D}}\).
 This
 observation quantitatively agrees with the experimental ranking of
 \(A_{\mathrm{eff}}\) in \cite{Tsoi_2014_vdW_screening_2D}, that graphene (Gr) $<$ 2H-MoS\textsubscript{2} $<$ fluoro\-graphene (F-Gr).
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{model_afm_transparency.pgf}
+  \caption{\label{fig:vdw-afm-model}}
+\end{figure}
+
 %
 More interestingly, the single frequency interaction energies
 \(G(i\xi)\), exhibit distinct patterns between 2D materials. As shown
@@ -657,7 +679,7 @@ We introduce two variables to quantify such transparency:
   the ratio between total vdW energy with and without the 2D material:
   \begin{equation*}
 \label{eq:vdw-def-total-trans}
-\eta = \frac{\Phi^{\mathrm{vdW}}}{\Phi^{0}}
+\eta = \frac{\Phi_{\mathrm{vdW}}}{\Phi_{0}}
 \end{equation*}
 \end{enumerate}
 \worktodo{should we use $G^{vdW, 0}$?}
@@ -684,6 +706,14 @@ large-scale evaluation of $\eta^{\mathrm{vdW}}$ on a database with
 7.5\texttimes{}10\textsuperscript{5} combinations of AmB systems
 (details see \autoref{sec:vdw-methods}).
 %
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{fig3.pdf_tex}
+  \caption{\label{fig:vdw-database} %
+    \worktodo{Add cap}}
+\end{figure}
+
+
 \worktodo{Figure 3?} shows the 3D scatter plot of
 \(\eta^{\mathrm{vdW}}\) at \(d\) = 2 nm, with the magnitudes of
 $\eta^{\mathrm{vdW}}$ indicated by a color mapping. Inspired by the
@@ -706,6 +736,12 @@ Clearly, the results in \worktodo{figure 3?} shows an systematic
 approach to tune the vdW transparency by changing the bulk/2D material
 combinations.
 
+
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{bulk_compare_slom.pgf}
+  \caption{\label{fig:vdw-compare-slom}}
+\end{figure}
 
 To get more insights into the complex dependency of
 \(\eta^{\mathrm{vdW}}\) on the combination of materials, we first take
@@ -761,6 +797,12 @@ where
 $\varepsilon_{\mathrm{Bulk, 0}} = \varepsilon_{\mathrm{Bulk}}(i\xi =
 0)$ is the static electronic permittivity.
 %
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{eps_3D_slom.pgf}
+  \caption{\label{fig:vdw-slom-param}}
+\end{figure}
+
 Interestingly, the bulk materials studied show a general linear trend
 between \(\hbar \xi_{\mathrm{g}}\) and the bandgap
 \(E_{\mathrm{g}}^{\mathrm{Bulk}}\), as shown in \worktodo{which
@@ -830,7 +872,7 @@ violate the recently discovery that 2D materials are more
 ``transparent'' to remote epitaxy of materials with higher polarity
 \cite{Kong_2018_pol}. In such situation where the driving force is
 formation of chemical bonding from interfacial danging bonds, the
-interaction potential from monopolar surface \(\Phi^{\pm}\) (see \autoref{eq:vdw-phi-oss}), is dominating over the vdW
+interaction potential from monopolar surface \(\Phi_{\pm}\) (see \autoref{eq:vdw-phi-oss}), is dominating over the vdW
 interactions. Although the Coulomb interactions can also be
 effectively screened by 2D material
 \cite{Li_2014_screen,Ambrosetti_2019_jpcl}, its strength still
@@ -850,9 +892,9 @@ distance \(d\) roughly by a power law of \(d^{-1}\). When
 \(d \to \infty\), we have \(\hat{\varepsilon}_{\mathrm{m}} \to 1\) and
 \(1/g_{\mathrm{m}}^{2} \to 1\) on the whole frequency range. In this
 case, the many-body vdW interaction recovers its form when the medium
-is vacuum ($\Phi^{\mathrm{vdW}, 0}$).
+is vacuum ($\Phi_{\mathrm{vdW}, 0}$).
 %
-In addition to the trivial picture that $\Phi^{\mathrm{vdW}}$
+In addition to the trivial picture that $\Phi_{\mathrm{vdW}}$
 decreases with $d$, the
 high-pass transmission feature is also affected.
 %
@@ -881,12 +923,17 @@ position with increasing \(d\) is also observed in these systems,
 indicating the screening effect of the 2D material becomes closer to
 vacuum (peak position = 0 eV).
 
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{g_distance_bulk.pgf}
+  \caption{\label{fig:vdw-g-dist}}
+\end{figure}
 
 Another exotic behavior concerning the distance-dependency of vdW
 interactions through 2D materials, is the power law with $d$
 \worktodo{try better wording, and cite Gobre paper}.
 %
-When the medium m is vacuum, \(|\Phi^{\mathrm{vdW}}|\) always exhibits a
+When the medium m is vacuum, \(|\Phi_{\mathrm{vdW}}|\) always exhibits a
 power law of \(d^{-2}\), as can be expected from
 \autoref{eq:vdw-hamaker-res}.
 %
@@ -895,17 +942,23 @@ In other words, the log-log plot for \(\Delta^{\mathrm{vdW}}\) vs
 \worktodo{as shown in figure?}.
 %
 However, based on our analysis above, the existence of 2D material
-causes stronger screening of $\Phi^{\mathrm{vdW}}$ at shorter
-distance, and the log-log profile \(|\Phi^{\mathrm{vdW}}|\) vs \(d\)
+causes stronger screening of $\Phi_{\mathrm{vdW}}$ at shorter
+distance, and the log-log profile \(|\Phi_{\mathrm{vdW}}|\) vs \(d\)
 deviate from that in the non-screened case.
 %
 Apparently, the vdW interaction in such system cannot be simply
 described by the $d^{-2}$ Hamaker-vdW model. Here we define the
-derivative $\partial \log(|\Phi^{\mathrm{vdW}}|)/ \partial d$ as the
+derivative $\partial \log(|\Phi_{\mathrm{vdW}}|)/ \partial d$ as the
 ``local'' power exponent $p_{\mathrm{local}}$, such that
-$\Phi^{\mathrm{vdW}}$ approximately decays at a rate of
+$\Phi_{\mathrm{vdW}}$ approximately decays at a rate of
 $d^{-p_{\mathrm{local}}}$ at certain value of $d$.
 %
+
+\begin{figure}[h]
+  \centering{}
+  \import{\imgdir}{power_law.pgf}
+  \caption{\label{fig:vdw-power-law}}
+\end{figure}
 To demonstrate, we choose A=SiO\textsubscript{2} and
 B=Si\textsubscript{3}N\textsubscript{4} as demonstrated in
 \worktodo{figure xx} to mimic the AFM measurements in
@@ -941,7 +994,7 @@ small \(E_{\mathrm{g}}^{\mathrm{A}}\) coupled with large
 observations can also be found in \worktodo{figure SLOM} predicted by
 the SLOM.
 %
-This reversal in the sign of $\Phi^{\mathrm{vdW}}$ indicates the
+This reversal in the sign of $\Phi_{\mathrm{vdW}}$ indicates the
 repulsive many-body vdW-Casimir interactions
 \cite{Munday_2009_repul,Zhao_2019_casimir_trap} which lead to
 fascinating applications including super lubricity
@@ -1022,7 +1075,7 @@ typical dielectric responses of organic molecules~\worktodo{cite 1
   here}.
 %
 As shown in \worktodo{what figure}a, our simulation indicates that
-repulsive $\Phi^{\mathrm{AmB}}$ indeed exists when $d=$ 1
+repulsive $\Phi_{\mathrm{AmB}}$ indeed exists when $d=$ 1
 nm\worktodo{check number}, similar to the case of LiF-graphene-Au
 case shown previously.
 %
@@ -1182,16 +1235,16 @@ repulsive many-body vdW interactions.
 The first example considered here is the liquid-suspended 2D
 interface. \worktodo{figure?}
 %
-\worktodo{appropriate to use $\Phi^{\mathrm{vdW}}$ still?}
+\worktodo{appropriate to use $\Phi_{\mathrm{vdW}}$ still?}
 We a condensed water film (B) on top of a suspended 2D material
 separated by distance \(d\), while below the 2D layer there is diluted
 water vapor (A, \(\hat{\varepsilon}_{\mathrm{A}} \approx 1\)).
 %
-As a demonstration, we study \(\Phi^{\mathrm{vdW}}\) as function of
+As a demonstration, we study \(\Phi_{\mathrm{vdW}}\) as function of
 \(d\) in such system, when the 2D material is either graphene or hBN ,
 as shown in \worktodo{figure}b.
 %
-In both cases, \(\Phi^{\mathrm{vdW}}\) becomes
+In both cases, \(\Phi_{\mathrm{vdW}}\) becomes
 repulsive when \(d\) exceeds a certain threshold $d_{0}$ (\worktodo{xx \AA{} for graphene and yy \AA{} for hBN}).
 %
 This can be understood from the analysis in
@@ -1221,9 +1274,9 @@ the total interaction energy can be repulsive at a certain distance
 range.
 %
 As shown in \worktodo{which figure?}, the total vdW interactions
-$\Phi^{\mathrm{tot}}$ which consists both repulsive 2D interactions
-$\Phi^{\mathrm{AmB}}$ and two-body attractive interactions
-$\Phi^{\mathrm{2D-B}}$, can have maxima when $d \approx 30 \AA{}$,
+$\Phi_{\mathrm{tot}}$ which consists both repulsive 2D interactions
+$\Phi_{\mathrm{AmB}}$ and two-body attractive interactions
+$\Phi_{\mathrm{2D-B}}$, can have maxima when $d \approx 30 \AA{}$,
 corresponding to a energy barrier of XXX mJ$\cdot$m$^{-2}$.
 %
 Such repulsive total interactions may be potentially observed by
@@ -1254,16 +1307,16 @@ are always fulfilled, regardless of the choice of 2D material and
 distance $d$.
 %
 This is validated by our simulations in \worktodo{which figure XX?}, when
-$\Phi^{\mathrm{AmB}}$ becomes always repulsive for gold deposited on
+$\Phi_{\mathrm{AmB}}$ becomes always repulsive for gold deposited on
 both suspended graphene and hBN sheets.
 %
 More interestingly, the large distinction between
 $\hat{\varepsilon}_{\mathrm{B}}$ (when B=gold) and
 $\hat{\varepsilon}_{\mathrm{m}}$ \worktodo{Should I use gold?}
-increases the magnitude of $\Phi^{\mathrm{AmB}}$ by almost 10 times
+increases the magnitude of $\Phi_{\mathrm{AmB}}$ by almost 10 times
 compared with liquid-2D systems. As a result, an appreciable repulsive
 energy barrier of $\sim{}$0.5 mJ$\cdot$m$^{-2}$ is seen in
-$\Phi^{\mathrm{tot}}$ at $d_{0} \approx$25 \AA{}.
+$\Phi_{\mathrm{tot}}$ at $d_{0} \approx$25 \AA{}.
 %
 % Such feature makes the repulsive interactions more observable.
 %
