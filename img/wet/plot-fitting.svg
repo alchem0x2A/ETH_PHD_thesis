@@ -46,13 +46,13 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="6.9368406"
-     inkscape:cx="152.32117"
-     inkscape:cy="369.7373"
+     inkscape:zoom="1.7342102"
+     inkscape:cx="116.35787"
+     inkscape:cy="193.59343"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="text2335" />
+     inkscape:current-layer="patch_7" />
   <defs
      id="defs117"
      style="stroke-linecap:butt;stroke-linejoin:round">
@@ -1998,40 +1998,25 @@
          transform="translate(-56.999999)">
         <g
            id="patch_7"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           transform="translate(0,-11.999999)">
           <path
              id="path1901"
              style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-linecap:butt;stroke-linejoin:miter"
-             d="m 102.39493,45.918184 h 98.21889 q 1.4994,0 1.4994,-1.4994 v -32.151587 q 0,-1.4994 -1.4994,-1.4994 h -98.21889 q -1.4994,0 -1.4994,1.4994 v 32.151587 q 0,1.4994 1.4994,1.4994 z"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="line2d_21"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <path
-             id="path1904"
-             style="fill:none;stroke:#666666;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.8"
-             d="m 103.89432,16.839195 h 14.994"
-             inkscape:connector-curvature="0" />
+             d="m 102.39493,45.918184 h 146.21889 c 0.9996,0 1.4994,-0.4998 1.4994,-1.4994 v -21.651588 c 0,-0.9996 -0.4998,-1.4994 -1.4994,-1.4994 h -146.21889 c -0.9996,0 -1.4994,0.4998 -1.4994,1.4994 v 21.651588 c 0,0.9996 0.4998,1.4994 1.4994,1.4994 z"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="sssssssss" />
         </g>
         <g
            id="line2d_22"
            style="stroke-linecap:butt;stroke-linejoin:round" />
         <g
-           id="text_20"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <text
-             id="text1908"
-             y="19.463144"
-             x="124.88593"
-             style="font-style:normal;font-weight:normal;font-size:7.49700022px;font-family:Verdana;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">Theoretical</text>
-        </g>
-        <g
            id="line2d_23"
            style="stroke-linecap:butt;stroke-linejoin:round" />
         <g
            id="line2d_24"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           transform="translate(0,-11.999999)">
           <g
              id="g1914"
              style="stroke-linecap:butt;stroke-linejoin:round">
@@ -2047,58 +2032,83 @@
         </g>
         <g
            id="text_21"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           transform="translate(0,-11.999999)">
           <text
              id="text1917"
              y="30.416965"
-             x="124.88593"
-             style="font-style:normal;font-weight:normal;font-size:7.49700022px;font-family:Verdana;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">Electrowetting Data</text>
-        </g>
-        <g
-           id="LineCollection_3"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <path
-             id="path1920"
-             style="fill:none;stroke:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-             d="m 107.64283,38.786663 h 7.497"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="LineCollection_4"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <path
-             id="path1923"
-             style="fill:none;stroke:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-             d="m 111.39132,42.535163 v -7.497"
-             inkscape:connector-curvature="0" />
+             x="118.88593"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49699974px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+            <tspan
+               sodipodi:role="line"
+               id="tspan1389"
+               x="118.88593"
+               y="30.416965"
+               style="stroke-linecap:butt;stroke-linejoin:round">Electrowetting Data (Ref.~\cite{Hong_2016_mechanism})</tspan>
+          </text>
         </g>
         <g
            id="line2d_25"
            style="stroke-linecap:butt;stroke-linejoin:round" />
         <g
-           id="line2d_26"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           id="g1385">
           <g
-             id="g1929"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <use
-               id="use1927"
-               y="38.786663"
-               xlink:href="#m4cf0c17a75"
-               x="111.39133"
-               style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-               width="100%"
-               height="100%" />
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             transform="translate(-3.0957031e-6,-11.999999)"
+             id="g1375">
+            <g
+               id="LineCollection_3"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <path
+                 id="path1920"
+                 style="fill:none;stroke:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
+                 d="m 107.64283,38.786663 h 7.497"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <g
+               id="LineCollection_4"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <path
+                 id="path1923"
+                 style="fill:none;stroke:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
+                 d="m 111.39132,42.535163 v -7.497"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(0,-11.999999)"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             id="line2d_26">
+            <g
+               style="stroke-linecap:butt;stroke-linejoin:round"
+               id="g1929">
+              <use
+                 height="100%"
+                 width="100%"
+                 style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
+                 x="111.39133"
+                 xlink:href="#m4cf0c17a75"
+                 y="38.786663"
+                 id="use1927" />
+            </g>
           </g>
         </g>
         <g
            id="text_22"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           transform="translate(-5.9999996,-11.999999)">
           <text
              id="text1932"
              y="41.410614"
              x="124.88593"
-             style="font-style:normal;font-weight:normal;font-size:7.49700022px;font-family:Verdana;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">ESEM Data</text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49699974px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+            <tspan
+               sodipodi:role="line"
+               id="tspan1387"
+               x="124.88593"
+               y="41.410614"
+               style="stroke-linecap:butt;stroke-linejoin:round">ESEM Data (Ref.~\cite{Ashraf_2016_doping})</tspan>
+          </text>
         </g>
       </g>
     </g>
