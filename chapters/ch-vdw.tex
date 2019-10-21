@@ -7,7 +7,6 @@
   Nature isn't classical, and if you want to make a simulation
   of nature, you'd better make it quantum mechanical, and by golly
   it's a wonderful problem, because it doesn't look so easy.  }%
-\worktodo{find the quote or quit}
 
 \vspace{1em}
 
@@ -24,31 +23,28 @@ The van der Waals (vdW) interactions are inter\-atomic /
 inter\-molecular forces that stem from the electromagnetic (EM)
 fluctuations~\cite{Israelachvili_2011_book,Woods_2016_rev_vdw,parsegian_van_2010_book}.
 %
-Unlike trivial electrostatic (Coulombic) forces that depends on the
-charge stat, the vdW interaction has a complex electro\-dynamic
-origin, and acts ubiquitously between all atoms and molecules,
-regardless of their charge
-state~\cite{Israelachvili_2011_book,Hermann_2017_vdW_rev}.
+Unlike trivial electrostatic (Coulombic) forces that depend on the
+charge state, the vdW interaction has a complex electro\-dynamic
+origin, which acts ubiquitously between all atoms and molecules~\cite{Israelachvili_2011_book,Hermann_2017_vdW_rev}.
 %
 As briefly discussed in \autoref{sec:inter-forc-at}, although being a
-relatively weak force, the vdW interactions can be dominating at
+relatively weak force, the vdW interaction can be dominating at
 molecule-2D interface due to the absence of dangling bonds.
 %
 The understanding and engineering of the vdW interactions at the 2D
-material interface would greatly benefit molecular
+material interfaces would greatly benefit molecular
 self-assembly~\cite{Kumar_2017_rev_assemb_2D},
 electronic~\cite{Wang_2015_phys_chem_tuning_TMDC,Lazar_2013} as well
 as optical properties~\cite{Geim_2013_2D_vdw_Het,Novoselov_2016_vdW}
 of 2D material-based hetero\-structures.
 %
-\worktodo{try to say more about the dielectric properties}
 
 As introduced in \autoref{sec:van-der-waals}, one particular question
 of interest is the transmission of vdW interactions through the
 atomically-thin 2D materials.
 %
 The effective distance of vdW forces, depending on the medium, can
-vary from sub-nm 10$^{1}$ nm~\cite{Israelachvili_2011_book}, and are
+vary from 10$^{-1}$ to 10$^{1}$ nm~\cite{Israelachvili_2011_book}, and are
 relatively longer compared with the sub-nm thickness of 2D materials.
 %
 Therefore, the vdW forces from an macroscopic substrate may
@@ -61,27 +57,38 @@ an existing bulk surface with 2D
 material(s)~\cite{Prasai_2012_coating,rafiee_2012_transparency,Tsoi_2014_vdW_screening_2D}.
 %
 
-\begin{figure}[h]
-  \centering
-  \import{\imgdir}{model_classic_compare.pdf_tex}
-  \caption{\label{fig:vdw-compare-classic}%
-  }
-\end{figure}
-Based on classic pair-wise model~\cite{Hamaker_1937_vdW} of vdW
-forces, the interaction free energy per area $\Phi_{\mathrm{vdW}}$,
-between two semi-infinite bulk bodies (A and B) separated by distance
-$d$, is:
+
+Based on classical pair-wise model~\cite{Hamaker_1937_vdW}
+(\autoref{fig:vdw-compare-classic}a) of vdW forces, the interaction
+free energy per area  between two semi-infinite
+bulk bodies (A and B) separated by distance $d$, $\Phi_{\mathrm{AB}}$, is:
 \begin{equation}
   \label{eq:vdw-hamaker-res}
-  \Phi_{\mathrm{vdW}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
+  \Phi_{\mathrm{AB}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
 \end{equation}
 where $A_{\mathrm{AB}}$ is known as the Hamaker constant of vdW
 interactions between materials A and B.
 %
-A quantitative statement can be drawn from such simple model: by inserting a 2D material (\eg graphene
-with thickness $\sim{}$3.3 \AA{}~\cite{Shearer_2016}) between two bulk
-bodies (3$\sim{}$5 \AA{} \worktodo{cite 1 here}), 20--40\% of the vdW
+A quantitative statement can be drawn from such simple model: by
+inserting a 2D material (\eg graphene with thickness $\sim{}$3.3
+\AA{}~\cite{Shearer_2016}) between two bulk bodies (3$\sim{}$5
+\AA{}~\cite{Israelachvili_2011_book}), 20$\sim{}$40\% of the vdW
 interactions can still penetrate through the 2D layer.
+\begin{figure}[h]
+  \centering
+  \import{\imgdir}{model_classic_compare.pdf_tex}
+  \caption{\label{fig:vdw-compare-classic}%
+    Different pictures of vdW interactions. {\bfseries a} The classical
+    pair-wise model assuming vdW interaction energy
+    $\Phi_{\mathrm{AB}}$ between bulk materials follows
+    $\Phi_{\mathrm{AB}} \propto d^{-2}$. {\bfseries b} The Lifshitz-vdW
+    model that takes many-body effect into account. In the context of
+    2D material medium, in addition to the distance $d$ between the
+    two bulk bodies, the many-body vdW interaction energy
+    $\Phi_{\mathrm{AmB}}$ is controlled by dielectric mismatch
+    $\hat{\Delta}_{\mathrm{Am}}$, $\hat{\Delta}_{\mathrm{Bm}}$ and the
+    dielectric anisotropy factor $1/g_{\mathrm{m}}^{2}$.}
+\end{figure}
 %
 Several unprecedented phenomena concerning the interfacial vdW forces
 on 2D materials take credit from the analysis above, including wetting
@@ -90,11 +97,11 @@ transparency / translucency
 epitaxy \cite{Kim_2017_remote_epi_Gr,Kong_2018_pol}.
 
 Despite the seemingly accordance with experimental observations in
-these studies, the prerequisites for the classical model are the
-perfect additivity of vdW interactions, and a constant
+these studies, the prerequisites for the classical model are (i) the
+perfect additivity of vdW interactions, and (ii) a constant
 $A_{\mathrm{AB}}$. 
 %
-In other words, the classic model assumes that the existence of the
+In other words, the classical model assumes that the existence of the
 2DEG has no influence on the EM waves that arise from charge
 fluctuations.
 %
@@ -104,72 +111,69 @@ Such picture is however challenged by recent experimental
 revealing the 2D material-dependent Hamaker coefficient.
 %
 To correctly capture the many-body picture of vdW interactions at 2D
-material interfaces, electro\-dynamic effects beyond the classic model
+material interfaces, electro\-dynamic effects beyond the classical model
 is needed.
 %
 In practice, this is usually a challenging task, since state-of-art
 density functional theory (DFT) used for first principle simulations
-is limited ground state electron density, intrinsically lacking charge
-fluctuation~\cite{Woods_2016_rev_vdw}.
+is limited ground state electron density~\cite{Perdew_1996_GGA},
+intrinsically lacking charge fluctuation~\cite{Woods_2016_rev_vdw}.
 %
 On the other hand, full-scale interaction energy calculations based on
 dynamic non-local dielectric responses are usually time-consuming and
 only limited to small
-systems.~\cite{Hermann_2017_vdW_rev,Zhou_2017_lifshitz}
+systems~\cite{Hermann_2017_vdW_rev,Zhou_2017_lifshitz}.
 %
 Therefore, novel theoretical frameworks with both appreciable accuracy
 while maintaining simplicity, is of high demand to shed light on the
 vdW interactions at 2D material interfaces.
 
 In this chapter, we present
-the a generalized model to study the many-body vdW transmission
+a general model (~\ref{fig:vdw-compare-classic}b) to study the many-body vdW transmission
 through 2D materials, based on the modified Lifshitz-vdW theory
 \cite{Dzyaloshinskii_1961_lifshitz,parsegian_van_2010_book}.
 %
-Based on the model, the vdW transmission through a 2D material is
-selective, such that a 2D material acts as a high-pass filter of vdW
-interaction, filtering the low-frequency interactions.
+Our model reveals that the transmission of vdW interactions through a
+2D material is frequency-selective, such that a 2D material acts as a high-pass
+filter of vdW interaction, screening the low-frequency interactions.
 %
-Such phenomenon is related with the anisotropic dielectric nature (\worktodo{ref to chapter
-  5}).
+Such phenomenon is related with the anisotropic dielectric nature of 2D materials~\autoref{sec:diel-unif-geom-repr}.
 %
-We further show that such effect is concerted by the bandgap of both the
-2D and bulk materials through both large-scale material database
-screening.
+Using both large-scale material database
+screening, we further show that such effect is concerted by the bandgap of both the
+2D and bulk materials 
 %
-More interestingly, repulsive vdW interactions are possible with careful dielectric engineering of the 2D material interface.
+More interestingly, the model predicts the possibility to achieve
+repulsive vdW interactions  via careful dielectric
+engineering of the 2D material interface.
 %
 As a preliminary experimental demonstration, we show that the such
 repulsive vdW forces can be indirectly probed using molecular epitaxy
-on gold-supported graphene surfaced, as backed by the model presented
-here.
+on gold-supported graphene.
 
 \section{Modified Lifshitz-vdW Model For 2D Material Interfaces}
 \label{sec:vdw-model-lifshitz}
 % 20191014-1529
 
-\subsection{Generalized Model For Layered Anisotropic Media}
+\subsection{vdW Interactions  For Layered Anisotropic Media}
 \label{sec:vdw-gener-model-layer}
 
-\worktodo{Add scheme here}
-We start the discussion in a system with simplified geometry: consider
-two infinitely-large bulk materials (A and B) separated by a medium m
-at distance \(d\), the total many-body interaction potential between A
-and B over m, \(\Phi\), consists of the contributions from vdW
-interactions \(\Phi_{\mathrm{vdW}}\) and mono\-polar surface
+We start the discussion in a system with simplified geometry (as
+illustrated in \autoref{fig:vdw-compare-classic}b): consider two
+infinitely-large bulk materials (A and B) separated by a medium m at
+distance \(d\), the total many-body interaction potential between A
+and B over m, \(\Phi_{\mathrm{AmB}}\), consists of the contributions
+from vdW interactions \(\Phi_{\mathrm{vdW}}\) and mono\-polar surface
 interactions \(\Phi_{\pm}\)
-\cite{van_Oss_1987_monopolar,Van_Oss_1988}, such that:
-\begin{equation}
-\label{eq:vdw-phi-oss}
-\Phi = \Phi_{\mathrm{vdW}} + \Phi_{\pm}
-\end{equation}
-where \(\Phi_{\mathrm{vdW}}\) includes the Keesom (dipole -- dipole),
-Debye (dipole -- induced dipole) and London dispersion (induced dipole
--- induced dipole) interactions~\cite{Israelachvili_2011_book}, while
+\cite{van_Oss_1987_monopolar,Van_Oss_1988}, such that
+$\Phi_{\mathrm{AmB}} = \Phi_{\mathrm{vdW}} + \Phi_{\pm}$, where
+\(\Phi_{\mathrm{vdW}}\) includes the Keesom (dipole -- dipole), Debye
+(dipole -- induced dipole) and London dispersion (induced dipole --
+induced dipole) interactions~\cite{Israelachvili_2011_book}, while
 \(\Phi_{\pm}\) originates from interfacial monopoles (Coulomb
 interactions) \cite{van_Oss_1987_monopolar}.
 %
-Note that $\Phi_{\mathrm{vdW}}$ and $\Phi_{\pm}$ are all relative
+Note that $\Phi_{\mathrm{vdW}}$ and $\Phi_{\pm}$ are both relative
 energy scales compared with the infinitely-separated systems.
 %
 From the Lifshitz-vdW theory \cite{Dzyaloshinskii_1961_lifshitz},
@@ -178,28 +182,31 @@ From the Lifshitz-vdW theory \cite{Dzyaloshinskii_1961_lifshitz},
 mode energies, when the length scale of interest is larger than
 atomistic details.
 %
-When the vdW contribution dominates (\ie chemically inert surface),
-and retardation effect (due to limited speed of light, usually seen at
-distance $>$20 nm~\cite{parsegian_van_2010_book}) can be ignored,
-$\Phi_{\mathrm{vdW}}$ is total energy summed from all allowed EM modes
+We further limit our discussion to the regime that the vdW
+contribution dominates (\ie chemically inert 2D material interface),
+such that $\Phi_{\mathrm{AmB}} \approx \Phi_{\mathrm{vdW}}$.  Further
+neglecting the retardation effect~\cite{Dryden_2015_gecko} (due to
+limited speed of light, usually seen at distance $>$20
+nm~\cite{parsegian_van_2010_book}),
+$\Phi_{\mathrm{amB}}$ is total energy summed from all allowed EM modes
 \cite{Li_2005_diele}:
 \begin{equation}
 \label{eq:vdw-EM-energy}
 \Phi_{\mathrm{vdW}} = k_{\mathrm{B}} T \sum_{j} \ln \left[2 \sinh\left(\frac{\hbar \omega_{j}(\mathbf{k})}{2 k_{\mathrm{B}} T}\right)\right] 
 \end{equation}
 where \(\omega_{j}\) is EM frequencies of allowed mode $j$ that
-corresponds to the (i) geometry and dielectric profile of the system
+corresponds to the (i) geometry and dielectric profiles of the system
 and (ii) the in-plane wave vector \(\mathbf{k}\).
 %
 The system-specific information of the EM modes can be generalized by
-writing the dispersion relation ($\mathcal{D}$)of system, such that
+writing the dispersion relation ($\mathcal{D}$) of system, such that
 \(\mathcal{D}(\omega_{j}(\mathbf{k})) \equiv
 0\)~\cite{Guttinger_1966_dispersion,Mahanty_1976_dispersion_book}.
 %
 Analyzing the mode frequency \(\omega_{j}\) is usually a non-trivial
 task, while on the other hand, using the Cauchy integral theorem, the
 integral in \autoref{eq:vdw-EM-energy} is equivalent to the summation
-over the imaginary Matsubara frequencies $\xi$
+over the imaginary Matsubara frequencies $\xi_{n}$
 \cite{Mahanty_1976_dispersion_book} as:
 \begin{equation}
 \label{eq:vdw-lifshitz-general-2}
@@ -207,66 +214,59 @@ over the imaginary Matsubara frequencies $\xi$
 = k_{\mathrm{B}} T \sideset{}{'}\sum_{n=0}^{\infty} \sum_{\mathbf{k}} \ln \mathcal{D}(i \xi_{n}, \mathbf{k})
 \end{equation}
 where \(k_{\mathrm{B}}\) is the Boltzmann constant, \(T\) is
-temperature, \(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the n-th
-Matsubara frequency and the prime in the summation refers to the
-prefactor of 1/2 when \(n=0\). Here we assume the dispersion relation
-\(\mathcal{D}\) has time-reverse symmetry, i.e.
+temperature, \(\xi_{n} = 2 \pi n k_{\mathrm{B}} T / \hbar\) is the
+$n$-th Matsubara frequency and the prime in the summation
+($\sideset{}{'}\sum{}$) refers to the prefactor of 1/2 when
+\(n=0\). Here we assume the dispersion relation \(\mathcal{D}\) has
+time-reversal symmetry, i.e.
 \(\mathcal{D}(i\xi, \mathbf{k}) = \mathcal{D}(-i\xi, \mathbf{k})\).
 %
 The summation over \(\mathbf{k}\) can be further carried out in
-continuous integral if the system is infinitely large
+continuous integral if the system is infinitely large.
 %
 For the 3-layer system considered here (refer to AmB in the remaining
-text) that is infinite in \textit{xy}-direction while non-periodic in
+text) that is infinite in \emph{xy}-direction while non-periodic in
 \textit{z}-direction, the summation over \(\mathbf{k}\) in
 \autoref{eq:vdw-lifshitz-general-2} can be written using in-plane wave
 vector \(\mathbf{k} = (k_{x}, k_{y})\):
 \begin{equation}
 \label{eq:vdw-lifshitz-integral}
-\Phi_{\mathrm{vdW}} = \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'} \sum_{n=0}^{\infty} \int_{0}^{\infty} \ln \mathcal{D}(i\xi_{n}, \mathbf{k}) \mathrm{d}^{2} \mathbf{k}
+\Phi_{\mathrm{AmB}} \approx \Phi_{\mathrm{vdW}} = \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'} \sum_{n=0}^{\infty} \int_{0}^{\infty} \ln \mathcal{D}(i\xi_{n}, \mathbf{k}) \mathrm{d}^{2} \mathbf{k}
 \end{equation}
 %
 While along the \textit{z}-direction, the electrostatic potential
 \(\psi\) follows the Poisson-Laplace equation, such that:
 \begin{equation}
 \label{eq:vdw-poisson-laplace}
-\nabla \cdot [ \varepsilon_{0} \varepsilon_{\mathrm{r}}(\mathbf{r}, z) \cdot \nabla \psi]
+\nabla \cdot [ \varepsilon_{0} \varepsilon_{i}(\mathbf{r}, z) \cdot \nabla \psi]
 = -\rho(\mathbf{r}, z) = 0
 \end{equation}
 where \(\mathbf{r}=(x, y)\) is the in-plane coordinates,
-$\varepsilon_{\mathrm{r}}$ is the dielectric tensor of each material,
-and \(\rho\) is the free charge density in the system, and for van der
-Waals interactions alone, \(\rho \equiv 0\).
+$\varepsilon_{i}$ is the dielectric tensor of each material ($i$= A, m
+or B), and \(\rho\) is the free charge density in the system. For
+van der Waals interactions alone, \(\rho \equiv 0\).
 %
 The periodicity of the \textit{xy}-plane leads to the form of
-plane-wave form of $\psi$~\cite{parsegian_van_2010_book}\worktodo{if
-  cite is correct?}:
-\begin{equation}
-\label{eq:vdw-deriv-pot-pw}
-\psi(\mathbf{r}, z) =  
-f(z) e^{i \mathbf{k} \cdot \mathbf{r}} 
-\end{equation}
+plane-wave form of $\psi$~\cite{parsegian_van_2010_book}:
+\(\psi(\mathbf{r}, z) =  
+f(z) e^{i \mathbf{k} \cdot \mathbf{r}} \),
 where \(f(z)\) is the variation in the \emph{z}-dierction.
 %
-Here we use a mean-field assumption that $\varepsilon_{\mathrm{r}}$ is
-uniform inside each material \worktodo{cite if this is proper}.
-%
-Due to the dielectric anisotropy discussed in \worktodo{ref to
-  previous section}, we consider a general case, that in material $i$,
-the dielectric tensor $\varepsilon_{\mathrm{i}}$ consists of different
-diagonal components \(\varepsilon^{xx}\), \(\varepsilon^{yy}\) and
-\(\varepsilon^{zz}\). \autoref{eq:vdw-poisson-laplace} for individual
+We further use a mean-field assumption that $\varepsilon_{i}$ is
+uniform inside each material and is a tensor
+consists of different diagonal components \(\varepsilon^{xx}\),
+\(\varepsilon^{yy}\) and
+\(\varepsilon^{zz}\).
+Under such conditions, the Poisson-Laplace equation for individual
 layer now writes:
 \begin{equation}
-\label{eq:vdw-laplace-2}
+  \label{eq:vdw-laplace-2}
+  \begin{aligned}[t]
 \varepsilon_{i}^{zz} \frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
-- (k_{x}^{2} \varepsilon_{i}^{xx} + k_{y}^{2} \varepsilon_{i}^{yy}) f_{i}(z)
-\end{equation}
-which is further simplified to:
-\begin{equation}
-\label{eq:vdw-laplace-3}
+- (k_{x}^{2} \varepsilon_{i}^{xx} + k_{y}^{2} \varepsilon_{i}^{yy}) f_{i}(z) &= 0    \\
 \frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
-- g_{i}^{2}(\vartheta) \kappa^{2} f_{i}(z) =0
+- g_{i}^{2}(\vartheta) \kappa^{2} f_{i}(z) &= 0
+  \end{aligned}
 \end{equation}
 where $\kappa$ and $\vartheta$ are the polar coordinates of
 $\mathbf{k}$ such that
@@ -277,16 +277,16 @@ $\mathbf{k}$ such that
   \vartheta + \frac{\varepsilon_{i}^{yy}}{\varepsilon_{i}^{zz}}
   \sin^{2} \vartheta]}\).
 %
-\(g_{i}^{2}\) characterizes the dielectric anisotropy of medium $i$
-and upscales the wavevector modulus \(\kappa\). Note for an isotropic
-medium, $g_{\mathrm{m}}\equiv1$. \worktodo{modify this
-  sentence}\worktodo{need to unify the anisotropy with last chapter}
+The factor \(g_{i}^{2}\) characterizes the dielectric anisotropy of
+medium $i$ (see discussions in \autoref{sec:diel-unif-geom-repr}) and
+upscales the wavevector modulus \(\kappa\). Note for an isotropic
+medium, $g_{\mathrm{m}}^{2}\equiv1$.
 
 % 
-Following the similar procedure of dispersion relations in isotropic
-systems \cite{parsegian_van_2010_book}, the dispersion relation
-\worktodo{add something in the brackets} of an AmB layered system with
-dielectric anisotropy is written as:
+Following the similar procedures in isotropic systems
+\cite{parsegian_van_2010_book}, the dispersion relation $\mathcal{D}$
+of an AmB layered system and considering the dielectric anisotropy is
+written as:
 \begin{equation}
 \label{eq:vdw-disper-D}
 \begin{aligned}
@@ -303,45 +303,74 @@ e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d} \\
 &= 1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d}
 \end{aligned}
 \end{equation}
-where \(\hat{\varepsilon}_{i}\) is the geometric averaged dielectric
-function of material $i$ ($i$=A, m or B), $\Delta_{\mathrm{Am}}$ and
-$\Delta_{\mathrm{Bm}}$ are the dielectric mismatch between Am and Bm
-interfaces, respectively.  Combining
-with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
+where
+\(\hat{\varepsilon}_{i} = \sqrt{\varepsilon_{i}^{xx}
+  \varepsilon_{i}^{zz}\) is the geometric averaged dielectric function
+  of material $i$ ($i$=A, m or B), $\Delta_{\mathrm{Am}}$ and
+  $\Delta_{\mathrm{Bm}}$ quantifies the mismatch of dielectric
+  functions between A/m and B/m interfaces, respectively.  Combining
+  with~\autoref{eq:vdw-lifshitz-integral}, we obtain:
 \begin{equation}
 \label{eq:vdw-lifshitz-aniso-final}
 \begin{aligned}
-\Phi_{\mathrm{vdW}}
+{\displaystyle \Phi_{\mathrm{AmB}}
 &= \frac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'}\sum_{n=0}^{\infty}
 \int_{0}^{2 \pi} \mathrm{d}\vartheta
 \int_{0}^{\infty} \kappa \mathrm{d}\kappa 
-\ln[1 - \Delta_{\mathrm{Am}}(\vartheta) 
+\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n}, \vartheta) 
 \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
 &= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
 \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi} 
 \frac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
 \int_{0}^{\infty} x \mathrm{d}x
-\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta) \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}] \\
+\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta) \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}] }
 \end{aligned}
 \end{equation}
 where the last step is obtained using an auxiliary variable \(x = 2
 g_{\mathrm{m}}(\mathcal{\theta}) \kappa d\).
+
+Although seemingly complicated, the \autoref{eq:vdw-lifshitz-aniso-final} provides insights into the essence of the vdW interaction calculations.
+% If we assume $\varepsilon_{i}^{xx} = \varepsilon_{i}^{yy}$, the dependency of $g_{\mathrm{m}}^{2}$ on $\vartheta$ is removed.
+For each frequency $\xi_{n}$ and $\vartheta$, the interaction energy
+will be determined by the integral function $I(\Gamma, x)$ defined as:
+\begin{equation}
+  \label{eq:vdw-I-gamma}
+  I(\Gamma, x) = \int_{0}^{x} x' \ln[1 - \Gamma e^{-x'}] \mathrm{d}x'
+\end{equation}
+where $\Gamma = \Delta_{\mathrm{Am}} \Delta_{\mathrm{Bm}}}$. \autoref{eq:vdw-lifshitz-aniso-final} in fact calculates at $x \to \infty$.
 %
-\worktodo{add figure about convergence}
+First, we take arbitrary values for $\Gamma$ ranging from -1 to 1 and
+calculated the value of $I(\Gamma, \infty)$ as function of $\Gamma$,
+as shown in \autoref{fig:vdw-integeral-x}a. Interestingly, the
+integral is very close to $-\Gamma$, in particular when
+$\Gamma \to 0$. This leads to the simplification that
+$\Phi_{\mathrm{AmB}} \propto \Delta_{\mathrm{Am}}
+\Delta_{\mathrm{Bm}}$ frequently used in
+literature~\cite{parsegian_van_2010_book,Rajter_2007_vdW,Dryden_2015_gecko}.
 %
-The integral in \autoref{eq:vdw-lifshitz-aniso-final} is dominated by
-the contributions from $x < 5$, and its convergence is almost
-independent of $\Delta_{\mathrm{Am}}$ or $\Delta_{\mathrm{Bm}}$. In
-other words, the contributions from high-\textbf{k} regime to the
-total vdW interactions, is negligible.  \worktodo{think about this
-  figure}
+The monotonic behavior of $I(\Gamma, \infty)$ with $\Gamma$ is
+critical for the analysis of bandgap-dependent properties as will be
+shown later.
+%
+On the other hand, the convergence of the integral is almost
+independent of $\Gamma$. As shown in \autoref{fig:vdw-integeral-x}b,
+$I(\Gamma, x)$ reaches over 95\% of its converged value when $x > 5$,
+regardless of the value of $\Gamma$ used.
+%
+In other words, the contributions from high $x$ (or equivalently,
+high-{\bfseries k}) regime to the total vdW interactions, is
+negligible.
 
 \begin{figure}[h]
   \centering{}
   \import{\imgdir}{interg_xx.pgf}
   \caption{\label{fig:vdw-integeral-x}%
-    Modeled integral \worktodo{more to say}
-  }
+    Behavior of the integral function $I(\Gamma, x)$. {\bfseries a}
+    $I(\Gamma, \infty)$ is very close to $-\Gamma$, allowing
+    simplification of \autoref{eq:vdw-lifshitz-aniso-final} within low
+    $\Gamma$ regime. {\bfseries b} Convergence of $I(\Gamma,
+    x)$. $I(\Gamma, x)$ reaches $>95$\% of its converged value when
+    $x>5$, regardless of $\Gamma$.}
 \end{figure}
 
 An important feature of \autoref{eq:vdw-lifshitz-aniso-final} is that
@@ -667,7 +696,7 @@ transparency \worktodo{unify the notation} discussed in
 %
 We introduce two variables to quantify such transparency:
 \begin{enumerate}
-\item The \textbf{frequency-dependent vdW transparency} index $\tau(i\xi)$,
+\item The {\bfseries frequency-dependent vdW transparency} index $\tau(i\xi)$,
   defined as the ratio between the single-frequency vdW energy with
   and without the 2D material:
   \begin{equation*}
@@ -675,7 +704,7 @@ We introduce two variables to quantify such transparency:
   \tau(i \xi_{n}) = \frac{G(i \xi_{n})}{G^{0}(i\xi_{n})}
 \end{equation*}
 
-\item The \textbf{overall vdW transparency} index $\eta$, defined as
+\item The {\bfseries overall vdW transparency} index $\eta$, defined as
   the ratio between total vdW energy with and without the 2D material:
   \begin{equation*}
 \label{eq:vdw-def-total-trans}
@@ -1375,29 +1404,120 @@ material-based coating as well as wetting phenomena.
 
 \section{Methods}
 \label{sec:vdw-methods}
-\worktodo{fill}
-\subsection{Retrieval of Experimental Dielectric Functions of Bulk Solids}
+
+\subsection{Building Dielectric Property Database}
 \label{sec:retr-exper-diel}
 
-\worktodo{fill}
+The modified Lifshitz-vdW model presented in this chapter relies on
+the bulk material library consisted of 78 types of 2D materials and
+138 types of bulk materials. Their dielectric properties are either
+retrieved from experimental spectroscopy
+data!\cite{Palik_1998_handbook} or using first principles simulations.
 
+47 bulk materials have their dielectric properties extracted from
+\parencite{Palik_1998_handbook}.
+%
+All these experimental results have optical refractive index $n$ and
+extinction coefficient $k$ measured on at least from infrared (IR)
+frequencies to more than 20 eV.
+%
+The relation $\varepsilon(\omega) = (n + ik)^{2}$ is used for the
+conversion between $n$, $k$ and dielectric function $\varepsilon$ on
+real frequency domain. KKR is further used to map the dielectric response onto imaginary frequencies.
+%
+Note some materials in the bulk database has quite large ionic
+contribution to the permittivity (such as water), which significantly
+increases the value of $\varepsilon(i \xi = 0)$. Nevertheless, due to
+the fact low-frequency interactions are highly screened by the 2D
+material layer, the final result does not have noticeable difference
+with or without the ionic effect.
 
-\subsection{First Principles Calculation of Dielectric Properties}
-\label{sec:firsc-diel-prop}
-\worktodo{fill}
+For bulk materials that do not have corresponding experimental data,
+and all 2D materials, first principles simulation are performed to
+computer either $\varepsilon(\omega)$ or
+$\alpha_{\mathrm{2D}}(\omega)$. All simulations are performed by
+density functional theory (DFT) package \texttt{GPAW}~\cite{Mortensen_2005_gpaw}
+using the projector augmented wave (PAW)
+method~\cite{Blochl_1994_PW}.
+%
+The geometric relaxation and ground-state electronic structure
+calculations are performed using PBE Exchange-Correlation
+functional\cite{Perdew_1996_GGA} with a plane-wave energy
+cutoff of 800 eV for all elements, and a Monkhorst-Pack k-mesh with
+point density close to 10 points/\AA{}$^{-1}$.
+%
+The dielectric functions for bulk materials are calculated with linear
+response scheme presented in \cite{Gajdos_2006_opt_PAW}, with
+unoccupied bands up to 3 times of the number of valence bands included
+to improve convergence of the dielectric functions.
+%
+As stated in \autoref{sec:vdw-model-2D}, the dielectric responses are
+only calculated at $k = 0$, since vdW interactions in the model
+considered here is dominated by the responses at optical limit.
 
+The frequency-dependent 2D polarizability
+$\alpha_{\mathrm{2D}}(\omega)$ are calculated instead of
+$\varepsilon(\omega)$ for 2D materials, due to the ill-defined
+dielectric function for a 2D layer, using the relations presented in
+\autoref{eq:diele-alpha-para-def} and
+\autoref{eq:diele-alpha-perp-def}.
 
 \subsection{Calculation of Two-Body vdW Intercation Energy}
 \label{sec:calculation-two-body}
-\worktodo{fill}
 
-\subsection{BPE/Graphene Sample Preparation and Measurements}
+In the discussion of total repulsive interactions through 2D
+materials, the two-body interaction energy $\Phi_{\mathrm{2D-B}}$
+between the 2D layer and bulk phase B is required. In this case the
+interaction energy is approximated by the difference between two bulk
+systems~\cite{parsegian_van_2010_book}:
+\begin{equation}
+  \label{eq:vdw-phi-2D-B}
+  \Phi_{\mathrm{2D - B}}(d) = \Phi_{\mathrm{A'-B}}(d + l_{\mathrm{2D}}) - \Phi_{\mathrm{A'-B}}(d)
+\end{equation}
+where system A' represents the layered 2D material, and
+$l_{\mathrm{2D}}$ is the inter\-layer distance in the bulk form
+of 2D materials. $\Phi_{\mathrm{A'-B}}$ is the trivial vacuum-spaced
+interaction energy between bulk bodies A' and B (see
+\autoref{eq:vdw-lifshitz-aniso-final} where
+$\varepsilon_{\mathrm{m}} \equiv 1$).
+%
+Although there is uncertainty in the $\delta_{\mathrm{2D}}$ determined
+from various methods (see \autoref{sec:diel-comp-with-effect}), due to
+the fact $d$ discussed in this chapter is at the order of 10$^{1}$
+\AA{}, this does not affect the final results.
+
+\subsection{BPE/Graphene Sample Preparation}
 \label{sec:graph-sample-prep}
-\worktodo{fill}
+
+Monolayer graphene samples are grown using low-pressure chemical vapor
+deposition (CVD)~\cite{Li_2009_science_cvd} and transferred onto
+different substrates (SiO$_{2}$ or poly\-crystalline gold) using the
+polymer-assisted transfer method.
+%
+After wet transfer, the samples are annealed under argon at 150
+$^{\circ}$C for 10 min to remove interfacial water and improve substrate adhesion.
+%
+The quality of graphene samples is confirmed by
+optical and Raman microscopy.
+%
+No obviously difference between the substrate doping in the different
+samples (Gr/SiO$_{2}$, Gr/Au) are observed.
+N,N’-bis(2-phenyl\-ethyl)-3,4,9,10- peryl-ene\-tetra\-carboxylic
+diimide (BPE) molecules are deposited using physical vapor deposition
+(PVD) at 10$^{-5}$ mbar at a deposition rate lower than 1 \AA·s$^{-1}$
+onto heated graphene substrates to allow sufficient annealing.
+%
+  
 
 \section{Author Contributions}
 \label{sec:vdw-author-contributions}
-\worktodo{fill}
+T.T. and C.J.S. designed the theoretical and experimental
+studies. T.T. and F.N. derived the formalism and performed
+calculations of the modified Lifshitz-vdW model. T.T. performed first
+principle calculations of dielectric properties with help from
+E.J.G.S. T.T. prepared graphene samples with different substrate
+support.  Y.T.L. S.W.Z and Y.C.C. performed BPE deposition and GIXD
+measurements.
 
 
 
