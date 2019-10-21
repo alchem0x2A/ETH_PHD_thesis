@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 358.28724 378.25486"
+   xml:space="preserve"
+   id="svg2209"
+   sodipodi:docname="LM-wetting.svg"
+   width="358.28723pt"
+   height="283.69113pt"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"><metadata
+     id="metadata2215"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs2213"><marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true"><path
+         id="path4366"
+         d="m 0,0 l 5,-5 l -17.5,5 l 17.5,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" /></marker><marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true"><path
+         id="path4372"
+         d="m 0,0 l 5,-5 l -17.5,5 l 17.5,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" /></marker></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1276"
+     inkscape:window-height="822"
+     id="namedview2211"
+     showgrid="false"
+     units="pt"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.66357375"
+     inkscape:cx="207.10001"
+     inkscape:cy="6.0859491"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2209" /><style
+     type="text/css"
+     id="style2">
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#000000;stroke-width:2;}
+	.st2{display:inline;fill:none;stroke:#000000;stroke-width:4;}
+	.st3{display:inline;fill:none;stroke:#010101;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#272626;stroke-width:0.6857;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:#010101;}
+	.st7{font-family:'ArialMT';}
+	.st8{font-size:5.3119px;}
+	.st9{font-size:3.0968px;}
+	.st10{clip-path:url(#SVGID_2_);}
+	.st11{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;}
+	.st13{font-size:12.4341px;}
+	.st14{clip-path:url(#SVGID_6_);}
+	.st15{font-family:'Arial-ItalicMT';}
+	.st16{font-size:11.1777px;}
+	.st17{font-size:10.6013px;}
+	.st18{font-size:9.844px;}
+	.st19{fill:none;stroke:#010101;stroke-width:0.85;stroke-linecap:square;}
+	.st20{font-size:11.1438px;}
+	.st21{font-size:12.9804px;}
+	.st22{font-size:7.5676px;}
+	.st23{font-size:12px;}
+	.st24{display:inline;fill:#FFFFFF;}
+	.st25{font-size:10.2151px;}
+	.st26{font-size:16px;}
+	.st27{font-size:13.001px;}
+	.st28{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:2.1213,2.1213;}
+	.st29{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:2.0516,2.0516;}
+	.st30{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:2.0214,2.0214;}
+	.st31{font-family:'MyriadPro-Regular';}
+	.st32{font-size:11.1355px;}
+	.st33{font-size:12.9707px;}
+	.st34{font-size:7.5619px;}
+	.st35{font-size:12.7595px;}
+	.st36{font-size:7.4388px;}
+	.st37{font-size:10.2075px;}
+	.st38{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:2.1198,2.1198;}
+	.st39{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:2.0391,2.0391;}
+	.st40{font-size:12.9914px;}
+	.st41{display:none;fill:#010101;}
+	.st42{font-size:13.2339px;}
+	.st43{display:none;fill:#FFFFFF;}
+	.st44{font-size:11.8977px;}
+	.st45{clip-path:url(#SVGID_14_);}
+	.st46{fill:#231F20;}
+	.st47{font-size:10.1791px;}
+	.st48{font-size:12.6604px;}
+	.st49{font-family:'Arial-BoldMT';}
+	.st50{font-size:15.5941px;}
+	.st51{font-size:11.0311px;}
+	.st52{fill:none;stroke:#000000;stroke-width:0.85;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st53{clip-path:url(#SVGID_18_);}
+	.st54{clip-path:url(#SVGID_20_);fill:#265BA5;}
+	.st55{clip-path:url(#SVGID_22_);fill:#265BA5;}
+	.st56{clip-path:url(#SVGID_24_);fill:#265BA5;}
+	.st57{clip-path:url(#SVGID_26_);fill:#265BA5;}
+	.st58{clip-path:url(#SVGID_28_);fill:#265BA5;}
+	.st59{clip-path:url(#SVGID_30_);fill:#265BA5;}
+	.st60{clip-path:url(#SVGID_32_);fill:#265BA5;}
+	.st61{clip-path:url(#SVGID_34_);fill:#265BA5;}
+	.st62{clip-path:url(#SVGID_36_);fill:#265BA5;}
+	.st63{clip-path:url(#SVGID_38_);fill:#265BA5;}
+	.st64{clip-path:url(#SVGID_40_);}
+	.st65{clip-path:url(#SVGID_42_);fill:#F05C74;}
+	.st66{clip-path:url(#SVGID_44_);fill:#F05C74;}
+	.st67{clip-path:url(#SVGID_46_);fill:#F05C74;}
+	.st68{clip-path:url(#SVGID_48_);fill:#F05C74;}
+	.st69{clip-path:url(#SVGID_50_);fill:#F05C74;}
+	.st70{clip-path:url(#SVGID_52_);fill:#F05C74;}
+	.st71{clip-path:url(#SVGID_54_);fill:#F05C74;}
+	.st72{clip-path:url(#SVGID_56_);fill:#F05C74;}
+	.st73{clip-path:url(#SVGID_58_);fill:#F05C74;}
+	.st74{clip-path:url(#SVGID_60_);fill:#F05C74;}
+	.st75{clip-path:url(#SVGID_62_);}
+	.st76{clip-path:url(#SVGID_64_);fill:#316C35;}
+	.st77{clip-path:url(#SVGID_66_);fill:#316C35;}
+	.st78{clip-path:url(#SVGID_68_);fill:#316C35;}
+	.st79{clip-path:url(#SVGID_70_);fill:#316C35;}
+	.st80{clip-path:url(#SVGID_72_);fill:#316C35;}
+	.st81{clip-path:url(#SVGID_74_);fill:#316C35;}
+	.st82{opacity:0.6;clip-path:url(#SVGID_76_);fill:none;stroke:#265BA5;stroke-width:2;stroke-miterlimit:10;}
+	.st83{opacity:0.6;clip-path:url(#SVGID_78_);fill:none;stroke:#F05C74;stroke-width:2;stroke-miterlimit:10;}
+	.st84{opacity:0.6;clip-path:url(#SVGID_80_);fill:none;stroke:#316C35;stroke-width:2;stroke-miterlimit:10;}
+	.st85{fill:none;stroke:#000000;stroke-width:0.85;stroke-linecap:square;stroke-miterlimit:10;}
+	.st86{clip-path:url(#SVGID_82_);}
+	.st87{clip-path:url(#SVGID_84_);fill:#265BA5;}
+	.st88{clip-path:url(#SVGID_86_);fill:#265BA5;}
+	.st89{clip-path:url(#SVGID_88_);fill:#265BA5;}
+	.st90{clip-path:url(#SVGID_90_);fill:#265BA5;}
+	.st91{clip-path:url(#SVGID_92_);fill:#265BA5;}
+	.st92{clip-path:url(#SVGID_94_);fill:#265BA5;}
+	.st93{clip-path:url(#SVGID_96_);fill:#265BA5;}
+	.st94{clip-path:url(#SVGID_98_);fill:#265BA5;}
+	.st95{clip-path:url(#SVGID_100_);fill:#265BA5;}
+	.st96{clip-path:url(#SVGID_102_);fill:#265BA5;}
+	.st97{clip-path:url(#SVGID_104_);fill:#265BA5;}
+	.st98{clip-path:url(#SVGID_106_);}
+	.st99{clip-path:url(#SVGID_108_);fill:#F05C74;}
+	.st100{clip-path:url(#SVGID_110_);fill:#F05C74;}
+	.st101{clip-path:url(#SVGID_112_);fill:#F05C74;}
+	.st102{clip-path:url(#SVGID_114_);fill:#F05C74;}
+	.st103{clip-path:url(#SVGID_116_);fill:#F05C74;}
+	.st104{clip-path:url(#SVGID_118_);fill:#F05C74;}
+	.st105{clip-path:url(#SVGID_120_);fill:#F05C74;}
+	.st106{clip-path:url(#SVGID_122_);fill:#F05C74;}
+	.st107{clip-path:url(#SVGID_124_);fill:#F05C74;}
+	.st108{clip-path:url(#SVGID_126_);fill:#F05C74;}
+	.st109{clip-path:url(#SVGID_128_);fill:#F05C74;}
+	.st110{clip-path:url(#SVGID_130_);}
+	.st111{clip-path:url(#SVGID_132_);fill:#316C35;}
+	.st112{clip-path:url(#SVGID_134_);fill:#316C35;}
+	.st113{clip-path:url(#SVGID_136_);fill:#316C35;}
+	.st114{clip-path:url(#SVGID_138_);fill:#316C35;}
+	.st115{clip-path:url(#SVGID_140_);fill:#316C35;}
+	.st116{clip-path:url(#SVGID_142_);fill:#316C35;}
+	.st117{opacity:0.6;clip-path:url(#SVGID_144_);fill:none;stroke:#265BA5;stroke-width:2;stroke-miterlimit:10;}
+	.st118{opacity:0.6;clip-path:url(#SVGID_146_);fill:none;stroke:#F05C74;stroke-width:2;stroke-miterlimit:10;}
+	.st119{opacity:0.6;clip-path:url(#SVGID_148_);fill:none;stroke:#316C35;stroke-width:2;stroke-miterlimit:10;}
+	.st120{clip-path:url(#SVGID_150_);}
+	.st121{clip-path:url(#SVGID_152_);}
+	.st122{clip-path:url(#SVGID_156_);}
+	.st123{clip-path:url(#SVGID_158_);}
+	.st124{clip-path:url(#SVGID_162_);}
+	.st125{clip-path:url(#SVGID_164_);}
+	.st126{clip-path:url(#SVGID_168_);}
+	.st127{clip-path:url(#SVGID_170_);}
+	.st128{clip-path:url(#SVGID_174_);}
+	.st129{fill:none;stroke:#FFFFFF;stroke-width:3;}
+	.st130{clip-path:url(#SVGID_178_);}
+	.st131{clip-path:url(#SVGID_182_);}
+	.st132{clip-path:url(#SVGID_186_);}
+	.st133{display:none;fill:none;stroke:#FFFFFF;stroke-width:3;}
+	.st134{clip-path:url(#SVGID_190_);}
+	.st135{clip-path:url(#SVGID_192_);}
+	.st136{clip-path:url(#SVGID_196_);}
+	.st137{clip-path:url(#SVGID_198_);}
+	.st138{clip-path:url(#SVGID_202_);fill:#265BA5;}
+	.st139{clip-path:url(#SVGID_204_);fill:#316C35;}
+	.st140{fill:#F05C74;}
+	.st141{fill:none;stroke:#808285;stroke-width:2;stroke-miterlimit:10;}
+	.st142{clip-path:url(#SVGID_206_);}
+	.st143{clip-path:url(#SVGID_210_);}
+	.st144{fill:none;stroke:#010101;stroke-miterlimit:10;}
+	.st145{font-size:11.7142px;}
+	.st146{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st147{fill:none;stroke:#000000;stroke-width:0.6857;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st148{font-size:7.5724px;}
+	.st149{font-size:4.4147px;}
+	.st150{clip-path:url(#SVGID_214_);}
+	
+		.st151{clip-path:url(#SVGID_216_);fill:none;stroke:#2278B5;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st152{clip-path:url(#SVGID_216_);fill:none;stroke:#F57F20;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st153{opacity:0.4;}
+	.st154{clip-path:url(#SVGID_218_);fill:#46B549;}
+	.st155{clip-path:url(#SVGID_220_);fill:#F27E81;}
+	.st156{font-size:14.1184px;}
+	.st157{fill:none;stroke:#F57F20;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st158{fill:none;stroke:#2278B5;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st159{display:inline;fill:none;stroke:#000000;stroke-width:0.85;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st160{display:inline;fill:none;stroke:#000000;stroke-width:0.85;stroke-linecap:square;stroke-miterlimit:10;}
+	.st161{display:inline;}
+	.st162{display:inline;fill:#010101;}
+	.st163{font-size:10.3961px;}
+	.st164{letter-spacing:-1;}
+	.st165{font-size:11px;}
+	.st166{font-size:12.769px;}
+	.st167{font-size:7.4443px;}
+	.st168{clip-path:url(#SVGID_222_);enable-background:new    ;}
+	.st169{clip-path:url(#SVGID_224_);}
+	.st170{clip-path:url(#SVGID_228_);enable-background:new    ;}
+	.st171{clip-path:url(#SVGID_230_);}
+</style><g
+     id="Layer_2"
+     class="st0"
+     style="display:none"
+     transform="translate(-16.576907,-90.419467)"><line
+       class="st1"
+       x1="15.6"
+       y1="704.59998"
+       x2="1072.4"
+       y2="704.59998"
+       id="line4"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:2" /><line
+       class="st1"
+       x1="15.6"
+       y1="780.59998"
+       x2="1072.4"
+       y2="780.59998"
+       id="line6"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:2" /><line
+       class="st1"
+       x1="15.6"
+       y1="756.59998"
+       x2="1072.4"
+       y2="756.59998"
+       id="line8"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:2" /><line
+       class="st1"
+       x1="15.6"
+       y1="1036.6"
+       x2="1072.4"
+       y2="1036.6"
+       id="line10"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:2" /><line
+       class="st2"
+       x1="15.6"
+       y1="1097"
+       x2="1293.6"
+       y2="1097"
+       id="line12"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4" /><line
+       class="st3"
+       x1="-69"
+       y1="14"
+       x2="831"
+       y2="14"
+       id="line14"
+       style="display:inline;fill:none;stroke:#010101;stroke-width:2;stroke-miterlimit:10" /></g><text
+     style="display:none"
+     id="text197"
+     class="st0"
+     x="537.38678"
+     y="-47.167366"><tspan
+       style="font-size:10.21510029px;font-family:Arial-ItalicMT;display:inline;fill:#ffffff"
+       id="tspan193"
+       class="st24 st15 st25"
+       y="-47.167366"
+       x="537.38678"> d</tspan><tspan
+       style="font-size:10.21510029px;font-family:ArialMT;display:inline;fill:#ffffff"
+       id="tspan195"
+       class="st24 st7 st25"
+       y="-47.167366"
+       x="545.88678"> = 0.305 nm</tspan></text>
+<text
+     style="display:none"
+     id="text207"
+     class="st0"
+     x="460.005"
+     y="39.18763"><tspan
+       style="font-size:10.21510029px;font-family:Arial-ItalicMT;display:inline;fill:#ffffff"
+       id="tspan203"
+       class="st24 st15 st25"
+       y="39.18763"
+       x="460.005"> d</tspan><tspan
+       style="font-size:10.21510029px;font-family:ArialMT;display:inline;fill:#ffffff"
+       id="tspan205"
+       class="st24 st7 st25"
+       y="39.18763"
+       x="468.505"> = 1.440 nm</tspan></text>
+<text
+     style="display:none"
+     id="text303"
+     class="st0"
+     x="269.23248"
+     y="40.967827"><tspan
+       style="font-size:10.20750046px;font-family:Arial-ItalicMT;display:inline;fill:#ffffff"
+       id="tspan299"
+       class="st24 st15 st37"
+       y="40.967827"
+       x="269.23248"> d</tspan><tspan
+       style="font-size:10.20750046px;font-family:ArialMT;display:inline;fill:#ffffff"
+       id="tspan301"
+       class="st24 st7 st37"
+       y="40.967827"
+       x="277.73248"> = 0.305 nm</tspan></text>
+<text
+     style="display:none"
+     id="text309"
+     class="st0"
+     x="352.7511"
+     y="17.66993"><tspan
+       style="font-size:10.20750046px;font-family:Arial-ItalicMT;display:inline;fill:#ffffff"
+       id="tspan305"
+       class="st24 st15 st37"
+       y="17.66993"
+       x="352.7511"> d</tspan><tspan
+       style="font-size:10.20750046px;font-family:ArialMT;display:inline;fill:#ffffff"
+       id="tspan307"
+       class="st24 st7 st37"
+       y="17.66993"
+       x="361.2511"> = 1.470 nm</tspan></text>
+<text
+     id="text387"
+     style="font-size:16.29640007px;font-family:ArialMT;fill:#ffffff"
+     class="st12 st7"
+     x="1258.8781"
+     y="557.50323" />
+<text
+     id="text389"
+     style="font-size:16.30870056px;font-family:ArialMT;fill:#ffffff"
+     class="st12 st7"
+     x="1258.7325"
+     y="766.34589" />
+<text
+     style="font-size:11.03110027px;font-family:ArialMT;fill:#010101"
+     id="text391"
+     class="st6 st7 st51"
+     x="493.62949"
+     y="416.97394" />
+<text
+     style="font-size:15.5941px;font-family:Arial-BoldMT"
+     id="text1269"
+     class="st49 st50"
+     x="508.17511"
+     y="628.65778">g</text>
+<g
+     id="g1311"
+     transform="translate(-395.10106,-699.24404)"><g
+       id="g1297"><defs
+         id="defs1272"><rect
+           height="154.2"
+           width="123"
+           y="735.09998"
+           x="544.5"
+           id="SVGID_149_" /></defs><clipPath
+         id="SVGID_150_"><use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           id="use1274"
+           style="overflow:visible"
+           xlink:href="#SVGID_149_" /></clipPath><g
+         id="g1295"
+         clip-path="url(#SVGID_150_)"
+         class="st120"><defs
+           id="defs1278"><rect
+             height="153.39999"
+             width="194.39999"
+             y="735.5"
+             x="510.79999"
+             id="SVGID_151_" /></defs><clipPath
+           id="SVGID_152_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1280"
+             style="overflow:visible"
+             xlink:href="#SVGID_151_" /></clipPath><g
+           id="g1293"
+           clip-path="url(#SVGID_152_)"
+           class="st121"><defs
+             id="defs1284"><rect
+               height="153.39999"
+               width="194.39999"
+               y="735.5"
+               x="510.79999"
+               id="SVGID_153_" /></defs><clipPath
+             id="SVGID_154_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1286"
+               style="overflow:visible"
+               xlink:href="#SVGID_153_" /></clipPath><g
+             id="g1291"
+             clip-path="url(#SVGID_154_)"><image
+               sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/E7C69DCCE3CCFEC4.jpg"
+               xlink:href="sub_img/E7C69DCCE3CCFEC4.jpg"
+               style="overflow:visible"
+               width="641"
+               height="497"
+               transform="matrix(0.3038,0,0,0.3038,510.6986,735.325)"
+               id="image1289" /></g></g></g></g><g
+       style="display:none"
+       id="g1307"
+       class="st0"><text
+         id="text1299"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="translate(546.9766,723.6257)">EGaIn/F</text>
+<text
+         id="text1301"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="matrix(0.583,0,0,0.583,595.3652,727.9528)">16</text>
+<text
+         id="text1303"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="translate(603.792,723.6257)">CuPc/SiO</text>
+<text
+         id="text1305"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="matrix(0.583,0,0,0.583,660.8428,727.9528)">2</text>
+</g><text
+       id="text1309"
+       style="font-size:12.99510002px;font-family:ArialMT;display:none;fill:#00aeef"
+       class="st7"
+       transform="translate(578.9346,745.7932)">Attaching</text>
+</g><g
+     id="g1343"
+     transform="translate(-395.10106,-699.24404)"><g
+       id="g1339"><defs
+         id="defs1314"><rect
+           height="154.2"
+           width="123"
+           y="732.90002"
+           x="680.20001"
+           id="SVGID_155_" /></defs><clipPath
+         id="SVGID_156_"><use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           id="use1316"
+           style="overflow:visible"
+           xlink:href="#SVGID_155_" /></clipPath><g
+         id="g1337"
+         clip-path="url(#SVGID_156_)"
+         class="st122"><defs
+           id="defs1320"><rect
+             height="153.3"
+             width="194.39999"
+             y="733.29999"
+             x="646.70001"
+             id="SVGID_157_" /></defs><clipPath
+           id="SVGID_158_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1322"
+             style="overflow:visible"
+             xlink:href="#SVGID_157_" /></clipPath><g
+           id="g1335"
+           clip-path="url(#SVGID_158_)"
+           class="st123"><defs
+             id="defs1326"><rect
+               height="153.3"
+               width="194.39999"
+               y="733.29999"
+               x="646.70001"
+               id="SVGID_159_" /></defs><clipPath
+             id="SVGID_160_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1328"
+               style="overflow:visible"
+               xlink:href="#SVGID_159_" /></clipPath><g
+             id="g1333"
+             clip-path="url(#SVGID_160_)"><image
+               sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/E7C69DCCE3CCFEC7.jpg"
+               xlink:href="sub_img/E7C69DCCE3CCFEC7.jpg"
+               style="overflow:visible"
+               width="640"
+               height="480"
+               transform="matrix(0.3037,0,0,0.3194,646.6664,733.2823)"
+               id="image1331" /></g></g></g></g><text
+       id="text1341"
+       style="font-size:12.99510002px;font-family:ArialMT;display:none;fill:#ed1c24"
+       class="st7"
+       transform="translate(715.3828,745.7932)">Detaching</text>
+</g><g
+     id="g1383"
+     transform="translate(-395.10106,-699.24404)"><g
+       id="g1371"><defs
+         id="defs1346"><rect
+           height="154.2"
+           width="123"
+           y="918.70001"
+           x="542.79999"
+           id="SVGID_161_" /></defs><clipPath
+         id="SVGID_162_"><use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           id="use1348"
+           style="overflow:visible"
+           xlink:href="#SVGID_161_" /></clipPath><g
+         id="g1369"
+         clip-path="url(#SVGID_162_)"
+         class="st124"><defs
+           id="defs1352"><rect
+             height="154.3"
+             width="195.5"
+             y="918.70001"
+             x="508.89999"
+             id="SVGID_163_" /></defs><clipPath
+           id="SVGID_164_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1354"
+             style="overflow:visible"
+             xlink:href="#SVGID_163_" /></clipPath><g
+           id="g1367"
+           clip-path="url(#SVGID_164_)"
+           class="st125"><defs
+             id="defs1358"><rect
+               height="154.3"
+               width="195.5"
+               y="918.70001"
+               x="508.89999"
+               id="SVGID_165_" /></defs><clipPath
+             id="SVGID_166_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1360"
+               style="overflow:visible"
+               xlink:href="#SVGID_165_" /></clipPath><g
+             id="g1365"
+             clip-path="url(#SVGID_166_)"
+             transform="translate(-3.051758e-5)"><image
+               sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/7FB4CE9CECA0D2A3.jpg"
+               xlink:href="sub_img/7FB4CE9CECA0D2A3.jpg"
+               style="overflow:visible"
+               width="640"
+               height="480"
+               transform="matrix(0.3055,0,0,0.3214,508.8547,918.714)"
+               id="image1363" /></g></g></g></g><g
+       style="display:none"
+       id="g1379"
+       class="st0"><text
+         id="text1373"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="translate(549.5479,914.4455)">EGaIn/F</text>
+<text
+         id="text1375"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="matrix(0.583,0,0,0.583,597.9365,918.7726)">16</text>
+<text
+         id="text1377"
+         style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+         class="st161 st7"
+         transform="translate(606.3633,914.4455)">CuPc/Gr</text>
+</g><text
+       id="text1381"
+       style="font-size:12.99510002px;font-family:ArialMT;display:none;fill:#00aeef"
+       class="st7"
+       transform="translate(578.9346,934.7141)">Attaching</text>
+</g><g
+     id="g1415"
+     transform="translate(-395.10106,-699.24404)"><g
+       id="g1411"><defs
+         id="defs1386"><rect
+           height="154.2"
+           width="123"
+           y="918.70001"
+           x="682"
+           id="SVGID_167_" /></defs><clipPath
+         id="SVGID_168_"><use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           id="use1388"
+           style="overflow:visible"
+           xlink:href="#SVGID_167_" /></clipPath><g
+         id="g1409"
+         clip-path="url(#SVGID_168_)"
+         class="st126"><defs
+           id="defs1392"><rect
+             height="154.3"
+             width="195.5"
+             y="918.70001"
+             x="648.09998"
+             id="SVGID_169_" /></defs><clipPath
+           id="SVGID_170_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1394"
+             style="overflow:visible"
+             xlink:href="#SVGID_169_" /></clipPath><g
+           id="g1407"
+           clip-path="url(#SVGID_170_)"
+           class="st127"><defs
+             id="defs1398"><rect
+               height="154.3"
+               width="195.5"
+               y="918.70001"
+               x="648.09998"
+               id="SVGID_171_" /></defs><clipPath
+             id="SVGID_172_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1400"
+               style="overflow:visible"
+               xlink:href="#SVGID_171_" /></clipPath><g
+             id="g1405"
+             clip-path="url(#SVGID_172_)"><image
+               sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/7FB4CE9CECA0D2A1.jpg"
+               xlink:href="sub_img/7FB4CE9CECA0D2A1.jpg"
+               style="overflow:visible"
+               width="640"
+               height="480"
+               transform="matrix(0.3055,0,0,0.3214,648.1001,918.7138)"
+               id="image1403" /></g></g></g></g><text
+       id="text1413"
+       style="font-size:12.99510002px;font-family:ArialMT;display:none;fill:#ed1c24"
+       class="st7"
+       transform="translate(715.3828,934.7141)">Detaching</text>
+</g><g
+     id="g1611"
+     transform="translate(-345.10106,-699.24404)"><g
+       id="g1599"
+       transform="translate(-50)"><g
+         id="g1589"><defs
+           id="defs1564"><rect
+             height="154.2"
+             width="123"
+             y="918.70001"
+             x="400.60001"
+             id="SVGID_189_" /></defs><clipPath
+           id="SVGID_190_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1566"
+             style="overflow:visible"
+             xlink:href="#SVGID_189_" /></clipPath><g
+           id="g1587"
+           clip-path="url(#SVGID_190_)"
+           class="st134"><defs
+             id="defs1570"><rect
+               height="152.89999"
+               width="193.89999"
+               y="919.40002"
+               x="369.70001"
+               id="SVGID_191_" /></defs><clipPath
+             id="SVGID_192_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1572"
+               style="overflow:visible"
+               xlink:href="#SVGID_191_" /></clipPath><g
+             id="g1585"
+             clip-path="url(#SVGID_192_)"
+             class="st135"><defs
+               id="defs1576"><rect
+                 height="188.60001"
+                 width="239.10001"
+                 y="901.5"
+                 x="347.10001"
+                 id="SVGID_193_" /></defs><clipPath
+               id="SVGID_194_"><use
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 id="use1578"
+                 style="overflow:visible"
+                 xlink:href="#SVGID_193_" /></clipPath><g
+               id="g1583"
+               clip-path="url(#SVGID_194_)"
+               transform="translate(0,-6.103516e-5)"><image
+                 sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/7FB4CE9CECA0D2BF.jpg"
+                 xlink:href="sub_img/7FB4CE9CECA0D2BF.jpg"
+                 style="overflow:visible"
+                 width="640"
+                 height="480"
+                 transform="matrix(0.3737,0,0,0.393,347.1049,901.5171)"
+                 id="image1581" /></g></g></g></g><g
+         style="display:none"
+         id="g1597"
+         class="st0"><text
+           id="text1591"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="translate(418.8398,913.9133)">Hg/F</text>
+<text
+           id="text1593"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="matrix(0.583,0,0,0.583,447,918.2404)">16</text>
+<text
+           id="text1595"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="translate(455.4268,913.9133)">CuPc/Gr</text>
+</g></g><g
+       id="g1609"
+       transform="translate(-50,-18)"><text
+         id="text1601"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.62480068px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#010101"
+         class="st6 st7"
+         x="462.00754"
+         y="954.61542"><tspan
+           sodipodi:role="line"
+           id="tspan4333"
+           x="462.00754"
+           y="954.61542">157.1$\pm$3.8°</tspan></text>
+<text
+         id="text1607"
+         style="font-size:12.62479973px;font-family:ArialMT;fill:#010101"
+         class="st6 st7"
+         transform="translate(493.3281,954.6154)" />
+</g><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="212.19431"
+       y="813.37775"
+       id="text4337"><tspan
+         sodipodi:role="line"
+         id="tspan4339"
+         x="212.19431"
+         y="813.37775">F$_{16}$CuPc/SiO$_2$</tspan></text>
+<text
+       id="text4343"
+       y="999.27777"
+       x="212.19431"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan4345"
+         x="212.19431"
+         y="999.27777">F$_{16}$CuPc NWs</tspan></text>
+</g><g
+     id="g1667"
+     transform="translate(-395.10106,-699.24404)"><g
+       id="g1651"><g
+         id="g1639"><defs
+           id="defs1614"><rect
+             height="154.2"
+             width="123"
+             y="732.90002"
+             x="400.60001"
+             id="SVGID_195_" /></defs><clipPath
+           id="SVGID_196_"><use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             id="use1616"
+             style="overflow:visible"
+             xlink:href="#SVGID_195_" /></clipPath><g
+           id="g1637"
+           clip-path="url(#SVGID_196_)"
+           class="st136"><defs
+             id="defs1620"><rect
+               height="150.89999"
+               width="191.3"
+               y="734.5"
+               x="365.20001"
+               id="SVGID_197_" /></defs><clipPath
+             id="SVGID_198_"><use
+               height="100%"
+               width="100%"
+               y="0"
+               x="0"
+               id="use1622"
+               style="overflow:visible"
+               xlink:href="#SVGID_197_" /></clipPath><g
+             id="g1635"
+             clip-path="url(#SVGID_198_)"
+             class="st137"><defs
+               id="defs1626"><rect
+                 height="186.10001"
+                 width="236"
+                 y="713.5"
+                 x="340.39999"
+                 id="SVGID_199_" /></defs><clipPath
+               id="SVGID_200_"><use
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 id="use1628"
+                 style="overflow:visible"
+                 xlink:href="#SVGID_199_" /></clipPath><g
+               id="g1633"
+               clip-path="url(#SVGID_200_)"><image
+                 sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/sub_img/7FB4CE9CECA0D2A4.jpg"
+                 xlink:href="sub_img/7FB4CE9CECA0D2A4.jpg"
+                 style="overflow:visible"
+                 width="640"
+                 height="480"
+                 transform="matrix(0.3687,0,0,0.3878,340.4298,713.5474)"
+                 id="image1631" /></g></g></g></g><g
+         style="display:none"
+         id="g1649"
+         class="st0"><text
+           id="text1641"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="translate(413.2109,722.9694)">Hg/F</text>
+<text
+           id="text1643"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="matrix(0.583,0,0,0.583,441.3711,727.2966)">16</text>
+<text
+           id="text1645"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="translate(449.7979,722.9694)">CuPc/SiO</text>
+<text
+           id="text1647"
+           style="font-size:12.99510002px;font-family:ArialMT;display:inline"
+           class="st161 st7"
+           transform="matrix(0.583,0,0,0.583,506.8486,727.2966)">2</text>
+</g></g><g
+       id="g1655"><line
+         style="fill:none;stroke:#ffffff;stroke-width:3"
+         id="line1653"
+         y2="874.40002"
+         x2="515.70001"
+         y1="874.40002"
+         x1="476.89999"
+         class="st129" /></g><g
+       id="g1665"><text
+         id="text1657"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.65506649px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#010101"
+         class="st6 st7"
+         x="462.00732"
+         y="751.70227"><tspan
+           sodipodi:role="line"
+           id="tspan4331"
+           x="462.00732"
+           y="751.70227">147.7$\pm$2.5°</tspan></text>
+<text
+         id="text1663"
+         style="font-size:12.65509987px;font-family:ArialMT;fill:#010101"
+         class="st6 st7"
+         transform="translate(494.4043,769.7023)" />
+</g></g><g
+     id="Layer_3"
+     class="st0"
+     style="display:none"
+     transform="translate(-16.576907,-90.419467)"><line
+       class="st159"
+       x1="337"
+       y1="1019.8"
+       x2="337"
+       y2="1024.3"
+       id="line2042"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="395.79999"
+       y1="1019.8"
+       x2="395.79999"
+       y2="1024.3"
+       id="line2044"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="454.60001"
+       y1="1019.8"
+       x2="454.60001"
+       y2="1024.3"
+       id="line2046"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="513.40002"
+       y1="1019.8"
+       x2="513.40002"
+       y2="1024.3"
+       id="line2048"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="572.20001"
+       y1="1019.8"
+       x2="572.20001"
+       y2="1024.3"
+       id="line2050"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st160"
+       x1="336.10001"
+       y1="1019.8"
+       x2="586.40002"
+       y2="1019.8"
+       id="line2052"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-miterlimit:10" /><text
+       transform="translate(409.4836,1055.1223)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2054">Δ</text>
+<text
+       transform="translate(422.843,1055.1223)"
+       class="st161 st15"
+       style="font-size:20px;font-family:Arial-ItalicMT;display:inline"
+       id="text2056">f</text>
+<text
+       transform="matrix(0.583,0,0,0.583,428.3996,1061.7825)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2058">QCM</text>
+<text
+       transform="translate(455.6028,1055.1223)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2060"> (kHz)</text>
+<g
+       class="st161"
+       id="g2072"
+       style="display:inline"><text
+         transform="translate(333.7752,1035.4126)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2062">0</text>
+<text
+         transform="translate(392.5252,1035.4126)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2064">2</text>
+<text
+         transform="translate(451.2752,1035.4126)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2066">4</text>
+<text
+         transform="translate(510.0252,1035.4126)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2068">6</text>
+<text
+         transform="translate(568.7753,1035.4126)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2070">8</text>
+</g><line
+       class="st159"
+       x1="333.79999"
+       y1="1337.5"
+       x2="333.79999"
+       y2="1342"
+       id="line2074"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="394.29999"
+       y1="1337.5"
+       x2="394.29999"
+       y2="1342"
+       id="line2076"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="454.79999"
+       y1="1337.5"
+       x2="454.79999"
+       y2="1342"
+       id="line2078"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="515.29999"
+       y1="1337.5"
+       x2="515.29999"
+       y2="1342"
+       id="line2080"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><line
+       class="st159"
+       x1="575.79999"
+       y1="1337.5"
+       x2="575.79999"
+       y2="1342"
+       id="line2082"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linejoin:round;stroke-miterlimit:10" /><text
+       transform="translate(409.25,1376.5967)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2084">Δ</text>
+<text
+       transform="translate(422.6093,1376.5967)"
+       class="st161 st15"
+       style="font-size:20px;font-family:Arial-ItalicMT;display:inline"
+       id="text2086">f</text>
+<text
+       transform="matrix(0.583,0,0,0.583,428.166,1383.2568)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2088">QCM</text>
+<text
+       transform="translate(455.3691,1376.5967)"
+       class="st161 st7"
+       style="font-size:20px;font-family:ArialMT;display:inline"
+       id="text2090"> (kHz)</text>
+<g
+       class="st161"
+       id="g2102"
+       style="display:inline"><text
+         transform="translate(330.7004,1355.2904)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2092">0</text>
+<text
+         transform="translate(391.2004,1355.2904)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2094">2</text>
+<text
+         transform="translate(451.7004,1355.2904)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2096">4</text>
+<text
+         transform="translate(512.2004,1355.2904)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2098">6</text>
+<text
+         transform="translate(572.7004,1355.2904)"
+         class="st7"
+         style="font-size:13px;font-family:ArialMT"
+         id="text2100">8</text>
+</g><text
+       transform="translate(144.6914,25.1745)"
+       class="st162 st7 st163"
+       id="text2104"
+       style="font-size:10.39610004px;font-family:ArialMT;display:inline;fill:#010101">Cross-sectional</text>
+<text
+       transform="translate(37.521,25.1745)"
+       class="st161"
+       id="text2110"
+       style="display:inline"><tspan
+         x="0"
+         y="0"
+         class="st6 st7 st163 st164"
+         id="tspan2106"
+         style="font-size:10.39610004px;font-family:ArialMT;letter-spacing:-1;fill:#010101">T</tspan><tspan
+         x="5.1999998"
+         y="0"
+         class="st6 st7 st163"
+         id="tspan2108"
+         style="font-size:10.39610004px;font-family:ArialMT;fill:#010101">op-view </tspan></text>
+<text
+       transform="translate(126.0312,43.0524)"
+       class="st162 st7 st165"
+       id="text2112"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">F</text>
+<text
+       transform="matrix(0.583,0,0,0.583,132.7505,46.7155)"
+       class="st162 st7 st165"
+       id="text2114"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">16</text>
+<text
+       transform="translate(139.8838,43.0524)"
+       class="st162 st7 st165"
+       id="text2116"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">CuPc (thin film)</text>
+<text
+       transform="translate(126.0312,161.5134)"
+       class="st162 st7 st165"
+       id="text2118"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">F</text>
+<text
+       transform="matrix(0.583,0,0,0.583,132.7505,165.1764)"
+       class="st162 st7 st165"
+       id="text2120"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">16</text>
+<text
+       transform="translate(139.8838,161.5134)"
+       class="st162 st7 st165"
+       id="text2122"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">CuPc (NW)</text>
+<text
+       transform="translate(126.0312,104.5666)"
+       class="st162 st7 st165"
+       id="text2124"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">SiO</text>
+<text
+       transform="matrix(0.583,0,0,0.583,144.3682,108.2297)"
+       class="st162 st7 st165"
+       id="text2126"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">2</text>
+<text
+       transform="translate(126.0312,134.318)"
+       class="st162 st7 st165"
+       id="text2128"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">Si</text>
+<text
+       transform="translate(126.0312,242.946)"
+       class="st162 st7 st165"
+       id="text2130"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">SiO</text>
+<text
+       transform="matrix(0.583,0,0,0.583,144.3682,246.6091)"
+       class="st162 st7 st165"
+       id="text2132"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">2</text>
+<text
+       transform="translate(126.0312,258.86)"
+       class="st162 st7 st165"
+       id="text2134"
+       style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">Si</text>
+<g
+       class="st161"
+       id="g2146"
+       style="display:inline"><text
+         transform="rotate(-90,270.0864,-164.097)"
+         class="st6 st15 st166"
+         id="text2136"
+         style="font-size:12.76900005px;font-family:Arial-ItalicMT;fill:#010101">q</text>
+<text
+         transform="rotate(-90,268.66305,-169.77425)"
+         class="st6 st7 st167"
+         id="text2138"
+         style="font-size:7.44430017px;font-family:ArialMT;fill:#010101">z</text>
+<text
+         transform="rotate(-90,264.6748,-169.5086)"
+         class="st6 st7 st166"
+         id="text2140"
+         style="font-size:12.76900005px;font-family:ArialMT;fill:#010101"> (nm</text>
+<text
+         transform="rotate(-90,249.7815,-180.1519)"
+         class="st6 st7 st167"
+         id="text2142"
+         style="font-size:7.44430017px;font-family:ArialMT;fill:#010101">-1</text>
+<text
+         transform="rotate(-90,248.5969,-185.5865)"
+         class="st6 st7 st166"
+         id="text2144"
+         style="font-size:12.76900005px;font-family:ArialMT;fill:#010101">)</text>
+</g><g
+       class="st161"
+       id="g2176"
+       style="display:inline"><defs
+         id="defs2149"><rect
+           id="SVGID_221_"
+           x="851.79999"
+           y="91.300003"
+           width="159.60001"
+           height="127.4" /></defs><clipPath
+         id="SVGID_222_"><use
+           xlink:href="#SVGID_221_"
+           style="overflow:visible"
+           id="use2151"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" /></clipPath><g
+         class="st168"
+         clip-path="url(#SVGID_222_)"
+         id="g2174"
+         style="enable-background:new"><g
+           id="g2172"><defs
+             id="defs2155"><rect
+               id="SVGID_223_"
+               x="851.79999"
+               y="91.099998"
+               width="159.8"
+               height="127.6" /></defs><clipPath
+             id="SVGID_224_"><use
+               xlink:href="#SVGID_223_"
+               style="overflow:visible"
+               id="use2157"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" /></clipPath><g
+             class="st169"
+             clip-path="url(#SVGID_224_)"
+             id="g2170"><defs
+               id="defs2161"><rect
+                 id="SVGID_225_"
+                 x="851.79999"
+                 y="91.099998"
+                 width="159.8"
+                 height="127.6" /></defs><clipPath
+               id="SVGID_226_"><use
+                 xlink:href="#SVGID_225_"
+                 style="overflow:visible"
+                 id="use2163"
+                 x="0"
+                 y="0"
+                 width="100%"
+                 height="100%" /></clipPath><g
+               clip-path="url(#SVGID_226_)"
+               id="g2168"><image
+                 sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/../../../../../../Desktop/7FB4CE9CECA0D2DA.png"
+                 xlink:href="../../../../../../Desktop/7FB4CE9CECA0D2DA.png"
+                 id="image2166"
+                 transform="matrix(0.1506,0,0,-0.1506,851.8453,218.6576)"
+                 height="847"
+                 width="1061"
+                 style="overflow:visible" /></g></g></g></g></g><g
+       class="st161"
+       id="g2206"
+       style="display:inline"><defs
+         id="defs2179"><rect
+           id="SVGID_227_"
+           x="835.20001"
+           y="-106.8"
+           width="163"
+           height="127.8" /></defs><clipPath
+         id="SVGID_228_"><use
+           xlink:href="#SVGID_227_"
+           style="overflow:visible"
+           id="use2181"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" /></clipPath><g
+         class="st170"
+         clip-path="url(#SVGID_228_)"
+         id="g2204"
+         style="enable-background:new"><g
+           id="g2202"><defs
+             id="defs2185"><rect
+               id="SVGID_229_"
+               x="835.20001"
+               y="-107"
+               width="163.2"
+               height="128" /></defs><clipPath
+             id="SVGID_230_"><use
+               xlink:href="#SVGID_229_"
+               style="overflow:visible"
+               id="use2187"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" /></clipPath><g
+             class="st171"
+             clip-path="url(#SVGID_230_)"
+             id="g2200"><defs
+               id="defs2191"><rect
+                 id="SVGID_231_"
+                 x="835.20001"
+                 y="-107"
+                 width="163.2"
+                 height="128" /></defs><clipPath
+               id="SVGID_232_"><use
+                 xlink:href="#SVGID_231_"
+                 style="overflow:visible"
+                 id="use2193"
+                 x="0"
+                 y="0"
+                 width="100%"
+                 height="100%" /></clipPath><g
+               transform="translate(6.103516e-5)"
+               clip-path="url(#SVGID_232_)"
+               id="g2198"><image
+                 sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/small/../../../../../../Desktop/7FB4CE9CECA0D2D9.png"
+                 xlink:href="../../../../../../Desktop/7FB4CE9CECA0D2D9.png"
+                 id="image2196"
+                 transform="matrix(0.1538,0,0,-0.1538,835.2121,21.0185)"
+                 height="832"
+                 width="1061"
+                 style="overflow:visible" /></g></g></g></g></g></g><text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="44.914963"
+     y="25.618851"
+     id="text4349"><tspan
+       sodipodi:role="line"
+       id="tspan4347"
+       x="44.914963"
+       y="25.618851">Mercury</tspan></text>
+<text
+     id="text4353"
+     y="25.618851"
+     x="193.40871"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="25.618851"
+       x="193.40871"
+       id="tspan4351"
+       sodipodi:role="line">EGaIn </tspan></text>
+<path
+     style="fill:none;stroke:#000000;stroke-width:1.33333337;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+     d="m 249.77358,49.321613 h 64.80063"
+     id="path4355"
+     inkscape:connector-curvature="0" /><text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="283.27676"
+     y="41.786659"
+     id="text4679"><tspan
+       sodipodi:role="line"
+       id="tspan4677"
+       x="283.27676"
+       y="41.786659">Detach from surface</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="2.0868235"
+     y="18.279655"
+     id="text4713"><tspan
+       sodipodi:role="line"
+       id="tspan4711"
+       x="2.0868235"
+       y="18.279655">\Lsize a</tspan></text>
+<text
+     id="text4717"
+     y="18.279655"
+     x="150.08682"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="18.279655"
+       x="150.08682"
+       id="tspan4715"
+       sodipodi:role="line">\Lsize b</tspan></text>
+<rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.33333337;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4719"
+     width="477.71631"
+     height="378.25485"
+     x="-60.666672"
+     y="-1.4210855e-14" /></svg>
