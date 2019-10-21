@@ -78,7 +78,7 @@ def plot_main():
     ax_in1 = inset_axes(ax[0], height="58%", width="35%",
                         loc="upper right")
     ax_in1.tick_params(labelsize="small")
-    ax_in1.set_xlabel(r"$E_{\mathrm{g}}$ (eV)", size="small", labelpad=-1)
+    ax_in1.set_xlabel(r"$E_{\mathrm{g}}^{\mathrm{2D}}$ (eV)", size="small", labelpad=-1)
     ax_in1.set_ylabel(r"$\hbar \xi_{\mathrm{tr}}^{\parallel}$ (eV)",
                       size="small", labelpad=-1)
 
@@ -92,7 +92,7 @@ def plot_main():
                    marker="o",
                    alpha=0.5)
     ax_in2.tick_params(labelsize="small")
-    ax_in2.set_xlabel(r"$E_{\mathrm{g}}$ (eV)", size="small", labelpad=-1)
+    ax_in2.set_xlabel(r"$E_{\mathrm{g}}^{\mathrm{2D}}$ (eV)", size="small", labelpad=-1)
     ax_in2.set_ylabel(r"$\hbar \xi_{\mathrm{tr}}^{\perp}$ (eV)",
                       size="small", labelpad=-1)
     

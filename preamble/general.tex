@@ -173,8 +173,12 @@
 \setmainfont[%
 Path=\fontdir,
 Extension=.otf,
-Ligatures=TeX,                  %
-]{texgyrepagella-regular}
+Ligatures=TeX,%
+  UprightFont=*-regular,
+  ItalicFont=*-italic,
+  BoldFont=*-bold,
+  BoldItalicFont=*-bolditalic,%
+]{texgyrepagella}
 % 
 \setsansfont[%
   Path=\fontdir,

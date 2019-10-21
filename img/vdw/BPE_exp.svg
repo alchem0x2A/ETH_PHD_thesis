@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,16 +39,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1424"
-     inkscape:window-height="885"
+     inkscape:window-height="878"
      id="namedview8485"
      showgrid="false"
-     inkscape:zoom="0.52918959"
-     inkscape:cx="126.96613"
-     inkscape:cy="461.37303"
+     inkscape:zoom="1.0583792"
+     inkscape:cx="156.30476"
+     inkscape:cy="259.70915"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="figure_1-0"
+     inkscape:current-layer="g14672"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-right="5"
@@ -34499,13 +34499,13 @@
           <image
              sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/2D_Au_gr_new2_small.svg.image1.png"
              xlink:href="sub_img/2D_Au_gr_new2_small.svg.image1.png"
-             style="stroke-linecap:butt;stroke-linejoin:round"
-             height="128.64"
-             id="Im_image250a5c45ef"
-             transform="matrix(1,0,0,-1,0,128.64)"
-             width="173.75999"
+             y="-6.96"
              x="36"
-             y="-6.96" />
+             width="173.75999"
+             transform="matrix(1,0,0,-1,0,128.64)"
+             id="Im_image250a5c45ef"
+             height="128.64"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
           <g
              id="matplotlib.axis_1-1"
              style="stroke-linecap:butt;stroke-linejoin:round">
@@ -34987,13 +34987,13 @@
           <image
              sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/2D_Plasma_gr_new2_small.svg.image1.png"
              xlink:href="sub_img/2D_Plasma_gr_new2_small.svg.image1.png"
-             style="stroke-linecap:butt;stroke-linejoin:round"
-             height="128.64"
-             id="Im_imagecce224e251"
-             transform="matrix(1,0,0,-1,0,128.64)"
-             width="173.75999"
+             y="-6.96"
              x="36"
-             y="-6.96" />
+             width="173.75999"
+             transform="matrix(1,0,0,-1,0,128.64)"
+             id="Im_imagecce224e251"
+             height="128.64"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
           <g
              id="matplotlib.axis_1-9"
              style="stroke-linecap:butt;stroke-linejoin:round">
@@ -35937,24 +35937,18 @@
          id="text28459"
          y="122.08256"
          x="-305.25287"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25112534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.2510997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round;"
          xml:space="preserve"><tspan
-           y="122.08256"
-           x="-305.25287"
-           style="white-space:pre;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round"
-           id="tspan28457"
-           sodipodi:role="line">A</tspan></text>
+           sodipodi:role="line"
+           id="tspan14620">B</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25112534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.2510997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round;"
          x="-305.25287"
          y="70.35125"
          id="text28463"><tspan
            sodipodi:role="line"
-           id="tspan28461"
-           style="white-space:pre;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round"
-           x="-305.25287"
-           y="70.35125">B</tspan></text>
+           id="tspan14622">A</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25112534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;fill:#070707;fill-opacity:1;stroke:none;stroke-width:0.69383436;stroke-linecap:butt;stroke-linejoin:round"
@@ -36013,15 +36007,15 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/3D/Gold_BPE.png"
          xlink:href="3D/Gold_BPE.png"
-         transform="matrix(0.92511256,0,0,0.92511256,-26.068151,14.820303)"
-         clip-path="url(#clipPath28691)"
-         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-         width="179.31139"
-         height="100.86265"
-         preserveAspectRatio="none"
-         id="image28684"
+         y="176.65311"
          x="-291.92899"
-         y="176.65311" />
+         id="image28684"
+         preserveAspectRatio="none"
+         height="100.86265"
+         width="179.31139"
+         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+         clip-path="url(#clipPath28691)"
+         transform="matrix(0.92511256,0,0,0.92511256,-26.068151,14.820303)" />
       <path
          inkscape:connector-curvature="0"
          id="path28781"
@@ -36089,13 +36083,13 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/BPE.png"
          xlink:href="sub_img/BPE.png"
-         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-         width="78.198204"
-         height="21.106592"
-         preserveAspectRatio="none"
-         id="image30187"
+         y="145.12256"
          x="-280.52802"
-         y="145.12256" />
+         id="image30187"
+         preserveAspectRatio="none"
+         height="21.106592"
+         width="78.198204"
+         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
       <path
          style="white-space:pre;fill:none;stroke:#000000;stroke-width:0.69383442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker30498)"
          d="m -280.8566,207.20601 l -2.31777,6.48974"

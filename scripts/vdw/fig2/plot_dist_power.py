@@ -125,7 +125,7 @@ def plot_main():
     ax_inset.set_xlabel("$d$ (m)", size="small", labelpad=-0.5)
     ax_inset.set_ylabel(r"$\Phi$ (J·m$^{-2}$)", size="small", labelpad=-0.5)
     ax.set_xlabel("$x$ (nm)")
-    ax.set_ylabel("$p$")
+    ax.set_ylabel(r"$p_{\mathrm{loc}}$")
     ax.axhline(y=2, ls="--", color="grey")
     ax.set_ylim(0.5, 2.2)
     ax.text(x=5, y=2.05, s="Vacuum limit", va="bottom", ha="left")
