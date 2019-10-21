@@ -305,7 +305,7 @@ e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d} \\
 \end{equation}
 where
 \(\hat{\varepsilon}_{i} = \sqrt{\varepsilon_{i}^{xx}
-  \varepsilon_{i}^{zz}\) is the geometric averaged dielectric function
+  \varepsilon_{i}^{zz}}\) is the geometric averaged dielectric function
   of material $i$ ($i$=A, m or B), $\Delta_{\mathrm{Am}}$ and
   $\Delta_{\mathrm{Bm}}$ quantifies the mismatch of dielectric
   functions between A/m and B/m interfaces, respectively.  Combining
@@ -318,8 +318,8 @@ where
 \int_{0}^{2 \pi} \mathrm{d}\vartheta
 \int_{0}^{\infty} \kappa \mathrm{d}\kappa 
 \ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n}, \vartheta) 
-\Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
-&= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
+\Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}]} \\
+{\displaystyle &= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
 \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi} 
 \frac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
 \int_{0}^{\infty} x \mathrm{d}x
@@ -337,7 +337,7 @@ will be determined by the integral function $I(\Gamma, x)$ defined as:
   \label{eq:vdw-I-gamma}
   I(\Gamma, x) = \int_{0}^{x} x' \ln(1 - \Gamma e^{-x'}) \mathrm{d}x'
 \end{equation}
-where $\Gamma = \Delta_{\mathrm{Am}} \Delta_{\mathrm{Bm}}}$. \autoref{eq:vdw-lifshitz-aniso-final} in fact calculates at $x \to \infty$.
+where $\Gamma = \Delta_{\mathrm{Am}} \Delta_{\mathrm{Bm}}$. \autoref{eq:vdw-lifshitz-aniso-final} in fact calculates at $x \to \infty$.
 %
 First, we take arbitrary values for $\Gamma$ ranging from -1 to 1 and
 calculated the value of $I(\Gamma, \infty)$ as function of $\Gamma$,
@@ -755,7 +755,7 @@ large-scale evaluation of $\eta^{\mathrm{vdW}}$ on a database with
   \caption{\label{fig:vdw-database} %
     #D scatter plot of many-body vdW transparency
     $\eta^{\mathrm{vdW}}$ studied by high-throughput screening of bulk
-    and 2D material database at $d=2$ nm}
+    and 2D material database at $d$=2 nm}
 \end{figure}
 
 \autoref{fig:vdw-database} shows the 3D scatter plot of
@@ -1148,7 +1148,7 @@ It is possible to construct such system when A is a organic molecular
 crystal, B is a metal with high dielectric function and m is a
 semi\-metallic 2D material like graphene.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
   \centering{}
   \import{\imgdir}{BPE_exp.pdf_tex}
   \caption{\label{fig:vdw-bpe}%
@@ -1232,7 +1232,7 @@ graphene~\cite{Chiu_2013_BPE}.
 %
 A closer inspection of the spectra shows that the diffraction momentum
 $|q|$ of both (1$\overline{2}$4) and (1$\overline{2}1$) plane,
-decreases by $\sim{}$0.4 nm$^{-2}$} in the BPE/Gr/Au system
+decreases by $\sim{}$0.4 nm$^{-2}$ in the BPE/Gr/Au system
 compared with that in BPE/Gr/SiO2.
 %
 Equivalently, the distances between the basal plane increased by
@@ -1265,7 +1265,7 @@ deposited on bare SiO\textsubscript{2} and Au surfaces, as shown in
 %
 The packing of BPE apparently flips to the edge-on orientation on
 SiO\textsubscript{2}, as indicated by the emergence of a single strong
-peak at $q_{z}=3.8$ nm$^{-1}$}, corresponding to the <002>
+peak at $q_{z}=3.8$ nm$^{-1}$, corresponding to the <002>
 plane.
 %
 On the other hand, new peaks of $q_{z}=8.9$ nm$^{-1}$ appears in the
@@ -1318,7 +1318,7 @@ In the next sections, we propose several new approach to allow enhancing the rep
 \subsection{Designing Novel System for Repulsive vdW Interactions}
 \label{sec:proposing-new-system}
 
-As discussed in \autoref{sec:origin-repulsive-vdw}, the repulsive vdW
+As discussed in \autoref{vdw-origin-repulsive-vdw}, the repulsive vdW
 interactions are elusive due to the difficulty finding universal
 systems with dielectric cascade properties.
 %
@@ -1377,7 +1377,7 @@ shown as triangles in \autoref{fig:vdw-repul-suspen}a.
 %
 In both cases, \(\Phi_{\mathrm{AmB}}\) becomes positive (repulsive)
 when \(d\) exceeds a certain threshold $d_{0}$ ($\sim{}30$ \AA{} for
-  graphene and $\sim{}18$ \AA{} for hBN}).
+  graphene and $\sim{}18$ \AA{} for hBN).
 %
 This can be understood from the analysis in
 \autoref{sec:vdw-distance}, as $\hat{\varepsilon}_{\mathrm{m}}$
