@@ -1,18 +1,18 @@
-esem=[["NAME", "CA", "CA-err", "WF", "WF-err"], ["PSS", 73.97, 3.92, 4.98, 0.092], ["PAA", 75.0, 2.96, 4.96, 0.096], ["SiO2", 80.88, 2.95, 4.6, 0.026], ["PAH", 75.01, 4.02, 4.16, 0.05], ["PLL", 74.03, 1.98, 4.12, 0.09]]
-elw=[["V", "CA"], [-100, 78], [0, 88], [100, 60]]
 import scipy
 import scipy.constants as const
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+# import matplotlib
+# matplotlib.use("Agg")
+# import matplotlib.pyplot as plt
 from scipy.integrate import cumtrapz
 import numpy
-from dcos_sigma import cal_2D
-import pycse.orgmode as org
+from .dcos_sigma import cal_2D
+# import pycse.orgmode as org
 
 v_f = 1.1e6
 eps_sio2 = 3.9
 
+esem=[["NAME", "CA", "CA-err", "WF", "WF-err"], ["PSS", 73.97, 3.92, 4.98, 0.092], ["PAA", 75.0, 2.96, 4.96, 0.096], ["SiO2", 80.88, 2.95, 4.6, 0.026], ["PAH", 75.01, 4.02, 4.16, 0.05], ["PLL", 74.03, 1.98, 4.12, 0.09]]
+elw=[["V", "CA"], [-100, 78], [0, 88], [100, 60]]
 
 
 def e_cm2_to_SI(n):
@@ -122,47 +122,56 @@ sigma_i_elw = -(nn_elw[numpy.argmin(dd_elw)])
 # print(f_elw, sigma_i_elw)
 
 
-def plot_fitting_f(fig):
-    ax = fig.add_subplot(111)
+def plot_fitting_f(ax):
     ax.plot(n_plt, dcos_plt, color="#666666", label="Theoretical",
             alpha=0.8)
     l_esem = ax.errorbar(x=n_esem, y=dcos_esem,
-                xerr=n_err_esem, yerr=dcos_err_esem,
-                         fmt="s", label="ESEM Data",)
-    l_elw = ax.plot(n_elw, dcos_elw, "o", label="Electrowetting Data")
+                         xerr=n_err_esem, yerr=dcos_err_esem,
+                         fmt="s", label="ESEM Data", markersize=6)
+    l_elw = ax.plot(n_elw, dcos_elw, "o", label="Electrowetting Data", markersize=6)
     ax.text(x=-0.85, y=0.25, ha="left", size="medium",
             s= "".join((r"$f$=",
 	                "{:.3f}\n".format(f_elw),)
-	                ),
-    )
-    ax.plot(nn_elw, dd_elw + dcos_plt, "--", alpha=0.5, color=l_elw[0].get_color())
-    ax.plot(nn_esem, dd_esem + dcos_plt, "--", alpha=0.5, color=l_esem[0].get_color())
+	    ))
+    ax.plot(nn_elw, dd_elw + dcos_plt, "--", alpha=0.5,
+            color=l_elw[0].get_color())
+    ax.plot(nn_esem, dd_esem + dcos_plt, "--", alpha=0.5,
+            color=l_esem[0].get_color())
 
     ax.text(x=0.85, y=0.2, ha="left", size="medium",
             s= "".join((r"$f$=",
 	                "{:.3f}\n".format(f_esem),)
-	                ),
-    )
+	    ))
     ax.set_xlabel(r"$\sigma_{\mathrm{2D}}$ ($10^{13}$ $e\cdot$cm$^{-2}$)")
     ax.set_ylabel(r"$\Delta\cos\theta$")
-    ax.legend(loc=0)
+    ax.legend(loc=0, frameon=True)
     ax.set_xlim(-2, 2)
     ax.set_ylim(-0.05, 0.5)
-    fig.tight_layout()
+    # fig.tight_layout()
 
-matplotlib.style.use("science")
-fig = plt.figure(figsize=(4.0, 3.0))
+# matplotlib.style.use("science")
+# fig = plt.figure(figsize=(4.0, 3.0))
+def plot_main():
+    from . import data_path, img_path
+    from helper import gridplots
+    import matplotlib as mpl
+    mpl.rcParams["text.usetex"] = False
+    mpl.rcParams["svg.fonttype"] = "none"
+    fig, ax = gridplots(r=0.6, ratio=1.35)
+    plot_fitting_f(ax)
+    fig.savefig(img_path / "fitting_f.svg")
 
 if __name__ == "__main__":
-    plot_fitting_f(fig)
-    org.figure(plt.savefig("../img/plot-fitting.pdf"),
-	       attributes=[("latex", ":width 0.95\linewidth")],
-	       label="fig:f-nc-exp",
-	       caption=("Theoretical and fitted experimental data of "
-                        r"$\Delta\cos\theta$ "
-                        "as a function of "
-                        r"$\sigma_{\mathrm{2D}}$. "
-                        "The electrowetting data are extracted from Ref. "
-                        "[[cite:hong_mechanism_2016]]; "
-                        "the ESEM data are extracted from Ref. "
-                        "[[cite:ashraf_doping-induced_2016]]. "))
+    plot_main()
+    # plot_fitting_f(fig)
+    # org.figure(plt.savefig("../img/plot-fitting.pdf"),
+	       # attributes=[("latex", ":width 0.95\linewidth")],
+	       # label="fig:f-nc-exp",
+	       # caption=("Theoretical and fitted experimental data of "
+                        # r"$\Delta\cos\theta$ "
+                        # "as a function of "
+                        # r"$\sigma_{\mathrm{2D}}$. "
+                        # "The electrowetting data are extracted from Ref. "
+                        # "[[cite:hong_mechanism_2016]]; "
+                        # "the ESEM data are extracted from Ref. "
+                        # "[[cite:ashraf_doping-induced_2016]]. "))

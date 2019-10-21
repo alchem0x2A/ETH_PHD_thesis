@@ -470,7 +470,7 @@ potentials, respectively.
 
 \begin{figure}[!htbp]
 \centering
-% \includegraphics[width=0.9\linewidth]{../img/fig-pot-dens.pdf}
+\import{\imgdir}{MD_density.pgf}
 \caption{\label{fig:wet-MD-res2} \worktodo{more} Molecular scale: geometry of the periodic
   MD simulation box for (a) water molecules only and (b)
   water-graphene systems, with \textasciitilde{} 27000 water molecules
@@ -689,9 +689,25 @@ depends on the change of interfacial adhesion, instead of absolute
 surface tensions.
 
 \begin{figure}[!htbp]
-\centering
+  \centering
+  \import{\imgdir}{dcos_analytical.pgf}
 % \includegraphics[width=0.5\linewidth]{../img/2d-ph-dependency+MD.pdf}
-\caption{\label{fig:wet-res-EDL} The continuum model: (a) Scheme of the
+\caption{\label{fig:wet-res-EDL} \worktodo{more} The continuum model: (a) Scheme of the
+  interface between the 2D material and the aqueous phase. (b)
+  \((\Delta\cos\theta)^{\mathrm{EDL}}\) as a function of
+  \(\sigma_{\mathrm{2D}}\) with varied solute concentrations. The
+  concentration \(c_{0}\) varies from \(10^{-1}\) to \(10^{-7}\)
+  mol\(\cdot\mathrm{L}^{-1}\) (c) Overall change of contact angle
+  \((\Delta \cos \theta)^{\mathrm{Orien+EDL}}\) combining the
+  orientation and EDL effects, with varied solute concentrations as in
+  (b).}
+\end{figure}
+
+\begin{figure}[!htbp]
+  \centering
+  \import{\imgdir}{scheme-EDL.pdf_tex}
+% \includegraphics[width=0.5\linewidth]{../img/2d-ph-dependency+MD.pdf}
+\caption{\label{fig:wet-res-EDL} \worktodo{more} The continuum model: (a) Scheme of the
   interface between the 2D material and the aqueous phase. (b)
   \((\Delta\cos\theta)^{\mathrm{EDL}}\) as a function of
   \(\sigma_{\mathrm{2D}}\) with varied solute concentrations. The
@@ -910,7 +926,8 @@ important role in determining the wettability of doped 2D
 materials.
 
 \begin{figure}[!htbp]
-\centering
+  \centering
+  \import{\imgdir}{plot-fitting.pdf_tex}
 % \includegraphics[width=0.95\linewidth]{../img/plot-fitting.pdf}
 \caption{\label{fig:wet-f-nc-exp} Comparison between model and
   experimental data: schemes of the void region in (a) substrated
@@ -983,7 +1000,8 @@ discrepancy between the experimental observations and the multiscale
 theoretical framework proposed here.
 
 \begin{figure}[!htbp]
-\centering
+  \centering
+  \import{\imgdir}{dcos-all-2D.pdf_tex}
 % \includegraphics[width=0.65\linewidth]{../img/dcos-all-2D.pdf}
 \caption{\label{fig:wet-dcos-all-2D} Electrostatic tunability of 2D
   material wettability: (a) Schematic illustration of the
