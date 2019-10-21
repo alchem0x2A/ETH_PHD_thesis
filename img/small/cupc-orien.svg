@@ -42,13 +42,13 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.66357375"
-     inkscape:cx="4.1707807"
+     inkscape:cx="-56.108879"
      inkscape:cy="441.39294"
      inkscape:window-x="2"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g337"
-     showguides="true"
+     inkscape:current-layer="g365"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false"><sodipodi:guide
        position="586.21967,126.96405"
@@ -78,6 +78,10 @@
        position="300.6448,11.302443"
        orientation="0,1"
        id="guide3402"
+       inkscape:locked="false" /><sodipodi:guide
+       position="773.08665,958.44664"
+       orientation="0,1"
+       id="guide1242"
        inkscape:locked="false" /></sodipodi:namedview><style
      type="text/css"
      id="style2">
