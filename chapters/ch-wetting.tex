@@ -2,7 +2,7 @@
 \chapter{Multiscale Analysis of the Wetting Phenomena on Doped 2D
   Materials}
 \label{ch:wet}
-\renewcommand*\imgdir{img/ch-wet/}
+\renewcommand*\imgdir{img/wet/}
 
 \dictum[Samuel T. Coleridge \textit{The Rime of the Ancient Mariner}]{%
 Water, water, every where.
@@ -137,7 +137,8 @@ theory by comparing with the contact angle changes reported in the
 electrowetting and the substrate-induced doping experiments.
 
 \begin{figure}[htbp]
-\centering
+  \centering
+  \import{\imgdir}{TOC.pdf_tex}
 % \includegraphics[width=0.95\linewidth]{../img/scheme-methods.pdf}
 \caption{\label{fig:wet-scheme-method} Scheme of the proposed multiscale
   approach for modeling the doping-induced wettability tuning of 2D
@@ -255,8 +256,9 @@ black phosphorus), and graphene.
 The doping density in a 2D material
 is calculated according to \worktodo{equation xx}
 
-\begin{figure}[htbp]
-\centering
+\begin{figure}[!htbp]
+  \centering
+  \import{\imgdir}{dgamma-sigma.pgf}
 % \includegraphics[width=0.75\linewidth]{../img/dgamma-sigma.pdf}
 \caption{\label{fig:wet-dgamma-sigma} Atomistic scale:
   \(\Delta \gamma_{\mathrm{2D}}\) as a function of
@@ -446,10 +448,30 @@ Accordingly, \(\Delta \Phi\) follows
 correspond to the change for the vdW and Coulombic interaction
 potentials, respectively.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
+  \centering
+  \import{\imgdir}{MD_phi_plot.pgf}
+% \includegraphics[width=0.9\linewidth]{../img/fig-pot-dens.pdf}
+\caption{\label{fig:wet-MD-res1} \worktodo{more} Molecular scale: geometry of the periodic
+  MD simulation box for (a) water molecules only and (b)
+  water-graphene systems, with \textasciitilde{} 27000 water molecules
+  per unit cell. (c) Change of total adhesion energy \(\Delta\Phi\),
+  and its partial contributionsfrom Lennard-Jones
+  \(\Delta\Phi_{\mathrm{LJ}}\) and Coulombic
+  \(\Delta\Phi_{\mathrm{Coul}}\) interactions, as a function of
+  \(\sigma_{\mathrm{2D}}\). The filled regions indicate the error
+  margin of calculation. \(10^{-3}\) \textit{e}/atom corresponds to a
+  charge density of \(3.80 \times 10^{12}\ e \cdot
+  \mathrm{cm}^{-2}\). (d) and (e) are the local density
+  \(\rho_{\mathrm{L}}\) and local charge density
+  \(\delta_{\mathrm{L}}\) of water molecules as a function of distance
+  \(z\) from graphene surface, respectively.}
+\end{figure}
+
+\begin{figure}[!htbp]
 \centering
 % \includegraphics[width=0.9\linewidth]{../img/fig-pot-dens.pdf}
-\caption{\label{fig:wet-MD-res} Molecular scale: geometry of the periodic
+\caption{\label{fig:wet-MD-res2} \worktodo{more} Molecular scale: geometry of the periodic
   MD simulation box for (a) water molecules only and (b)
   water-graphene systems, with \textasciitilde{} 27000 water molecules
   per unit cell. (c) Change of total adhesion energy \(\Delta\Phi\),
@@ -666,7 +688,7 @@ This is not surprising as the contact angle described by YLE only
 depends on the change of interfacial adhesion, instead of absolute
 surface tensions.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 % \includegraphics[width=0.5\linewidth]{../img/2d-ph-dependency+MD.pdf}
 \caption{\label{fig:wet-res-EDL} The continuum model: (a) Scheme of the
@@ -887,7 +909,7 @@ airborne contaminations do not influence \((\Delta
 important role in determining the wettability of doped 2D
 materials.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 % \includegraphics[width=0.95\linewidth]{../img/plot-fitting.pdf}
 \caption{\label{fig:wet-f-nc-exp} Comparison between model and
@@ -960,7 +982,7 @@ greatly influenced by the defect density. We believe this explains the
 discrepancy between the experimental observations and the multiscale
 theoretical framework proposed here.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 % \includegraphics[width=0.65\linewidth]{../img/dcos-all-2D.pdf}
 \caption{\label{fig:wet-dcos-all-2D} Electrostatic tunability of 2D
