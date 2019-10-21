@@ -3167,12 +3167,15 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347213px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.77112269;stroke-linecap:butt;stroke-linejoin:round;"
-           x="510.97083"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347233px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.77112269;stroke-linecap:butt;stroke-linejoin:round"
+           x="543.35779"
            y="-172.54448"
            id="text24209"><tspan
              sodipodi:role="line"
-             id="tspan24211">$\delta_{\mathrm{2D}}^{\mathrm{fit}, \parallel} - \delta_{\mathrm{2D}}^{\mathrm{fit}, \perp}$</tspan></text>
+             id="tspan24211"
+             x="543.35779"
+             y="-172.54448"
+             style="stroke-linecap:butt;stroke-linejoin:round">$\delta_{\mathrm{2D}}^{\mathrm{fit}, \parallel} - \delta_{\mathrm{2D}}^{\mathrm{fit}, \perp}$</tspan></text>
       </g>
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"

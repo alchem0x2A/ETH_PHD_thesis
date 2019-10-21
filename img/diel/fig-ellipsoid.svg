@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="230.3369"
-     inkscape:cy="226.88601"
+     inkscape:zoom="1.979899"
+     inkscape:cx="397.42067"
+     inkscape:cy="449.7573"
      inkscape:document-units="mm"
-     inkscape:current-layer="axes_2"
+     inkscape:current-layer="g3336"
      showgrid="false"
      inkscape:snap-nodes="false"
      fit-margin-top="0.5"
@@ -197,7 +197,7 @@
            y="30.371847"
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan1792">$r_0^{\pe</tspan>rp} = \alpha_{\mathrm{2D}}^{\perp} / 2 \varepsilon_0$</tspan></text>
+   id="tspan1792">\lsize $r_0^{\pe</tspan>rp} = \alpha_{\mathrm{2D}}^{\perp} / 2 \varepsilon_0$</tspan></text>
       <g
          style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
          transform="translate(3.1650648,14.910972)"
@@ -208,16 +208,16 @@
           <text
              id="text1202"
              y="36.25375"
-             x="170.66045"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="167.50945"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                sodipodi:role="line"
                id="tspan1813"
-               x="170.66045"
+               x="167.50945"
                y="36.25375"
-               style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan1815">$r_0^{\par</tspan>allel} = \alpha_{\mathrm{2D}} / 2 \varepsilon_0$</tspan></text>
+   id="tspan1815">\lsize $r_0^{\par</tspan>allel} = \alpha_{\mathrm{2D}} / 2 \varepsilon_0$</tspan></text>
         </g>
         <text
            id="text898"
