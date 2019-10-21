@@ -81,9 +81,9 @@ def plot_main():
     leg = ax[1].legend([(lines[0], lines[3]),
                         (lines[1], lines[4]),
                         (lines[2], lines[5])],
-                       [r"$\Phi^{\mathrm{AmB}}$",
-                        r"$\Phi^{\mathrm{2D-B}}$",
-                        r"$\Phi^{\mathrm{tot}}$"],
+                       [r"$\Phi_{\mathrm{AmB}}$",
+                        r"$\Phi_{\mathrm{2D-B}}$",
+                        r"$\Phi_{\mathrm{tot}}$"],
                        handler_map={tuple: HandlerTuple(ndivide=None)},
                        loc="upper right")
 
@@ -112,6 +112,8 @@ def plot_main():
     add_img_ax(inset_right, img_path / "3D" / "gold_cluster.png")
     # zoom in!
     # ax[1].set_ylim(-1, 0.1)
+    ax[0].text(x=95, y=0.075, s="Repulsive", ha="right")
+    ax[0].text(x=95, y=-0.175, s="Repulsive", ha="right")
     # ax[3].set_ylim(-1, 0.6)
     grid_labels(fig, ax, reserved_space=(0, 0))
     savepgf(fig, img_path / "suspend_energy.pgf")
