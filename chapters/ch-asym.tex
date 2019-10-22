@@ -1,7 +1,7 @@
   % \chapter{Introduction}
 \chapter{Field-Dependent Electrostatic Screening in van der Waals Heterostructures}
 \label{ch:asym}
-\renewcommand*\imgdir{img/ch-asym/}
+\renewcommand*\imgdir{img/asym/}
 
 \dictum[]{%
   }%
@@ -136,6 +136,7 @@ The structure of ML-MOGS QC is schematically illustrated in
 \autoref{fig:asym-scheme_ML_MOGS}
 \begin{figure}[htbp]
   \centering
+  \import{\imgdir}{ML_graphene.pdf_tex}
   % \includegraphics[width=0.95\textwidth]{img/SI_ML_graphene.eps}
   \caption{Schematic for the multilayer graphene MOGS QC system}
   \label{fig:asym-scheme_ML_MOGS}
@@ -196,6 +197,11 @@ functions of the two layers ($\phi_{\mathrm{G}, i}$ and $\phi_{\mathrm{G}, i+1}$
 The above series of equations uniquely define the electrostatics in
 the ML-MOGS QC, and can therefore be solved numerically in a
 self-consistent manner by giving an initial guess of $\E_{\mathrm{S}}$.
+\begin{figure}[!htbp]
+  \centering{}
+  \import{\imgdir}{ML-eta.pdf_tex}
+  \caption{\label{fig:asym-ml-eta} \worktodo{more}}
+\end{figure}
 
 \worktodo{2 figures here}
 
@@ -291,6 +297,18 @@ be shown later).
 For simplicity, we refer the 2H-MoS\textsubscript{2} as
 MoS\textsubscript{2} throughout this chapter.
 %
+
+\begin{figure}[!htbp]
+  \centering{}
+  \import{\imgdir}{mqcm_scheme.pdf_tex}
+  \caption{\label{fig:asym-mqcm-scheme}}
+\end{figure}
+
+\begin{figure}[!htbp]
+  \centering{}
+  \import{\imgdir}{mqcm_results.pdf_tex}
+  \caption{\label{fig:asym-mqcm-result}}
+\end{figure}
 
 \worktodo{Figure} 6(a) schematically shows the band diagram of the
 G/MoS\textsubscript{2} vdWH used in our model.
@@ -806,9 +824,14 @@ respectively.
 %
 Interesting, the quantum capacitances calculated by both
 methods show very similar behavior under external electric field, with
-the maximum quantum capacitance reaching $\sim{}$30-33 in 3L G/3L
+the maximum quantum capacitance reaching $\sim{}$30-33 \worktodo{unit?}in 3L G/3L
 MoS\textsubscript{2} system, under an electric field of -1
 V/nm.
+
+\begin{figure}[!htbp]
+  \import{\imgdir}{qc-compare.pdf_tex}
+  \caption{\label{fig:asym-qc} \worktodo{add}}
+\end{figure}
 %
 We find the layer dependency of quantum capacitance is very
 similar to that of the dipole moment and charge transfer: the layer
