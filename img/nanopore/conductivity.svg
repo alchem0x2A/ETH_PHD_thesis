@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3700714"
-     inkscape:cx="384.91412"
+     inkscape:cx="250.61455"
      inkscape:cy="91.524945"
      inkscape:document-units="mm"
      inkscape:current-layer="layer5"
@@ -3400,7 +3400,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3455,6 +3455,7 @@
            id="text14246">KCl concentration $c_<tspan
    id="tspan4664"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49999285px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;baseline-shift:sub;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">0$</tspan>
+
 (mol$\cdot$L$^{-1}$)</text>
         <text
            xml:space="preserve"
@@ -4740,7 +4741,7 @@
          id="tspan10494"
          style="stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round"
          x="20.250391"
-         y="89.510178">10$-4$ mol$\cdot{}$L$^{-1}$ KCl</tspan></text>
+         y="89.510178">10$^{-4}$ mol$\cdot{}$L$^{-1}$ KCl</tspan></text>
   </g>
   <g
      style="stroke-linecap:butt;stroke-linejoin:round"
