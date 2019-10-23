@@ -2270,14 +2270,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9863281"
-     inkscape:cx="344.9926"
-     inkscape:cy="0.31010791"
+     inkscape:zoom="1.9726562"
+     inkscape:cx="185.1316"
+     inkscape:cy="116.6308"
      inkscape:document-units="mm"
-     inkscape:current-layer="figure_1-70"
+     inkscape:current-layer="g1423"
      showgrid="false"
-     inkscape:window-width="1469"
-     inkscape:window-height="885"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
      inkscape:window-x="10"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -2302,7 +2302,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2605,6 +2605,7 @@
 <tspan
    id="tspan9542"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+
  (V)</tspan>
               </text>
             </g>
@@ -6586,15 +6587,13 @@
            id="text1459"
            y="17.653038"
            x="30.531784"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23329163px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Arial;-inkscape-font-specification:'Arial, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
-             y="17.653038"
+             sodipodi:role="line"
+             id="tspan2233"
+             style="stroke-linecap:butt;stroke-linejoin:round"
              x="30.531784"
-             id="tspan1457"
-             sodipodi:role="line"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan1461">$Δ</tspan>ψ$</tspan></text>
+             y="17.653038">$\Delta \psi$</tspan></text>
         <g
            id="g2049"
            transform="translate(0.03128594,-6.1985346)"
