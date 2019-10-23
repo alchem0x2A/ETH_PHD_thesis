@@ -35,6 +35,7 @@ def convert_(infile):
     program = "inkscape"
     params = ["--without-gui", "--export-area-page", ]
     io = ["--file={}".format(infile),
+          "--export-dpi=300",
           "--export-pdf={}".format(outfile),
           "--export-latex"]
     success = call([program, *params, *io])

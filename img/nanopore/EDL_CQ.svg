@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 296.99999 210.00001"
+   width="162.91736mm"
+   height="64.003952mm"
+   viewBox="0 0 162.91735 64.003955"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -2271,8 +2271,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9863281"
-     inkscape:cx="309.29365"
-     inkscape:cy="-3.8296895"
+     inkscape:cx="344.9926"
+     inkscape:cy="0.31010791"
      inkscape:document-units="mm"
      inkscape:current-layer="figure_1-70"
      showgrid="false"
@@ -2289,7 +2289,7 @@
      inkscape:guide-bbox="true"
      units="mm">
     <sodipodi:guide
-       position="126.84126,42.693728"
+       position="124.60251,7.3628596"
        orientation="1,0"
        id="guide2991"
        inkscape:locked="false" />
@@ -2310,7 +2310,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="noshow"
-     transform="translate(-12.682387,145.12229)"
+     transform="translate(-12.682385,1.1521601)"
      style="display:none;stroke-linecap:butt;stroke-linejoin:round"
      sodipodi:insensitive="true">
     <g
@@ -5900,7 +5900,7 @@
      id="layer2"
      inkscape:label="base"
      style="display:none;stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(-12.682387,145.12229)"
+     transform="translate(-12.682385,1.1521601)"
      sodipodi:insensitive="true">
     <rect
        y="-0.37366018"
@@ -5947,7 +5947,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(-12.682387,145.12229)">
+     transform="translate(-12.682385,1.1521601)">
     <g
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
        id="g1604"
@@ -7245,14 +7245,14 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33020687px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44418392;stroke-linecap:butt;stroke-linejoin:round"
-         x="45.970573"
-         y="128.40056"
+         x="46.263424"
+         y="122.28556"
          id="text2975"><tspan
            sodipodi:role="line"
            id="tspan2973"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33020687px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.44418392;stroke-linecap:butt;stroke-linejoin:round"
-           x="45.970573"
-           y="128.40056">$V_{\mathrm{G}}$</tspan></text>
+           x="46.263424"
+           y="122.28556">$V_{\mathrm{G}}$ (V)</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33020687px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44418392;stroke-linecap:butt;stroke-linejoin:round"
@@ -7453,20 +7453,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33020687px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#1f77b4;fill-opacity:1;stroke-width:0.44418392;stroke-linecap:butt;stroke-linejoin:round"
            id="tspan3049"
            sodipodi:role="line">$\psi_{\mathrm{G}}$ (V)</tspan></text>
-      <rect
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71071863;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect3053"
-         width="319.65176"
-         height="127.4488"
-         x="-195.79018"
-         y="6.6379118" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="captions"
-     transform="translate(-12.682387,145.12229)"
+     transform="translate(-12.682385,1.1521601)"
      style="stroke-linecap:butt;stroke-linejoin:round">
     <text
        xml:space="preserve"
@@ -7478,7 +7471,7 @@
          id="tspan9613"
          x="12.511382"
          y="4.543251"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.08312464px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.22811717px;stroke-linecap:butt;stroke-linejoin:round">a</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.08312464px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.22811717px;stroke-linecap:butt;stroke-linejoin:round">\Lsize a</tspan></text>
     <text
        id="text9619"
        y="5.1076035"
@@ -7489,6 +7482,6 @@
          y="5.1076035"
          x="99.543556"
          id="tspan9617"
-         sodipodi:role="line">b</tspan></text>
+         sodipodi:role="line">\Lsize b</tspan></text>
   </g>
 </svg>

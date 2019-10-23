@@ -3707,16 +3707,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9375736"
-     inkscape:cx="202.95701"
-     inkscape:cy="219.30498"
+     inkscape:zoom="5.4802857"
+     inkscape:cx="464.88256"
+     inkscape:cy="222.42763"
      inkscape:document-units="mm"
      inkscape:current-layer="layer6"
      showgrid="false"
-     inkscape:window-width="1921"
-     inkscape:window-height="1205"
-     inkscape:window-x="112"
-     inkscape:window-y="78"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="51"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="-2.5"
      fit-margin-left="0"
@@ -3772,7 +3772,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5833,32 +5833,32 @@
          id="tspan10887"
          sodipodi:role="line">1</tspan></text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="124.13618"
        id="text7477">0</text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="115.41302"
        id="text7486">2</text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="106.68983"
        id="text7495">4</text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="97.966675"
        id="text7504">6</text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="89.243492"
        id="text7513">8</text>
     <text
-       style="font-style:normal;font-weight:500;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:3.24522972px;font-family:Helvetica;text-anchor:end;display:inline;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round"
        x="84.188889"
        y="80.520317"
        id="text7522">10</text>
@@ -5912,17 +5912,17 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;baseline-shift:sub;text-anchor:start;stroke-width:0.36058104;stroke-linecap:butt;stroke-linejoin:round" />
 </text>
     <g
-       transform="matrix(0.36058105,0,0,0.36058105,73.138126,78.743353)"
+       transform="matrix(0.36058105,0,0,0.36058105,72.079792,78.743353)"
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
        id="text_13-8">
       <text
-         style="font-style:normal;font-weight:normal;font-size:6.37410785px;font-family:Arial;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'Arial, Normal';font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.37410784px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          x="143.67297"
          y="22.830078"
          id="text7609">Model</text>
     </g>
     <g
-       transform="matrix(0.36058105,0,0,0.36058105,73.138126,71.17115)"
+       transform="matrix(0.36058105,0,0,0.36058105,72.079792,71.17115)"
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
        id="text_14">
       <text
