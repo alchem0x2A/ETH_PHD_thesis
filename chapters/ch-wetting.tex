@@ -966,7 +966,7 @@ derivative of \(\psi_{\mathrm{2D}}\) with respect to \(V_{\mathrm{G}}\), namely 
 \begin{equation}
 \label{eqn:wet-def-beta}
 \beta = \dfrac{\mathrm{d} \psi_{\mathrm{2D}}}{\mathrm{d} V_{\mathrm{G}}} 
-= \dfrac{C_{\mathrm{H}}^{-1} + C_{\mathrm{GC}}^{-1}}{{C_{\mathrm{d}}^{-1} + C_{\mathrm{Q}}^{-1}}
+= \dfrac{C_{\mathrm{H}}^{-1} + C_{\mathrm{GC}}^{-1}}{C_{\mathrm{d}}^{-1} + C_{\mathrm{Q}}^{-1}}
 \end{equation}
 The index \(\beta\) here quantifies the tunability of the contact angle change
 by \(V_{\mathrm{G}}\). Accordingly, a high degree of \(\beta\) can be attained by increasing both \(C_{\mathrm{d}}\) and
@@ -1078,13 +1078,15 @@ using the \texttt{GROMACS} 4.5 software package
 \cite{Hess_2008_gromacs}. Monolayer graphene was modeled as an
 infinite rigid sheet in the \textit{xy}-plane.
 %
-The carbon atoms of graphene
-were treated as Lennard-Jones (LJ) spheres with
-\(\sigma\) =
-0.34 nm and \(\epsilon\) = 0.223 kJ/mol \cite{Cheng_1990}, such that the pair-wise LJ potential $w_{\mathrm{LJ}}$ is calculated by $w_{\mathrm{LJ}} = 4 \epsilon\left[\left(\dfrac{\delta}{r}\right)^{12} - \left(\dfrac{\delta}{r}\right)^{6}\right]$, where $r$ is the distance.
-The 
-force-field parameters are adapted from reports by Tummala and Striolo
-\cite{Tummala_2008_counterion_SDS}.
+The carbon atoms of graphene were treated as Lennard-Jones (LJ)
+spheres with \(\sigma\) = 0.34 nm and \(\epsilon\) = 0.223 kJ/mol
+\cite{Cheng_1990}, such that the pair-wise LJ potential
+$w_{\mathrm{LJ}}$ is calculated by
+\(w_{\mathrm{LJ}} = 4
+\epsilon\left[\left(\dfrac{\delta}{r}\right)^{12} -
+  \left(\dfrac{\delta}{r}\right)^{6}\right]\), where $r$ is the
+distance.  The force-field parameters are adapted from reports by
+Tummala and Striolo \cite{Tummala_2008_counterion_SDS}.
 %
 The doping effect is included by assigning an equal amount of charge
 \(\sigma_{\mathrm{2D}} / \rho_{\mathrm{G}}\), where
