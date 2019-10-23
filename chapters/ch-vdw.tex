@@ -313,17 +313,18 @@ where
 \begin{equation}
 \label{eq:vdw-lifshitz-aniso-final}
 \begin{aligned}
-\Phi_{\mathrm{AmB}}
-&= \dfrac{k_{\mathrm{B}} T}{(2 \pi)^{2}} \sideset{}{'}{\displaystyle \sum_{n=0}^{\infty}}
-\int_{0}^{2 \pi} \mathrm{d}\vartheta
-\int_{0}^{\infty} \kappa \mathrm{d}\kappa 
-\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n}, \vartheta) 
-\Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
-&= \frac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
-\sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi} 
-\frac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
-\int_{0}^{\infty} x \mathrm{d}x
-\ln[1 - \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta) \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}] }
+  \Phi_{\mathrm{AmB}} &= \dfrac{k_{\mathrm{B}} T}{(2 \pi)^{2}}
+  {\displaystyle \sideset{}{'}\sum_{n=0}^{\infty}} {\displaystyle
+    \int_{0}^{2 \pi}} \mathrm{d}\vartheta {\displaystyle
+    \int_{0}^{\infty}} \kappa \mathrm{d}\kappa \ln[1 -
+  \Delta_{\mathrm{Am}}(i\xi_{n}, \vartheta)
+  \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
+  &= \dfrac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
+  \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi}
+  \dfrac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
+  {\displaystyle \int_{0}^{\infty}} x \mathrm{d}x \ln[1 -
+  \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta)
+  \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}]
 \end{aligned}
 \end{equation}
 where the last step is obtained using an auxiliary variable \(x = 2
@@ -753,7 +754,7 @@ large-scale evaluation of $\eta^{\mathrm{vdW}}$ on a database with
   \centering{}
   \import{\imgdir}{fig3.pdf_tex}
   \caption{\label{fig:vdw-database} %
-    #D scatter plot of many-body vdW transparency
+    2D scatter plot of many-body vdW transparency
     $\eta^{\mathrm{vdW}}$ studied by high-throughput screening of bulk
     and 2D material database at distance of 2 nm}
 \end{figure}
