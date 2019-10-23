@@ -2,8 +2,8 @@
 \chapter{Field-Effect Penetration through Two-Dimensional Materials}
 \label{ch:qc} \renewcommand*\imgdir{img/qc/}
 
-\dictum[H. C. Andersen \textit{The Emperor's New Clothes}]{%
-  ``But he has nothing on at all!'' said a little child at last.  }%
+% \dictum[H. C. Andersen \textit{The Emperor's New Clothes}]{%
+  % ``But he has nothing on at all!'' said a little child at last.  }%
 
 
 \vspace{1em}
@@ -57,13 +57,13 @@ capacitor\cite{Sze_2006_Mosfets}.
 %
 However, despite great success in demonstration of concept, there are
 still several limitations: (i) the fabrication of 2DEGs typically
-involves cumbersome molecular beam epitaxy (MBE) of semiconductors
-\worktodo{cite }, (ii) the fabrication of 2DEG in semiconductor
-heterostructures is limited to a few semiconductor families due to the
-requirement of lattice matching (see \autoref{sec:intro-3D-2D},
-\worktodo{check if correct})\cite{Stormer_1979_2DEG}, and (iii)
-despite the confinement of the quantum well, the 2DEG still spreads
-over a distance of several nano\-meters, making it not strictly
+involves cumbersome molecular beam epitaxy (MBE) of
+semiconductors~\cite{Chang_2012_MBE}, (ii) the fabrication of 2DEG in
+semiconductor heterostructures is limited to a few semiconductor
+families due to the requirement of lattice matching (see
+\autoref{sec:intro-3D-2D},~\cite{Stormer_1979_2DEG}, and (iii) despite
+the confinement of the quantum well, the 2DEG still spreads over a
+distance of several nano\-meters, making it not strictly
 two-dimensional~\cite{Ihn_2009_book}.
 %
 
@@ -133,8 +133,6 @@ with $V\subs{b}$, the penetration of the field effect in a MOGS QC
 becomes much less effective beyond a certain $V\subs{b}$ range which
 can guide to optimum design functioning rules.
 
-\worktodo{write a short section about penetration by QC}
-
 
 \section{Results and Discussions}
 \label{sec:qc-results-discussions-}
@@ -144,7 +142,7 @@ can guide to optimum design functioning rules.
 
 In this section, a mean-field model based on the Poisson-Boltzmann
 equation is derived to quantify the charge density distribution in a
-MOGS QC.  \autoref{fig:qc-Scheme}a shows an one-dimensional MOGS
+MOGS QC.  \autoref{fig:qc-Scheme}\lc{a} shows an one-dimensional MOGS
 system comprised of a metal (M) electrode, a dielectric oxide (O)
 layer, a sheet of undoped monolayer graphene (G), and a bulk
 semiconductor (S) layer with the thickness $d\subs{S}$
@@ -156,13 +154,13 @@ in graphene and the semiconductor layers.
 An Ohmic contact is used on the semiconductor side to apply a bias
 voltage $V\subs{b}$ between the semiconductor and graphene terminals.
 
-\begin{figure}[htbp] %
-  \import{\imgdir}{device.pdf_tex}
-% \includegraphics[width=0.95\linewidth]{img/FIG1.eps}
-  \caption{(a) Schematic illustration for the setup of a MOGS QC.  (b)
+\begin{figure}[!htbp] %
+  \centering{}
+  \import{\imgdir}{device.pdf_tex} %
+  \caption{  The quantum capacitor based on 2DEG. \textbf{a}. Schematic illustration for the setup of a MOGS QC.  \textbf{b}.
 Schematic band diagram of a MOGS QC.}
   \label{fig:qc-Scheme}
-\end{figure} \worktodo{slightly change figure?}
+\end{figure}
 
 First, the electroneutrality of the entire system suggests:
 \begin{equation} \sigma\subs{M}+\sigma\subs{G}+\sigma\subs{S}=0
@@ -172,7 +170,7 @@ $\sigma\subs{S}$ are the surface charge densities in the metal,
 graphene, and semiconductor terminals, respectively.  The $x$
 coordinate is defined as the distance away from the
 semiconductor/graphene (SG) interface in the semiconductor layer (see
-\autoref{fig:qc-Scheme}b). According to the Gauss's law,
+\autoref{fig:qc-Scheme}\lc{b}). According to the Gauss's law,
 $\sigma\subs{S}$ is given by:
 \begin{equation} \sigma\subs{S} = \int_{0}^{d_{\mathrm{S}}}
 \rho_{\mathrm{S}}(x) dx = -\varepsilon_{0}\varepsilon\subs{S}
@@ -221,7 +219,7 @@ n_0(\text{e}^{\beta\psi_0} - \beta \psi_0 -1) }
     \end{aligned}
 \end{equation} where $\mathrm{sign}$ is the sign function.  The
 electric potential at the SG interface, $\psi_0$ is determined by the
-Schottky-Mott rule~\worktodo{cite shottky}, which assumes that the
+Schottky-Mott rule~\cite{Sze_1965_defect}, which assumes that the
 vacuum level alignment at the SG interface.
 %
 Note that this assumption holds when the interface states at the SG
@@ -232,14 +230,14 @@ surface.  % We only consider inorganic semiconductor for this model,
 since for the interface between graphene and organic semiconductor the
 assumption of the vacuum level alignment does not hold
 \cite{Hill1998Molecular}.  The boundary condition imposed by the
-Schottky-Mott rule follows that:
+Schottky-Mott rule~\cite{Sze_1965_defect} follows that:
 \begin{equation}
   \label{eqn:qc-Shottky-Mott} \psi_0 = \frac{E_{\mathrm C,\infty} -
 E_{\mathrm F,\infty}}{e} - \phi\subs{G} + \chi\subs{S} - V\subs{b}
 \end{equation} where $E_{\mathrm C,\infty}$ and $E_{\mathrm F,\infty}$
 are the conduction-band (CB) and Fermi levels in semiconductor at the
 flat-band condition, respectively, and $\chi\subs{S}$ is the electron
-affinity of the semiconductor (see \autoref{fig:qc-Scheme}b).
+affinity of the semiconductor (see \autoref{fig:qc-Scheme}\lc{b}).
 %
 $\phi\subs{G}$ is the work function of graphene as a function of
 $\sigma\subs{G}$, which is assumed to follow the elementary electronic
@@ -261,7 +259,7 @@ An important feature of the 2DEG is its Fermi level $E_{\mathrm{F}}$
 (or equivalent the work function $\phi$) depends on the charge density
 $\sigma$, as a consequence of limited density of states (DOS, see
 \autoref{sec:basic-electr-prop}) and Pauli's exclusion
-principle.~\worktodo{cite 1 here}. The ability to change the Fermi
+principle.~\cite{Luryi_1988_Quantum}. The ability to change the Fermi
 level of a 2DEG is characterized by its quantum capacitance
 $C_{\mathrm{Q}}$. For graphene, $C_{\mathrm{Q}}$ is defined as:
 \begin{equation}
@@ -269,7 +267,7 @@ $C_{\mathrm{Q}}$. For graphene, $C_{\mathrm{Q}}$ is defined as:
 \sigma\subs{G}}{\partial \phi\subs{G}}
 \end{equation} Due to a nonzero $C_{\mathrm{Q}}$ of graphene, the
 application of $V\subs{M}$ to the MOGS QC considered here (
-\autoref{fig:qc-Scheme}a) includes the shift in the work function of
+\autoref{fig:qc-Scheme}\lc{a}) includes the shift in the work function of
 graphene, or namely,
 \begin{align}
     \label{eqn:qc-V_M} V\subs{M} = \frac{\sigma_{M}}{C\subs{ox}} +
@@ -301,7 +299,7 @@ Interface}
 
 % \todo{Self check onwards} To model the charge distribution1 at the
 SG interface, we consider a doped silicon (Si) layer in the MOGS QC
-structure at $T=$300 K.
+structure at $T=300$  K.
 %
 The parameters of Si are $\chi\subs{S} = 4.0$ V, the bandgap
 $E\subs{g} = 1.12$ eV, $\varepsilon_{\mathrm{S}} = 11.8$ and the
@@ -310,7 +308,7 @@ intrinsic carrier concentration $n\subs{i} = 9.7\times10^9$ cm$^{-3}$
 %
 First we analyze the case of free contact between the graphene and the
 semiconductor layers, \ie $\sigma\subs{G}+\sigma\subs{S}=0$ and
-$V\subs{M}=V\subs{b}=0$.  \autoref{fig:qc-fermi-level-change}a
+$V\subs{M}=V\subs{b}=0$.  \autoref{fig:qc-fermi-level-change}\lc{a}
 presents the change of Fermi level in graphene, $\Delta E_{\mathrm
 {F,G}} = -(\phi\subs{G} - \phi\subs{G}^0)$, as a function of the
 equilibrium electron concentration $n_0$.
@@ -330,37 +328,26 @@ When the Si layer is heavily doped ($>10^{15}$ cm$^{−3}$ for the
 majority carrier), a relatively pronounced transfer of majority
 carrier occurs, with a $\Delta E_{\mathrm {F,G}}$ up to $\pm$0.2 eV.
 
-\begin{figure}[htbp] %
-% \includegraphics[width=0.95\linewidth]{img/FIG2.eps} %
-% \includegraphics[width=0.95\linewidth]{img/FIG2.eps}
-  % \caption{(a) Change of graphene's Fermi level as a function of
-% $n_0$ in the Si layer. (b) Response of graphene's Fermi level to
-% $\sigma\subs{M}$, under different conditions (MOG QC; MOGS QCs
-% consisted of intrinsic Si and p-type / n-type Si with majority dopant
-% concentration of 10$^{18}$ cm$^{−3}$, respectively). (c) $\psi_0$ as a
-% function of $\sigma\subs{M}$ in MOS (red line) and MOGS QC(blue line)
-% consisted of n-type Si with $N\subs{D}$=10$^{16}$ cm$^{−3}$.  The
-% accumulation (light blue) and strong inversion (pink) regimes are
-% shown. (d) Contour map of $\psi_0$ as a function of $\sigma\subs{M}$
-% and $n_0$, categorized into accumulation (Ac), depletion (Dp), weak
-% inversion (WI) and strong inversion (SI) regimes according to
-% interface charge densities.}
+\begin{figure}[!htbp] %
+    \centering{}
   \import{\imgdir}{EFermi-prof.pdf_tex}
-  \caption{(a) The calculated Fermi level change of graphene, $\Delta
-E_{\mathrm {F,G}}$, as a function of $n_0$ in Si when considering free
-contact between the graphene and Si layers.  (b) The calculated
-$\Delta E_{\mathrm {F,G}}$ as a function of $\sigma\subs{M}$ in a MOG
-capacitor and a MOGS QC. The doping level of majority carrier in
-p-type/n-type Si is 10$\sups{18}$ cm$\sups{-3}$.  (c) The calculated
-$\psi_0$ as a function of $\sigma\subs{M}$ in n-type
-($N\subs{D}=10^{16}$ cm$\sups{-3}$) MOS and MOGS capacitors. The
-accumulation (light blue) and strong inversion (pink) regimes are also
-shown for comparison.  (d) The calculated contour map of $\psi_0$ as a
-function of $\sigma\subs{M}$ and $n_0$. The accumulation (Ac),
-depletion (Dp), weak inversion (WI), and strong inversion (SI) regimes
-are defined accordingly.  }
+  \caption{ Fermi level and interfacial charge modulation in a MOGS
+    QC.  \textbf{a}. The calculated Fermi level change of graphene,
+    $\Delta E_{\mathrm {F,G}}$, as a function of $n_0$ in Si when
+    considering free contact between the graphene and Si layers.
+    \textbf{b}. The calculated $\Delta E_{\mathrm {F,G}}$ as a
+    function of $\sigma\subs{M}$ in a MOG capacitor and a MOGS QC. The
+    doping level of majority carrier in p-type/n-type Si is
+    10$\sups{18}$ cm$\sups{-3}$.  \textbf{c}. The calculated $\psi_0$
+    as a function of $\sigma\subs{M}$ in n-type ($N\subs{D}=10^{16}$
+    cm$\sups{-3}$) MOS and MOGS capacitors. The accumulation (light
+    blue) and strong inversion (pink) regimes are also shown for
+    comparison.  (d) The calculated contour map of $\psi_0$ as a
+    function of $\sigma\subs{M}$ and $n_0$. The accumulation (Ac),
+    depletion (Dp), weak inversion (WI), and strong inversion (SI)
+    regimes are defined accordingly.  }
   \label{fig:qc-fermi-level-change}
-\end{figure} \worktodo{split this figure to 2}
+\end{figure}
 
 Next, we apply a nonzero $\sigma\subs{M}$ to the metal terminal,
 corresponding to a $V\subs{M}$ described by \autoref{eqn:qc-V_M}.
@@ -374,7 +361,7 @@ result of the field effect.
 %
 The $\Delta E_{\mathrm {F,G}}$ -
 $\sigma\subs{M}$ curves at different Si doping levels are shown in
-\autoref{fig:qc-fermi-level-change}b.  By solving
+\autoref{fig:qc-fermi-level-change}\lc{b}.  By solving
 \autoref{eqn:qc-phi-gr} at $\sigma\subs{G}$ + $\sigma\subs{M}$ = 0,
 the curve associated with a MOG QC is also shown for comparison.
 %
@@ -415,8 +402,8 @@ displacement field applied.
 
 In order to further understand the penetration of the field effect
 through graphene,
-\worktodo{change figure name}
-\autoref{fig:qc-fermi-level-change}c compares the
+% \worktodo{change figure name}
+\autoref{fig:qc-fermi-level-change}\lc{c} compares the
 evolutions of calculated $\psi_0$ with $\sigma\subs{M}$ in a standard
 metal-oxide-semiconductor (MOS) capacitor and a MOGS QC ($N\subs{D}$ =
 10$\sups{16}$ cm$\sups{-2}$), as a function of $\sigma\subs{M}$.
@@ -441,13 +428,13 @@ Clearly, unlike
 the standard MOS capacitors, we predict that the MOGS QC devices
 inherently do not facilitate fast switching by the field effect.
 
-Another important observation in \worktodo{change fig
-  name} \autoref{fig:qc-fermi-level-change}b is that $\sigma\subs{G}$
-also depends on the doping level of the adjacent Si layer.
+Another important observation in \autoref{fig:qc-fermi-level-change}\lc{b}
+is that $\sigma\subs{G}$ also depends on the doping level of the
+adjacent Si layer.
 %
-In order to further discuss this effect, \worktodo{change fig
-  name}\autoref{fig:qc-fermi-level-change}d presents the contour map
-of $\psi_0$ as functions of $\sigma\subs{M}$ and $n_0$.
+In order to further discuss this effect,
+\autoref{fig:qc-fermi-level-change}d presents the contour map of
+$\psi_0$ as functions of $\sigma\subs{M}$ and $n_0$.
 %
 We also
 include three curves associated with: (i) $\psi_0=0$, (ii)
@@ -503,18 +490,6 @@ field in a MOGS QC as follows:
 \sigma\subs{S}}{\partial \sigma\subs{M}}\right)
 \end{equation}
 
-\begin{figure}[htbp] %
-  \import{\imgdir}{eta-fe.pdf_tex}
-% \includegraphics[width=0.9\linewidth]{img/FIG3.eps}
-  \caption{(a) Calculated transparency of graphene 2DEG to electric
-displacement field in a MOGS QC, as functions of $\sigma\subs{M}$ and
-$n_0$.  \change{(b) Calculated $\sigma\subs{S}$ as a function of
-number of graphene layers in a MOGS QC ($n\subs{0}=10^{18}$
-cm$\sups{-3}$). The arrow indicates the direction of increasing
-$\sigma\subs{M}$.}  }
-  \label{fig:qc-transparency-MOGS}
-\end{figure}                    %
-\worktodo{check figure}
 %
 Simply transforming \autoref{eqn:qc-def_eta} gives
 $-(\partial \sigma\subs{G} / \partial
@@ -523,9 +498,10 @@ $(\partial \phi\subs{G}/\partial \psi\subs{S})=-1$ (see
 \autoref{eqn:qc-Shottky-Mott}) and (ii) the quantum capacitance of
 graphene
 $C_{\mathrm{Q}}=\partial \sigma\subs{G} / \partial \phi\subs{G}$ and
-(iii) the differential capacitance of semiconductor~\worktodo{cite which?}
-$C\subs{S} = -(\partial \sigma\subs{S}/ \partial \psi_0)$,
-the transparency index $\eta^{\mathrm{FE}}$ in \autoref{eqn:qc-def_eta}
+(iii) the differential capacitance of
+semiconductor~\cite{Sze_2006_Mosfets}
+$C\subs{S} = -(\partial \sigma\subs{S}/ \partial \psi_0)$, the
+transparency index $\eta^{\mathrm{FE}}$ in \autoref{eqn:qc-def_eta}
 can be decomposed using the chain rule as:
 \begin{equation}
   \begin{aligned}
@@ -545,18 +521,25 @@ interface.
 
 Accordingly, the contour map of $\eta^{\mathrm{FE}}$ as a function of
 $\sigma\subs{M}$ and $n_0$ is shown in
-\autoref{fig:qc-transparency-MOGS}. \worktodo{only use one panel here}
+\autoref{fig:qc-transparency-MOGS}.
+\begin{figure}[!htbp] %
+    \centering{}
+  \import{\imgdir}{eta-fe.pdf_tex}
+  \caption{Calculated transparency of graphene 2DEG to electric
+    displacement field in a MOGS QC, as functions of $\sigma\subs{M}$
+    and $n_0$. }
+  \label{fig:qc-transparency-MOGS}
+\end{figure}           
 %
 \autoref{eqn:qc-eta_expanded}
 suggests that the transparency of graphene 2DEG to an electric
 displacement field is determined by the combined effects of the
 graphene quantum capacitance and the semiconductor capacitance.
 %
-As a
-result, the limit of perfect transparency, $\eta^{\mathrm{FE}} \to 1$,
-would occur when $C_{\mathrm{Q}} \to 0$, corresponding to the CNP of
-graphene, along the curve of $\psi_0=0$ in
-\worktodo{change figure} \autoref{fig:qc-fermi-level-change}d.
+As a result, the limit of perfect transparency,
+$\eta^{\mathrm{FE}} \to 1$, would occur when $C_{\mathrm{Q}} \to 0$,
+corresponding to the CNP of graphene, along the curve of $\psi_0=0$ in
+\autoref{fig:qc-fermi-level-change}d.
 %
 However, we observe that such
 transparency disappears by even slightly changing $\sigma\subs{M}$, due to
@@ -570,12 +553,12 @@ graphene \cite{Das_Sarma_2011_electron_gr},
 we expect that the limit of $\eta^{\mathrm{FE}} \to 1$ may not be
 observable experimentally at room temperature.
 %
-On
-the other hand, a general trend exhibited in
-\worktodo{figure}\autoref{fig:qc-transparency-MOGS} is that one can gain a higher
-degree of transparency for the graphene 2DEG by either (i) increasing the
-doping level in the Si layer or (ii) applying a higher
-$|\sigma\subs{M}|$, both resulting a considerable increase of $C\subs{S}$.
+On the other hand, a general trend exhibited in
+\autoref{fig:qc-transparency-MOGS} is that one can gain a higher
+degree of transparency for the graphene 2DEG by either (i) increasing
+the doping level in the Si layer or (ii) applying a higher
+$|\sigma\subs{M}|$, both resulting a considerable increase of
+$C\subs{S}$.
 %
 
 Note in real experimental conditions, the interfacial states at the
@@ -587,7 +570,7 @@ effective permittivity of $\varepsilon_{\mathrm{I}}$
 ~\cite{Heine1965_surface_theory,Sze_1965_defect}.
 %
 %
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
   \centering
   % \includegraphics[width=0.65\textwidth]{img/scheme_interfacial.eps}
   \import{\imgdir}{scheme_interfacial.pdf_tex}
@@ -661,47 +644,47 @@ insights at the 2D material-bulk semiconductor interface.
 
 The above analysis based on Poisson-Boltzmann equation is still valid
 at different levels of theory as demonstrated by first principles
-simulations within density functional theory (DFT) (see \worktodo{ref to methods} for details). 
+simulations within density functional theory (DFT) (see
+\autoref{sec:qc-methods} for details).
 %
-\begin{figure}[htbp] %
+\begin{figure}[!htbp] %
+    \centering{}
   \import{\imgdir}{first_principles.pdf_tex}
 % \includegraphics[width=0.95\linewidth]{img/FIG2.eps} %
 % \includegraphics[width=0.95\linewidth]{img/FIG4.eps}
-  \caption{Induced charge densities at (a) graphene, $\sigma\subs{G}$,
-and (b) Si(111), $\sigma\subs{S}$, as a function of $\sigma\subs{M}$
+  \caption{
+Field-effect transparency from first principles simulations.
+    Induced charge densities at \textbf{a}. graphene, $\sigma\subs{G}$,
+and \textbf{b}. Si(111), $\sigma\subs{S}$, as a function of $\sigma\subs{M}$
 in different systems: intrinsic (blue), p-type (green) and n-type
-(red) Si, respectively.  The average carrier numbers per unit area in
-the whole Si slab are $1.10\times10^{13}$ cm$\sups{-2}$ for p-type Si
-and $-1.10\times10^{13}$ cm$\sups{-2}$ for n-type Si.  (c) Total
-average charge density cross section $\Delta \rho\subs{tot}$ as a
-function of the coordinate $x$ perpendicular to the graphene/Si(111)
-interface.  The positions of graphene and Si(111) are marked with the
-underneath faint structure.  The color gradient shows the evolution of
-$\sigma\subs{M}$ as displayed on the right side. Molecular
-visualizations of the induced charge density in graphene and intrinsic
-Si layers (cutoff at $\pm 0.0021$ $e\cdot$Bohr$^{-3}$) when (d)
-$\sigma\subs{M}=-0.98\times10^{13}$ cm$\sups{-2}$ and (e)
-$\sigma\subs{M}=0.98\times10^{13}$ cm$\sups{-2}$.  Blue and red
+(red) Si are plotted respectively.
+%
+The inset shows the same plot with smaller degree of metal charge $\sigma_{\mathrm{M}}$.
+%
+\textbf{c}. 3D
+visualizations of the induced charge density contour in graphene and intrinsic
+Si layers (cutoff at $\pm 0.0021$ $e\cdot$Bohr$^{-3}$) when 
+$\sigma\subs{M}=-0.98\times10^{13}$ cm$\sups{-2}$ (top) and 
+$\sigma\subs{M}=0.98\times10^{13}$ cm$\sups{-2}$ (bottom).  Blue and red
 isosurfaces represent positive and negative charges, respectively.
 %\protect \todo[inline]{Is the description for doping density right?}
   \label{fig:qc-first-principle}
-}                               %
+}%
 \end{figure}
 %
-\worktodo{split figure?}  \autoref{fig:qc-first-principle} shows the
+\autoref{fig:qc-first-principle} shows the
 calculated electronic response on a graphene\allowbreak{}/Si(111)
 interface considering the effect of
 gating.
 %
 We find that, irrespective of the doping levels considered, both
 $\sigma\subs{G}$ and $\sigma\subs{S}$ monotonically decrease as
-$\sigma\subs{M}$ increases (\worktodo{check figure}
-\autoref{fig:qc-first principle}a and b).
+$\sigma\subs{M}$ increases ( \autoref{fig:qc-first principle}\lc{a}
+and \lc{b}).
 %
-Similar to \worktodo{check
-  figure}\autoref{fig:qc-fermi-level-change}b, the amount of induced
-charges in both graphene and Si layers as a result of $\sigma\subs{M}$
-depends on the doping density in the Si layer.
+Similar to \autoref{fig:qc-fermi-level-change}\lc{b}, the amount of
+induced charges in both graphene and Si layers as a result of
+$\sigma\subs{M}$ depends on the doping density in the Si layer.
 %
 These results indicate that the field-effect transparency of the
 graphene 2DEG is also valid at the quantum mechanical level.
@@ -709,7 +692,7 @@ graphene 2DEG is also valid at the quantum mechanical level.
 We also observe that both $\sigma\subs{G}$ and $\sigma\subs{S}$ show a
 nearly linear relation with $\sigma\subs{M}$ when very high
 $\sigma\subs{M}$ (up to $\pm20\times10^{13}$ $e\cdot$cm$^{-2}$) is
-applied (\worktodo{move figure from SI to main}).
+applied.
 %
 This allows us to extract the
 $\eta^{\mathrm{FE}}$ by performing a linear-regression to the
@@ -746,12 +729,12 @@ $\eta^{\mathrm{FE}}$ larger than 0.5.
 
 We also study the charge distribution over the SG interface as a
 function of $\sigma\subs{M}$, which exhibits an intriguing profile as
-shown in \worktodo{change figure} electron density plots in
-\autoref{fig:qc-first principle}d and \autoref{fig:qc-first
-  principle}e for a graphene layer and an intrinsic Si slab.
+shown in the electron density plots in
+\autoref{fig:qc-first-principle}\lc{c} for a graphene layer and an
+intrinsic Si slab.
 %
 The larger contours of the charge density at the SG interface
-corresponds to the charge accumulation seen in \worktodo{figure name?}\autoref{fig:qc-fermi-level-change}.
+corresponds to the charge accumulation seen in \autoref{fig:qc-fermi-level-change}.
 %
 It is also found that that most of the orbitals that contribute to the
 polarization of charge are the $2p\subs{z}$ in graphene and
@@ -785,25 +768,20 @@ we have calculated the DOS as a function of $E$ for a variety of 2D
 materials\cite{Xu2011Measurements, Jimenez2012drift, Nawaz2016quantum}
 using the density functional theory (DFT) at the hybrid functional
 level.
-% We also take into account a
-% fractional component of the exact exchange from the Hartree-Fock (HF)
-% theory hybridized with the DFT exchange-correlation functional at the
-% level of the HSE06 hybrid functional\cite{HSE06} (see {\itshape
-  % Methods}). Therefore any limitation of the exchange and correlation
-% functional utilized in the chemical description of the energy levels
-% can be improved.
-\begin{figure}[htbp]
+%
+\begin{figure}[!htbp]
   \centering %
   \import{\imgdir}{QC_compare.pdf_tex}
 % \includegraphics[width=0.95\textwidth]{img/FIG5.eps}
-  \caption{ \change{ Calculated quantum capacitances ($C\subs{Q}$) for
-the 2D materials considered, TMDs (MX$\subs{2}$, M = Mo, W; X = S, Se,
-Te), phosphorene, silicene, germanene and graphene, as a function of
-the (a) electron density $\sigma\subs{2D}\sups{n}$ and (b) hole
-density $\sigma\subs{2D}\sups{p}$.  (c) Geometries used to calculated
-the QC using HSE06 hybrid functional for graphene, silicene/germanene,
-TMDs and phosphorene.  The unit cell used in the simulations is
-highlighted in the panels.  }  }
+  \caption{Calculated quantum capacitances ($C\subs{Q}$) for the 2D
+    materials considered, TMDs (MX$\subs{2}$, M = Mo, W; X = S, Se,
+    Te), phosphorene, silicene, germanene and graphene, as a function
+    of the \textbf{a}. electron density $\sigma\subs{2D}\sups{n}$ and
+    \textbf{b}. hole density $\sigma\subs{2D}\sups{p}$.
+    \textbf{c}. Geometries used to calculated the QC using HSE06
+    hybrid functional for graphene, silicene/germanene, TMDs and
+    phosphorene.  The unit cell used in the simulations is highlighted
+    in each panel.}
   \label{fig:qc-CQ-2D}
 \end{figure} %
 The relation between DOS and $C_{\mathrm{Q}}$ %
@@ -817,8 +795,8 @@ $\sigma\subs{2D}=\int_{E\subs{F}}^{E} \mathrm{DOS}(E')e dE'$.
 %
 The calculated values of $C_{\mathrm{Q}}$ for the 2D materials
 considered as a function of the electron or hole density are shown in
-\autoref{fig:qc-CQ-2D}a and \autoref{fig:qc-CQ-2D}c,
-respectively. \worktodo{change figure name}
+\autoref{fig:qc-CQ-2D}\lc{a} and \autoref{fig:qc-CQ-2D}\lc{b},
+respectively.
 
 As discussed in \autoref{sec:basic-electr-prop}, $C_{\mathrm{Q}}$ of a
 monolayer 2D semiconductor (\change{TMDs and phosphorene}) behaves
@@ -870,11 +848,11 @@ the $\phi\subs{G}$ occurs.
 This behavior is different from the
 semiconductor-metal (SM) interface.
 %
-Specifically, \worktodo{figure?}\autoref{fig:qc-chara-bias}a
+Specifically, \autoref{fig:qc-chara-bias}\lc{a}
 illustrates the main differences between SM and SG interfaces.
 %
-In a SM junction, the Schottky barrier \worktodo{cite ?} height
-$\phi\subs{b}$ remains constant ($\phi\subs{b}^0$) with respect to
+In a SM junction, the Schottky barrier  height
+$\varphi\subs{b}$ remains constant ($\varphi\subs{b}^0$) with respect to
 $V\subs{b}$, because the work function of metal is independent of its
 charge density.
 %
@@ -888,39 +866,26 @@ around for $V\subs{b}$ < 0.
 As a result, 
 $\sigma\subs{G}$ as well as the resulting $\psi_0$ and
 $\phi\subs{b}$, exhibit a nonlinear dependence on $V\subs{b}$.
-\begin{figure}[htbp] \centering %
-% \includegraphics[width=0.95\linewidth]{img/FIG6.eps} %for preprint
-  % \caption{Characterizations of a MOGS QC when an bias is
-% applied. (a) Illustration of the difference between a
-% metal-semiconductor (M-S) and a graphene-semiconductor (G-S)
-% junction. (b) $\psi_0$ as a function of $V\subs{b}$, in case of varied
-% gate charge densities $\sigma\subs{M}$. The MOGS QC consists of a Si
-% layer with $N\subs{D}$=10$^{16}$ cm$^{-3}$. $\sigma\subs{M}$ varies
-% from -2$\times$10$^{13}$ $e\cdot$cm$^{-2}$ to 2$\times$10$^{13}$
-% $e\cdot$cm$^{-2}$ , with a step of 5$\times$10$^{12}$
-% $e\cdot$cm$^{-2}$.  The arrow indicates the direction of increasing
-% $\sigma\subs{M}$ .  (c) $\Delta E_{\mathrm {F,G}}$ in the same MOGS QC
-% discussed in (b) as a function of $\sigma\subs{M}$ when different
-% values of $V\subs{b}$ are applied. $V\subs{b}$ ranges from -0.75 V to
-% 0.75 V, stepped by 0.25 V. The arrow indicates the direction of
-% increasing $V\subs{b}$.}
+%
+\begin{figure}[!htbp]
+  \centering %
   \import{\imgdir}{bias-effect.pdf_tex}
-  \caption{ The effect of $V\subs{b}$ in a MOGS QC. (a) Schematic
+  \caption{ The effect of $V\subs{b}$ in a MOGS QC. \textbf{a}. Schematic
 illustration of the difference between a semiconductor-metal (SM) and
-a semiconductor-graphene (SG) junction.  (b) Calculated $\psi_0$ as a
+a semiconductor-graphene (SG) junction.  \textbf{b}. Calculated $\psi_0$ as a
 function of $V\subs{b}$, under different $\sigma\subs{M}$ values. The
-arrow indicates the direction of increasing $\sigma\subs{M}$.  (c)
+arrow indicates the direction of increasing $\sigma\subs{M}$.  \textbf{c}.
 Calculated $\Delta E_{\mathrm{F,G}}$ as a function of $\sigma\subs{M}$
 under different $V\subs{b}$ values. The arrow indicates the direction
 of increasing $V\subs{b}$.  A n-type Si with $N\subs{D}=10^{16}$
-cm$^{-3}$ is considered for (b) and (c).  }
+cm$^{-3}$ is considered for \textbf{b} and \textbf{c}.  }
   \label{fig:qc-chara-bias}
-\end{figure} \worktodo{check figure?}
+\end{figure}
 
 Taking a MOGS QC using an n-type Si (with donor concentration
 $N\subs{D} = 10^{16}$ cm$^{-3}$) as an example, the calculated
 $\psi_0$ as a function of $V\subs{b}$ under various $\sigma\subs{M}$
-values applied is shown in \worktodo{figure?}\autoref{fig:qc-chara-bias}b.
+values applied is shown in \autoref{fig:qc-chara-bias}\lc{b}.
 %
 Compared with
 the case of $V\subs{b} = 0$,
@@ -941,7 +906,7 @@ relation $(\partial \phi\subs{G}/\partial \psi_0)_{V\subs{b}}=-1$ (see
 \autoref{eqn:qc-Shottky-Mott}) with \autoref{eqn:qc-eta_expanded}, it
 follows:
 \begin{equation}
-  \label{eqn:qc- tunability_gate}
+  \label{eqn:qc-tunability_gate}
   \begin{aligned}               %
     \left(\frac{\partial E_{\mathrm {F,G}}}{\partial
         \sigma\subs{M}}\right)_{V\subs{b}} &= -\left(\frac{\partial
@@ -956,7 +921,7 @@ follows:
   \end{aligned}
 \end{equation}                  %
 Considering only a slight degree of band bending at
-$|V\subs{b}|=0$, as shown in \worktodo{figure?}\autoref{fig:qc-chara-bias}a, when a high
+$|V\subs{b}|=0$, as shown in \autoref{fig:qc-chara-bias}\lc{a}, when a high
 forward or reverse $|V\subs{b}|$ is applied, an inversion or
 accumulation layer is formed at the SG interface.
 %
@@ -973,7 +938,7 @@ and $C_{\mathrm{Q}}$ under a high $|V\subs{b}|$ results in a
 significant decrease of
 $(\partial E_{\mathrm {F,G}}/\partial \sigma\subs{M})_{V\subs{b}}$, or
 the tunability of $E_{\mathrm {F,G}}$ with respect to
-$\sigma\subs{M}$, as shown in \worktodo{figure name?}\autoref{fig:qc-chara-bias}c.
+$\sigma\subs{M}$, as shown in \autoref{fig:qc-chara-bias}\lc{c}.
 %
 % Representative band diagrams of a MOGS QC are shown in Supporting
 % Information S3.
@@ -1034,6 +999,9 @@ analysis presented here.
 \section{Methods}
 \label{sec:qc-methods}
 
+\subsection{First Principles Simulations}
+\label{sec:qc-first-princ-simul}
+
 The first-principles simulations reported here are
 based on density functional theory calculations using the {\ttfamily
 SIESTA} method\cite{Soler_02_siesta} and the {\ttfamily VASP}
@@ -1081,7 +1049,14 @@ HSE06 methods.
 
 \section{Author Contributions}
 \label{sec:qc-author-contributions}
-
+T.T. and C.J.S. design the theoretical studies in this
+chapter. T.T. and C.J.S. developed the analytical model for the field
+transparency through 2D materials. The first principles calculation of
+DOS and quantum capacitance of different 2D materials are performed in
+the group of Dr. Elton G. J. Santos from Queen's University of
+Belfast, UK. P.R. and E.G.J.S. carried out the DFT simulations and
+T.T. completed the data analysis. All authors contributed to
+discussions of the results.
 
 %%% Local Variables:
 %%% mode: latex

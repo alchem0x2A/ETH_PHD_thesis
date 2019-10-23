@@ -323,7 +323,7 @@
            sodipodi:role="line"
            id="tspan1822"
            x="0"
-           y="0">$\phi_{\mathrm{b}}^0$</tspan></text>
+           y="0">$\varphi_{\mathrm{b}}^0$</tspan></text>
 </g><g
        id="g140"><rect
          x="93.900002"
@@ -882,7 +882,7 @@
            id="tspan1824"
            sodipodi:role="line"
            x="0"
-           y="0">$\phi_{\mathrm{b}}^0$</tspan></text>
+           y="0">$\varphi_{\mathrm{b}}^0$</tspan></text>
 </g><g
        transform="translate(342,8)"
        id="g1834"><text
@@ -893,7 +893,7 @@
            y="0"
            x="0"
            sodipodi:role="line"
-           id="tspan1830">$\phi_{\mathrm{b}}^0$</tspan></text>
+           id="tspan1830">$\varphi_{\mathrm{b}}^0$</tspan></text>
 </g><text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
        id="text1840"
@@ -1104,7 +1104,7 @@
            id="tspan1952"
            sodipodi:role="line"
            x="0"
-           y="0">$\phi_{\mathrm{b}} &gt; \phi_{\mathrm{b}}^0$</tspan></text>
+           y="0">$\varphi_{\mathrm{b}} &gt; \varphi_{\mathrm{b}}^0$</tspan></text>
 </g><g
        transform="translate(168,144)"
        id="g1962"><text
@@ -1115,7 +1115,7 @@
            y="0"
            x="0"
            sodipodi:role="line"
-           id="tspan1958">$\phi_{\mathrm{b}} &lt; \phi_{\mathrm{b}}^0$</tspan></text>
+           id="tspan1958">$\varphi_{\mathrm{b}} &lt; \varphi_{\mathrm{b}}^0$</tspan></text>
 <text
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
          id="text1966"
@@ -1125,7 +1125,7 @@
            id="tspan1964"
            sodipodi:role="line"
            x="-73.323898"
-           y="65.312897">$\phi_{\mathrm{b}}^0$</tspan></text>
+           y="65.312897">$\varphi_{\mathrm{b}}^0$</tspan></text>
 </g><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
