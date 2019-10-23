@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="397.42067"
+     inkscape:cx="295.90034"
      inkscape:cy="449.7573"
      inkscape:document-units="mm"
      inkscape:current-layer="g3336"
@@ -147,7 +147,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -165,15 +165,15 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/diel/3D/polarizability_ellipsoid.png"
          xlink:href="3D/polarizability_ellipsoid.png"
-         width="196.51768"
-         height="110.5412"
-         preserveAspectRatio="none"
-         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
-         id="image823"
-         x="-0.15568192"
-         y="0.37551335"
+         transform="translate(1.5754989)"
          clip-path="url(#clipPath13343)"
-         transform="translate(1.5754989)" />
+         y="0.37551335"
+         x="-0.15568192"
+         id="image823"
+         style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="110.5412"
+         width="196.51768" />
       <path
          style="white-space:pre;opacity:0.51200005;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61242223;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1146)"
          d="m 102.85689,40.628853 l 74.33461,4.21537 v 0"
@@ -217,7 +217,7 @@
                y="36.25375"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23331308px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan1815">\lsize $r_0^{\par</tspan>allel} = \alpha_{\mathrm{2D}} / 2 \varepsilon_0$</tspan></text>
+   id="tspan1815">\lsize $r_0^{\par</tspan>allel} = \alpha_{\mathrm{2D}}^{\parallel} / 2 \varepsilon_0$</tspan></text>
         </g>
         <text
            id="text898"
@@ -349,10 +349,13 @@
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
             <text
                id="text12386"
-               style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:7.53124619px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.53124619px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
               <tspan
                  sodipodi:role="line"
-                 id="tspan1787">2H-MoS$_2$</tspan>
+                 id="tspan1787"
+                 x="0"
+                 y="0"
+                 style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoS$_2$</tspan>
             </text>
           </g>
         </g>
@@ -573,7 +576,7 @@
                  id="text12476"
                  y="139.50336"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">0</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">0</text>
             </g>
           </g>
           <g
@@ -602,7 +605,7 @@
                  id="text12485"
                  y="121.4886"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">10</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">10</text>
             </g>
           </g>
           <g
@@ -631,7 +634,7 @@
                  id="text12494"
                  y="103.47385"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">20</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">20</text>
             </g>
           </g>
           <g
@@ -660,7 +663,7 @@
                  id="text12503"
                  y="85.459084"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">30</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">30</text>
             </g>
           </g>
           <g
@@ -689,7 +692,7 @@
                  id="text12512"
                  y="67.444321"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">40</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">40</text>
             </g>
           </g>
           <g
@@ -718,7 +721,7 @@
                  id="text12521"
                  y="49.429562"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">50</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">50</text>
             </g>
           </g>
           <g
@@ -747,7 +750,7 @@
                  id="text12530"
                  y="31.414801"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">60</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">60</text>
             </g>
           </g>
           <g
@@ -776,7 +779,7 @@
                  id="text12539"
                  y="13.400039"
                  x="39.225624"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">70</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">70</text>
             </g>
           </g>
           <g
@@ -794,7 +797,7 @@
                 <tspan
                    sodipodi:role="line"
                    id="tspan1783"
-                   x="9.8003712"
+                   x="9.8003702"
                    y="0"
                    style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">$r_0^{\parallel}$ (\AA{})</tspan>
               </text>
@@ -1036,7 +1039,7 @@
                  id="text12689"
                  y="139.50336"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">0</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">0</text>
             </g>
           </g>
           <g
@@ -1065,7 +1068,7 @@
                  id="text12698"
                  y="118.48615"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">1</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">1</text>
             </g>
           </g>
           <g
@@ -1094,7 +1097,7 @@
                  id="text12707"
                  y="97.468925"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">2</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2</text>
             </g>
           </g>
           <g
@@ -1123,7 +1126,7 @@
                  id="text12716"
                  y="76.451698"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">3</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">3</text>
             </g>
           </g>
           <g
@@ -1152,7 +1155,7 @@
                  id="text12725"
                  y="55.434483"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">4</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">4</text>
             </g>
           </g>
           <g
@@ -1181,7 +1184,7 @@
                  id="text12734"
                  y="34.417259"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">5</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">5</text>
             </g>
           </g>
           <g
@@ -1210,7 +1213,7 @@
                  id="text12743"
                  y="13.400039"
                  x="231.36438"
-                 style="stroke-linejoin:round;font-size:7.5px;text-anchor:end;stroke-linecap:butt;white-space:pre;font-family:Fira Sans;font-style:normal">6</text>
+                 style="font-style:normal;font-size:7.5px;font-family:'Fira Sans';text-anchor:end;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">6</text>
             </g>
           </g>
           <g
@@ -1223,10 +1226,13 @@
                style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
               <text
                  id="text12757"
-                 style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:7.53124619px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.53124619px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
                 <tspan
                    sodipodi:role="line"
-                   id="tspan1785">$r_0^{\perp}$ (\AA{})</tspan>
+                   id="tspan1785"
+                   x="-6.2212348e-07"
+                   y="0"
+                   style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">$r_0^{\perp}$ (\AA{})</tspan>
               </text>
             </g>
           </g>
@@ -1393,22 +1399,22 @@
          id="text13557"
          y="118.89113"
          x="71.000832"
-         style="stroke-width:0.39387473;stroke-linejoin:round;letter-spacing:0px;font-family:Fira Sans;fill-opacity:1;font-size:15.75498962px;line-height:1.25;word-spacing:0px;stroke:none;stroke-linecap:butt;white-space:pre;font-weight:normal;font-style:normal;fill:#000000"
+         style="font-style:normal;font-weight:normal;font-size:15.75498962px;line-height:1.25;font-family:'Fira Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.39387473;stroke-linecap:butt;stroke-linejoin:round"
          xml:space="preserve"><tspan
            y="118.89113"
            x="71.000832"
-           style="stroke-width:0.39387473;stroke-linejoin:round;font-size:6.30199575px;font-family:Fira Sans;stroke-linecap:butt;-inkscape-font-specification:Fira Sans;font-stretch:normal;font-variant:normal;white-space:pre;font-weight:normal;font-style:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.30199575px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';white-space:pre;stroke-width:0.39387473;stroke-linecap:butt;stroke-linejoin:round"
            id="tspan13555"
            sodipodi:role="line">In-plane</tspan></text>
       <text
          xml:space="preserve"
-         style="stroke-width:0.39387473;stroke-linejoin:round;letter-spacing:0px;font-family:Fira Sans;fill-opacity:1;font-size:15.75498962px;line-height:1.25;word-spacing:0px;stroke:none;stroke-linecap:butt;white-space:pre;font-weight:normal;font-style:normal;fill:#000000"
+         style="font-style:normal;font-weight:normal;font-size:15.75498962px;line-height:1.25;font-family:'Fira Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.39387473;stroke-linecap:butt;stroke-linejoin:round"
          x="160.80423"
          y="118.89113"
          id="text13561"><tspan
            sodipodi:role="line"
            id="tspan13559"
-           style="stroke-width:0.39387473;stroke-linejoin:round;font-size:6.30199575px;font-family:Fira Sans;stroke-linecap:butt;-inkscape-font-specification:Fira Sans;font-stretch:normal;font-variant:normal;white-space:pre;font-weight:normal;font-style:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.30199575px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';white-space:pre;stroke-width:0.39387473;stroke-linecap:butt;stroke-linejoin:round"
            x="160.80423"
            y="118.89113">Out-of-plane</tspan></text>
       <text
