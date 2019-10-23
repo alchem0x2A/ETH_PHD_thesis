@@ -3,8 +3,8 @@
 \label{ch:asym}
 \renewcommand*\imgdir{img/asym/}
 
-\dictum[]{%
-  }%
+% \dictum[]{%
+  % }%
 
 \vspace{1em}
 
@@ -183,7 +183,9 @@ with sheet charge density, we get a set of conservation equations:
       \E_{\mathrm{G},N-1}\varepsilon_{0}\varepsilon_{\mathrm{G}} + \sigma_{\mathrm{G},N} - \E_{\mathrm{S}}\varepsilon_{0}\varepsilon_{\mathrm{S}} = 0
     \end{equation*}
 \end{enumerate}                 %
-where $\varepsilon_{\mathrm{ox}}=2.8$\worktodo{check} and  $\varepsilon_{\mathrm{S}}=11$ are the permittivities of the oxide and semiconductor layers, respectively.
+where $\varepsilon_{\mathrm{ox}}$ and $\varepsilon_{\mathrm{S}}$ are
+the permittivities of the oxide and semiconductor layers,
+respectively.
 %
 Note that the difference between the vacuum energy level
 $\Delta E_{\mathrm{vac}}(i, i+1)$ between $i$ and $i+1$ graphene layers
@@ -200,15 +202,21 @@ self-consistent manner by giving an initial guess of $\E_{\mathrm{S}}$.
 \begin{figure}[!htbp]
   \centering{}
   \import{\imgdir}{ML-eta.pdf_tex}
-  \caption{\label{fig:asym-ml-eta} \worktodo{more}}
+  \caption{\label{fig:asym-ml-eta} Field-effect transparency in
+    multilayer graphene. \textbf{a}. Calculated $σ_{\mathrm{S}}$ as a
+    function of number of graphene layers in a MOGS QC
+    ($n_{0} = 10^{18}$ cm$^{−3}$). \textbf{b}. Calculated transparency
+    index $\eta^{\mathrm{FE}}$ as a function of layer number $N$.
+    \textbf{c}. The work function of 100-layer graphene as a function
+    of distance from the oxide-graphene interface $x$ (in number of
+    layers).  }
 \end{figure}
 
-\worktodo{2 figures here}
 
 To see the effect of the MQCM, we calculate the induced charge density
 of the semiconductor layer $\sigma_{\mathrm{S}}$ as a function of
 total graphene layer number $N$, an the charge on the metal gate
-$\sigma_{\mathrm{M}}$, as shown in \worktodo{figure which}a.
+$\sigma_{\mathrm{M}}$, as shown in \autoref{fig:asym-ml-eta}a.
 %
 To see a higher degree of field penetration to the semiconductor
 layer, we choose the intrinsic carrier density $n_{0}$ to be $10^{18}$
@@ -239,12 +247,12 @@ $\eta^{\mathrm{FE}}(N) = -\left(\dfrac{\partial
     \sigma_{\mathrm{S}}}{\partial \sigma_{\mathrm{M}}}\right)$ while
 dependent on the total layer number $N$.
 %
-\worktodo{figure} shows $\eta^{\mathrm{FE}}$ as function of both $N$ and $\sigma_{\mathrm{M}}$.
+\autoref{fig:asym-ml-eta}b shows $\eta^{\mathrm{FE}}$ as function of both $N$ and $\sigma_{\mathrm{M}}$.
 %
-Similar to the observation in \worktodo{figure}a, the effective
-penetration length of field effect appears as $\sim{}$10 layers, while
-field-effect transparency shows an asymmetric response to different
-polarity of the gate electrode.
+Similar to the observation in \autoref{fig:asym-ml-eta}a, the
+effective penetration length of field effect appears as $\sim{}$10
+layers, while field-effect transparency shows an asymmetric response
+to different polarity of the gate electrode.
 %
 
 The MQCM approach proposed here is excellently scalable with respect
@@ -254,7 +262,7 @@ layers~\cite{Pi_2009_metal_doping_gr,Giovannetti_2008_doping}.
 %
 As an demonstration, we calculate the work function profiles in the
 perpendicular direction of a 100-layer MOGS QC, as shown in
-\worktodo{figure xx}.
+\autoref{fig:asym-ml-eta}c.
 %
 Two boundary layers appear both the oxide/grapehene and
 semiconductor\allowbreak{}/graphene interfaces, analogous to the
@@ -268,6 +276,7 @@ field is fully screened inside the multilayer graphene.
 Considering the small interlayer permittivity, such nano\-scale
 electrostatic screening is caused by the charge transfer between the
 individual graphene layers.
+
 %
 Taking the concept of Debye screening length (see
 \autoref{eq:intro-debye}), we estimate the
@@ -282,7 +291,6 @@ is estimated to $\sim{}9\times10^{9}$ e$\cdot$cm$^{-2}$, which is
 close to the value of intrinsic thermal carrier density of graphene
 reported~\cite{Fang_2007_carrier_graphene}.
 
-\worktodo{add relation between sigma and phi}
 
 \subsubsection{Electrostatic Screening in Graphene/MoS\textsubscript{2} vdWHs}
 \label{sec:asym-classic}
@@ -297,35 +305,33 @@ be shown later).
 For simplicity, we refer the 2H-MoS\textsubscript{2} as
 MoS\textsubscript{2} throughout this chapter.
 %
-
+\autoref{fig:asym-mqcm-scheme} schematically shows the band diagram of
+the G/MoS\textsubscript{2} vdWH used in our model.
+%
 \begin{figure}[!htbp]
   \centering{}
   \import{\imgdir}{mqcm_scheme.pdf_tex}
-  \caption{\label{fig:asym-mqcm-scheme}}
+  \caption{\label{fig:asym-mqcm-scheme} Application of MQCM to a 2D
+    vdW composed of graphene and 2H-MoS\textsubscript{2}. The band
+    alignment and individual layer charge densities are schematically
+    shown.  }
 \end{figure}
-
-\begin{figure}[!htbp]
-  \centering{}
-  \import{\imgdir}{mqcm_results.pdf_tex}
-  \caption{\label{fig:asym-mqcm-result}}
-\end{figure}
-
-\worktodo{Figure} 6(a) schematically shows the band diagram of the
-G/MoS\textsubscript{2} vdWH used in our model.
 %
-Here we consider an isolated vdWH placed under an external electric $\E_{\mathrm{ext}}$,
-and does not have carrier transfer with the exterior (similar to the
-experimental conditions in the electric force microscopy
-(EFM)~\cite{Li_2014_screen}).
+Here we consider an isolated vdWH placed under an external electric
+$\E_{\mathrm{ext}}$, and does not have carrier transfer with the
+exterior (similar to the experimental conditions in the electric force
+microscopy (EFM)~\cite{Li_2014_screen}). The sign of
+$\E_{\mathrm{ext}}$ is positive if the external field points from the
+graphene layers to the MoS\textsubscript{2} layers.
 %
-Similar to the naming convention in \worktodo{figure ??}, the layer
-index $i$ starts from the outer-most graphene layer.
+Similar to the naming convention in \autoref{fig:asym-scheme_ML_MOGS},
+the layer index $i$ starts from the outer-most graphene layer.
 %
 When the system is at equilibrium, we assume that the Fermi level
 $E_{\mathrm{F}}$ aligns throughout the G/MoS\textsubscript{2}
 vdWH.
 %
-For simplicity of the model, we further assume that; (i) the intrinsic
+In this model, we further assume that; (i) the intrinsic
 electronic properties of individual layers, including density of
 states (DOS), band gap $E_{\mathrm{g}}$, and work function $\phi$ are
 invariable with the stacking order and the external electric field and
@@ -383,8 +389,6 @@ in a self-consistent approach similar to that in \autoref{sec:asym-field-pene-ml
   \end{equation}
 \end{enumerate}
 
-\worktodo{describe the parameters used here}
-
 The set of equations
 (\autoref{eq:asym-neutral-vdwh}--\autoref{eq:asym-charge-wf}) allows
 describing the vdWH in a unified manner regardless of the actual
@@ -395,12 +399,17 @@ equations of electric field and charge density of the
 G/MoS\textsubscript{2} vdWH, we can extract information about
 interfacial and screening properties.
 %
-For the
-simplest case of monolayer(1L) G/ 1L MoS\textsubscript{2}, 
-\worktodo{Figure} 6(b) shows the work functions of both materials as a
-result of $\E_{\mathrm{ext}}$ ranging from
--8 to +8 V/nm.
+For the simplest case of monolayer(1L) G/ 1L MoS\textsubscript{2},
+\autoref{fig:asym-mqcm-result}a shows the work functions of both
+materials as a result of $\E_{\mathrm{ext}}$ ranging from -8 to +8
+V/nm.
 %
+\begin{figure}[!htbp]
+  \centering{}
+  \import{\imgdir}{mqcm_results.pdf_tex}
+  \caption{\label{fig:asym-mqcm-result}}
+\end{figure}
+
 When highly n-doped and p-doped
 MoS\textsubscript{2} can be found when $\E_{\mathrm{ext}}<-2.3$ V/nm or $\E_{\mathrm{ext}}> 5.5$ V/nm, respectively.
 %
@@ -447,10 +456,9 @@ G/Mo\textsubscript{2} vdWHs. For a $m$-layer graphene / $n$-layer
 MoS\textsubscript{2} vdWH ($m$L G/ $n$L MoS\textsubscript{2}), we
 calculate the sheet dipole moment $\mu(m, n)$, defined
 as
-$\mu(m, n) = \sum_{i=1}^{m+n} \sigma_{i} (\sum_{i=0}^{i-1} d_{i, i+1})$, as shown in \worktodo{which figure}.
+$\mu(m, n) = \sum_{i=1}^{m+n} \sigma_{i} (\sum_{i=0}^{i-1} d_{i, i+1})$, as shown in \autoref{fig:asym-mqcm-result}b.
 %
 Clearly, the vdWH is more polarized under negative $\E_{\mathrm{ext}}$.
-\worktodo{clarify the direvtion of E}
 %
 By increasing the number of layer numbers, the magnitude of
 $\E_{\mathrm{ext}}$ required to induce significant polarization in the
@@ -465,7 +473,7 @@ contributions to the asymmetric behavior effect.
 %
 The similar effect is also seen in the charge density profile.
 %
-\worktodo{figure xx} shows the total charge density
+\autoref{fig:asym-mqcm-result}c shows the total charge density
 $\sigma_{\mathrm{G}}$ in the grapehene layers
 ($\sigma_{\mathrm{G}} = \sum_{i=1}^{m} \sigma_{i}$) for different
 combinations of $m$ and $n$ of the G/MoS\textsubscript{2} interface.
@@ -480,11 +488,13 @@ numbers of graphene and MoS\textsubscript{2}, and the
 MoS\textsubscript{2} layers contributes more to such effect than
 graphene.
 %
-Note comparing \worktodo{figure aa} and \worktodo{figure aa}, for
-thicker graphene layers (e.g. 3L G/$n$L MoS\textsubscript{2}), a
-considerable amount of total dipole moment can still be observed under
-weak electric field ($|\E_{\mathrm{ext}}<5|$ V/nm), when the charge
-transfer between graphene and MoS\textsubscript{2} is negligible ($<10^{11}$ $e \cdot$cm$^{-2}$).
+Note comparing \autoref{fig:asym-mqcm-result}b and
+\autoref{fig:asym-mqcm-result}c, for thicker graphene layers (e.g. 3L
+G/$n$L MoS\textsubscript{2}), a considerable amount of total dipole
+moment can still be observed under weak electric field
+($|\E_{\mathrm{ext}}<5|$ V/nm), when the charge transfer between
+graphene and MoS\textsubscript{2} is negligible ($<10^{11}$
+$e \cdot$cm$^{-2}$).
 %
 This indicates that the electric field is well screened by
 multilayer graphene under such conditions due to its semi\-metallic nature.
@@ -495,8 +505,8 @@ reach the band edges, when the DOS increases drastically.
 %
 To verify such statement, we reconstructed the band diagram of 1L G/
 3L MoS\textsubscript{2} system under electric fields of
-$\E_{\mathrm{ext}}=-2$ V/nm (\worktodo{Figure} 6(e)) and
-$\E_{\mathrm{ext}}=+2$ V/nm (\worktodo{Figure} 6(f)),
+$\E_{\mathrm{ext}}=-2$ V/nm (~\autoref{fig:asym-mqcm-result}d) and
+$\E_{\mathrm{ext}}=+2$ V/nm (~\autoref{fig:asym-mqcm-result}e,
 respectively.
 %
 Under -2 V/nm electric field, the Fermi level reaches
@@ -506,7 +516,8 @@ MoS\textsubscript{2} resulting in very small charge transfer,
 % in good accordance with the ab initio calculations showed in
 % \worktodo{Figure} 5(d)-5(f).
 In other words, charge accumulation occurs mostly on graphene and the
-outer-most MoS\textsubscript{2} layer, a similar effect as seen in \worktodo{figure in ML MOGS part}
+outer-most MoS\textsubscript{2} layer, a similar effect as seen in
+\autoref{fig:asym-ml-eta}c.
 
 
 \section{Experimental Observation of Asymmetric Screening in G/MoS\textsubscript{2} vdWHs}
@@ -515,7 +526,14 @@ outer-most MoS\textsubscript{2} layer, a similar effect as seen in \worktodo{fig
 \begin{figure}[!htbp]
 \centering{}
 \import{\imgdir}{EFM_scheme.pdf_tex}
-\caption{\label{fig:asym-EFM}}
+\caption{\label{fig:asym-EFM}%
+  Experimental characterization of electrostatic screening in
+  vdWHs. \textbf{a}. Optical images of graphene (left), MoS$_{2}$
+  (middle) layers exfoliated and the constructed vdWH
+  (right). \textbf{b}. Scheme of the EFM measurement. \textbf{c}
+  Typical EFM responses of different vdWHs and bulk substrates. In the
+  zoomed figure (right), the phase change becomes asymmetric in vdWHs
+  with increased MoS\textsubscript{2} layer numbers.  }
 \end{figure}
 
 The asymmetric electrostatic screening proposed by the MQCM in
@@ -530,7 +548,7 @@ briefly discussed.
 Heterostructures of graphene and MoS\textsubscript{2} of different thicknesses on gold (Au)-coated Si wafer were achieved by PMMA-assisted transfer
 transfer~\cite{Minemawari_2011_inkjet_PMMA}:
 %
-First, \worktodo{Figure} 1a 1-4L thick graphene nanosheets and 1-3L
+As shown in \autoref{fig:asym-EFM}a, 1-4L thick graphene nanosheets and 1-3L
 thick MoS\textsubscript{2} nanosheetsare mechanically exfoliated onto
 separate SiO\textsubscript{2}/Si substrates, with thickness confirmed
 by the Raman
@@ -540,8 +558,7 @@ To fabricate MoS\textsubscript{2}/graphene heterostructures, the
 MoS\textsubscript{2} was first transferred onto the graphene with the
 help of PMMA, and then the G/MoS\textsubscript{2} hetero\-structure
 was relocated onto a 100 nm-thick Au-coated SiO\textsubscript{2}/Si
-substrate, as shown by the optical and atomic force microscopy (AFM)
-images in \worktodo{Figure} 1(e).
+substrate.
 %
 
 EFM was used to measure the electric field screening properties of the
@@ -549,13 +566,11 @@ G/MoS\textsubscript{2} heterostructures, as previously used in other
 2D vdWH
 systems~\cite{Datta_2009_ML_Screening,Castellanos_Gomez_2012_interlayer,Li_2014_screen}.
 %
-A DC
-voltage sweeping ranging from +9 V to −9 V was applied to the Au substrate, which generated
-external electric fields of different intensities. The tip of the
-conductive cantilever which was grounded but oscillating at its first
-resonant frequency stayed at a few nanometers above the
-heterostructures, and acted as a sensor monitoring the electric field
-passing through the heterostructures (\worktodo{Figure} 2a).
+A DC voltage sweeping ranging from +9 V to −9 V was applied to the Au
+substrate, which generated external electric fields of different
+intensities. The tip of the conductive cantilever which was grounded,
+and acted as a sensor monitoring the electric field passing through
+the heterostructures (~\autoref{fig:asym-EFM}b).
 %
 Subtle changes of electric field could be detected by EFM phase shift
 ($\Delta \varphi$), following~\cite{Li_2014_screen}:
@@ -587,7 +602,7 @@ As seen from the experimental data, the EFM spectroscopy from the Au
 substrate, 4L graphene, bulk MoS\textsubscript{2}, and three
 heterostructures, namely 1L G/ 1L MoS\textsubscript{2}, 4L G/2L
 MoS\textsubscript{2}, and 4L G/3L MoS\textsubscript{2} are shown in
-\worktodo{Figure} 2b.  The EFM phase data of all the samples formed
+\autoref{fig:asym-EFM}b.  The EFM phase data of all the samples formed
 opening-up parabolas as indicated by \autoref{eq:asym-capaci-cant}.
 %
 However different
@@ -598,14 +613,11 @@ materials, we found that the parabolas of the EFM phase from some
 heterostructures (such as 4L G/ 3L MoS$_{2}$) lacked the
 mirror-symmetry as that of a perfect parabola.
 %
-We give typical
-examples on symmetric and asymmetric EFM phase in \worktodo{Figure}
-2c-d, respectively. The EFM data from the Au substrate could be well
-fitted by the second-degree polynomial (in
-\worktodo{Figure} 2c), but the same fitting process was not able to
-reproduce the left part (negative bias) of the EFM phase curve from 4L G/ 3L
-MoS\textsubscript{2} sample (\worktodo{Figure}
-2d).
+The EFM data from the Au substrate could be well fitted by the
+second-degree polynomial, but the same fitting process was not able to
+reproduce the left part (negative bias) of the EFM phase curve from 4L
+G/ 3L MoS\textsubscript{2} (see zoomed inset of
+\autoref{fig:asym-EFM}b).
 %
 A clear distinction can be observed between different types of 2D
 vdWHs: similar to the Au substrate, the 4L graphene, bulk
@@ -650,35 +662,38 @@ The quantum mechanical models presented in
 employed to extract information about the dielectric response under
 finite-electric fields in large supercells.
 %
-%
 
+
+\autoref{fig:asym-first-principles1}\lc{a-c} show the variation of
+$\chi_{\mathrm{vdWH}}$ with $\E_{\mathrm{ext}}$ at different
+G/MoS\textsubscript{2} layer combinations.
+%
 \begin{figure}[!htbp]
   \centering{}
   \import{\imgdir}{first_principles1.pdf_tex}
-  \caption{\label{fig:asym-first-principles1} \worktodo{more}}
+  \caption{\label{fig:asym-first-principles1} First-principles
+    calculations for various vdWHs. \textbf{a}–\textbf{c} Electric
+    susceptibility $\chi_{\mathrm{vdWH}}$ as a function of external
+    field $\E_{\mathrm{ext}}$ in vdWHs with 1L, 2L and 3L MoS$_{2}$,
+    respectively. $\chi_{\mathrm{vdWH}} - \E_{\mathrm{ext}}$ data with
+    different layers of graphene are shown in each panel.
+    % 
+    \textbf{d} Summarized results of $\chi$ as a function of the number of graphene
+    layers at $\E_{\mathrm{ext}} = 1.0$ V$\cdot$nm$^{-1}$.
+  }
 \end{figure}
-
-\begin{figure}[!htbp]
-  \centering{}
-  \import{\imgdir}{first_principles2.pdf_tex}
-  \caption{\label{fig:asym-first-principles1} \worktodo{more}}
-\end{figure}
-
-\worktodo{Figure} 3(a)-(c) show the variation of with the electric
-bias at different G/MoS\textsubscript{2} layer combinations.
-%
-Strikingly, only negative bias
+Strikingly, only negative $\E_{\mathrm{ext}}$
 affected despite of the number of graphene and MoS\textsubscript{2}
 sheets present in the heterostructures. This is in remarkable
 agreement with our predictions in \autoref{sec:asym-classic} as well as the experimental results in \autoref{sec:asym-exp}, where an asymmetrical response
 was observed only from graphene and few-layer MoS\textsubscript{2}
-heterostructures (\worktodo{figrue}Fig. 2(f)).
+heterostructures (~\autoref{fig:asym-EFM}c).
 %
-The effect is enhanced, as more
-MoS\textsubscript{2} layers are included into each graphene
-system. The in 3L G/3L MoS\textsubscript{2}
-system, a four-fold enhanced magnitude of relative to zero
-field was notices (\worktodo{Fig.} 3(c)), in good agreement with \worktodo{which figure}.
+The effect is enhanced, as more MoS\textsubscript{2} layers are
+included into each graphene system, for instance, in 3L G/3L
+MoS\textsubscript{2} system, a four-fold enhanced magnitude of
+$\chi_{\mathrm{vdWH}}$ relative to zero field was observed
+(~\autoref{fig:asym-first-principles1}c.
 %
 At a fixed value of the electric field (-1.0 V/nm), larger asymmetric
 screening was displayed as the number of MoS\textsubscript{2} layers
@@ -752,11 +767,23 @@ contribute more to the slab polarization.
 %
 To analyze observed asymmetric behavior at quantum mechanical level,
 further analysis of the electronic structure in the vdWHs are
-made. \worktodo{Figure} 5a shows, at negative bias,
+made.
+\worktodo{Figure} 5a shows, at negative bias,
 the induced dipole moments associated to the S-Mo-S bonds displace the
 charge towards the surface of the MoS\textsubscript{2} sheet
 (Fig. 5(a)), which generated charge transfer from graphene layers to
 MoS\textsubscript{2} layers (Fig. 5(b)).
+\begin{figure}[!htbp]
+  \centering{}
+  \import{\imgdir}{first_principles2.pdf_tex}
+  \caption{\label{fig:asym-first-principles2} %
+    Electronic band structures of the 3L MoS2/1L Graphene vdWHs under
+    different $\E_{\mathrm{ext}}$ (\textbf{a} -0.7 V·nm$^{-1}$,
+    \textbf{b}0 V·nm$^{-1}$ and \textbf{c} 0.7 V·nm$^{-1}$). The
+    states of graphene and MoS$_{2}$ are highlighted in blue and pink,
+    relatively.  An asymmetrical shift of states with respect to the
+    Fermi level under external electric field is observed. }
+\end{figure}
 %
 This charge rearrangement is smaller for positive $\E_{\mathrm{ext}}$
 which is ascribed to the difference between semiconducting nature of
@@ -766,9 +793,11 @@ graphene.
 % This results in less polarizable field-dependent facet,
 % smaller charge-transfer from MoS\textsubscript{2} to graphene, and
 % consequently better screening.
-The effect of the electric field can also be noted on the tuning of
-the Fermi level $\Delta E_{\mathrm{F}}$ relative to the CNP
-(\worktodo{Fig.} 5(c))
+The effect of the electric field can also be seen by the tuning of the
+Fermi level $\Delta E_{\mathrm{F}}$ relative to the charge neutral
+point (CNP) of graphene, as shown by the band structure calculated at
+different magnitudes of $\E_{\mathrm{ext}}$ for 1 L G/ 3L
+MoS\textsubscript{2} system in \autoref{fig:asym-first-principles2}.
 % The 1L G/1L MoS\textsubscript{2}) tend to tune
 % their Fermi level almost linearly with the electric field, similar to
 % the case of monolayer
@@ -790,9 +819,7 @@ the Fermi level $\Delta E_{\mathrm{F}}$ relative to the CNP
 % the anisotropic screening observed. This effect has several main
 % implications on the fundamental electronic structure of the
 % G/MoS\textsubscript{2} interfaces as can be appreciated
-is also reflected on the band structure calculated at different
-magnitudes of $\E_{\mathrm{ext}}$ for 1 L G/ 3L
-MoS\textsubscript{2} system as shown in \worktodo{Figure} 5(d)-(f).
+
 %
 Without external field, the Fermi level crossed the Dirac
 point of graphene, as no charge-imbalance was present between both
@@ -806,7 +833,6 @@ positive (negative) external field, which alters the band occupation.
 It is observed that the Fermi level changes more significantly at
 negative $\E_{\mathrm{ext}}$, leading to a larger degree of charge
 transfer, which is in good agreement with our model predictions in
-\worktodo{figure}.
 
 
 
@@ -838,18 +864,21 @@ $\sum_{i=1}^{N-1} \Delta E_{\mathrm{vac}}(i, i+1)$), such that $C_{\mathrm{Q}} =
 We compare the quantum capacitances calculated by the MQCM approach
 ($C_{\mathrm{Q}}^{\mathrm{MQCM}}$) and DFT calculations
 ($C_{\mathrm{Q}}^{\mathrm{MQCM}}$) as functions of $\E_{\mathrm{ext}}$ for various
-G/MoS\textsubscript{2} systems in \worktodo{Figure}s 7(a) and 7(b),
+G/MoS\textsubscript{2} systems in \autoref{fig:asym-qc}\lc{a} and \lc{b},
 respectively.
 %
-Interesting, the quantum capacitances calculated by both
-methods show very similar behavior under external electric field, with
-the maximum quantum capacitance reaching $\sim{}$30-33 \worktodo{unit?}in 3L G/3L
-MoS\textsubscript{2} system, under an electric field of -1
-V/nm.
+Interesting, the quantum capacitances calculated by both methods show
+very similar behavior under external electric field, with the maximum
+quantum capacitance reaching $\sim{}$30-33 $\mathrm{\mu}$F·cm$^{-2}$
+in 3L G/3L MoS\textsubscript{2} system, under an electric field of -1
+V·nm$^{-1}$.
 
 \begin{figure}[!htbp]
   \import{\imgdir}{qc-compare.pdf_tex}
-  \caption{\label{fig:asym-qc} \worktodo{add}}
+  \caption{\label{fig:asym-qc} %
+    Quantum capacitance $C_{\mathrm{Q}}^{\mathrm{MQCM}}$ (\textbf{a}) and $C_{\mathrm{Q}}^{\mathrm{DFT}}$ for different MoS2/Graphene
+    vdWHs calculated by the MQCM and DFT approaches, respectively.
+  }
 \end{figure}
 %
 We find the layer dependency of quantum capacitance is very
@@ -858,22 +887,23 @@ number of MoS\textsubscript{2} is dominating the magnitude of the
 total quantum capacitance under strong electric field. This is
 reasonable due to the higher quantum capacitance of
 MoS\textsubscript{2} than graphene when Fermi level shifts to the band
-edges \worktodo{ref to QC part}.
+edges (see \autoref{sec:qc-charge-distr-sg}).
 %
 Note that the DFT calculations predict a non-zero quantum capacitance
 of vdWHs with 2L and 3L graphene even without external electric field,
 as a result of the interlayer coupling, which is not included in the
 classical model. Despite the minute difference between both
 theoretical frameworks, it is clear that the quantum capacitance of
-the G/MoS\textsubscript{2} vdWH, as a combination of the energy levels and DOS, can
-describe the asymmetric screening behavior with good precision. Our
-multiscale theoretical framework is thus readily applicable for a
-variety of vdWHs beyond graphene/MoS\textsubscript{2}, by utilizing the electronic
-“genome”, in particular the quantum capacitances of individual 2D
-layers. A full picture of electric screening of 2D vdWHs can be built
-benefited from the framework proposed in this work, extending the “tip
-of the iceberg” of the electrostatic nature of two-layer 2D vdWHs
-revealed by recent
+the G/MoS\textsubscript{2} vdWH, as a combination of the energy levels
+and DOS, can describe the asymmetric screening behavior with good
+precision. Our multiscale theoretical framework is thus readily
+applicable for a variety of vdWHs beyond
+graphene/MoS\textsubscript{2}, by utilizing the electronic “genome”,
+in particular the quantum capacitances of individual 2D layers. A full
+picture of electric screening of 2D vdWHs can be built benefited from
+the framework proposed in this work, shedding light on researches
+concerning the electrostatic nature of two-layer 2D vdWHs revealed by
+recent
 studies~\cite{Chu_2017_eh_tunneling,Lee_2014_pn_vdw_het,Furchi_2014_PV_vdwH}.
 
 \section{Conclusions}
@@ -901,55 +931,122 @@ understand and engineer the electronic and dielectric properties of a
 broad class of 2D materials assembled in heterojunctions for different
 technological applications.
 
-
- 
-\worktodo{Figure} 1. Sample fabrication and optical characterization. (a) Optical microscopy photo of the mechanically exfoliated graphene of different thicknesses on 90 nm SiO\textsubscript{2}/Si; (b) the corresponding Raman spectra ; (c) optical microscopy photo of the as-exfoliated MoS\textsubscript{2} on 270 nm SiO\textsubscript{2}/Si; (d) the corresponding Raman spectra; (e) optical microscopy photo of the MoS\textsubscript{2} (top)/graphene (bottom) heterostructures transferred onto 100 nm-thick Au coated SiO\textsubscript{2}/Si by PMMA method; (f) the corresponding AFM image of the heterostructure.
- 
-\worktodo{Figure} 2. EFM response of vdW heterostructures at different electric bias. (a) Drawing of the EFM spectroscopy setup with the Au substrate underneath graphene and MoS\textsubscript{2} layers. Positive (negative) bias at the Au substrate generates electric fields towards graphene (MoS\textsubscript{2}), which are detected at the negative (positive) charged tip. (b) The raw EFM data from the six samples under a sweeping substrate DC voltage (+9 to −9 V); (c) The excellent fitting of the EFM phase spectrum from the Au substrate (brown) using second-degree polynomials (grey); (d) The asymmetry in the EFM phase spectrum from the 3L MoS\textsubscript{2}/4L G heterostructure demonstrated using the same fitting process; (e) Normalized EFM phase spectra from the six samples to show the asymmetric parabolas obtained from some of the heterostructures; (f) Enlarged view of the dashed area in (e).
- 
-\worktodo{Figure} 3. Ab initio vdW first-principles calculations for G/MoS\textsubscript{2} heterostructures. (a)-(c) Electric susceptibility   as a function of external electric fields (V/nm) at 1L, 2L and 3L MoS\textsubscript{2}, respectively (see insets). The number of graphene layers systematically increases in each panel at a fixed number of MoS\textsubscript{2} sheets following the labeling shown in (a). The polarization of the field follows the orientation in Fig. 2a, where positive (negative) fields go towards graphene (MoS\textsubscript{2}) firstly.  (d)   as a function of the number of graphene layers at a static field of -1.0 V/nm. Different curves correspond to different number of MoS\textsubscript{2} layers on the each vdW-heterostructures. Straight lines are fitting curves using a linear equation ( ) where the angular coefficients   are: 1L (0.008), 2L (0.035) and 3L (0.047).  
- 
-\worktodo{Figure} 4. Asymmetric dipolar contributions at the G/MoS\textsubscript{2} interface. (a)-(b) Induced charge density   (left y-axis) and electric polarization   (right y-axis) for 1L MoS\textsubscript{2}/1L Graphene and 3L MoS\textsubscript{2}/3L Graphene, respectively. The applied electric field is 1.0 V/nm. Blue (green) curves correspond to positive (negative) fields. Positive (negative) fields go towards graphene (MoS\textsubscript{2}), and vice-versa. The G/MoS\textsubscript{2} interface is highlighted to show the unbalanced formation of electric dipole moments between graphene and MoS\textsubscript{2} accordingly with the number of layer layers used to form the heterostructures. (c)-(d) Difference in electrostatic potential  in the slabs with and without the external electric field of 1.0 V/nm, and their corresponding response field  for 1L MoS\textsubscript{2}/1L Graphene and 3L MoS\textsubscript{2}/3L Graphene, respectively. The absolute values of   and   are taking in (c) and (d) for comparison at the same side of the plot. Geometries for all systems are highlighted at the background of each panel in opacity tone.  
- 
-\worktodo{Figure} 5: Asymmetric electronic response under external electric fields. (a)-(c) Electric dipole moment (Debye), charge transfer QGraphene(electrons/cell), between graphene and MoS\textsubscript{2}, and Fermi level variation, EFermi(eV), as a function of electric field (V/nm), respectively. The different curves and colors correspond to the different number of graphene and MoS\textsubscript{2} layers. Blue (1L MoS\textsubscript{2}), orange (2L MoS\textsubscript{2}) and green (3L MoS\textsubscript{2}). The same labeling in (a) for the number of graphene layers and colors for the MoS\textsubscript{2} are used throughout the different plots. Positive (negative) fields point towards graphene (MoS\textsubscript{2}) layers as shown in the inset in (a). The calculated charge transfer QGraphene follows the trend displayed in the insets in (b).  That is, positive bias induces charge transfer from MoS\textsubscript{2} to graphene, and vice-versa. The insets in (c) summarize the effect of the electric field on EFermi(eV) and the resulting electronic structure: positive (negative) bias shifts downward (upward) in energy the Fermi level. Also notice the relative shifts of graphene and MoS\textsubscript{2} states with the electric bias. (d)-(f) Electronic band structures of the 3L MoS\textsubscript{2}/1L G heterostructure at different gate bias. Graphene states are highlighted in blue and MoS\textsubscript{2} bands in faint pink. Fermi level is shown by the dashed-line in each panel. An asymmetrical dependence of the electronic properties with the electric field is noted in all calculated quantities. 
-
- 
-\worktodo{Figure} 6: Classical model electrostatic approach for charge redistribution of G/MoS\textsubscript{2} vdW heterostructures. (a) Schematic band diagram of the multilayer G/MoS\textsubscript{2}heterostructures. Vacuum level (Evac), work function ( i), surface charge density ( ), interlayer distance ( ),  and relative permittivity dielectric constant (ii) are shown for each stacking i. (b) Work functions of graphene and MoS\textsubscript{2} as functions of external electric field Eext (V/nm). The regimes of the n-doped and p-doped MoS\textsubscript{2} where the Fermi level reaches the conduction (CB) and valence (VB) bands of MoS\textsubscript{2} are highlighted in green and faint red, respectively. The Fermi level reaches the conduction band (CB) or valence band (VB) of MoS\textsubscript{2} when large negative or positive Eext is applied, relatively (as shown by the arrows). (c) Electric dipole moment  (Debye) as a function of Eext (V/nm) for different number of graphene and MoS\textsubscript{2} layers on the heterostructures. (d) Surface charge density QGraphene (left axis) and the amount of charge transfer between graphene and MoS\textsubscript{2} layersGr (right axis) of graphene as a function of Eext (V/nm) for different G/MoS\textsubscript{2} systems. (e)-(f) Band alignments for an illustrative case, e.g. 1 L G/3L MoS\textsubscript{2} under -2.0 V/nm and +2.0 V/nm electric fields, respectively. Positive charges are shown in faint red and negative charges are shown in blue, respectively. Only band structures near the Fermi level are shown for illustration. 
- 
-\worktodo{Figure} 7: Quantum capacitance CQ for different G/MoS\textsubscript{2} heterostructures. (a) Quantum capacitance calculated from the classical model    (μF/cm2)  and (b) Quantum capacitance calculated from the DOS profile of ab initio  calculations   as a function of the external field Eext(V/nm)for various G/MoS\textsubscript{2} vdWHs, respectively. The quantum capacitance increase more under negative electric field than positive field. Both classical and DFT calculations show similar trend of relationship between layer numbers and quantum capacitance: the layer numbers of MoS\textsubscript{2} contributes more to the total quantum capacitance than graphene under strong electric field, consistent with the findings of layer-dependent dipole moment and charge transfer. 
-
 \section{Methods}
 \label{sec:asym-methods}
 
-\subsection{Experimental Procedures}
+\subsection*{Experimental Procedures}
 \label{sec:asym-exper-proc}
 
-The graphene and MoS\textsubscript{2} nanosheets were mechanically exfoliated by Scotch tape. Highly oriented pyrolytic graphite (HOPG) (Momentive, US) and synthetic MoS\textsubscript{2} crystals (2D Semiconductors, US) were used as received. Si wafers with 90 and 270 nm thick thermal SiO\textsubscript{2} were used for graphene and MoS\textsubscript{2}, respectively. An Olympus optical microscopy (BX51) equipped with a DP71 camera was used to search atomically thin nanosheets, and a Cypher AFM (Asylum Research, US) was employed for topography measurements. The Raman spectra were collected by a Renishaw Raman microscope using 514.5 nm (for MoS\textsubscript{2}) and 633 nm (for graphene) lasers and an objective lens of 100× (a numerical aperture of 0.9). For the fabrication of the heterostructure, the identified MoS\textsubscript{2} nanosheets were firstly coated by thin layer of PMMA, then peeled off from the SiO\textsubscript{2}/Si via etching by NaOH, stacked on graphene on SiO\textsubscript{2}/Si under the optical microscope. The MoS\textsubscript{2}/graphene structure was transferred to Au (100 nm) coated SiO\textsubscript{2}/Si substrate following a similar procedure. The Au coating was produced by a Leica ACE600 sputter with a crystal balance monitoring the coating thickness in real time. The EFM measurements were conducted on the Cypher AFM. The EFM phase data were collected by a Pt/Ti coated cantilever with a spring constant of ~2 N/m (ElectricLever, Asylum Research, US) dwelling above the heterostructure at a sampling rate of 2 kHz, while a voltage sweeping linearly from +9 to −9 V was applied on the Au substrate over a period of 20 s.
+The graphene and MoS\textsubscript{2} nanosheets were mechanically
+exfoliated by Scotch tape. Highly oriented pyrolytic graphite (HOPG)
+(Momentive, US) and synthetic MoS\textsubscript{2} crystals (2D
+Semiconductors, US) were used as received. Si wafers with 90 and 270
+nm thick thermal SiO\textsubscript{2} were used for graphene and
+MoS\textsubscript{2}, respectively. An Olympus optical microscopy
+(BX51) equipped with a DP71 camera was used to search atomically thin
+nanosheets, and a Cypher AFM (Asylum Research, US) was employed for
+topography measurements. The Raman spectra were collected by a
+Renishaw Raman microscope using 514.5 nm (for MoS\textsubscript{2})
+and 633 nm (for graphene) lasers and an objective lens of 100× (a
+numerical aperture of 0.9). For the fabrication of the
+heterostructure, the identified MoS\textsubscript{2} nanosheets were
+firstly coated by thin layer of PMMA, then peeled off from the
+SiO\textsubscript{2}/Si via etching by NaOH, stacked on graphene on
+SiO\textsubscript{2}/Si under the optical microscope. The
+MoS\textsubscript{2}/graphene structure was transferred to Au (100 nm)
+coated SiO\textsubscript{2}/Si substrate following a similar
+procedure. The Au coating was produced by a Leica ACE600 sputter with
+a crystal balance monitoring the coating thickness in real time. The
+EFM measurements were conducted on the Cypher AFM. The EFM phase data
+were collected by a Pt/Ti coated cantilever with a spring constant of
+~2 N/m (ElectricLever, Asylum Research, US) dwelling above the
+heterostructure at a sampling rate of 2 kHz, while a voltage sweeping
+linearly from +9 to −9 V was applied on the Au substrate over a period
+of 20 s.
 
-\subsection{	Ab initio simulations}
+\subsection*{\textit{Ab initio} Simulations}
 \label{sec:ab-init-simul}
-\worktodo{change afterwards}
-Ab initio quantum calculations
-Calculations were based on ab initio density functional theory using the SIESTA41 and the VASP codes.42,43 Projected augmented wave method (PAW)44,45 for the latter, and norm-conserving (NC) Troullier-Martins pseudopotentials46 for the former, have been used in the description of the bonding environment for Mo, S and C. The shape of the numerical atomic orbitals (NAOs) was automatically determined by the algorithms described in41. The generalized gradient approximation47 along with the DRSLL48 functional was used in both methods, together with a double-zeta polarized basis set in Siesta, and a well-converged plane-wave cutoff of 500 eV in VASP. The cutoff radii of the different orbitals in SIESTA were obtained using an energy shift of 50 meV, which proved to be sufficiently accurate to describe the geometries and the energetics. Atoms were allowed to relax under the conjugate-gradient algorithm until the forces acting on the atoms were less than 1x10-8 eV/Å. The self-consistent field (SCF) convergence was also set to 1.0x10-8 eV. To model the system studied in the experiments, we created large supercells containing up to 394 atoms to simulate the interface between different number of graphene and MoS\textsubscript{2} layers. We have optimized the supercell for the G/MoS\textsubscript{2} interface using a 55 graphene cell on a 44 MoS\textsubscript{2} cell, where the mismatch between different lattice constants is smaller than ~2.0% (i.e. the systems are commensurate). We have kept the lattice constant of the MoS\textsubscript{2} at equilibrium, and stretched the one for graphene by that amount. Negligible variations of the graphene electronic properties are observed with the preservation of the Dirac cone for all systems. To avoid any interactions between supercells in the non-periodic direction, a 20 Å vacuum space was used in all calculations. In addition to this, a cutoff energy of 120 Ry was used to resolve the real-space grid used to calculate the Hartree and exchange correlation contribution to the total energy in SIESTA. The Brillouin zone was sampled with a 9×9×1 grid under the Monkhorst-Pack scheme49 to perform relaxations with and without van der Waals interactions. Energetics and electronic band structure were calculated using a converged 44×44×1 k-sampling for the unit cell of Graphene/MoS\textsubscript{2}. In addition to this we used a Fermi-Dirac distribution with an electronic temperature of kBT = 20 meV to resolve the electronic structure. 
-The electric field   across the vdW heterostructures is simulated using a spatially periodic sawtooh-like potential   perpendicular to the G/MoS\textsubscript{2} heterostructures. Such potential is convenient to analyze the response of finite systems (e.g. slabs) to electric fields22,50-52, while problematic for extended systems (e.g. bulk).  The magnitudes of the spatially varying electrostatic potential and charge density   across the supercell are determined via a convolution with a filter function to eliminate undesired oscillations and conserve the main features important in the analysis. The variations of both quantities,  and  are determined relative to zero field. The polarization   is calculated by the integration of   through  .   is defined through   where   , with   the thickness of the vdW heterostructure, and    the height of the supercell~\cite{Santos_2013_ACSnano_kaxi,Santos_2013_tunable_eps_gr}.
+Ab initio quantum calculations Calculations were based on ab initio
+density functional theory using the
+\texttt{SIESTA}\cite{Soler_02_siesta} and the \texttt{VASP}
+codes~\cite{Kresse_1996_1,Kresse_1996_2}.  Projected augmented wave
+method (PAW)~\cite{Blochl_1994_PW} for the latter, and norm-conserving
+(NC) Troullier-Martins pseudo\-potentials~\cite{troullier91} for the
+former, have been used in the description of the bonding environment
+for Mo, S and C. The shape of the numerical atomic orbitals (NAOs) was
+automatically determined by the algorithms described in
+Ref. \smartcite{Soler_02_siesta}. The generalized gradient
+approximation\cite{Perdew_1996_GGA} along with the DRSLL
+functional\cite{Dion_2004_vdw} was used in both methods, together with
+a double-zeta polarized basis set in Siesta, and a well-converged
+plane-wave cutoff of 500 eV in VASP. The cutoff radii of the different
+orbitals in SIESTA were obtained using an energy shift of 50 meV,
+which proved to be sufficiently accurate to describe the geometries
+and the energetics. Atoms were allowed to relax under the
+conjugate-gradient algorithm until the forces acting on the atoms were
+less than 1x10$^{-8}$ eV·Å$^{-1}$.  To model the system studied in the
+experiments, we created large supercells containing up to 394 atoms to
+simulate the interface between different number of graphene and
+MoS\textsubscript{2} layers. We have optimized the supercell for the
+G/MoS\textsubscript{2} interface using a 5$\times{}$5 graphene cell on
+a 4$\times{}$4 MoS\textsubscript{2} cell, where the mismatch between
+different lattice constants is smaller than ~2.0\% (i.e. the systems
+are commensurate). We have kept the lattice constant of the
+MoS\textsubscript{2} at equilibrium, and stretched the one for
+graphene by that amount. Negligible variations of the graphene
+electronic properties are observed with the preservation of the Dirac
+cone for all systems. To avoid any interactions between supercells in
+the non-periodic direction, a 20 Å vacuum space was used in all
+calculations. In addition to this, a cutoff energy of 120 Ry was used
+to resolve the real-space grid used to calculate the Hartree and
+exchange correlation contribution to the total energy in SIESTA. The
+Brillouin zone was sampled with a 9×9×1 grid to perform relaxations
+with and without van der Waals interactions. Energetics and electronic
+band structure were calculated using a converged 44×44×1 k-sampling
+for the unit cell of Graphene/MoS\textsubscript{2}. In addition to
+this, a Fermi-Dirac distribution with an electronic temperature
+of 20 meV was used to resolve the electronic structure.  The electric
+field across the vdW heterostructures is simulated using a spatially
+periodic sawtooh-like potential perpendicular to the
+G/MoS\textsubscript{2} heterostructures. Such potential is convenient
+to analyze the response of finite systems (e.g. slabs) to electric
+fields\smartcite{Santos_2013_tunable_eps_gr,Santos_2013_ACSnano_kaxi}.
+%
+The magnitudes of the spatially varying electrostatic potential and
+charge density across the supercell are determined via a convolution
+with a filter function to eliminate undesired oscillations and
+conserve the main features important in the analysis.
 
-\worktodo{merge the classical method to previous sections}
-ClassicalMean-field Model
-In the classicalmean-field model, the graphene and MoS\textsubscript{2} layers are treated as individual layers, with the the band structures (band gap, DOS and intrinsic work functions) considered as invariable to external electric field (i.e. the effect interlayer coupling on band structure is neglected). We further consider that the interlayer distance  between the i-1 and i-th layers is fixed, and taken as the interlayer distance in DFT calculations under zero field. The interlayer dielectric constant  between the i-1 and i-th layer is considered as uniform. For simplicity, we consider that  is independent of the external field, while the current model can be easily adapted for field-dependent dielectric constant in multilayer 2D materials using ab initio calculation results. We consider the interlayer electric field   to be uniform. The charge density   and work function   of each layer can thus be solved through the following conservation equations in a self-consistent way:
-	The charge neutrality of the vdWH:
-	Charge balance of the i-th layer by Gauss law:
-	 as a function of the work function  of i-th layer:
-Where   is the Fermi-Dirac distribution function, and   is the intrinsic work function of the i-th layer. 
-	The potential drop between 2 adjacent layers:
+\subsection*{Parameters of MQCM Approach}
+\label{sec:param-mqcm-appr}
+We simplify the quantum capacitance of graphene using a linear model:
+$C_{\mathrm{G}, i} = 26.1$
+μF·cm$^{-2}$·V$^{-1}\cdotΔ\phi_{\mathrm{G}, i}$, while the quantum
+capacitance of MoS2 is a step function, such that no density of states
+exist within the band gap, while $C_{\mathrm{MoS2}}^{\mathrm{n}} = 48$
+μF$\cdot$cm$^{-2}$ and $C_{\mathrm{MoS2}}^{\mathrm{n}} = 180$
+μF·cm$^{-2}$ for VB and CB,
+respectively~\cite{Lu_2014_midgap_mos2}. The intrinsic work function
+of graphene and MoS$_{2}$ are set at
+4.6~\cite{Das_Sarma_2011_electron_gr} and 4.5 V~\cite{Mak_2010_mos2},
+respectively. The energy levels of CB and VB of MoS$_{2}$ are taken as
+−4.0 and −5.8 eV, respectively.
 
-Note that for individual layers,   . We simplify the quantum capacitance of graphene using a linear model:  , while the quantum capacitance of MoS\textsubscript{2} is a step function where no density of states exist within the band gap, while  and   for VB and CB, respectively. The intrinsic work function of graphene and MoS\textsubscript{2} are set at 4.6 V and 4.5 V, respectively. The energy levels of CB and VB of MoS\textsubscript{2} are taken as -4.0 eV and -5.8 eV, respectively.
 
-\section{Methods}
-\label{sec:asym-methods}
+
+
 
 \section{Author Contributions}
 \label{sec:asym-author-contributions}
 
+This project is a joint collaboration with the groups of Dr. Lu Hua Li
+of Deakin University, Australia (experiment) and Dr. Elton
+J. G. Santos in Queen's University of Belfast, UK. E.J.G.S. and
+L.H.L. designed the research. L.H.L. fabricated the samples, perform
+characterization, and EFM measurements. Q.C. performed Raman
+characterization. T.T. and C.J.S. developed the capacitor
+model. E.J.G.S. developed the first-principles calculations and
+performed analysis.  All authors contributed to the discussions.
 
 
 
