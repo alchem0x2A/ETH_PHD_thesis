@@ -200,7 +200,7 @@ Considering the limit that the Debye length (see
 $\lambda_D\approx\sqrt{\dfrac{\varepsilon_{0} \varepsilon\subs{S}
 k\subs{B} T}{e^2 N\subs{D}}}$ (where $N\subs{D}$ is the dopant
 density) is much smaller than $d_{\mathrm{S}}$, the boundary
-conditions $\psi(0)=\psi_0$, $\psi(\infty)=0$ and $\psi'(\infty)=0$
+conditions $\psi(x=0)=\psi_0$, $\psi(\infty)=0$ and $\psi'(\infty)=0$
 are used for \autoref{eqn:qc-2nd-poisson}, where $\psi_0$ is the
 electric potential at the SG interface.
 %
@@ -345,7 +345,7 @@ carrier occurs, with a $\Delta E_{\mathrm {F,G}}$ up to $\pm$0.2 eV.
     comparison.  (d) The calculated contour map of $\psi_0$ as a
     function of $\sigma\subs{M}$ and $n_0$. The accumulation (Ac),
     depletion (Dp), weak inversion (WI), and strong inversion (SI)
-    regimes are defined accordingly.  }
+    regimes are labeled accordingly.  }
   \label{fig:qc-fermi-level-change}
 \end{figure}
 
@@ -477,7 +477,7 @@ semiconductor candidate in the MOGS QCs
   ,Regan_2012_ScreeningEngineered_PV}.
 
 
-\subsection{The Field-Effect Transparency $\eta^{\mathrm{FE}}$}
+\subsection{The Field-Effect Transparency}
 \label{sec:qc-field-effect-transp}
 
 Based on the above analysis, we propose and derive an expression for
@@ -519,12 +519,12 @@ can be decomposed using the chain rule as:
 where $\rho_0$ is the charge density at the SG
 interface.
 
-Accordingly, the contour map of $\eta^{\mathrm{FE}}$ as a function of
+Accordingly, the contour plot of $\eta^{\mathrm{FE}}$ as a function of
 $\sigma\subs{M}$ and $n_0$ is shown in
 \autoref{fig:qc-transparency-MOGS}.
 \begin{figure}[!htbp] %
     \centering{}
-  \import{\imgdir}{eta-fe.pdf_tex}
+  \scalebox{0.85}{\import{\imgdir}{eta-fe.pdf_tex}}
   \caption{Calculated transparency of graphene 2DEG to electric
     displacement field in a MOGS QC, as functions of $\sigma\subs{M}$
     and $n_0$. }
@@ -628,8 +628,8 @@ additional term $\dfrac{C\subs{Q}}{C\subs{I}}$ compared with the ideal semicondu
 In practice, although the interface states are difficult to be removed
 completely,
 %
-their influence can be minimized by creating a clean
-case of 2D vdW heterostructures~\cite{Withers_2015_LED_vde_Het}.
+their influence can be minimized by creating a clean surface in vdW
+heterostructures~\cite{Withers_2015_LED_vde_Het}.
 %
 Thereafter we still use the expression of
 \autoref{eqn:qc-eta_expanded} to simplify the following analysis in
@@ -659,13 +659,13 @@ and \textbf{b}. Si(111), $\sigma\subs{S}$, as a function of $\sigma\subs{M}$
 in different systems: intrinsic (blue), p-type (green) and n-type
 (red) Si are plotted respectively.
 %
-The inset shows the same plot with smaller degree of metal charge $\sigma_{\mathrm{M}}$.
+The insets show the same data with smaller degree of metal charge $\sigma_{\mathrm{M}}$.
 %
 \textbf{c}. 3D
 visualizations of the induced charge density contour in graphene and intrinsic
-Si layers (cutoff at $\pm 0.0021$ $e\cdot$Bohr$^{-3}$) when 
-$\sigma\subs{M}=-0.98\times10^{13}$ cm$\sups{-2}$ (top) and 
-$\sigma\subs{M}=0.98\times10^{13}$ cm$\sups{-2}$ (bottom).  Blue and red
+Si layers (cutoff at $\pm 2.1\times{}10^{-3}\ e\cdot$Bohr$^{-3}$) when 
+$\sigma\subs{M}=-0.98\times10^{13}\ e\cdot$cm$\sups{-2}$ (top) and 
+$\sigma\subs{M}=0.98\times10^{13}\ e\cdot$cm$\sups{-2}$ (bottom).  Blue and red
 isosurfaces represent positive and negative charges, respectively.
 %\protect \todo[inline]{Is the description for doping density right?}
   \label{fig:qc-first-principle}
@@ -679,7 +679,7 @@ gating.
 %
 We find that, irrespective of the doping levels considered, both
 $\sigma\subs{G}$ and $\sigma\subs{S}$ monotonically decrease as
-$\sigma\subs{M}$ increases ( \autoref{fig:qc-first principle}\lc{a}
+$\sigma\subs{M}$ increases (\autoref{fig:qc-first principle}\lc{a}
 and \lc{b}).
 %
 Similar to \autoref{fig:qc-fermi-level-change}\lc{b}, the amount of
@@ -765,7 +765,7 @@ Since the quantum capacitance is related with the DOS of 2D material by
 $C\subs{Q}\mathrm{DOS}(E) e^2$ \cite{John_2004_QC},
 %
 we have calculated the DOS as a function of $E$ for a variety of 2D
-materials\cite{Xu2011Measurements, Jimenez2012drift, Nawaz2016quantum}
+materials\cite{Xu_2011_Measure_QC_model, ,Jimenez_2012_drift_model_MoS2, ,Nawaz_2016_QC_silicene}
 using the density functional theory (DFT) at the hybrid functional
 level.
 %
@@ -799,7 +799,7 @@ considered as a function of the electron or hole density are shown in
 respectively.
 
 As discussed in \autoref{sec:basic-electr-prop}, $C_{\mathrm{Q}}$ of a
-monolayer 2D semiconductor (\change{TMDs and phosphorene}) behaves
+monolayer 2D semiconductor () behaves
 like a step function,
 and only increases slightly with $\sigma\subs{2D}$, close to that for
 an ideal 2D semiconductor with parabolic $E-k$ dispersion \cite{Davies_1997_book}.
@@ -981,9 +981,9 @@ $C_{\mathrm{S}}$.
 By calculating the quantum capacitance for a
 variety of 2D materials using hybrid functionals, we predict the
 ranking for a variety of 2D compounds according to their transparency
-to an electric displacement field as follows: \change{ graphene >
+to an electric displacement field as follows:  graphene >
   silicene > germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$
-  > MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$, }
+  > MoS$\subs{2}$ > phosphorene > MoSe$\subs{2}$ > MoTe$\subs{2}$,
 when the majority carrier is electron.  Finally, the effect of the
 voltage applied between the semiconductor and graphene terminals
 $V\subs{b}$ is discussed.  Because a significant increase of the
