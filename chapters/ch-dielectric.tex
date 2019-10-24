@@ -37,13 +37,12 @@ conductivity\cite{Dressel_2001_electrodynamics} with elemental
 interactions.  The central place of $\varepsilon$ in solid-state
 physics drives the analysis of several phenomena where is common to
 classify a material accordingly to its ability to screen an electric
-field $\mathscr{E}$ in terms of insulators, metals and
-semiconductors. Such definitions determine a broad range of condensed
+field $\mathscr{E}$. Such definitions determine a broad range of condensed
 matter physics, as well as in related fields in chemistry and
 materials science.  The ability to compute and measure $\varepsilon$
 in bulk materials is well established via different theoretical
 \cite{Adler_1962_eps,Hybertsen_1987} and experimental techniques
-\cite{Palik_1998_handbook} of distinct flavors
+\cite{Palik_1998_handbook} of distinct flavors.
 %
 Despite its obvious appeal, however, it is still unknown whether such quantity can determine the 
 % electronic and
@@ -54,17 +53,17 @@ with the attenuated and anisotropic character of the dielectric
 screening
 \cite{Keldysh_1979_eps_multi,Sharma_1985_semiconductor_slab_eps,Low_2014_screening_BP,Cudazzo_2011_screening_2D,Bechstedt_2012_silicene,Cudazzo_2010_screen2D,Nazarov_2015_2D_3D}
 have generated long-standing debates whether the dielectric constant
-truly represents dielectric features of such low-dimensional systems,
+truly represents dielectric features of such low-dimensional systems.
 % or it can be used only as an
 % additional parameter from the bulk-counterparts.
 The controversy of $\varepsilon$ values reported by both theoretical
 and experimental approaches can be widely seen throughput
-literature\cite{Li_2016_screening_rev}, where the variation of
-$\varepsilon$ can be more than one order of magnitude.
+literature\cite{Li_2016_screening_rev}, where the variation can be
+more than one order of magnitude.
 % \worktodo{make a copy of Li's paper}
 %
 As a
-consequence, several key physical parameters that scales with
+consequence, several key physical parameters that scale with
 $\varepsilon$, such as the exciton binding energy and Debye screening
 length, cannot be reliably estimated due to the discrepancy of
 reported $\varepsilon$ values. In this letter, we give a thorough
@@ -225,7 +224,7 @@ dependency also exists for dielectric function in the frequency
   $\alpha_{\mathrm{2D}}$ remains invariant of $L$ (\textbf{b} and
   \textbf{d})}
 \end{figure}
-
+%
 As seen in \autoref{fig:diel-freq}, the magnitude of dielectric
 functions calculated universally decreases with $L$ over the frequency
 domain.  These results indicate that quantities that depend on
@@ -239,7 +238,7 @@ $-1 / \mathrm{Im}(\varepsilon_{\mathrm{SL}}(\omega))$), suffers the
 same deficiencies as $\varepsilon_{\mathrm{SL}}$ for 2D
 materials. This simple model system explains the origin of the
 discrepancy of dielectric constant values reported in previous
-literature~\cite{Li_2016}.
+literature~\cite{Li_2016_screening_rev}.
 %
 %%%
 %
@@ -433,20 +432,18 @@ out-of-plane data, respectively, are shown in
   \centering
   \caption{Fitted thickness parameter $\delta_{\mathrm{2D}}^{*}$ from
     the EDM approach compared with experimental interlayer distance
-    $L_{\mathrm{Bulk}}$, the covalent thickness of 2D material
-    $\delta_{\mathrm{2D}}^{\mathrm{cov}}$ and the 2D polarizability
-    $\alpha_{\mathrm{2D}}^{\perp}$}
+    $L_{\mathrm{Bulk}}$}
   \label{tab:diel-fitting}
   \begin{tabular}[htbp]{lccccc}
   \hline{}
-  Material & $\delta_{\mathrm{2D}}^{\parallel, \mathrm{fit}}$ (\AA) & $\delta_{\mathrm{2D}}^{\perp, \mathrm{fit}}$ ({\AA})& $L_{\mathrm{Bulk}}$ ({\AA}) & $\delta_{\mathrm{2D}}^{\mathrm{cov}}$ ({\AA}) & $\alpha_{\mathrm{2D}}^{\perp}/\varepsilon_{0}$ ({\AA})\\
+  Material & $\delta_{\mathrm{2D}}^{\parallel, \mathrm{fit}}$ (\AA) & $\delta_{\mathrm{2D}}^{\perp, \mathrm{fit}}$ ({\AA})& $L_{\mathrm{Bulk}}$ ({\AA}) \\
   \hline{}
-  2H-MoS$_{2}$ & 5.76 & 5.49 & 6.15 & 5.22 & 4.98\\
-  2H-MoSe$_{2}$ & 5.98 & 5.92 & 6.46 &  5.73 & 5.60\\
-  2H-MoTe$_{2}$ & 6.43 & 6.85 & 6.98 & 6.37 & 6.12\\
-  2H-WS$_{2}$ & 5.63 & 5.49 & 6.15 & 5.20 & 5.00\\
-  2H-WSe$_{2}$ & 5.84 & 5.92 & 6.49 & 5.75 & 5.42\\
-  2H-WTe$_{2}$ & 6.32 & 6.58 & 7.06 & 6.38 & 6.33\\
+  2H-MoS$_{2}$ & 5.76 & 5.49 & 6.15 \\
+  2H-MoSe$_{2}$ & 5.98 & 5.92 & 6.46\\
+  2H-MoTe$_{2}$ & 6.43 & 6.85 & 6.98 \\
+  2H-WS$_{2}$ & 5.63 & 5.49 & 6.15 \\
+  2H-WSe$_{2}$ & 5.84 & 5.92 & 6.49 \\
+  2H-WTe$_{2}$ & 6.32 & 6.58 & 7.06 \\
   \hline{}
   \end{tabular}
 \end{table}
@@ -532,7 +529,7 @@ geometric information of a 2D material:
 where $E_{\mathrm{g}}$ is the fundamental electronic bandgap and
 $\hat{\delta}_{\mathrm{2D}}$ is the intrinsic thickness of the 2D
 layer, with coefficients
-$C^{\parallel} = {\displaystyle \frac{2 \pi}{Ne^2}}$
+$C^{\parallel} = \dfrac{Ne^2}{2 \pi}$
 \cite{Jiang_2017_Eg_Eb}, where $N$ is a pre-factor associated with the
 band degeneracy, and $C^{\perp} = {\varepsilon_{0}}^{-1}$. It is worth
 noting, unlike the parameter $\delta^{*}_{\mathrm{2D}}$ that is
@@ -603,21 +600,22 @@ descending trend when $E_{\mathrm{g}}$ increases, while no apparent
 correlation between $\alpha_{\mathrm{2D}}^{\perp}$ and
 $E_{\mathrm{g}}$ is observed.
 %
-We then examine
-\autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp}
-using the polarizabilities by first-principle calculations.
-\autoref{fig:diel-universal}\lc{b} shows
-$(4 \pi \varepsilon_{0})/\alpha_{\mathrm{2D}}^{\parallel}$ (in
+We then examine \autoref{eq:diele-2D-Moss-para} and
+\autoref{eq:diele-2D-Moss-perp} using the polarizabilities by
+first-principle calculations.  \autoref{fig:diel-universal}\lc{b}
+shows $(4 \pi \varepsilon_{0})/\alpha_{\mathrm{2D}}^{\parallel}$ (in
 \AA{}$^{-1}$) as a function of $E_{\mathrm{g}}$ (in eV) for the 2D
-materials investigated (circle dots) at HSE06 level.  A linear
+materials investigated (circle dots) at HSE06 hybrid
+functional~\cite{Heyd_2003_HSe,HSE_2006_erratum} level.  A linear
 regression coefficient of $R^{2}=0.84$ indicates a strong correlation
 between bandgaps and polarizabilities as predicted in
-\autoref{eq:diele-2D-Moss-para}.
-We also discover that the linearity
+\autoref{eq:diele-2D-Moss-para}.  We also discover that the linearity
 between $(4 \pi \varepsilon_{0})/\alpha_{\mathrm{2D}}^{\parallel}$ and
 $E_{\mathrm{g}}$ (measured by the $R^{2}$ value) is higher when the
 bandgap is calculated using the HSE06 hybrid functional compared with
-that from PBE exchange-correlation functional, due to the better description of bans structure in the hybrid functional framework~\cite{Heyd_2005_HSE_GAP}.
+that from PBE exchange-correlation functional, due to the better
+description of bans structure in the hybrid functional
+framework~\cite{Heyd_2005_HSE_GAP}.
 
 
 
@@ -626,7 +624,7 @@ i.e., the relation between $\alpha_{\mathrm{2D}}^{\perp}$ and the
 thickness of a 2D material. To test if the quantity
 $\hat{\delta}_{\mathrm{2D}}$ is physical, we choose the ``covalent''
 thickness $\delta_{\mathrm{2D}}^{\mathrm{cov}}$ of a 2D material as a
-comparison. $\delta_{\mathrm{2D}}^{\mathrm{cov}}$ is defined as the
+comparison, which is defined as the
 longest distance along the \textit{z}-direction between any two atom
 nuclei plus their covalent radii:
 %
@@ -651,13 +649,13 @@ electron cloud of an isolated molecule \cite{Israelachvili_2011_book},
 $\alpha_{\mathrm{2D}}^{\perp}/\varepsilon_{0}$ is also naturally
 related to the characteristic thickness of the electron cloud of 2D
 material. A simple explanation for this behavior can be made from
-fundamental electrostatics. Consider the smallest repeating unit of the 2D
-material with xy-plane area $A$, under small perturbation field $E$
-along the z-direction.  Note that the surface bound charge
+fundamental electrostatics. Consider the smallest repeating unit of
+the 2D material with xy-plane area $A$, under small perturbation field
+$E$ along the z-direction.  Note that the surface bound charge
 $\sigma_{\mathrm{b}}=n e /A$, where $n$ is the number of unit charges
 contributes to the bound charges, comes only from the dipoles of the
-outer-most atoms, since the induced charges from inner atoms are
-cancel out (see Figure \ref{fig:classic-model}).
+outer-most atoms, since the induced charges from inner atoms cancel
+out (see Figure \ref{fig:classic-model}).
 \begin{figure}[htbp]
   \centering
   \import{\imgdir}{view-classic.pdf_tex}
@@ -666,30 +664,29 @@ cancel out (see Figure \ref{fig:classic-model}).
     example. Left: induced dipoles from individual atoms along the
     z-direction. The positive and negative induced charges from inner
     atoms cancel out. Right: simplified model for the thickness
-    dependency of $\alpha_{\mathrm{2D}}^{\perp}$, where the surface dipole density
-    $\boldsymbol{\mu}$ comes only from the outer-most atoms.}
+    dependency of $\alpha_{\mathrm{2D}}^{\perp}$, where the surface dipole density $\symbf{\mu}_{\mathrm{2D}}$ comes only from the outer-most atoms.}
   \label{fig:classic-model}
 \end{figure}
 From the definition of
 $\alpha_{\mathrm{2D}}^{\perp}$, we have:
 \begin{equation}
   \label{eq:alpha-classic}
-  \alpha_{\mathrm{2D}}^{\perp} = \frac{\boldsymbol{u}_{z}}{\mathcal{E}_{\mathrm{loc}} A}
+  \alpha_{\mathrm{2D}}^{\perp} = \frac{\symbf{u}_{z}}{\mathcal{E}_{\mathrm{loc}} A}
   = \frac{(d_{\mathrm{max}} + r_{\mathrm{cov}}^{i} + r_{\mathrm{cov}}^{j}) \sigma_{\mathrm{b}}}{\mathscr{E}}
 \end{equation}
 where $r_{\mathrm{cov}}^{i}$ and $r_{\mathrm{cov}}^{j}$ are the
-covalent radii of the outer-most atoms, the characteristic length of
-the dipole extension in z-direction, respectively, and $d_{\mathrm{max}}$ is the
-z-distance between the nuclei of such atoms.  The field $E$
+covalent radii of the outer-most atoms on top and bottom surfaces of
+the 2D material, respectively, and $d_{\mathrm{max}}$ is the
+\textit{z}-distance between the nuclei of such atoms.  The field $\mathcal{E}$
 counterbalances the field from the surface bound charges and equals
-$E = \sigma_{\mathrm{b}}/\varepsilon_{0}$. Therefore we have:
+$\mathcal{E} = \sigma_{\mathrm{b}}/\varepsilon_{0}$. Therefore we have:
 \begin{equation}
   \label{eq:alpha-classic-2}
   \alpha_{\mathrm{2D}}^{\perp} = (d_{\mathrm{max}} + r_{\mathrm{cov}}^{i} + r_{\mathrm{cov}}^{j})\varepsilon_{0}
                 = \delta_{\mathrm{2D}}^{\mathrm{cov}} \varepsilon_{0}
 \end{equation}
 which explains the linear relation seen in
-\ref{fig:diel-universal}\lc{c}. We can see that such simple model
+\autoref{fig:diel-universal}\lc{c}. We can see that such simple model
 nicely captures the thickness feature of
 $\alpha_{\mathrm{2D}}^{\perp}$. Nevertheless, a quantum-mechanical
 approach is still to verify such relations in a more rigorous manner.
@@ -704,15 +701,14 @@ $\alpha_{\mathrm{2D}}^{\perp}$
 \cite{Antoine_1999_polariz_C60,Cherniavskaya_2003_nanocryst_polariz,Krauss_1999_EFM}.
 % 
 %
-
 To rule out the possibility that our conclusion are limited by the
-number of materials used at HSE06 level, we further validate
-\autoref{eq:diele-2D-Moss-para} and \autoref{eq:diele-2D-Moss-perp}
-using two different 2D material databases
-\cite{Haastrup_2018_database,Mounet_2018_database}, from which we
-extracted the dielectric properties of over 300 compounds calculated
-at the PBE level, and superimpose with our results in
-\autoref{fig:diel-universal}\lc{b} and
+number of materials due to the high computation expenses, we further
+validate \autoref{eq:diele-2D-Moss-para} and
+\autoref{eq:diele-2D-Moss-perp} using two different 2D material
+databases \cite{Haastrup_2018_database,Mounet_2018_database}, from
+which we extracted the dielectric properties of over 300 compounds
+calculated at the PBE functional~\cite{Perdew_1996_GGA} level, and
+superimpose with our results in \autoref{fig:diel-universal}\lc{b} and
 \autoref{fig:diel-universal}\lc{c}. Although the calculated dielectric
 properties may be different due to choice of functionals as well as
 underestimation of the bandgap compared with the more accurate HSE06
@@ -779,7 +775,7 @@ $\alpha_{\mathrm{Bulk}}$. Inspired by  \autoref{eq:diele-alpha-para-def} and
 $\varepsilon^{\parallel}_{\mathrm{Bulk}}$ and
 $\varepsilon^{\perp}_{\mathrm{Bulk}}$ of the bulk layered material can
 be reconstructed by $\alpha_{\mathrm{Bulk}}^{\parallel}$ and
-$\alpha_{\mathrm{Bulk}}^{\perp}$ ( \autoref{fig-4}{\textbf a}) as:
+$\alpha_{\mathrm{Bulk}}^{\perp}$  as:
 %
 %
 \begin{subequations}
@@ -810,9 +806,9 @@ together.
 \end{figure}
 %
 We compare the values of
-$\varepsilon_{\mathrm{bulk}}^{\parallel}$ and
-$\varepsilon_{\mathrm{bulk}}^{\perp}$ from DFT calculations (\textit{y}-axis)
-with those predicted using Eqs \autoref{eq:diele-3D-para} and \autoref{eq:diele-3D-perp}
+$\varepsilon_{\mathrm{Bulk}}^{\parallel}$ and
+$\varepsilon_{\mathrm{Bulk}}^{\perp}$ from DFT calculations (\textit{y}-axis)
+with those predicted using \autoref{eq:diele-3D-para} and \autoref{eq:diele-3D-perp}
 (\textit{x}-axis) as shown in  \autoref{fig:diel-2D-3D}\lc{a} and \autoref{fig:diel-2D-3D}\lc{b}. 
 Both HSE06 and PBE datasets give almost identical results.  
 %
@@ -888,15 +884,14 @@ of group 6 2H TMDCs (~\autoref{fig-ellip}\lc{b} and
     larger at in-plane direction than out-of-plane direction.}
 \end{figure}
 
-The polarizability ellipsoid picture
-provides further insights into the physical nature of
-$\alpha_{\mathrm{2D}}$: $r_{0}^{\parallel}$ is close to the exciton
-radius that confined within the 2D plane~\cite{Pulci_2014_exciton}, which is
-generally larger for a smaller bandgap semiconductor, and can be
-converted through the exciton binding energy as proposed in
-Refs. \cite{Olsen_2016_hydrogen,Jiang_2017_Eg_Eb}
- \autoref{eq:diele-2D-Moss-para}. On the other hand, $r_{0}^{\perp}$ may be
-indirectly deduced from Stark effect
+The polarizability ellipsoid picture provides further insights into
+the physical nature of $\alpha_{\mathrm{2D}}$: $r_{0}^{\parallel}$ is
+close to the exciton radius that confined within the 2D
+plane~\cite{Pulci_2014_exciton}, which is generally larger for a
+smaller bandgap semiconductor, and can be converted through the
+exciton binding energy as proposed in
+Refs. \cite{Olsen_2016_hydrogen,Jiang_2017_Eg_Eb}. On the other hand,
+$r_{0}^{\perp}$ may be indirectly deduced from Stark effect
 \cite{Pedersen_2016_shark_effect_TMDC,Klein_2016_stark_eff,Roch_2018_stark_eff}.
 % and the low-frequency Raman
 % scattering modes of 2D materials \cite{Tan_2012,Zhang_2013}.
