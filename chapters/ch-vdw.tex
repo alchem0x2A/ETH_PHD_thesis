@@ -3,10 +3,10 @@
 \label{ch:vdw}
 \renewcommand*\imgdir{img/vdw/}
 
-\dictum[Richard Feynman]{%
-  Nature isn't classical, and if you want to make a simulation
-  of nature, you'd better make it quantum mechanical, and by golly
-  it's a wonderful problem, because it doesn't look so easy.  }%
+% \dictum[Richard Feynman]{%
+  % Nature isn't classical, and if you want to make a simulation
+  % of nature, you'd better make it quantum mechanical, and by golly
+  % it's a wonderful problem, because it doesn't look so easy.  }%
 
 \vspace{1em}
 
@@ -27,8 +27,7 @@ Unlike trivial electrostatic (Coulombic) forces that depend on the
 charge state, the vdW interaction has a complex electro\-dynamic
 origin, which acts ubiquitously between all atoms and molecules~\cite{Israelachvili_2011_book,Hermann_2017_vdW_rev}.
 %
-As briefly discussed in \autoref{sec:inter-forc-at}, although being a
-relatively weak force, the vdW interaction can be dominating at
+As briefly discussed in \autoref{sec:inter-forc-at}, despite its weak nature, the vdW interaction can be dominating at
 molecule-2D interface due to the absence of dangling bonds.
 %
 The understanding and engineering of the vdW interactions at the 2D
@@ -52,7 +51,7 @@ Therefore, the vdW forces from an macroscopic substrate may
 on the 2D material interface~\cite{shih_2013_wetting_natmat}.
 %
 This feature
-brings potentially unprecedented surface properties by simply coating
+brings potentially unprecedented properties by simply coating
 an existing bulk surface with 2D
 material(s)~\cite{Prasai_2012_coating,rafiee_2012_transparency,Tsoi_2014_vdW_screening_2D}.
 %
@@ -66,8 +65,7 @@ bulk bodies (A and B) separated by distance $d$, $\Phi_{\mathrm{AB}}$, is:
   \label{eq:vdw-hamaker-res}
   \Phi_{\mathrm{AB}} = - \frac{A_{\mathrm{AB}}}{12 \pi d^{2}}
 \end{equation}
-where $A_{\mathrm{AB}}$ is known as the Hamaker constant of vdW
-interactions between materials A and B.
+where $A_{\mathrm{AB}}$ is known as the Hamaker constant between materials A and B.
 %
 A quantitative statement can be drawn from such simple model: by
 inserting a 2D material (\eg graphene with thickness $\sim{}$3.3
@@ -87,7 +85,7 @@ interactions can still penetrate through the 2D layer.
     two bulk bodies, the many-body vdW interaction energy
     $\Phi_{\mathrm{AmB}}$ is controlled by dielectric mismatch
     $\hat{\Delta}_{\mathrm{Am}}$, $\hat{\Delta}_{\mathrm{Bm}}$ and the
-    dielectric anisotropy factor $1/g_{\mathrm{m}}^{2}$.}
+    dielectric anisotropy factor $1/g_{\mathrm{m}}$.}
 \end{figure}
 %
 Several unprecedented phenomena concerning the interfacial vdW forces
@@ -129,7 +127,7 @@ while maintaining simplicity, is of high demand to shed light on the
 vdW interactions at 2D material interfaces.
 
 In this chapter, we present
-a general model (~\ref{fig:vdw-compare-classic}b) to study the many-body vdW transmission
+a general model (~\autoref{fig:vdw-compare-classic}b) to study the many-body vdW transmission
 through 2D materials, based on the modified Lifshitz-vdW theory
 \cite{Dzyaloshinskii_1961_lifshitz,parsegian_van_2010_book}.
 %
@@ -188,7 +186,7 @@ such that $\Phi_{\mathrm{AmB}} \approx \Phi_{\mathrm{vdW}}$.  Further
 neglecting the retardation effect~\cite{Dryden_2015_gecko} (due to
 limited speed of light, usually seen at distance $>$20
 nm~\cite{parsegian_van_2010_book}),
-$\Phi_{\mathrm{amB}}$ is total energy summed from all allowed EM modes
+$\Phi_{\mathrm{AmB}}$ is total energy summed from all allowed EM modes
 \cite{Li_2005_diele}:
 \begin{equation}
 \label{eq:vdw-EM-energy}
@@ -265,22 +263,21 @@ layer now writes:
 \varepsilon_{i}^{zz} \frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
 - (k_{x}^{2} \varepsilon_{i}^{xx} + k_{y}^{2} \varepsilon_{i}^{yy}) f_{i}(z) &= 0    \\
 \frac{\partial^{2} f_{i}(z)}{\partial z^{2}}
-- g_{i}^{2}(\vartheta) \kappa^{2} f_{i}(z) &= 0
+- g_{i}(\vartheta) \kappa^{2} f_{i}(z) &= 0
   \end{aligned}
 \end{equation}
 where $\kappa$ and $\vartheta$ are the polar coordinates of
 $\mathbf{k}$ such that
 \(\mathbf{k} = (\kappa \cos\mathcal{\vartheta}, \kappa\sin
 \mathcal{\vartheta})\), and
-\(g_{i}^{2} = {\displaystyle
-  [\frac{\varepsilon_{i}^{xx}}{\varepsilon_{i}^{zz}} \cos^{2}
+\(g_{i} = [\frac{\varepsilon_{i}^{xx}}{\varepsilon_{i}^{zz}} \cos^{2}
   \vartheta + \frac{\varepsilon_{i}^{yy}}{\varepsilon_{i}^{zz}}
-  \sin^{2} \vartheta]}\).
+  \sin^{2} \vartheta]\).
 %
-The factor \(g_{i}^{2}\) characterizes the dielectric anisotropy of
+The factor \(g_{i}\) characterizes the dielectric anisotropy of
 medium $i$ (see discussions in \autoref{sec:diel-unif-geom-repr}) and
 upscales the wavevector modulus \(\kappa\). Note for an isotropic
-medium, $g_{\mathrm{m}}^{2}\equiv1$.
+medium, $g_{\mathrm{m}}\equiv1$.
 
 % 
 Following the similar procedures in isotropic systems
@@ -294,13 +291,13 @@ written as:
 &=
 1 - 
 \underbrace{\left[
-\frac{\hat{\varepsilon}_{\mathrm{A}} - \varepsilon_{\mathrm{m}}^{zz} g_{m}(\vartheta) }{\hat{\varepsilon}_{\mathrm{A}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta)}
+\frac{\hat{\varepsilon}_{\mathrm{A}} - \varepsilon_{\mathrm{m}}^{zz} g_{m}^{1/2}(\vartheta) }{\hat{\varepsilon}_{\mathrm{A}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}^{1/2}(\vartheta)}
 \right]}_{\Delta_{\mathrm{Am}}}
 \underbrace{\left[
-\frac{\hat{\varepsilon}_{\mathrm{B}} - \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta) }{\hat{\varepsilon}_{\mathrm{B}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}(\vartheta)}
+\frac{\hat{\varepsilon}_{\mathrm{B}} - \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}^{1/2}(\vartheta) }{\hat{\varepsilon}_{\mathrm{B}} + \varepsilon_{\mathrm{m}}^{zz} g_{\mathrm{m}}^{1/2}(\vartheta)}
 \right]}_{\Delta_{\mathrm{Bm}}}
-e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d} \\
-&= 1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}(\vartheta) \kappa d}
+e^{-2 g_{\mathrm{m}}^{1/2}(\vartheta) \kappa d} \\
+&= 1 - \Delta_{\mathrm{Am}}(\vartheta) \Delta_{\mathrm{Bm}}(\vartheta) e^{-2 g_{\mathrm{m}}^{1/2}(\vartheta) \kappa d}
 \end{aligned}
 \end{equation}
 where
@@ -318,20 +315,20 @@ where
     \int_{0}^{2 \pi}} \mathrm{d}\vartheta {\displaystyle
     \int_{0}^{\infty}} \kappa \mathrm{d}\kappa \ln[1 -
   \Delta_{\mathrm{Am}}(i\xi_{n}, \vartheta)
-  \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}(i\xi_{n},\vartheta) \kappa d}] \\
+  \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-2 g_{\mathrm{m}}^{1/2}(i\xi_{n},\vartheta) \kappa d}] \\
   &= \dfrac{k_{\mathrm{B}} T}{16 \pi^{2} d^{2}}
   \sideset{}{'}\sum_{n=0}^{\infty} \int_{0}^{2 \pi}
-  \dfrac{1}{g^{2}_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
+  \dfrac{1}{g_{\mathrm{m}}(i\xi_{n},\vartheta)}\mathrm{d}\vartheta
   {\displaystyle \int_{0}^{\infty}} x \mathrm{d}x \ln[1 -
   \Delta_{\mathrm{Am}}(i\xi_{n},\vartheta)
   \Delta_{\mathrm{Bm}}(i\xi_{n},\vartheta) e^{-x}]
 \end{aligned}
 \end{equation}
 where the last step is obtained using an auxiliary variable \(x = 2
-g_{\mathrm{m}}(\mathcal{\theta}) \kappa d\).
+g_{\mathrm{m}}^{1/2}(\mathcal{\theta}) \kappa d\).
 
 Although seemingly complicated, the \autoref{eq:vdw-lifshitz-aniso-final} provides insights into the essence of the vdW interaction calculations.
-% If we assume $\varepsilon_{i}^{xx} = \varepsilon_{i}^{yy}$, the dependency of $g_{\mathrm{m}}^{2}$ on $\vartheta$ is removed.
+% If we assume $\varepsilon_{i}^{xx} = \varepsilon_{i}^{yy}$, the dependency of $g_{\mathrm{m}}$ on $\vartheta$ is removed.
 For each frequency $\xi_{n}$ and $\vartheta$, the interaction energy
 will be determined by the integral function $I(\Gamma, x)$ defined as:
 \begin{equation}
@@ -467,7 +464,7 @@ and $g_{\mathrm{m}}$ independent of $\vartheta$. As a result,
     \label{eq:vdw-Phi-aniso-main}
   \begin{aligned}[t]
     \Phi_{\mathrm{AmB}} &= \sideset{}{'} \sum_{n=0}^{\infty} G(i \xi_{n}) \\
-G(i \xi_{n}) &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})}
+G(i \xi_{n}) &= \frac{k_{\mathrm{B}} T}{8 \pi d^{2}} \frac{1}{g_{\mathrm{m}}(i \xi_{n})}
 \int_{0}^{\infty} x \ln\left[1 - \hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x \\
 \hat{\Delta}_{\mathrm{jm}}(i\xi) &= \frac{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) -
 \hat{\varepsilon}_{\mathrm{m}}(i\xi_{n})}{\hat{\varepsilon}_{\mathrm{j}}(i\xi_{n}) +
@@ -558,7 +555,7 @@ shown in \autoref{fig:vdw-eps-iv-all}a.
     $\hbar \xi_{\mathrm{tr}}^{\parallel}$ and
     $\hbar \xi_{\mathrm{tr}}^{\perp}$ as functions of bandgap
     $E_{\mathrm{g}}^{\mathrm{2D}}$. {\bfseries b} Frequency-dependent
-    $1/g_{\mathrm{m}}^{2}$ corresponding to {\bfseries a}. The curves
+    $1/g_{\mathrm{m}}$ corresponding to {\bfseries a}. The curves
     of Graphene (Gr), 2H-MoS$_{2}$ and hBN are highlighted. %
   }
 \end{figure}
@@ -599,22 +596,22 @@ almost independent of $E_{\mathrm{g}}^{\mathrm{2D}}$, as shown in the insets of 
 %
 Since the frequency-dependent $\varepsilon_{\mathrm{m}}^{\perp}$ varies
 much less than $\varepsilon_{\mathrm{m}}^{\parallel}$, the behavior of
-\(1/g_{\mathrm{m}}^{2}\) is dominated by
+\(1/g_{\mathrm{m}}\) is dominated by
 $\varepsilon_{\mathrm{m}}^{\parallel}$, as shown in
 \autoref{fig:vdw-eps-iv-all}b.
 %
-Considering the fact that $1/g_{\mathrm{m}}^{2}$ modulates the
+Considering the fact that $1/g_{\mathrm{m}}$ modulates the
 magnitudes of $\Phi_{\mathrm{AmB}}$ at each frequency (see
 \autoref{eq:vdw-lifshitz-aniso-final}), its behavior is analogous to a
 high-pass band filter, such that the vdW interactions are selectively screened at low
 frequencies, which arises from the dielectric anisotropy of 2D
 materials.
 %
-More interestingly, the minimum value of $1/g_{\mathrm{m}}^{2}$ always
+More interestingly, the minimum value of $1/g_{\mathrm{m}}$ always
 occurs at $\xi = 0$ due to its monotonic shape.
 %
 Following the analysis above, 
-$1/g_{\mathrm{m}}^{2}=\varepsilon_{\mathrm{m}}^{\perp} /
+$1/g_{\mathrm{m}}=\varepsilon_{\mathrm{m}}^{\perp} /
 \varepsilon_{\mathrm{m}}^{\parallel}$ is also dominated by $\xi_{\mathrm{tr}}^{\parallel}$, or equivalently,
 $E_{\mathrm{g}}^{\mathrm{2D}}$.
 %
@@ -632,7 +629,7 @@ schematically shown in \autoref{fig:vdw-scheme-aniso}.
     Generalized picture of dielectric functions of 2D
     materials. $\varepsilon_{\mathrm{m}}^{\parallel}$ is in general
     much larger than $\varepsilon_{\mathrm{m}}^{\perp}$, resulting in
-    the high-pass behavior of $1/g_{\mathrm{m}}^{2}$.  }
+    the high-pass behavior of $1/g_{\mathrm{m}}$.  }
 \end{figure}
 
 
@@ -737,7 +734,7 @@ polarizability of individual 2D materials are additive (see
 \label{sec:bandg-depend-vdw}
 
 From \autoref{eq:vdw-Phi-aniso-main}, unlike the factor
-\(1/g_{\mathrm{m}}^{2}\) that solely depends on the dielectric
+\(1/g_{\mathrm{m}}\) that solely depends on the dielectric
 anisotropy of 2D material, \(\hat{\Delta}_{\mathrm{Am}}\) and
 \(\hat{\Delta}_{\mathrm{Bm}}\) are jointly controlled by the
 dielectric properties of both bulk and 2D materials, providing more
@@ -952,7 +949,7 @@ through 2D materials, is the distance $d$.  From
 decreases with the distance \(d\) roughly by a power law of
 \(d^{-1}\). When \(d \to \infty\), we have
 \(\hat{\varepsilon}_{\mathrm{m}} \to 1\) and
-\(1/g_{\mathrm{m}}^{2} \to 1\) on the whole frequency range. In this
+\(1/g_{\mathrm{m}} \to 1\) on the whole frequency range. In this
 case, the many-body vdW interaction recovers its form when the medium
 is vacuum ($\Phi_{\mathrm{AB}}$).
 %
