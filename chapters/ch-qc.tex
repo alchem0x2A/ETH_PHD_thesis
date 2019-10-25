@@ -31,40 +31,40 @@ electrostatic field effect through a 2D material, as we pointed in
 %
 The field effect refers to the modulation of the space charge
 concentration in a semiconductor by applying an electric displacement
-field \cite{Sze_2006_Mosfets}.  Over the past few decades, it has been
+field \autocite{Sze_2006_Mosfets}.  Over the past few decades, it has been
 utilized to enable a wide range of electronics with
 metal-oxide-semiconductor (MOS) architecture, including the
 field-effect transistors (FETs) and the floating-gate memory devices
-\cite{Sze_2006_Mosfets}.
+\autocite{Sze_2006_Mosfets}.
 %
 On the other hand, the two-terminal active electronic components, such
 as diodes, which consist of semiconductor layers sandwiched between
 two metallic electrodes, fundamentally prohibit introduction of the
 field effect due to strong electric-field screening in metal
-\cite{Ehrenreich_2001_solidstate_phys}.
+\autocite{Ehrenreich_2001_solidstate_phys}.
 %
 A possible workaround to induce the field effect through an conducting
 electrode, is the concept of ``quantum capacitors
-(QCs)''~\cite{Luryi_1988_Quantum}.  In the original theoretical paper
+(QCs)''~\autocite{Luryi_1988_Quantum}.  In the original theoretical paper
 by Luryi, a two-dimensional electron gas (2DEG) is used as one
 terminal, allowing partial penetration of the field effect
-\cite{Luryi_1988_Quantum}.
+\autocite{Luryi_1988_Quantum}.
 %
 The 2DEG was subsequently realized in the 1980s--1990s by trapping
-electrons in a quantum well \cite{Davies_1997_book,Ihn_2009_book} or
+electrons in a quantum well \autocite{Davies_1997_book,Ihn_2009_book} or
 confining an inversion layer in a metal-oxide-semiconductor (MOS)
-capacitor\cite{Sze_2006_Mosfets}.
+capacitor\autocite{Sze_2006_Mosfets}.
 %
 However, despite great success in demonstration of concept, there are
 still several limitations: (i) the fabrication of 2DEGs typically
 involves cumbersome molecular beam epitaxy (MBE) of
-semiconductors~\cite{Chang_2012_MBE}, (ii) the fabrication of 2DEG in
+semiconductors~\autocite{Chang_2012_MBE}, (ii) the fabrication of 2DEG in
 semiconductor heterostructures is limited to a few semiconductor
 families due to the requirement of lattice matching (see
-\autoref{sec:intro-3D-2D},~\cite{Stormer_1979_2DEG}, and (iii) despite
+\autoref{sec:intro-3D-2D},~\autocite{Stormer_1979_2DEG}, and (iii) despite
 the confinement of the quantum well, the 2DEG still spreads over a
 distance of several nano\-meters, making it not strictly
-two-dimensional~\cite{Ihn_2009_book}.
+two-dimensional~\autocite{Ihn_2009_book}.
 %
 
 Recent development in 2D material systems as discussed in
@@ -73,19 +73,19 @@ in integrating them into different materials systems.
 %
 Due to the atomically thin feature of these materials, they have been
 considered as the ideal candidates of 2DEG
-\cite{Novoselov_2012_roadmap} to realize the QC devices on a large
+\autocite{Novoselov_2012_roadmap} to realize the QC devices on a large
 scale.
 %
 In the past years, the idea of using graphene 2DEG as one terminal to
 modulate the characteristics of the two-terminal electronic device via
 gating has been utilized in many graphene-based vertical electronics
 and vdW heterostructures
-\cite{Geim_2013_2D_vdw_Het,Novoselov_2016_vdW}, including vertical
-transistors / barristors \cite{Yang_2012_Barristor, Yu_2013_vertical,
+\autocite{Geim_2013_2D_vdw_Het,Novoselov_2016_vdW}, including vertical
+transistors / barristors \autocite{Yang_2012_Barristor, Yu_2013_vertical,
 georgiou2013vertical, Shih_2015_PartiallyScreened}, solar cells
-\cite{Yu_2013_gate_photocurrent, Britnell_2013_vdWE,
+\autocite{Yu_2013_gate_photocurrent, Britnell_2013_vdWE,
 Regan_2012_ScreeningEngineered_PV} and light emitting diodes
-\cite{Withers_2015_LED_vde_Het}.
+\autocite{Withers_2015_LED_vde_Het}.
 %
 Indeed, most of these devices can be categorized as QCs at some
 extension.
@@ -184,7 +184,7 @@ SG interface.
 %
 We assume that the electric potential in the semiconductor layer,
 $\psi(x)$, satisfies the Poisson-Boltzmann
-equation~\cite{Sze_2006_Mosfets}:
+equation~\autocite{Sze_2006_Mosfets}:
 \begin{equation}
     \label{eqn:qc-2nd-poisson} \frac{d^2 \psi(x)}{dx^2} =
 -\frac{e\rho(x)}{\varepsilon_{0}\varepsilon_{\mathrm{S}}} = -
@@ -219,18 +219,18 @@ n_0(\text{e}^{\beta\psi_0} - \beta \psi_0 -1) }
     \end{aligned}
 \end{equation} where $\mathrm{sign}$ is the sign function.  The
 electric potential at the SG interface, $\psi_0$ is determined by the
-Schottky-Mott rule~\cite{Sze_1965_defect}, which assumes that the
+Schottky-Mott rule~\autocite{Sze_1965_defect}, which assumes that the
 vacuum level alignment at the SG interface.
 %
 Note that this assumption holds when the interface states at the SG
 interface are negligible
-\cite{Xu_2011_Inducing_charge_si,Hill_1998_Molecular_align}, which is
+\autocite{Xu_2011_Inducing_charge_si,Hill_1998_Molecular_align}, which is
 fulfilled due to the absence of dangling bonds on the graphene
 surface.  % We only consider inorganic semiconductor for this model,
 since for the interface between graphene and organic semiconductor the
 assumption of the vacuum level alignment does not hold
-\cite{Hill1998Molecular}.  The boundary condition imposed by the
-Schottky-Mott rule~\cite{Sze_1965_defect} follows that:
+\autocite{Hill1998Molecular}.  The boundary condition imposed by the
+Schottky-Mott rule~\autocite{Sze_1965_defect} follows that:
 \begin{equation}
   \label{eqn:qc-Shottky-Mott} \psi_0 = \frac{E_{\mathrm C,\infty} -
 E_{\mathrm F,\infty}}{e} - \phi\subs{G} + \chi\subs{S} - V\subs{b}
@@ -241,9 +241,9 @@ affinity of the semiconductor (see \autoref{fig:qc-Scheme}\lc{b}).
 %
 $\phi\subs{G}$ is the work function of graphene as a function of
 $\sigma\subs{G}$, which is assumed to follow the elementary electronic
-properties of graphene \cite{Xu_2011_Inducing_charge_si}, without
+properties of graphene \autocite{Xu_2011_Inducing_charge_si}, without
 considering the electron-hole puddles induced by the surroundings
-\cite{Das_Sarma_2011_electron_gr}:
+\autocite{Das_Sarma_2011_electron_gr}:
 \begin{equation}
   \label{eqn:qc-phi-gr} \phi\subs{G} = \phi\subs{G}^{0} +
 \mathrm{sign}(\sigma\subs{G})\frac{\hbar v\subs{F}}{e}\sqrt{\frac{\pi
@@ -252,14 +252,14 @@ considering the electron-hole puddles induced by the surroundings
 $v\subs{F} \approx 1.1\times10^6 $ m$\cdot$s$\sups{-1}$ is the Fermi
 velocity in graphene and $\phi^0\subs{G} = 4.6$ V is the work function
 of graphene at the charge neutrality point (CNP, center of the Dirac
-cone) corresponding to $\sigma\subs{G} = 0$ \cite{Yu_2009_Tuning}.
+cone) corresponding to $\sigma\subs{G} = 0$ \autocite{Yu_2009_Tuning}.
 %
 
 An important feature of the 2DEG is its Fermi level $E_{\mathrm{F}}$
 (or equivalent the work function $\phi$) depends on the charge density
 $\sigma$, as a consequence of limited density of states (DOS, see
 \autoref{sec:basic-electr-prop}) and Pauli's exclusion
-principle.~\cite{Luryi_1988_Quantum}. The ability to change the Fermi
+principle.~\autocite{Luryi_1988_Quantum}. The ability to change the Fermi
 level of a 2DEG is characterized by its quantum capacitance
 $C_{\mathrm{Q}}$. For graphene, $C_{\mathrm{Q}}$ is defined as:
 \begin{equation}
@@ -304,7 +304,7 @@ structure at $T=300$  K.
 The parameters of Si are $\chi\subs{S} = 4.0$ V, the bandgap
 $E\subs{g} = 1.12$ eV, $\varepsilon_{\mathrm{S}} = 11.8$ and the
 intrinsic carrier concentration $n\subs{i} = 9.7\times10^9$ cm$^{-3}$
-\cite{Sproul_1991_si_carrier_conc}.
+\autocite{Sproul_1991_si_carrier_conc}.
 %
 First we analyze the case of free contact between the graphene and the
 semiconductor layers, \ie $\sigma\subs{G}+\sigma\subs{S}=0$ and
@@ -355,7 +355,7 @@ corresponding to a $V\subs{M}$ described by \autoref{eqn:qc-V_M}.
 A proper range of $\sigma\subs{M}$ up to $\pm$2$\times$10$^{13}$
 $e\cdot$cm$^{-2}$, which can be reached by using a high-k dielectric
 oxide layer
-\cite{Das_Sarma_2011_electron_gr,Schwierz_2010_Graphene_transistor}.
+\autocite{Das_Sarma_2011_electron_gr,Schwierz_2010_Graphene_transistor}.
 $\sigma\subs{M}$ and $\sigma\subs{S}$ are subsequently altered as a
 result of the field effect.
 %
@@ -366,7 +366,7 @@ $\sigma\subs{M}$ curves at different Si doping levels are shown in
 the curve associated with a MOG QC is also shown for comparison.
 %
 As well-stated in literature
-\cite{Neto_2009_Electron_gr_rev,Das_Sarma_2011_electron_gr}, due to a
+\autocite{Neto_2009_Electron_gr_rev,Das_Sarma_2011_electron_gr}, due to a
 small DOS near the CNP of graphene,
 $\Delta E_{\mathrm {F,G}}$ changes rapidly as $\sigma\subs{M}\to0$ in
 the MOG QC.
@@ -393,7 +393,7 @@ semiconductor layer.
 We therefore suggest that the estimation of graphene's work function
 using $\phi\subs{G}|_{\sigma\subs{G}=-\sigma\subs{M}}$ in a MOGS QC,
 as has been widely used to estimate the work function of graphene in a
-MOGS QC (e.g. \cite{Georgiou_2012_VFET_2D_vdw,georgiou2013vertical})
+MOGS QC (e.g. \autocite{Georgiou_2012_VFET_2D_vdw,georgiou2013vertical})
 appears to be incorrect.
 %
 Indeed, in a MOGS QC, graphene behaves like
@@ -417,7 +417,7 @@ band (VB) energy levels ($E\subs{C}$ and $E\subs{V}$, respectively).
 On the other hand, in a MOGS QC, the modulation of $\psi_0$ is
 observed to be less sensitive to $\sigma\subs{M}$, suggesting that the
 field effect only partially penetrates through
-graphene~\cite{Shih_2015_PartiallyScreened}.
+graphene~\autocite{Shih_2015_PartiallyScreened}.
 %
 Nevertheless, one can still tune $\psi_0$ from the strong inversion
 (SI) regime (pink, corresponding to $p(x = 0) > N\subs{D}$) to the
@@ -455,7 +455,7 @@ Here $\phi\subs{S}^0$ is the work function of intrinsic
 Si.
 %
 Following the convention in semiconductor physics
-\cite{Sze_2006_Mosfets}, the three curves divide the contour map into
+\autocite{Sze_2006_Mosfets}, the three curves divide the contour map into
 four regimes as follows: (i) the accumulation (Ac), (ii) the depletion
 (Dp), (iii) the weak inversion (WI), and (iv) the strong inversion
 (SI).
@@ -473,7 +473,7 @@ range of graphene's Fermi level.
 %
 Our findings explain why Si has been considered as a good
 semiconductor candidate in the MOGS QCs
-\cite{Yang_2012_Barristor,Schwierz_2010_Graphene_transistor,
+\autocite{Yang_2012_Barristor,Schwierz_2010_Graphene_transistor,
   ,Regan_2012_ScreeningEngineered_PV}.
 
 
@@ -499,7 +499,7 @@ $(\partial \phi\subs{G}/\partial \psi\subs{S})=-1$ (see
 graphene
 $C_{\mathrm{Q}}=\partial \sigma\subs{G} / \partial \phi\subs{G}$ and
 (iii) the differential capacitance of
-semiconductor~\cite{Sze_2006_Mosfets}
+semiconductor~\autocite{Sze_2006_Mosfets}
 $C\subs{S} = -(\partial \sigma\subs{S}/ \partial \psi_0)$, the
 transparency index $\eta^{\mathrm{FE}}$ in \autoref{eqn:qc-def_eta}
 can be decomposed using the chain rule as:
@@ -548,7 +548,7 @@ CNP of graphene.
 %
 In practice, considering the
 residual charges induced by the electron-hole puddles near the CNP of
-graphene \cite{Das_Sarma_2011_electron_gr},
+graphene \autocite{Das_Sarma_2011_electron_gr},
 %
 we expect that the limit of $\eta^{\mathrm{FE}} \to 1$ may not be
 observable experimentally at room temperature.
@@ -567,7 +567,7 @@ transparency. We consider a classical model that takes the interface
 states as a thin layer of ionized species at the semiconductor
 surface, with a distribution thickness of $d_{\mathrm{I}}$ and
 effective permittivity of $\varepsilon_{\mathrm{I}}$
-~\cite{Heine1965_surface_theory,Sze_1965_defect}.
+~\autocite{Heine1965_surface_theory,Sze_1965_defect}.
 %
 %
 \begin{figure}[!htbp]
@@ -629,7 +629,7 @@ In practice, although the interface states are difficult to be removed
 completely,
 %
 their influence can be minimized by creating a clean surface in vdW
-heterostructures~\cite{Withers_2015_LED_vde_Het}.
+heterostructures~\autocite{Withers_2015_LED_vde_Het}.
 %
 Thereafter we still use the expression of
 \autoref{eqn:qc-eta_expanded} to simplify the following analysis in
@@ -707,12 +707,12 @@ This observations can be explained by \autoref{eqn:qc-eta_expanded}:
 the few-layer Si used in the first principles simulations behaves more
 like a 2D than bulk material, of which the quantum capacitance
 $C\subs{S}$ remains almost constant when charges are filled into its
-valence band (VB) or conduction band (CB) \cite{Davies_1997_book}.
+valence band (VB) or conduction band (CB) \autocite{Davies_1997_book}.
 %
 Conversely, when the doping level of graphene is extremely high, its
 quantum capacitance $C_{\mathrm{Q}}$ will be less dependent of the
 charge density after the van Hove singularity is reached
-\cite{Das_Sarma_2011_electron_gr}.
+\autocite{Das_Sarma_2011_electron_gr}.
 %
 According to
 \autoref{eqn:qc-eta_expanded},
@@ -762,10 +762,10 @@ Schottky-Mott rule, it is suggested that the relation of
 $\eta^{\mathrm{FE}}=(1+C\subs{Q}/C\subs{S})^{-1}$ still holds.
 %
 Since the quantum capacitance is related with the DOS of 2D material by
-$C\subs{Q}\mathrm{DOS}(E) e^2$ \cite{John_2004_QC},
+$C\subs{Q}\mathrm{DOS}(E) e^2$ \autocite{John_2004_QC},
 %
 we have calculated the DOS as a function of $E$ for a variety of 2D
-materials\cite{Xu_2011_Measure_QC_model, ,Jimenez_2012_drift_model_MoS2, ,Nawaz_2016_QC_silicene}
+materials\autocite{Xu_2011_Measure_QC_model, ,Jimenez_2012_drift_model_MoS2, ,Nawaz_2016_QC_silicene}
 using the density functional theory (DFT) at the hybrid functional
 level.
 %
@@ -802,7 +802,7 @@ As discussed in \autoref{sec:basic-electr-prop}, $C_{\mathrm{Q}}$ of a
 monolayer 2D semiconductor () behaves
 like a step function,
 and only increases slightly with $\sigma\subs{2D}$, close to that for
-an ideal 2D semiconductor with parabolic $E-k$ dispersion \cite{Davies_1997_book}.
+an ideal 2D semiconductor with parabolic $E-k$ dispersion \autocite{Davies_1997_book}.
 %
 On the other hand, the quantum capacitance of a 2D semimetal,
 including graphene, silicene, and germanene, exhibits a quadratic
@@ -821,7 +821,7 @@ semimetals.
 This concept also explains why the $C\subs{Q}$ for silicene and
 germanene are similar but higher than that in graphene, in accordance
 with other theoretical
-investigations~\cite{Yan_2013_e-hv-couple,Bechstedt_2012_silicene}.
+investigations~\autocite{Yan_2013_e-hv-couple,Bechstedt_2012_silicene}.
 Combining with \autoref{eqn:qc-eta_expanded}, the observations have
 led to the conclusion that graphene exhibits the highest transparency
 to an electric displacement field among all the 2D materials
@@ -945,7 +945,7 @@ $\sigma\subs{M}$, as shown in \autoref{fig:qc-chara-bias}\lc{c}.
 This finding is consistent with the experimental
 observations that the on/off current ratio is lowered by applying a
 higher drain bias in a graphene-based vertical transistors
-\cite{Yang_2013_gr_hBN, ,Yu_2013_vertical, ,georgiou2013vertical,
+\autocite{Yang_2013_gr_hBN, ,Yu_2013_vertical, ,georgiou2013vertical,
   ,Shih_2015_PartiallyScreened, ,Schwierz_2010_Graphene_transistor}.
 %
 That is to say,
@@ -1004,18 +1004,18 @@ analysis presented here.
 
 The first-principles simulations reported here are
 based on density functional theory calculations using the {\ttfamily
-SIESTA} method\cite{Soler_02_siesta} and the {\ttfamily VASP}
-code\cite{Kresse_93_open_shell,Kresse_1996_1}.
+SIESTA} method\autocite{Soler_02_siesta} and the {\ttfamily VASP}
+code\autocite{Kresse_93_open_shell,Kresse_1996_1}.
 %
-The generalized gradient approximation(GGA)\cite{Perdew_1996_GGA}
+The generalized gradient approximation(GGA)\autocite{Perdew_1996_GGA}
 along with non-local van der Waals density functional for the
-exchange-correlation term\cite{Dion_2004_vdw} have been used.
+exchange-correlation term\autocite{Dion_2004_vdw} have been used.
 %
 A double-$\zeta$ polarized basis set in {\ttfamily SIESTA}, and a
 well-converged plane-wave cutoff of 400 eV in {\ttfamily VASP} were
 utilized in the calculations. Projected augmented wave method
-(PAW)\cite{Blochl_1994_PW,Kresse_1999_pseudopotentials} for the latter, and norm-conserving
-Troullier-Martins pseudopotentials\cite{troullier91} for the former,
+(PAW)\autocite{Blochl_1994_PW,Kresse_1999_pseudopotentials} for the latter, and norm-conserving
+Troullier-Martins pseudopotentials\autocite{troullier91} for the former,
 have been used in the description of the bonding environment at the
 different systems.  Atomic coordinates were allowed to relax until the
 forces on the ions were less than 0.04 eV/\AA~under the conjugate
@@ -1027,7 +1027,7 @@ energy of 150 Ry was used to resolve the real-space grid used to
 calculate the Hartree and exchange-correlation contribution to the
 total energy.  A basis set of numerical atomic orbitals obtained from
 the solution of the atomic pseudopotential at slightly excited states
-as implemented in the {\ttfamily SIESTA}\cite{Soler_02_siesta} code was
+as implemented in the {\ttfamily SIESTA}\autocite{Soler_02_siesta} code was
 used. We have utilized an energy shift of 50 meV to define the radii
 of different orbitals.  To model the Si surface, we used a periodic
 array of 4-layer Si(111) slabs, separated by 15 \AA~ thick vacuum
@@ -1035,15 +1035,15 @@ space, and terminated by hydrogen atoms at the bottom.  Only the two
 top layers were allowed to relax in contact with graphene, while the
 rest were kept frozen at Si bulk lattice constant.  We have also
 carried out calculations using screened hybrid functionals at the
-level of Heyd-Scuseria-Ernzerhof (HSE06) approach\cite{Heyd_2003_HSe,HSE_2006_erratum}. In this
+level of Heyd-Scuseria-Ernzerhof (HSE06) approach\autocite{Heyd_2003_HSe,HSE_2006_erratum}. In this
 approximation part of the short range exchange energy is replaced by a
 portion of exact Hartree-Fock exchange energy.  Here we used HSE06 as
 an example of a hybrid functional because of its successful
 applications in solids and
-molecules\cite{Kresse_1996_1,Kresse_1996_2,Franchini07}, and because of its less
+molecules\autocite{Kresse_1996_1,Kresse_1996_2,Franchini07}, and because of its less
 expensive computational cost to treat the slow-decaying long-range
 part of the exchange interaction in comparison to the PBE0
-functional\cite{Heyd_2003_HSe}.  Relevant lattice constants were
+functional\autocite{Heyd_2003_HSe}.  Relevant lattice constants were
 optimized for each system structure in consideration using PBE and
 HSE06 methods.
 
