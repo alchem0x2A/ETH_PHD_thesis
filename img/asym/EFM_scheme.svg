@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="51.31872"
+     inkscape:cx="435.42922"
      inkscape:cy="115.34525"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -83,7 +83,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1">
     <sodipodi:guide
-       position="131.63824,97.094725"
+       position="136.70836,65.881935"
        orientation="1,0"
        id="guide984"
        inkscape:locked="false" />
@@ -128,14 +128,14 @@
         <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-1.png"
            xlink:href="sub_img/asym-1.png"
-           y="8.4983349"
-           x="12.78466"
-           id="image957"
-           preserveAspectRatio="none"
-           height="100.75333"
-           width="164.93066"
+           transform="translate(-9.4494048,-7.3705357)"
            clip-path="url(#clipPath964)"
-           transform="translate(-9.4494048,-7.3705357)" />
+           width="164.93066"
+           height="100.75333"
+           preserveAspectRatio="none"
+           id="image957"
+           x="12.78466"
+           y="8.4983349" />
         <path
            style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 146.88154,41.07232 h 8.12649"
@@ -182,14 +182,14 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym2.png"
          xlink:href="sub_img/asym2.png"
-         transform="matrix(0.7801842,0,0,0.7801842,-1.6954385,11.731931)"
-         clip-path="url(#clipPath1106)"
-         width="164.59201"
-         height="106.172"
-         preserveAspectRatio="none"
-         id="image1101"
+         y="57.092602"
          x="5.3683987"
-         y="57.092602" />
+         id="image1101"
+         preserveAspectRatio="none"
+         height="106.172"
+         width="164.59201"
+         clip-path="url(#clipPath1106)"
+         transform="matrix(0.7801842,0,0,0.7801842,-1.6954385,11.731931)" />
       <rect
          y="56.274673"
          x="2.4929013"
@@ -215,23 +215,23 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/s-2.png"
          xlink:href="sub_img/s-2.png"
-         width="53.11824"
-         height="56.122669"
-         preserveAspectRatio="none"
-         id="image1196"
+         y="54.638714"
          x="113.82193"
-         y="54.638714" />
+         id="image1196"
+         preserveAspectRatio="none"
+         height="56.122669"
+         width="53.11824" />
       <g
          id="g1220">
         <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/s-1.png"
            xlink:href="sub_img/s-1.png"
-           y="54.687176"
-           x="55.324791"
-           id="image1185"
-           preserveAspectRatio="none"
+           width="52.637539"
            height="57.084084"
-           width="52.637539" />
+           preserveAspectRatio="none"
+           id="image1185"
+           x="55.324791"
+           y="54.687176" />
         <rect
            style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect1216"
@@ -381,12 +381,12 @@
     <text
        id="text1348"
        y="114.03915"
-       x="133.64249"
+       x="138.40494"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
          y="114.03915"
-         x="133.64249"
+         x="138.40494"
          id="tspan1346"
          sodipodi:role="line">$V_{\mathrm{s}}$ (V)</tspan></text>
     <path

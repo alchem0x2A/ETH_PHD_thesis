@@ -106,46 +106,46 @@
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath22127">
+       id="clipPath873">
       <path
-         inkscape:transform-center-y="-3.2813463e-05"
-         inkscape:transform-center-x="-4.1347172e-05"
-         d="m 556.61408,762.30269 l -175.20261,101.15327 l -175.20261,-101.15327 l 0,-202.30655 l 175.20261,-101.15328 l 175.20261,101.15328 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="true"
-         sodipodi:arg2="1.0471976"
-         sodipodi:arg1="0.52359878"
-         sodipodi:r2="175.20261"
-         sodipodi:r1="202.30655"
-         sodipodi:cy="661.14941"
-         sodipodi:cx="381.41147"
+         inkscape:transform-center-y="-1.3542793e-06"
+         sodipodi:type="star"
+         style="opacity:1;fill:#40f1bf;fill-opacity:0.21568627;fill-rule:evenodd;stroke:#626262;stroke-width:0.97049606;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
+         id="path875"
          sodipodi:sides="6"
-         id="path22129"
-         style="opacity:0.29500002;fill:#40f1bf;fill-opacity:0.21568627;fill-rule:evenodd;stroke:none;stroke-width:0.62828213;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
-         sodipodi:type="star" />
+         sodipodi:cx="549.97815"
+         sodipodi:cy="544.19104"
+         sodipodi:r1="312.49924"
+         sodipodi:r2="270.63226"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.0471976"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 820.61043,700.44066 l -270.63228,156.24962 l -270.63228,-156.24962 l 0,-312.49924 l 270.63228,-156.24962 l 270.63228,156.24962 z"
+         inkscape:transform-center-x="8.9623687e-06"
+         transform="matrix(0.25556788,0.0684792,-0.0684792,0.25556788,0,0)" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath22184">
+       id="clipPath902">
       <path
-         inkscape:transform-center-x="8.9623687e-06"
-         d="m 179.96862,170.7779 l -48.58446,28.05026 l -48.584471,-28.05026 l 0,-56.10051 l 48.584471,-28.050254 l 48.58446,28.050254 z"
+         inkscape:transform-center-y="-3.2303551e-05"
+         inkscape:transform-center-x="-3.8636295e-05"
+         d="m 495.20487,138.28086 l -51.74421,29.87454 l -51.74421,-29.87454 l 0,-59.749069 l 51.74421,-29.874534 l 51.74421,29.874535 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
          sodipodi:arg2="1.0471976"
          sodipodi:arg1="0.52359878"
-         sodipodi:r2="48.584461"
-         sodipodi:r1="56.10051"
-         sodipodi:cy="142.72765"
-         sodipodi:cx="131.38416"
+         sodipodi:r2="51.744209"
+         sodipodi:r1="59.749069"
+         sodipodi:cy="108.40633"
+         sodipodi:cx="443.46066"
          sodipodi:sides="6"
-         id="path22186"
-         style="opacity:1;fill:#40f1bf;fill-opacity:0.21568627;fill-rule:evenodd;stroke:#626262;stroke-width:0.17422545;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
-         sodipodi:type="star"
-         transform="rotate(15,22.784654,-7.7059617)"
-         inkscape:transform-center-y="-1.3542793e-06" />
+         id="path904"
+         style="opacity:0.29500002;fill:#40f1bf;fill-opacity:0.21568627;fill-rule:evenodd;stroke:none;stroke-width:0.1855564;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
+         sodipodi:type="star" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -155,18 +155,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="295.12343"
-     inkscape:cy="450.58918"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="849.85119"
+     inkscape:cy="9.396141"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="878"
-     inkscape:window-x="-7"
-     inkscape:window-y="6"
+     inkscape:window-x="55"
+     inkscape:window-y="126"
      inkscape:window-maximized="0"
-     inkscape:snap-nodes="false" />
+     inkscape:snap-nodes="true" />
   <metadata
      id="metadata11793">
     <rdf:RDF>
@@ -220,11 +220,11 @@
       <g
          id="g22254">
         <image
-           sodipodi:absref="/Users/ttian/polybox/PhD/img/vdwh.png"
+           sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/cover/../img/cover/vdwh.png"
+           xlink:href="../img/cover/vdwh.png"
            y="260.41797"
            x="303.88077"
            id="image21971"
-           xlink:href="file:///Users/ttian/polybox/PhD%20Defense/Final/thesis/img/vdwh.png"
            preserveAspectRatio="none"
            height="117.00933"
            width="235.88133"
@@ -249,76 +249,50 @@
            inkscape:transform-center-y="-6.5652892e-06" />
       </g>
     </g>
-    <g
-       id="g21783"
-       transform="matrix(1.2507946,0,0,1.2507946,-23.082606,-30.013832)"
-       style="fill:#afafe9">
-      <g
-         id="g22260"
-         transform="translate(4.6537084)">
-        <path
-           sodipodi:type="star"
-           style="opacity:0.825;fill:#1c1c24;fill-opacity:0.46305422;fill-rule:evenodd;stroke:none;stroke-width:0.22523297;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
-           id="path21808"
-           sodipodi:sides="6"
-           sodipodi:cx="130.77977"
-           sodipodi:cy="142.95596"
-           sodipodi:r1="72.524918"
-           sodipodi:r2="62.808414"
-           sodipodi:arg1="0.52359878"
-           sodipodi:arg2="1.0471976"
-           inkscape:flatsided="true"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="m 193.58819,179.21842 l -62.80842,36.26246 l -62.808421,-36.26246 l 0,-72.52492 l 62.808421,-36.262454 l 62.80842,36.262454 z"
-           inkscape:transform-center-x="-2.1196107e-05"
-           inkscape:transform-center-y="2.2553759e-05" />
-        <image
-           style="fill:#afafe9"
-           sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/cover.png"
-           y="111.95589"
-           x="8.021883"
-           id="image12422"
-           xlink:href="../img/cover/cover.png"
-           preserveAspectRatio="none"
-           height="110.38114"
-           width="195.96021"
-           clip-path="url(#clipPath22184)"
-           transform="matrix(1.1381577,-0.30496842,0.30496842,1.1381577,-20.766295,-18.581895)" />
-      </g>
-      <path
-         inkscape:transform-center-x="1.5724113e-06"
-         inkscape:transform-center-y="-4.3358881e-06"
-         sodipodi:type="star"
-         style="opacity:1;fill:#afafe9;fill-opacity:0;fill-rule:evenodd;stroke:#626262;stroke-width:0.19248158;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
-         id="path12431"
-         sodipodi:sides="6"
-         sodipodi:cx="130.77979"
-         sodipodi:cy="142.95598"
-         sodipodi:r1="61.978973"
-         sodipodi:r2="53.675362"
-         sodipodi:arg1="0.52359878"
-         sodipodi:arg2="1.0471976"
-         inkscape:flatsided="true"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 184.45515,173.94547 l -53.67537,30.98948 l -53.67536,-30.98949 l 0,-61.97897 l 53.67537,-30.989485 l 53.67536,30.989485 z" />
-    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:0.825;fill:#1c1c24;fill-opacity:0.46305422;fill-rule:evenodd;stroke:none;stroke-width:0.28172019;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
+       id="path21808"
+       sodipodi:sides="6"
+       sodipodi:cx="145.78232"
+       sodipodi:cy="145.58748"
+       sodipodi:r1="90.713776"
+       sodipodi:r2="78.560425"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 224.34275,190.94437 l -78.56043,45.35688 l -78.560436,-45.35688 l 0,-90.71378 l 78.560436,-45.356887 l 78.56043,45.356887 z"
+       inkscape:transform-center-x="-2.1196107e-05"
+       inkscape:transform-center-y="2.2553759e-05" />
+    <image
+       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/cover/../img/cover/cover.png"
+       xlink:href="../img/cover/cover.png"
+       style="fill:#afafe9"
+       y="95.55278"
+       x="-16.819708"
+       id="image12422"
+       preserveAspectRatio="none"
+       height="162.68201"
+       width="288.81021"
+       clip-path="url(#clipPath873)"
+       transform="rotate(-14.999999,6.2239023,-0.2132327)" />
     <g
        id="g22153"
        transform="matrix(0.91387476,0,0,0.91387476,-95.76857,-114.43414)"
        style="opacity:0.63200001">
       <image
+         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/cover/../img/cover/water.png"
+         xlink:href="../img/cover/water.png"
          transform="matrix(0.58290406,0,0,0.58290406,61.244362,130.58533)"
          clip-path="url(#clipPath21708)"
          width="254"
          height="142.40933"
          preserveAspectRatio="none"
-         xlink:href="../img/cover/water.png"
          id="image21705"
          x="60.854164"
-         y="109.37867"
-         sodipodi:absref="../img/cover/water.png" />
+         y="109.37867" />
       <path
          inkscape:transform-center-y="1.2961504e-05"
          inkscape:transform-center-x="3.8169823e-06"
@@ -338,36 +312,35 @@
          sodipodi:type="star" />
     </g>
     <g
-       id="g22141"
-       transform="matrix(1.2921743,0,0,1.2921743,-261.55054,114.67287)"
-       style="opacity:0.78399999">
+       id="g914"
+       transform="translate(9.4579268,-6.2036157)">
       <image
-         transform="matrix(0.61047145,0,0,0.61047145,128.31111,-44.363839)"
+         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/cover/../img/cover/NW.png"
+         xlink:href="../img/cover/NW.png"
+         transform="matrix(0.78883552,0,0,0.78883552,-95.750221,57.347057)"
          clip-path="url(#clipPath21639)"
          width="236.22"
          height="156.12534"
          preserveAspectRatio="none"
-         xlink:href="../img/cover/NW.png"
          id="image21636"
          x="107.91976"
-         y="104.03257"
-         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/NW.png" />
+         y="104.03257" />
       <path
          inkscape:transform-center-x="6.4511614e-06"
          inkscape:transform-center-y="-3.0840587e-06"
-         d="m 266.64307,98.236195 l -25.32921,14.623825 l -25.32922,-14.623826 l 0,-29.247657 l 25.32922,-14.623829 l 25.32921,14.623829 z"
+         d="m 83.326138,241.98914 l -32.72976,18.89654 l -32.72976,-18.89654 l 0,-37.79307 l 32.72976,-18.89654 l 32.729761,18.89654 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
          sodipodi:arg2="1.0471976"
          sodipodi:arg1="0.52359878"
-         sodipodi:r2="25.32921"
-         sodipodi:r1="29.247658"
-         sodipodi:cy="83.612366"
-         sodipodi:cx="241.31386"
+         sodipodi:r2="32.729755"
+         sodipodi:r1="37.793072"
+         sodipodi:cy="223.09261"
+         sodipodi:cx="50.596378"
          sodipodi:sides="6"
          id="path22137"
-         style="opacity:1;fill:#6f7c91;fill-opacity:0.61083745;fill-rule:evenodd;stroke:none;stroke-width:0.09083138;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
+         style="opacity:0.78399999;fill:#6f7c91;fill-opacity:0.61083745;fill-rule:evenodd;stroke:none;stroke-width:0.11736997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
          sodipodi:type="star" />
     </g>
     <text
@@ -391,28 +364,32 @@
          y="52.714622"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.69999981px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold Condensed';fill:#000000;fill-opacity:1;stroke-width:0.27967668"
          id="tspan21570">Two-Dimensional Materials</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="161.39583"
-       y="269.95911"
-       id="text21806"><tspan
-         sodipodi:role="line"
-         id="tspan21804"
-         x="161.39583"
+    <g
+       id="g1006"
+       transform="translate(15.875,1.5875)">
+      <text
+         id="text21806"
          y="269.95911"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:9.87777805px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold Condensed';stroke-width:0.26458332">Tian Tian</tspan></text>
-    <text
-       id="text22125"
-       y="285.83408"
-       x="119.27745"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:9.87777805px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold Condensed';stroke-width:0.26458332"
-         y="285.83408"
-         x="119.27745"
-         id="tspan22123"
-         sodipodi:role="line">Diss. ETH No. 26448</tspan></text>
+         x="152.37047"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.76111126px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold Condensed';stroke-width:0.26458332"
+           y="269.95911"
+           x="152.37047"
+           id="tspan21804"
+           sodipodi:role="line">Tian Tian</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="119.27746"
+         y="281.0715"
+         id="text22125"><tspan
+           sodipodi:role="line"
+           id="tspan22123"
+           x="119.27746"
+           y="281.0715"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.76111126px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold Condensed';stroke-width:0.26458332">Diss. ETH No. 26448</tspan></text>
+    </g>
     <path
        sodipodi:type="star"
        style="opacity:0.73000004;fill:#005522;fill-opacity:0.21568627;fill-rule:evenodd;stroke:none;stroke-width:0.07573325;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
@@ -449,41 +426,44 @@
        sodipodi:type="star" />
     <g
        id="g22135"
-       transform="matrix(0.70221804,0,0,0.70221804,-41.961973,1.983305)"
+       transform="matrix(0.70221804,0,0,0.70221804,-55.720309,11.508306)"
        style="opacity:0.86699997">
       <g
          id="g22165"
          style="fill:#aaaaff"
          transform="translate(-110.88165,-42.522575)">
-        <image
-           sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/3d.png"
-           y="464.90973"
-           x="143.62665"
-           id="image22059"
-           xlink:href="../img/cover/3d.png"
-           preserveAspectRatio="none"
-           height="392.47937"
-           width="475.56964"
-           clip-path="url(#clipPath22127)"
-           transform="matrix(0.30532809,0,0,0.30532809,347.7108,-65.033354)"
-           style="fill:#aaaaff" />
-        <path
-           sodipodi:type="star"
-           style="opacity:0.54599998;fill:#aaaaff;fill-opacity:0.69950741;fill-rule:evenodd;stroke:none;stroke-width:0.1920094;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
-           id="path22131"
-           sodipodi:sides="6"
-           sodipodi:cx="464.16644"
-           sodipodi:cy="136.83414"
-           sodipodi:r1="61.826935"
-           sodipodi:r2="53.54369"
-           sodipodi:arg1="0.52359878"
-           sodipodi:arg2="1.0471976"
-           inkscape:flatsided="true"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="m 517.71014,167.7476 l -53.5437,30.91347 l -53.54369,-30.91347 l 0,-61.82693 l 53.54369,-30.913468 l 53.5437,30.913468 z"
-           inkscape:transform-center-x="1.6494053e-05"
-           inkscape:transform-center-y="-1.1640066e-05" />
+        <g
+           id="g908"
+           transform="translate(36.749412,19.995919)">
+          <image
+             sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/cover/../img/cover/3d.png"
+             xlink:href="../img/cover/3d.png"
+             y="47.990467"
+             x="372.15305"
+             id="image22059"
+             preserveAspectRatio="none"
+             height="119.83498"
+             width="145.20477"
+             clip-path="url(#clipPath902)"
+             style="fill:#aaaaff" />
+          <path
+             inkscape:transform-center-y="-3.2303551e-05"
+             inkscape:transform-center-x="-3.8636295e-05"
+             d="m 495.20488,138.11589 l -51.74422,29.87453 l -51.74421,-29.87454 l 0,-59.749068 l 51.74421,-29.874537 l 51.74422,29.874537 z"
+             inkscape:randomized="0"
+             inkscape:rounded="0"
+             inkscape:flatsided="true"
+             sodipodi:arg2="1.0471976"
+             sodipodi:arg1="0.52359878"
+             sodipodi:r2="51.744213"
+             sodipodi:r1="59.749073"
+             sodipodi:cy="108.24135"
+             sodipodi:cx="443.46066"
+             sodipodi:sides="6"
+             id="path900"
+             style="opacity:0.29500002;fill:#6c5d53;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1855564;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.63529412"
+             sodipodi:type="star" />
+        </g>
       </g>
     </g>
     <path
