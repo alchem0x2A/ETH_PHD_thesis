@@ -267,12 +267,12 @@
      showgrid="false"
      units="pt"
      inkscape:zoom="2.2425466"
-     inkscape:cx="536.44402"
-     inkscape:cy="79.434852"
-     inkscape:window-x="117"
-     inkscape:window-y="160"
+     inkscape:cx="466.18399"
+     inkscape:cy="187.84375"
+     inkscape:window-x="67"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="patch_5_3_"
+     inkscape:current-layer="svg17784"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="5"
@@ -4714,14 +4714,12 @@
          style="fill:none;stroke:#f57f20;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round" /></g><text
        class="st8 st9"
        id="text15327"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.28658581px;font-family:TimesNewRomanPS-ItalicMT;-inkscape-font-specification:'TimesNewRomanPS-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.94512194"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.28653336px;font-family:TimesNewRomanPS-ItalicMT;-inkscape-font-specification:'TimesNewRomanPS-ItalicMT, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.94512194"
        x="155.35948"
        y="536.26831"><tspan
          sodipodi:role="line"
-         id="tspan20689"
-         x="155.35948"
-         y="536.26831"
-         style="stroke-width:0.94512194">$\symbf{E}_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         id="tspan6639"
+         style="-inkscape-font-specification:'TimesNewRomanPS-ItalicMT, Normal';font-family:TimesNewRomanPS-ItalicMT;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.28653336px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
 <g
        id="g17126"
        transform="matrix(0.94512195,0,0,0.94512195,-0.33491554,17.396342)"><g
@@ -8308,7 +8306,7 @@
        d="m 348.30054,659.28383 h 254.01063"
        id="path17278"
        inkscape:connector-curvature="0"
-       style="fill:none;stroke:#010101;stroke-width:0.854;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker7078)" /><linearGradient
+       style="fill:none;stroke:#010101;stroke-width:0.85399997;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker7078)" /><linearGradient
        id="SVGID_640_"
        gradientUnits="userSpaceOnUse"
        x1="426.87991"
@@ -8322,7 +8320,7 @@
          style="stop-color:#EC008C"
          id="stop17282" /></linearGradient><polygon
        class="st503"
-       points="438.9,673.5 414.9,673.5 425.4,646.8 428.4,646.8 "
+       points="428.4,646.8 438.9,673.5 414.9,673.5 425.4,646.8 "
        id="polygon17285"
        style="fill:url(#SVGID_640_)"
        transform="matrix(1.0047889,0,0,1.0047889,-38.442704,-24.274038)" /><g
@@ -9185,7 +9183,7 @@
          x="467.24976"
          id="tspan20729"
          sodipodi:role="line"
-         style="stroke-width:0.94512194">$\symbf{E}_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         style="stroke-width:0.94512194">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
 <text
        y="567.14978"
        x="356.9603"
@@ -9195,7 +9193,7 @@
          sodipodi:role="line"
          id="tspan3726"
          x="356.9603"
-         y="567.14978">$\symbf{E}_{\mathrm{ext}}=-2$ V$\cdot$nm$^{-1}$</tspan></text>
+         y="567.14978">{\freesans\itshape ℇ}$_{\mathrm{ext}}=-2$ V$\cdot$nm$^{-1}$</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7575779px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06313145"
@@ -9217,7 +9215,7 @@
          sodipodi:role="line"
          id="tspan3726-8"
          x="356.9603"
-         y="699.58844">$\symbf{E}_{\mathrm{ext}}=2$ V$\cdot$nm$^{-1}$</tspan></text>
+         y="699.58844">{\freesans\itshape ℇ}$_{\mathrm{ext}}=2$ V$\cdot$nm$^{-1}$</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7575779px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06313145"
@@ -9250,7 +9248,9 @@
        id="tspan20689-0"
        x="171.54688"
        y="484.90735"
-       style="stroke-width:0.94512194">$\symbf{E}_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+       style="stroke-width:0.94512194"><tspan
+   id="tspan3785"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TimesNewRomanPS-ItalicMT;-inkscape-font-specification:TimesNewRomanPS-ItalicMT">{\freesans\itshape ℇ}$</tspan>_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
 <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.34146309px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94512194"

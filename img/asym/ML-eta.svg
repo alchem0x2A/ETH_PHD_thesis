@@ -22,7 +22,7 @@
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"><metadata
      id="metadata2440"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs2438"><defs
        id="defs91"><rect
          id="SVGID_1_"
@@ -47,7 +47,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1343"
-     inkscape:window-height="885"
+     inkscape:window-height="878"
      id="namedview2436"
      showgrid="false"
      units="pt"
@@ -57,9 +57,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.5857199"
-     inkscape:cx="414.0803"
-     inkscape:cy="128.77533"
+     inkscape:zoom="2.2425466"
+     inkscape:cx="383.57094"
+     inkscape:cy="161.95135"
      inkscape:window-x="49"
      inkscape:window-y="22"
      inkscape:window-maximized="0"
@@ -260,37 +260,37 @@
      class="st11 st3 st6"
      id="text36"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7272706px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#231f20;stroke-width:0.93348879"
-     x="553.06708"
+     x="555.05762"
      y="36.708351"><tspan
        sodipodi:role="line"
        id="tspan4446"
-       x="553.06708"
+       x="555.05762"
        y="36.708351"
-       style="stroke-width:0.93348879">10$^{18}$  cm$^{-3}$</tspan></text>
+       style="stroke-width:0.93348879">\ssize 10$^{18}$</tspan></text>
 <text
      transform="scale(1.0047388,0.99528356)"
      class="st11 st3 st6"
      id="text46"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7272706px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#231f20;stroke-width:0.93348879"
-     x="553.06708"
+     x="555.05762"
      y="47.093407"><tspan
        sodipodi:role="line"
        id="tspan4448"
-       x="553.06708"
+       x="555.05762"
        y="47.093407"
-       style="stroke-width:0.93348879">10$^{10}$  cm$^{-3}$</tspan></text>
+       style="stroke-width:0.93348879">\ssize 10$^{10}$ </tspan></text>
 <text
      transform="scale(1.0047388,0.99528356)"
      class="st11 st3 st6"
      id="text56"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7272706px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#231f20;stroke-width:0.93348879"
-     x="553.06708"
+     x="555.05762"
      y="57.473061"><tspan
        sodipodi:role="line"
        id="tspan4450"
-       x="553.06708"
+       x="555.05762"
        y="57.473061"
-       style="stroke-width:0.93348879">10$^{2}$  cm$^{-3}$</tspan></text>
+       style="stroke-width:0.93348879">\ssize 10$^{2}$ </tspan></text>
 <text
      transform="matrix(0,-0.9952889,1.0047334,0,0,0)"
      class="st12 st1 st13"
@@ -302,7 +302,7 @@
        id="tspan4430"
        x="-103.9418"
        y="413.96503"
-       style="stroke-width:0.92470902">$Φ_{\mathrm{G}}(x)$ (V)</tspan></text>
+       style="stroke-width:0.92470902">$\phi_{\mathrm{G}}(x)$ (V)</tspan></text>
 <text
      transform="scale(1.0047388,0.99528356)"
      class="st5 st3 st6"
@@ -349,7 +349,7 @@
        id="tspan4432"
        x="515.29712"
        y="46.000282"
-       style="stroke-width:0.93348879">$n_0$</tspan></text>
+       style="stroke-width:0.93348879">\ssize $n_0$</tspan></text>
 <g
      class="st15"
      clip-path="url(#SVGID_2_)"

@@ -42,7 +42,7 @@
      fit-margin-bottom="5"
      fit-margin-right="0"
      inkscape:zoom="1.5614561"
-     inkscape:cx="338.66519"
+     inkscape:cx="388.61856"
      inkscape:cy="120.65644"
      inkscape:window-x="75"
      inkscape:window-y="0"
@@ -5096,16 +5096,16 @@
          style="fill:none;stroke:#010101;stroke-width:0.85000002;stroke-linecap:square" /></g><text
        class="st27 st28"
        id="text2559"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.00002289px;font-family:TimesNewRomanPS-ItalicMT;-inkscape-font-specification:'TimesNewRomanPS-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.00002289px;font-family:Times-Roman;-inkscape-font-specification:'Times-Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
        x="169.07222"
        y="266.12238"><tspan
          sodipodi:role="line"
          id="tspan3668"
          x="169.07222"
-         y="266.12238">$\symbf{E}_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         y="266.12238">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
 <g
        id="g2847"
-       transform="matrix(1.1671566,0,0,1.1671566,-128.33795,-5.28088)"><g
+       transform="matrix(1.1671566,0,0,1.1671566,-433.41596,-5.28088)"><g
          id="line2d_20_3_"><path
            class="st48"
            d="m 530.4,37.8 h 13.3"
@@ -5291,28 +5291,32 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.00002289px;font-family:TimesNewRomanPS-ItalicMT;-inkscape-font-specification:'TimesNewRomanPS-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
        id="text3672"
        class="st27 st28"><tspan
-         y="266.12238"
+         sodipodi:role="line"
+         id="tspan2566"
          x="477.72223"
-         id="tspan3670"
-         sodipodi:role="line">$\symbf{E}_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         y="266.12238">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
 <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.86718434px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.15559864;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.86718464px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.15559864"
        x="-131.33984"
        y="3.5782442"
        id="text3676"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
-         id="tspan3682">$C_{\mathrm{Q}}^{\mathrm{MQCM}}$ (μF$\cdot$cm$^{-2}$)</tspan></text>
+         id="tspan3682"
+         x="-131.33983"
+         y="3.5782442">$C_{\mathrm{Q}}^{\mathrm{MQCM}}$ (μF$\cdot$cm$^{-2}$)</tspan></text>
 <text
        transform="rotate(-90)"
        id="text3680"
        y="322.52347"
        x="-131.33984"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.86718434px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.15559864;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.86718464px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.15559864"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan3684">$C_{\mathrm{Q}}^{\mathrm{DFT}}$ (μF$\cdot$cm$^{-2}$)</tspan></text>
+         id="tspan3684"
+         x="-131.33984"
+         y="322.52347">$C_{\mathrm{Q}}^{\mathrm{DFT}}$ (μF$\cdot$cm$^{-2}$)</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.86718464px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.15559864"

@@ -5572,7 +5572,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="185.08357"
+     inkscape:cx="241.51214"
      inkscape:cy="177.89179"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -5603,7 +5603,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(60.000666,131.0308)">
+     transform="translate(60.000666,131.0308)"
+     style="stroke-linecap:butt;stroke-linejoin:round">
     <text
        id="text32494"
        y="-119.58503"
@@ -5715,15 +5716,15 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/3D/3D_scheme.png"
          xlink:href="3D/3D_scheme.png"
-         y="4.5220294"
-         x="6.5389547"
-         id="image877"
-         style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="62.592857"
-         width="93.889282"
+         transform="translate(-58.704879,-132.21025)"
          clip-path="url(#clipPath882)"
-         transform="translate(-58.704879,-132.21025)" />
+         width="93.889282"
+         height="62.592857"
+         preserveAspectRatio="none"
+         style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+         id="image877"
+         x="6.5389547"
+         y="4.5220294" />
       <text
          id="text888"
          y="-73.942902"
@@ -5919,12 +5920,13 @@
          id="tspan12614">\(\Phi_{\mathrm{AB}} = - \dfrac{A_{\mathrm{AB}}}{12 \pi d^2}\)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round"
        x="7.7485204"
        y="-54.177685"
        id="text12622"><tspan
          sodipodi:role="line"
-         id="tspan27810">\({\displaystyle \Phi_{\mathrm{AmB}} =  \dfrac{k_{\mathrm{B}} T}{8 \pi d^{2}}  \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}^{2}(i \xi_{n})} \int_{0}^{\infty} x \ln\left[1 -\hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x}\)</tspan></text>
+         id="tspan1924"
+         style="stroke-linecap:butt;stroke-linejoin:round">\({\displaystyle \Phi_{\mathrm{AmB}} =  \dfrac{k_{\mathrm{B}} T}{8 \pi d^{2}}  \sideset{}{'} \sum_{n = 0}^{\infty} \frac{1}{g_{\mathrm{m}}(i \xi_{n})} \int_{0}^{\infty} x \ln\left[1 -\hat{\Delta}_{\mathrm{Am}}(i \xi_{n}) \hat{\Delta}_{\mathrm{Bm}}(i \xi_{n}) e^{-x}\right] \mathrm{d} x}\)</tspan></text>
     <text
        id="text12626"
        y="-59.998524"

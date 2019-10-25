@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="152.83905"
+     inkscape:cx="51.31872"
      inkscape:cy="115.34525"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -111,7 +111,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,14 +128,14 @@
         <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-1.png"
            xlink:href="sub_img/asym-1.png"
-           transform="translate(-9.4494048,-7.3705357)"
-           clip-path="url(#clipPath964)"
-           width="164.93066"
-           height="100.75333"
-           preserveAspectRatio="none"
-           id="image957"
+           y="8.4983349"
            x="12.78466"
-           y="8.4983349" />
+           id="image957"
+           preserveAspectRatio="none"
+           height="100.75333"
+           width="164.93066"
+           clip-path="url(#clipPath964)"
+           transform="translate(-9.4494048,-7.3705357)" />
         <path
            style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 146.88154,41.07232 h 8.12649"
@@ -182,14 +182,14 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym2.png"
          xlink:href="sub_img/asym2.png"
-         y="57.092602"
-         x="5.3683987"
-         id="image1101"
-         preserveAspectRatio="none"
-         height="106.172"
-         width="164.59201"
+         transform="matrix(0.7801842,0,0,0.7801842,-1.6954385,11.731931)"
          clip-path="url(#clipPath1106)"
-         transform="matrix(0.7801842,0,0,0.7801842,-1.6954385,11.731931)" />
+         width="164.59201"
+         height="106.172"
+         preserveAspectRatio="none"
+         id="image1101"
+         x="5.3683987"
+         y="57.092602" />
       <rect
          y="56.274673"
          x="2.4929013"
@@ -215,23 +215,23 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/s-2.png"
          xlink:href="sub_img/s-2.png"
-         y="54.638714"
-         x="113.82193"
-         id="image1196"
-         preserveAspectRatio="none"
+         width="53.11824"
          height="56.122669"
-         width="53.11824" />
+         preserveAspectRatio="none"
+         id="image1196"
+         x="113.82193"
+         y="54.638714" />
       <g
          id="g1220">
         <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/s-1.png"
            xlink:href="sub_img/s-1.png"
-           width="52.637539"
-           height="57.084084"
-           preserveAspectRatio="none"
-           id="image1185"
+           y="54.687176"
            x="55.324791"
-           y="54.687176" />
+           id="image1185"
+           preserveAspectRatio="none"
+           height="57.084084"
+           width="52.637539" />
         <rect
            style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect1216"
@@ -344,7 +344,7 @@
          id="tspan1330"
          x="4.8849564"
          y="61.273647"
-         style="fill:#cc0001;fill-opacity:1;stroke-width:0.26458332">$\lsize \symbf{E}_{\mathrm{ext}}$</tspan></text>
+         style="fill:#cc0001;fill-opacity:1;stroke-width:0.26458332">{\freesans\itshape ℇ}$_{\mathrm{ext}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"

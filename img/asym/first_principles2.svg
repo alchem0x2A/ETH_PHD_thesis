@@ -61,7 +61,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="295.70258"
+     inkscape:cx="152.13115"
      inkscape:cy="73.092668"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -108,7 +108,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -123,36 +123,36 @@
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-4.png"
          xlink:href="sub_img/asym-4.png"
-         y="182.44359"
-         x="96.377365"
-         id="image3564"
-         preserveAspectRatio="none"
-         height="138.17599"
-         width="164.59201"
+         transform="matrix(0.89703504,0,0,0.89703504,-127.55556,-157.53615)"
          clip-path="url(#clipPath3574)"
-         transform="matrix(0.89703504,0,0,0.89703504,-127.55556,-157.53615)" />
+         width="164.59201"
+         height="138.17599"
+         preserveAspectRatio="none"
+         id="image3564"
+         x="96.377365"
+         y="182.44359" />
       <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-4.png"
          xlink:href="sub_img/asym-4.png"
-         y="17.757244"
-         x="11.442075"
-         id="image3539"
-         preserveAspectRatio="none"
-         height="138.17599"
-         width="164.59201"
+         transform="matrix(0.89703504,0,0,0.89703504,53.506402,71.660167)"
          clip-path="url(#clipPath3560)"
-         transform="matrix(0.89703504,0,0,0.89703504,53.506402,71.660167)" />
-      <image
-         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-4.png"
-         xlink:href="sub_img/asym-4.png"
          width="164.59201"
          height="138.17599"
          preserveAspectRatio="none"
-         id="image3558"
-         x="48.483746"
-         y="118.2989"
+         id="image3539"
+         x="11.442075"
+         y="17.757244" />
+      <image
+         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym-4.png"
+         xlink:href="sub_img/asym-4.png"
+         transform="matrix(0.89703504,0,0,0.89703504,-31.708632,-59.555228)"
          clip-path="url(#clipPath3566)"
-         transform="matrix(0.89703504,0,0,0.89703504,-31.708632,-59.555228)" />
+         y="118.2989"
+         x="48.483746"
+         id="image3558"
+         preserveAspectRatio="none"
+         height="138.17599"
+         width="164.59201" />
       <rect
          y="104.47171"
          x="87.913322"
@@ -184,37 +184,32 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424688px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
        x="80.257996"
        y="87.705307"
        id="text3597"><tspan
          sodipodi:role="line"
-         id="tspan3595"
+         id="tspan879"
          x="80.257996"
-         y="87.705307"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.25618744">$\symbf{E}_{\mathrm{ext}}=-0.7$ V$\cdot$nm$^{-1}$</tspan></text>
+         y="87.705307">{\freesans\itshape ℇ}$_{\mathrm{ext}}=-0.7$ V$\cdot$nm$^{-1}$</tspan></text>
     <text
        id="text3603"
        y="87.705307"
        x="131.49539"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424688px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.25618744"
-         y="87.705307"
+         sodipodi:role="line"
+         id="tspan881"
          x="131.49539"
-         id="tspan3601"
-         sodipodi:role="line">$\symbf{E}_{\mathrm{ext}}=0$ V$\cdot$nm$^{-1}$</tspan></text>
+         y="87.705307">{\freesans\itshape ℇ}$_{\mathrm{ext}}=0$ V$\cdot$nm$^{-1}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424688px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
        x="182.22054"
        y="87.705307"
        id="text3609"><tspan
          sodipodi:role="line"
-         id="tspan3607"
-         x="182.22054"
-         y="87.705307"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.25618744">$\symbf{E}_{\mathrm{ext}}=0.7$ V$\cdot$nm$^{-1}$</tspan></text>
+         id="tspan883">{\freesans\itshape ℇ}$_{\mathrm{ext}}=0.7$ V$\cdot$nm$^{-1}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.07424951px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25618744"
