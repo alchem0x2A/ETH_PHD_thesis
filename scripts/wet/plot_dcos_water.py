@@ -70,7 +70,7 @@ def plot_ph_dep(ax, MD=False):
     # ax2.set_ylabel(r"$\Delta\Phi_{\mathrm{2D-w}}^{el}$ (mJ$\cdot$m$^{-2}$)")
     if MD == False:
         ax.text(0, 0.04,
-                s=r"$c_{0}=10^{0}$~$10^{-7}$ mol$\cdot$L$^{-1}$",
+                s=r"$c_{0}=10^{0}\sim{}10^{-7}$ mol$\cdot$L$^{-1}$",
                 ha="center",
                 va="center")
     # Extreme care with the arrow. Use annotate!
@@ -85,7 +85,7 @@ def plot_ph_dep(ax, MD=False):
                         edgecolor=None,))
     else:
         ax.text(-0.8, 0.10,
-                s=r"$c_{0}=10^{0}$~$10^{-7}$ mol$\cdot$L$^{-1}$",
+                s=r"$c_{0}=10^{0}\sim{}10^{-7}$ mol$\cdot$L$^{-1}$",
                 ha="center",
                 va="center")
     # Extreme care with the arrow. Use annotate!
