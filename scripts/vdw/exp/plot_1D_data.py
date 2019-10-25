@@ -25,6 +25,8 @@ date_old = "0625"
 date_new = "0726"
 gr = "graphene"
 nogr = "no-graphene"
+date_old1 = "1008-old"
+date_new1 = "1008-new"
 
 maters = {}
 # maters["Plasma_gr_old"] = dict(name="Plasma_nobg", date=date_old, condition=gr)
@@ -36,6 +38,15 @@ maters["Au_gr_new"] = dict(name="Au_nobg", date=date_new, condition=gr)
 # maters["Plasma_nogr_new"] = dict(name="Plasma_nobg", date=date_new, condition=nogr)
 # maters["OTS_nogr_new"] = dict(name="OTS_nobg", date=date_new, condition=nogr)
 # maters["Au_nogr_new"] = dict(name="Au_nobg", date=date_new, condition=nogr)
+
+maters["Plasma_gr_old1"] = dict(name="Plasma", date=date_old1, condition=gr)
+# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
+maters["Au_gr_old1"] = dict(name="Au", date=date_old1, condition=gr)
+maters["Plasma_gr_new1"] = dict(name="Plasma", date=date_new1, condition=gr)
+# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
+maters["Au_gr_new1"] = dict(name="Au", date=date_new1, condition=gr)
+
+
 short_names = ("Plasma", "OTS", "Au")
 
 stanford_Data = np.genfromtxt(data_gixd /  "gixd_stanford.csv",
@@ -45,6 +56,20 @@ stanford_i = stanford_Data[:, 1]
 stanford_i = (stanford_i - np.min(stanford_i)) /\
              (np.max(stanford_i) - np.min(stanford_i))
 
+
+
+bpe_Data = np.genfromtxt(data_gixd /  "bpe-gixd1.csv",
+                              delimiter=",")
+# bpe_Data = np.genfromtxt(data_gixd /  "bpe-gixd5.csv",
+                              # delimiter=",")
+bpe_q = bpe_Data[30:, 0]
+bpe_i = 256 - bpe_Data[30:, 1]
+bpe_i = (bpe_i - np.min(bpe_i)) /\
+             (np.max(bpe_i) - np.min(bpe_i))
+# print(bpe_q, bpe_i)
+
+
+    
 exp_xrd_data = np.genfromtxt(data_gixd / "powder.csv",
                              delimiter=",")
 exp_theta = exp_xrd_data[:, 0]
@@ -86,18 +111,20 @@ def chi_avg_data(mater_name,
 
 def plot_compare():
     # fig = plt.figure(figsize=(6, 8))
-    fig, ax = gridplots(ratio=2.5)
+    fig, ax = gridplots(ratio=2)
     ax1 = ax
     # New data
     plot_1D_profile(ax1, stanford_q, stanford_i,
-                    offset=-3.5, scale=5, name="SiO2/Gr/BPE")
-    for i, mater_name in enumerate(["{0}_gr_new".format(c) for c in short_names]):
+                    offset=-3.5, scale=5, name="Stanford")
+    for i, mater_name in enumerate(["{0}_gr_new1".format(c) for c in short_names]):
         if mater_name in maters.keys():
             q, intensity = chi_avg_data(mater_name)
-            plot_1D_profile(ax1, q, intensity, offset=-i, name="Au/Gr/BPE")
-
+            plot_1D_profile(ax1, q, intensity, offset=-i,
+                            name="{0}/Gr/BPE".format(mater_name.split("_")[0]))
+    
     qq, ii = powder_data()
-    plot_1D_profile(ax1, qq, ii, offset=-3.5, scale=5, name="Power Sample")
+    # plot_1D_profile(ax1, qq, ii, offset=-3.5, scale=5, name="Power Sample")
+    plot_1D_profile(ax1, bpe_q, bpe_i, offset=-3.5, scale=1, name="Power Sample")
     # ax1.set_ylim(*ax1.get_ylim())
     # plot_1D_profile(ax1, exp_q, exp_i * 5, offset=-3.5, scale=5, name="Powder Exp")
 
@@ -106,8 +133,8 @@ def plot_compare():
     ax1.set_yticks([])
     ax1.set_ylabel("Intensity (a.u.)")
     ax1.legend(loc=0)
-    ax1.set_xlim(3.5, 22.5)
-    ax1.set_ylim(-3.5, -0.5)
+    ax1.set_xlim(12, 20.5)
+    # ax1.set_ylim(-3.5, -0.5)
 
 
     fig.savefig(img_path /  "compare_gixd_1D.svg")

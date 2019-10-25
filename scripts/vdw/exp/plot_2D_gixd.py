@@ -24,6 +24,8 @@ maters = dict()
 date_old = "0625"
 date_new = "0726"
 date_new2 = "1008"
+date_old1 = "1008-old"
+date_new1 = "1008-new"
 gr = "graphene"
 nogr = "no-graphene"
 
@@ -34,12 +36,19 @@ maters = {}
 # maters["Plasma_gr_new"] = dict(name="Plasma", date=date_new, condition=gr)
 # maters["OTS_gr_new"] = dict(name="OTS", date=date_new, condition=gr)
 # maters["Au_gr_new"] = dict(name="Au", date=date_new, condition=gr)
-maters["Plasma_nogr_new"] = dict(name="Plasma", date=date_new, condition=nogr)
+# maters["Plasma_nogr_new"] = dict(name="Plasma", date=date_new, condition=nogr)
 # maters["OTS_nogr_new"] = dict(name="OTS", date=date_new, condition=nogr)
-maters["Au_nogr_new"] = dict(name="Au", date=date_new, condition=nogr)
+# maters["Au_nogr_new"] = dict(name="Au", date=date_new, condition=nogr)
 
 # maters["Au_gr_new2"] = dict(name="Au", date=date_new2, condition=gr)
 # maters["Plasma_gr_new2"] = dict(name="Plasma", date=date_new2, condition=gr)
+
+maters["Plasma_gr_old1"] = dict(name="Plasma", date=date_old1, condition=gr)
+# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
+maters["Au_gr_old1"] = dict(name="Au", date=date_old1, condition=gr)
+maters["Plasma_gr_new1"] = dict(name="Plasma", date=date_new1, condition=gr)
+# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
+maters["Au_gr_new1"] = dict(name="Au", date=date_new1, condition=gr)
 
 short_names = ("Plasma", "OTS", "Au")
 
@@ -76,6 +85,7 @@ def show_large():
         show_gixd(ax, mater_name, q_range=(15, -0.1, -0.1, 20))
         fig.tight_layout()
         fig.savefig(img_path / "2D_{0}_large.svg".format(mater_name))
+        fig.savefig(img_path / "2D_{0}_large.png".format(mater_name))
 
 def show_small():
     for mater_name in maters.keys():
@@ -84,6 +94,7 @@ def show_small():
         show_gixd(ax, mater_name, q_range=(8, -0.1, 14, 20))
         fig.tight_layout()
         fig.savefig(img_path / "2D_{0}_small.svg".format(mater_name))
+        fig.savefig(img_path / "2D_{0}_small.png".format(mater_name))
 
 def show_nobg():
     for mater_name in maters.keys():
@@ -93,9 +104,10 @@ def show_nobg():
         show_gixd(ax, mater_name, q_range=(6, -2, 2, 10))
         fig.tight_layout()
         fig.savefig(img_path / "2D_{0}_nobg.svg".format(mater_name))
+        fig.savefig(img_path / "2D_{0}_nobg.png".format(mater_name))
 
 
 if __name__ == "__main__":
-    # show_large()
-    # show_small()
-    show_nobg()
+    show_large()
+    show_small()
+    # show_nobg()

@@ -24,6 +24,29 @@
       },
     "no-graphene": null
   },
+
+  "1008-old": {
+      "graphene": {
+	  "Au":{"center": [710, 712],
+		"scaling": 0.03326,
+		"vminmax": [40, 255]},
+	  "Plasma":{"center": [712, 720],
+		"scaling": 0.03326,
+		    "vminmax": [20, 150]}
+      },
+    "no-graphene": null
+  },
+  "1008-new": {
+      "graphene": {
+	  "Au":{"center": [712, 710],
+		"scaling": 0.03326,
+		"vminmax": [40, 180]},
+	  "Plasma":{"center": [712, 718],
+		"scaling": 0.03326,
+		"vminmax": [20, 150]}
+      },
+    "no-graphene": null
+  },
   "0726": {
       "graphene": {
 	  "Plasma":{"center": [693, 730],
