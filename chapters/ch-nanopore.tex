@@ -28,7 +28,7 @@ reduction of characteristic dimensions of nano\-materials gives rise
 to substantially different transport properties in comparison to their
 bulk counterparts \cite{Schoch_2008_nanofluid}.
 %
-One well-known example is the nanopore, in which the effect of
+One renowned example is the nanopore, in which the effect of
 surface-mediated transport becomes dominant when the pore size is
 comparable to the characteristic length of diffusion, enabling new
 applications such as ionic diodes
@@ -179,13 +179,13 @@ reliable characterization of the ion transport behavior.
 %
 
 
-The experimental setup presented
-here allows us to systematically investigate the diffusive flux of
-ions across a sheet of PG ($\symbf{J}$), driven by the gradient of
-electrochemical potential in the electrolyte medium.
+The experimental setup presented here allows us to systematically
+investigate the diffusive flux ($\symbf{J}$) of ions across a sheet of
+PG, driven by the gradient of electrochemical potential in the
+electrolyte medium.
 %
 First, the control experiments were carried out by measuring the ionic
-diffusion ($\mathbf{J}_{\mathrm{PCTE}}$) of seven salt species,
+diffusion ($\symbf{J}_{\mathrm{PCTE}}$) of seven salt species,
 including KCl, NaCl, LiCl, K$_{2}$SO$_{4}$, MgSO$_{4}$, CaCl$_{2}$ and
 K$_{3}$[Fe(CN)$_{6}$], through the bare PCTE membrane at $c_{0}$ = 0.1
 mM.
@@ -264,10 +264,10 @@ pore $R_{\mathrm{g}}^{0}$ has power law $1/r_{\mathrm{G}}$
 \end{subequations}
 where $k_{\mathrm{PCTE}}$ and $k_{\mathrm{g}}$ are the coefficient
 associated with PCTE and PG membranes, respectively. The value of
-$\delta$ is then expressed as:
+$f_{\mathrm{PCTE/PG0}}$ is then expressed as:
 \begin{equation}
   \label{eq:np-delta-resistance}
-  \delta
+  f_{\mathrm{PCTE/PG0}}
   = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
   = {\displaystyle
     \frac{k_{\mathrm{PCTE}}}{k_{\mathrm{g}}}
@@ -339,16 +339,17 @@ $V_{\mathrm{G}}$), respectively, we define the effective degree of
 salt rejection from bare PG, $\xi$, as a function of $V_{\mathrm{G}}$ as:
 \begin{equation}
 \label{eq:np-xi-def}
-\xi = 1 - \frac{R_{\mathrm{G}}(V_{\mathrm{G}}=0)}{R_{\mathrm{G}}(V_{\mathrm{G}})} = \frac{(\delta+1) \chi}{\delta \chi + 1}
+\xi = 1 - \frac{R_{\mathrm{G}}(V_{\mathrm{G}}=0)}{R_{\mathrm{G}}(V_{\mathrm{G}})} = \frac{(f+1) \chi}{f \chi + 1}
 \end{equation}
-The factor $\xi$ (not to be confused with the Matsubara frequency
-$\xi_{n}$ in \autoref{ch:vdw}) is a reliable and stable measure of
-salt rejection through the PG membrane itself upon gating, as the salt
-species and initial conditions may induce a degree of measurement
-uncertainty between different samples. Note the $\xi=1$ limit
-represents perfect salt rejection when
-$R_{\mathrm{G}}(V_{\mathrm{G}}) \to \infty$. On the contrary $\xi=0$
-indicates $R_{\mathrm{G}}$ remains unchanged with $V_{\mathrm{G}}$.
+where the subscript of $f$ is omitted for simplicity. The factor $\xi$
+(not to be confused with the Matsubara frequency $\xi_{n}$ in
+\autoref{ch:vdw}) is a reliable and stable measure of salt rejection
+through the PG membrane itself upon gating, as the salt species and
+initial conditions may induce a degree of measurement uncertainty
+between different samples. Note the $\xi=1$ limit represents perfect
+salt rejection when $R_{\mathrm{G}}(V_{\mathrm{G}}) \to \infty$. On
+the contrary $\xi=0$ indicates $R_{\mathrm{G}}$ remains unchanged with
+$V_{\mathrm{G}}$.
 \begin{figure}[H]
   \centering
    \import{\imgdir}{conductivity.pdf_tex}
@@ -511,7 +512,7 @@ solutions of $\sigma_{\mathrm{G}}$ and $\psi_{\mathrm{G}}$ for a given
 $V_{\mathrm{G}}$. Clearly, the above model yields symmetric
 characteristics for $\sigma_{\mathrm{G}}$ and $\psi_{\mathrm{G}}$ with
 respect to $V_{\mathrm{G}}$ due to the symmetric band structure of
-graphene (\autoref{eq:np-delta-phiG}).
+graphene.
 %
 However, for graphene
 synthesized by chemical vapor deposition (CVD) used in the ion transport
@@ -604,13 +605,17 @@ potentials is set at the bulk phase in the HCR in both cases.
   \import{\imgdir}{2D_plots.pdf_tex}
   \caption{Calculated 2D profiles in the nanopore using the proposed
     self-consistent theory. The contour plots of cation
-  electrochemical potential $\mu_{\mathrm{+}}$ (\textbf{a}), anion
-  electrochemical potential $\mu_{\mathrm{-}}$ (\textbf{b}), cation
-  and anion mass transfer flux perpendicular to the pore (\textbf{c}
-  and \textbf{d}, respectively) are shown with $V_{\mathrm{G}} = 0.75$
-  V.  The reference of electrochemical potential is set in the HCR far
-  from the graphene layer. The diffusive pathways for both ions are
-  indicated by the arrows in \textbf{c} and \textbf{d}, respectively}
+    electrochemical potential $\mu_{\mathrm{+}}$ (\textbf{a}), anion
+    electrochemical potential $\mu_{\mathrm{-}}$ (\textbf{b}), cation
+    and anion mass transfer flux perpendicular to the pore (\textbf{c}
+    and \textbf{d}, respectively) are shown with
+    $V_{\mathrm{G}} = 0.75$ V.  The reference of electrochemical
+    potential is set in the HCR far from the graphene layer. The
+    z-component of ion flux $\symbf{J}_{z}$ for anion and cation are
+    plotted in \textbf{c} and \textbf{d}, respectively/%
+    The diffusive pathways for both ions are indicated by the arrows
+    in \textbf{c} and \textbf{d}.%
+  }
   \label{fig:np-2D-plots}
 \end{figure}
 %
@@ -630,10 +635,10 @@ concentration gradient at the pore center. On the other hand, the
 anion concentration near the pore edge increases exponentially, such
 that the concentration gradient at the pore center becomes small
 %
-Although the surface
-concentration of anions is enhanced by $\sim{}$30 times, it is sill
-much smaller than the saturated surface adsorption density, and the use of
-bulk diffusivity in the Nernst-Planck equation (~\autoref{eq:pnp}) still holds.
+Although the surface concentration of anions is enhanced by $\sim{}$30
+times, it is sill much smaller than the saturated surface adsorption
+density, and the use of bulk diffusivity in the Nernst-Planck equation
+(~\autoref{eq:np-pnp}) still holds.
 %
 %
 The observations confirm the distinct ionic transport pathways upon
@@ -819,14 +824,14 @@ the pore distribution taken from the SEM image of real samples.
   \label{fig:np-simple-rect-pore}
 \end{figure}
 
-\autoref{fig:simple-rect-pore}a shows the contribution $w$ and $\xi$ as
+\autoref{fig:np-simple-rect-pore}a shows the contribution $w$ and $\xi$ as
 a function of $r_{\mathrm{G}}$ for individual pores when
 $V_{\mathrm{G}}$ = 1.25 V. As can be seen, the majority of pores fall
 within the regime of $\lambda_{\mathrm{D}} / r_{\mathrm{G}} > 1$,
 corresponding to $\xi(r_{\mathrm{G}}) > 0.6$. As a result, considering
 the influence of pore distribution reduces the value of $\xi$ to $\sim{}$80\% to
 that of a single 20 nm-diameter nanopore (
-\autoref{fig:simple-rect-pore}b), which is indeed close to the highest
+\autoref{fig:np-simple-rect-pore}b), which is indeed close to the highest
 $\xi$ values that experimentally observed.
 %
 Consider the existence of large pores with diameter up to 60 nm, the
@@ -842,7 +847,7 @@ to overcome the low salt rejection at higher concentrations, which may
 hopefully be achieved with more advanced fabrication techniques.
 
 
-\subsection{Effects of Salt Species}
+\subsection{Effect of Salt Species}
 \label{sec:np-salts}
 
 Finally, we examine other salt species and compare the degree of salt
@@ -865,8 +870,7 @@ rejection between experiments and simulations.
     correlation.}
   \label{fig:np-6}
 \end{figure}
-
-
+%
 \autoref{fig:np-6}a
 presents the measured salt rejection $\xi$ as a function of
 $V_{\mathrm{G}}$ at $c_{0}$ = 0.1 mM, for the seven salt species
