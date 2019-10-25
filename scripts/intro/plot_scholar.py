@@ -13,7 +13,7 @@ display = dict(graphene="Graphene",
                perov="2D Perovskite")
 def plot_main():
     fig, ax = gridplots(1, 1,
-                        r=0.95)
+                        r=0.75)
 
     try:
         data = np.load(results, allow_pickle=True)

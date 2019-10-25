@@ -58,7 +58,7 @@ def get_gixd_data(name, date, condition,
     """Get raw gixd data from origin point
     """
     assert condition in ["graphene", "no-graphene"]
-    assert date in ["0625", "0726", "1008"]
+    # assert date in ["0625", "0726", "1008", ""]
     f_name = get_filename(name, date, condition)
     img = Pim.open(f_name, mode="r")
     img_data = numpy.array(img)
@@ -148,8 +148,8 @@ def angle_dist(X, Y, data, q_range=None):
         ii = II[(RR >= r_min) & (RR < r_max)].flatten()
         # print(ii)
         if len(ii) > 0:
-            # spectrum.append(numpy.max(ii) - numpy.mean(ii))
-            spectrum.append(numpy.sum(ii))
+            spectrum.append(numpy.max(ii) - numpy.mean(ii))
+            # spectrum.append(numpy.sum(ii))
         else:
             spectrum.append(0)
 

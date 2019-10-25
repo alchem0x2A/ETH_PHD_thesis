@@ -2271,8 +2271,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9726562"
-     inkscape:cx="185.1316"
-     inkscape:cy="116.6308"
+     inkscape:cx="83.238528"
+     inkscape:cy="96.353572"
      inkscape:document-units="mm"
      inkscape:current-layer="g1423"
      showgrid="false"
@@ -2302,7 +2302,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2605,6 +2605,7 @@
 <tspan
    id="tspan9542"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+
 
  (V)</tspan>
               </text>
@@ -6053,13 +6054,13 @@
              style="stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round">Stern layer</tspan></text>
         <text
            id="text849"
-           y="8.7359495"
-           x="17.123402"
+           y="0.80206716"
+           x="26.768513"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
-             y="8.7359495"
-             x="17.123402"
+             y="0.80206716"
+             x="26.768513"
              id="tspan847"
              sodipodi:role="line">$ψ$</tspan></text>
         <text
