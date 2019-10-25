@@ -123,7 +123,7 @@ def plot_main():
     ax_inset.loglog(ds, -gs[0], ls="--", color="grey")
     ax_inset.tick_params(axis="both", labelsize="small")
     ax_inset.set_xlabel("$d$ (m)", size="small", labelpad=-0.5)
-    ax_inset.set_ylabel(r"$\Phi$ (J·m$^{-2}$)", size="small", labelpad=-0.5)
+    ax_inset.set_ylabel(r"$|\Phi|$ (J·m$^{-2}$)", size="small", labelpad=-0.5)
     ax.set_xlabel("$x$ (nm)")
     ax.set_ylabel(r"$p_{\mathrm{loc}}$")
     ax.axhline(y=2, ls="--", color="grey")

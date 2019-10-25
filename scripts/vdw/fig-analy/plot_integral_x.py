@@ -31,7 +31,7 @@ def plot_main():
     ax_.set_xlabel(r"$\Gamma$")
     ax_.set_ylabel(r"$I(\Gamma, \infty)$")
     # Second plot the cumtrapz part?
-    ax_.annotate(r"$I(-\Gamma, \infty) \approx -\Gamma$", xy=(-0.4, 0.4), xytext=(0, 0.4),
+    ax_.annotate(r"$I(\Gamma, \infty) \approx -\Gamma$", xy=(-0.4, 0.4), xytext=(0, 0.4),
                  arrowprops=dict(arrowstyle="->"),
                  color="grey", alpha=0.8)
     ax_.text(x=0.15, y=0.15,
@@ -48,13 +48,14 @@ def plot_main():
             cond_ = numpy.where(cum > 0.95)[0][0]
             ax_.plot([xx[cond_], xx[cond_]], [0, cum[cond_]], "--", color="grey", alpha=0.6)
             ax_.plot([0, xx[cond_]], [cum[cond_], cum[cond_]], "--", color="grey", alpha=0.6)
-            ax_.text(x=0.5, y=cum[cond_] * 0.98, s=r"$I(x) = 0.95I(\infty)$",
+            ax_.text(x=0.2, y=cum[cond_] * 0.98,
+                     s=r"$I(\Gamma, x) = 0.95I(\Gamma, \infty)$",
                      size="small",
                     va="top", color="grey", alpha=0.8)
     l = ax_.legend(loc=0)
     l.set_title(r"Model value of $\Gamma$")
     ax_.set_xlabel("$x$")
-    ax_.set_ylabel(r"$I(x, \Gamma) / I(x, \infty)$")
+    ax_.set_ylabel(r"$I(\Gamma, ) / I(\Gamma, \infty)$")
     ax_.annotate(r'Increasing $\Gamma$', xytext=(2.5, 0.55),
                 xy=(1.5, 0.75),
                  arrowprops=dict(arrowstyle="->"),)

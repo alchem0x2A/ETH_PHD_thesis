@@ -45,8 +45,8 @@ def plot_main():
     ax_ = ax[1]
     ax_.yaxis.tick_right()
     ax_.yaxis.set_label_position("right")
-    ax_.plot(freq_matsu, eps_para_iv, label="In-plane")
-    ax_.plot(freq_matsu, eps_perp_iv, label="Out-of-plane")
+    l1, =  ax_.plot(freq_matsu, eps_para_iv, label="In-plane")
+    l2, = ax_.plot(freq_matsu, eps_perp_iv, label="Out-of-plane")
     # l = ax_.legend(loc=0)
     ax_.set_xlabel(r"$\hbar \xi$ (eV)")
     ax_.set_ylabel(r"$\varepsilon_{\mathrm{m}}(i \xi)$")
@@ -54,6 +54,10 @@ def plot_main():
     ax_.set_ylim(0.5, 5)
     ax_.axhline(y=1, ls="--", color="grey", alpha=0.6)
     ax_.set_xscale("log")
+    ax_.text(x=7, y=3.0, s=r"$\varepsilon_{\mathrm{m}}^{\parallel}(i \xi)$",
+             color=l1.get_c())
+    ax_.text(x=3, y=1.8, s=r"$\varepsilon_{\mathrm{m}}^{\perp}(i \xi)$",
+             color=l2.get_c())
 
     # ax_.text(x=0.63, y=0.82, s=r"",
     #          ha="left",

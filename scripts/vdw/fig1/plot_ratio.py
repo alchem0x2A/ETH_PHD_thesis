@@ -55,7 +55,7 @@ def plot_main():
         ax[i].set_xlabel(r"$\hbar \xi$ (eV)")
     ax[0].set_ylabel(r"$\varepsilon_{\mathrm{m}}^{\parallel} (i \xi)$")
     ax[1].set_ylabel(r"$\varepsilon_{\mathrm{m}}^{\perp} (i \xi)$")
-    ax[2].set_ylabel(r"$1/g_{\mathrm{m}}^{2} (i \xi)$")
+    ax[2].set_ylabel(r"$1/g_{\mathrm{m}} (i \xi)$")
 
     # Fix lim
     ax[0].set_xticklabels([])

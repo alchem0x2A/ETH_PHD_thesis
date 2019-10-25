@@ -113,7 +113,7 @@ def plot_main():
     # zoom in!
     # ax[1].set_ylim(-1, 0.1)
     ax[0].text(x=95, y=0.075, s="Repulsive", ha="right")
-    ax[0].text(x=95, y=-0.175, s="Repulsive", ha="right")
+    ax[0].text(x=95, y=-0.175, s="Attractive", ha="right")
     # ax[3].set_ylim(-1, 0.6)
     grid_labels(fig, ax, reserved_space=(0, 0))
     savepgf(fig, img_path / "suspend_energy.pgf")

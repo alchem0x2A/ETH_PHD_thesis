@@ -37,7 +37,7 @@ def plot_main():
     ax[0].plot(ds / 1e-10, gs[0] * 1000, color="grey")
     j = 10
     ax[0].text(x=ds[j] / 1e-10 + 0.5, y=gs[0][j] * 1000 * 0.95,
-               s=r"$\Phi^{0}$", ha="left", va="top", color="grey")
+               s=r"$\Phi_{\mathrm{AB}}$", ha="left", va="top", color="grey")
     ax[1].plot(freq_matsu, -1e6 * G[0], color="grey")
     ax[1].text(x=freq_matsu[j] + 3, y=-1e6 * G[0][j] * 0.95,
                s=r"←$G^{0}$", ha="left", va="top", color="grey")
@@ -74,8 +74,8 @@ def plot_main():
     ax[0].set_xlabel(r"$d$ (\AA{})")
     for i in (1, 2):
         ax[i].set_xlabel(r"$\hbar \xi$ (eV)")
-    ax[0].set_ylabel(r"$\Phi_{\mathrm{AmB}}$ (mJ$\cdot{}$m$^{-2}$)")
-    ax[1].set_ylabel(r"$G(i \xi)$ (μJ$\cdot{}$m$^{-2}$)")
+    ax[0].set_ylabel(r"$|\Phi_{\mathrm{AmB}}|$ (mJ$\cdot{}$m$^{-2}$)")
+    ax[1].set_ylabel(r"$|G(i \xi)|$ (μJ$\cdot{}$m$^{-2}$)")
     ax[2].set_ylabel(r"$\tau (i \xi)$")
 
     # Fix lim
