@@ -3,7 +3,8 @@
     twoside, openright, titlepage, numbers=noenddot,%
     cleardoublepage=empty,%
     abstractoff,%
-    BCOR=5.5mm, paper=a4, fontsize=12pt,% A5 soft cover
+    % BCOR=5.5mm, paper=a4, fontsize=12pt,% A5 soft cover
+    BCOR=5.5mm, paper=a4, fontsize=11pt,% A5 soft cover
     %BCOR=5.5mm, paper=17cm:24cm, fontsize=10pt,% 17 cm x 24 cm
     %BCOR=5mm, paper=15.59cm:23.39cm, fontsize=10pt,% Royal soft cover
     %BCOR=0mm, paper=15.24cm:22.86cm, fontsize=10pt,% US-Trade hard cover
@@ -16,7 +17,7 @@
 \usepackage[final]{pdfpages}
 
 % Geometry stretching
-% \usepackage[onehalfspacing]{setspace}
+\usepackage[onehalfspacing]{setspace}
 % \usepackage[doublespacing]{setspace}
 
 \usepackage{units}
@@ -29,7 +30,7 @@
 
 
 \begin{document}
-\frenchspacing
+% \frenchspacing
 % \doublespacing
 \raggedbottom%
 \selectlanguage{english}
@@ -42,8 +43,8 @@
 % Uncomment and adapt these lines if you want to include a cover PDF.
 %
 % Update the cover here
-% \includepdf[pages={1,{}}]{cover/crop/cover_front.pdf}
-% \cleardoublepage\setcounter{page}{1}
+\includepdf[pages={1,{}}]{cover/cover_Tian.pdf}
+\cleardoublepage\setcounter{page}{1}
 
 %
 % Frontmatter
