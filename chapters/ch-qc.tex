@@ -101,10 +101,10 @@ elucidate the graphene-based QCs in terms of the interplay between the
 penetration of field effect and the electronic structure of the 2D
 materials.
 
-This chapter aims to present a mutiscale theoretical approach to model
+This chapter aims to present a multiscale theoretical approach to model
 the space charge distribution in a metal-oxide-graphene-semiconductor
 (MOGS) QC, giving a quantitative interpretation of the field-effect
-penetration into the devic.
+penetration into the device.
 %
 We use both macroscopic modeling using Poisson-Boltzmann equation
 methods and first-principles calculations at different levels of
@@ -114,7 +114,7 @@ thereby creating an accumulation or inversion layer at the
 graphene-semiconductor interface.
 %
 Accordingly, we define a field-effect ``transparency'' index
-$\eta^{\mathrm{fe}}$to quantify the penetration of an electric
+$\eta^{\mathrm{FE}}$ to quantify the penetration of an electric
 displacement field through a 2DEG.
 %
 Using fundamental analysis, we show that $\eta^{\mathrm{FE}}$ is a
@@ -229,7 +229,7 @@ fulfilled due to the absence of dangling bonds on the graphene
 surface.  % We only consider inorganic semiconductor for this model,
 since for the interface between graphene and organic semiconductor the
 assumption of the vacuum level alignment does not hold
-\autocite{Hill1998Molecular}.  The boundary condition imposed by the
+\autocite{Hill_1998_Molecular_align}.  The boundary condition imposed by the
 Schottky-Mott rule~\autocite{Sze_1965_defect} follows that:
 \begin{equation}
   \label{eqn:qc-Shottky-Mott} \psi_0 = \frac{E_{\mathrm C,\infty} -
@@ -404,9 +404,9 @@ In order to further understand the penetration of the field effect
 through graphene,
 % \worktodo{change figure name}
 \autoref{fig:qc-fermi-level-change}\lc{c} compares the
-evolutions of calculated $\psi_0$ with $\sigma\subs{M}$ in a standard
+evolution of calculated $\psi_0$ with $\sigma\subs{M}$ in a standard
 metal-oxide-semiconductor (MOS) capacitor and a MOGS QC ($N\subs{D}$ =
-10$\sups{16}$ cm$\sups{-2}$), as a function of $\sigma\subs{M}$.
+10$\sups{16}$ cm$\sups{-3}$), as a function of $\sigma\subs{M}$.
 %
 In a standard MOS capacitor, the field effect allows to significantly
 modulate the space charge concentration at the oxide-semiconductor
@@ -599,15 +599,15 @@ Similar to \autoref{eqn:qc-eta_expanded}, $\eta^{\mathrm{FE}}$ considering the e
   \begin{aligned}
     \label{eq:qc-eta-I-1}
       \eta^{\mathrm{FE}} 
-           &= \dfrac{1}{1 - \dfrac{C\subs{G}}{C\subs{S}}\dfrac{\partial \phi\subs{G}}{\partial \psi_0}}\\
-           &= \dfrac{1}{1+k\dfrac{C_{\mathrm{G}}}{C_{\mathrm{S}}}}
+           &= \dfrac{1}{1 - \dfrac{C\subs{Q}}{C\subs{S}}\dfrac{\partial \phi\subs{G}}{\partial \psi_0}}\\
+           &= \dfrac{1}{1+k\dfrac{C_{\mathrm{Q}}}{C_{\mathrm{S}}}}
   \end{aligned}
 \end{equation}
 where
 $k = -\left(\partial \phi_{\mathrm{G}} / \partial \psi_{0}\right)$.
 %
 Note without the interfacial states, \autoref{eqn:qc-Shottky-Mott}
-indicates $k = -1$, and \autoref{eq:qc-eta-I-1} reduces to
+indicates $k = 1$, and \autoref{eq:qc-eta-I-1} reduces to
 \autoref{eqn:qc-eta_expanded}.
 %
 Combining \autoref{eqn:qc-Shottky-Mott} and
@@ -778,8 +778,8 @@ level.
     Te), phosphorene, silicene, germanene and graphene, as a function
     of the \textbf{a}. electron density $\sigma\subs{2D}\sups{n}$ and
     \textbf{b}. hole density $\sigma\subs{2D}\sups{p}$.
-    \textbf{c}. Geometries used to calculated the QC using HSE06
-    hybrid functional for graphene, silicene/germanene, TMDs and
+    \textbf{c}. Geometries used to calculate the QC using HSE06
+    hybrid functional for graphene, silicene/germanene, TMDCs and
     phosphorene.  The unit cell used in the simulations is highlighted
     in each panel.}
   \label{fig:qc-CQ-2D}
@@ -979,7 +979,7 @@ $C_{\mathrm{Q}}$ and the differential capacitance of semiconductor
 $C_{\mathrm{S}}$.
 %
 By calculating the quantum capacitance for a
-variety of 2D materials using hybrid functionals, we predict the
+variety of 2D materials using hybrid functional, we predict the
 ranking for a variety of 2D compounds according to their transparency
 to an electric displacement field as follows: graphene >
   silicene > germanene > WS$\subs{2}$ > WTe$\subs{2}$ > WSe$\subs{2}$
@@ -1034,7 +1034,7 @@ array of 4-layer Si(111) slabs, separated by 15 \AA~ thick vacuum
 space, and terminated by hydrogen atoms at the bottom.  Only the two
 top layers were allowed to relax in contact with graphene, while the
 rest were kept frozen at Si bulk lattice constant.  We have also
-carried out calculations using screened hybrid functionals at the
+carried out calculations using screened hybrid functional at the
 level of Heyd-Scuseria-Ernzerhof (HSE06) approach\autocite{Heyd_2003_HSe,HSE_2006_erratum}. In this
 approximation part of the short range exchange energy is replaced by a
 portion of exact Hartree-Fock exchange energy.  Here we used HSE06 as
