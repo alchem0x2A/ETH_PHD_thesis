@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,82 +8,108 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 516.89474 515.64618"
-   xml:space="preserve"
-   id="svg460"
-   sodipodi:docname="EFermi-prof.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   height="386.73465pt"
    width="387.67105pt"
-   height="386.73465pt"><metadata
-     id="metadata466"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs464"><defs
-       id="defs31"><rect
-         height="186.5"
-         width="185.5"
-         y="278.89999"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   sodipodi:docname="EFermi-prof.svg"
+   id="svg460"
+   xml:space="preserve"
+   viewBox="0 0 516.89474 515.64618"
+   y="0px"
+   x="0px"
+   version="1.1">
+  <metadata
+     id="metadata466">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs464">
+    <defs
+       id="defs31">
+      <rect
+         id="SVGID_5_"
          x="51.5"
-         id="SVGID_5_" /></defs><clipPath
-       id="SVGID_6_"><use
-         id="use33"
-         style="overflow:visible"
-         xlink:href="#SVGID_5_"
-         x="0"
-         y="0"
+         y="278.89999"
+         width="185.5"
+         height="186.5" />
+    </defs>
+    <clipPath
+       id="SVGID_6_">
+      <use
+         height="100%"
          width="100%"
-         height="100%" /></clipPath></defs><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1244"
-     inkscape:window-height="861"
-     id="namedview462"
-     showgrid="false"
-     inkscape:zoom="2.2653913"
-     inkscape:cx="356.50381"
-     inkscape:cy="355.57317"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg460"
-     units="pt"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
+         y="0"
+         x="0"
+         xlink:href="#SVGID_5_"
+         style="overflow:visible"
+         id="use33" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     fit-margin-bottom="0"
      fit-margin-right="0"
-     fit-margin-bottom="0"><sodipodi:guide
-       position="378.61916,299.96127"
-       orientation="1,0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     units="pt"
+     inkscape:current-layer="Layer_2"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="355.63359"
+     inkscape:cx="111.6992"
+     inkscape:zoom="0.92870685"
+     showgrid="false"
+     id="namedview462"
+     inkscape:window-height="878"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <sodipodi:guide
+       inkscape:locked="false"
        id="guide1330"
-       inkscape:locked="false" /><sodipodi:guide
-       position="126.95146,54.249701"
        orientation="1,0"
+       position="378.61916,299.96127" />
+    <sodipodi:guide
+       inkscape:locked="false"
        id="guide1350"
-       inkscape:locked="false" /><sodipodi:guide
-       position="276.23904,393.60162"
-       orientation="0,1"
-       id="guide1372"
-       inkscape:locked="false" /><sodipodi:guide
-       position="446.35627,149.12808"
-       orientation="0,1"
-       id="guide1417"
-       inkscape:locked="false" /><sodipodi:guide
-       position="170.90715,250.21437"
        orientation="1,0"
+       position="126.95146,54.249701" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1372"
+       orientation="0,1"
+       position="276.23904,393.60162" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1417"
+       orientation="0,1"
+       position="446.35627,149.12808" />
+    <sodipodi:guide
+       inkscape:locked="false"
        id="guide1435"
-       inkscape:locked="false" /></sodipodi:namedview><style
-     type="text/css"
-     id="style2">
+       orientation="1,0"
+       position="170.90715,250.21437" />
+  </sodipodi:namedview>
+  <style
+     id="style2"
+     type="text/css">
 	.st0{clip-path:url(#SVGID_2_);}
 	.st1{fill:#FFFFFF;}
 	.st2{clip-path:url(#SVGID_4_);}
@@ -111,137 +135,188 @@
 	.st22{fill:none;stroke:#ED1C24;stroke-width:0.75;stroke-miterlimit:10;}
 	.st23{fill:none;stroke:#2E3192;stroke-width:0.75;stroke-miterlimit:10;}
 	.st24{font-size:16px;}
-</style><g
-     id="Layer_1"
-     transform="translate(-17.248539,0.6964671)"><g
-       id="g14"><defs
-         id="defs5"><rect
-           id="SVGID_1_"
-           x="302.79999"
-           y="29.200001"
+</style>
+  <g
+     transform="translate(-17.248539,0.6964671)"
+     id="Layer_1">
+    <g
+       id="g14">
+      <defs
+         id="defs5">
+        <rect
+           height="186.39999"
            width="190.3"
-           height="186.39999" /></defs><clipPath
-         id="SVGID_2_"><use
-           xlink:href="#SVGID_1_"
-           style="overflow:visible"
-           id="use7"
-           x="0"
-           y="0"
+           y="29.200001"
+           x="302.79999"
+           id="SVGID_1_" />
+      </defs>
+      <clipPath
+         id="SVGID_2_">
+        <use
+           height="100%"
            width="100%"
-           height="100%" /></clipPath><g
-         class="st0"
+           y="0"
+           x="0"
+           id="use7"
+           style="overflow:visible"
+           xlink:href="#SVGID_1_" />
+      </clipPath>
+      <g
+         id="g12"
          clip-path="url(#SVGID_2_)"
-         id="g12"><image
+         class="st0">
+        <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/qc/sub_img/FBD7C4A5A668F3C0.jpg"
            xlink:href="sub_img/FBD7C4A5A668F3C0.jpg"
            id="image10"
            transform="matrix(0.2122,0,0,0.2122,257.7919,6.3211)"
            height="1181"
            width="1181"
-           style="overflow:visible" /></g></g><rect
-       x="313.39999"
-       y="37"
-       class="st1"
-       width="61.099998"
-       height="56.5"
+           style="overflow:visible" />
+      </g>
+    </g>
+    <rect
+       style="fill:#ffffff"
        id="rect16"
-       style="fill:#ffffff" /><g
-       id="g28"><defs
-         id="defs19"><rect
-           id="SVGID_3_"
-           x="52.799999"
-           y="29.6"
+       height="56.5"
+       width="61.099998"
+       class="st1"
+       y="37"
+       x="313.39999" />
+    <g
+       id="g28">
+      <defs
+         id="defs19">
+        <rect
+           height="186.60001"
            width="185.8"
-           height="186.60001" /></defs><clipPath
-         id="SVGID_4_"><use
-           xlink:href="#SVGID_3_"
-           style="overflow:visible"
-           id="use21"
-           x="0"
-           y="0"
+           y="29.6"
+           x="52.799999"
+           id="SVGID_3_" />
+      </defs>
+      <clipPath
+         id="SVGID_4_">
+        <use
+           height="100%"
            width="100%"
-           height="100%" /></clipPath><g
-         class="st2"
+           y="0"
+           x="0"
+           id="use21"
+           style="overflow:visible"
+           xlink:href="#SVGID_3_" />
+      </clipPath>
+      <g
+         id="g26"
          clip-path="url(#SVGID_4_)"
-         id="g26"><image
+         class="st2">
+        <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/qc/sub_img/FBD7C4A5A668F3C1.jpg"
            xlink:href="sub_img/FBD7C4A5A668F3C1.jpg"
            id="image24"
            transform="matrix(0.2127,0,0,0.2127,8,8.2784)"
            height="1181"
            width="1181"
-           style="overflow:visible" /></g></g><g
-       id="g38"
+           style="overflow:visible" />
+      </g>
+    </g>
+    <g
+       class="st3"
        clip-path="url(#SVGID_6_)"
-       class="st3"><image
+       id="g38">
+      <image
          sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/qc/sub_img/FBD7C4A5A668F3C7.jpg"
          xlink:href="sub_img/FBD7C4A5A668F3C7.jpg"
          style="overflow:visible"
          width="1181"
          height="1181"
          transform="matrix(0.2123,0,0,0.2123,6.4215,256.7329)"
-         id="image36" /></g><rect
-       x="56"
-       y="407.60001"
-       class="st4"
-       width="88.199997"
-       height="53.099998"
+         id="image36" />
+    </g>
+    <rect
+       style="opacity:0.35;fill:#ff551d;fill-opacity:1"
        id="rect42"
-       style="opacity:0.35;fill:#ff551d;fill-opacity:1" /><rect
-       x="144.5"
-       y="282.60001"
-       class="st5"
-       width="89.5"
-       height="46.400002"
+       height="53.099998"
+       width="88.199997"
+       class="st4"
+       y="407.60001"
+       x="56" />
+    <rect
+       style="opacity:0.35;fill:#009cef;fill-opacity:1"
        id="rect44"
-       style="opacity:0.35;fill:#009cef;fill-opacity:1" /><g
-       id="g56"><line
-         style="fill:none;stroke:#000000;stroke-miterlimit:10"
-         id="line46"
-         y2="406.70001"
-         x2="225.5"
-         y1="330.29999"
+       height="46.400002"
+       width="89.5"
+       class="st5"
+       y="282.60001"
+       x="144.5" />
+    <g
+       id="g56">
+      <line
+         class="st6"
          x1="225.5"
-         class="st6" /><g
-         id="g50"><polygon
-           id="polygon48"
-           points="221.4,333.7 222.2,334.3 225.5,330.7 228.9,334.3 229.6,333.7 225.5,329.3 " /></g><g
-         id="g54"><polygon
-           id="polygon52"
-           points="221.4,403.4 222.2,402.7 225.5,406.3 228.9,402.7 229.6,403.4 225.5,407.8 " /></g></g><rect
-       x="150"
-       y="42.299999"
-       class="st1"
-       width="54"
-       height="22.9"
+         y1="330.29999"
+         x2="225.5"
+         y2="406.70001"
+         id="line46"
+         style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+      <g
+         id="g50">
+        <polygon
+           points="221.4,333.7 222.2,334.3 225.5,330.7 228.9,334.3 229.6,333.7 225.5,329.3 "
+           id="polygon48" />
+      </g>
+      <g
+         id="g54">
+        <polygon
+           points="221.4,403.4 222.2,402.7 225.5,406.3 228.9,402.7 229.6,403.4 225.5,407.8 "
+           id="polygon52" />
+      </g>
+    </g>
+    <rect
+       style="fill:#ffffff"
        id="rect60"
-       style="fill:#ffffff" /><g
-       id="g72"><defs
-         id="defs63"><rect
-           id="SVGID_7_"
-           x="489.10001"
-           y="317.39999"
+       height="22.9"
+       width="54"
+       class="st1"
+       y="42.299999"
+       x="150" />
+    <g
+       id="g72">
+      <defs
+         id="defs63">
+        <rect
+           height="157.3"
            width="21.1"
-           height="157.3" /></defs><clipPath
-         id="SVGID_8_"><use
-           xlink:href="#SVGID_7_"
-           style="overflow:visible"
-           id="use65"
-           x="0"
-           y="0"
+           y="317.39999"
+           x="489.10001"
+           id="SVGID_7_" />
+      </defs>
+      <clipPath
+         id="SVGID_8_">
+        <use
+           height="100%"
            width="100%"
-           height="100%" /></clipPath><g
-         class="st7"
-         clip-path="url(#SVGID_8_)"
+           y="0"
+           x="0"
+           id="use65"
+           style="overflow:visible"
+           xlink:href="#SVGID_7_" />
+      </clipPath>
+      <g
+         transform="matrix(1,0,0,1.5346223,-0.81129456,-212.40161)"
          id="g70"
-         transform="matrix(1,0,0,1.5346223,-0.81129456,-212.40161)"><image
+         clip-path="url(#SVGID_8_)"
+         class="st7">
+        <image
            sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/qc/sub_img/FBD7C4A5A668F3C2.jpg"
            xlink:href="sub_img/FBD7C4A5A668F3C2.jpg"
            id="image68"
            transform="matrix(0.2892,0,0,0.1913,204.7445,286.5784)"
            height="1181"
            width="1181"
-           style="overflow:visible" /></g></g><image
+           style="overflow:visible" />
+      </g>
+    </g>
+    <image
        sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/qc/sub_img/FBD7C4A5A668F3C0.png"
        xlink:href="sub_img/FBD7C4A5A668F3C0.png"
        y="274.6875"
@@ -249,701 +324,835 @@
        style="overflow:visible"
        width="183.2747"
        height="185.82339"
-       id="Layer_0_1_" /></g><g
-     id="Layer_2"
-     transform="translate(-1.248539,0.6964671)"><text
-       class="st10 st9"
-       id="text85"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-       x="139.2383"
-       y="59.623501"><tspan
-         sodipodi:role="line"
-         id="tspan1352"
-         x="139.2383"
-         y="59.623501">$n_0 = n_{\mathrm{i}}$</tspan></text>
+       id="Layer_0_1_" />
+  </g>
+  <g
+     transform="translate(-1.248539,0.6964671)"
+     id="Layer_2"><text
+   y="59.623501"
+   x="139.2383"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="text85"
+   class="st10 st9"><tspan
+     y="59.623501"
+     x="139.2383"
+     id="tspan1352"
+     sodipodi:role="line">$n_0 = n_{\mathrm{i}}$</tspan></text>
+
 <g
-       id="g115"
-       transform="translate(-16)"><text
-         transform="translate(139.2389,223.1892)"
-         class="st8 st12"
-         id="text95"
-         style="font-size:10px;font-family:ArialMT">10$^{10}$</text>
+   transform="translate(-16)"
+   id="g115"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text95"
+   class="st8 st12"
+   transform="translate(139.2389,223.1892)">10$^{10}$</text>
+
 <text
-         transform="translate(184.4889,223.1892)"
-         class="st8 st12"
-         id="text99"
-         style="font-size:10px;font-family:ArialMT">10$^{15}$</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text99"
+   class="st8 st12"
+   transform="translate(184.4889,223.1892)">10$^{15}$</text>
+
 <text
-         transform="translate(228.9889,223.1892)"
-         class="st8 st12"
-         id="text103"
-         style="font-size:10px;font-family:ArialMT">10$^{20}$</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text103"
+   class="st8 st12"
+   transform="translate(228.9889,223.1892)">10$^{20}$</text>
+
 <text
-         transform="translate(94.4889,223.1892)"
-         class="st8 st12"
-         id="text107"
-         style="font-size:10px;font-family:ArialMT">10$^5$</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text107"
+   class="st8 st12"
+   transform="translate(94.4889,223.1892)">10$^5$</text>
+
 <text
-         transform="translate(50.489,223.1894)"
-         class="st8 st12"
-         id="text111"
-         style="font-size:10px;font-family:ArialMT">10$^0$</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text111"
+   class="st8 st12"
+   transform="translate(50.489,223.1894)">10$^0$</text>
+
 <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="91.925072"
-         y="221.47572"
-         id="text1465"><tspan
-           sodipodi:role="line"
-           id="tspan1463"
-           x="91.925072"
-           y="232.28477"></tspan></text>
+   id="text1465"
+   y="221.47572"
+   x="91.925072"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve" />
+
 <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="16.739765"
-         y="12.054995"
-         id="text1469"><tspan
-           sodipodi:role="line"
-           id="tspan1467"
-           x="16.739765"
-           y="12.054995"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize a</tspan></text>
+   id="text1469"
+   y="12.054995"
+   x="16.739765"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+     y="12.054995"
+     x="16.739765"
+     id="tspan1467"
+     sodipodi:role="line">\Lsize a</tspan></text>
+
 <text
-         id="text1473"
-         y="12.054995"
-         x="262.73975"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-           y="12.054995"
-           x="262.73975"
-           id="tspan1471"
-           sodipodi:role="line">\Lsize b</tspan></text>
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+   x="262.73975"
+   y="12.054995"
+   id="text1473"><tspan
+     sodipodi:role="line"
+     id="tspan1471"
+     x="262.73975"
+     y="12.054995"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize b</tspan></text>
+
 <text
-         id="text1477"
-         y="272.05499"
-         x="16.739765"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-           y="272.05499"
-           x="16.739765"
-           id="tspan1475"
-           sodipodi:role="line">\Lsize c</tspan></text>
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+   x="16.739765"
+   y="272.05499"
+   id="text1477"><tspan
+     sodipodi:role="line"
+     id="tspan1475"
+     x="16.739765"
+     y="272.05499"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize c</tspan></text>
+
 <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="262.73975"
-         y="272.05499"
-         id="text1481"><tspan
-           sodipodi:role="line"
-           id="tspan1479"
-           x="262.73975"
-           y="272.05499"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize d</tspan></text>
-</g><text
-       transform="matrix(0,-0.583,0.583,0,275.1674,382.2788)"
-       class="st8 st14"
-       id="text121"
-       style="font-size:13px;font-family:ArialMT" />
+   id="text1481"
+   y="272.05499"
+   x="262.73975"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+     y="272.05499"
+     x="262.73975"
+     id="tspan1479"
+     sodipodi:role="line">\Lsize d</tspan></text>
+
+</g>
 <text
-       class="st10 st14"
-       id="text129"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="128.2384"
-       y="237.93919"><tspan
-         sodipodi:role="line"
-         id="tspan1354"
-         x="128.2384"
-         y="237.93919">$n_0$ (10$^{13}$cm$^{-2}$)</tspan></text>
+   style="font-size:13px;font-family:ArialMT"
+   id="text121"
+   class="st8 st14"
+   transform="matrix(0,-0.583,0.583,0,275.1674,382.2788)" />
+
 <text
-       transform="translate(144.4497,488.0132)"
-       class="st8 st9"
-       id="text147"
-       style="font-size:12px;font-family:ArialMT" />
+   y="237.93919"
+   x="128.2384"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text129"
+   class="st10 st14"><tspan
+     y="237.93919"
+     x="128.2384"
+     id="tspan1354"
+     sodipodi:role="line">$n_0$ (cm$^{-3}$)</tspan></text>
+
 <text
-       class="st10 st9"
-       id="text163"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="380.15948"
-       y="488.01321"><tspan
-         sodipodi:role="line"
-         id="tspan1328"
-         x="380.15948"
-         y="488.01321">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+   style="font-size:12px;font-family:ArialMT"
+   id="text147"
+   class="st8 st9"
+   transform="translate(144.4497,488.0132)" />
+
 <text
-       transform="translate(397.6829,488.0132)"
-       class="st8 st9"
-       id="text171"
-       style="font-size:12px;font-family:ArialMT" />
+   y="488.01321"
+   x="380.15948"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text163"
+   class="st10 st9"><tspan
+     y="488.01321"
+     x="380.15948"
+     id="tspan1328"
+     sodipodi:role="line">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+
+<text
+   style="font-size:12px;font-family:ArialMT"
+   id="text171"
+   class="st8 st9"
+   transform="translate(397.6829,488.0132)" />
+
 <g
-       id="g201"
-       transform="translate(-16)"><text
-         class="st8 st15"
-         id="text181"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
-         x="305.83609"
-         y="295.61359">10$^{18}$</text>
+   transform="translate(-16)"
+   id="g201"><text
+   y="295.61359"
+   x="305.83609"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
+   id="text181"
+   class="st8 st15">10$^{18}$</text>
+
 <text
-         class="st8 st15"
-         id="text185"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
-         x="305.83609"
-         y="334.61249">10$^{14}$</text>
+   y="334.61249"
+   x="305.83609"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
+   id="text185"
+   class="st8 st15">10$^{14}$</text>
+
 <text
-         class="st8 st15"
-         id="text189"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
-         x="305.83609"
-         y="373.11359">10$^{10}$</text>
+   y="373.11359"
+   x="305.83609"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
+   id="text189"
+   class="st8 st15">10$^{10}$</text>
+
 <text
-         class="st8 st15"
-         id="text193"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
-         x="305.65347"
-         y="410.61359">10$^{6}$</text>
+   y="410.61359"
+   x="305.65347"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
+   id="text193"
+   class="st8 st15">10$^{6}$</text>
+
 <text
-         class="st8 st15"
-         id="text197"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
-         x="305.83609"
-         y="448.61359">10$^{2}$</text>
-</g><g
-       id="g213"
-       transform="translate(-18)"><text
-         transform="translate(303.1622,470.9839)"
-         class="st8 st12"
-         id="text203"
-         style="font-size:10px;font-family:ArialMT">-2</text>
-<text
-         transform="translate(348.4122,470.9839)"
-         class="st8 st12"
-         id="text205"
-         style="font-size:10px;font-family:ArialMT">-1</text>
-<text
-         transform="translate(395.6622,470.9839)"
-         class="st8 st12"
-         id="text207"
-         style="font-size:10px;font-family:ArialMT">0</text>
-<text
-         transform="translate(439.4122,470.9839)"
-         class="st8 st12"
-         id="text209"
-         style="font-size:10px;font-family:ArialMT">1</text>
-<text
-         transform="translate(484.6622,470.9839)"
-         class="st8 st12"
-         id="text211"
-         style="font-size:10px;font-family:ArialMT">2</text>
-</g><g
-       id="g225"
-       transform="translate(-16)"><text
-         transform="translate(510.7966,340.9839)"
-         class="st8 st12"
-         id="text215"
-         style="font-size:10px;font-family:ArialMT">0.8</text>
-<text
-         transform="translate(510.7966,368.3589)"
-         class="st8 st12"
-         id="text217"
-         style="font-size:10px;font-family:ArialMT">0.4</text>
-<text
-         transform="translate(510.7966,450.4839)"
-         class="st8 st12"
-         id="text219"
-         style="font-size:10px;font-family:ArialMT">-0.8</text>
-<text
-         transform="translate(510.7966,423.1089)"
-         class="st8 st12"
-         id="text221"
-         style="font-size:10px;font-family:ArialMT">-0.4</text>
-<text
-         transform="translate(510.7966,395.7339)"
-         class="st8 st12"
-         id="text223"
-         style="font-size:10px;font-family:ArialMT">0</text>
-</g><text
-       class="st10 st9"
-       id="text227"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-       x="477.2966"
-       y="321.98389"><tspan
-         sodipodi:role="line"
-         id="tspan1397"
-         x="477.2966"
-         y="321.98389">$\psi_0$ (V)</tspan></text>
-<text
-       transform="matrix(0.583,0,0,0.583,506.8903,320.313)"
-       class="st8 st14"
-       id="text231"
-       style="font-size:13px;font-family:ArialMT" />
-<text
-       transform="rotate(-90)"
-       class="st8 st9"
-       id="text235"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="-120.1787"
-       y="261.7338"><tspan
-         sodipodi:role="line"
-         id="tspan1370"
-         x="-120.1787"
-         y="261.7338">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+   y="448.61359"
+   x="305.83609"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end"
+   id="text197"
+   class="st8 st15">10$^{2}$</text>
+
+</g>
 <g
-       id="g253"
-       transform="translate(-16)"><text
-         transform="translate(300.9951,222.3867)"
-         class="st8 st12"
-         id="text243"
-         style="font-size:10px;font-family:ArialMT">-2</text>
+   transform="translate(-18)"
+   id="g213"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text203"
+   class="st8 st12"
+   transform="translate(303.1622,470.9839)">-2</text>
+
 <text
-         transform="translate(346.2451,222.3867)"
-         class="st8 st12"
-         id="text245"
-         style="font-size:10px;font-family:ArialMT">-1</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text205"
+   class="st8 st12"
+   transform="translate(348.4122,470.9839)">-1</text>
+
 <text
-         transform="translate(393.4951,222.3867)"
-         class="st8 st12"
-         id="text247"
-         style="font-size:10px;font-family:ArialMT">0</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text207"
+   class="st8 st12"
+   transform="translate(395.6622,470.9839)">0</text>
+
 <text
-         transform="translate(437.2451,222.3867)"
-         class="st8 st12"
-         id="text249"
-         style="font-size:10px;font-family:ArialMT">1</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text209"
+   class="st8 st12"
+   transform="translate(439.4122,470.9839)">1</text>
+
 <text
-         transform="translate(482.4951,222.3867)"
-         class="st8 st12"
-         id="text251"
-         style="font-size:10px;font-family:ArialMT">2</text>
-</g><text
-       transform="translate(394.9793,237.2764)"
-       class="st8 st9"
-       id="text263"
-       style="font-size:12px;font-family:ArialMT" />
+   style="font-size:10px;font-family:ArialMT"
+   id="text211"
+   class="st8 st12"
+   transform="translate(484.6622,470.9839)">2</text>
+
+</g>
 <g
-       id="g287"
-       transform="translate(-18)"><text
-         transform="translate(297.0099,125.4603)"
-         class="st8 st12"
-         id="text273"
-         style="font-size:10px;font-family:ArialMT">0</text>
+   transform="translate(-16)"
+   id="g225"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text215"
+   class="st8 st12"
+   transform="translate(510.7966,340.9839)">0.8</text>
+
 <text
-         transform="translate(285.34,154.2103)"
-         class="st8 st12"
-         id="text275"
-         style="font-size:10px;font-family:ArialMT">-0.2</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text217"
+   class="st8 st12"
+   transform="translate(510.7966,368.3589)">0.4</text>
+
 <text
-         transform="translate(285.34,184.4155)"
-         class="st8 st12"
-         id="text277"
-         style="font-size:10px;font-family:ArialMT">-0.4</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text219"
+   class="st8 st12"
+   transform="translate(510.7966,450.4839)">-0.8</text>
+
 <text
-         transform="translate(285.34,213.9439)"
-         class="st8 st12"
-         id="text279"
-         style="font-size:10px;font-family:ArialMT">-0.6</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text221"
+   class="st8 st12"
+   transform="translate(510.7966,423.1089)">-0.4</text>
+
 <text
-         transform="translate(288.6701,95.3915)"
-         class="st8 st12"
-         id="text281"
-         style="font-size:10px;font-family:ArialMT">0.2</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text223"
+   class="st8 st12"
+   transform="translate(510.7966,395.7339)">0</text>
+
+</g>
 <text
-         transform="translate(288.6701,66.2661)"
-         class="st8 st12"
-         id="text283"
-         style="font-size:10px;font-family:ArialMT">0.4</text>
+   y="321.98389"
+   x="477.2966"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="text227"
+   class="st10 st9"><tspan
+     y="321.98389"
+     x="477.2966"
+     id="tspan1397"
+     sodipodi:role="line">$\psi_0$ (V)</tspan></text>
+
 <text
-         transform="translate(288.6701,37.7103)"
-         class="st8 st12"
-         id="text285"
-         style="font-size:10px;font-family:ArialMT">0.6</text>
-</g><g
-       id="g299"
-       transform="translate(-18)"><text
-         transform="translate(47.6586,125.19)"
-         class="st8 st12"
-         id="text289"
-         style="font-size:10px;font-family:ArialMT">0</text>
+   style="font-size:13px;font-family:ArialMT"
+   id="text231"
+   class="st8 st14"
+   transform="matrix(0.583,0,0,0.583,506.8903,320.313)" />
+
 <text
-         transform="translate(35.9886,169.4212)"
-         class="st8 st12"
-         id="text291"
-         style="font-size:10px;font-family:ArialMT">-0.2</text>
+   y="261.7338"
+   x="-120.1787"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text235"
+   class="st8 st9"
+   transform="rotate(-90)"><tspan
+     y="261.7338"
+     x="-120.1787"
+     id="tspan1370"
+     sodipodi:role="line">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+
+<g
+   transform="translate(-16)"
+   id="g253"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text243"
+   class="st8 st12"
+   transform="translate(300.9951,222.3867)">-2</text>
+
 <text
-         transform="translate(35.9886,213.44)"
-         class="st8 st12"
-         id="text293"
-         style="font-size:10px;font-family:ArialMT">-0.4</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text245"
+   class="st8 st12"
+   transform="translate(346.2451,222.3867)">-1</text>
+
 <text
-         transform="translate(39.3187,80.69)"
-         class="st8 st12"
-         id="text295"
-         style="font-size:10px;font-family:ArialMT">0.2</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text247"
+   class="st8 st12"
+   transform="translate(393.4951,222.3867)">0</text>
+
 <text
-         transform="translate(39.3187,35.7215)"
-         class="st8 st12"
-         id="text297"
-         style="font-size:10px;font-family:ArialMT">0.4</text>
-</g><g
-       id="g311"
-       transform="translate(-18)"><text
-         transform="translate(37.084,288.2027)"
-         class="st8 st12"
-         id="text301"
-         style="font-size:10px;font-family:ArialMT">0.4</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text249"
+   class="st8 st12"
+   transform="translate(437.2451,222.3867)">1</text>
+
 <text
-         transform="translate(45.4239,331.7016)"
-         class="st8 st12"
-         id="text303"
-         style="font-size:10px;font-family:ArialMT">0</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text251"
+   class="st8 st12"
+   transform="translate(482.4951,222.3867)">2</text>
+
+</g>
 <text
-         transform="translate(33.7538,375.1399)"
-         class="st8 st12"
-         id="text305"
-         style="font-size:10px;font-family:ArialMT">-0.4</text>
+   style="font-size:12px;font-family:ArialMT"
+   id="text263"
+   class="st8 st9"
+   transform="translate(394.9793,237.2764)" />
+
+<g
+   transform="translate(-18)"
+   id="g287"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text273"
+   class="st8 st12"
+   transform="translate(297.0099,125.4603)">0</text>
+
 <text
-         transform="translate(33.7538,419.1399)"
-         class="st8 st12"
-         id="text307"
-         style="font-size:10px;font-family:ArialMT">-0.8</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text275"
+   class="st8 st12"
+   transform="translate(285.34,154.2103)">-0.2</text>
+
 <text
-         transform="translate(33.7538,463.1396)"
-         class="st8 st12"
-         id="text309"
-         style="font-size:10px;font-family:ArialMT">-1.2</text>
-</g><g
-       id="g323"
-       transform="translate(-16)"><text
-         transform="translate(49.7623,473.1235)"
-         class="st8 st12"
-         id="text313"
-         style="font-size:10px;font-family:ArialMT">-2</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text277"
+   class="st8 st12"
+   transform="translate(285.34,184.4155)">-0.4</text>
+
 <text
-         transform="translate(95.0123,473.1235)"
-         class="st8 st12"
-         id="text315"
-         style="font-size:10px;font-family:ArialMT">-1</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text279"
+   class="st8 st12"
+   transform="translate(285.34,213.9439)">-0.6</text>
+
 <text
-         transform="translate(142.2623,473.1235)"
-         class="st8 st12"
-         id="text317"
-         style="font-size:10px;font-family:ArialMT">0</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text281"
+   class="st8 st12"
+   transform="translate(288.6701,95.3915)">0.2</text>
+
 <text
-         transform="translate(186.0123,473.1235)"
-         class="st8 st12"
-         id="text319"
-         style="font-size:10px;font-family:ArialMT">1</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text283"
+   class="st8 st12"
+   transform="translate(288.6701,66.2661)">0.4</text>
+
 <text
-         transform="translate(231.2623,473.1235)"
-         class="st8 st12"
-         id="text321"
-         style="font-size:10px;font-family:ArialMT">2</text>
-</g><g
-       id="g333"
-       transform="translate(-16)"><g
-         id="g331"><path
-           class="st6"
-           d="m 157.4,61.6 c -0.2,0.7 -0.9,3.2 -3.4,4.9 c -1.8,1.2 -3.7,1.5 -5,1.5"
-           id="path325"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#000000;stroke-miterlimit:10" /><g
-           id="g329"><path
-             d="m 149.2,67.9 c 0.5,0.6 0.6,1.6 0.6,2.3 c -0.6,-1 -1.5,-1.9 -2.6,-2.5 c 1.2,-0.3 2.1,-1.2 3,-2 c -0.1,0.8 -0.4,1.7 -1,2.2 z"
-             id="path327"
-             inkscape:connector-curvature="0" /></g></g></g><text
-       class="st10 st9"
-       id="text163-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="127.78806"
-       y="488.12839"><tspan
-         sodipodi:role="line"
-         id="tspan1328-3"
-         x="127.78806"
-         y="488.12839">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text285"
+   class="st8 st12"
+   transform="translate(288.6701,37.7103)">0.6</text>
+
+</g>
+<g
+   transform="translate(-18)"
+   id="g299"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text289"
+   class="st8 st12"
+   transform="translate(47.6586,125.19)">0</text>
+
 <text
-       y="237.93919"
-       x="380.15948"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       id="text1368"
-       class="st10 st9"><tspan
-         y="237.93919"
-         x="380.15948"
-         id="tspan1366"
-         sodipodi:role="line">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text291"
+   class="st8 st12"
+   transform="translate(35.9886,169.4212)">-0.2</text>
+
 <text
-       y="13.733803"
-       x="-120.1787"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       id="text1376"
-       class="st8 st9"
-       transform="rotate(-90)"><tspan
-         y="13.733803"
-         x="-120.1787"
-         id="tspan1374"
-         sodipodi:role="line">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text293"
+   class="st8 st12"
+   transform="translate(35.9886,213.44)">-0.4</text>
+
 <text
-       class="st10 st14"
-       id="text129-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="-365.65695"
-       y="259.44513"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1354-4"
-         x="-365.65695"
-         y="259.44513">$n_0$ (10$^{13}$cm$^{-2}$)</tspan></text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text295"
+   class="st8 st12"
+   transform="translate(39.3187,80.69)">0.2</text>
+
 <text
-       class="st10 st9"
-       id="text227-1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="-365.19284"
-       y="11.972052"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1397-9"
-         x="-365.19284"
-         y="11.972052">$\psi_0$ (V)</tspan></text>
-</g><g
-     id="Layer_3"
-     transform="translate(-17.248539,0.6964671)"><text
-       transform="translate(334.7966,333.9839)"
-       class="st1 st8 st11"
-       id="text336"
-       style="font-size:14px;font-family:ArialMT;fill:#ffffff">SI</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text297"
+   class="st8 st12"
+   transform="translate(39.3187,35.7215)">0.4</text>
+
+</g>
+<g
+   transform="translate(-18)"
+   id="g311"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text301"
+   class="st8 st12"
+   transform="translate(37.084,288.2027)">0.4</text>
+
 <text
-       transform="translate(437.7966,412.9272)"
-       class="st1 st8 st11"
-       id="text338"
-       style="font-size:14px;font-family:ArialMT;fill:#ffffff">SI</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text303"
+   class="st8 st12"
+   transform="translate(45.4239,331.7016)">0</text>
+
 <text
-       transform="translate(336.7966,412.9272)"
-       class="st8 st11"
-       id="text340"
-       style="font-size:14px;font-family:ArialMT">Ac</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text305"
+   class="st8 st12"
+   transform="translate(33.7538,375.1399)">-0.4</text>
+
 <text
-       transform="translate(435.7966,333.9839)"
-       class="st8 st11"
-       id="text342"
-       style="font-size:14px;font-family:ArialMT">Ac</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text307"
+   class="st8 st12"
+   transform="translate(33.7538,419.1399)">-0.8</text>
+
 <text
-       transform="translate(364.7966,305.4839)"
-       class="st1 st8 st11"
-       id="text344"
-       style="font-size:14px;font-family:ArialMT;fill:#ffffff">WI</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text309"
+   class="st8 st12"
+   transform="translate(33.7538,463.1396)">-1.2</text>
+
+</g>
+<g
+   transform="translate(-16)"
+   id="g323"><text
+   style="font-size:10px;font-family:ArialMT"
+   id="text313"
+   class="st8 st12"
+   transform="translate(49.7623,473.1235)">-2</text>
+
 <text
-       transform="translate(409.7966,305.4839)"
-       class="st8 st11"
-       id="text346"
-       style="font-size:14px;font-family:ArialMT">Dp</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text315"
+   class="st8 st12"
+   transform="translate(95.0123,473.1235)">-1</text>
+
 <text
-       transform="translate(364.7966,442.9828)"
-       class="st8 st11"
-       id="text348"
-       style="font-size:14px;font-family:ArialMT">Dp</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text317"
+   class="st8 st12"
+   transform="translate(142.2623,473.1235)">0</text>
+
 <text
-       transform="translate(411.8005,442.9828)"
-       class="st1 st8 st11"
-       id="text350"
-       style="font-size:14px;font-family:ArialMT;fill:#ffffff">WI</text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text319"
+   class="st8 st12"
+   transform="translate(186.0123,473.1235)">1</text>
+
 <text
-       class="st10 st14"
-       id="text352"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       x="188.0233"
-       y="454.1232"><tspan
-         sodipodi:role="line"
-         id="tspan1443"
-         x="188.0233"
-         y="454.1232">$N_{\mathrm{D}} = 10^{16}$ cm$^{-3}$</tspan></text>
+   style="font-size:10px;font-family:ArialMT"
+   id="text321"
+   class="st8 st12"
+   transform="translate(231.2623,473.1235)">2</text>
+
+</g>
+<g
+   transform="translate(-16)"
+   id="g333">
+  <g
+     id="g331">
+    <path
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       id="path325"
+       d="m 157.4,61.6 c -0.2,0.7 -0.9,3.2 -3.4,4.9 c -1.8,1.2 -3.7,1.5 -5,1.5"
+       class="st6" />
+    <g
+       id="g329">
+      <path
+         inkscape:connector-curvature="0"
+         id="path327"
+         d="m 149.2,67.9 c 0.5,0.6 0.6,1.6 0.6,2.3 c -0.6,-1 -1.5,-1.9 -2.6,-2.5 c 1.2,-0.3 2.1,-1.2 3,-2 c -0.1,0.8 -0.4,1.7 -1,2.2 z" />
+    </g>
+  </g>
+</g>
 <text
-       transform="translate(310.7966,361.4839)"
-       class="st8 st11"
-       id="text364"
-       style="font-size:14px;font-family:ArialMT">n-type</text>
+   y="488.12839"
+   x="127.78806"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text163-5"
+   class="st10 st9"><tspan
+     y="488.12839"
+     x="127.78806"
+     id="tspan1328-3"
+     sodipodi:role="line">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+
 <text
-       transform="translate(310.7966,382.8931)"
-       class="st8 st11"
-       id="text366"
-       style="font-size:14px;font-family:ArialMT">p-type</text>
+   class="st10 st9"
+   id="text1368"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   x="380.15948"
+   y="237.93919"><tspan
+     sodipodi:role="line"
+     id="tspan1366"
+     x="380.15948"
+     y="237.93919">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
+
 <text
-       transform="translate(236.5233,309.1235)"
-       class="st10 st9"
-       id="text368"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><tspan
-         sodipodi:role="line"
-         id="tspan1419"
-         x="0"
-         y="0">$E_{\mathrm{C}}$</tspan></text>
+   transform="rotate(-90)"
+   class="st8 st9"
+   id="text1376"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   x="-120.1787"
+   y="13.733803"><tspan
+     sodipodi:role="line"
+     id="tspan1374"
+     x="-120.1787"
+     y="13.733803">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+
 <text
-       class="st8 st9"
-       id="text380"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;"
-       x="188.5233"
-       y="398.3735"><tspan
-         sodipodi:role="line"
-         id="tspan1711">$2(E_{\mathrm{F, \infty}} - E_{\mathrm{i, \infty}})$</tspan></text>
+   transform="rotate(-90)"
+   y="259.44513"
+   x="-365.65695"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;font-variant-east-asian:normal;"
+   id="text129-0"
+   class="st10 st14"><tspan
+     id="tspan225"
+     sodipodi:role="line">$n_0$ (cm$^{-3}$)</tspan></text>
+
 <text
-       transform="translate(146.7733,292.8169)"
-       class="st8 st15"
-       id="text394"
-       style="font-size:11px;font-family:ArialMT">Accumulation</text>
+   transform="rotate(-90)"
+   y="11.972052"
+   x="-365.19284"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text227-1"
+   class="st10 st9"><tspan
+     y="11.972052"
+     x="-365.19284"
+     id="tspan1397-9"
+     sodipodi:role="line">$\psi_0$ (V)</tspan></text>
+
+</g>
+  <g
+     transform="translate(-17.248539,0.6964671)"
+     id="Layer_3"><text
+   style="font-size:14px;font-family:ArialMT;fill:#ffffff"
+   id="text336"
+   class="st1 st8 st11"
+   transform="translate(334.7966,333.9839)">SI</text>
+
 <text
-       transform="translate(58.5233,456.0669)"
-       class="st8 st15"
-       id="text396"
-       style="font-size:11px;font-family:ArialMT">Strong Inversion</text>
+   style="font-size:14px;font-family:ArialMT;fill:#ffffff"
+   id="text338"
+   class="st1 st8 st11"
+   transform="translate(437.7966,412.9272)">SI</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text340"
+   class="st8 st11"
+   transform="translate(336.7966,412.9272)">Ac</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text342"
+   class="st8 st11"
+   transform="translate(435.7966,333.9839)">Ac</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT;fill:#ffffff"
+   id="text344"
+   class="st1 st8 st11"
+   transform="translate(364.7966,305.4839)">WI</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text346"
+   class="st8 st11"
+   transform="translate(409.7966,305.4839)">Dp</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text348"
+   class="st8 st11"
+   transform="translate(364.7966,442.9828)">Dp</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT;fill:#ffffff"
+   id="text350"
+   class="st1 st8 st11"
+   transform="translate(411.8005,442.9828)">WI</text>
+
+<text
+   y="454.1232"
+   x="188.0233"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text352"
+   class="st10 st14"><tspan
+     y="454.1232"
+     x="188.0233"
+     id="tspan1443"
+     sodipodi:role="line">$N_{\mathrm{D}} = 10^{16}$ cm$^{-3}$</tspan></text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text364"
+   class="st8 st11"
+   transform="translate(310.7966,361.4839)">n-type</text>
+
+<text
+   style="font-size:14px;font-family:ArialMT"
+   id="text366"
+   class="st8 st11"
+   transform="translate(310.7966,382.8931)">p-type</text>
+
+<text
+   y="0"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="text368"
+   class="st10 st9"
+   transform="translate(236.5233,309.1235)"><tspan
+     y="0"
+     x="0"
+     id="tspan1419"
+     sodipodi:role="line">$E_{\mathrm{C}}$</tspan></text>
+
+<text
+   y="398.3735"
+   x="188.5233"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+   id="text380"
+   class="st8 st9"><tspan
+     id="tspan1711"
+     sodipodi:role="line">$2(E_{\mathrm{F, \infty}} - E_{\mathrm{i, \infty}})$</tspan></text>
+
+<text
+   style="font-size:11px;font-family:ArialMT"
+   id="text394"
+   class="st8 st15"
+   transform="translate(146.7733,292.8169)">Accumulation</text>
+
+<text
+   style="font-size:11px;font-family:ArialMT"
+   id="text396"
+   class="st8 st15"
+   transform="translate(58.5233,456.0669)">Strong Inversion</text>
+
 <rect
-       x="308.20001"
-       y="37"
-       class="st1"
-       width="51.900002"
-       height="58.599998"
-       id="rect398"
-       style="fill:#ffffff" /><g
-       id="g416"
-       transform="matrix(0.88602933,0,0,0.88602933,33.44488,4.0062407)"><line
-         class="st16"
-         x1="311.60001"
-         y1="40.200001"
-         x2="325.79999"
-         y2="40.200001"
-         id="line400"
-         style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10" /><text
-         transform="translate(330.7622,42.5734)"
-         class="st8 st12"
-         id="text402"
-         style="font-size:10px;font-family:ArialMT">MOG</text>
-<line
-         class="st17"
-         x1="311.60001"
-         y1="56.299999"
-         x2="325.79999"
-         y2="56.299999"
-         id="line404"
-         style="fill:none;stroke:#ed1c24;stroke-width:3;stroke-miterlimit:10" /><text
-         transform="translate(330.7622,58.6741)"
-         class="st8 st12"
-         id="text406"
-         style="font-size:10px;font-family:ArialMT">p-type MOGS</text>
-<text
-         transform="translate(330.7621,91.3915)"
-         class="st8 st12"
-         id="text408"
-         style="font-size:10px;font-family:ArialMT">Intrinsic MOGS</text>
-<line
-         class="st18"
-         x1="311.60001"
-         y1="71.900002"
-         x2="326.20001"
-         y2="71.900002"
-         id="line410"
-         style="fill:none;stroke:#2e3192;stroke-width:3;stroke-miterlimit:10" /><text
-         transform="translate(330.7624,74.2916)"
-         class="st8 st12"
-         id="text412"
-         style="font-size:10px;font-family:ArialMT">n-type MOGS</text>
-<line
-         class="st19"
-         x1="311"
-         y1="88.5"
-         x2="325.79999"
-         y2="88.5"
-         id="line414"
-         style="fill:none;stroke:#39b54a;stroke-width:3;stroke-miterlimit:10" /></g><rect
-       x="109.5"
-       y="308.10001"
-       class="st1"
-       width="29.5"
-       height="11.8"
-       id="rect418"
-       style="fill:#ffffff" /><rect
-       x="160.10001"
-       y="349.70001"
-       class="st1"
-       width="43.599998"
-       height="14.6"
-       id="rect420"
-       style="fill:#ffffff" /><text
-       transform="translate(105.5,347.625)"
-       class="st20 st8 st9"
-       id="text422"
-       style="font-size:12px;font-family:ArialMT;fill:#ed1c24">MOS</text>
-<text
-       transform="translate(163,360.4839)"
-       class="st21 st8 st9"
-       id="text424"
-       style="font-size:12px;font-family:ArialMT;fill:#2e3192">MOGS</text>
+   style="fill:#ffffff"
+   id="rect398"
+   height="58.599998"
+   width="51.900002"
+   class="st1"
+   y="37"
+   x="308.20001" />
 <g
-       id="g436"><line
-         class="st20"
-         x1="131.39999"
-         y1="348.79999"
-         x2="141.89999"
-         y2="353.89999"
-         id="line426"
-         style="fill:#ed1c24" /><g
-         id="g434"><line
-           class="st22"
-           x1="131.39999"
-           y1="348.79999"
-           x2="140.7"
-           y2="353.29999"
-           id="line428"
-           style="fill:none;stroke:#ed1c24;stroke-width:0.75;stroke-miterlimit:10" /><g
-           id="g432"><path
-             class="st20"
-             d="m 140.5,353.2 c -0.2,-0.5 0,-1.3 0.2,-1.8 c 0.2,0.9 0.5,1.8 1.1,2.4 c -0.9,-0.1 -1.8,0.2 -2.6,0.6 c 0.4,-0.4 0.8,-1 1.3,-1.2 z"
-             id="path430"
-             inkscape:connector-curvature="0"
-             style="fill:#ed1c24" /></g></g></g><g
-       id="g448"><line
-         class="st21"
-         x1="162.5"
-         y1="357"
-         x2="150.8"
-         y2="357"
-         id="line438"
-         style="fill:#2e3192" /><g
-         id="g446"><line
-           class="st23"
-           x1="162.5"
-           y1="357"
-           x2="152.10001"
-           y2="357"
-           id="line440"
-           style="fill:none;stroke:#2e3192;stroke-width:0.75;stroke-miterlimit:10" /><g
-           id="g444"><path
-             class="st21"
-             d="m 152.3,357 c 0.4,0.4 0.6,1.2 0.6,1.7 c -0.5,-0.7 -1.2,-1.4 -2.1,-1.7 c 0.8,-0.3 1.5,-1 2.1,-1.7 c -0.1,0.6 -0.2,1.3 -0.6,1.7 z"
-             id="path442"
-             inkscape:connector-curvature="0"
-             style="fill:#2e3192" /></g></g></g><text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-       id="text1423"
-       class="st10 st9"
-       x="236.5233"
-       y="331.1235"><tspan
-         sodipodi:role="line"
-         id="tspan1425"
-         x="236.5233"
-         y="331.1235">$E_{\mathrm{F}}$</tspan></text>
+   transform="matrix(0.88602933,0,0,0.88602933,33.44488,4.0062407)"
+   id="g416"><line
+   style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
+   id="line400"
+   y2="40.200001"
+   x2="325.79999"
+   y1="40.200001"
+   x1="311.60001"
+   class="st16" />
 <text
-       y="431.1235"
-       x="236.5233"
-       class="st10 st9"
-       id="text1429"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><tspan
-         sodipodi:role="line"
-         id="tspan1431"
-         x="236.5233"
-         y="431.1235">$E_{\mathrm{V}}$</tspan></text>
-</g><path
-     style="fill:none;stroke:#888888;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0"
-     d="m 289.77118,122.3134 h 176.98026"
-     id="path1732"
-     inkscape:connector-curvature="0" /><path
+   style="font-size:10px;font-family:ArialMT"
+   id="text402"
+   class="st8 st12"
+   transform="translate(330.7622,42.5734)">MOG</text>
+
+<line
+   style="fill:none;stroke:#ed1c24;stroke-width:3;stroke-miterlimit:10"
+   id="line404"
+   y2="56.299999"
+   x2="325.79999"
+   y1="56.299999"
+   x1="311.60001"
+   class="st17" />
+<text
+   style="font-size:10px;font-family:ArialMT"
+   id="text406"
+   class="st8 st12"
+   transform="translate(330.7622,58.6741)">p-type MOGS</text>
+
+<text
+   style="font-size:10px;font-family:ArialMT"
+   id="text408"
+   class="st8 st12"
+   transform="translate(330.7621,91.3915)">Intrinsic MOGS</text>
+
+<line
+   style="fill:none;stroke:#2e3192;stroke-width:3;stroke-miterlimit:10"
+   id="line410"
+   y2="71.900002"
+   x2="326.20001"
+   y1="71.900002"
+   x1="311.60001"
+   class="st18" />
+<text
+   style="font-size:10px;font-family:ArialMT"
+   id="text412"
+   class="st8 st12"
+   transform="translate(330.7624,74.2916)">n-type MOGS</text>
+
+<line
+   style="fill:none;stroke:#39b54a;stroke-width:3;stroke-miterlimit:10"
+   id="line414"
+   y2="88.5"
+   x2="325.79999"
+   y1="88.5"
+   x1="311"
+   class="st19" />
+</g>
+<rect
+   style="fill:#ffffff"
+   id="rect418"
+   height="11.8"
+   width="29.5"
+   class="st1"
+   y="308.10001"
+   x="109.5" />
+<rect
+   style="fill:#ffffff"
+   id="rect420"
+   height="14.6"
+   width="43.599998"
+   class="st1"
+   y="349.70001"
+   x="160.10001" />
+<text
+   style="font-size:12px;font-family:ArialMT;fill:#ed1c24"
+   id="text422"
+   class="st20 st8 st9"
+   transform="translate(105.5,347.625)">MOS</text>
+
+<text
+   style="font-size:12px;font-family:ArialMT;fill:#2e3192"
+   id="text424"
+   class="st21 st8 st9"
+   transform="translate(163,360.4839)">MOGS</text>
+
+<g
+   id="g436">
+  <line
+     style="fill:#ed1c24"
+     id="line426"
+     y2="353.89999"
+     x2="141.89999"
+     y1="348.79999"
+     x1="131.39999"
+     class="st20" />
+  <g
+     id="g434">
+    <line
+       style="fill:none;stroke:#ed1c24;stroke-width:0.75;stroke-miterlimit:10"
+       id="line428"
+       y2="353.29999"
+       x2="140.7"
+       y1="348.79999"
+       x1="131.39999"
+       class="st22" />
+    <g
+       id="g432">
+      <path
+         style="fill:#ed1c24"
+         inkscape:connector-curvature="0"
+         id="path430"
+         d="m 140.5,353.2 c -0.2,-0.5 0,-1.3 0.2,-1.8 c 0.2,0.9 0.5,1.8 1.1,2.4 c -0.9,-0.1 -1.8,0.2 -2.6,0.6 c 0.4,-0.4 0.8,-1 1.3,-1.2 z"
+         class="st20" />
+    </g>
+  </g>
+</g>
+<g
+   id="g448">
+  <line
+     style="fill:#2e3192"
+     id="line438"
+     y2="357"
+     x2="150.8"
+     y1="357"
+     x1="162.5"
+     class="st21" />
+  <g
+     id="g446">
+    <line
+       style="fill:none;stroke:#2e3192;stroke-width:0.75;stroke-miterlimit:10"
+       id="line440"
+       y2="357"
+       x2="152.10001"
+       y1="357"
+       x1="162.5"
+       class="st23" />
+    <g
+       id="g444">
+      <path
+         style="fill:#2e3192"
+         inkscape:connector-curvature="0"
+         id="path442"
+         d="m 152.3,357 c 0.4,0.4 0.6,1.2 0.6,1.7 c -0.5,-0.7 -1.2,-1.4 -2.1,-1.7 c 0.8,-0.3 1.5,-1 2.1,-1.7 c -0.1,0.6 -0.2,1.3 -0.6,1.7 z"
+         class="st21" />
+    </g>
+  </g>
+</g>
+<text
+   y="331.1235"
+   x="236.5233"
+   class="st10 st9"
+   id="text1423"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><tspan
+     y="331.1235"
+     x="236.5233"
+     id="tspan1425"
+     sodipodi:role="line">$E_{\mathrm{F}}$</tspan></text>
+
+<text
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="text1429"
+   class="st10 st9"
+   x="236.5233"
+   y="431.1235"><tspan
+     y="431.1235"
+     x="236.5233"
+     id="tspan1431"
+     sodipodi:role="line">$E_{\mathrm{V}}$</tspan></text>
+
+</g>
+  <path
      inkscape:connector-curvature="0"
-     id="path1734"
+     id="path1732"
+     d="m 289.77118,122.3134 h 176.98026"
+     style="fill:none;stroke:#888888;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0" />
+  <path
+     style="fill:none;stroke:#888888;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
      d="m 378.61915,33.82327 v 176.98026"
-     style="fill:none;stroke:#888888;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1" /></svg>
+     id="path1734"
+     inkscape:connector-curvature="0" />
+</svg>
