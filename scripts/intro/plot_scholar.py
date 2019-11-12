@@ -35,7 +35,7 @@ def plot_main():
     ax.set_xticks(range(2002, 2019, 2))
     # l1 = ax.axvline(x=2004, ls="--", color="#757575")
     l2 = ax.axvline(x=2010, ls="--", color="#757575")
-    ax.text(x=2009.8, y=2e4, s="Noble Prize for graphene →", ha="right",
+    ax.text(x=2009.8, y=2e4, s="Nobel Prize for graphene →", ha="right",
             # size="small"
     )
     # t= ax.text(x=2009.8, y=3, s="Nobel prize for graphene →", ha="right",
