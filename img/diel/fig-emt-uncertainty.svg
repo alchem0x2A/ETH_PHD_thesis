@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    viewBox="0 0 146.11122 137.06417"
    version="1.1"
    id="svg28303"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
    sodipodi:docname="fig-emt-uncertainty.svg">
   <defs
      id="defs28297"
@@ -513,17 +511,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="336.62471"
-     inkscape:cy="442.88009"
+     inkscape:zoom="1.1842091"
+     inkscape:cx="417.02555"
+     inkscape:cy="236.05779"
      inkscape:document-units="mm"
-     inkscape:current-layer="matplotlib.axis_6"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1440"
-     inkscape:window-height="878"
-     inkscape:window-x="19"
+     inkscape:window-height="852"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-left="0.5"
@@ -532,7 +530,8 @@
      fit-margin-bottom="0.5"
      units="pt"
      inkscape:snap-nodes="false"
-     inkscape:snap-others="false">
+     inkscape:snap-others="false"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        position="14.563233,61.168234"
        orientation="0,1"
@@ -690,18 +689,15 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35675"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35671"
                y="-0.46875"
                x="0 4.1711431 9.5874023 12.084961 18.33252 22.503662"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoS$_2$</tspan>
-            <tspan
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoS$_2$</tspan><tspan
                id="tspan35673"
                y="1.7714063"
                x="27.63678"
-               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
-          </text>
+               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" /></text>
         </g>
       </g>
       <g
@@ -731,18 +727,15 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35690"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35686"
                y="-0.46875"
                x="0 4.1711431 9.5874023 12.084961 18.33252 22.503662 27.506104"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoSe$_2$</tspan>
-            <tspan
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoSe$_2$</tspan><tspan
                id="tspan35688"
                y="1.7714063"
                x="31.807922"
-               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
-          </text>
+               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" /></text>
         </g>
       </g>
       <g
@@ -772,18 +765,15 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35705"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35701"
                y="-0.625"
                x="0 4.1711431 9.5874023 12.084961 18.33252 22.503662 27.084961"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoTe$_2$</tspan>
-            <tspan
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-MoTe$_2$</tspan><tspan
                id="tspan35703"
                y="1.6151563"
                x="31.38678"
-               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
-          </text>
+               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" /></text>
         </g>
       </g>
       <g
@@ -813,18 +803,15 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35720"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35716"
                y="-0.46875"
                x="0 4.1711431 9.5874023 12.084961 19.163818"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WS$_2$</tspan>
-            <tspan
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WS$_2$</tspan><tspan
                id="tspan35718"
                y="1.7714063"
                x="24.296936"
-               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
-          </text>
+               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" /></text>
         </g>
       </g>
       <g
@@ -854,18 +841,15 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35735"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35731"
                y="-0.46875"
                x="0 4.1711431 9.5874023 12.084961 19.163818 24.16626"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WSe$_2$</tspan>
-            <tspan
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WSe$_2$</tspan><tspan
                id="tspan35733"
                y="1.7714063"
                x="28.468079"
-               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
-          </text>
+               style="font-size:5.25px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round" /></text>
         </g>
       </g>
       <g
@@ -895,13 +879,11 @@
            style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text35750"
-             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-            <tspan
+             style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"><tspan
                id="tspan35746"
                y="-0.625"
                x="0 4.1711431 9.5874023 12.084961 19.163818 23.745117"
-               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WTe$_2$</tspan>
-          </text>
+               style="font-size:7.5px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">2H-WTe$_2$</tspan></text>
         </g>
       </g>
       <g
@@ -1071,14 +1053,13 @@
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
             <text
                id="text35815"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49998188px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
-              <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49998px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               y="0"><tspan
                  sodipodi:role="line"
                  id="tspan1364"
                  x="2.8442591e-06"
                  y="0"
-                 style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">Estimation Error of $\delta_{\mathrm{2D}}^*$ (\AA{})</tspan>
-            </text>
+                 style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">Estimation Error of $\delta_{\mathrm{2D}}^*$ (\AA{})</tspan></text>
           </g>
         </g>
       </g>
@@ -1130,7 +1111,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.38369614,0,0,0.38369614,-20.146198,91.214927)"
+       transform="matrix(0.38369614,0,0,0.38369614,-21.204532,89.627426)"
        style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
        id="legend_1">
       <g
@@ -1139,7 +1120,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,19.74 h 14"
-           style="white-space:pre;fill:none;stroke:#1f77b4;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#1f77b4;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path35997" />
       </g>
       <g
@@ -1155,18 +1136,15 @@
            id="g36007">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36005">
-            <tspan
+             id="text36005"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.110352 21.003418"
                y="-0.84375"
-               id="tspan36001">2H-MoS$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36001">2H-MoS$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="25.794327"
                y="1.2470624"
-               id="tspan36003" />
-          </text>
+               id="tspan36003" /></text>
         </g>
       </g>
       <g
@@ -1175,7 +1153,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,30.52 h 14"
-           style="white-space:pre;fill:none;stroke:#ff7f0e;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#ff7f0e;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path36010" />
       </g>
       <g
@@ -1191,18 +1169,15 @@
            id="g36020">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36018">
-            <tspan
+             id="text36018"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.110352 21.003418 25.672363"
                y="-0.84375"
-               id="tspan36014">2H-MoSe$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36014">2H-MoSe$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="29.687393"
                y="1.2470624"
-               id="tspan36016" />
-          </text>
+               id="tspan36016" /></text>
         </g>
       </g>
       <g
@@ -1211,7 +1186,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,41.16 h 14"
-           style="white-space:pre;fill:none;stroke:#2ca02c;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#2ca02c;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path36023" />
       </g>
       <g
@@ -1227,18 +1202,15 @@
            id="g36033">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36031">
-            <tspan
+             id="text36031"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.110352 21.003418 25.279297"
                y="-0.984375"
-               id="tspan36027">2H-MoTe$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36027">2H-MoTe$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="29.294327"
                y="1.1064374"
-               id="tspan36029" />
-          </text>
+               id="tspan36029" /></text>
         </g>
       </g>
       <g
@@ -1247,7 +1219,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,51.94 h 14"
-           style="white-space:pre;fill:none;stroke:#d62728;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#d62728;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path36036" />
       </g>
       <g
@@ -1263,18 +1235,15 @@
            id="g36046">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36044">
-            <tspan
+             id="text36044"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.88623"
                y="-0.84375"
-               id="tspan36040">2H-WS$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36040">2H-WS$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="22.677139"
                y="1.2470624"
-               id="tspan36042" />
-          </text>
+               id="tspan36042" /></text>
         </g>
       </g>
       <g
@@ -1283,7 +1252,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,62.72 h 14"
-           style="white-space:pre;fill:none;stroke:#9467bd;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#9467bd;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path36049" />
       </g>
       <g
@@ -1299,18 +1268,15 @@
            id="g36059">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36057">
-            <tspan
+             id="text36057"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.88623 22.555176"
                y="-0.84375"
-               id="tspan36053">2H-WSe$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36053">2H-WSe$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="26.570206"
                y="1.2470624"
-               id="tspan36055" />
-          </text>
+               id="tspan36055" /></text>
         </g>
       </g>
       <g
@@ -1319,7 +1285,7 @@
         <path
            inkscape:connector-curvature="0"
            d="m 284.38031,73.36 h 14"
-           style="white-space:pre;fill:none;stroke:#8c564b;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:round"
+           style="white-space:pre;fill:none;stroke:#8c564b;stroke-width:0.85;stroke-linecap:square;stroke-linejoin:round"
            id="path36062" />
       </g>
       <g
@@ -1335,18 +1301,15 @@
            id="g36072">
           <text
              style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-             id="text36070">
-            <tspan
+             id="text36070"><tspan
                style="font-size:7px;font-family:Helvetica;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="0 3.8930659 8.9482422 11.279297 17.88623 22.162109"
                y="-0.984375"
-               id="tspan36066">2H-WTe$_2$</tspan>
-            <tspan
-               style="font-size:4.9000001px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan36066">2H-WTe$_2$</tspan><tspan
+               style="font-size:4.9px;font-family:Arial;white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
                x="26.177139"
                y="1.1064374"
-               id="tspan36068" />
-          </text>
+               id="tspan36068" /></text>
         </g>
       </g>
     </g>
@@ -1389,24 +1352,24 @@
          clip-path="url(#clipPath38722)" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
          x="305.50568"
          y="-110.52074"
          id="text38728"><tspan
            sodipodi:role="line"
            id="tspan38726"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
            x="305.50568"
            y="-110.52074">$\varepsilon_{0}$ (Vacuum)</tspan></text>
       <text
          id="text38750"
          y="-72.538597"
          x="305.40131"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
          xml:space="preserve"><tspan
            y="-72.538597"
            x="305.40131"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
            id="tspan38748"
            sodipodi:role="line">$\varepsilon_{\mathrm{2D}}$</tspan></text>
       <g
@@ -1435,7 +1398,7 @@
          id="text38834"
          y="-160.24461"
          x="305.19995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
          xml:space="preserve"><tspan
            sodipodi:role="line"
            id="tspan1358"
@@ -1464,18 +1427,18 @@
            inkscape:path-effect="#path-effect38842"
            inkscape:connector-curvature="0"
            id="path38840"
-           d="m 295.48748,-35.896817 v -39.642855"
+           d="M 295.48748,-35.896817 V -75.539672"
            style="white-space:pre;fill:none;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker38953);marker-end:url(#marker38999)" />
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.62483406;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.624834;stroke-linecap:butt;stroke-linejoin:round"
          x="304.67691"
          y="-174.47781"
          id="text1362"><tspan
            sodipodi:role="line"
            id="tspan1360"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49800873px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-width:0.62483406;stroke-linecap:butt;stroke-linejoin:round"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49801px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;white-space:pre;stroke-width:0.624834;stroke-linecap:butt;stroke-linejoin:round"
            x="304.67691"
            y="-174.47781">Effective Dielectric Model (EDM)</tspan></text>
     </g>
@@ -1496,46 +1459,46 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.51088333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:11.5109px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
        x="-28.484388"
        y="26.34281"
        id="text46282"><tspan
          sodipodi:role="line"
          id="tspan46280"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13913822px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13914px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
          x="-28.484388"
          y="26.34281">\Lsize a</tspan></text>
     <text
        id="text46286"
        y="26.34281"
        x="42.883091"
-       style="font-style:normal;font-weight:normal;font-size:11.51088333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:11.5109px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
        xml:space="preserve"><tspan
          y="26.34281"
          x="42.883091"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13913822px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13914px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
          id="tspan46284"
          sodipodi:role="line">\Lsize b</tspan></text>
     <text
        id="text46290"
        y="97.134743"
        x="-28.484388"
-       style="font-style:normal;font-weight:normal;font-size:11.51088333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:11.5109px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
        xml:space="preserve"><tspan
          y="97.134743"
          x="-28.484388"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13913822px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13914px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
          id="tspan46288"
          sodipodi:role="line">\Lsize c</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.51088333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-weight:normal;font-size:11.5109px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
        x="42.883091"
        y="97.134743"
        id="text46294"><tspan
          sodipodi:role="line"
          id="tspan46292"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13913822px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.28777209;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.13914px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;stroke-width:0.287772;stroke-linecap:butt;stroke-linejoin:round"
          x="42.883091"
          y="97.134743">\Lsize d</tspan></text>
     <g
@@ -1776,16 +1739,15 @@
              transform="translate(286.63258,175.26773)"
              id="g22303">
             <text
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.30156326px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.30156px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
                id="text22301"
-               x="36.519474">
-              <tspan
+               x="36.519474"
+               y="0"><tspan
                  sodipodi:role="line"
                  id="tspan24201"
                  x="36.519478"
                  y="0"
-                 style="stroke-linecap:butt;stroke-linejoin:round">Uncertainty of $\delta_{\mathrm{2D}}^*$ (\%)</tspan>
-            </text>
+                 style="stroke-linecap:butt;stroke-linejoin:round">Uncertainty of $\delta_{\mathrm{2D}}^*$ (\%)</tspan></text>
           </g>
         </g>
       </g>
@@ -1917,17 +1879,15 @@
              transform="rotate(-90,161.65183,-60.759639)"
              id="g22353">
             <text
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49995422px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49995px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
                id="text22351"
                x="22.736727"
-               y="-1.7763568e-15">
-              <tspan
+               y="-1.7763568e-15"><tspan
                  sodipodi:role="line"
                  id="tspan24203"
                  x="22.736731"
                  y="-1.7763568e-15"
-                 style="stroke-linecap:butt;stroke-linejoin:round">Estimated $\varepsilon_{\mathrm{2D}}^{\parallel}$</tspan>
-            </text>
+                 style="stroke-linecap:butt;stroke-linejoin:round">Estimated $\varepsilon_{\mathrm{2D}}^{\parallel}$</tspan></text>
           </g>
         </g>
       </g>
@@ -2982,16 +2942,15 @@
              transform="translate(492.88529,175.26773)"
              id="g22733">
             <text
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.50004196px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.50004px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
                id="text22731"
-               x="36.556858">
-              <tspan
+               x="36.556858"
+               y="0"><tspan
                  sodipodi:role="line"
                  id="tspan24199"
                  x="36.556862"
                  y="0"
-                 style="stroke-linecap:butt;stroke-linejoin:round">Uncertainty of $\delta_{\mathrm{2D}}^*$ (\%)</tspan>
-            </text>
+                 style="stroke-linecap:butt;stroke-linejoin:round">Uncertainty of $\delta_{\mathrm{2D}}^*$ (\%)</tspan></text>
           </g>
         </g>
       </g>
@@ -3153,29 +3112,27 @@
              transform="rotate(-90,262.69283,-161.80064)"
              id="g22792">
             <text
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347233px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
                id="text22790"
-               x="-131.2379">
-              <tspan
+               x="-131.2379"
+               y="0"><tspan
                  sodipodi:role="line"
                  id="tspan24205"
                  x="-131.2379"
                  y="0"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347233px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">Estimated $\varepsilon_{\mathrm{2D}}^{\perp}$</tspan>
-            </text>
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">Estimated $\varepsilon_{\mathrm{2D}}^{\perp}$</tspan></text>
           </g>
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347233px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.77112269;stroke-linecap:butt;stroke-linejoin:round"
-           x="543.35779"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25347px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.771123;stroke-linecap:butt;stroke-linejoin:round"
+           x="514.0553"
            y="-172.54448"
            id="text24209"><tspan
              sodipodi:role="line"
-             id="tspan24211"
-             x="543.35779"
-             y="-172.54448"
-             style="stroke-linecap:butt;stroke-linejoin:round">$\delta_{\mathrm{2D}}^{\mathrm{fit}, \parallel} - \delta_{\mathrm{2D}}^{\mathrm{fit}, \perp}$</tspan></text>
+             id="tspan705"
+             x="514.0553"
+             y="-172.54448">Error = $\delta_{\mathrm{2D}}^{\mathrm{fit}, \parallel} - \delta_{\mathrm{2D}}^{\mathrm{fit}, \perp}$</tspan></text>
       </g>
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
