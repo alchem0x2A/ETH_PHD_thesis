@@ -34,13 +34,13 @@
    id="defs985" />
   <sodipodi:namedview
    inkscape:document-rotation="0"
-   inkscape:current-layer="Layer_3"
+   inkscape:current-layer="svg981"
    inkscape:window-maximized="0"
    inkscape:window-y="0"
    inkscape:window-x="0"
-   inkscape:cy="300.2815"
-   inkscape:cx="383.79351"
-   inkscape:zoom="1.9770006"
+   inkscape:cy="198.07735"
+   inkscape:cx="347.52618"
+   inkscape:zoom="3.9540012"
    inkscape:guide-bbox="true"
    showguides="true"
    units="pt"
@@ -137,11 +137,11 @@
         <image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FA.jpg"
    xlink:href="sub_img/148B1EE6E878A2FA.jpg"
-   id="image10"
-   transform="matrix(0.2212,0,0,0.2212,6.1855,289.7966)"
-   height="1181"
+   style="overflow:visible"
    width="1181"
-   style="overflow:visible" />
+   height="1181"
+   transform="matrix(0.2212,0,0,0.2212,6.1855,289.7966)"
+   id="image10" />
       </g>
     </g>
     <g
@@ -173,11 +173,11 @@
         <image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FE.jpg"
    xlink:href="sub_img/148B1EE6E878A2FE.jpg"
-   id="image22"
-   transform="matrix(0.2238,0,0,0.2238,278.9845,290.7804)"
-   height="1181"
+   style="overflow:visible"
    width="1181"
-   style="overflow:visible" />
+   height="1181"
+   transform="matrix(0.2238,0,0,0.2238,278.9845,290.7804)"
+   id="image22" />
       </g>
     </g>
     <g
@@ -377,6 +377,7 @@
      sodipodi:role="line">$E_{\mathrm{F, M}}$</tspan></text>
 
 
+
 <text
    y="0"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
@@ -387,6 +388,7 @@
      x="0"
      id="tspan1836"
      sodipodi:role="line">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 <g
@@ -426,6 +428,7 @@
      x="0"
      id="tspan1822"
      sodipodi:role="line">$\phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 </g>
@@ -962,11 +965,7 @@
    id="path380"
    d="m 433.3,103.2 c 2.4,-2 6.2,-4.9 11.5,-7 c 7.9,-3.2 14.6,-3.1 20.7,-3 c 0,0 0.9,0 51.3,0.2 c 6.8,0 12.2,-0.1 15.4,-0.1"
    class="st2" />
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text388"
-   class="st13 st12"
-   transform="matrix(0.583,0,0,0.583,542.0513,74.4779)">F,S</text>
+
 
 
 <g
@@ -1146,6 +1145,7 @@
      y="84.878304">$E_{\mathrm{F, M}}$</tspan></text>
 
 
+
 <text
    y="84.878304"
    x="395.91739"
@@ -1156,6 +1156,7 @@
      x="395.91739"
      id="tspan1818"
      sodipodi:role="line">$E_{\mathrm{F, M}}$</tspan></text>
+
 
 
 <g
@@ -1172,19 +1173,21 @@
      id="tspan1824">$\phi_{\mathrm{b}}^0$</tspan></text>
 
 
+
 </g>
 <g
    id="g1834"
-   transform="translate(340,6)"><text
-   y="0"
+   transform="translate(340)"><text
+   y="77.312897"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1832"
    class="st11 st12"
-   transform="translate(94.6761,69.3129)"><tspan
+   x="94.676102"><tspan
      id="tspan1830"
      sodipodi:role="line"
-     x="0"
-     y="0">$\phi_{\mathrm{b}}^0$</tspan></text>
+     x="94.676102"
+     y="77.312897">$\phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 </g>
@@ -1200,6 +1203,7 @@
      id="tspan1838">$E_{\mathrm{F,S}}$</tspan></text>
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844"
@@ -1210,6 +1214,7 @@
      sodipodi:role="line"
      x="195.38811"
      y="117.6908">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 <text
@@ -1224,6 +1229,7 @@
      y="93.911201">$E_{\mathrm{C}}$</tspan></text>
 
 
+
 <text
    y="103.91121"
    x="363.22995"
@@ -1234,6 +1240,7 @@
      x="363.22995"
      sodipodi:role="line"
      id="tspan1838-6">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 <text
@@ -1248,6 +1255,7 @@
      y="129.91121">$E_{\mathrm{V}}$</tspan></text>
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text106-7"
@@ -1258,6 +1266,7 @@
      sodipodi:role="line"
      x="534.08838"
      y="59.083942">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 <text
@@ -1272,6 +1281,7 @@
      id="tspan1838-9">$E_{\mathrm{F,S}}$</tspan></text>
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844-2"
@@ -1282,6 +1292,7 @@
      sodipodi:role="line"
      x="534.08838"
      y="95.083954">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 <text
@@ -1296,6 +1307,7 @@
      y="223.79639">$E_{\mathrm{C}}$</tspan></text>
 
 
+
 <text
    y="233.79639"
    x="194.82993"
@@ -1306,6 +1318,7 @@
      x="194.82993"
      sodipodi:role="line"
      id="tspan1838-5">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 <text
@@ -1320,6 +1333,7 @@
      y="259.79639">$E_{\mathrm{V}}$</tspan></text>
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text106-31"
@@ -1330,6 +1344,7 @@
      sodipodi:role="line"
      x="363.63968"
      y="236.08835">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 <text
@@ -1344,6 +1359,7 @@
      id="tspan1838-95">$E_{\mathrm{F,S}}$</tspan></text>
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844-22"
@@ -1354,6 +1370,7 @@
      sodipodi:role="line"
      x="363.63968"
      y="272.08835">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 <text
@@ -1368,6 +1385,7 @@
      y="203.7195">$E_{\mathrm{C}}$</tspan></text>
 
 
+
 <text
    y="213.7195"
    x="533.67865"
@@ -1378,6 +1396,7 @@
      x="533.67865"
      sodipodi:role="line"
      id="tspan1838-3">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 <text
@@ -1392,6 +1411,7 @@
      y="239.7195">$E_{\mathrm{V}}$</tspan></text>
 
 
+
 <text
    class="st11 st12"
    id="text1942"
@@ -1402,6 +1422,7 @@
      id="tspan1940"
      x="57.9174"
      y="226.8783">$E_{\mathrm{F, G}}$</tspan></text>
+
 
 
 <text
@@ -1416,6 +1437,7 @@
      sodipodi:role="line">$E_{\mathrm{F, G}}$</tspan></text>
 
 
+
 <text
    class="st11 st12"
    id="text1950"
@@ -1426,6 +1448,7 @@
      id="tspan1948"
      x="393.91739"
      y="222.8783">$E_{\mathrm{F, G}}$</tspan></text>
+
 
 
 <g
@@ -1440,6 +1463,7 @@
      x="0"
      sodipodi:role="line"
      id="tspan1952">$\phi_{\mathrm{b}} &gt; \phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 </g>
@@ -1457,6 +1481,7 @@
      y="0">$\phi_{\mathrm{b}} &lt; \phi_{\mathrm{b}}^0$</tspan></text>
 
 
+
 <text
    y="65.312897"
    x="-73.323898"
@@ -1467,6 +1492,7 @@
      x="-73.323898"
      sodipodi:role="line"
      id="tspan1964">$\phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 </g>
@@ -1483,6 +1509,7 @@
      sodipodi:role="line">\Lsize a</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1496,6 +1523,7 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize b</tspan></text>
 
 
+
 <text
    id="text1978"
    y="312.33685"
@@ -1507,6 +1535,7 @@
      x="282.63559"
      id="tspan1976"
      sodipodi:role="line">\Lsize c</tspan></text>
+
 
 
 </g>
@@ -1524,6 +1553,7 @@
      sodipodi:role="line">$ψ_0$ (V)</tspan></text>
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text535"
@@ -1531,16 +1561,18 @@
    transform="matrix(0,-0.583,0.583,0,25.1817,417.083)" />
 
 
+
 <text
-   y="332.68051"
-   x="83.667099"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+   y="330.66876"
+   x="148.98726"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
    id="text539"
    class="st11 st24"><tspan
-     y="332.68051"
-     x="83.667099"
-     id="tspan2020"
-     sodipodi:role="line">$σ_{\mathrm{M}}=-2\sim{}2\times{}10^{13}$ $e \cdot$cm$^{-2}$</tspan></text>
+     sodipodi:role="line"
+     id="tspan464"
+     x="148.98726"
+     y="330.66876">$σ_{\mathrm{M}}=-2\times{}10^{13}\sim{}2\times{}10^{13}$ $e \cdot$cm$^{-2}$</tspan></text>
+
 
 
 <text
@@ -1550,11 +1582,13 @@
    transform="matrix(0.583,0,0,0.583,202.7931,328.6844)" />
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text567"
    class="st13 st24"
    transform="translate(202.403,349.4803)" />
+
 
 
 <text
@@ -1569,6 +1603,7 @@
      sodipodi:role="line">$V_{\mathrm{b}}$ (V)</tspan></text>
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text581"
@@ -1576,11 +1611,13 @@
    transform="translate(64.9998,501.3474)">Forward</text>
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text583"
    class="st13 st24"
    transform="translate(157.6665,501.347)">Reverse</text>
+
 
 
 <g
@@ -1591,11 +1628,13 @@
    transform="translate(52.6665,518.3472)">-2</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text587"
    class="st13 st12"
    transform="translate(98.8336,518.3472)">-1</text>
+
 
 
 <text
@@ -1605,6 +1644,7 @@
    transform="translate(146.9989,518.3472)">0</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text591"
@@ -1612,11 +1652,13 @@
    transform="translate(193.1659,518.3472)">1</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text593"
    class="st13 st12"
    transform="translate(239.3332,518.3472)">2</text>
+
 
 
 </g>
@@ -1628,11 +1670,13 @@
    transform="translate(45.6709,376.2635)">0</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text599"
    class="st13 st12"
    transform="translate(31.667,419.8471)">-0.4</text>
+
 
 
 <text
@@ -1642,6 +1686,7 @@
    transform="translate(31.667,463.4305)">-0.8</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text603"
@@ -1649,11 +1694,13 @@
    transform="translate(31.6668,507.0137)">-1.2</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text605"
    class="st13 st12"
    transform="translate(35.6629,332.6804)">0.4</text>
+
 
 
 </g>
@@ -1672,6 +1719,7 @@
      x="0">Junction</tspan></text>
 
 
+
 <text
    id="text619"
    transform="translate(4.1441,217.1804)"><tspan
@@ -1687,11 +1735,13 @@
      x="0">Junction</tspan></text>
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text621"
    class="st13 st24"
    transform="translate(112.3695,32.7191)">Zero Bias</text>
+
 
 
 <g
@@ -1961,6 +2011,7 @@
    id="text705"
    class="st13 st24"
    transform="translate(273.9922,32.7191)">Reverse Bias</text>
+
 
 
 <g
@@ -2276,6 +2327,7 @@
    transform="translate(443.3628,32.7191)">Forward Bias</text>
 
 
+
 <g
    id="g811">
   <circle
@@ -2542,25 +2594,26 @@
      sodipodi:role="line">$\sigma_{\mathrm{M}} = -\sigma_{\mathrm{S}}$</tspan></text>
 
 
-<text
-   style="font-size:12px;font-family:Arial-ItalicMT"
-   id="text911"
-   class="st11 st24"
-   transform="translate(340.3335,332.6803)">V</text>
+
 
 
 <text
    style="font-size:14px;font-family:ArialMT"
    id="text913"
    class="st13 st26"
-   transform="matrix(0.583,0,0,0.583,348.3374,337.3424)">b</text>
+   transform="matrix(0.583,0,0,0.583,348.3374,337.3424)" />
+
 
 
 <text
-   style="font-size:12px;font-family:ArialMT"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;"
    id="text915"
    class="st13 st24"
-   transform="translate(352.877,332.6803)">= -0.75 V~0.75 V</text>
+   x="424.19717"
+   y="330.66876"><tspan
+     sodipodi:role="line"
+     id="tspan1388">$V_{\mathrm{b}}$ = -0.75$\sim{}$0.75 V</tspan></text>
+
 
 
 <text
@@ -2575,6 +2628,7 @@
      sodipodi:role="line">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text921"
@@ -2582,11 +2636,13 @@
    transform="matrix(0.583,0,0,0.583,394.1421,541.8424)" />
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text927"
    class="st13 st22"
    transform="translate(424.7637,537.5133)" />
+
 
 
 <g
@@ -2597,11 +2653,13 @@
    transform="translate(328,518.3472)">-2</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text947"
    class="st13 st12"
    transform="translate(374.1671,518.3472)">-1</text>
+
 
 
 <text
@@ -2611,6 +2669,7 @@
    transform="translate(422.3324,518.3472)">0</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text951"
@@ -2618,11 +2677,13 @@
    transform="translate(468.4994,518.3472)">1</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text953"
    class="st13 st12"
    transform="translate(514.6667,518.3472)">2</text>
+
 
 
 </g>
@@ -2635,11 +2696,13 @@
    transform="translate(307.667,446.458)">-0.2</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text959"
    class="st13 st12"
    transform="translate(307.667,477.2359)">-0.4</text>
+
 
 
 <text
@@ -2649,11 +2712,13 @@
    transform="translate(307.667,508.0137)">-0.6</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text963"
    class="st13 st12"
    transform="translate(311.3294,384.9028)">0.2</text>
+
 
 
 <text
@@ -2663,6 +2728,7 @@
    transform="translate(311.3293,354.1249)">0.4</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text967"
@@ -2670,11 +2736,13 @@
    transform="translate(311.3289,323.3472)">0.6</text>
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text969"
    class="st13 st12"
    transform="translate(320.5029,415.6804)">0</text>
+
 
 
 </g>
@@ -2690,6 +2758,7 @@
      sodipodi:role="line">$\sigma_{\mathrm{G}} = -\sigma_{\mathrm{S}} - \sigma_{\mathrm{M}}$</tspan></text>
 
 
+
 <text
    transform="rotate(-90)"
    y="296.81073"
@@ -2699,6 +2768,7 @@
    class="st11 st12"><tspan
      id="tspan2002"
      sodipodi:role="line">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+
 
 
 </g>
