@@ -1,5 +1,5 @@
 from .constants import Const
-from numpy import sqrt, sign, exp, abs, pi
+from numpy import sqrt, sign, exp, abs, pi, log
 
 
 def func_np(Psi, Psi_B):
@@ -10,6 +10,12 @@ def func_np(Psi, Psi_B):
     n = n_0 * exp(Const.q * Psi / Const.k / Const.T)
     p = p_0 * exp(-Const.q * Psi / Const.k / Const.T)
     return n, p
+
+
+def func_Psi_B(ND):
+    #  Calculate psi_b from the given ND value
+    p = log(ND / Const.n_i) * Const.k * Const.T / Const.q
+    return p
 
 
 def func_delta_phi_g(Q_g):
@@ -61,4 +67,12 @@ def solve_psi_s(Psi, Psi_B, Q_gate, V_D):
     q_g = func_q_g(Q_gate, func_E_psi(Psi, Psi_B))
     F = Psi + func_delta_phi_g(q_g) + Const.phi_g0 - \
         (Const.phi_i-Psi_B) - V_D  # Solve F=0
+    return F
+
+
+def solve_psi_s_no_graphene(Psi, Psi_B, Q_gate):
+    """   Solved the Psi_s value at surface, in the case that no graphene is
+    present
+    """
+    F = (-Q_gate-func_q_semi(func_E_psi(Psi, Psi_B))) / (Q_gate + 1e-20)
     return F

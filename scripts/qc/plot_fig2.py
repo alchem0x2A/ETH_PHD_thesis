@@ -9,6 +9,7 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 # Plot the figures for fig 2
 
+
 def subfig_a(ax, dim=256):
     # Without bias and gate
     psi_B = -Const.E_g / 2 + np.linspace(0, 1, dim) * Const.E_g
@@ -28,17 +29,140 @@ def subfig_a(ax, dim=256):
     ax.set_xticklabels(["$10^{{{0}}}$".format(i) for i in (0, 5, 10, 15, 20)])
     ax.set_ylim(-0.4, 0.4)
     # Line markers
-    ax.axhline(y=0, color="k", ls="--", alpha=0.8)
-    ax.axvline(x=Const.n_i / 1e6, color="k", ls="--", alpha=0.8)
+    ax.axhline(y=0, color="k", ls="--", alpha=0.6)
+    ax.axvline(x=Const.n_i / 1e6, color="k", ls="--", alpha=0.6)
     ax.text(x=Const.n_i / 1e6, y=0.3,
             s="←$n_0=n_{\\mathrm{i}}$", ha="left")
+
+
+def subfig_b(ax, dim=256):
+    ND = np.array([1e2, Const.n_i, 1e18])
+    NQ_gate = np.linspace(-2, 2, dim) * 1e13
+    Q_gate = NQ_gate * Const.q * 1e4  # SI unit
+    ax.plot(NQ_gate / 1e13, -eqs.func_delta_phi_g(-Q_gate), color="k")
+    for i, nd in enumerate(ND):
+        Delta_EF = []
+        psi_b = eqs.func_Psi_B(nd * 1e6)
+        psi_s = np.array([fsolve(lambda Psi: eqs.solve_psi_s(Psi, psi_b,
+                                                             qgate, 0), 0)[0]
+                          for qgate in Q_gate])
+        Delta_EF = -eqs.func_delta_phi_g(eqs.func_q_g(Q_gate,
+                                                      eqs.func_E_psi(psi_s, psi_b)))
+        ax.plot(NQ_gate / 1e13, Delta_EF)
+
+    ax.axhline(y=0, color="k", ls="--", alpha=0.6)
+    ax.axvline(x=0, color="k", ls="--", alpha=0.6)
+    ax.set_xlabel("$\\sigma_{\\mathrm{M}}$ ($10^{13}$ $e \cdot$cm$^{-2}$)")
+    ax.set_ylabel("$\\Delta E_{\\mathrm{F, G}}$ (eV)")
+    ax.legend(["MOG",
+               "p-type MOGS",
+               "Intrinsic MOGS",
+               "n-type MOGS"], loc=0)
+
+
+def subfig_c(ax, dim=256):
+    NQ_gate = np.linspace(-2, 2, dim) * 1e13
+    Q_gate = NQ_gate * 1e4 * Const.q
+    ND = 1e16 * 1e6
+    psi_b = eqs.func_Psi_B(ND)
+    # Potential with and without graphene
+    Psi_with = np.array([fsolve(lambda Psi: eqs.solve_psi_s(Psi, psi_b,
+                                                            qgate, 0), 0)[0]
+                         for qgate in Q_gate])
+    Psi_no = np.array([fsolve(lambda Psi: eqs.solve_psi_s_no_graphene(Psi,
+                                                                      psi_b,
+                                                                      qgate),
+                              psi_b)[0]
+                       for i, qgate in enumerate(Q_gate)])
+
+    # Regions
+    ax.set_ylim(-1.3, 0.4)
+    print(ax.get_ylim())
+    X = [-2, 0, 0, -2]
+    Y = [ax.get_ylim()[0], ax.get_ylim()[0],
+         -2 * psi_b, -2 * psi_b]
+    print(X, Y)
+    ax.fill(X, Y, color="red", alpha=0.3, lw=0)
+
+    X = [0, 2, 2, 0]
+    Y = [0, 0,
+         ax.get_ylim()[1], ax.get_ylim()[1]]
+    print(X, Y)
+    ax.fill(X, Y, color="blue", alpha=0.3, lw=0)
     
+    ax.axhline(y=-psi_b * 2, color="k", ls="--", alpha=0.6)
+    ax.axhline(y=-psi_b - Const.E_g / 2, color="k", ls="--", alpha=0.6)
+    ax.axhline(y=-psi_b + Const.E_g / 2, color="k", ls="--", alpha=0.6)
+    ax.axhline(y=0, color="k", ls="--", alpha=0.6)
+
+    l_with, = ax.plot(NQ_gate / 1e13, Psi_with)
+    l_no, = ax.plot(NQ_gate / 1e13, Psi_no)
+
+    ax.text(x=0.05, y=-0.4, s="←MOGS",
+            ha="left", color=l_with.get_c())
+    ax.text(x=-0.05, y=-0.2, s="MOS→",
+            ha="right", color=l_no.get_c())
+    ax.text(x=0.05, y=0.38,
+            s="Accumulation",
+            ha="left", va="top")
+    ax.text(x=-1.95, y=-1.25,
+            s="Strong Inversion",
+            ha="left", va="bottom")
+    ax.text(x=1.85, y=-1.25,
+            s="$N_{\\mathrm{D}} = 10^{16}$ cm$^{-3}$",
+            ha="right", va="bottom")
+
+    ax.set_xlabel("$\\sigma_{\\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-3}$)")
+    ax.set_ylabel("$\\psi_0$ (V)")
+
+    # Labeling for E levels
+    ax.text(x=2.1, y=-psi_b + Const.E_g / 2,
+            s="$E_{\\mathrm{C}}$",
+            ha="left")
+
+    ax.text(x=2.1, y=0,
+            s="$E_{\\mathrm{F}}$",
+            ha="left")
+
+    ax.text(x=2.1, y=-psi_b - Const.E_g / 2,
+            s="$E_{\\mathrm{V}}$",
+            ha="left")
+
+    ax.text(x=1.8, y=-2 * psi_b + 0.025,
+            s="$2(E_{\\mathrm{F, \\infty}} - E_{\\mathrm{i, \\infty}})$",
+            ha="right", va="bottom")
+
+    ax.annotate("", xy=(1.9, -2 * psi_b), xytext=(1.9, 0),
+                arrowprops=dict(arrowstyle="<->",
+                                lw=0.75))
+
+    # text(-0.75, 0.14, 'MOS', 'Color', 'red');
+    # text(0.35, -0.25, 'MOGS', 'Color', 'blue');
+    # text(2.1, 0.2, 'E_C');
+    # text(2.1, -psi_b, 'E_i');
+    # text(2.1, -psi_b-Const.E_g/2, 'E_V');
+    # text(-1.8, 2.5, 'N_D=10^{16} cm^{-3}');
+
+    # xlabel('Q_{gate} (10^{13} e*cm^{-2})');
+    # ylabel('\psi_s (V)');
+    # set(gca, 'XTick', [-2, -1, 0, 1, 2]);
+    # set(gca, 'YTick', [-1.2, -0.8, -0.4, 0, 0.4]);
+    # set(gca, 'YLim', [-1.22,0.42])
+    # % title('N_D = 10^{16} cm^{-3}');
+    # % l=legend('With graphene', 'Without graphene','location','northwest');
+    # % set(l,'Box','off');
+    # modify_plot(1,1,2);
+    # save_plot(20,20,'../Figure/Fig3-a.png')
 
 
 def plot_main():
-    fig, ax = gridplots(2, 2, ratio=1)
+    fig, ax = gridplots(2, 2, r=0.95,
+                        ratio=1)
 
     subfig_a(ax[0])
+    subfig_b(ax[1])
+    subfig_c(ax[2])
+    grid_labels(fig, ax)
     # plot eps
     # names, Eg, eps_para, eps_perp, gm2 = get_gm2(d)
     # for i in range(len(names)):
@@ -86,7 +210,6 @@ def plot_main():
     # cb.ax.set_title("$E_{\mathrm{g}}$ (eV)", pad=1)
 
     # # label
-    # grid_labels(fig, [ax[0], ax[2]], reserved_space=(0, -0.05),)
 
 
     # # Plot in the insets
