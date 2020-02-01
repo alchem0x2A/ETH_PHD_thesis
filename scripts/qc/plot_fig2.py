@@ -11,7 +11,7 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 # Plot the figures for fig 2
 
 
-def subfig_a(ax, dim=256):
+def subfig_a(fig, ax, dim=256):
     # Without bias and gate
     psi_B = -Const.E_g / 2 + np.linspace(0, 1, dim) * Const.E_g
     n, p = eqs.func_np(0, psi_B)
@@ -36,7 +36,7 @@ def subfig_a(ax, dim=256):
             s="←$n_0=n_{\\mathrm{i}}$", ha="left")
 
 
-def subfig_b(ax, dim=256):
+def subfig_b(fig, ax, dim=256):
     ND = np.array([1e2, Const.n_i, 1e18])
     NQ_gate = np.linspace(-2, 2, dim) * 1e13
     Q_gate = NQ_gate * Const.q * 1e4  # SI unit
@@ -61,7 +61,7 @@ def subfig_b(ax, dim=256):
                "n-type MOGS"], loc=0)
 
 
-def subfig_c(ax, dim=256):
+def subfig_c(fig, ax, dim=256):
     NQ_gate = np.linspace(-2, 2, dim) * 1e13
     Q_gate = NQ_gate * 1e4 * Const.q
     ND = 1e16 * 1e6
@@ -77,7 +77,7 @@ def subfig_c(ax, dim=256):
                        for i, qgate in enumerate(Q_gate)])
 
     # Regions
-    ax.set_ylim(-1.3, 0.4)
+    ax.set_ylim(-1.22, 0.4)
     print(ax.get_ylim())
     X = [-2, 0, 0, -2]
     Y = [ax.get_ylim()[0], ax.get_ylim()[0],
@@ -106,10 +106,10 @@ def subfig_c(ax, dim=256):
     ax.text(x=0.05, y=0.38,
             s="Accumulation",
             ha="left", va="top")
-    ax.text(x=-1.95, y=-1.25,
+    ax.text(x=-1.95, y=-1.20,
             s="Strong Inversion",
             ha="left", va="bottom")
-    ax.text(x=1.85, y=-1.25,
+    ax.text(x=1.85, y=-1.20,
             s="$N_{\\mathrm{D}} = 10^{16}$ cm$^{-3}$",
             ha="right", va="bottom")
 
@@ -166,9 +166,10 @@ def subfig_d(fig, ax, dim=256):
     ax.plot(NQ_gate / 1e13,
             np.log10(eqs.func_np(0, phi_bs0)[0] / 1e6),
             color="k",
-            lw=0.75,
+            alpha=0.6,
             ls="--")
 
+    # Manual tweaking is needed for correct Fsolve!
     phi_bs1 = np.array([fsolve(lambda Psi: eqs.solve_Psi_B(Psi, qg, -1),
                                -0.5 * NQ_gate[i] / 1e13 \
                                + np.sign(NQ_gate[i]) * -0.5)[0]
@@ -176,7 +177,7 @@ def subfig_d(fig, ax, dim=256):
     ax.plot(NQ_gate / 1e13,
             np.log10(eqs.func_np(0, phi_bs1)[0] / 1e6),
             color="k",
-            lw=0.75,
+            alpha=0.6,
             ls="--")
 
     phi_bs2 = np.array([fsolve(lambda Psi: eqs.solve_Psi_B(Psi, qg, -2), 0)[0]
@@ -184,11 +185,11 @@ def subfig_d(fig, ax, dim=256):
     ax.plot(NQ_gate / 1e13,
             np.log10(eqs.func_np(0, phi_bs2)[0] / 1e6),
             color="k",
-            lw=0.75,
+            alpha=0.6,
             ls="--")
 
     ax.axhline(y=np.log10(Const.n_i / 1e6),
-               lw=0.75,
+               alpha=0.6,
                color="k", ls="--")
     
     xx, yy = np.meshgrid(NQ_gate / 1e13, np.log10(NDs / 1e6))
@@ -214,23 +215,20 @@ def subfig_d(fig, ax, dim=256):
     ax.set_ylabel("$n_0$ (cm$^{-3}$)")
     ax.set_yticks(np.arange(2, 19, 4))
     ax.set_yticklabels(["$10^{{{0}}}$".format(i) for i in np.arange(2, 19, 4)])
-    # set(gca, 'YTick', [2, 6, 10, 14, 18]);
-    # set(gca, 'YTickLabel',{'10^{2}', '10^{6}', '10^{10}','10^{14}','10^{18}'});
-    # colormap(jet);
-    # set(f,'LineStyle','None');
-    # hold on;
 
-    # for i=1:3
-        # plot(NQ_gate/10^13, log10(ND_bs(i,:)), 'k--', 'linewidth', 2);
-    # end
+    ax.text(x=0.02, y=0.52, s="n-type", va="bottom", transform=ax.transAxes)
+    ax.text(x=0.02, y=0.48, s="p-type", va="top", transform=ax.transAxes)
 
-    # plot([-2,2], log10([cons.n_i,cons.n_i]/10^6),'k--', 'linewidth', 2)
-    # c=colorbar('eastoutside');
-    # c.Label.String = '\Psi_s (V)';
-    # c.Ticks = [-0.8, -0.4, 0, 0.4, 0.8];
-    # set(c, 'TickDir', 'out');
-    # set(c, 'LineWidth', 1);
-    # set(c, 'FontSize', 14);
+    ss = ["Ac", "Dp", "WI", "SI", "Ac", "Dp", "WI", "SI"]
+    for i, s in enumerate(ss):
+        angle = np.pi / 8 + np.pi / 4 * i
+        r = 0.4
+        pos_x = 0.5 + np.cos(angle) * r
+        pos_y = 0.5 + np.sin(angle) * r
+        ax.text(x=pos_x, y=pos_y, s=s,
+                transform=ax.transAxes,
+                size="large")
+    
 
 
 
@@ -238,82 +236,11 @@ def plot_main():
     fig, ax = gridplots(2, 2, r=0.95,
                         ratio=1)
 
-    # subfig_a(ax[0])
-    # subfig_b(ax[1])
-    # subfig_c(ax[2])
+    subfig_a(fig, ax[0])
+    subfig_b(fig, ax[1])
+    subfig_c(fig, ax[2])
     subfig_d(fig, ax[3])
     grid_labels(fig, ax)
-    # plot eps
-    # names, Eg, eps_para, eps_perp, gm2 = get_gm2(d)
-    # for i in range(len(names)):
-    #     eg = Eg[i]
-    #     n = names[i]
-    #     if n not in candidates:
-    #         a_ = 0.1
-    #         lw = 1
-    #     else:
-    #         a_ = 1
-    #         lw = 1.25
-        
-    #     c = get_color(eg, min=0, max=np.max(Eg),)
-    #     ax[0].plot(freq_matsu, eps_para[i], color=c, alpha=a_, lw=lw)
-    #     ax[1].plot(freq_matsu, eps_perp[i], color=c, alpha=a_, lw=lw)
-    #     ax[2].plot(freq_matsu, 1 / gm2[i], color=c, alpha=a_, lw=lw)
-    #     if n in candidates:
-    #         j = 2
-    #         ax[2].text(x=freq_matsu[j], y=(1 / gm2[i])[j]+0.05,
-    #                    s=disp_names[n], ha="left", va="bottom", color=c)
-
-    # ax[0].set_ylim(0.9, 20)
-    # ax[0].set_yscale("log")
-    # ax[1].set_ylim(0.9, 4)
-    # # ax[1].set_yscale("log")
-    # for ax_ in ax:
-    #     ax_.set_xscale("log")
-    #     ax_.axhline(y=1, ls="--", color="grey", alpha=0.6)
-    # for i in (1, 2):
-    #     ax[i].set_xlabel(r"$\hbar \xi$ (eV)")
-    # ax[0].set_ylabel(r"$\varepsilon_{\mathrm{m}}^{\parallel} (i \xi)$")
-    # ax[1].set_ylabel(r"$\varepsilon_{\mathrm{m}}^{\perp} (i \xi)$")
-    # ax[2].set_ylabel(r"$1/g_{\mathrm{m}} (i \xi)$")
-
-    # # Fix lim
-    # ax[0].set_xticklabels([])
-    # ax[0].tick_params(bottom=False, labelbottom=False, axis="x", direction="in")
-
-    # # Figure right
-    # cax_inside = inset_axes(ax[2], height="70%", width="50%",
-    #                         bbox_to_anchor=(0.78, 0.05, 0.1, 0.80),
-    #                         bbox_transform=ax[2].transAxes,
-    #                         loc="lower left")
-    # cb = add_cbar(fig, ax[2], 0, np.max(Eg), cax=cax_inside, shrink=0.5)
-    # cb.ax.set_title("$E_{\mathrm{g}}$ (eV)", pad=1)
-
-    # # label
-
-
-    # # Plot in the insets
-    # names, Eg, trans_para, trans_perp = get_transition_freq(d)
-    # ax_in1 = inset_axes(ax[0], height="58%", width="35%",
-    #                     loc="upper right")
-    # ax_in1.tick_params(labelsize="small")
-    # ax_in1.set_xlabel(r"$E_{\mathrm{g}}^{\mathrm{2D}}$ (eV)", size="small", labelpad=-1)
-    # ax_in1.set_ylabel(r"$\hbar \xi_{\mathrm{tr}}^{\parallel}$ (eV)",
-    #                   size="small", labelpad=-1)
-
-    # ax_in1.scatter(Eg, trans_para, s=10, color="#3287a8",
-    #                marker="^", alpha=0.4, edgecolor=None)
-
-    # ax_in2 = inset_axes(ax[1], height="58%", width="35%",
-    #                     loc="upper right")
-
-    # ax_in2.scatter(Eg, trans_perp, s=10, color="#a87e31",
-    #                marker="o",
-    #                alpha=0.5)
-    # ax_in2.tick_params(labelsize="small")
-    # ax_in2.set_xlabel(r"$E_{\mathrm{g}}^{\mathrm{2D}}$ (eV)", size="small", labelpad=-1)
-    # ax_in2.set_ylabel(r"$\hbar \xi_{\mathrm{tr}}^{\perp}$ (eV)",
-    #                   size="small", labelpad=-1)
     
     savepgf(fig, img_path / "EFermi-prof.pgf", preview=True)
     
