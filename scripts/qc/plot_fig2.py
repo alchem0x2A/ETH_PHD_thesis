@@ -3,6 +3,7 @@ from . import data_path, img_path
 from .constants import Const
 from . import equations as eqs
 from scipy.optimize import fsolve
+from scipy.interpolate import BivariateSpline
 from helper import gridplots, grid_labels, savepgf
 from helper import get_color, add_cbar
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
@@ -136,32 +137,111 @@ def subfig_c(ax, dim=256):
                 arrowprops=dict(arrowstyle="<->",
                                 lw=0.75))
 
-    # text(-0.75, 0.14, 'MOS', 'Color', 'red');
-    # text(0.35, -0.25, 'MOGS', 'Color', 'blue');
-    # text(2.1, 0.2, 'E_C');
-    # text(2.1, -psi_b, 'E_i');
-    # text(2.1, -psi_b-Const.E_g/2, 'E_V');
-    # text(-1.8, 2.5, 'N_D=10^{16} cm^{-3}');
 
-    # xlabel('Q_{gate} (10^{13} e*cm^{-2})');
-    # ylabel('\psi_s (V)');
-    # set(gca, 'XTick', [-2, -1, 0, 1, 2]);
-    # set(gca, 'YTick', [-1.2, -0.8, -0.4, 0, 0.4]);
-    # set(gca, 'YLim', [-1.22,0.42])
-    # % title('N_D = 10^{16} cm^{-3}');
-    # % l=legend('With graphene', 'Without graphene','location','northwest');
-    # % set(l,'Box','off');
-    # modify_plot(1,1,2);
-    # save_plot(20,20,'../Figure/Fig3-a.png')
+def subfig_d(fig, ax, dim=256):
+    NQ_gate = np.linspace(-2, 2, dim) * 1e13
+    Q_gate = NQ_gate * 1e4 * Const.q
+    # psi_b = eqs.func_Psi_B Psi_B(ND);
+
+    # %Figure of Psi_s with graphene or not
+
+    # figure(1);
+    psi_b = np.linspace(-Const.E_g / 2, Const.E_g / 2, dim)
+    n, p = eqs.func_np(0, psi_b)
+    NDs = n
+    data_zz = data_path / "fig22_z_{0:d}.npy".format(dim)
+    if data_zz.exists():
+        zz = np.load(data_zz)
+        print("Loaded data from {0}".format(data_zz.as_posix()))
+    else:
+        zz = np.array([[fsolve(lambda Psi: eqs.solve_psi_s(Psi, pb, qg, 0), 0)[0]
+                        for pb in psi_b]
+                       for qg in Q_gate])
+        np.save(data_zz, zz)
+
+
+
+    phi_bs0 = np.array([fsolve(lambda Psi: eqs.solve_Psi_B(Psi, qg, 0), 0)[0]
+                       for qg in Q_gate])
+    ax.plot(NQ_gate / 1e13,
+            np.log10(eqs.func_np(0, phi_bs0)[0] / 1e6),
+            color="k",
+            lw=0.75,
+            ls="--")
+
+    phi_bs1 = np.array([fsolve(lambda Psi: eqs.solve_Psi_B(Psi, qg, -1),
+                               -0.5 * NQ_gate[i] / 1e13 \
+                               + np.sign(NQ_gate[i]) * -0.5)[0]
+                        for i, qg in enumerate(Q_gate)])
+    ax.plot(NQ_gate / 1e13,
+            np.log10(eqs.func_np(0, phi_bs1)[0] / 1e6),
+            color="k",
+            lw=0.75,
+            ls="--")
+
+    phi_bs2 = np.array([fsolve(lambda Psi: eqs.solve_Psi_B(Psi, qg, -2), 0)[0]
+                       for qg in Q_gate])
+    ax.plot(NQ_gate / 1e13,
+            np.log10(eqs.func_np(0, phi_bs2)[0] / 1e6),
+            color="k",
+            lw=0.75,
+            ls="--")
+
+    ax.axhline(y=np.log10(Const.n_i / 1e6),
+               lw=0.75,
+               color="k", ls="--")
+    
+    xx, yy = np.meshgrid(NQ_gate / 1e13, np.log10(NDs / 1e6))
+    xx_fine, yy_fine = np.meshgrid(np.linspace(xx.min(), xx.max(), 256),
+                                   np.linspace(yy.min(), yy.max(), 256))
+    cm = ax.imshow(zz.T[::-1, :], extent=[xx.min(), xx.max(),
+                              yy.min(), yy.max()],
+                   aspect="auto",
+                   cmap="rainbow",
+                   interpolation="bicubic")
+    # cm = ax.pcolor(xx, yy, zz,
+                   # rasterized=True, cmap="rainbow")
+    cax_outside = inset_axes(ax, height="70%", width="50%",
+                            bbox_to_anchor=(1.01, 0.05, 0.05, 0.80),
+                            bbox_transform=ax.transAxes,
+                            loc="lower left")
+    cb = fig.colorbar(cm, cax_outside)
+    # cb = add_cbar(fig, ax, 0, , cax=cax_inside, shrink=0.5)
+    cb.ax.set_title("$\\psi_0$ (V)", pad=1, ha="left")
+    # f = pcolor(NQ_gate/10^13,log10(NDs/10^6),z);
+    ax.set_xlabel("$\\sigma_{\\mathrm{M}}\ (10^{13}\ e*\\mathrm{cm}^{-2})$")
+    # set(gca, 'XTick', [-2,  -1,  0,  1,  2]);
+    ax.set_ylabel("$n_0$ (cm$^{-3}$)")
+    ax.set_yticks(np.arange(2, 19, 4))
+    ax.set_yticklabels(["$10^{{{0}}}$".format(i) for i in np.arange(2, 19, 4)])
+    # set(gca, 'YTick', [2, 6, 10, 14, 18]);
+    # set(gca, 'YTickLabel',{'10^{2}', '10^{6}', '10^{10}','10^{14}','10^{18}'});
+    # colormap(jet);
+    # set(f,'LineStyle','None');
+    # hold on;
+
+    # for i=1:3
+        # plot(NQ_gate/10^13, log10(ND_bs(i,:)), 'k--', 'linewidth', 2);
+    # end
+
+    # plot([-2,2], log10([cons.n_i,cons.n_i]/10^6),'k--', 'linewidth', 2)
+    # c=colorbar('eastoutside');
+    # c.Label.String = '\Psi_s (V)';
+    # c.Ticks = [-0.8, -0.4, 0, 0.4, 0.8];
+    # set(c, 'TickDir', 'out');
+    # set(c, 'LineWidth', 1);
+    # set(c, 'FontSize', 14);
+
 
 
 def plot_main():
     fig, ax = gridplots(2, 2, r=0.95,
                         ratio=1)
 
-    subfig_a(ax[0])
-    subfig_b(ax[1])
-    subfig_c(ax[2])
+    # subfig_a(ax[0])
+    # subfig_b(ax[1])
+    # subfig_c(ax[2])
+    subfig_d(fig, ax[3])
     grid_labels(fig, ax)
     # plot eps
     # names, Eg, eps_para, eps_perp, gm2 = get_gm2(d)

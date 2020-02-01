@@ -76,3 +76,25 @@ def solve_psi_s_no_graphene(Psi, Psi_B, Q_gate):
     """
     F = (-Q_gate-func_q_semi(func_E_psi(Psi, Psi_B))) / (Q_gate + 1e-20)
     return F
+
+def solve_Psi_B(psi_b, Q_gate, i):
+    """   returns the Q_gate value when Psi =0; -Psi_B and -2Psi_B (no bias)
+    """
+    psi = i * psi_b
+    q_g = func_q_g(Q_gate, func_E_psi(psi, psi_b))
+    F = psi + Const.phi_g0 + func_delta_phi_g(q_g) \
+            - (Const.phi_i - psi_b)
+    return F
+
+
+# function F = solve_Psi_B(psi_b,Q_gate)
+# %SOLVE_Q_GATE Summary of this function goes here
+# %   returns the Q_gate value when Psi =0; -Psi_B and -2Psi_B (no bias)
+# cons=constants();
+# F=[0;0;0];
+# for i=1:3
+#     psi=-(i-1)*psi_b(i);
+#     q_g = Q_g(Q_gate, E_psi(psi,psi_b(i)));
+#     F(i) = psi + cons.phi_g0 +  delta_phi_g(q_g) - (cons.phi_i-psi_b(i)) ;
+# end
+# end
