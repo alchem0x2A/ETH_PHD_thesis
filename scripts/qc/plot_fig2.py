@@ -210,7 +210,7 @@ def subfig_d(fig, ax, dim=256):
     # cb = add_cbar(fig, ax, 0, , cax=cax_inside, shrink=0.5)
     cb.ax.set_title("$\\psi_0$ (V)", pad=1, ha="left")
     # f = pcolor(NQ_gate/10^13,log10(NDs/10^6),z);
-    ax.set_xlabel("$\\sigma_{\\mathrm{M}}\ (10^{13}\ e*\\mathrm{cm}^{-2})$")
+    ax.set_xlabel("$\\sigma_{\\mathrm{M}}\ (10^{13}\ e\\cdot{}\\mathrm{cm}^{-2})$")
     # set(gca, 'XTick', [-2,  -1,  0,  1,  2]);
     ax.set_ylabel("$n_0$ (cm$^{-3}$)")
     ax.set_yticks(np.arange(2, 19, 4))
