@@ -9,12 +9,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   height="410.25pt"
-   width="415.42502pt"
+   height="212.37012pt"
+   width="417.31299pt"
    sodipodi:docname="bias-effect.svg"
    id="svg981"
    xml:space="preserve"
-   viewBox="0 0 553.9 547"
+   viewBox="0 0 556.41729 283.16016"
    y="0px"
    x="0px"
    version="1.1">
@@ -34,19 +34,19 @@
    id="defs985" />
   <sodipodi:namedview
    inkscape:document-rotation="0"
-   inkscape:current-layer="svg981"
-   inkscape:window-maximized="0"
-   inkscape:window-y="0"
-   inkscape:window-x="0"
-   inkscape:cy="198.07735"
-   inkscape:cx="347.52618"
-   inkscape:zoom="3.9540012"
+   inkscape:current-layer="Layer_3"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="-93.507333"
+   inkscape:cx="409.09325"
+   inkscape:zoom="0.69897527"
    inkscape:guide-bbox="true"
    showguides="true"
    units="pt"
    showgrid="false"
    id="namedview983"
-   inkscape:window-height="852"
+   inkscape:window-height="837"
    inkscape:window-width="1440"
    inkscape:pageshadow="2"
    inkscape:pageopacity="0"
@@ -55,22 +55,26 @@
    objecttolerance="10"
    borderopacity="1"
    bordercolor="#666666"
-   pagecolor="#ffffff">
+   pagecolor="#ffffff"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0">
     <sodipodi:guide
    inkscape:locked="false"
    id="guide1982"
    orientation="0,1"
-   position="165.143,130.95551" />
+   position="162.94117,-123.0435" />
     <sodipodi:guide
    inkscape:locked="false"
    id="guide2006"
    orientation="1,0"
-   position="424.07304,124.55866" />
+   position="421.87122,-129.44035" />
     <sodipodi:guide
    inkscape:locked="false"
    id="guide2014"
    orientation="1,0"
-   position="148.73286,112.26668" />
+   position="146.53103,-141.73233" />
   </sodipodi:namedview>
   <style
    id="style2"
@@ -107,7 +111,8 @@
 	.st29{font-size:18px;}
 </style>
   <g
-   id="Layer_2">
+   id="Layer_2"
+   transform="translate(-2.2018315,-9.84083)">
     <g
    id="g14">
       <defs
@@ -137,11 +142,11 @@
         <image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FA.jpg"
    xlink:href="sub_img/148B1EE6E878A2FA.jpg"
-   style="overflow:visible"
-   width="1181"
-   height="1181"
+   id="image10"
    transform="matrix(0.2212,0,0,0.2212,6.1855,289.7966)"
-   id="image10" />
+   height="1181"
+   width="1181"
+   style="overflow:visible" />
       </g>
     </g>
     <g
@@ -173,11 +178,11 @@
         <image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FE.jpg"
    xlink:href="sub_img/148B1EE6E878A2FE.jpg"
-   style="overflow:visible"
-   width="1181"
-   height="1181"
+   id="image22"
    transform="matrix(0.2238,0,0,0.2238,278.9845,290.7804)"
-   id="image22" />
+   height="1181"
+   width="1181"
+   style="overflow:visible" />
       </g>
     </g>
     <g
@@ -196,7 +201,7 @@
    id="g32">
           <polygon
    id="polygon30"
-   points="402.7,366.7 397.6,362.7 399,369.1 398,369.3 396,360.2 403.4,365.9 " />
+   points="399,369.1 398,369.3 396,360.2 403.4,365.9 402.7,366.7 397.6,362.7 " />
         </g>
       </g>
     </g>
@@ -240,13 +245,14 @@
    id="g48">
           <polygon
    id="polygon46"
-   points="198.6,432.1 202.5,426.8 196.2,428.3 195.9,427.3 205,425.2 199.4,432.7 " />
+   points="196.2,428.3 195.9,427.3 205,425.2 199.4,432.7 198.6,432.1 202.5,426.8 " />
         </g>
       </g>
     </g>
   </g>
   <g
-   id="Layer_3"><g
+   id="Layer_3"
+   transform="translate(-2.2018315,-9.84083)"><g
    id="g80">
   <rect
    style="opacity:1;fill:#00aeef;fill-opacity:0.20392157"
@@ -351,19 +357,19 @@
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path92"
-   d="m 94,71.1 c 14.6,6.2 27.2,9.6 36.6,11.6 c 5.4,1.1 12,2.5 21.1,3.3 c 2.3,0.2 6.6,0.5 26.2,0.4 c 6.4,0 11.7,-0.1 15.4,-0.1"
+   d="m 94,71.1 c 14.6,6.2 27.2,9.6 36.6,11.6 5.4,1.1 12,2.5 21.1,3.3 2.3,0.2 6.6,0.5 26.2,0.4 6.4,0 11.7,-0.1 15.4,-0.1"
    class="st2" />
 <path
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path94"
-   d="m 147.5,74"
+   d="M 147.5,74"
    class="st10" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path96"
-   d="m 94,102.9 c 14.6,6.2 27.2,9.6 36.6,11.6 c 5.4,1.1 12,2.5 21.1,3.3 c 2.3,0.2 6.6,0.5 26.2,0.4 c 6.4,0 11.7,-0.1 15.4,-0.1"
+   d="m 94,102.9 c 14.6,6.2 27.2,9.6 36.6,11.6 5.4,1.1 12,2.5 21.1,3.3 2.3,0.2 6.6,0.5 26.2,0.4 6.4,0 11.7,-0.1 15.4,-0.1"
    class="st2" />
 <text
    y="84.878304"
@@ -378,6 +384,7 @@
 
 
 
+
 <text
    y="0"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
@@ -388,6 +395,7 @@
      x="0"
      id="tspan1836"
      sodipodi:role="line">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 
@@ -407,13 +415,13 @@
    id="g118">
       <polygon
    id="polygon116"
-   points="92.5,92 91.3,89.9 93.8,89.9 " />
+   points="93.8,89.9 92.5,92 91.3,89.9 " />
     </g>
     <g
    id="g122">
       <polygon
    id="polygon120"
-   points="92.5,71.3 91.3,73.5 93.8,73.5 " />
+   points="93.8,73.5 92.5,71.3 91.3,73.5 " />
     </g>
   </g>
 </g>
@@ -428,6 +436,7 @@
      x="0"
      id="tspan1822"
      sodipodi:role="line">$\phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 
@@ -485,31 +494,31 @@
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path152"
-   d="m 93.9,211.7 c 14.6,6.2 27.2,9.6 36.6,11.6 c 5.4,1.1 12,2.5 21.1,3.3 c 2.3,0.2 6.6,0.5 26.2,0.4 c 6.4,0 11.7,-0.1 15.4,-0.1"
+   d="m 93.9,211.7 c 14.6,6.2 27.2,9.6 36.6,11.6 5.4,1.1 12,2.5 21.1,3.3 2.3,0.2 6.6,0.5 26.2,0.4 6.4,0 11.7,-0.1 15.4,-0.1"
    class="st2" />
 <path
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path154"
-   d="m 147.4,214.6"
+   d="M 147.4,214.6"
    class="st10" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path156"
-   d="m 93.9,243.5 c 14.6,6.2 27.2,9.6 36.6,11.6 c 5.4,1.1 12,2.5 21.1,3.3 c 2.3,0.2 6.6,0.5 26.2,0.4 c 6.4,0 11.7,-0.1 15.4,-0.1"
+   d="m 93.9,243.5 c 14.6,6.2 27.2,9.6 36.6,11.6 5.4,1.1 12,2.5 21.1,3.3 2.3,0.2 6.6,0.5 26.2,0.4 6.4,0 11.7,-0.1 15.4,-0.1"
    class="st2" />
 <g
    id="g166">
   <polygon
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
    id="polygon158"
-   points="79,220.4 89.9,255.8 68.2,255.8 "
+   points="68.2,255.8 79,220.4 89.9,255.8 "
    class="st16" />
   <polygon
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
    id="polygon160"
-   points="79,220.3 68.2,184.8 89.9,184.8 "
+   points="89.9,184.8 79,220.3 68.2,184.8 "
    class="st16" />
   <ellipse
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
@@ -540,7 +549,7 @@
    style="opacity:1;fill:#ed1c24;fill-opacity:0.20392157"
    inkscape:connector-curvature="0"
    id="path170"
-   d="m 75.4,232.7 c 0.9,-0.3 2.3,-0.6 3.9,-0.5 c 1.5,0 2.7,0.3 3.6,0.5 c 2.3,7.7 4.6,15.4 6.9,23.1 c -5.2,1.6 -12.1,2.6 -19.5,0.7 c -0.8,-0.2 -1.5,-0.4 -2.2,-0.7 c 2.5,-7.7 4.9,-15.4 7.3,-23.1 z"
+   d="m 75.4,232.7 c 0.9,-0.3 2.3,-0.6 3.9,-0.5 1.5,0 2.7,0.3 3.6,0.5 2.3,7.7 4.6,15.4 6.9,23.1 -5.2,1.6 -12.1,2.6 -19.5,0.7 -0.8,-0.2 -1.5,-0.4 -2.2,-0.7 2.5,-7.7 4.9,-15.4 7.3,-23.1 z"
    class="st18" />
 <g
    id="g200">
@@ -558,13 +567,13 @@
    id="g192">
       <polygon
    id="polygon190"
-   points="92.2,232 90.9,229.8 93.4,229.8 " />
+   points="93.4,229.8 92.2,232 90.9,229.8 " />
     </g>
     <g
    id="g196">
       <polygon
    id="polygon194"
-   points="92.2,211.3 90.9,213.4 93.4,213.4 " />
+   points="93.4,213.4 92.2,211.3 90.9,213.4 " />
     </g>
   </g>
 </g>
@@ -621,19 +630,19 @@
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path218"
-   d="m 317.2,74.2"
+   d="M 317.2,74.2"
    class="st10" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path220"
-   d="m 263.9,71.8 c 5.5,4.5 16.1,12.3 29.5,17.8 c 4.1,1.7 11.4,4.6 21.5,6 c 2.7,0.4 4.9,0.6 6.5,0.7 c 13.7,0.9 32,0.6 41.6,0.3"
+   d="m 263.9,71.8 c 5.5,4.5 16.1,12.3 29.5,17.8 4.1,1.7 11.4,4.6 21.5,6 2.7,0.4 4.9,0.6 6.5,0.7 13.7,0.9 32,0.6 41.6,0.3"
    class="st2" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path222"
-   d="m 263.9,103.1 c 5.5,4.5 16.1,12.3 29.5,17.8 c 4.1,1.7 11.4,4.6 21.5,6 c 2.7,0.4 4.9,0.6 6.5,0.7 c 13.7,0.9 32,0.6 41.6,0.3"
+   d="m 263.9,103.1 c 5.5,4.5 16.1,12.3 29.5,17.8 4.1,1.7 11.4,4.6 21.5,6 2.7,0.4 4.9,0.6 6.5,0.7 13.7,0.9 32,0.6 41.6,0.3"
    class="st2" />
 <g
    id="g252">
@@ -651,13 +660,13 @@
    id="g244">
       <polygon
    id="polygon242"
-   points="261.7,92 260.5,89.9 263,89.9 " />
+   points="263,89.9 261.7,92 260.5,89.9 " />
     </g>
     <g
    id="g248">
       <polygon
    id="polygon246"
-   points="261.7,71.3 260.5,73.5 263,73.5 " />
+   points="263,73.5 261.7,71.3 260.5,73.5 " />
     </g>
   </g>
 </g>
@@ -766,19 +775,19 @@
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path291"
-   d="m 316.4,215"
+   d="M 316.4,215"
    class="st10" />
 <g
    id="g301">
   <polygon
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
    id="polygon293"
-   points="248,227 258.9,262.5 237.2,262.5 "
+   points="237.2,262.5 248,227 258.9,262.5 "
    class="st16" />
   <polygon
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
    id="polygon295"
-   points="248,226.9 237.2,191.4 258.9,191.4 "
+   points="258.9,191.4 248,226.9 237.2,191.4 "
    class="st16" />
   <ellipse
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
@@ -809,19 +818,19 @@
    style="opacity:1;fill:#ed1c24;fill-opacity:0.20392157"
    inkscape:connector-curvature="0"
    id="path305"
-   d="m 246.4,233.2 c 0.1,-0.1 0.9,-0.8 2,-0.7 c 0.7,0.1 1.2,0.5 1.4,0.7 c 3,9.8 5.9,19.6 8.9,29.4 c -0.8,0.2 -1.9,0.5 -3.3,0.7 c -3,0.5 -5.3,0.5 -7.6,0.5 c -2.6,0 -4.8,0 -7.6,-0.6 c -1.1,-0.2 -2,-0.5 -2.7,-0.7 c 3,-9.7 6,-19.5 8.9,-29.3 z"
+   d="m 246.4,233.2 c 0.1,-0.1 0.9,-0.8 2,-0.7 0.7,0.1 1.2,0.5 1.4,0.7 3,9.8 5.9,19.6 8.9,29.4 -0.8,0.2 -1.9,0.5 -3.3,0.7 -3,0.5 -5.3,0.5 -7.6,0.5 -2.6,0 -4.8,0 -7.6,-0.6 -1.1,-0.2 -2,-0.5 -2.7,-0.7 3,-9.7 6,-19.5 8.9,-29.3 z"
    class="st18" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path307"
-   d="m 263.2,215.5 c 5,4.1 15.9,12.4 29.6,17 c 9.3,3.1 19.6,4.5 21.3,4.8 c 2.7,0.4 4.7,0.5 6.5,0.7 c 8.3,0.7 13.6,0.5 26.2,0.4 c 3.3,0 8.6,-0.1 15.4,-0.1"
+   d="m 263.2,215.5 c 5,4.1 15.9,12.4 29.6,17 9.3,3.1 19.6,4.5 21.3,4.8 2.7,0.4 4.7,0.5 6.5,0.7 8.3,0.7 13.6,0.5 26.2,0.4 3.3,0 8.6,-0.1 15.4,-0.1"
    class="st2" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path309"
-   d="m 263.2,247.5 c 5,4.1 15.9,12.4 29.6,17 c 9.3,3.1 19.6,4.5 21.3,4.8 c 2.7,0.4 4.7,0.5 6.5,0.7 c 8.3,0.7 13.6,0.5 26.2,0.4 c 3.3,0 8.6,-0.1 15.4,-0.1"
+   d="m 263.2,247.5 c 5,4.1 15.9,12.4 29.6,17 9.3,3.1 19.6,4.5 21.3,4.8 2.7,0.4 4.7,0.5 6.5,0.7 8.3,0.7 13.6,0.5 26.2,0.4 3.3,0 8.6,-0.1 15.4,-0.1"
    class="st2" />
 <g
    id="g339">
@@ -839,13 +848,13 @@
    id="g331">
       <polygon
    id="polygon329"
-   points="261.2,233.3 259.9,231.1 262.4,231.1 " />
+   points="262.4,231.1 261.2,233.3 259.9,231.1 " />
     </g>
     <g
    id="g335">
       <polygon
    id="polygon333"
-   points="261.2,214.7 259.9,216.9 262.4,216.9 " />
+   points="262.4,216.9 261.2,214.7 259.9,216.9 " />
     </g>
   </g>
 </g>
@@ -951,19 +960,19 @@
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path376"
-   d="m 486.8,74"
+   d="M 486.8,74"
    class="st10" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path378"
-   d="m 433.7,71.2 c 2.4,-2 6.2,-4.9 11.5,-7 c 7.9,-3.2 14.5,-3.1 20.7,-3 c 13.1,0.2 26.2,-0.2 39.3,0.1 c 6.2,0.1 15.7,0.2 27.3,0.1"
+   d="m 433.7,71.2 c 2.4,-2 6.2,-4.9 11.5,-7 7.9,-3.2 14.5,-3.1 20.7,-3 13.1,0.2 26.2,-0.2 39.3,0.1 6.2,0.1 15.7,0.2 27.3,0.1"
    class="st2" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path380"
-   d="m 433.3,103.2 c 2.4,-2 6.2,-4.9 11.5,-7 c 7.9,-3.2 14.6,-3.1 20.7,-3 c 0,0 0.9,0 51.3,0.2 c 6.8,0 12.2,-0.1 15.4,-0.1"
+   d="m 433.3,103.2 c 2.4,-2 6.2,-4.9 11.5,-7 7.9,-3.2 14.6,-3.1 20.7,-3 0,0 0.9,0 51.3,0.2 6.8,0 12.2,-0.1 15.4,-0.1"
    class="st2" />
 
 
@@ -984,13 +993,13 @@
    id="g402">
       <polygon
    id="polygon400"
-   points="431.2,91.9 430,89.8 432.5,89.8 " />
+   points="432.5,89.8 431.2,91.9 430,89.8 " />
     </g>
     <g
    id="g406">
       <polygon
    id="polygon404"
-   points="431.2,71.2 430,73.4 432.5,73.4 " />
+   points="432.5,73.4 431.2,71.2 430,73.4 " />
     </g>
   </g>
 </g>
@@ -1047,23 +1056,23 @@
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path428"
-   d="m 433,207.6 c 3.1,-0.5 7.7,-1.1 13.3,-1.7 c 7.7,-0.8 14.2,-1 32.5,-1.1 c 16.4,-0.1 21.3,0.1 38,0 c 6.5,0 11.9,-0.1 15.4,-0.1"
+   d="m 433,207.6 c 3.1,-0.5 7.7,-1.1 13.3,-1.7 7.7,-0.8 14.2,-1 32.5,-1.1 16.4,-0.1 21.3,0.1 38,0 6.5,0 11.9,-0.1 15.4,-0.1"
    class="st2" />
 <path
    style="fill:#00aeef"
    inkscape:connector-curvature="0"
    id="path430"
-   d="m 486.4,215.1"
+   d="M 486.4,215.1"
    class="st10" />
 <polygon
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
    id="polygon432"
-   points="419.6,209.2 430.4,244.7 408.7,244.7 "
+   points="408.7,244.7 419.6,209.2 430.4,244.7 "
    class="st16" />
 <polygon
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    id="polygon434"
-   points="419.6,209.1 408.7,173.6 430.4,173.6 "
+   points="430.4,173.6 419.6,209.1 408.7,173.6 "
    class="st2" />
 <ellipse
    style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
@@ -1093,19 +1102,19 @@
    style="opacity:1;fill:#ed1c24;fill-opacity:0.20392157"
    inkscape:connector-curvature="0"
    id="path442"
-   d="m 412.6,232.9 c 0.5,-0.1 1.3,-0.2 2.2,-0.3 c 1.8,-0.2 3.9,-0.4 6.5,-0.4 c 3.6,0 2.2,0.4 4.2,0.5 c 0.3,0 1.1,0 1.2,0.4 c 0.1,0.2 0,0.5 -0.1,0.7 c 1.1,3.7 2.3,7.4 3.4,11 c -0.8,0.2 -1.9,0.5 -3.2,0.7 c -1,0.2 -2.4,0.4 -7.6,0.4 c -5,0 -6.3,-0.1 -7.6,-0.4 c -1.1,-0.2 -2,-0.5 -2.6,-0.7 c 1.2,-3.9 2.4,-7.9 3.6,-11.9 z"
+   d="m 412.6,232.9 c 0.5,-0.1 1.3,-0.2 2.2,-0.3 1.8,-0.2 3.9,-0.4 6.5,-0.4 3.6,0 2.2,0.4 4.2,0.5 0.3,0 1.1,0 1.2,0.4 0.1,0.2 0,0.5 -0.1,0.7 1.1,3.7 2.3,7.4 3.4,11 -0.8,0.2 -1.9,0.5 -3.2,0.7 -1,0.2 -2.4,0.4 -7.6,0.4 -5,0 -6.3,-0.1 -7.6,-0.4 -1.1,-0.2 -2,-0.5 -2.6,-0.7 1.2,-3.9 2.4,-7.9 3.6,-11.9 z"
    class="st18" />
 <path
    style="fill:#fbb040"
    inkscape:connector-curvature="0"
    id="path444"
-   d="m 415.3,255.3"
+   d="M 415.3,255.3"
    class="st21" />
 <path
    style="fill:none;stroke:#000000;stroke-miterlimit:10"
    inkscape:connector-curvature="0"
    id="path446"
-   d="m 433,240.4 c 3.1,-0.5 7.7,-1.1 13.3,-1.7 c 7.7,-0.8 14.2,-1 32.5,-1.1 c 16.4,-0.1 21.3,0.1 38,0 c 6.5,0 11.9,-0.1 15.4,-0.1"
+   d="m 433,240.4 c 3.1,-0.5 7.7,-1.1 13.3,-1.7 7.7,-0.8 14.2,-1 32.5,-1.1 16.4,-0.1 21.3,0.1 38,0 6.5,0 11.9,-0.1 15.4,-0.1"
    class="st2" />
 <g
    id="g476">
@@ -1123,13 +1132,13 @@
    id="g468">
       <polygon
    id="polygon466"
-   points="430.9,232.5 429.6,230.4 432.1,230.4 " />
+   points="432.1,230.4 430.9,232.5 429.6,230.4 " />
     </g>
     <g
    id="g472">
       <polygon
    id="polygon470"
-   points="430.9,207.6 429.6,209.7 432.1,209.7 " />
+   points="432.1,209.7 430.9,207.6 429.6,209.7 " />
     </g>
   </g>
 </g>
@@ -1146,6 +1155,7 @@
 
 
 
+
 <text
    y="84.878304"
    x="395.91739"
@@ -1156,6 +1166,7 @@
      x="395.91739"
      id="tspan1818"
      sodipodi:role="line">$E_{\mathrm{F, M}}$</tspan></text>
+
 
 
 
@@ -1171,6 +1182,7 @@
      x="0"
      sodipodi:role="line"
      id="tspan1824">$\phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 
@@ -1190,6 +1202,7 @@
 
 
 
+
 </g>
 <text
    y="91.690804"
@@ -1201,6 +1214,7 @@
      x="195.38811"
      sodipodi:role="line"
      id="tspan1838">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 
@@ -1217,6 +1231,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text106-5"
@@ -1227,6 +1242,7 @@
      sodipodi:role="line"
      x="363.22995"
      y="93.911201">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 
@@ -1243,6 +1259,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844-8"
@@ -1253,6 +1270,7 @@
      sodipodi:role="line"
      x="363.22995"
      y="129.91121">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 
@@ -1269,6 +1287,7 @@
 
 
 
+
 <text
    y="69.083954"
    x="534.08838"
@@ -1279,6 +1298,7 @@
      x="534.08838"
      sodipodi:role="line"
      id="tspan1838-9">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 
@@ -1295,6 +1315,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text106-3"
@@ -1305,6 +1326,7 @@
      sodipodi:role="line"
      x="194.82993"
      y="223.79639">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 
@@ -1321,6 +1343,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844-0"
@@ -1331,6 +1354,7 @@
      sodipodi:role="line"
      x="194.82993"
      y="259.79639">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 
@@ -1347,6 +1371,7 @@
 
 
 
+
 <text
    y="246.08835"
    x="363.63968"
@@ -1357,6 +1382,7 @@
      x="363.63968"
      sodipodi:role="line"
      id="tspan1838-95">$E_{\mathrm{F,S}}$</tspan></text>
+
 
 
 
@@ -1373,6 +1399,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text106-6"
@@ -1383,6 +1410,7 @@
      sodipodi:role="line"
      x="533.67865"
      y="203.7195">$E_{\mathrm{C}}$</tspan></text>
+
 
 
 
@@ -1399,6 +1427,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="text1844-9"
@@ -1409,6 +1438,7 @@
      sodipodi:role="line"
      x="533.67865"
      y="239.7195">$E_{\mathrm{V}}$</tspan></text>
+
 
 
 
@@ -1425,6 +1455,7 @@
 
 
 
+
 <text
    y="226.8783"
    x="225.91739"
@@ -1435,6 +1466,7 @@
      x="225.91739"
      id="tspan1944"
      sodipodi:role="line">$E_{\mathrm{F, G}}$</tspan></text>
+
 
 
 
@@ -1451,6 +1483,7 @@
 
 
 
+
 <g
    transform="translate(338,152)"
    id="g1956"><text
@@ -1463,6 +1496,7 @@
      x="0"
      sodipodi:role="line"
      id="tspan1952">$\phi_{\mathrm{b}} &gt; \phi_{\mathrm{b}}^0$</tspan></text>
+
 
 
 
@@ -1482,6 +1516,7 @@
 
 
 
+
 <text
    y="65.312897"
    x="-73.323898"
@@ -1495,18 +1530,9 @@
 
 
 
+
 </g>
-<text
-   id="text1970"
-   y="24.336863"
-   x="4.6355939"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-   xml:space="preserve"><tspan
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-     y="24.336863"
-     x="4.6355939"
-     id="tspan1968"
-     sodipodi:role="line">\Lsize a</tspan></text>
+
 
 
 
@@ -1524,6 +1550,7 @@
 
 
 
+
 <text
    id="text1978"
    y="312.33685"
@@ -1538,9 +1565,11 @@
 
 
 
+
 </g>
   <g
-   id="Layer_1"><text
+   id="Layer_1"
+   transform="translate(-2.2018315,-9.84083)"><text
    y="20.8526"
    x="-415.40479"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
@@ -1554,11 +1583,13 @@
 
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text535"
    class="st13 st22"
    transform="matrix(0,-0.583,0.583,0,25.1817,417.083)" />
+
 
 
 
@@ -1575,6 +1606,7 @@
 
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text551"
@@ -1583,11 +1615,13 @@
 
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text567"
    class="st13 st24"
    transform="translate(202.403,349.4803)" />
+
 
 
 
@@ -1604,6 +1638,7 @@
 
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text581"
@@ -1612,11 +1647,13 @@
 
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text583"
    class="st13 st24"
    transform="translate(157.6665,501.347)">Reverse</text>
+
 
 
 
@@ -1629,11 +1666,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text587"
    class="st13 st12"
    transform="translate(98.8336,518.3472)">-1</text>
+
 
 
 
@@ -1645,6 +1684,7 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text591"
@@ -1653,11 +1693,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text593"
    class="st13 st12"
    transform="translate(239.3332,518.3472)">2</text>
+
 
 
 
@@ -1671,11 +1713,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text599"
    class="st13 st12"
    transform="translate(31.667,419.8471)">-0.4</text>
+
 
 
 
@@ -1687,6 +1731,7 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text603"
@@ -1695,11 +1740,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text605"
    class="st13 st12"
    transform="translate(35.6629,332.6804)">0.4</text>
+
 
 
 
@@ -1720,6 +1767,7 @@
 
 
 
+
 <text
    id="text619"
    transform="translate(4.1441,217.1804)"><tspan
@@ -1736,11 +1784,13 @@
 
 
 
+
 <text
    style="font-size:12px;font-family:ArialMT"
    id="text621"
    class="st13 st24"
    transform="translate(112.3695,32.7191)">Zero Bias</text>
+
 
 
 
@@ -2011,6 +2061,7 @@
    id="text705"
    class="st13 st24"
    transform="translate(273.9922,32.7191)">Reverse Bias</text>
+
 
 
 
@@ -2328,6 +2379,7 @@
 
 
 
+
 <g
    id="g811">
   <circle
@@ -2597,6 +2649,7 @@
 
 
 
+
 <text
    style="font-size:14px;font-family:ArialMT"
    id="text913"
@@ -2605,14 +2658,18 @@
 
 
 
+
 <text
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
    id="text915"
    class="st13 st24"
    x="424.19717"
    y="330.66876"><tspan
      sodipodi:role="line"
-     id="tspan1388">$V_{\mathrm{b}}$ = -0.75$\sim{}$0.75 V</tspan></text>
+     id="tspan1388"
+     x="424.19717"
+     y="330.66876">$V_{\mathrm{b}}$ = -0.75$\sim{}$0.75 V</tspan></text>
+
 
 
 
@@ -2629,6 +2686,7 @@
 
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text921"
@@ -2637,11 +2695,13 @@
 
 
 
+
 <text
    style="font-size:13px;font-family:ArialMT"
    id="text927"
    class="st13 st22"
    transform="translate(424.7637,537.5133)" />
+
 
 
 
@@ -2654,11 +2714,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text947"
    class="st13 st12"
    transform="translate(374.1671,518.3472)">-1</text>
+
 
 
 
@@ -2670,6 +2732,7 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text951"
@@ -2678,11 +2741,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text953"
    class="st13 st12"
    transform="translate(514.6667,518.3472)">2</text>
+
 
 
 
@@ -2697,11 +2762,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text959"
    class="st13 st12"
    transform="translate(307.667,477.2359)">-0.4</text>
+
 
 
 
@@ -2713,11 +2780,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text963"
    class="st13 st12"
    transform="translate(311.3294,384.9028)">0.2</text>
+
 
 
 
@@ -2729,6 +2798,7 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text967"
@@ -2737,11 +2807,13 @@
 
 
 
+
 <text
    style="font-size:11px;font-family:ArialMT"
    id="text969"
    class="st13 st12"
    transform="translate(320.5029,415.6804)">0</text>
+
 
 
 
@@ -2759,6 +2831,7 @@
 
 
 
+
 <text
    transform="rotate(-90)"
    y="296.81073"
@@ -2767,11 +2840,15 @@
    id="text1946-3"
    class="st11 st12"><tspan
      id="tspan2002"
-     sodipodi:role="line">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+     sodipodi:role="line"
+     x="-416.11353"
+     y="296.81073">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
+
 
 
 
 </g>
   <g
-   id="Layer_4" />
+   id="Layer_4"
+   transform="translate(-2.2018315,-9.84083)" />
 </svg>
