@@ -62,7 +62,7 @@ def gridplots(nrows=1, ncols=1, span=[],
         except KeyError:
             gs_kw = dict()
         gs = GS(nrows, ncols, figure=fig, **gs_kw)        # Better way?
-        print(gs)
+        # print(gs)
         axs = []
         r = 0
         c = 0            # counter for row and col
@@ -166,7 +166,7 @@ def _replace_pgf_img(string, index, new):
         cont = re.sub(match[0], new, string)
     return cont
 
-def add_img_ax(ax, fname, index=None):
+def add_img_ax(ax, fname, index=None, debug=False):
     """Higher level function to add a image with fname by default,
     register the information of fname with the ax
 
@@ -177,13 +177,17 @@ def add_img_ax(ax, fname, index=None):
         w, h = _get_pdf_size(fname)
     else:
         w, h = _get_img_size(fname)
-    print(w, h)
+    if debug:
+        print(w, h)
     # w, h are in inches
     # Create a "fake" image
+    if not debug:
+        ax.set_axis_off()
     ax.plot([0, w, 0, w], [0, h, h, 0], rasterized=True)
-    # ax.set_aspect("equal")
-    ax.axis("equal")
-    ax.set_axis_off()
+    ax.set_aspect("equal")
+    # ax.axis("equal")
+    ax.set_xlim(0, w)
+    ax.set_ylim(0, h)
     ax.is_img = True
     ax.img_kw = dict(filename=fname,
                      index=index)
