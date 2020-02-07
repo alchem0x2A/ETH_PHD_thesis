@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -34,7 +33,7 @@
    id="defs985" />
   <sodipodi:namedview
    inkscape:document-rotation="0"
-   inkscape:current-layer="Layer_3"
+   inkscape:current-layer="Layer_1"
    inkscape:window-maximized="1"
    inkscape:window-y="-8"
    inkscape:window-x="-8"
@@ -110,146 +109,7 @@
 	.st28{fill:#2E3192;}
 	.st29{font-size:18px;}
 </style>
-  <g
-   id="Layer_2"
-   transform="translate(-2.2018315,-9.84083)">
-    <g
-   id="g14">
-      <defs
-   id="defs5">
-        <rect
-   height="198.2"
-   width="198.2"
-   y="311.5"
-   x="51.799999"
-   id="SVGID_1_" />
-      </defs>
-      <clipPath
-   id="SVGID_2_">
-        <use
-   height="100%"
-   width="100%"
-   y="0"
-   x="0"
-   id="use7"
-   style="overflow:visible"
-   xlink:href="#SVGID_1_" />
-      </clipPath>
-      <g
-   id="g12"
-   clip-path="url(#SVGID_2_)"
-   class="st0">
-        <image
-   sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FA.jpg"
-   xlink:href="sub_img/148B1EE6E878A2FA.jpg"
-   id="image10"
-   transform="matrix(0.2212,0,0,0.2212,6.1855,289.7966)"
-   height="1181"
-   width="1181"
-   style="overflow:visible" />
-      </g>
-    </g>
-    <g
-   id="g26">
-      <defs
-   id="defs17">
-        <rect
-   height="198"
-   width="198"
-   y="313.70001"
-   x="327"
-   id="SVGID_3_" />
-      </defs>
-      <clipPath
-   id="SVGID_4_">
-        <use
-   height="100%"
-   width="100%"
-   y="0"
-   x="0"
-   id="use19"
-   style="overflow:visible"
-   xlink:href="#SVGID_3_" />
-      </clipPath>
-      <g
-   id="g24"
-   clip-path="url(#SVGID_4_)"
-   class="st1">
-        <image
-   sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\qc\sub_img/148B1EE6E878A2FE.jpg"
-   xlink:href="sub_img/148B1EE6E878A2FE.jpg"
-   id="image22"
-   transform="matrix(0.2238,0,0,0.2238,278.9845,290.7804)"
-   height="1181"
-   width="1181"
-   style="overflow:visible" />
-      </g>
-    </g>
-    <g
-   id="g36">
-      <g
-   id="g34">
-        <line
-   style="fill:none;stroke:#000000;stroke-miterlimit:10"
-   id="line28"
-   y2="362.60001"
-   x2="397.5"
-   y1="453.60001"
-   x1="454.79999"
-   class="st2" />
-        <g
-   id="g32">
-          <polygon
-   id="polygon30"
-   points="399,369.1 398,369.3 396,360.2 403.4,365.9 402.7,366.7 397.6,362.7 " />
-        </g>
-      </g>
-    </g>
-    <rect
-   style="fill:none"
-   id="rect38"
-   height="94.300003"
-   width="28.5"
-   class="st3"
-   y="366.60001"
-   x="284.89999" />
-    <rect
-   style="opacity:1;fill:#00aeef;fill-opacity:0.20392157"
-   id="rect40"
-   height="186"
-   width="92.599998"
-   class="st4"
-   y="319"
-   x="150" />
-    <rect
-   style="opacity:1;fill:#ed1c24;fill-opacity:0.20392157"
-   id="rect42"
-   height="186"
-   width="93.199997"
-   class="st5"
-   y="319"
-   x="56.799999" />
-    <g
-   id="g52">
-      <g
-   id="g50">
-        <line
-   style="fill:none;stroke:#000000;stroke-miterlimit:10"
-   id="line44"
-   y2="426.79999"
-   x2="202.60001"
-   y1="473.10001"
-   x1="131.3"
-   class="st2" />
-        <g
-   id="g48">
-          <polygon
-   id="polygon46"
-   points="196.2,428.3 195.9,427.3 205,425.2 199.4,432.7 198.6,432.1 202.5,426.8 " />
-        </g>
-      </g>
-    </g>
-  </g>
+  
   <g
    id="Layer_3"
    transform="translate(-2.2018315,-9.84083)"><g
@@ -1536,32 +1396,10 @@
 
 
 
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-   x="4.6355939"
-   y="312.33685"
-   id="text1974"><tspan
-     sodipodi:role="line"
-     id="tspan1972"
-     x="4.6355939"
-     y="312.33685"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">\Lsize b</tspan></text>
 
 
 
 
-<text
-   id="text1978"
-   y="312.33685"
-   x="282.63559"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:AppleSymbols;-inkscape-font-specification:'AppleSymbols, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-   xml:space="preserve"><tspan
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-     y="312.33685"
-     x="282.63559"
-     id="tspan1976"
-     sodipodi:role="line">\Lsize c</tspan></text>
 
 
 
@@ -1569,18 +1407,7 @@
 </g>
   <g
    id="Layer_1"
-   transform="translate(-2.2018315,-9.84083)"><text
-   y="20.8526"
-   x="-415.40479"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text531"
-   class="st11 st22"
-   transform="rotate(-90)"><tspan
-     y="20.8526"
-     x="-415.40479"
-     id="tspan1980"
-     sodipodi:role="line">$ψ_0$ (V)</tspan></text>
-
+   transform="translate(-2.2018315,-9.84083)">
 
 
 
@@ -1593,16 +1420,6 @@
 
 
 
-<text
-   y="330.66876"
-   x="148.98726"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text539"
-   class="st11 st24"><tspan
-     sodipodi:role="line"
-     id="tspan464"
-     x="148.98726"
-     y="330.66876">$σ_{\mathrm{M}}=-2\times{}10^{13}\sim{}2\times{}10^{13}$ $e \cdot$cm$^{-2}$</tspan></text>
 
 
 
@@ -1625,132 +1442,20 @@
 
 
 
-<text
-   y="533.51331"
-   x="148.3425"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text575"
-   class="st11 st22"><tspan
-     y="533.51331"
-     x="148.3425"
-     id="tspan2008"
-     sodipodi:role="line">$V_{\mathrm{b}}$ (V)</tspan></text>
 
 
 
 
-<text
-   style="font-size:12px;font-family:ArialMT"
-   id="text581"
-   class="st13 st24"
-   transform="translate(64.9998,501.3474)">Forward</text>
 
 
 
 
-<text
-   style="font-size:12px;font-family:ArialMT"
-   id="text583"
-   class="st13 st24"
-   transform="translate(157.6665,501.347)">Reverse</text>
 
 
 
 
-<g
-   id="g595"><text
-   style="font-size:11px;font-family:ArialMT"
-   id="text585"
-   class="st13 st12"
-   transform="translate(52.6665,518.3472)">-2</text>
 
 
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text587"
-   class="st13 st12"
-   transform="translate(98.8336,518.3472)">-1</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text589"
-   class="st13 st12"
-   transform="translate(146.9989,518.3472)">0</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text591"
-   class="st13 st12"
-   transform="translate(193.1659,518.3472)">1</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text593"
-   class="st13 st12"
-   transform="translate(239.3332,518.3472)">2</text>
-
-
-
-
-</g>
-<g
-   id="g607"><text
-   style="font-size:11px;font-family:ArialMT"
-   id="text597"
-   class="st13 st12"
-   transform="translate(45.6709,376.2635)">0</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text599"
-   class="st13 st12"
-   transform="translate(31.667,419.8471)">-0.4</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text601"
-   class="st13 st12"
-   transform="translate(31.667,463.4305)">-0.8</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text603"
-   class="st13 st12"
-   transform="translate(31.6668,507.0137)">-1.2</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text605"
-   class="st13 st12"
-   transform="translate(35.6629,332.6804)">0.4</text>
-
-
-
-
-</g>
 <text
    id="text613"
    transform="translate(4.1439,76.7623)"><tspan
@@ -2659,30 +2364,10 @@
 
 
 
-<text
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:ArialMT;-inkscape-font-specification:'ArialMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text915"
-   class="st13 st24"
-   x="424.19717"
-   y="330.66876"><tspan
-     sodipodi:role="line"
-     id="tspan1388"
-     x="424.19717"
-     y="330.66876">$V_{\mathrm{b}}$ = -0.75$\sim{}$0.75 V</tspan></text>
 
 
 
 
-<text
-   y="533.51331"
-   x="423.0181"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text917"
-   class="st11 st22"><tspan
-     y="533.51331"
-     x="423.0181"
-     id="tspan2004"
-     sodipodi:role="line">$\sigma_{\mathrm{M}}$ (10$^{13}$ $e \cdot$cm$^{-2}$)</tspan></text>
 
 
 
@@ -2705,119 +2390,8 @@
 
 
 
-<g
-   id="g955"><text
-   style="font-size:11px;font-family:ArialMT"
-   id="text945"
-   class="st13 st12"
-   transform="translate(328,518.3472)">-2</text>
 
 
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text947"
-   class="st13 st12"
-   transform="translate(374.1671,518.3472)">-1</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text949"
-   class="st13 st12"
-   transform="translate(422.3324,518.3472)">0</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text951"
-   class="st13 st12"
-   transform="translate(468.4994,518.3472)">1</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text953"
-   class="st13 st12"
-   transform="translate(514.6667,518.3472)">2</text>
-
-
-
-
-</g>
-<g
-   transform="translate(-2)"
-   id="g971"><text
-   style="font-size:11px;font-family:ArialMT"
-   id="text957"
-   class="st13 st12"
-   transform="translate(307.667,446.458)">-0.2</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text959"
-   class="st13 st12"
-   transform="translate(307.667,477.2359)">-0.4</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text961"
-   class="st13 st12"
-   transform="translate(307.667,508.0137)">-0.6</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text963"
-   class="st13 st12"
-   transform="translate(311.3294,384.9028)">0.2</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text965"
-   class="st13 st12"
-   transform="translate(311.3293,354.1249)">0.4</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text967"
-   class="st13 st12"
-   transform="translate(311.3289,323.3472)">0.6</text>
-
-
-
-
-<text
-   style="font-size:11px;font-family:ArialMT"
-   id="text969"
-   class="st13 st12"
-   transform="translate(320.5029,415.6804)">0</text>
-
-
-
-
-</g>
 <text
    y="244.2621"
    x="3.1441"
@@ -2832,17 +2406,6 @@
 
 
 
-<text
-   transform="rotate(-90)"
-   y="296.81073"
-   x="-416.11353"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial-ItalicMT;-inkscape-font-specification:'Arial-ItalicMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="text1946-3"
-   class="st11 st12"><tspan
-     id="tspan2002"
-     sodipodi:role="line"
-     x="-416.11353"
-     y="296.81073">$\Delta E_{\mathrm{F, G}}$ (eV)</tspan></text>
 
 
 
