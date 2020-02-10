@@ -16,7 +16,7 @@
    version="1.1"
    id="svg1787"
    sodipodi:docname="first_principles1.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs1781" />
   <sodipodi:namedview
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="230.20218"
-     inkscape:cy="-130.18133"
+     inkscape:cx="36.757969"
+     inkscape:cy="193.06748"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,14 +87,14 @@
        id="g2501"
        transform="matrix(1.0382081,0,0,1,-2.344085,0)">
       <image
-         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/asym/sub_img/asym3.png"
+         sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\asym\sub_img/asym3.png"
          xlink:href="sub_img/asym3.png"
-         width="164.59201"
-         height="120.22666"
-         preserveAspectRatio="none"
-         id="image2423"
+         y="64.907509"
          x="35.254589"
-         y="64.907509" />
+         id="image2423"
+         preserveAspectRatio="none"
+         height="120.22666"
+         width="164.59201" />
       <rect
          y="115.58656"
          x="55.476315"
@@ -682,7 +682,7 @@
          id="tspan2751"
          x="86.131165"
          y="121.52402"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">{\itshape  Ɛ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
     <text
        id="text2759"
        y="121.52402"
@@ -693,7 +693,7 @@
          y="121.52402"
          x="170.26854"
          id="tspan2757"
-         sodipodi:role="line">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         sodipodi:role="line">{\itshape  Ɛ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
     <text
        id="text2765"
        y="181.31987"
@@ -704,7 +704,7 @@
          y="181.31987"
          x="86.131165"
          id="tspan2763"
-         sodipodi:role="line">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         sodipodi:role="line">{\itshape  Ɛ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -715,7 +715,7 @@
          id="tspan2767"
          x="170.26855"
          y="181.31987"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">{\freesans\itshape ℇ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">{\itshape  Ɛ}$_{\mathrm{ext}}$ (V$\cdot$nm$^{-1}$)</tspan></text>
     <g
        id="g2809"
        transform="translate(3.1750001)">
