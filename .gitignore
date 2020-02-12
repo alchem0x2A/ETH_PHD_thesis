@@ -441,3 +441,6 @@ img/vdw/*.png
 /chapters/appendix/main.tex
 /data/vdw/GIXD/calibrated/1008/graphene/Plasma.png
 /img/vdw/compare_gixd_1D.svg
+/img/diel/*.png
+/img/asym/*.png
+/img/qc/*.png
