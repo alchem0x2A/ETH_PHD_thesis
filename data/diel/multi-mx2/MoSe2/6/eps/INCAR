@@ -1,0 +1,12 @@
+INCAR created by Atomic Simulation Environment
+ SIGMA = 0.010000
+ EDIFF = 1.00e-08
+ GGA = PE
+ PREC = Accurate
+ IBRION = -1
+ ISMEAR = -5
+ NELMIN = 5
+ NPAR = 28
+ IVDW = 20
+ LEPSILON = .TRUE.
+ LVDW_EWALD = .TRUE.
