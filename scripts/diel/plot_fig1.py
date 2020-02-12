@@ -8,13 +8,16 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from scipy.constants import epsilon_0, pi
 from scipy.optimize import curve_fit
 import os
+from pathlib import Path
 
 
 def fit_para(L, d, eps_2D):
-    return (eps_2D - 1) * d / L  + 1
+    return (eps_2D - 1) * d / L + 1
+
 
 def fit_vert(L, d, eps_2D):
     return 1 / (d / L * (1 / eps_2D - 1) + 1)
+
 
 def eps_para(alpha, L):
     return 1 + 4 * pi * alpha / L
@@ -22,6 +25,7 @@ def eps_para(alpha, L):
 
 def eps_perp(alpha, L):
     return 1 / (1 - 4 * pi * alpha / L)
+
 
 def plot_a(fig, ax):
     """Insert binary image here"""
@@ -39,11 +43,11 @@ def plot_a(fig, ax):
 def plot_bc(fig, ax):
     def convert_name(s):
         dict = {"mos2": "2H-MoS$_2$",
-              "mose2": "2H-MoSe$_2$",
-              "mote2": "2H-MoTe$_2$",
-              "ws2": "2H-WS$_2$",
-              "wse2": "2H-WSe$_2$",
-              "wte2": "2H-WTe$_2$",}
+                "mose2": "2H-MoSe$_2$",
+                "mote2": "2H-MoTe$_2$",
+                "ws2": "2H-WS$_2$",
+                "wse2": "2H-WSe$_2$",
+                "wte2": "2H-WTe$_2$", }
         return dict[s]
     # ax_b, ax_c = ax
     # ax_b_t = inset_axes(ax_b, height="60%", width="100%",
@@ -69,17 +73,17 @@ def plot_bc(fig, ax):
               "mote2": "#2ca02c",
               "ws2": "#d62728",
               "wse2": "#9467bd",
-              "wte2": "#8c564b",}
+              "wte2": "#8c564b", }
 
-    data_all = {k: dict(para=None, perp=None) 
+    data_all = {k: dict(para=None, perp=None)
                 for k, v in colors.items()}
 
     for i, item in enumerate(g):
         if "old" in item:
             continue
         for f in item[2]:
-            f_path = os.path.join(item[0], f)
-            if "agr" not in f_path:
+            f_path = Path(item[0]) / f
+            if "agr" not in f_path.as_posix():
                 continue
             print(f_path)
             data = np.genfromtxt(f_path,
@@ -87,11 +91,11 @@ def plot_bc(fig, ax):
             L = data[:, 0]
             eps_SL = data[:, 1]
             # dd = {dict("para")}
-            if "parallel.agr" in f_path:
-                alpha_SL = L * (data[:, 1] - 1)  / (4 * pi)
+            if "parallel.agr" in f_path.as_posix():
+                alpha_SL = L * (data[:, 1] - 1) / (4 * pi)
                 data_all[names[i]]["para"] = [L, eps_SL, alpha_SL]
-                
-            elif "perpendicular.agr" in f_path:
+
+            elif "perpendicular.agr" in f_path.as_posix():
                 alpha_SL = L * (data[:, 1] - 1) / (data[:, 1]) / (4 * pi)
                 data_all[names[i]]["perp"] = [L, eps_SL, alpha_SL]
 
@@ -102,7 +106,7 @@ def plot_bc(fig, ax):
         l, *_ = ax_b_t.plot(L, eps_SL, "o-",
                             markersize=4,
                             color=colors[name]
-                )
+                            )
         ax_b_b.plot(L, alpha_SL, "o-",
                     markersize=4,
                     color=l.get_c())
@@ -115,18 +119,20 @@ def plot_bc(fig, ax):
         ax_c_b.plot(L, alpha_SL, "o-",
                     markersize=4,
                     color=l.get_c())
-        
 
     pad = 9
     ax_b_b.set_xlabel("$L$ (\\AA{})")
-    ax_b_t.set_ylabel("$\\varepsilon^{\\parallel}_{\mathrm{SL}}$", labelpad=pad)
-    ax_b_b.set_ylabel("$\\alpha^{\\parallel}_{\\mathrm{2D}}/(4\\pi \\varepsilon_0)$ (\\AA{})")
+    ax_b_t.set_ylabel(
+        "$\\varepsilon^{\\parallel}_{\mathrm{SL}}$", labelpad=pad)
+    ax_b_b.set_ylabel(
+        "$\\alpha^{\\parallel}_{\\mathrm{2D}}/(4\\pi \\varepsilon_0)$ (\\AA{})")
     ax_b_b.set_ylim(5, 12)
     ax_b_t.set_xticklabels([])
 
     ax_c_b.set_xlabel("$L$ (\\AA{})")
     ax_c_t.set_ylabel("$\\varepsilon^{\\perp}_{\mathrm{SL}}$", labelpad=pad)
-    ax_c_b.set_ylabel("$\\alpha^{\\perp}_{\\mathrm{2D}}/(4\\pi \\varepsilon_0)$ (\\AA{})")
+    ax_c_b.set_ylabel(
+        "$\\alpha^{\\perp}_{\\mathrm{2D}}/(4\\pi \\varepsilon_0)$ (\\AA{})")
     ax_c_t.set_ylim(1, 4)
 
     ax_c_b.set_ylim(0.3, 0.75)
@@ -135,7 +141,6 @@ def plot_bc(fig, ax):
     # ax_b_t.legend()
     ax_c_t.legend()
 
-    
 
 def plot_main():
     h1 = 1.1
@@ -155,7 +160,7 @@ def plot_main():
                                         (0, -0.15),
                                         (0, -0.15)])
     savepgf(fig, img_path / "fig-problem.pgf", preview=True)
-    
-    
+
+
 if __name__ == '__main__':
     plot_main()
