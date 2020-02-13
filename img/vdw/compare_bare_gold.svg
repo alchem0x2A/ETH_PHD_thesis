@@ -15,7 +15,7 @@
    viewBox="0 0 131.59985 108.99116"
    version="1.1"
    id="svg38483"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="compare_bare_gold.svg">
   <defs
      id="defs38477"
@@ -83,10 +83,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="188.51647"
-     inkscape:cy="63.876832"
+     inkscape:cx="144.82737"
+     inkscape:cy="245.70429"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g39615"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="878"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -117,17 +117,17 @@
      style="stroke-linecap:butt;stroke-linejoin:round"
      transform="translate(-6.211931,1.984491)">
     <image
-       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/3D/BPE-orien-sio2.png"
+       sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\3D/BPE-orien-sio2.png"
        xlink:href="3D/BPE-orien-sio2.png"
-       y="76.349602"
-       x="6.2165818"
-       id="image1161"
-       preserveAspectRatio="none"
-       height="50.219158"
-       width="89.278503"
-       style="stroke-linecap:butt;stroke-linejoin:round"
+       transform="matrix(0.80891122,0,0,0.80891122,4.3089445,4.3060514)"
        clip-path="url(#clipPath1172)"
-       transform="matrix(0.80891122,0,0,0.80891122,4.3089445,4.3060514)" />
+       style="stroke-linecap:butt;stroke-linejoin:round"
+       width="89.278503"
+       height="50.219158"
+       preserveAspectRatio="none"
+       id="image1161"
+       x="6.2165818"
+       y="76.349602" />
     <g
        id="figure_1"
        transform="matrix(0.30831944,0,0,0.30831944,71.869537,1.7995828)"
@@ -154,15 +154,15 @@
              inkscape:connector-curvature="0" />
         </g>
         <image
-           sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/2D_Au_nogr_new.png"
+           sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\sub_img/2D_Au_nogr_new.png"
            xlink:href="sub_img/2D_Au_nogr_new.png"
-           style="stroke-linecap:butt;stroke-linejoin:round"
-           height="169.44"
-           id="Im_imagec24015506b"
-           transform="matrix(1,0,0,-1,0,169.44)"
-           width="169.44"
+           y="-6.96"
            x="36"
-           y="-6.96" />
+           width="169.44"
+           transform="matrix(1,0,0,-1,0,169.44)"
+           id="Im_imagec24015506b"
+           height="169.44"
+           style="stroke-linecap:butt;stroke-linejoin:round" />
         <g
            id="matplotlib.axis_1"
            style="stroke-linecap:butt;stroke-linejoin:round">
@@ -630,12 +630,12 @@
               <text
                  id="text39613"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
-                 x="22.385506"
+                 x="22.447029"
                  y="-2.7592266e-31">
                 <tspan
                    sodipodi:role="line"
                    id="tspan1184"
-                   x="22.385506"
+                   x="22.447029"
                    y="-2.7592266e-31"
                    style="stroke-linecap:butt;stroke-linejoin:round">$q_z$ (nm$^{-1}$)</tspan>
               </text>
@@ -718,15 +718,15 @@
              inkscape:connector-curvature="0" />
         </g>
         <image
-           sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/2D_Plasma_nogr_new.png"
+           sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\sub_img/2D_Plasma_nogr_new.png"
            xlink:href="sub_img/2D_Plasma_nogr_new.png"
-           style="stroke-linecap:butt;stroke-linejoin:round"
-           height="169.44"
-           id="Im_image48e2eb7031"
-           transform="matrix(1,0,0,-1,0,169.44)"
-           width="169.44"
+           y="-6.96"
            x="36"
-           y="-6.96" />
+           width="169.44"
+           transform="matrix(1,0,0,-1,0,169.44)"
+           id="Im_image48e2eb7031"
+           height="169.44"
+           style="stroke-linecap:butt;stroke-linejoin:round" />
         <g
            id="matplotlib.axis_1-4"
            style="stroke-linecap:butt;stroke-linejoin:round">
@@ -1187,16 +1187,16 @@
                style="stroke-linecap:butt;stroke-linejoin:round">
               <text
                  id="text40173"
-                 style="stroke-linecap:butt;stroke-linejoin:round"
-                 x="22.367928"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00032425px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+                 x="22.332771"
                  y="-1.7763568e-15">
                 <tspan
                    sodipodi:role="line"
                    id="tspan1176"
-                   x="22.367928"
+                   x="22.332771"
                    y="-1.7763568e-15"
-                   style="stroke-linecap:butt;stroke-linejoin:round"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00032425px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00032425px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan1178">$q_z$ (nm</tspan>
 )$^{-1}$</tspan>
               </text>
@@ -1242,17 +1242,17 @@
       </g>
     </g>
     <image
-       sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/3D/BPE-orien-au.png"
+       sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\3D/BPE-orien-au.png"
        xlink:href="3D/BPE-orien-au.png"
-       y="76.349602"
-       x="95.495087"
-       id="image1150"
-       preserveAspectRatio="none"
-       height="48.415089"
-       width="86.071266"
-       style="stroke-linecap:butt;stroke-linejoin:round"
+       transform="matrix(0.80891122,0,0,0.80891122,-0.11329439,5.1753152)"
        clip-path="url(#clipPath1168)"
-       transform="matrix(0.80891122,0,0,0.80891122,-0.11329439,5.1753152)" />
+       style="stroke-linecap:butt;stroke-linejoin:round"
+       width="86.071266"
+       height="48.415089"
+       preserveAspectRatio="none"
+       id="image1150"
+       x="95.495087"
+       y="76.349602" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.77487493px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.23123956;stroke-linecap:butt;stroke-linejoin:round"

@@ -16,7 +16,7 @@
    width="440.84744pt"
    id="svg8483"
    sodipodi:docname="BPE_exp.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata8487">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,17 +38,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1424"
-     inkscape:window-height="878"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
      id="namedview8485"
      showgrid="false"
      inkscape:zoom="2.9935486"
-     inkscape:cx="455.37668"
-     inkscape:cy="675.64113"
-     inkscape:window-x="57"
-     inkscape:window-y="32"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg8483"
+     inkscape:cx="107.96291"
+     inkscape:cy="435.12391"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g22285"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-right="5"
@@ -1835,15 +1835,15 @@
            inkscape:connector-curvature="0" />
       </g>
       <image
-         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/1008-data/2D_Au_gr_new1_small.svg.image1.png"
+         sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\1008-data/2D_Au_gr_new1_small.svg.image1.png"
          xlink:href="1008-data/2D_Au_gr_new1_small.svg.image1.png"
-         y="-6.96"
-         x="36"
-         width="173.75999"
-         transform="matrix(1,0,0,-1,0,128.64)"
-         id="Im_image250a5c45ef"
+         style="stroke-linecap:butt;stroke-linejoin:round"
          height="128.64"
-         style="stroke-linecap:butt;stroke-linejoin:round" />
+         id="Im_image250a5c45ef"
+         transform="matrix(1,0,0,-1,0,128.64)"
+         width="173.75999"
+         x="36"
+         y="-6.96" />
       <g
          id="matplotlib.axis_1-1"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -2323,15 +2323,15 @@
            inkscape:connector-curvature="0" />
       </g>
       <image
-         sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/1008-data/2D_Plasma_gr_new1_small.svg.image1.png"
+         sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\1008-data/2D_Plasma_gr_new1_small.svg.image1.png"
          xlink:href="1008-data/2D_Plasma_gr_new1_small.svg.image1.png"
-         y="-6.96"
-         x="36"
-         width="173.75999"
-         transform="matrix(1,0,0,-1,0,128.64)"
-         id="Im_imagecce224e251"
+         style="stroke-linecap:butt;stroke-linejoin:round"
          height="128.64"
-         style="stroke-linecap:butt;stroke-linejoin:round" />
+         id="Im_imagecce224e251"
+         transform="matrix(1,0,0,-1,0,128.64)"
+         width="173.75999"
+         x="36"
+         y="-6.96" />
       <g
          id="matplotlib.axis_1-9"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -2734,15 +2734,15 @@
              style="stroke-linecap:butt;stroke-linejoin:round">
             <text
                id="text22283"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               x="-37.784412"
-               y="2.220446e-15">
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99954891px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
+               x="22.447029"
+               y="-1.3322676e-15">
               <tspan
                  sodipodi:role="line"
                  id="tspan22431"
-                 x="-37.784412"
-                 y="2.220446e-15"
-                 style="stroke-linecap:butt;stroke-linejoin:round">$q_z$ (nm$^{-1}$)</tspan>
+                 x="22.447029"
+                 y="-1.3322676e-15"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99954891px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">$q_z$ (nm$^{-1}$)</tspan>
             </text>
           </g>
         </g>
@@ -3344,17 +3344,17 @@
        id="tspan28487"
        sodipodi:role="line">\Lsize d</tspan></text>
   <image
-     sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/3D/Gold_BPE.png"
+     sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\3D/Gold_BPE.png"
      xlink:href="3D/Gold_BPE.png"
-     y="176.65311"
-     x="-291.92899"
-     id="image28684"
-     preserveAspectRatio="none"
-     height="100.86265"
-     width="179.31139"
-     style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+     transform="matrix(0.92511256,0,0,0.92511256,309.8062,-5.622024)"
      clip-path="url(#clipPath28691)"
-     transform="matrix(0.92511256,0,0,0.92511256,309.8062,-5.622024)" />
+     style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
+     width="179.31139"
+     height="100.86265"
+     preserveAspectRatio="none"
+     id="image28684"
+     x="-291.92899"
+     y="176.65311" />
   <path
      inkscape:connector-curvature="0"
      id="path28781"
@@ -3363,7 +3363,7 @@
      sodipodi:nodetypes="cc" />
   <path
      style="white-space:pre;fill:none;stroke:#000000;stroke-width:0.69383442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker29691)"
-     d="m 119.63712,181.06236 l 3.6612,-22.5304"
+     d="m 119.63712,181.06236 3.6612,-22.5304"
      id="path29353"
      inkscape:connector-curvature="0"
      inkscape:path-effect="#path-effect29355;#path-effect29357"
@@ -3420,15 +3420,15 @@
        x="30.601002"
        y="138.60558">BPE:</tspan></text>
   <image
-     sodipodi:absref="/Users/ttian/polybox/PhD Defense/Final/thesis/img/vdw/sub_img/BPE.png"
+     sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\vdw\sub_img/BPE.png"
      xlink:href="sub_img/BPE.png"
-     y="124.68022"
-     x="55.346336"
-     id="image30187"
-     preserveAspectRatio="none"
-     height="21.106592"
+     style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
      width="78.198204"
-     style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round" />
+     height="21.106592"
+     preserveAspectRatio="none"
+     id="image30187"
+     x="55.346336"
+     y="124.68022" />
   <path
      style="white-space:pre;fill:none;stroke:#000000;stroke-width:0.69383442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker30498)"
      d="m 55.01775,186.76369 l -2.31777,6.48974"
