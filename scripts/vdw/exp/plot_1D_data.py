@@ -5,6 +5,7 @@ from . import img_path, data_path
 import matplotlib as mpl
 from matplotlib.colors import Normalize
 from helper import gridplots
+from scipy.interpolate import interp1d
 
 mpl.use("Agg")
 mpl.rcParams["text.usetex"] = False
@@ -35,16 +36,18 @@ maters = {}
 # maters["Plasma_gr_new"] = dict(name="Plasma_nobg", date=date_new, condition=gr)
 # maters["OTS_gr_new"] = dict(name="OTS_nobg", date=date_new, condition=gr)
 maters["Au_gr_new"] = dict(name="Au_nobg", date=date_new, condition=gr)
-# maters["Plasma_nogr_new"] = dict(name="Plasma_nobg", date=date_new, condition=nogr)
+maters["Plasma_nogr_new"] = dict(name="Plasma_nobg", date=date_new, condition=nogr)
 # maters["OTS_nogr_new"] = dict(name="OTS_nobg", date=date_new, condition=nogr)
-# maters["Au_nogr_new"] = dict(name="Au_nobg", date=date_new, condition=nogr)
+maters["Au_nogr_new"] = dict(name="Au_nobg", date=date_new, condition=nogr)
 
 maters["Plasma_gr_old1"] = dict(name="Plasma", date=date_old1, condition=gr)
-# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
 maters["Au_gr_old1"] = dict(name="Au", date=date_old1, condition=gr)
 maters["Plasma_gr_new1"] = dict(name="Plasma", date=date_new1, condition=gr)
-# maters["OTS_gr_old"] = dict(name="OTS", date=date_old1, condition=gr)
 maters["Au_gr_new1"] = dict(name="Au", date=date_new1, condition=gr)
+# maters["Plasma_gr_old1"] = dict(name="Plasma_nobg", date=date_old1, condition=gr)
+# maters["Au_gr_old1"] = dict(name="Au_nobg", date=date_old1, condition=gr)
+# maters["Plasma_gr_new1"] = dict(name="Plasma_nobg", date=date_new1, condition=gr)
+# maters["Au_gr_new1"] = dict(name="Au_nobg", date=date_new1, condition=gr)
 
 
 short_names = ("Plasma", "OTS", "Au")
@@ -58,14 +61,28 @@ stanford_i = (stanford_i - np.min(stanford_i)) /\
 
 
 
-bpe_Data = np.genfromtxt(data_gixd /  "bpe-gixd1.csv",
-                              delimiter=",")
-# bpe_Data = np.genfromtxt(data_gixd /  "bpe-gixd5.csv",
-                              # delimiter=",")
-bpe_q = bpe_Data[30:, 0]
-bpe_i = 256 - bpe_Data[30:, 1]
-bpe_i = (bpe_i - np.min(bpe_i)) /\
-             (np.max(bpe_i) - np.min(bpe_i))
+bpe_q = np.linspace(3.5, 20, 1024)
+bpe_i = np.zeros_like(bpe_q)
+count = 0
+for i in range(1, 6):
+    # bpe_Data = np.genfromtxt(data_gixd /  "bpe-powder{:d}.csv".format(i),
+                             # delimiter=",")
+    # bpe_Data = np.genfromtxt(data_gixd /  "bpe-recryst{:d}.csv".format(i),
+                             # delimiter=",")
+    bpe_Data = np.genfromtxt(data_gixd /  "bpe-gixd{:d}.csv".format(i),
+                             delimiter=",")
+    lim = 10
+    q_ = bpe_Data[lim:, 0]
+    i_ = 256 - bpe_Data[lim:, 1]
+    if q_.max() < bpe_q.max():
+        continue
+    else:
+        ii_ = interp1d(q_, i_)(bpe_q)
+        bpe_i += ii_
+        count += 1
+
+bpe_i = bpe_i / count               # Average
+bpe_i = (bpe_i - np.min(bpe_i)) / (np.max(bpe_i) - np.min(bpe_i))
 # print(bpe_q, bpe_i)
 
 
@@ -77,7 +94,6 @@ exp_i = exp_xrd_data[:, 1]
 exp_i = (exp_i - exp_i.min()) / (exp_i.max() - exp_i.min())
 l_wave = 0.154059               # Wavelength in nm
 exp_q = np.sin(np.radians(exp_theta) / 2) * 4 * np.pi / l_wave
-
 
 def plot_1D_profile(ax, q, intensity,
                     scale=1.2,
@@ -119,12 +135,20 @@ def plot_compare():
     for i, mater_name in enumerate(["{0}_gr_new1".format(c) for c in short_names]):
         if mater_name in maters.keys():
             q, intensity = chi_avg_data(mater_name)
-            plot_1D_profile(ax1, q, intensity, offset=-i,
+            plot_1D_profile(ax1, q, intensity, offset=-i, scale=2,
                             name="{0}/Gr/BPE".format(mater_name.split("_")[0]))
+            # plot_1D_profile(ax1, q, intensity ** 0.5, offset=-i, scale=2,
+                            # name="{0}/Gr/BPE".format(mater_name.split("_")[0]))
+    for i, mater_name in enumerate(["{0}_nogr_new".format(c) for c in short_names]):
+        if mater_name in maters.keys():
+            q, intensity = chi_avg_data(mater_name)
+            plot_1D_profile(ax1, q, intensity, offset=-i, scale=2,
+                            name="{0}/BPE".format(mater_name.split("_")[0]))
     
     qq, ii = powder_data()
     # plot_1D_profile(ax1, qq, ii, offset=-3.5, scale=5, name="Power Sample")
-    plot_1D_profile(ax1, bpe_q, bpe_i, offset=-3.5, scale=1, name="Power Sample")
+    plot_1D_profile(ax1, bpe_q, bpe_i, offset=-3.5, scale=3, name="Powder Sample")
+    # plot_1D_profile(ax1, bpe_q, bpe_i ** 0.5, offset=-3.5, scale=3, name="Powder Sample")
     # ax1.set_ylim(*ax1.get_ylim())
     # plot_1D_profile(ax1, exp_q, exp_i * 5, offset=-3.5, scale=5, name="Powder Exp")
 
@@ -134,10 +158,11 @@ def plot_compare():
     ax1.set_ylabel("Intensity (a.u.)")
     ax1.legend(loc=0)
     ax1.set_xlim(12, 20.5)
+    ax1.set_xlim(3, 12)
     # ax1.set_ylim(-3.5, -0.5)
 
 
-    fig.savefig(img_path /  "compare_gixd_1D.svg")
+    fig.savefig(img_path /  "compare_gixd_1D_nobg.svg")
 
 def plot_nogr():
     fig = plt.figure(figsize=(6, 4))
@@ -145,10 +170,10 @@ def plot_nogr():
     # New data
     for i, mater_name in enumerate(["{0}_nogr_new".format(c) for c in short_names]):
         q, intensity = chi_avg_data(mater_name)
-        plot_1D_profile(ax1, q, intensity, offset=-i, name=mater_name)
+        plot_1D_profile(ax1, q, intensity, offset=-i, scale=3, name=mater_name)
 
     qq, ii = powder_data()
-    plot_1D_profile(ax1, qq, ii, offset=-2.5, scale=5, name="Powder XRD")
+    plot_1D_profile(ax1, qq, ii, offset=-2.5, scale=10, name="Powder XRD")
 
     ax1.set_xlabel("$|q|$ (nm)")
     ax1.set_yticks([])
