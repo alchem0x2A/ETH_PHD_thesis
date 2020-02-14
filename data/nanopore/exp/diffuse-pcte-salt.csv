@@ -1,0 +1,9 @@
+﻿,PG-PCTE measured,,bare PCTE prediction,,,bare PCTE (b-PCTE) measurement,
+Salt,Permeation (mol/sec/m^2),Standard deviation of permeation,mol/sec/m^2,error positive,error negative,Measured flux mol/sec/m^2,Standard deviation
+KCl,6.81E-07,1.12E-07,1.30E-06,3.62E-07,6.59E-07,1.34E-06,2.35E-07
+NaCl,7.20E-07,1.14E-07,1.10E-06,3.06E-07,5.56E-07,1.03E-06,1.79E-08
+LiCl,7.16E-07,2.70E-08,1.00E-06,2.78E-07,5.06E-07,6.79E-07,9.03E-08
+CaCl,5.54E-07,7.20E-08,9.23E-07,2.56E-07,4.67E-07,7.90E-07,6.31E-08
+MgSO4,6.35E-07,1.34E-07,5.77E-07,1.60E-07,2.92E-07,6.34E-07,8.64E-08
+K2So4,2.86E-07,4.23E-08,9.33E-07,2.59E-07,4.72E-07,5.75E-07,6.56E-08
+K3FeCN6,4.31E-07,5.25E-08,9.88E-07,2.75E-07,5.00E-07,7.22E-07,7.26E-08

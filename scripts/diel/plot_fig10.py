@@ -180,6 +180,15 @@ def plot_ax(fig, ax):
     ax.fill_between(xx, y1=np.zeros_like(xx), y2=yy,
                     linewidth=0,
                     color="green", alpha=0.1, zorder=0)
+    
+    ax.text(x=0.98, y=0.8, s="Layered Materials",
+            ha="right", va="center",
+            transform=ax.transAxes)
+
+    ax.text(x=0.98, y=0.2, s="2D Materials",
+            ha="right", va="center",
+            transform=ax.transAxes)
+
     ax.set_xlim(0, 8)
     ax.set_ylim(0, 1.05)
     # ax.set_ylabel("$\\alpha_{zz}/(4\\pi \\varepsilon_0)$ ($\\AA$)")
@@ -213,8 +222,6 @@ def plot_legend(fig, ax):
                     s="{0:d}D".format(i),
                     ha="right", va="center",
                     transform=ax_img.transAxes)
-
-
 def plot_main():
     w = 1.4
     fig, ax = gridplots(1, 2, r=0.65,
