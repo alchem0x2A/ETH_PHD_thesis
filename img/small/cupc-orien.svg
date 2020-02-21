@@ -22,7 +22,7 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
      id="metadata2215"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs2213" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -46,8 +46,8 @@
      inkscape:cy="339.36175"
      inkscape:window-x="2"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="Layer_1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2037"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false"><sodipodi:guide
@@ -310,12 +310,12 @@
      transform="translate(-2.0930083,11.25181)"><image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFEC4.png"
    xlink:href="sub_img/E7C69DCCE3CCFEC4.png"
-   style="overflow:visible"
-   width="153.88777"
-   height="123.41911"
-   id="image17"
+   y="14.505472"
    x="450.77673"
-   y="14.505472" /><g
+   id="image17"
+   height="123.41911"
+   width="153.88777"
+   style="overflow:visible" /><g
    id="g31"
    transform="matrix(0.96434441,0,0,0.96434441,0.12836013,0.51611397)"><line
      class="st4"
@@ -399,12 +399,12 @@
      style="fill:none;stroke:#272626;stroke-width:0.6857;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10" /></g><image
    sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFEC5.png"
    xlink:href="sub_img/E7C69DCCE3CCFEC5.png"
-   style="overflow:visible"
-   width="157.33762"
-   height="123.28372"
-   id="image45"
+   y="14.659864"
    x="273.64133"
-   y="14.659864" /><line
+   id="image45"
+   height="123.28372"
+   width="157.33762"
+   style="overflow:visible" /><line
    class="st5"
    x1="209.19823"
    y1="245.36316"
@@ -452,11 +452,11 @@
        id="g69"><image
          sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFEC3.png"
          xlink:href="sub_img/E7C69DCCE3CCFEC3.png"
-         style="overflow:visible"
-         width="274"
-         height="644"
+         id="image67"
          transform="matrix(0.3866,0,0,0.3866,3.5731,14.6669)"
-         id="image67" /></g></g></g><line
+         height="644"
+         width="274"
+         style="overflow:visible" /></g></g></g><line
    class="st11"
    x1="86.051445"
    y1="240.1557"
@@ -483,6 +483,7 @@
      x="4.3780174"
      y="27.945648">F$_{16}$CuPc/SiO$_2$</tspan></text>
 
+
 </g><g
    id="g97"
    transform="matrix(0.96434441,0,0,0.96434441,0.12836013,0.51611397)"><rect
@@ -502,6 +503,7 @@
      id="tspan3253"
      x="4.3780174"
      y="151.81285">F$_{16}$CuPc NWs</tspan></text>
+
 
 </g><g
    id="g125"
@@ -543,21 +545,23 @@
        id="g113"><image
          sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFECC.png"
          xlink:href="sub_img/E7C69DCCE3CCFECC.png"
-         style="overflow:visible"
-         width="1982"
-         height="1210"
+         id="image111"
          transform="matrix(0.07849948,0,0,0.07849948,284.0401,168.5829)"
-         id="image111" /></g></g></g><text
+         height="1210"
+         width="1982"
+         style="overflow:visible" /></g></g></g><text
    transform="translate(288.0677,183.7541)"
    class="st6 st15 st16"
    id="text119"
    style="font-size:11.17770004px;font-family:Arial-ItalicMT;fill:#010101">β</text>
+
 
 </g><text
    transform="translate(427.118,193.3215)"
    class="st15 st16"
    id="text123"
    style="font-size:11.17770004px;font-family:Arial-ItalicMT">α</text>
+
 
 </g><g
    id="g145"
@@ -582,21 +586,23 @@
        id="g135"><image
          sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFECF.png"
          xlink:href="sub_img/E7C69DCCE3CCFECF.png"
-         style="overflow:visible"
-         width="1969"
-         height="1095"
+         id="image133"
          transform="matrix(0.07768467,0,0,0.07768467,468.7656,175.5188)"
-         id="image133" /></g></g></g><text
+         height="1095"
+         width="1969"
+         style="overflow:visible" /></g></g></g><text
    transform="translate(492.1688,179.6789)"
    class="st15 st17"
    id="text141"
    style="font-size:10.60130024px;font-family:Arial-ItalicMT">γ</text>
+
 
 <text
    transform="translate(473.4041,218.0495)"
    class="st15 st18"
    id="text143"
    style="font-size:9.84399986px;font-family:Arial-ItalicMT">δ</text>
+
 
 </g><line
    class="st19"
@@ -627,11 +633,13 @@
    id="text153"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">-20</text>
 
+
 <text
    transform="translate(498.7936,155.9665)"
    class="st6 st7 st20"
    id="text155"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">-15</text>
+
 
 <text
    transform="translate(527.2822,155.9665)"
@@ -639,11 +647,13 @@
    id="text157"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">-10</text>
 
+
 <text
    transform="translate(558.8694,155.9665)"
    class="st6 st7 st20"
    id="text159"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">-5</text>
+
 
 <text
    transform="translate(589.2134,155.9665)"
@@ -651,11 +661,13 @@
    id="text161"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">0</text>
 
+
 <text
    transform="translate(617.702,155.9665)"
    class="st6 st7 st20"
    id="text163"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">5</text>
+
 
 </g><g
    id="g177"
@@ -665,11 +677,13 @@
    id="text167"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">0</text>
 
+
 <text
    transform="translate(457.2772,115.0021)"
    class="st6 st7 st20"
    id="text169"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">5</text>
+
 
 <text
    transform="translate(451.0809,87.277)"
@@ -677,11 +691,13 @@
    id="text171"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">10</text>
 
+
 <text
    transform="translate(451.0809,59.5524)"
    class="st6 st7 st20"
    id="text173"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">15</text>
+
 
 <text
    transform="translate(451.0809,31.8288)"
@@ -689,12 +705,14 @@
    id="text175"
    style="font-size:11.14379978px;font-family:ArialMT;fill:#010101">20</text>
 
+
 </g><text
    class="st12 st7 st23"
    id="text191"
    style="font-size:11.57213306px;font-family:ArialMT;fill:#131010;fill-opacity:1;stroke-width:0.96434438"
    x="554.96283"
    y="105.63216">(002)</text>
+
 
 <text
    transform="translate(553.9637,43.2521)"
@@ -712,6 +730,7 @@
      id="tspan195"
      style="font-size:10.21510029px;font-family:ArialMT;display:inline;fill:#ffffff"> = 0.305 nm</tspan></text>
 
+
 <text
    class="st12 st15 st26"
    id="text199"
@@ -719,12 +738,14 @@
    x="534.27527"
    y="127.502">γ</text>
 
+
 <text
    class="st12 st15 st26"
    id="text201"
    style="font-size:15.42951012px;font-family:Arial-ItalicMT;fill:#ffffff;stroke-width:0.96434438"
    x="535.76678"
    y="34.524872">δ</text>
+
 
 <text
    transform="translate(476.5819,129.6071)"
@@ -741,6 +762,7 @@
      class="st24 st7 st25"
      id="tspan205"
      style="font-size:10.21510029px;font-family:ArialMT;display:inline;fill:#ffffff"> = 1.440 nm</tspan></text>
+
 
 <line
    class="st19"
@@ -759,6 +781,7 @@
      id="tspan3259"
      x="453.00958"
      y="28.352783">F$_{16}$CuPc NWs</tspan></text>
+
 
 <g
    id="g219"
@@ -800,6 +823,7 @@
      x="592.89868"
      y="44.965008">($\overline{1}2$2)</tspan></text>
 
+
 </g><line
    class="st19"
    x1="430.80457"
@@ -840,12 +864,14 @@
    x="402.03662"
    y="116.11652">α</text>
 
+
 <text
    class="st12 st15 st26"
    id="text247"
    style="font-size:15.42951012px;font-family:Arial-ItalicMT;fill:#ffffff;stroke-width:0.96434438"
    x="283.94678"
    y="116.67535">β</text>
+
 
 <g
    id="g261"
@@ -855,11 +881,13 @@
    id="text249"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">-20</text>
 
+
 <text
    transform="translate(316.7583,155.7891)"
    class="st6 st7 st32"
    id="text251"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">-15</text>
+
 
 <text
    transform="translate(345.7827,155.7891)"
@@ -867,11 +895,13 @@
    id="text253"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">-10</text>
 
+
 <text
    transform="translate(377.9037,155.7891)"
    class="st6 st7 st32"
    id="text255"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">-5</text>
+
 
 <text
    transform="translate(408.7821,155.7891)"
@@ -879,11 +909,13 @@
    id="text257"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">0</text>
 
+
 <text
    transform="translate(437.8065,155.7891)"
    class="st6 st7 st32"
    id="text259"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">5</text>
+
 
 </g><g
    id="g273"
@@ -893,11 +925,13 @@
    id="text263"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">0</text>
 
+
 <text
    transform="translate(272.7196,114.6044)"
    class="st6 st7 st32"
    id="text265"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">5</text>
+
 
 <text
    transform="translate(266.5267,85.6512)"
@@ -905,17 +939,20 @@
    id="text267"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">10</text>
 
+
 <text
    transform="translate(266.5267,56.6979)"
    class="st6 st7 st32"
    id="text269"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">15</text>
 
+
 <text
    transform="translate(266.5267,27.7447)"
    class="st6 st7 st32"
    id="text271"
    style="font-size:11.13549995px;font-family:ArialMT;fill:#010101">20</text>
+
 
 </g><g
    id="g285"
@@ -930,6 +967,7 @@
      x="365.12216"
      y="169.93021">$q_{xy}$ (nm$^{-1}$)</tspan></text>
 
+
 </g><g
    id="g297"
    transform="matrix(0.96434441,0,0,0.96434441,0.12836013,0.51611397)"><text
@@ -943,6 +981,7 @@
      id="tspan3255"
      x="-78.778198"
      y="258.6366">$q_{z}$ (nm$^{-1}$)</tspan></text>
+
 
 </g><text
    transform="translate(285.8094,131.3873)"
@@ -960,6 +999,7 @@
      id="tspan301"
      style="font-size:10.20750046px;font-family:ArialMT;display:inline;fill:#ffffff"> = 0.305 nm</tspan></text>
 
+
 <text
    transform="translate(369.328,108.0894)"
    class="st0"
@@ -975,6 +1015,7 @@
      class="st24 st7 st37"
      id="tspan307"
      style="font-size:10.20750046px;font-family:ArialMT;display:inline;fill:#ffffff"> = 1.470 nm</tspan></text>
+
 
 <g
    id="g313"
@@ -1001,6 +1042,7 @@
    x="382.74878"
    y="103.30029">(002)</text>
 
+
 <text
    class="st12 st7 st40"
    id="text325"
@@ -1011,6 +1053,7 @@
      id="tspan3261"
      x="275.90262"
      y="28.184988">F$_{16}$CuPc/SiO$_2$</tspan></text>
+
 
 <g
    id="g349"
@@ -1034,21 +1077,23 @@
      id="g337"><image
        sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFECD.png"
        xlink:href="sub_img/E7C69DCCE3CCFECD.png"
-       style="overflow:visible"
-       width="982"
-       height="982"
+       id="image335"
        transform="matrix(0.1241,0,0,0.1233,469.1187,291.148)"
-       id="image335" /></g></g><text
+       height="982"
+       width="982"
+       style="overflow:visible" /></g></g><text
    transform="translate(557.6478,399.5594)"
    class="st41 st7 st42"
    id="text341"
    style="font-size:13.23390007px;font-family:ArialMT;display:none;fill:#010101">2 μm</text>
+
 
 <text
    transform="translate(472.9554,302.6449)"
    class="st43 st7 st44"
    id="text343"
    style="font-size:11.89770031px;font-family:ArialMT;display:none;fill:#ffffff">SEM</text>
+
 
 <line
    class="st5"
@@ -1063,6 +1108,7 @@
    id="text347"
    style="font-size:16px;font-family:ArialMT">Gr</text>
 
+
 </g><g
    id="g379"
    transform="matrix(0.96434441,0,0,0.96434441,0.12836013,16.516114)"><text
@@ -1073,11 +1119,13 @@
    x="477.89035"
    y="-623.48273">I(1380) / I(1315)</text>
 
+
 <text
    transform="translate(547.2405,432.0365)"
    class="st41 st7 st47"
    id="text373"
    style="font-size:10.17910004px;font-family:ArialMT;display:none;fill:#010101">Face-on</text>
+
 
 <text
    transform="translate(506.5746,502.8514)"
@@ -1085,11 +1133,13 @@
    id="text375"
    style="font-size:10.17910004px;font-family:ArialMT;display:none;fill:#ffffff">Edge-on</text>
 
+
 <text
    transform="translate(472.9554,428.2918)"
    class="st41 st7 st48"
    id="text377"
    style="font-size:12.66040039px;font-family:ArialMT;display:none;fill:#010101">Raman</text>
+
 
 <g
    id="g3364"><g
@@ -1129,11 +1179,11 @@
          clip-path="url(#SVGID_16_)"><image
            sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/E7C69DCCE3CCFEC2.png"
            xlink:href="sub_img/E7C69DCCE3CCFEC2.png"
-           id="image363"
-           transform="matrix(0.2105,0,0,0.2107,432.1665,392.3374)"
-           height="900"
+           style="overflow:visible"
            width="900"
-           style="overflow:visible" /></g></g></g><rect
+           height="900"
+           transform="matrix(0.2105,0,0,0.2107,432.1665,392.3374)"
+           id="image363" /></g></g></g><rect
      y="420.66788"
      x="607.58777"
      height="118.76603"
@@ -1151,6 +1201,7 @@
      y="430.82547"
      style="stroke-width:1.03697395">\ssize 1.6</tspan></text>
 
+
 <text
    id="text3376"
    y="532.44904"
@@ -1162,6 +1213,7 @@
      x="607.07648"
      id="tspan3374"
      sodipodi:role="line">\ssize 0.6</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -1175,6 +1227,7 @@
      y="512.12433"
      style="stroke-width:1.03697395">\ssize 0.8</tspan></text>
 
+
 <text
    id="text3384"
    y="491.79962"
@@ -1186,6 +1239,7 @@
      x="607.07648"
      id="tspan3382"
      sodipodi:role="line">\ssize 1.0</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -1199,6 +1253,7 @@
      y="471.47491"
      style="stroke-width:1.03697395">\ssize 1.2</tspan></text>
 
+
 <text
    id="text3392"
    y="451.15021"
@@ -1211,11 +1266,13 @@
      id="tspan3390"
      sodipodi:role="line">\ssize 1.4</tspan></text>
 
+
 </g><text
    transform="translate(1275.455,647.9227)"
    class="st12 st7"
    style="font-size:16.29640007px;font-family:ArialMT;fill:#ffffff"
    id="text387" />
+
 
 <text
    transform="translate(1275.3094,856.7654)"
@@ -1223,11 +1280,13 @@
    style="font-size:16.30870056px;font-family:ArialMT;fill:#ffffff"
    id="text389" />
 
+
 <text
    transform="translate(510.2064,507.3934)"
    class="st6 st7 st51"
    id="text391"
    style="font-size:11.03110027px;font-family:ArialMT;fill:#010101" />
+
 
 <g
    id="g1753"
@@ -1269,11 +1328,11 @@
        id="g1717"><image
          sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/7FB4CE9CECA0D2A3.png"
          xlink:href="sub_img/7FB4CE9CECA0D2A3.png"
-         style="overflow:visible"
-         width="1024"
-         height="768"
+         id="image1715"
          transform="matrix(0.1923,0,0,0.1923,84.2404,137.1351)"
-         id="image1715" /></g></g></g><g
+         height="768"
+         width="1024"
+         style="overflow:visible" /></g></g></g><g
    id="g1741"><defs
      id="defs1724"><rect
        id="SVGID_209_"
@@ -1310,11 +1369,11 @@
        id="g1737"><image
          sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\sub_img/7FB4CE9CECA0D2A1.png"
          xlink:href="sub_img/7FB4CE9CECA0D2A1.png"
-         style="overflow:visible"
-         width="1024"
-         height="768"
+         id="image1735"
          transform="matrix(0.198,0,0,0.198,111.4426,10.3549)"
-         id="image1735" /></g></g></g><line
+         height="768"
+         width="1024"
+         style="overflow:visible" /></g></g></g><line
    class="st144"
    x1="153.10001"
    y1="215.39999"
@@ -1331,18 +1390,21 @@
    id="text1747"
    style="font-size:11.71420002px;font-family:ArialMT;fill:#010101">Gr</text>
 
+
 <text
    style="font-size:11.71420002px;font-family:ArialMT;fill:#010101"
    id="text1243"
    class="st6 st7 st145"
    x="121.66299"
    y="100.91018">SiO$_2$</text>
+
 <text
    y="129.9455"
    x="121.66299"
    class="st6 st7 st145"
    id="text1245"
    style="font-size:11.71420002px;font-family:ArialMT;fill:#010101">Si</text>
+
 </g><line
      class="st146"
      x1="233.89999"
@@ -1363,6 +1425,7 @@
    style="font-size:15.42951012px;font-family:ArialMT;stroke-width:0.96434438"
    x="502.3439"
    y="356.97348">SiO$_2$</text>
+
 
 <g
    id="g1799"
@@ -1452,12 +1515,14 @@
    x="128.03534"
    y="326.46307">Face-on</text>
 
+
 <text
    class="st46 st7 st148"
    id="text1823"
    style="font-size:7.30240202px;font-family:ArialMT;fill:#231f20;stroke-width:0.96434438"
    x="48.098907"
    y="326.46307">Edge-on</text>
+
 
 <line
    x1="42.077343"
@@ -1692,6 +1757,7 @@
    x="-464.0123"
    y="20.325493">Raman Intensity (a.u.)</text>
 
+
 <g
    id="g2025"
    transform="matrix(0.96434441,0,0,0.96434441,0.12836013,-25.483886)"><line
@@ -1720,7 +1786,8 @@
      id="tspan3341"
      x="325.12778"
      y="337.95447"
-     style="stroke-width:1.03697395">F$_{16}$CuP/Gr</tspan></text>
+     style="stroke-width:1.03697395">F$_{16}$CuPc/Gr</tspan></text>
+
 
 <text
    id="text3347"
@@ -1732,7 +1799,8 @@
      y="358.15448"
      x="325.12778"
      id="tspan3345"
-     sodipodi:role="line">F$_{16}$CuP/SiO$_2$</tspan></text>
+     sodipodi:role="line">F$_{16}$CuPc/SiO$_2$</tspan></text>
+
 
 </g><g
    transform="matrix(0.96434441,0,0,0.96434441,175.83189,0.51611397)"
@@ -1747,6 +1815,7 @@
      id="tspan3265"
      sodipodi:role="line">$q_{xy}$ (nm$^{-1}$)</tspan></text>
 
+
 </g><text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1757,6 +1826,7 @@
      id="tspan3273"
      x="159.13588"
      y="535.67896">Wavenumber ($cm^{-1}$)</tspan></text>
+
 
 <g
    id="g3331"><text
@@ -1770,6 +1840,7 @@
      id="tspan3277"
      sodipodi:role="line">1200</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -1780,6 +1851,7 @@
      id="tspan3281"
      x="87.966431"
      y="514.49518">1300</tspan></text>
+
 
 <text
    id="text3287"
@@ -1792,6 +1864,7 @@
      id="tspan3285"
      sodipodi:role="line">1400</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -1802,6 +1875,7 @@
      id="tspan3289"
      x="180.47118"
      y="514.49811">1500</tspan></text>
+
 
 <text
    id="text3295"
@@ -1814,6 +1888,7 @@
      id="tspan3293"
      sodipodi:role="line">1600</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -1824,6 +1899,7 @@
      id="tspan3297"
      x="272.97592"
      y="514.49811">1700</tspan></text>
+
 
 <text
    id="text3303"
@@ -1836,6 +1912,7 @@
      id="tspan3301"
      sodipodi:role="line">1800</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -1846,6 +1923,7 @@
      id="tspan3305"
      x="365.48065"
      y="514.49811">1900</tspan></text>
+
 
 <text
    id="text3311"
@@ -1858,6 +1936,7 @@
      id="tspan3309"
      sodipodi:role="line">2000</tspan></text>
 
+
 </g><text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1868,6 +1947,7 @@
      id="tspan3333"
      x="47.707466"
      y="313.12811">1315 cm$^{-1}$</tspan></text>
+
 
 <text
    id="text3339"
@@ -1880,6 +1960,7 @@
      id="tspan3337"
      sodipodi:role="line">1380 cm$^{-1}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1890,6 +1971,7 @@
      id="tspan3404"
      x="5.860487"
      y="5.3250957">\Lsize a</tspan></text>
+
 
 <text
    id="text3410"
@@ -1902,6 +1984,7 @@
      id="tspan3408"
      sodipodi:role="line">\Lsize b</tspan></text>
 
+
 <text
    id="text3414"
    y="277.3251"
@@ -1913,6 +1996,7 @@
      id="tspan3412"
      sodipodi:role="line">\Lsize a</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1923,6 +2007,7 @@
      id="tspan3416"
      x="431.86047"
      y="277.3251">\Lsize d</tspan></text>
+
 
 <rect
    style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1982,11 +2067,13 @@
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2054">Δ</text>
 
+
 <text
    transform="translate(422.843,1055.1223)"
    class="st161 st15"
    style="font-size:20px;font-family:Arial-ItalicMT;display:inline"
    id="text2056">f</text>
+
 
 <text
    transform="matrix(0.583,0,0,0.583,428.3996,1061.7825)"
@@ -1994,11 +2081,13 @@
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2058">QCM</text>
 
+
 <text
    transform="translate(455.6028,1055.1223)"
    class="st161 st7"
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2060"> (kHz)</text>
+
 
 <g
    class="st161"
@@ -2009,11 +2098,13 @@
    style="font-size:13px;font-family:ArialMT"
    id="text2062">0</text>
 
+
 <text
    transform="translate(392.5252,1035.4126)"
    class="st7"
    style="font-size:13px;font-family:ArialMT"
    id="text2064">2</text>
+
 
 <text
    transform="translate(451.2752,1035.4126)"
@@ -2021,17 +2112,20 @@
    style="font-size:13px;font-family:ArialMT"
    id="text2066">4</text>
 
+
 <text
    transform="translate(510.0252,1035.4126)"
    class="st7"
    style="font-size:13px;font-family:ArialMT"
    id="text2068">6</text>
 
+
 <text
    transform="translate(568.7753,1035.4126)"
    class="st7"
    style="font-size:13px;font-family:ArialMT"
    id="text2070">8</text>
+
 
 </g><line
    class="st159"
@@ -2074,11 +2168,13 @@
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2084">Δ</text>
 
+
 <text
    transform="translate(422.6093,1376.5967)"
    class="st161 st15"
    style="font-size:20px;font-family:Arial-ItalicMT;display:inline"
    id="text2086">f</text>
+
 
 <text
    transform="matrix(0.583,0,0,0.583,428.166,1383.2568)"
@@ -2086,11 +2182,13 @@
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2088">QCM</text>
 
+
 <text
    transform="translate(455.3691,1376.5967)"
    class="st161 st7"
    style="font-size:20px;font-family:ArialMT;display:inline"
    id="text2090"> (kHz)</text>
+
 
 <g
    class="st161"
@@ -2101,11 +2199,13 @@
    style="font-size:13px;font-family:ArialMT"
    id="text2092">0</text>
 
+
 <text
    transform="translate(391.2004,1355.2904)"
    class="st7"
    style="font-size:13px;font-family:ArialMT"
    id="text2094">2</text>
+
 
 <text
    transform="translate(451.7004,1355.2904)"
@@ -2113,11 +2213,13 @@
    style="font-size:13px;font-family:ArialMT"
    id="text2096">4</text>
 
+
 <text
    transform="translate(512.2004,1355.2904)"
    class="st7"
    style="font-size:13px;font-family:ArialMT"
    id="text2098">6</text>
+
 
 <text
    transform="translate(572.7004,1355.2904)"
@@ -2125,11 +2227,13 @@
    style="font-size:13px;font-family:ArialMT"
    id="text2100">8</text>
 
+
 </g><text
    transform="translate(144.6914,25.1745)"
    class="st162 st7 st163"
    id="text2104"
    style="font-size:10.39610004px;font-family:ArialMT;display:inline;fill:#010101">Cross-sectional</text>
+
 
 <text
    transform="translate(37.521,25.1745)"
@@ -2147,11 +2251,13 @@
      id="tspan2108"
      style="font-size:10.39610004px;font-family:ArialMT;fill:#010101">op-view </tspan></text>
 
+
 <text
    transform="translate(126.0312,43.0524)"
    class="st162 st7 st165"
    id="text2112"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">F</text>
+
 
 <text
    transform="matrix(0.583,0,0,0.583,132.7505,46.7155)"
@@ -2159,11 +2265,13 @@
    id="text2114"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">16</text>
 
+
 <text
    transform="translate(139.8838,43.0524)"
    class="st162 st7 st165"
    id="text2116"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">CuPc (thin film)</text>
+
 
 <text
    transform="translate(126.0312,161.5134)"
@@ -2171,11 +2279,13 @@
    id="text2118"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">F</text>
 
+
 <text
    transform="matrix(0.583,0,0,0.583,132.7505,165.1764)"
    class="st162 st7 st165"
    id="text2120"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">16</text>
+
 
 <text
    transform="translate(139.8838,161.5134)"
@@ -2183,11 +2293,13 @@
    id="text2122"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">CuPc (NW)</text>
 
+
 <text
    transform="translate(126.0312,104.5666)"
    class="st162 st7 st165"
    id="text2124"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">SiO</text>
+
 
 <text
    transform="matrix(0.583,0,0,0.583,144.3682,108.2297)"
@@ -2195,11 +2307,13 @@
    id="text2126"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">2</text>
 
+
 <text
    transform="translate(126.0312,134.318)"
    class="st162 st7 st165"
    id="text2128"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">Si</text>
+
 
 <text
    transform="translate(126.0312,242.946)"
@@ -2207,17 +2321,20 @@
    id="text2130"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">SiO</text>
 
+
 <text
    transform="matrix(0.583,0,0,0.583,144.3682,246.6091)"
    class="st162 st7 st165"
    id="text2132"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">2</text>
 
+
 <text
    transform="translate(126.0312,258.86)"
    class="st162 st7 st165"
    id="text2134"
    style="font-size:11px;font-family:ArialMT;display:inline;fill:#010101">Si</text>
+
 
 <g
    class="st161"
@@ -2228,11 +2345,13 @@
    id="text2136"
    style="font-size:12.76900005px;font-family:Arial-ItalicMT;fill:#010101">q</text>
 
+
 <text
    transform="rotate(-90,268.66305,-169.77425)"
    class="st6 st7 st167"
    id="text2138"
    style="font-size:7.44430017px;font-family:ArialMT;fill:#010101">z</text>
+
 
 <text
    transform="rotate(-90,264.6748,-169.5086)"
@@ -2240,17 +2359,20 @@
    id="text2140"
    style="font-size:12.76900005px;font-family:ArialMT;fill:#010101"> (nm</text>
 
+
 <text
    transform="rotate(-90,249.7815,-180.1519)"
    class="st6 st7 st167"
    id="text2142"
    style="font-size:7.44430017px;font-family:ArialMT;fill:#010101">-1</text>
 
+
 <text
    transform="rotate(-90,248.5969,-185.5865)"
    class="st6 st7 st166"
    id="text2144"
    style="font-size:12.76900005px;font-family:ArialMT;fill:#010101">)</text>
+
 
 </g><g
    class="st161"
@@ -2310,11 +2432,11 @@
            id="g2168"><image
              sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\../../../../../../Desktop/7FB4CE9CECA0D2DA.png"
              xlink:href="../../../../../../Desktop/7FB4CE9CECA0D2DA.png"
-             style="overflow:visible"
-             width="1061"
-             height="847"
+             id="image2166"
              transform="matrix(0.1506,0,0,-0.1506,851.8453,218.6576)"
-             id="image2166" /></g></g></g></g></g><g
+             height="847"
+             width="1061"
+             style="overflow:visible" /></g></g></g></g></g><g
    class="st161"
    id="g2206"
    style="display:inline"><defs
@@ -2373,8 +2495,8 @@
            id="g2198"><image
              sodipodi:absref="Y:\polybox\PhD Defense\Final\thesis\img\small\../../../../../../Desktop/7FB4CE9CECA0D2D9.png"
              xlink:href="../../../../../../Desktop/7FB4CE9CECA0D2D9.png"
-             style="overflow:visible"
-             width="1061"
-             height="832"
+             id="image2196"
              transform="matrix(0.1538,0,0,-0.1538,835.2121,21.0185)"
-             id="image2196" /></g></g></g></g></g></g></svg>
+             height="832"
+             width="1061"
+             style="overflow:visible" /></g></g></g></g></g></g></svg>
