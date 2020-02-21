@@ -444,3 +444,12 @@ img/vdw/*.png
 /img/diel/*.png
 /img/asym/*.png
 /img/qc/*.png
+/data/qc/*.npy
+/img/small/*.png
+/img/small/sio2-f16-macro-esem.svg
+/img/qc/bias-effect..svg
+/img/small/gr-f16-macro-esem.svg
+/img/small/rama_1d.svg
+/img/small/raman_2d.svg
+/scripts/vdw/fig1/test.py
+/scripts/vdw/fig2/test.py
