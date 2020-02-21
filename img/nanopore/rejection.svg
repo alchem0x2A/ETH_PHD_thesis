@@ -15,7 +15,7 @@
    viewBox="0 0 160.00457 137.55684"
    version="1.1"
    id="svg10756"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="rejection.svg">
   <defs
      id="defs10750"
@@ -3708,8 +3708,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.4802857"
-     inkscape:cx="464.88256"
-     inkscape:cy="222.42763"
+     inkscape:cx="84.154234"
+     inkscape:cy="156.73762"
      inkscape:document-units="mm"
      inkscape:current-layer="layer6"
      showgrid="false"
@@ -3762,6 +3762,11 @@
        position="161.82243,-117.07133"
        orientation="0,1"
        id="guide10231"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.063083,45.768602"
+       orientation="0,1"
+       id="guide14453"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -5967,14 +5972,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.29836512px;line-height:125%;font-family:arial;-inkscape-font-specification:'arial Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14364782px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="11.684467"
-       y="121.42503"
+       x="23.375891"
+       y="114.50156"
        id="text5507"><tspan
          sodipodi:role="line"
          id="tspan5505"
-         x="11.684467"
-         y="121.42503"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.14364782px">PG membrane</tspan></text>
+         x="23.375891"
+         y="114.50156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.14364782px;stroke-linecap:butt;stroke-linejoin:round">PG membrane</tspan></text>
     <text
        id="text5787"
        y="94.054405"
@@ -5987,14 +5992,15 @@
          y="94.054405">$L$</tspan></text>
     <text
        id="text5801"
-       y="98.270622"
-       x="20.292467"
+       y="99.532585"
+       x="20.244188"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29838252px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14364782px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan10264"
-         x="20.292467"
-         y="98.270622">$2r_{\mathrm{PCTE}}$</tspan></text>
+         x="20.244188"
+         y="99.532585"
+         style="stroke-linecap:butt;stroke-linejoin:round">$2r_{\mathrm{PCTE}}$</tspan></text>
     <text
        id="text5809"
        y="5.7956204"
