@@ -80,7 +80,6 @@ def plot_idvd():
 
 # Plot Id-t cycles
 def plot_cycles():
-
     fig, axes = gridplots(2, 1, r=0.75, ratio=2, gridspec_kw=dict(hspace=0))
     filename = data_path / "IFET" / "IV_cycles.csv"
     data = np.genfromtxt(filename, delimiter=",",
