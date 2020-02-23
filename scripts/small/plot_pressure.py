@@ -274,6 +274,45 @@ def plot_exp():
     ax.plot(ratio[:, 0], ratio[:, 1], "s-")
     fig.savefig(img_path / "pressure-ratio.svg")
 
+def plot_iv_cycles():
+    import numpy
+    import matplotlib.pyplot as plt
+
+    IV_name = data_path / "pressure" / "pressure_IV4.csv"
+    IV_data = numpy.genfromtxt(IV_name,
+                               delimiter=",",
+                               skip_header=1)
+
+    delay = 7.45
+    # delay = 0
+
+    t = IV_data[:, 0] - delay
+    I = IV_data[:, 1]
+    I0 = I[0]
+
+    params = numpy.array([
+        [322.667 / 2, 377.8, 950.3],
+        [664.0 / 2, 280.14, 1029.3]]) * 2e-6
+
+    gamma = 0.485
+
+    p = [(1/item[1] + 1/item[2]) * gamma for item in params]
+
+    print(p[1] - p[0])
+
+
+    fig = plt.figure(figsize=(5, 2))
+    ax = fig.add_subplot(111)
+    ax.set_ylim(0.1, 15)
+    ax.set_xlim(0, 130)
+    ax.set_xlabel("$t$ (s)")
+    ax.set_ylabel("$I / I_0$")
+
+    ax.plot(t, I / I0, markersize=3)
+
+    fig.savefig(img_path / "plain_pressure_iv.svg")
+
+
 
 
 
@@ -283,6 +322,7 @@ def plot_exp():
 def plot_main():
     plot_model()
     plot_exp()
+    plot_iv_cycles()
 
 
 if __name__ == '__main__':
