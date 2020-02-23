@@ -70,8 +70,6 @@ def plot_idvd():
     for i in range(0, 10):
         Vd = np.abs(data[space * i + 1, -1])
         if Vd in Vds:
-            mm = minmax[Vds.index(Vd)]
-            print(Vd, mm)
             Vg = data[space * i: space * (i + 1), 0]
             Id = medfilt(np.abs(data[space * i : space * (i + 1), 1]))
             J = Id / 1e-3 / S
@@ -80,10 +78,48 @@ def plot_idvd():
 
     fig.savefig(img_path / "Id_scan.svg")
 
+# Plot Id-t cycles
+def plot_cycles():
+
+    fig, axes = gridplots(2, 1, r=0.75, ratio=2, gridspec_kw=dict(hspace=0))
+    filename = data_path / "IFET" / "IV_cycles.csv"
+    data = np.genfromtxt(filename, delimiter=",",
+                            skip_header=13)
+    cycles = data[:, -2]
+    cond = np.where(cycles >= 1)[0]
+    Vg = data[cond, 0]
+    Id = np.abs(data[cond, 1])
+    t = data[cond, 4]
+    t = t - t[0]
+
+    ax = axes[1]
+    ax.set_ylabel("$I_{\\mathrm{tot}}$ (A)")
+    ax.set_xlabel("$t$ (s)")
+    ax.set_yscale("log")
+    y = np.linspace(*ax.get_xlim(), 10)
+    xx, yy = np.meshgrid(y, t)
+    _, zz = np.meshgrid(y, Vg)
+    # pc = ax.pcolor(yy, xx, zz, alpha=0.8, vmax=100, vmin=-50)
+    ax.plot(t, Id, "-o", markersize=3, rasterized=True)
+    ax.set_ylim(8e-8, 1e-4)
+    # fig.colorbar(pc, ticks=[-50, 0, 50, 100])
+    ax = axes[0]
+    ax.set_ylabel("$V_{\\mathrm{G}}$ (V)")
+    ax.plot([], [])             # Just next cycler!
+    ax.plot(t, Vg, "-o", markersize=3, rasterized=True)
+    ax.set_xticks([])
+    ax.set_yticks([-50, 0, 50, 100])
+    # ax.set_ylim(8e-8, 1e-4)
+    # fig.colorbar(pc, ticks=[-50, 0, 50, 100])
+    fig.savefig(img_path / "cycles_IFET.svg")
+
+    
+
 
 def plot_main():
     plot_idvg()
     plot_idvd()
+    plot_cycles()
 
 
 if __name__ == '__main__':
