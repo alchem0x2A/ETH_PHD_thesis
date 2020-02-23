@@ -179,7 +179,6 @@ def plot_model():
 
     print(V0 / 1e-9)
 
-    plt.style.use("science")
     # fig = plt.figure(figsize=(3, 6))
     fig, (ax1, ax2) = plt.subplots(1, 2, sharex=False,
                                    figsize=(4, 2.5))
@@ -226,7 +225,6 @@ def plot_exp():
     from dill import load
     import numpy
 
-    plt.style.use("science")
     file_name = data_path / "pressure" / "pressure_6.csv"
     fil, mm = load(open(data_path / "pressure" / "fil.dil", "rb"))
 
